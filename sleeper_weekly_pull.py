@@ -32,7 +32,9 @@ BASE = "https://api.sleeper.app"
 FANTASY_POS = ["QB", "RB", "WR", "TE", "DEF"]
 WAIVER_TOP_N = 25          # per position in the ranked waiver list
 TRENDING_LOOKBACK_H = 72   # Sun night -> Wed morning covers post-game adds
-VERSION = "1.0"
+VERSION = "1.1"
+# Sleeper's displayed projections ignore projected return TDs; verified against the week 1 Sleeper UI (v1.1)
+PROJ_EXCLUDE = {"pr_td", "kr_td"}
 
 
 # ---------------------------------------------------------------- HTTP
@@ -51,12 +53,12 @@ def get(path, retries=4):
 
 
 # ---------------------------------------------------------------- scoring
-def league_points(stats, scoring):
+def league_points(stats, scoring, exclude=()):
     """Sum stat * scoring weight for every key present in both. None if no stats."""
     if not stats:
         return None
     return round(sum(float(v) * scoring[k] for k, v in stats.items()
-                     if k in scoring and isinstance(v, (int, float))), 2)
+                     if k in scoring and k not in exclude and isinstance(v, (int, float))), 2)
 
 
 def stat_map(rows):
@@ -144,7 +146,7 @@ def main():
 
     def proj_pts(pid, table):
         row = table.get(pid)
-        return league_points(row.get("stats"), scoring) if row else None
+        return league_points(row.get("stats"), scoring, PROJ_EXCLUDE) if row else None
 
     league_week = []
     for m in matchups:
@@ -193,7 +195,7 @@ def main():
     def next_row(pid, slot):
         info = player_info(pid, players)
         row = proj_next.get(pid) or {}
-        info.update({"slot": slot, "projected": league_points(row.get("stats"), scoring),
+        info.update({"slot": slot, "projected": league_points(row.get("stats"), scoring, PROJ_EXCLUDE),
                      "opponent": row.get("opponent"),
                      "on_bye": bool(proj_next) and pid not in proj_next})  # no projection row = bye or ruled out
         return info
@@ -232,7 +234,7 @@ def main():
             continue
         last = stats_done.get(pid)
         info.update({
-            "proj_next_week": league_points((proj_next.get(pid) or {}).get("stats"), scoring),
+            "proj_next_week": league_points((proj_next.get(pid) or {}).get("stats"), scoring, PROJ_EXCLUDE),
             "opponent_next_week": (proj_next.get(pid) or {}).get("opponent"),
             f"actual_week_{completed}": league_points(last.get("stats"), scoring) if last else None,
             f"projected_week_{completed}": proj_pts(pid, proj_done),
