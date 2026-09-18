@@ -1,15 +1,15 @@
 [
  {
   "id": "record",
-  "status": "info",
+  "status": "ok",
   "title": "Record field (the 2-0 after one week)",
-  "finding": "latest.json shows 2-0 with 1 week complete. Most likely explanation [Likely]: the league plays a second game each week against the league median. Week 1 median was 107.275; you scored 111.26, above it, and you beat your head-to-head opponent, which is exactly 2-0. The v1.2 pull reads the league setting (league_average_match) and sums every roster's wins to confirm this on its first run."
+  "finding": "median game ON: each team plays its opponent and the league median every week. League setting league_average_match = 1; wins across all rosters = 12 after 1 week(s) (head-to-head only would give 6, with a median game 12)."
  },
  {
   "id": "def_bias",
-  "status": "warn",
+  "status": "info",
   "title": "DEF projection bias (Sleeper omits 3-and-outs and 4th-down stops)",
-  "finding": "Week 1, the 12 defenses that were started: actual minus projected averaged +0.20 with a spread (SD) of 5.6, so n=12 cannot confirm or refute a small bias. Structural estimate [Likely]: 2025 three-and-out rates in the DEF rankings average 2.08 per game, worth about 1.04 points at +0.5 each, plus 4th-down stops at +1 (rate not in the reference file). Expect DEF projections to run roughly 1.5 to 2.5 points low. The v1.2 pull stores the actual 3-and-out and 4th-down-stop counts for all 32 defenses every week, so this becomes a measured number from the first run."
+  "finding": "Week 1: across 32 defenses, actual minus projected averaged +0.63 (MAE 4.8). Points from the two unprojected categories averaged 1.56 per defense, which is the structural part of the bias. Among the 12 defenses actually started, bias was 0.2."
  },
  {
   "id": "coach_continuity",
@@ -21,13 +21,13 @@
   "id": "rankings_join",
   "status": "ok",
   "title": "Rankings CSV joins to Sleeper on sleeper_id",
-  "finding": "12 of 12 of your skill players found in player_rankings_v2.0 by sleeper_id."
+  "finding": "13 of 13 of your skill players found in player_rankings_v2.0 by sleeper_id."
  },
  {
   "id": "week_detection",
   "status": "info",
   "title": "Completed-week detection",
-  "finding": "Method: v1.1 rule (matchups have points). Completed 1, upcoming 2. v1.2 uses game dates from the projection rows, which stays correct on Friday through Monday when the v1.1 rule would flip early."
+  "finding": "Method: projection game dates. Completed 1, upcoming 2. v1.2 uses game dates from the projection rows, which stays correct on Friday through Monday when the v1.1 rule would flip early."
  },
  {
   "id": "proj_exclude",
@@ -39,6 +39,6 @@
   "id": "ages",
   "status": "info",
   "title": "Input ages at build time",
-  "finding": "weekly pull 40.7h"
+  "finding": "weekly pull 0.0h, injury table 0.0h, players cache 0.0h, newest snapshot 0.0h (week 2)"
  }
 ]

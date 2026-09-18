@@ -1,19 +1,235 @@
 {
- "generated_at_utc": "2026-09-18T16:41:19Z",
- "weeks": [],
+ "generated_at_utc": "2026-09-18T17:16:50Z",
+ "weeks": [
+  {
+   "week": 1,
+   "started": {
+    "sleeper": {
+     "n": 96,
+     "mae": 7.18,
+     "bias": 0.63,
+     "spearman": 0.477
+    },
+    "preseason": {
+     "n": 95,
+     "mae": 7.21,
+     "bias": 1.62,
+     "spearman": 0.407
+    },
+    "naive": {
+     "n": 0,
+     "mae": null,
+     "bias": null,
+     "spearman": null
+    },
+    "n_players": 96,
+    "sleeper_from_snapshot": 0
+   },
+   "rostered": {
+    "sleeper": {
+     "n": 172,
+     "mae": 5.84,
+     "bias": 0.33,
+     "spearman": 0.573
+    },
+    "preseason": {
+     "n": 169,
+     "mae": 6.36,
+     "bias": 0.4,
+     "spearman": 0.434
+    },
+    "naive": {
+     "n": 0,
+     "mae": null,
+     "bias": null,
+     "spearman": null
+    },
+    "n_players": 172,
+    "sleeper_from_snapshot": 0
+   },
+   "lineups": {
+    "sleeper": {
+     "n_teams": 12,
+     "avg_points": 107.19,
+     "pct_of_optimal": 85.3,
+     "vs_manager": -1.66,
+     "beat_manager": 1
+    },
+    "preseason": {
+     "n_teams": 12,
+     "avg_points": 105.51,
+     "pct_of_optimal": 84.0,
+     "vs_manager": -3.34,
+     "beat_manager": 5
+    },
+    "naive": null,
+    "manager": {
+     "avg_points": 108.85,
+     "pct_of_optimal": 86.7
+    }
+   },
+   "lineup_rows": [
+    {
+     "roster_id": 1,
+     "team": "tacocats",
+     "is_mine": false,
+     "actual": 95.3,
+     "optimal": 95.6,
+     "sleeper": 95.2,
+     "preseason": 84.5,
+     "naive": null
+    },
+    {
+     "roster_id": 2,
+     "team": "Amateur Hour",
+     "is_mine": false,
+     "actual": 59.72,
+     "optimal": 68.02,
+     "sleeper": 59.72,
+     "preseason": 53.52,
+     "naive": null
+    },
+    {
+     "roster_id": 3,
+     "team": "Be Safe, Get Jaxcinated",
+     "is_mine": false,
+     "actual": 151.06,
+     "optimal": 151.76,
+     "sleeper": 150.56,
+     "preseason": 151.76,
+     "naive": null
+    },
+    {
+     "roster_id": 4,
+     "team": "City of Champyinz",
+     "is_mine": false,
+     "actual": 84.46,
+     "optimal": 96.16,
+     "sleeper": 87.16,
+     "preseason": 87.16,
+     "naive": null
+    },
+    {
+     "roster_id": 5,
+     "team": "Eazy E Squad",
+     "is_mine": false,
+     "actual": 122.3,
+     "optimal": 156.1,
+     "sleeper": 122.3,
+     "preseason": 126.1,
+     "naive": null
+    },
+    {
+     "roster_id": 6,
+     "team": "ScampDaddy",
+     "is_mine": false,
+     "actual": 100.22,
+     "optimal": 122.12,
+     "sleeper": 99.72,
+     "preseason": 99.72,
+     "naive": null
+    },
+    {
+     "roster_id": 7,
+     "team": "Cheeky Nando\u2019s",
+     "is_mine": false,
+     "actual": 107.96,
+     "optimal": 116.46,
+     "sleeper": 105.36,
+     "preseason": 95.96,
+     "naive": null
+    },
+    {
+     "roster_id": 8,
+     "team": "ValKilmersComeback",
+     "is_mine": true,
+     "actual": 111.26,
+     "optimal": 135.46,
+     "sleeper": 103.76,
+     "preseason": 111.26,
+     "naive": null
+    },
+    {
+     "roster_id": 9,
+     "team": "Girthenheimer",
+     "is_mine": false,
+     "actual": 145.36,
+     "optimal": 156.76,
+     "sleeper": 145.36,
+     "preseason": 126.71,
+     "naive": null
+    },
+    {
+     "roster_id": 10,
+     "team": "Derrelick my Balls",
+     "is_mine": false,
+     "actual": 106.59,
+     "optimal": 145.81,
+     "sleeper": 98.64,
+     "preseason": 124.41,
+     "naive": null
+    },
+    {
+     "roster_id": 11,
+     "team": "RafiBomb",
+     "is_mine": false,
+     "actual": 93.45,
+     "optimal": 120.05,
+     "sleeper": 93.45,
+     "preseason": 75.5,
+     "naive": null
+    },
+    {
+     "roster_id": 12,
+     "team": "Baker\u2019s Dozen",
+     "is_mine": false,
+     "actual": 128.5,
+     "optimal": 143.04,
+     "sleeper": 125.04,
+     "preseason": 129.54,
+     "naive": null
+    }
+   ],
+   "mine": {
+    "roster_id": 8,
+    "team": "ValKilmersComeback",
+    "is_mine": true,
+    "actual": 111.26,
+    "optimal": 135.46,
+    "sleeper": 103.76,
+    "preseason": 111.26,
+    "naive": null
+   },
+   "def_bias": {
+    "n": 32,
+    "bias": 0.63,
+    "mae": 4.8,
+    "unprojected_pts": 1.56,
+    "note": "unprojected_pts = points from 3-and-outs and 4th-down stops, which Sleeper scores but never projects",
+    "started_n": 12,
+    "started_bias": 0.2
+   },
+   "coverage": {
+    "starters_with_snapshot": 0,
+    "starters": 96,
+    "posthoc_drift_mae": null,
+    "posthoc_drift_n": 0
+   }
+  }
+ ],
  "pooled": {
   "started": {
    "sleeper": {
-    "n": 0,
-    "mae": null,
-    "bias": null,
-    "weeks": 0
+    "n": 96,
+    "mae": 7.18,
+    "bias": 0.63,
+    "weeks": 1
    },
    "preseason": {
-    "n": 0,
-    "mae": null,
-    "bias": null,
-    "weeks": 0
+    "n": 95,
+    "mae": 7.21,
+    "bias": 1.62,
+    "weeks": 1
    },
    "naive": {
     "n": 0,
@@ -24,16 +240,16 @@
   },
   "rostered": {
    "sleeper": {
-    "n": 0,
-    "mae": null,
-    "bias": null,
-    "weeks": 0
+    "n": 172,
+    "mae": 5.84,
+    "bias": 0.33,
+    "weeks": 1
    },
    "preseason": {
-    "n": 0,
-    "mae": null,
-    "bias": null,
-    "weeks": 0
+    "n": 169,
+    "mae": 6.36,
+    "bias": 0.4,
+    "weeks": 1
    },
    "naive": {
     "n": 0,
@@ -42,33 +258,31 @@
     "weeks": 0
    }
   },
-  "lineups": {}
- },
- "fallback": {
-  "week": 1,
-  "n": 14,
-  "scope": "your roster only (v1.1 pull)",
-  "sleeper": {
-   "n": 14,
-   "mae": 7.42,
-   "bias": -0.05,
-   "spearman": 0.183
-  },
-  "preseason": {
-   "n": 14,
-   "mae": 7.67,
-   "bias": -1.5,
-   "spearman": 0.147
-  },
-  "naive": {
-   "n": 0,
-   "mae": null,
-   "bias": null,
-   "spearman": null
+  "lineups": {
+   "sleeper": {
+    "weeks": 1,
+    "avg_points": 107.19,
+    "pct_of_optimal": 85.3,
+    "vs_manager": -1.66
+   },
+   "preseason": {
+    "weeks": 1,
+    "avg_points": 105.51,
+    "pct_of_optimal": 84.0,
+    "vs_manager": -3.34
+   },
+   "manager": {
+    "weeks": 1,
+    "avg_points": 108.85,
+    "pct_of_optimal": 86.7,
+    "vs_manager": null
+   }
   }
  },
+ "fallback": null,
  "honesty": [
-  "n = 0 completed weeks. Nothing here is a finding yet. The job of this page is to accumulate; treat differences between baselines as noise until 6+ weeks.",
+  "n = 1 completed week. Nothing here is a finding yet. The job of this page is to accumulate; treat differences between baselines as noise until 6+ weeks.",
+  "Week 1 has no pre-kickoff snapshot (the snapshot job did not exist yet), so its Sleeper baseline is the post-hoc value stored by the Wednesday pull. From week 2 the post-hoc drift metric tells us how much that matters.",
   "The naive baseline (start the highest season-average scorer) is undefined in week 1 and thin until week 4."
  ],
  "baselines": {

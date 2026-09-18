@@ -1,0 +1,16 @@
+{
+ "snapshots": [
+  {
+   "season": "2026",
+   "week": 2,
+   "taken_at_utc": "2026-09-18T17:16:49Z",
+   "taken_at_central": "2026-09-18T12:16:49-05:00",
+   "label": "fri_late_am",
+   "n_players": 3148,
+   "n_teams_started": 2,
+   "n_players_pre_kickoff": 3102,
+   "nfl_state_week": 2,
+   "path": "data/snapshots/2026/week02/snap_2026-09-18T1716Z.json"
+  }
+ ]
+}
