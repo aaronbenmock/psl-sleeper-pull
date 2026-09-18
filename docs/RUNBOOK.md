@@ -62,6 +62,12 @@ Actions tab, "PSL fantasy engine", "Run workflow". Tasks: `full` (everything), `
 `injuries`, `snapshot`, `build`, `synthesis`, `auto`. `pull` accepts an override for the
 completed week number.
 
+Local only, never scheduled: `python engine.py histbacktest` runs the historical backtest on
+nflverse data (downloads about 240 MB into `data/history/` the first time, gitignored, then about
+25 seconds per run) and rebuilds the dashboard so the Backtest tab shows the result. Add
+`--no-download` to use the cache only and `--no-build` to skip the dashboard. Tests:
+`python -m unittest tests.test_histbacktest -v`. See docs/METHOD.md section 9.
+
 ## Costs and limits
 
 - GitHub Actions: free for public repos. About 22 runs a week, each about a minute.

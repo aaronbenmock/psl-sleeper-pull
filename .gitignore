@@ -1,3 +1,9 @@
 .claude/
 __pycache__/
 *.pyc
+
+# historical nflverse cache (about 220 MB); manifest.json is committed, raw files are not
+data/history/*.csv
+data/history/*.csv.gz
+data/history/*.part
+data/history/derived/

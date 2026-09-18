@@ -26,7 +26,9 @@ cannot make the Sunday snapshot land after kickoff. Details: `docs/RUNBOOK.md`.
 
 | Path | Contents |
 |---|---|
-| `engine.py` | Single entry point: `pull`, `injuries`, `snapshot`, `build`, `auto`, `synthesis`, `full`, `selftest` |
+| `engine.py` | Single entry point: `pull`, `injuries`, `snapshot`, `build`, `auto`, `synthesis`, `full`, `selftest`, `histbacktest` (offline historical backtest, see docs/METHOD.md section 9) |
+| `data/history/` | nflverse cache for the historical backtest (gitignored, about 240 MB); `manifest.json` is committed and lists every file's URL, sha256, rows and columns |
+| `tests/` | `python -m unittest tests.test_histbacktest -v`: scoring hand checks, the week-1 gate, leakage and determinism |
 | `engine/` | The code (stdlib-only Python, no packages to install) |
 | `reference/` | Preseason rankings v2.0, team defense rankings, 2026 schedule, week 1 Sleeper UI export |
 | `data/latest.json`, `data/latest.md` | The weekly pull, same shape as v1.1 plus validation fields |
@@ -43,6 +45,8 @@ cannot make the Sunday snapshot land after kickoff. Details: `docs/RUNBOOK.md`.
 | `tools/make_fixtures.py` | Builds fake Sleeper responses so the engine can be tested where the API is blocked |
 
 ## How to read the dashboard
+
+The page is split into tabs (Lineup, Waivers, League, News and injuries, Accuracy, Backtest). Every tab's content is in the HTML on load; the script only hides the others. Bookmark a tab with its hash, for example `#tab-waivers`; the old section anchors (`#keepers`, `#snapshots`, `#validation`) still open the right tab. "Show everything" expands all tabs on one page. Opening the bare URL lands on Waivers on Wednesdays and Lineup on every other day. Dark mode follows the phone's setting.
 
 The green box at the top is the data age. It turns amber past about 16 hours and red past 26
 hours, and a red banner appears. Because a job runs every day, a red banner means a scheduled

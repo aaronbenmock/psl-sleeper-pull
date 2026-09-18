@@ -129,3 +129,39 @@ The page stores its build time. A script compares it with the clock on every vie
 Matchup strength (opponent defense vs position), weather, Vegas totals, snap and target shares,
 coordinator changes, and any calibration of the constants above. See the forecasting proposal in
 the Fantasy-Football folder for what each would be worth and what it would cost.
+
+## 9. Historical backtest harness (offline, never scheduled)
+
+`python engine.py histbacktest` replays ten seasons of public nflverse data (2015 to 2025) under
+this league's scoring and answers the questions the in-season backtest (section 6, `backtest.py`)
+will never have the sample size for. It runs beside the live pipeline, writes only
+`data/derived/hist_backtest.json` and `.md` (shown on the dashboard's Backtest tab) and never
+touches the Sleeper API or the files the scheduled jobs write. It is stdlib-only like the rest of
+`engine/`; no separate `tools/` requirements were needed.
+
+- **Data** (`engine/history.py`): nflverse weekly player stats and play-by-play per season, cached
+  in `data/history/` (about 240 MB, gitignored) with a committed manifest of URL, timestamp, sha256,
+  size, rows and columns. 2014 is loaded only as the prior for 2015; 2026 only for the scoring check.
+- **Scoring** (`analysis/psl_scoring.py`, `analysis/pbp.py`): every one of the 88 settings is read
+  from `league.json`. Offense comes from the weekly file plus play-by-play for 40-plus-yard TD
+  bonuses and red-zone touches; defense comes entirely from play-by-play, including three-and-outs
+  (drives that ended in a punt with no first down) and fourth-down stops. Gate: week 1 of 2026 must
+  reproduce Sleeper's points within 0.1 for every offensive player before any model runs. It does,
+  to the cent, for 357 players and all 32 defenses. Three facts learned from the gate: yardage
+  bonuses are tiers, not stacks; DEF points allowed exclude the opponent's own defensive TDs; DEF
+  tackles-for-loss are the sum of individual credits.
+- **Point-in-time replay** (`analysis/histmodels.py`): a prediction for week N reads only weeks
+  before N of that season plus completed prior seasons. A leakage test corrupts every week after
+  week 9 with absurd values and asserts byte-identical predictions for weeks 2 to 9.
+- **Selection discipline**: fit 2015 to 2019, select 2020 to 2024, report on held-out 2025 only,
+  with a week-level paired bootstrap. 36 configurations tried.
+- **Lineup metric**: a simulated 12-team league with this league's slots, fixed rosters drafted
+  from prior-season points per game, each model setting each lineup each week, scored with real
+  points against the hindsight-optimal lineup.
+- **Findings** are in `Fantasy-Football/Backtest-Findings_v1.0_2026-09-18.md`. The headline: the
+  engine's k=4 baseline half beats the plain season average by about 1.1 lineup points per
+  team-week (interval excludes zero); nothing tried beats k=4 on lineup points with confidence; a
+  rolling 3-week average is measurably worse; the one supported change is a half-strength opponent
+  adjustment at DEF.
+- **What it cannot do**: tune `w`, the weight on Sleeper's number, because no archive of Sleeper's
+  weekly projections exists. It tunes only the baseline half that Sleeper is blended against.

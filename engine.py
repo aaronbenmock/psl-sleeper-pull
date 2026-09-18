@@ -9,6 +9,9 @@
   python engine.py synthesis   optional news synthesis via the Anthropic API (needs ANTHROPIC_API_KEY)
   python engine.py full        pull + injuries + snapshot + build (first run after a push)
   python engine.py backtest    same as build (the backtest runs inside every build); prints its verdict
+  python engine.py histbacktest  historical backtest on nflverse 2014-2025 (downloads about 240 MB to
+                               data/history/ on first run, gitignored); writes data/derived/hist_backtest.*
+                               and then rebuilds the dashboard so the Backtest tab shows it. Never scheduled.
 
 Every task ends with `build`, so the dashboard always reflects the latest successful run and
 records the failure of any task in data/status.json (the dashboard shows it).
@@ -65,6 +68,11 @@ def task_build(args):
     return _run_task("build", build.run)
 
 
+def task_histbacktest(args):
+    from engine.analysis import histbacktest
+    return _run_task("histbacktest", histbacktest.run, download=not args.no_download)
+
+
 def decide_auto():
     """Map the current Central time onto the intended task. Returns list of task names."""
     local = now_central()
@@ -81,7 +89,8 @@ def decide_auto():
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("task", choices=["pull", "injuries", "snapshot", "build", "auto", "synthesis", "full", "selftest", "backtest"])
+    ap.add_argument("task", choices=["pull", "injuries", "snapshot", "build", "auto", "synthesis", "full", "selftest", "backtest", "histbacktest"])
+    ap.add_argument("--no-download", action="store_true", help="histbacktest: use only the cached data/history files")
     ap.add_argument("--completed-week", type=int)
     ap.add_argument("--week", type=int)
     ap.add_argument("--no-build", action="store_true")
@@ -118,6 +127,8 @@ def main():
         ok = task_snapshot(args)
     elif args.task == "synthesis":
         ok = task_synthesis(args)
+    elif args.task == "histbacktest":
+        ok = task_histbacktest(args)
 
     if not args.no_build:
         built = task_build(args)
