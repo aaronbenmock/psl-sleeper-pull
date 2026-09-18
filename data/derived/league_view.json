@@ -41,7 +41,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 113.37,
+   "proj_next": 114.01,
    "future_opps": [
     7,
     1,
@@ -99,7 +99,7 @@
    "trend": null,
    "trend_label": "n/a (1 week)",
    "sos_remaining": 104.66,
-   "power": 136.0,
+   "power": 136.2,
    "power_rank": 1,
    "pf_rank": 1
   },
@@ -138,7 +138,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 99.61,
+   "proj_next": 100.0,
    "future_opps": [
     6,
     12,
@@ -196,7 +196,7 @@
    "trend": null,
    "trend_label": "n/a (1 week)",
    "sos_remaining": 108.41,
-   "power": 127.1,
+   "power": 127.2,
    "power_rank": 2,
    "pf_rank": 2
   },
@@ -228,7 +228,7 @@
    "efficiency": 0.9,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 102.72,
+   "proj_next": 102.69,
    "future_opps": [
     5,
     9,
@@ -318,7 +318,7 @@
    "efficiency": 0.78,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 106.26,
+   "proj_next": 106.62,
    "future_opps": [
     12,
     4,
@@ -376,7 +376,7 @@
    "trend": null,
    "trend_label": "n/a (1 week)",
    "sos_remaining": 109.47,
-   "power": 115.9,
+   "power": 116.0,
    "power_rank": 4,
    "pf_rank": 4
   },
@@ -421,7 +421,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 104.62,
+   "proj_next": 104.92,
    "future_opps": [
     3,
     6,
@@ -479,7 +479,7 @@
    "trend": null,
    "trend_label": "n/a (1 week)",
    "sos_remaining": 106.91,
-   "power": 106.6,
+   "power": 106.7,
    "power_rank": 5,
    "pf_rank": 6
   },
@@ -511,7 +511,7 @@
    "efficiency": 0.82,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 94.43,
+   "proj_next": 95.76,
    "future_opps": [
     2,
     11,
@@ -569,7 +569,7 @@
    "trend": null,
    "trend_label": "n/a (1 week)",
    "sos_remaining": 108.5,
-   "power": 104.5,
+   "power": 105.1,
    "power_rank": 6,
    "pf_rank": 5
   },
@@ -601,7 +601,7 @@
    "efficiency": 0.82,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 109.42,
+   "proj_next": 109.93,
    "future_opps": [
     9,
     7,
@@ -659,7 +659,7 @@
    "trend": null,
    "trend_label": "n/a (1 week)",
    "sos_remaining": 111.18,
-   "power": 103.9,
+   "power": 104.1,
    "power_rank": 7,
    "pf_rank": 8
   },
@@ -695,16 +695,10 @@
      "pos": "RB",
      "status": "Questionable",
      "body": "Hamstring"
-    },
-    {
-     "name": "Nico Collins",
-     "pos": "WR",
-     "status": "Questionable",
-     "body": "Hamstring"
     }
    ],
    "byes_next": [],
-   "proj_next": 93.86,
+   "proj_next": 93.63,
    "future_opps": [
     1,
     2,
@@ -739,15 +733,15 @@
      "pos": "RB"
     },
     {
-     "name": "Nico Collins",
-     "pos": "WR"
-    },
-    {
      "name": "Garrett Wilson",
      "pos": "WR"
     },
     {
      "name": "Rashee Rice",
+     "pos": "WR"
+    },
+    {
+     "name": "Terry McLaurin",
      "pos": "WR"
     },
     {
@@ -762,112 +756,9 @@
    "trend": null,
    "trend_label": "n/a (1 week)",
    "sos_remaining": 106.82,
-   "power": 101.5,
+   "power": 101.4,
    "power_rank": 8,
    "pf_rank": 7
-  },
-  {
-   "roster_id": 1,
-   "team": "tacocats",
-   "manager": "ben_g",
-   "is_mine": false,
-   "wins": 0,
-   "losses": 2,
-   "ties": 0,
-   "h2h": "0-1",
-   "median": "0-1",
-   "allplay": "3-8",
-   "allplay_pct": 0.273,
-   "scores": [
-    95.3
-   ],
-   "avg": 95.3,
-   "last": 95.3,
-   "pf": 95.3,
-   "proj_totals": [
-    98.39
-   ],
-   "vs_proj": -3.09,
-   "bench_left": [
-    0.3
-   ],
-   "efficiency": 1.0,
-   "injured_starters": [
-    {
-     "name": "Ladd McConkey",
-     "pos": "WR",
-     "status": "Questionable",
-     "body": "Chest"
-    },
-    {
-     "name": "George Kittle",
-     "pos": "TE",
-     "status": "Questionable",
-     "body": "Achilles"
-    }
-   ],
-   "byes_next": [],
-   "proj_next": 104.53,
-   "future_opps": [
-    10,
-    3,
-    7,
-    2,
-    11,
-    5,
-    9,
-    6,
-    12,
-    4,
-    8,
-    10,
-    3,
-    7,
-    2,
-    11,
-    5
-   ],
-   "faab_used": 41,
-   "starters_now": [
-    {
-     "name": "Brock Purdy",
-     "pos": "QB"
-    },
-    {
-     "name": "Jahmyr Gibbs",
-     "pos": "RB"
-    },
-    {
-     "name": "Quinshon Judkins",
-     "pos": "RB"
-    },
-    {
-     "name": "Luther Burden",
-     "pos": "WR"
-    },
-    {
-     "name": "Rashod Bateman",
-     "pos": "WR"
-    },
-    {
-     "name": "Ladd McConkey",
-     "pos": "WR"
-    },
-    {
-     "name": "George Kittle",
-     "pos": "TE"
-    },
-    {
-     "name": "SF DEF",
-     "pos": "DEF"
-    }
-   ],
-   "trend": null,
-   "trend_label": "n/a (1 week)",
-   "sos_remaining": 108.94,
-   "power": 99.0,
-   "power_rank": 9,
-   "pf_rank": 9
   },
   {
    "roster_id": 11,
@@ -897,7 +788,7 @@
    "efficiency": 0.78,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 106.3,
+   "proj_next": 108.09,
    "future_opps": [
     4,
     8,
@@ -955,9 +846,112 @@
    "trend": null,
    "trend_label": "n/a (1 week)",
    "sos_remaining": 107.12,
-   "power": 98.6,
-   "power_rank": 10,
+   "power": 99.3,
+   "power_rank": 9,
    "pf_rank": 10
+  },
+  {
+   "roster_id": 1,
+   "team": "tacocats",
+   "manager": "ben_g",
+   "is_mine": false,
+   "wins": 0,
+   "losses": 2,
+   "ties": 0,
+   "h2h": "0-1",
+   "median": "0-1",
+   "allplay": "3-8",
+   "allplay_pct": 0.273,
+   "scores": [
+    95.3
+   ],
+   "avg": 95.3,
+   "last": 95.3,
+   "pf": 95.3,
+   "proj_totals": [
+    98.39
+   ],
+   "vs_proj": -3.09,
+   "bench_left": [
+    0.3
+   ],
+   "efficiency": 1.0,
+   "injured_starters": [
+    {
+     "name": "Ladd McConkey",
+     "pos": "WR",
+     "status": "Questionable",
+     "body": "Chest"
+    },
+    {
+     "name": "George Kittle",
+     "pos": "TE",
+     "status": "Questionable",
+     "body": "Achilles"
+    }
+   ],
+   "byes_next": [],
+   "proj_next": 105.16,
+   "future_opps": [
+    10,
+    3,
+    7,
+    2,
+    11,
+    5,
+    9,
+    6,
+    12,
+    4,
+    8,
+    10,
+    3,
+    7,
+    2,
+    11,
+    5
+   ],
+   "faab_used": 41,
+   "starters_now": [
+    {
+     "name": "Brock Purdy",
+     "pos": "QB"
+    },
+    {
+     "name": "Jahmyr Gibbs",
+     "pos": "RB"
+    },
+    {
+     "name": "Quinshon Judkins",
+     "pos": "RB"
+    },
+    {
+     "name": "Luther Burden",
+     "pos": "WR"
+    },
+    {
+     "name": "Rashod Bateman",
+     "pos": "WR"
+    },
+    {
+     "name": "Ladd McConkey",
+     "pos": "WR"
+    },
+    {
+     "name": "George Kittle",
+     "pos": "TE"
+    },
+    {
+     "name": "SF DEF",
+     "pos": "DEF"
+    }
+   ],
+   "trend": null,
+   "trend_label": "n/a (1 week)",
+   "sos_remaining": 108.94,
+   "power": 99.2,
+   "power_rank": 10,
+   "pf_rank": 9
   },
   {
    "roster_id": 4,
@@ -987,7 +981,7 @@
    "efficiency": 0.88,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 95.54,
+   "proj_next": 96.09,
    "future_opps": [
     11,
     5,
@@ -1045,7 +1039,7 @@
    "trend": null,
    "trend_label": "n/a (1 week)",
    "sos_remaining": 112.91,
-   "power": 88.9,
+   "power": 89.1,
    "power_rank": 11,
    "pf_rank": 11
   },
@@ -1144,12 +1138,6 @@
    "text": "Cheeky Nando\u2019s has 2 of 8 starters carrying injury tags: Joe Burrow Questionable (Back), D'Andre Swift Questionable (Knee)."
   },
   {
-   "team": "Derrelick my Balls",
-   "kind": "injured_starters",
-   "severity": "medium",
-   "text": "Derrelick my Balls has 2 of 8 starters carrying injury tags: RJ Harvey Questionable (Hamstring), Nico Collins Questionable (Hamstring)."
-  },
-  {
    "team": "tacocats",
    "kind": "injured_starters",
    "severity": "medium",
@@ -1178,12 +1166,6 @@
    "kind": "trade_fit",
    "severity": "info",
    "text": "City of Champyinz starts Romeo Doubs (WR) at a projected 7.5; you carry 7 WRs. Possible trade partner (deadline week 12)."
-  },
-  {
-   "team": "tacocats",
-   "kind": "trade_fit",
-   "severity": "info",
-   "text": "tacocats starts Rashod Bateman (WR) at a projected 7.0; you carry 7 WRs. Possible trade partner (deadline week 12)."
   }
  ],
  "notes": [
@@ -1192,7 +1174,7 @@
  ],
  "projection_source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-09-18T17:16:49Z",
-  "label": "fri_late_am"
+  "taken_at_utc": "2026-09-18T21:57:27Z",
+  "label": "fri_pm"
  }
 }

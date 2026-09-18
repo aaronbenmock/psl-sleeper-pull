@@ -1,6 +1,6 @@
 {
  "date_central": "2026-09-18",
- "pulled_at_utc": "2026-09-18T17:16:49Z",
+ "pulled_at_utc": "2026-09-18T21:57:27Z",
  "compared_to": null,
  "n_changes": 28,
  "n_mine": 3,
@@ -205,7 +205,7 @@
    "roster_id": 10,
    "team_name": "Derrelick my Balls",
    "is_mine": false,
-   "slot": "WR",
+   "slot": "BN",
    "kind": "new_on_roster",
    "fields": {}
   },
@@ -277,7 +277,7 @@
    "roster_id": 9,
    "team_name": "Girthenheimer",
    "is_mine": false,
-   "slot": "BN",
+   "slot": "IR",
    "kind": "new_on_roster",
    "fields": {}
   },
