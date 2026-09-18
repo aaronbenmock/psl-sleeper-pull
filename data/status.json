@@ -1,0 +1,30 @@
+{
+ "tasks": {
+  "build": {
+   "task": "build",
+   "ok": true,
+   "summary": "index.html + reports/2026/week02.html; lineup changes 0, claims 3, signals 0, accuracy weeks 0",
+   "started_utc": "2026-09-18T16:41:19Z",
+   "finished_utc": "2026-09-18T16:41:19Z",
+   "error": null
+  }
+ },
+ "runs": [
+  {
+   "task": "build",
+   "ok": true,
+   "summary": "index.html + reports/2026/week02.html; lineup changes 0, claims 3, signals 0, accuracy weeks 0",
+   "started_utc": "2026-09-18T16:41:19Z",
+   "finished_utc": "2026-09-18T16:41:19Z",
+   "error": null
+  }
+ ],
+ "last_run": {
+  "task": "build",
+  "ok": true,
+  "summary": "index.html + reports/2026/week02.html; lineup changes 0, claims 3, signals 0, accuracy weeks 0",
+  "started_utc": "2026-09-18T16:41:19Z",
+  "finished_utc": "2026-09-18T16:41:19Z",
+  "error": null
+ }
+}

@@ -1,0 +1,23 @@
+{
+  "note": "Aaron's 2026 draft picks (from the project export, confirmed 2026-09-08). Slot 3 of 12, 14 rounds. Keeper cost rule is NOT in any record; see keeper_cost_rule.",
+  "keeper_cost_rule": "same_round_as_drafted",
+  "keeper_cost_rule_note": "[Guessing] Josh Allen was kept at pick 2.10 in 2026. Whether a keeper costs the round he was drafted, one round earlier, or something else is not recorded. Undrafted (waiver) players are assumed to cost round 14. Change the rule here once known.",
+  "undrafted_cost_round": 14,
+  "max_keepers": 2,
+  "picks": {
+    "6813": {"name": "Jonathan Taylor", "round": 1, "pick": "1.3"},
+    "4984": {"name": "Josh Allen", "round": 2, "pick": "2.10", "kept_2026": true},
+    "2133": {"name": "Davante Adams", "round": 3, "pick": "3.3"},
+    "7021": {"name": "Rico Dowdle", "round": 4, "pick": "4.10"},
+    "5045": {"name": "Courtland Sutton", "round": 5, "pick": "5.3"},
+    "5872": {"name": "Deebo Samuel", "round": 6, "pick": "6.10"},
+    "5846": {"name": "DK Metcalf", "round": 7, "pick": "7.3"},
+    "SEA": {"name": "Seattle DEF", "round": 8, "pick": "8.10"},
+    "5947": {"name": "Jakobi Meyers", "round": 9, "pick": "9.3"},
+    "12474": {"name": "Woody Marks", "round": 10, "pick": "10.10"},
+    "9753": {"name": "Zach Charbonnet", "round": 11, "pick": "11.3"},
+    "13346": {"name": "Denzel Boston", "round": 12, "pick": "12.10"},
+    "7049": {"name": "Jauan Jennings", "round": 13, "pick": "13.3"},
+    "5849": {"name": "Kyler Murray", "round": 14, "pick": "14.10"}
+  }
+}

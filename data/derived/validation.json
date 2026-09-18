@@ -1,0 +1,44 @@
+[
+ {
+  "id": "record",
+  "status": "info",
+  "title": "Record field (the 2-0 after one week)",
+  "finding": "latest.json shows 2-0 with 1 week complete. Most likely explanation [Likely]: the league plays a second game each week against the league median. Week 1 median was 107.275; you scored 111.26, above it, and you beat your head-to-head opponent, which is exactly 2-0. The v1.2 pull reads the league setting (league_average_match) and sums every roster's wins to confirm this on its first run."
+ },
+ {
+  "id": "def_bias",
+  "status": "warn",
+  "title": "DEF projection bias (Sleeper omits 3-and-outs and 4th-down stops)",
+  "finding": "Week 1, the 12 defenses that were started: actual minus projected averaged +0.20 with a spread (SD) of 5.6, so n=12 cannot confirm or refute a small bias. Structural estimate [Likely]: 2025 three-and-out rates in the DEF rankings average 2.08 per game, worth about 1.04 points at +0.5 each, plus 4th-down stops at +1 (rate not in the reference file). Expect DEF projections to run roughly 1.5 to 2.5 points low. The v1.2 pull stores the actual 3-and-out and 4th-down-stop counts for all 32 defenses every week, so this becomes a measured number from the first run."
+ },
+ {
+  "id": "coach_continuity",
+  "status": "info",
+  "title": "Rankings column coach_continuity",
+  "finding": "Literal NOT_AVAILABLE for every player by design (no source). The engine never reads it."
+ },
+ {
+  "id": "rankings_join",
+  "status": "ok",
+  "title": "Rankings CSV joins to Sleeper on sleeper_id",
+  "finding": "12 of 12 of your skill players found in player_rankings_v2.0 by sleeper_id."
+ },
+ {
+  "id": "week_detection",
+  "status": "info",
+  "title": "Completed-week detection",
+  "finding": "Method: v1.1 rule (matchups have points). Completed 1, upcoming 2. v1.2 uses game dates from the projection rows, which stays correct on Friday through Monday when the v1.1 rule would flip early."
+ },
+ {
+  "id": "proj_exclude",
+  "status": "info",
+  "title": "Projection formula",
+  "finding": "Projected = Sleeper's projected stat line x this league's scoring, excluding projected return TDs (matches the Sleeper UI, verified week 1 by v1.1)."
+ },
+ {
+  "id": "ages",
+  "status": "info",
+  "title": "Input ages at build time",
+  "finding": "weekly pull 40.7h"
+ }
+]

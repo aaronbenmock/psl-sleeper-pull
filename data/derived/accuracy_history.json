@@ -1,0 +1,79 @@
+{
+ "generated_at_utc": "2026-09-18T16:41:19Z",
+ "weeks": [],
+ "pooled": {
+  "started": {
+   "sleeper": {
+    "n": 0,
+    "mae": null,
+    "bias": null,
+    "weeks": 0
+   },
+   "preseason": {
+    "n": 0,
+    "mae": null,
+    "bias": null,
+    "weeks": 0
+   },
+   "naive": {
+    "n": 0,
+    "mae": null,
+    "bias": null,
+    "weeks": 0
+   }
+  },
+  "rostered": {
+   "sleeper": {
+    "n": 0,
+    "mae": null,
+    "bias": null,
+    "weeks": 0
+   },
+   "preseason": {
+    "n": 0,
+    "mae": null,
+    "bias": null,
+    "weeks": 0
+   },
+   "naive": {
+    "n": 0,
+    "mae": null,
+    "bias": null,
+    "weeks": 0
+   }
+  },
+  "lineups": {}
+ },
+ "fallback": {
+  "week": 1,
+  "n": 14,
+  "scope": "your roster only (v1.1 pull)",
+  "sleeper": {
+   "n": 14,
+   "mae": 7.42,
+   "bias": -0.05,
+   "spearman": 0.183
+  },
+  "preseason": {
+   "n": 14,
+   "mae": 7.67,
+   "bias": -1.5,
+   "spearman": 0.147
+  },
+  "naive": {
+   "n": 0,
+   "mae": null,
+   "bias": null,
+   "spearman": null
+  }
+ },
+ "honesty": [
+  "n = 0 completed weeks. Nothing here is a finding yet. The job of this page is to accumulate; treat differences between baselines as noise until 6+ weeks.",
+  "The naive baseline (start the highest season-average scorer) is undefined in week 1 and thin until week 4."
+ ],
+ "baselines": {
+  "sleeper": "Sleeper's projection, frozen pre-kickoff when a snapshot exists (else post-hoc)",
+  "preseason": "v2.0 preseason model proj_ppg (VOR ranking), constant all season",
+  "naive": "start the highest season-to-date average scorer (undefined week 1)"
+ }
+}

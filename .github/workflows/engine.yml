@@ -1,0 +1,121 @@
+name: PSL fantasy engine
+
+# All times below are UTC. Central time is UTC-5 (CDT) until 2026-11-01 02:00, then UTC-6 (CST).
+# Every job is listed twice, once per offset. `python engine.py auto` looks at the real Central
+# time and runs only the task that belongs to that local hour, so the duplicate cron is a no-op
+# (it still rebuilds the dashboard so the data age stays honest). Months 9-12 and 1 = the season.
+#
+#   Central          task                       CDT cron (UTC)              CST cron (UTC)
+#   daily 06:00      injuries                   0 11 * 9-12,1 *             0 12 * 9-12,1 *
+#   Wed   10:00      weekly pull + waivers      0 15 * 9-12,1 3             0 16 * 9-12,1 3
+#   Sun   07:30      snapshot (London games)    30 12 * 9-12,1 0            30 13 * 9-12,1 0
+#   Thu-Mon 10:30    snapshot (early slate)     30 15 * 9-12,1 0,1,4,5,6    30 16 * 9-12,1 0,1,4,5,6
+#   Thu-Mon 18:00    snapshot (night games)     0 23 * 9-12,1 0,1,4,5,6     0 0 * 9-12,1 1,2,5,6,0
+#
+# GitHub may start a cron up to ~30 minutes late under load. Each task accepts a 59-minute window.
+# The Wednesday pull accepts 10:00 and 11:00 Central so a late start never loses the week.
+
+on:
+  schedule:
+    - cron: "0 11 * 9-12,1 *"
+    - cron: "0 12 * 9-12,1 *"
+    - cron: "0 15 * 9-12,1 3"
+    - cron: "0 16 * 9-12,1 3"
+    - cron: "30 12 * 9-12,1 0"
+    - cron: "30 13 * 9-12,1 0"
+    - cron: "30 15 * 9-12,1 0,1,4,5,6"
+    - cron: "30 16 * 9-12,1 0,1,4,5,6"
+    - cron: "0 23 * 9-12,1 0,1,4,5,6"
+    - cron: "0 0 * 9-12,1 1,2,5,6,0"
+  workflow_dispatch:
+    inputs:
+      task:
+        description: "Which task to run"
+        required: true
+        default: "full"
+        type: choice
+        options: [full, pull, injuries, snapshot, build, synthesis, auto]
+      completed_week:
+        description: "pull only: override the completed week (blank = auto-detect)"
+        required: false
+  push:
+    branches: [main]
+    paths:
+      - "engine.py"
+      - "engine/**"
+      - "reference/**"
+      - ".github/workflows/engine.yml"
+
+permissions:
+  contents: write
+
+# Never run two jobs at once: they all commit to main.
+concurrency:
+  group: psl-engine-data
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Decide task
+        id: task
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "task=${{ github.event.inputs.task }}" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event_name }}" = "push" ]; then
+            echo "task=full" >> "$GITHUB_OUTPUT"
+          else
+            echo "task=auto" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Self test (time zone rule vs system tzdata)
+        run: python engine.py selftest
+
+      - name: Run engine task
+        id: engine
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          set -o pipefail
+          TASK="${{ steps.task.outputs.task }}"
+          if [ "$TASK" = "pull" ] && [ -n "${{ github.event.inputs.completed_week }}" ]; then
+            python engine.py pull --completed-week "${{ github.event.inputs.completed_week }}"
+          else
+            python engine.py "$TASK"
+          fi
+          # Weekly news synthesis (path B) after a Wednesday pull, only if the secret exists.
+          # `auto` handles its own Wednesday case inside engine.py.
+          if [ "$TASK" = "pull" ] || [ "$TASK" = "full" ]; then
+            if [ -n "$ANTHROPIC_API_KEY" ]; then python engine.py synthesis; fi
+          fi
+
+      - name: Commit and push data
+        run: |
+          git config user.name "psl-engine-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A data index.html reports PSL-Dashboard.url .nojekyll
+          if git diff --cached --quiet; then
+            echo "nothing to commit"; exit 0
+          fi
+          git commit -m "engine ${{ steps.task.outputs.task }} $(date -u +%FT%H:%MZ)"
+          for i in 1 2 3 4; do
+            if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
+            echo "push failed, retry $i"; sleep 15
+          done
+          exit 1
+
+      - name: Fail the run if the engine task failed (so GitHub emails Aaron)
+        if: steps.engine.outcome == 'failure'
+        run: |
+          echo "Engine task ${{ steps.task.outputs.task }} failed. The dashboard was still rebuilt and committed with the failure shown in its job strip."
+          exit 1
