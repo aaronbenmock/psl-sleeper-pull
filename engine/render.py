@@ -68,32 +68,47 @@ def md_to_html(md):
 
 
 CSS = """
-:root{--bg:#f6f7f9;--card:#fff;--ink:#1c2430;--muted:#5c6774;--line:#e1e5ea;--ok:#1a7f4b;--warn:#b7791f;--bad:#c0392b;--info:#2f6fb7;--mine:#fff8e1;--head:#eef2f6}
-*{box-sizing:border-box}body{margin:0;font:14px/1.45 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+:root{--bg:#f6f7f9;--card:#fff;--ink:#1c2430;--muted:#5c6774;--line:#e1e5ea;--ok:#1a7f4b;--warn:#b7791f;--bad:#c0392b;--info:#2f6fb7;--mine:#fff8e1;--head:#eef2f6;
+--okbg:#e7f4ec;--warnbg:#fff4e0;--badbg:#fdecea;--infobg:#e8f0fb;--synth:#7b4fb5;--tabbg:#fff;--tabon:#1c2430;--tabonink:#fff}
+@media (prefers-color-scheme: dark){:root{--bg:#0f1419;--card:#181e26;--ink:#e6e9ee;--muted:#9aa5b1;--line:#2b3440;--ok:#4cc38a;--warn:#e0a94a;--bad:#f0706a;--info:#6fa8ef;--mine:#2a2611;--head:#222a34;
+--okbg:#163524;--warnbg:#3a2e14;--badbg:#3c1f1d;--infobg:#1c2b40;--synth:#a884dc;--tabbg:#181e26;--tabon:#e6e9ee;--tabonink:#0f1419}}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}body{margin:0;font:14px/1.45 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);overflow-x:hidden}
 a{color:var(--info)}h1{font-size:22px;margin:0}h2{font-size:18px;margin:0 0 8px;border-bottom:2px solid var(--line);padding-bottom:4px}
 h3{font-size:15px;margin:14px 0 6px}h4{font-size:14px;margin:10px 0 4px}h5{font-size:13px;margin:8px 0 4px}
-.wrap{max-width:1380px;margin:0 auto;padding:14px 18px 40px}
+.wrap{max-width:1380px;margin:0 auto;padding:12px 16px 40px}
 .top{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:10px}
-.age{font-size:15px;padding:6px 12px;border-radius:6px;background:#e7f4ec;color:var(--ok);font-weight:600}
-.age.stale{background:#fdecea;color:var(--bad)}.age.aging{background:#fff4e0;color:var(--warn)}
+.age{font-size:15px;padding:6px 12px;border-radius:6px;background:var(--okbg);color:var(--ok);font-weight:600}
+.age.stale{background:var(--badbg);color:var(--bad)}.age.aging{background:var(--warnbg);color:var(--warn)}
 .banner{display:none;background:var(--bad);color:#fff;padding:10px 14px;border-radius:6px;margin:8px 0;font-weight:600}
 .banner.show{display:block}.banner.warnb{background:var(--warn)}
-.jobs{display:flex;gap:10px;flex-wrap:wrap;margin:6px 0 14px}.job{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:6px 10px;font-size:12.5px}
+.jobs{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 12px}.job{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:6px 10px;font-size:12.5px}
 .job b{display:block}.job.ok b{color:var(--ok)}.job.fail b{color:var(--bad)}.job.none b{color:var(--muted)}
 .grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.grid.one{grid-template-columns:1fr}
 .card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:14px 16px;margin-bottom:14px}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%;margin:4px 0}
 table{border-collapse:collapse;width:100%;font-size:13px}th{background:var(--head);text-align:left;padding:5px 7px;border-bottom:1px solid var(--line);white-space:nowrap}
 td{padding:5px 7px;border-bottom:1px solid var(--line);vertical-align:top}tr.mine td{background:var(--mine)}tr.start td{font-weight:600}
 td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}.why{color:var(--muted);font-size:12.5px}
 .tag{display:inline-block;padding:1px 6px;border-radius:4px;font-size:11.5px;font-weight:600;margin-right:4px}
-.tag.Q,.tag.Questionable{background:#fff4e0;color:var(--warn)}.tag.D,.tag.Doubtful{background:#fdecea;color:var(--bad)}.tag.Out,.tag.IR,.tag.PUP,.tag.Sus{background:#fdecea;color:var(--bad)}
-.tag.ok{background:#e7f4ec;color:var(--ok)}.tag.warn{background:#fff4e0;color:var(--warn)}.tag.fail{background:#fdecea;color:var(--bad)}.tag.info{background:#e8f0fb;color:var(--info)}
-.tag.high{background:#fdecea;color:var(--bad)}.tag.medium{background:#fff4e0;color:var(--warn)}.tag.low{background:#e8f0fb;color:var(--info)}
-.machine{border-left:5px solid var(--info)}.synth{border-left:5px solid #7b4fb5}.label{font-size:11.5px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);font-weight:700}
+.tag.Q,.tag.Questionable{background:var(--warnbg);color:var(--warn)}.tag.D,.tag.Doubtful{background:var(--badbg);color:var(--bad)}.tag.Out,.tag.IR,.tag.PUP,.tag.Sus{background:var(--badbg);color:var(--bad)}
+.tag.ok{background:var(--okbg);color:var(--ok)}.tag.warn{background:var(--warnbg);color:var(--warn)}.tag.fail{background:var(--badbg);color:var(--bad)}.tag.info{background:var(--infobg);color:var(--info)}
+.tag.high{background:var(--badbg);color:var(--bad)}.tag.medium{background:var(--warnbg);color:var(--warn)}.tag.low{background:var(--infobg);color:var(--info)}
+.machine{border-left:5px solid var(--info)}.synth{border-left:5px solid var(--synth)}.label{font-size:11.5px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);font-weight:700}
 .muted{color:var(--muted)}.small{font-size:12.5px}ul.tight{margin:6px 0;padding-left:20px}ul.tight li{margin:3px 0}
 .pos{font-weight:600;color:var(--muted)}.bid{font-size:16px;font-weight:700;color:var(--ok)}.neg{color:var(--bad)}.posv{color:var(--ok)}
-nav.toc a{margin-right:12px;font-size:13px}details summary{cursor:pointer;color:var(--info);font-size:13px}
-.kpi{display:flex;gap:14px;flex-wrap:wrap;margin:6px 0 10px}.kpi div{background:var(--head);border-radius:6px;padding:6px 12px}.kpi b{font-size:18px;display:block}
+details summary{cursor:pointer;color:var(--info);font-size:13px;padding:6px 0;min-height:32px}
+.kpi{display:flex;gap:10px;flex-wrap:wrap;margin:6px 0 10px}.kpi div{background:var(--head);border-radius:6px;padding:6px 12px}.kpi b{font-size:18px;display:block}
+code{background:var(--head);padding:1px 4px;border-radius:3px;font-size:12.5px}
+/* tabs: every panel is in the HTML; JS only toggles the tabs-on class. Without JS everything shows. */
+.tabbar{display:flex;gap:6px;overflow-x:auto;-webkit-overflow-scrolling:touch;padding:4px 0 8px;margin:0 0 6px;position:sticky;top:0;background:var(--bg);z-index:5;scrollbar-width:none}
+.tabbar::-webkit-scrollbar{display:none}
+.tab{flex:0 0 auto;min-height:44px;padding:10px 14px;border:1px solid var(--line);border-radius:8px;background:var(--tabbg);color:var(--ink);font:inherit;font-weight:600;font-size:14px;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;white-space:nowrap}
+.tab.on{background:var(--tabon);color:var(--tabonink);border-color:var(--tabon)}
+.tab.all{margin-left:auto;font-weight:500;color:var(--muted)}
+.tabs-on .panel{display:none}.tabs-on .panel.on{display:block}
+.foot{font-size:12.5px;color:var(--muted);margin-top:10px}.foot a{margin-right:10px}
+@media (max-width:760px){.grid{grid-template-columns:1fr}.wrap{padding:10px 12px 40px}h1{font-size:19px}.kpi b{font-size:16px}.card{padding:12px 12px}th,td{padding:6px 6px}}
+@media print{.tabs-on .panel{display:block!important}.tabbar{display:none}.age{display:none}}
 """
 
 JS = """
@@ -113,6 +128,55 @@ JS = """
     else if (!isArchive && h > stale * 0.6) { el.classList.add('aging'); }
   }
   tick(); setInterval(tick, 60000);
+
+  // Tabs. Every panel is already in the page; this only hides the ones not selected.
+  var body = document.body;
+  var tabs = Array.prototype.slice.call(document.querySelectorAll('.tabbar .tab[data-tab]'));
+  var panels = Array.prototype.slice.call(document.querySelectorAll('.panel'));
+  var allBtn = document.getElementById('tab-all');
+  if (!tabs.length || !panels.length) return;
+  var showAll = false;
+  try { showAll = localStorage.getItem('psl-show-all') === '1'; } catch (e) {}
+  function panelFor(hash){
+    var id = (hash || '').replace('#', '');
+    if (!id) return null;
+    var el = document.getElementById(id);
+    while (el && el !== body) { if (el.classList && el.classList.contains('panel')) return el; el = el.parentNode; }
+    return null;
+  }
+  function defaultPanel(){
+    // Wednesday is waiver day (bids are due before the Thursday 2 AM run); every other day the lineup matters most.
+    var day = new Date().getDay();
+    return document.getElementById(day === 3 ? 'tab-waivers' : 'tab-lineup') || panels[0];
+  }
+  function apply(hash, fromClick){
+    var target = panelFor(hash) || defaultPanel();
+    body.classList.toggle('tabs-on', !showAll);
+    panels.forEach(function(p){ p.classList.toggle('on', p === target); });
+    tabs.forEach(function(t){ var on = t.getAttribute('data-tab') === target.id; t.classList.toggle('on', on); t.setAttribute('aria-selected', on ? 'true' : 'false'); });
+    if (allBtn) { allBtn.textContent = showAll ? 'Back to tabs' : 'Show everything'; allBtn.setAttribute('aria-pressed', showAll ? 'true' : 'false'); }
+    var id = (hash || '').replace('#', '');
+    var inner = id && id !== target.id ? document.getElementById(id) : null;
+    if (inner) { try { inner.scrollIntoView(); } catch (e) {} }
+    else if (fromClick) { window.scrollTo(0, 0); }
+  }
+  tabs.forEach(function(t){
+    t.addEventListener('click', function(ev){
+      ev.preventDefault();
+      var id = t.getAttribute('data-tab');
+      if (('#' + id) !== location.hash) { try { history.replaceState(null, '', '#' + id); } catch (e) { location.hash = id; } }
+      apply('#' + id, true);
+    });
+  });
+  if (allBtn) {
+    allBtn.addEventListener('click', function(){
+      showAll = !showAll;
+      try { localStorage.setItem('psl-show-all', showAll ? '1' : '0'); } catch (e) {}
+      apply(location.hash, false);
+    });
+  }
+  window.addEventListener('hashchange', function(){ apply(location.hash, false); });
+  apply(location.hash, false);
 })();
 """
 
@@ -350,8 +414,57 @@ def section_keepers(kp, bt):
         L.append("<p class=muted>No roster loaded.</p>")
     for n in kp.get("notes") or []:
         L.append(f"<p class='small muted'>{esc(n)}</p>")
-    L.append(f"<h3>Backtest scaffold</h3><p class=small>{esc(bt.get('verdict'))} Full table in <code>data/derived/backtest.md</code>.</p></div>")
+    L.append("</div>")
     return "".join(L)
+
+
+def _md_table(rows, cols):
+    """rows: list of dicts; cols: list of (key, header, decimals or None)."""
+    h = ["<div class=tw><table><tr>" + "".join(f"<th{' class=n' if d is not None else ''}>{esc(hd)}</th>" for _, hd, d in cols) + "</tr>"]
+    for r in rows:
+        cells = []
+        for k, _, d in cols:
+            v = r.get(k)
+            cells.append(f"<td class=n>{num(v, d)}</td>" if d is not None else f"<td>{esc(v)}</td>")
+        h.append("<tr>" + "".join(cells) + "</tr>")
+    h.append("</table></div>")
+    return "".join(h)
+
+
+def section_backtest(bt, hist):
+    L = ["<div class=card id=backtest><h2>Backtest</h2>"]
+    L.append("<h3>In-season backtest (this league's frozen snapshots)</h3>")
+    L.append(f"<p class=small>{esc(bt.get('verdict'))} Full table in <code>data/derived/backtest.md</code>.</p>")
+    rows = bt.get("table") or []
+    if rows:
+        L.append("<details><summary>Candidate table</summary>" + _md_table(rows, [("model", "Model", None), ("weeks", "Weeks", 0), ("n", "n", 0), ("mae", "Player MAE", 2), ("lineup_avg", "Lineup pts / team", 2)]) + "</details>")
+    L.append("<h3>Historical backtest (nflverse, ten seasons, PSL scoring)</h3>")
+    if not hist:
+        L.append("<p class=muted><b>Not run yet.</b> <code>python engine.py histbacktest</code> writes <code>data/derived/hist_backtest.json</code> and this section fills from it. "
+                 "It runs beside the in-season backtest and answers the sample-size questions that one cannot.</p></div>")
+        return "".join(L)
+    L.append(f"<p class='small muted'>Generated {central(hist.get('generated_at_utc'))}. {esc(hist.get('scope_line'))}</p>")
+    for h in hist.get("headline") or []:
+        L.append(f"<p><b>{esc(h)}</b></p>")
+    for blk in hist.get("blocks") or []:
+        L.append(f"<h4>{esc(blk.get('title'))}</h4>")
+        if blk.get("text"):
+            L.append(f"<p class=small>{esc(blk['text'])}</p>")
+        if blk.get("rows") and blk.get("cols"):
+            L.append(_md_table(blk["rows"], [(c[0], c[1], c[2] if len(c) > 2 else None) for c in blk["cols"]]))
+        for n in blk.get("notes") or []:
+            L.append(f"<p class='small muted'>{esc(n)}</p>")
+    L.append("<p class='small muted'>Full write-up: <code>data/derived/hist_backtest.md</code> in the repo.</p></div>")
+    return "".join(L)
+
+
+def wrap_tables(html_s):
+    """Wrap every table not already wrapped so wide tables scroll inside their own box on a phone."""
+    out = html_s.replace("<div class=tw><table>", "\x00TW\x00")
+    out = out.replace("<table>", "<div class=tw><table>").replace("</table>", "</table></div>")
+    out = out.replace("\x00TW\x00", "<div class=tw><table>")
+    # tables that were already wrapped now have a double closing div; collapse it
+    return out.replace("</table></div></div>", "</table></div>")
 
 
 def section_snapshots(ctx_snaps, upcoming):
@@ -404,26 +517,36 @@ def render(page, archive=False):
         banner = f"<div class='banner warnb show'>A scheduled job failed on its last run: {esc(names)}. The sections that depend on it may be stale. Details in the GitHub Actions log.</div>"
     archives = page.get("archives") or []
     arch_links = " ".join(f"<a href='{esc(a['href'])}'>week {a['week']}</a>" for a in archives)
-    H = [f"<!doctype html><html lang=en><head><meta charset=utf-8><title>{esc(title)}</title><meta name=viewport content='width=device-width,initial-scale=1'><style>{CSS}</style></head>",
+    completed = ctx.latest.get("completed_week")
+    # Tabs. Every panel is in the HTML; the script only toggles which one is visible.
+    tabs = [
+        ("tab-lineup", "Lineup", section_lineup(page["lineup"], completed)),
+        ("tab-waivers", "Waivers", section_waivers(page["waivers"])),
+        ("tab-league", "League", section_league(page["league"]) + section_keepers(page.get("keepers") or {}, page.get("backtest") or {})),
+        ("tab-news", "News and injuries", section_news(page["news"])),
+        ("tab-accuracy", "Accuracy", section_accuracy(page["accuracy"]) + section_snapshots(ctx.snap_index, ctx.upcoming_week) + section_validation(page["validation"])),
+        ("tab-backtest", "Backtest", section_backtest(page.get("backtest") or {}, page.get("hist_backtest"))),
+    ]
+    tabbar = ["<nav class=tabbar role=tablist aria-label='Dashboard sections'>"]
+    for tid, label, _ in tabs:
+        tabbar.append(f"<a class=tab role=tab href='#{tid}' data-tab='{tid}' aria-controls='{tid}'>{esc(label)}</a>")
+    tabbar.append("<button type=button class='tab all' id=tab-all aria-pressed=false>Show everything</button></nav>")
+    panels = []
+    for tid, label, body_html in tabs:
+        panels.append(f"<section class=panel id='{tid}' role=tabpanel aria-label='{esc(label)}'>{wrap_tables(body_html)}</section>")
+    H = [f"<!doctype html><html lang=en><head><meta charset=utf-8><title>{esc(title)}</title><meta name=viewport content='width=device-width,initial-scale=1'>"
+         f"<meta name=color-scheme content='light dark'><style>{CSS}</style></head>",
          f"<body data-built='{esc(built)}' data-stale-hours='{config.STALE_AFTER_HOURS}' data-archive='{1 if archive else 0}'><div class=wrap>",
          f"<div class=top><div><h1>{esc(ctx.meta.get('league') or 'Pretend Sportsball League')}: weekly engine</h1>"
          f"<div class='small muted'>Built {central(built)} from data pulled {central(ctx.meta.get('pulled_at_utc'))}. Completed week {ctx.completed_week}, upcoming week {ctx.upcoming_week}. "
          f"{'Self-contained archive for week ' + str(ctx.upcoming_week) + '. ' if archive else ''}Engine v{config.ENGINE_VERSION}.</div></div>"
          f"<div id=age class=age>Data age: computing</div></div>",
          "<div id=stale-banner class=banner></div>", banner, jobs_html,
-         "<nav class=toc><a href=#lineup>Start/sit</a><a href=#waivers>Waivers</a><a href=#news>News and injuries</a><a href=#league>League</a>"
-         "<a href=#accuracy>Accuracy</a><a href=#keepers>Keepers</a><a href=#snapshots>Snapshots</a><a href=#validation>Validation</a>"
-         + (f" <span class=muted>Archives:</span> {arch_links}" if arch_links else "") + f" <a href='{config.REPO_URL}' target=_blank rel=noopener>repo</a></nav>",
-         section_lineup(page["lineup"], ctx.latest.get("completed_week")),
-         section_waivers(page["waivers"]),
-         section_news(page["news"]),
-         section_league(page["league"]),
-         section_accuracy(page["accuracy"]),
-         section_keepers(page.get("keepers") or {}, page.get("backtest") or {}),
-         section_snapshots(ctx.snap_index, ctx.upcoming_week),
-         section_validation(page["validation"]),
-         f"<p class='small muted'>All numbers on this page are inlined at build time; nothing is fetched live. Data folder: <a href='{config.REPO_URL}/tree/main/data' target=_blank rel=noopener>{config.REPO_URL}/tree/main/data</a>. "
-         f"Method notes: docs/METHOD.md in the repo.</p>",
+         "".join(tabbar),
+         "".join(panels),
+         f"<p class=foot>" + (f"<span class=muted>Archives:</span> {arch_links} " if arch_links else "") + f"<a href='{config.REPO_URL}' target=_blank rel=noopener>repo</a> "
+         f"<a href='{config.REPO_URL}/tree/main/data' target=_blank rel=noopener>data folder</a> <span class=muted>All numbers on this page are inlined at build time; nothing is fetched live. "
+         f"Method notes: docs/METHOD.md in the repo. Bookmark a tab with its # link, for example #tab-waivers.</span></p>",
          f"<script type='application/json' id='engine-data'>{json.dumps(page['payload'], separators=(',', ':')).replace('</', '<\\/')}</script>",
          f"<script>{JS}</script></div></body></html>"]
     return "".join(H)

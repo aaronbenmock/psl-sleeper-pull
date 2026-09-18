@@ -67,8 +67,11 @@ def run(data_dir=None):
     if not any(a["href"] == this_href for a in archives):
         archives.append({"week": ctx.upcoming_week, "href": this_href})
     archives.sort(key=lambda a: a["week"])
+    # historical backtest (python engine.py histbacktest) is optional and written by a separate command
+    hist = store.read_json(os.path.join(config.DATA_DIR, "derived", "hist_backtest.json"), None)
     page = {"ctx": ctx, "built_at_utc": built, "lineup": lineup, "waivers": waivers, "league": lv, "accuracy": acc,
-            "news": nz, "validation": checks, "payload": payload, "archives": archives, "keepers": kp, "backtest": bt}
+            "news": nz, "validation": checks, "payload": payload, "archives": archives, "keepers": kp, "backtest": bt,
+            "hist_backtest": hist if isinstance(hist, dict) and hist else None}
     live = render.render(page, archive=False)
     store.write_text("index.html", live)
     # archive: same data, paths relative to reports/<season>/
