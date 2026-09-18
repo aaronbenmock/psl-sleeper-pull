@@ -1,9 +1,10 @@
 {
  "week": 2,
- "generated_at_utc": "2026-09-18T21:57:28Z",
+ "generated_at_utc": "2026-09-18T23:14:23Z",
  "source": {
-  "kind": "latest.json",
-  "taken_at_utc": "2026-09-18T21:57:27+00:00"
+  "kind": "pre-kickoff snapshot",
+  "taken_at_utc": "2026-09-18T23:14:23Z",
+  "label": "fri_pm"
  },
  "lineup": [
   {
@@ -27,8 +28,8 @@
    "boom_rate": 0.656,
    "sd_wk": 12.988,
    "vor": 77.8,
-   "started": null,
-   "actual_so_far": null,
+   "started": true,
+   "actual_so_far": 46.82,
    "slot": "QB",
    "why": "Sleeper projects 24.6, season average 40.7 over 1 game, preseason model 22.6. Blended expectation 25.2 vs DET."
   },
@@ -53,7 +54,7 @@
    "boom_rate": 0.419,
    "sd_wk": 11.95,
    "vor": 123.3,
-   "started": null,
+   "started": false,
    "actual_so_far": null,
    "slot": "RB",
    "why": "Sleeper projects 17.3, season average 23.6 over 1 game, preseason model 16.4. Blended expectation 17.5 vs KC."
@@ -79,7 +80,7 @@
    "boom_rate": 0.242,
    "sd_wk": 7.725,
    "vor": 39.2,
-   "started": null,
+   "started": false,
    "actual_so_far": null,
    "slot": "RB",
    "why": "Sleeper projects 9.9, season average 3.1 over 1 game, preseason model 10.4. Blended expectation 9.6 vs NE."
@@ -105,7 +106,7 @@
    "boom_rate": 0.357,
    "sd_wk": 8.123,
    "vor": 51.4,
-   "started": null,
+   "started": false,
    "actual_so_far": null,
    "slot": "WR",
    "why": "Sleeper projects 10.2, season average 4.1 over 1 game, preseason model 12.3. Blended expectation 10.4 vs NYG."
@@ -131,7 +132,7 @@
    "boom_rate": 0.2,
    "sd_wk": 6.058,
    "vor": 22.3,
-   "started": null,
+   "started": false,
    "actual_so_far": null,
    "slot": "WR",
    "why": "Sleeper projects 10.2, season average 6.0 over 1 game, preseason model 10.0. Blended expectation 9.9 vs NE."
@@ -157,7 +158,7 @@
    "boom_rate": 0.161,
    "sd_wk": 6.486,
    "vor": 27.9,
-   "started": null,
+   "started": false,
    "actual_so_far": null,
    "slot": "FLEX",
    "why": "Sleeper projects 8.7, season average 18.7 over 1 game, preseason model 10.2. Blended expectation 9.8 vs MIA."
@@ -183,7 +184,7 @@
    "boom_rate": 0.242,
    "sd_wk": 6.489,
    "vor": 37.6,
-   "started": null,
+   "started": false,
    "actual_so_far": null,
    "slot": "FLEX",
    "why": "Sleeper projects 8.8, season average 2.1 over 1 game, preseason model 10.4. Blended expectation 8.8 vs JAX."
@@ -209,7 +210,7 @@
    "boom_rate": null,
    "sd_wk": 10.357,
    "vor": null,
-   "started": null,
+   "started": false,
    "actual_so_far": null,
    "slot": "DEF",
    "why": "Sleeper projects 9.3, season average 13.0 over 1 game, preseason model 13.1. Blended expectation 10.6 vs ARI."
@@ -237,7 +238,7 @@
    "boom_rate": 0.125,
    "sd_wk": 6.336,
    "vor": -31.6,
-   "started": null,
+   "started": false,
    "actual_so_far": null,
    "slot": "BN",
    "why": "Sleeper projects 7.9, season average 8.4 over 1 game, preseason model 8.3. Blended expectation 8.1 vs CIN."
@@ -263,7 +264,7 @@
    "boom_rate": null,
    "sd_wk": null,
    "vor": -49.7,
-   "started": null,
+   "started": false,
    "actual_so_far": null,
    "slot": "BN",
    "why": "Sleeper projects 7.4, season average 13.9 over 1 game, preseason model 6.6. Blended expectation 7.6 vs TB."
@@ -289,7 +290,7 @@
    "boom_rate": 0.129,
    "sd_wk": 4.947,
    "vor": 13.1,
-   "started": null,
+   "started": false,
    "actual_so_far": null,
    "slot": "BN",
    "why": "Sleeper projects 5.9, season average 11.2 over 1 game, preseason model 9.2, Questionable (Thumb) cuts it by 9%. Blended expectation 6.5 vs DEN."
@@ -315,7 +316,7 @@
    "boom_rate": 0.0,
    "sd_wk": 3.283,
    "vor": -82.8,
-   "started": null,
+   "started": false,
    "actual_so_far": null,
    "slot": "BN",
    "why": "Sleeper projects 7.0, season average 2.9 over 1 game, preseason model 5.8. Blended expectation 6.4 vs ARI."
@@ -341,7 +342,7 @@
    "boom_rate": 0.318,
    "sd_wk": 7.899,
    "vor": -79.2,
-   "started": null,
+   "started": false,
    "actual_so_far": null,
    "slot": "BN",
    "why": "No Sleeper projection this week (ruled out or not active), 0 points."
@@ -367,7 +368,7 @@
    "boom_rate": 0.167,
    "sd_wk": 8.163,
    "vor": 4.1,
-   "started": null,
+   "started": false,
    "actual_so_far": null,
    "slot": "BN",
    "why": "No Sleeper projection this week (ruled out or not active), 0 points."
@@ -395,7 +396,7 @@
    "boom_rate": 0.182,
    "sd_wk": 7.865,
    "vor": 20.2,
-   "started": null,
+   "started": false,
    "actual_so_far": null,
    "slot": "IR"
   }
@@ -444,7 +445,8 @@
  ],
  "expected_total": 101.8,
  "notes": [
-  "Projections are from the Wednesday pull (0.0 hours old). Pre-kickoff snapshots refresh them Thursday evening, Sunday morning and Monday evening."
+  "Projections are from the fri_pm snapshot taken Fri Sep 18 06:14 PM Central.",
+  "1 of your players have already kicked off this week; their rows show points so far."
  ],
  "method": "expected = 0.65 x Sleeper + 0.35 x baseline; baseline = (n x season avg + 4 x preseason) / (n + 4); injury multipliers Q 0.90, D 0.40, Out 0."
 }
