@@ -3,17 +3,17 @@
   "build": {
    "task": "build",
    "ok": true,
-   "summary": "index.html + reports/2026/week02.html; lineup changes 2, claims 8, signals 6, accuracy weeks 1",
-   "started_utc": "2026-09-19T16:37:15Z",
-   "finished_utc": "2026-09-19T16:37:15Z",
+   "summary": "index.html + reports/2026/week02.html; lineup changes 2, claims 8, signals 5, accuracy weeks 1",
+   "started_utc": "2026-09-19T19:50:04Z",
+   "finished_utc": "2026-09-19T19:50:04Z",
    "error": null
   },
   "pull": {
    "task": "pull",
    "ok": true,
-   "summary": "completed wk 1, upcoming wk 2, waiver pool 667, matchup weeks 18, scored files 1, record check: median game ON: each team plays its opponent and the league median every week",
-   "started_utc": "2026-09-18T21:57:23Z",
-   "finished_utc": "2026-09-18T21:57:27Z",
+   "summary": "completed wk 1, upcoming wk 2, waiver pool 664, matchup weeks 18, scored files 1, record check: median game ON: each team plays its opponent and the league median every week",
+   "started_utc": "2026-09-19T19:49:59Z",
+   "finished_utc": "2026-09-19T19:50:03Z",
    "error": null,
    "completed_week": 1,
    "upcoming_week": 2
@@ -21,20 +21,20 @@
   "injuries": {
    "task": "injuries",
    "ok": true,
-   "summary": "177 rostered players tracked, 0 changes since 2026-09-18, 3 of mine carry an injury tag, players cache reused",
-   "started_utc": "2026-09-19T11:09:39Z",
-   "finished_utc": "2026-09-19T11:09:39Z",
+   "summary": "177 rostered players tracked, 113 changes since 2026-09-18, 3 of mine carry an injury tag, players cache reused",
+   "started_utc": "2026-09-19T19:50:03Z",
+   "finished_utc": "2026-09-19T19:50:03Z",
    "error": null
   },
   "snapshot": {
    "task": "snapshot",
    "ok": true,
-   "summary": "week 2 sat_late_am: 3148 projections, 2 NFL teams already started, 3102 players still pre-kickoff",
-   "started_utc": "2026-09-19T15:33:25Z",
-   "finished_utc": "2026-09-19T15:33:26Z",
+   "summary": "week 2 sat_pm: 3148 projections, 2 NFL teams already started, 3102 players still pre-kickoff",
+   "started_utc": "2026-09-19T19:50:03Z",
+   "finished_utc": "2026-09-19T19:50:04Z",
    "error": null,
    "week": 2,
-   "label": "sat_late_am"
+   "label": "sat_pm"
   },
   "auto-skip": {
    "task": "auto-skip",
@@ -235,14 +235,50 @@
    "started_utc": "2026-09-19T16:37:15Z",
    "finished_utc": "2026-09-19T16:37:15Z",
    "error": null
+  },
+  {
+   "task": "pull",
+   "ok": true,
+   "summary": "completed wk 1, upcoming wk 2, waiver pool 664, matchup weeks 18, scored files 1, record check: median game ON: each team plays its opponent and the league median every week",
+   "started_utc": "2026-09-19T19:49:59Z",
+   "finished_utc": "2026-09-19T19:50:03Z",
+   "error": null,
+   "completed_week": 1,
+   "upcoming_week": 2
+  },
+  {
+   "task": "injuries",
+   "ok": true,
+   "summary": "177 rostered players tracked, 113 changes since 2026-09-18, 3 of mine carry an injury tag, players cache reused",
+   "started_utc": "2026-09-19T19:50:03Z",
+   "finished_utc": "2026-09-19T19:50:03Z",
+   "error": null
+  },
+  {
+   "task": "snapshot",
+   "ok": true,
+   "summary": "week 2 sat_pm: 3148 projections, 2 NFL teams already started, 3102 players still pre-kickoff",
+   "started_utc": "2026-09-19T19:50:03Z",
+   "finished_utc": "2026-09-19T19:50:04Z",
+   "error": null,
+   "week": 2,
+   "label": "sat_pm"
+  },
+  {
+   "task": "build",
+   "ok": true,
+   "summary": "index.html + reports/2026/week02.html; lineup changes 2, claims 8, signals 5, accuracy weeks 1",
+   "started_utc": "2026-09-19T19:50:04Z",
+   "finished_utc": "2026-09-19T19:50:04Z",
+   "error": null
   }
  ],
  "last_run": {
   "task": "build",
   "ok": true,
-  "summary": "index.html + reports/2026/week02.html; lineup changes 2, claims 8, signals 6, accuracy weeks 1",
-  "started_utc": "2026-09-19T16:37:15Z",
-  "finished_utc": "2026-09-19T16:37:15Z",
+  "summary": "index.html + reports/2026/week02.html; lineup changes 2, claims 8, signals 5, accuracy weeks 1",
+  "started_utc": "2026-09-19T19:50:04Z",
+  "finished_utc": "2026-09-19T19:50:04Z",
   "error": null
  }
 }

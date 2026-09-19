@@ -1,10 +1,10 @@
 {
  "week": 2,
- "generated_at_utc": "2026-09-19T16:37:15Z",
+ "generated_at_utc": "2026-09-19T19:50:04Z",
  "source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-09-19T15:33:26Z",
-  "label": "sat_late_am"
+  "taken_at_utc": "2026-09-19T19:50:04Z",
+  "label": "sat_pm"
  },
  "lineup": [
   {
@@ -195,12 +195,12 @@
    "pos": "DEF",
    "team": "SEA",
    "opp": "ARI",
-   "sleeper": 9.33,
+   "sleeper": 9.25,
    "preseason": 13.1,
    "season_avg": 13.0,
    "n_games": 1,
    "baseline": 13.08,
-   "expected": 10.64,
+   "expected": 10.59,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -213,7 +213,7 @@
    "started": false,
    "actual_so_far": null,
    "slot": "DEF",
-   "why": "Sleeper projects 9.3, season average 13.0 over 1 game, preseason model 13.1. Blended expectation 10.6 vs ARI."
+   "why": "Sleeper projects 9.2, season average 13.0 over 1 game, preseason model 13.1. Blended expectation 10.6 vs ARI."
   }
  ],
  "bench": [
@@ -280,20 +280,20 @@
    "season_avg": 11.2,
    "n_games": 1,
    "baseline": 9.61,
-   "expected": 6.47,
-   "injury_status": "Questionable",
-   "injury_body_part": "Thumb",
+   "expected": 7.19,
+   "injury_status": null,
+   "injury_body_part": null,
    "practice": null,
    "bye": false,
    "playing": true,
-   "inj_mult": 0.9,
+   "inj_mult": 1.0,
    "boom_rate": 0.129,
    "sd_wk": 4.947,
    "vor": 13.1,
    "started": false,
    "actual_so_far": null,
    "slot": "BN",
-   "why": "Sleeper projects 5.9, season average 11.2 over 1 game, preseason model 9.2, Questionable (Thumb) cuts it by 9%. Blended expectation 6.5 vs DEN."
+   "why": "Sleeper projects 5.9, season average 11.2 over 1 game, preseason model 9.2. Blended expectation 7.2 vs DEN."
   },
   {
    "player_id": "12048",
@@ -333,19 +333,19 @@
    "n_games": 1,
    "baseline": 13.89,
    "expected": 0.0,
-   "injury_status": "Questionable",
+   "injury_status": "Out",
    "injury_body_part": "Concussion",
    "practice": null,
    "bye": false,
    "playing": false,
-   "inj_mult": 0.9,
+   "inj_mult": 0.0,
    "boom_rate": 0.318,
    "sd_wk": 7.899,
    "vor": -79.2,
    "started": false,
    "actual_so_far": null,
    "slot": "BN",
-   "why": "No Sleeper projection this week (ruled out or not active), 0 points."
+   "why": "Ruled Out, 0 points."
   },
   {
    "player_id": "7049",
@@ -359,19 +359,19 @@
    "n_games": 1,
    "baseline": 7.17,
    "expected": 0.0,
-   "injury_status": null,
-   "injury_body_part": null,
+   "injury_status": "Out",
+   "injury_body_part": "Personal",
    "practice": null,
    "bye": false,
    "playing": false,
-   "inj_mult": 1.0,
+   "inj_mult": 0.0,
    "boom_rate": 0.167,
    "sd_wk": 8.163,
    "vor": 4.1,
    "started": false,
    "actual_so_far": null,
    "slot": "BN",
-   "why": "No Sleeper projection this week (ruled out or not active), 0 points."
+   "why": "Ruled Out, 0 points."
   }
  ],
  "ir": [
@@ -443,9 +443,9 @@
    "why": "Courtland Sutton 8.8 vs Denzel Boston 7.6, only 1.2 apart."
   }
  ],
- "expected_total": 101.8,
+ "expected_total": 101.7,
  "notes": [
-  "Projections are from the sat_late_am snapshot taken Sat Sep 19 10:33 AM Central.",
+  "Projections are from the sat_pm snapshot taken Sat Sep 19 02:50 PM Central.",
   "1 of your players have already kicked off this week; their rows show points so far."
  ],
  "method": "expected = 0.65 x Sleeper + 0.35 x baseline; baseline = (n x season avg + 4 x preseason) / (n + 4); injury multipliers Q 0.90, D 0.40, Out 0."

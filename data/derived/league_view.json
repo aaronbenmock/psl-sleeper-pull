@@ -41,7 +41,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 114.01,
+   "proj_next": 114.0,
    "future_opps": [
     7,
     1,
@@ -414,14 +414,14 @@
      "body": "Back"
     },
     {
-     "name": "D'Andre Swift",
-     "pos": "RB",
+     "name": "Puka Nacua",
+     "pos": "WR",
      "status": "Questionable",
-     "body": "Knee"
+     "body": "Hip"
     }
    ],
    "byes_next": [],
-   "proj_next": 105.04,
+   "proj_next": 105.05,
    "future_opps": [
     3,
     6,
@@ -511,7 +511,7 @@
    "efficiency": 0.82,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 95.76,
+   "proj_next": 95.68,
    "future_opps": [
     2,
     11,
@@ -569,7 +569,7 @@
    "trend": null,
    "trend_label": "n/a (1 week)",
    "sos_remaining": 108.5,
-   "power": 105.1,
+   "power": 105.0,
    "power_rank": 6,
    "pf_rank": 5
   },
@@ -698,7 +698,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 93.63,
+   "proj_next": 93.6,
    "future_opps": [
     1,
     2,
@@ -792,12 +792,6 @@
      "pos": "WR",
      "status": "Questionable",
      "body": "Chest"
-    },
-    {
-     "name": "George Kittle",
-     "pos": "TE",
-     "status": "Questionable",
-     "body": "Achilles"
     }
    ],
    "byes_next": [],
@@ -981,7 +975,7 @@
    "efficiency": 0.88,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 96.09,
+   "proj_next": 96.08,
    "future_opps": [
     11,
     5,
@@ -1139,13 +1133,7 @@
    "team": "Cheeky Nando\u2019s",
    "kind": "injured_starters",
    "severity": "medium",
-   "text": "Cheeky Nando\u2019s has 2 of 8 starters carrying injury tags: Joe Burrow Questionable (Back), D'Andre Swift Questionable (Knee)."
-  },
-  {
-   "team": "tacocats",
-   "kind": "injured_starters",
-   "severity": "medium",
-   "text": "tacocats has 2 of 8 starters carrying injury tags: Ladd McConkey Questionable (Chest), George Kittle Questionable (Achilles)."
+   "text": "Cheeky Nando\u2019s has 2 of 8 starters carrying injury tags: Joe Burrow Questionable (Back), Puka Nacua Questionable (Hip)."
   },
   {
    "team": "Be Safe, Get Jaxcinated",
@@ -1178,7 +1166,7 @@
  ],
  "projection_source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-09-19T15:33:26Z",
-  "label": "sat_late_am"
+  "taken_at_utc": "2026-09-19T19:50:04Z",
+  "label": "sat_pm"
  }
 }
