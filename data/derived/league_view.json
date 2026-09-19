@@ -138,7 +138,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 97.01,
+   "proj_next": 98.63,
    "future_opps": [
     6,
     12,
@@ -196,7 +196,7 @@
    "trend": null,
    "trend_label": "n/a (1 week)",
    "sos_remaining": 108.41,
-   "power": 126.0,
+   "power": 126.7,
    "power_rank": 2,
    "pf_rank": 2
   },
@@ -228,7 +228,7 @@
    "efficiency": 0.9,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 102.69,
+   "proj_next": 102.63,
    "future_opps": [
     5,
     9,
@@ -318,7 +318,7 @@
    "efficiency": 0.78,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 106.88,
+   "proj_next": 107.18,
    "future_opps": [
     12,
     4,
@@ -376,7 +376,7 @@
    "trend": null,
    "trend_label": "n/a (1 week)",
    "sos_remaining": 109.47,
-   "power": 116.1,
+   "power": 116.3,
    "power_rank": 4,
    "pf_rank": 4
   },
@@ -421,7 +421,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 104.92,
+   "proj_next": 105.04,
    "future_opps": [
     3,
     6,
@@ -479,7 +479,7 @@
    "trend": null,
    "trend_label": "n/a (1 week)",
    "sos_remaining": 106.91,
-   "power": 106.7,
+   "power": 106.8,
    "power_rank": 5,
    "pf_rank": 6
   },
@@ -761,6 +761,109 @@
    "pf_rank": 7
   },
   {
+   "roster_id": 1,
+   "team": "tacocats",
+   "manager": "ben_g",
+   "is_mine": false,
+   "wins": 0,
+   "losses": 2,
+   "ties": 0,
+   "h2h": "0-1",
+   "median": "0-1",
+   "allplay": "3-8",
+   "allplay_pct": 0.273,
+   "scores": [
+    95.3
+   ],
+   "avg": 95.3,
+   "last": 95.3,
+   "pf": 95.3,
+   "proj_totals": [
+    98.39
+   ],
+   "vs_proj": -3.09,
+   "bench_left": [
+    0.3
+   ],
+   "efficiency": 1.0,
+   "injured_starters": [
+    {
+     "name": "Ladd McConkey",
+     "pos": "WR",
+     "status": "Questionable",
+     "body": "Chest"
+    },
+    {
+     "name": "George Kittle",
+     "pos": "TE",
+     "status": "Questionable",
+     "body": "Achilles"
+    }
+   ],
+   "byes_next": [],
+   "proj_next": 105.4,
+   "future_opps": [
+    10,
+    3,
+    7,
+    2,
+    11,
+    5,
+    9,
+    6,
+    12,
+    4,
+    8,
+    10,
+    3,
+    7,
+    2,
+    11,
+    5
+   ],
+   "faab_used": 41,
+   "starters_now": [
+    {
+     "name": "Brock Purdy",
+     "pos": "QB"
+    },
+    {
+     "name": "Jahmyr Gibbs",
+     "pos": "RB"
+    },
+    {
+     "name": "Quinshon Judkins",
+     "pos": "RB"
+    },
+    {
+     "name": "Luther Burden",
+     "pos": "WR"
+    },
+    {
+     "name": "Rashod Bateman",
+     "pos": "WR"
+    },
+    {
+     "name": "Ladd McConkey",
+     "pos": "WR"
+    },
+    {
+     "name": "George Kittle",
+     "pos": "TE"
+    },
+    {
+     "name": "SF DEF",
+     "pos": "DEF"
+    }
+   ],
+   "trend": null,
+   "trend_label": "n/a (1 week)",
+   "sos_remaining": 108.94,
+   "power": 99.3,
+   "power_rank": 9,
+   "pf_rank": 9
+  },
+  {
    "roster_id": 11,
    "team": "RafiBomb",
    "manager": "TheRafiBombb",
@@ -847,111 +950,8 @@
    "trend_label": "n/a (1 week)",
    "sos_remaining": 107.12,
    "power": 99.3,
-   "power_rank": 9,
-   "pf_rank": 10
-  },
-  {
-   "roster_id": 1,
-   "team": "tacocats",
-   "manager": "ben_g",
-   "is_mine": false,
-   "wins": 0,
-   "losses": 2,
-   "ties": 0,
-   "h2h": "0-1",
-   "median": "0-1",
-   "allplay": "3-8",
-   "allplay_pct": 0.273,
-   "scores": [
-    95.3
-   ],
-   "avg": 95.3,
-   "last": 95.3,
-   "pf": 95.3,
-   "proj_totals": [
-    98.39
-   ],
-   "vs_proj": -3.09,
-   "bench_left": [
-    0.3
-   ],
-   "efficiency": 1.0,
-   "injured_starters": [
-    {
-     "name": "Ladd McConkey",
-     "pos": "WR",
-     "status": "Questionable",
-     "body": "Chest"
-    },
-    {
-     "name": "George Kittle",
-     "pos": "TE",
-     "status": "Questionable",
-     "body": "Achilles"
-    }
-   ],
-   "byes_next": [],
-   "proj_next": 105.16,
-   "future_opps": [
-    10,
-    3,
-    7,
-    2,
-    11,
-    5,
-    9,
-    6,
-    12,
-    4,
-    8,
-    10,
-    3,
-    7,
-    2,
-    11,
-    5
-   ],
-   "faab_used": 41,
-   "starters_now": [
-    {
-     "name": "Brock Purdy",
-     "pos": "QB"
-    },
-    {
-     "name": "Jahmyr Gibbs",
-     "pos": "RB"
-    },
-    {
-     "name": "Quinshon Judkins",
-     "pos": "RB"
-    },
-    {
-     "name": "Luther Burden",
-     "pos": "WR"
-    },
-    {
-     "name": "Rashod Bateman",
-     "pos": "WR"
-    },
-    {
-     "name": "Ladd McConkey",
-     "pos": "WR"
-    },
-    {
-     "name": "George Kittle",
-     "pos": "TE"
-    },
-    {
-     "name": "SF DEF",
-     "pos": "DEF"
-    }
-   ],
-   "trend": null,
-   "trend_label": "n/a (1 week)",
-   "sos_remaining": 108.94,
-   "power": 99.2,
    "power_rank": 10,
-   "pf_rank": 9
+   "pf_rank": 10
   },
   {
    "roster_id": 4,
@@ -1071,7 +1071,7 @@
    "efficiency": 0.88,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 93.34,
+   "proj_next": 93.58,
    "future_opps": [
     8,
     10,
@@ -1129,7 +1129,7 @@
    "trend": null,
    "trend_label": "n/a (1 week)",
    "sos_remaining": 112.48,
-   "power": 73.2,
+   "power": 73.3,
    "power_rank": 12,
    "pf_rank": 12
   }
@@ -1178,7 +1178,7 @@
  ],
  "projection_source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-09-19T12:02:43Z",
-  "label": "sat_early"
+  "taken_at_utc": "2026-09-19T15:33:26Z",
+  "label": "sat_late_am"
  }
 }

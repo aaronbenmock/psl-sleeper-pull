@@ -1,10 +1,10 @@
 {
  "week": 2,
- "generated_at_utc": "2026-09-19T12:02:43Z",
+ "generated_at_utc": "2026-09-19T15:33:26Z",
  "source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-09-19T12:02:43Z",
-  "label": "sat_early"
+  "taken_at_utc": "2026-09-19T15:33:26Z",
+  "label": "sat_late_am"
  },
  "lineup": [
   {
@@ -445,7 +445,7 @@
  ],
  "expected_total": 101.8,
  "notes": [
-  "Projections are from the sat_early snapshot taken Sat Sep 19 07:02 AM Central.",
+  "Projections are from the sat_late_am snapshot taken Sat Sep 19 10:33 AM Central.",
   "1 of your players have already kicked off this week; their rows show points so far."
  ],
  "method": "expected = 0.65 x Sleeper + 0.35 x baseline; baseline = (n x season avg + 4 x preseason) / (n + 4); injury multipliers Q 0.90, D 0.40, Out 0."
