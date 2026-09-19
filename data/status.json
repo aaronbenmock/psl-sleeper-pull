@@ -4,8 +4,8 @@
    "task": "build",
    "ok": true,
    "summary": "index.html + reports/2026/week02.html; lineup changes 2, claims 8, signals 6, accuracy weeks 1",
-   "started_utc": "2026-09-19T15:33:26Z",
-   "finished_utc": "2026-09-19T15:33:26Z",
+   "started_utc": "2026-09-19T16:37:15Z",
+   "finished_utc": "2026-09-19T16:37:15Z",
    "error": null
   },
   "pull": {
@@ -39,9 +39,9 @@
   "auto-skip": {
    "task": "auto-skip",
    "ok": true,
-   "summary": "skipped at 2026-09-18T19:10:15-05:00",
-   "started_utc": "2026-09-19T00:10:15Z",
-   "finished_utc": "2026-09-19T00:10:15Z",
+   "summary": "skipped at 2026-09-19T11:37:14-05:00",
+   "started_utc": "2026-09-19T16:37:14Z",
+   "finished_utc": "2026-09-19T16:37:14Z",
    "error": null
   }
  },
@@ -219,14 +219,30 @@
    "started_utc": "2026-09-19T15:33:26Z",
    "finished_utc": "2026-09-19T15:33:26Z",
    "error": null
+  },
+  {
+   "task": "auto-skip",
+   "ok": true,
+   "summary": "skipped at 2026-09-19T11:37:14-05:00",
+   "started_utc": "2026-09-19T16:37:14Z",
+   "finished_utc": "2026-09-19T16:37:14Z",
+   "error": null
+  },
+  {
+   "task": "build",
+   "ok": true,
+   "summary": "index.html + reports/2026/week02.html; lineup changes 2, claims 8, signals 6, accuracy weeks 1",
+   "started_utc": "2026-09-19T16:37:15Z",
+   "finished_utc": "2026-09-19T16:37:15Z",
+   "error": null
   }
  ],
  "last_run": {
   "task": "build",
   "ok": true,
   "summary": "index.html + reports/2026/week02.html; lineup changes 2, claims 8, signals 6, accuracy weeks 1",
-  "started_utc": "2026-09-19T15:33:26Z",
-  "finished_utc": "2026-09-19T15:33:26Z",
+  "started_utc": "2026-09-19T16:37:15Z",
+  "finished_utc": "2026-09-19T16:37:15Z",
   "error": null
  }
 }
