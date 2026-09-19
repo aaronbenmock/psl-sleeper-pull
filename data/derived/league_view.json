@@ -228,7 +228,7 @@
    "efficiency": 0.9,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 102.63,
+   "proj_next": 102.64,
    "future_opps": [
     5,
     9,
@@ -318,7 +318,7 @@
    "efficiency": 0.78,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 107.18,
+   "proj_next": 107.13,
    "future_opps": [
     12,
     4,
@@ -376,7 +376,7 @@
    "trend": null,
    "trend_label": "n/a (1 week)",
    "sos_remaining": 109.47,
-   "power": 116.3,
+   "power": 116.2,
    "power_rank": 4,
    "pf_rank": 4
   },
@@ -511,7 +511,7 @@
    "efficiency": 0.82,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 95.68,
+   "proj_next": 97.15,
    "future_opps": [
     2,
     11,
@@ -569,7 +569,7 @@
    "trend": null,
    "trend_label": "n/a (1 week)",
    "sos_remaining": 108.5,
-   "power": 105.0,
+   "power": 105.6,
    "power_rank": 6,
    "pf_rank": 5
   },
@@ -601,7 +601,7 @@
    "efficiency": 0.82,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 109.93,
+   "proj_next": 108.16,
    "future_opps": [
     9,
     7,
@@ -659,7 +659,7 @@
    "trend": null,
    "trend_label": "n/a (1 week)",
    "sos_remaining": 111.18,
-   "power": 104.1,
+   "power": 103.4,
    "power_rank": 7,
    "pf_rank": 8
   },
@@ -975,7 +975,7 @@
    "efficiency": 0.88,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 96.08,
+   "proj_next": 95.98,
    "future_opps": [
     11,
     5,
@@ -1065,7 +1065,7 @@
    "efficiency": 0.88,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 93.58,
+   "proj_next": 93.57,
    "future_opps": [
     8,
     10,
@@ -1166,7 +1166,7 @@
  ],
  "projection_source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-09-19T19:50:04Z",
+  "taken_at_utc": "2026-09-19T23:13:10Z",
   "label": "sat_pm"
  }
 }
