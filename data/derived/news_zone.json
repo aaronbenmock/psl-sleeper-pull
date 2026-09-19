@@ -1,7 +1,7 @@
 {
  "machine": {
   "date_central": "2026-09-19",
-  "age_hours": 0.0,
+  "age_hours": 0.9,
   "my_roster": [
    {
     "player_id": "5947",
@@ -581,6 +581,6 @@
   "week": 2,
   "source": "scheduled Claude task (desktop app)",
   "stale": false,
-  "age_days": 0.7
+  "age_days": 0.8
  }
 }
