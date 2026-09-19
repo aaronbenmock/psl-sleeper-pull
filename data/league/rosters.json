@@ -1,5 +1,5 @@
 {
- "pulled_at_utc": "2026-09-18T21:57:27Z",
+ "pulled_at_utc": "2026-09-19T11:09:39Z",
  "rosters": [
   {
    "co_owners": [
@@ -397,6 +397,7 @@
    "owner_id": "88304434777833472",
    "player_map": null,
    "players": [
+    "10218",
     "11564",
     "11620",
     "12526",
@@ -436,10 +437,10 @@
     "11564",
     "9226",
     "7543",
-    "0",
+    "11620",
     "12526",
     "7567",
-    "11620",
+    "9484",
     "PHI"
    ],
    "taxi": null
@@ -1223,7 +1224,7 @@
     "ties": 0,
     "total_moves": 0,
     "waiver_budget_used": 0,
-    "waiver_position": 12,
+    "waiver_position": 11,
     "wins": 2
    },
    "starters": [
@@ -1372,6 +1373,7 @@
     "8136",
     "8155",
     "9486",
+    "9504",
     "9511",
     "9997",
     "CHI",
@@ -1392,11 +1394,11 @@
     "ties": 0,
     "total_moves": 0,
     "waiver_budget_used": 0,
-    "waiver_position": 10,
+    "waiver_position": 12,
     "wins": 2
    },
    "starters": [
-    "11566",
+    "11560",
     "8155",
     "12507",
     "4983",
@@ -1659,7 +1661,7 @@
     "ties": 0,
     "total_moves": 0,
     "waiver_budget_used": 0,
-    "waiver_position": 11,
+    "waiver_position": 10,
     "wins": 0
    },
    "starters": [

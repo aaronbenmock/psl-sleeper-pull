@@ -138,7 +138,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 100.0,
+   "proj_next": 97.01,
    "future_opps": [
     6,
     12,
@@ -161,7 +161,7 @@
    "faab_used": 0,
    "starters_now": [
     {
-     "name": "Jayden Daniels",
+     "name": "Caleb Williams",
      "pos": "QB"
     },
     {
@@ -196,7 +196,7 @@
    "trend": null,
    "trend_label": "n/a (1 week)",
    "sos_remaining": 108.41,
-   "power": 127.2,
+   "power": 126.0,
    "power_rank": 2,
    "pf_rank": 2
   },
@@ -1071,7 +1071,7 @@
    "efficiency": 0.88,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 83.44,
+   "proj_next": 93.34,
    "future_opps": [
     8,
     10,
@@ -1106,6 +1106,10 @@
      "pos": "RB"
     },
     {
+     "name": "Rome Odunze",
+     "pos": "WR"
+    },
+    {
      "name": "Tetairoa McMillan",
      "pos": "WR"
     },
@@ -1114,8 +1118,8 @@
      "pos": "RB"
     },
     {
-     "name": "Rome Odunze",
-     "pos": "WR"
+     "name": "Tucker Kraft",
+     "pos": "TE"
     },
     {
      "name": "PHI DEF",
@@ -1125,7 +1129,7 @@
    "trend": null,
    "trend_label": "n/a (1 week)",
    "sos_remaining": 112.48,
-   "power": 69.2,
+   "power": 73.2,
    "power_rank": 12,
    "pf_rank": 12
   }
