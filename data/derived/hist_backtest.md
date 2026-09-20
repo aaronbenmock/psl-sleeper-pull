@@ -1,6 +1,6 @@
 # Historical backtest (nflverse 2015-2025, PSL scoring)
 
-Generated 2026-09-18T21:15:27Z. Status: OK.
+Generated 2026-09-20T21:36:08Z. Status: OK.
 
 ## Scoring gate (week 1, 2026)
 
@@ -364,4 +364,85 @@ FLEX view (same team-weeks): the five skill starters split into the RB/WR core (
 | WR | 0.721 | 1.208 | 0.765 | 0.942 | 1.732 |
 | TE | 0.032 | 1.202 | 0.632 | 1.185 | -0.357 |
 | RB | 0.214 | 0.993 | 0.475 | 0.921 | 2.087 |
+
+<!-- vacated-share backtest -->
+
+## Vacated target share (display-only column)
+
+Generated 2026-09-20T21:39:17Z. Select block 2015-2024, held out 2025. Expected points for the pairing come from `kblend:4`, the engine's own baseline half, and a pair counts as close when it is within 1.5 points.
+
+### Data
+
+nflverse `injuries` release: present for 2014 to 2026 (13 seasons). Rows carry `report_status` and `practice_status`; weeks 1 to 18 of each season plus the playoffs, which are filtered out. A player counts as absent when that week's report says Out or Doubtful, or when he was absent the week before and had no stat row that week.
+
+| Season | Injury rows | Weeks | Rows with a report status | Rows marked Out |
+|---|---|---|---|---|
+| 2014 | 5,078 | 21 | 4,855 | 913 |
+| 2015 | 5,232 | 21 | 5,079 | 979 |
+| 2016 | 5,115 | 21 | 3,079 | 1,043 |
+| 2017 | 5,104 | 21 | 2,585 | 897 |
+| 2018 | 5,133 | 21 | 2,430 | 920 |
+| 2019 | 5,392 | 21 | 2,534 | 1,036 |
+| 2020 | 5,661 | 21 | 2,535 | 901 |
+| 2021 | 5,587 | 22 | 2,567 | 888 |
+| 2022 | 5,682 | 22 | 2,745 | 1,078 |
+| 2023 | 5,599 | 19 | 2,721 | 996 |
+| 2024 | 6,215 | 22 | 2,829 | 1,116 |
+| 2025 | 6,068 | 22 | 2,785 | 1,382 |
+| 2026 | 433 | 2 | 166 | 75 |
+
+### Select block 2015-2024
+
+164 season-weeks, 12 simulated rosters each. The two tiebreaks chose different lineups in 681 team-weeks.
+
+| Arm | Lineup pts / team-week | Starters swapped in vs no tiebreak |
+|---|---|---|
+| none | 93.966 | 0 |
+| boom | 93.542 | 687 |
+| vacated:proportional | 93.945 | 249 |
+| vacated:historical | 93.965 | 226 |
+
+Paired bootstrap over weeks (positive = the first arm scored more):
+
+| Comparison | Mean diff | Crosses zero |
+|---|---|---|
+| vacated:proportional vs boom | +0.402 (+0.081 to +0.730, 164 weeks) | no |
+| vacated:historical vs boom | +0.423 (+0.119 to +0.736, 164 weeks) | no |
+| boom vs none | -0.423 (-0.706 to -0.144, 164 weeks) | no |
+| vacated:proportional vs none | -0.021 (-0.186 to +0.139, 164 weeks) | yes |
+| vacated:historical vs none | -0.001 (-0.159 to +0.158, 164 weeks) | yes |
+
+Estimator carried to the held-out season: **vacated:historical**.
+
+### Held-out season 2025
+
+17 weeks, touched once.
+
+| Arm | Lineup pts / team-week | Starters swapped in vs no tiebreak |
+|---|---|---|
+| none | 93.090 | 0 |
+| boom | 93.049 | 71 |
+| vacated:historical | 92.861 | 11 |
+
+| Comparison | Mean diff | Crosses zero |
+|---|---|---|
+| vacated:historical vs boom | -0.188 (-0.888 to +0.552, 17 weeks) | yes |
+| vacated:historical vs none | -0.229 (-0.418 to -0.064, 17 weeks) | no |
+| boom vs none | -0.041 (-0.700 to +0.582, 17 weeks) | yes |
+
+### Verdict
+
+- NULL RESULT. On held-out 2025 the vacated tiebreak did not beat the boom-rate tiebreak: -0.188 (-0.888 to +0.552, 17 weeks) lineup points per team-week, and the interval includes zero. The column therefore ships as information only and the close-call tiebreak stays on boom rate.
+- Against no tiebreak at all, the vacated arm scored -0.229 (-0.418 to -0.064, 17 weeks) on held-out 2025, which is measurably worse: swapping on this signal inside the close-call window costs points. That is another reason it stays a display column.
+- For scale, the tiebreak the engine uses today scored -0.041 (-0.700 to +0.582, 17 weeks) against no tiebreak on held-out 2025. On the select block it was -0.423 (-0.706 to -0.144, 164 weeks), i.e. the boom-rate rule is not itself established as an improvement; nothing here promotes it either.
+- Estimators: proportional and historical. The select block preferred historical, by 0.020 lineup points per team-week, which is well inside the noise; treat the choice between them as arbitrary.
+- The column never enters `expected` in any arm. tests/test_vacated.py asserts that a roster's expected points are identical with the column computed and with it absent.
+
+### Limitations
+
+- Expected points are the engine's k=4 baseline half, not the live 0.65 Sleeper blend; no archive of Sleeper's weekly projections exists.
+- Absence is read from the nflverse weekly injury report (Out or Doubtful) plus a carry-forward for players who drop off the report; a healthy scratch who never appears on the report is counted as available, which understates vacated share.
+- Vacated share counts absent teammates at the same position only. Cross-position flow (a TE's targets going to WRs) is not modeled.
+- Boom rate here is computed from the previous season, because the preseason model's boom_rate column is a 2026 artifact with no historical equivalent.
+- Rosters are the main harness's fixed drafted rosters; no waivers, no trades.
 

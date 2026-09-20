@@ -8,9 +8,18 @@ Baselines (what each one predicts for a player's points in week W):
                A constant per player all season.
   C. naive     Season-to-date average points before week W. Undefined in week 1.
 
+Three player pools, so every projection the engine acts on is graded, not just the ones on a
+roster:
+  started    every player started by any of the 12 teams that week (n about 96)
+  rostered   every player on any of the 12 rosters (n about 190)
+  waiver     every player NOT on any roster whose Sleeper projection for that week was at least
+             WAIVER_PROJ_MIN points (n about 100). These are the numbers the waiver engine reads
+             when it prices a claim, so until this pool existed the FAAB bids rested on a
+             projection whose error had never been measured. The cut keeps out the ~700 cached
+             players Sleeper projects near zero, whose errors would flatter every baseline.
+
 Two levels:
-  player-level  MAE, bias (actual minus predicted), Spearman rank correlation, over every player
-                started by any of the 12 teams that week (n about 96), and over all rostered players.
+  player-level  MAE, bias (actual minus predicted), Spearman rank correlation, per pool.
   lineup-level  For each of the 12 rosters, the lineup each baseline would have started from that
                 roster, scored with real points, compared with the hindsight-optimal lineup and
                 with what the manager actually started. This is the decision that matters.
@@ -27,6 +36,8 @@ from .. import store
 from .recommend import FLEX_ELIGIBLE
 
 BASELINES = ["sleeper", "preseason", "naive"]
+POOLS = ["started", "rostered", "waiver"]
+WAIVER_PROJ_MIN = 5.0      # a non-rostered player is graded only if Sleeper projected him this high
 
 
 def _mean(xs):
@@ -123,7 +134,7 @@ def week_report(ctx, week, snaps_cache):
             return m["players_points"][pid]
         return (scored.get(pid) or {}).get("actual")
 
-    started, rostered = [], []
+    started, rostered, waiver = [], [], []
     lineup_rows = []
     for m in rows:
         rid = m["roster_id"]
@@ -152,6 +163,21 @@ def week_report(ctx, week, snaps_cache):
                 chosen = chosen + rest
             line[b] = round(sum(pp.get(p) or 0 for p in chosen), 2)
         lineup_rows.append(line)
+
+    # third pool: the waiver engine's inputs. Every player Sleeper projected at WAIVER_PROJ_MIN or
+    # more who was on nobody's roster that week. The snapshots already froze a projection for all
+    # ~3,150 projected players, so no new collection was needed; only the scoring pool widened.
+    on_a_roster = set()
+    for m in rows:
+        on_a_roster.update(p for p in (m.get("players") or []) if p and p != "0")
+        on_a_roster.update(p for p in (m.get("starters") or []) if p and p != "0")
+    for pid, srow in scored.items():
+        if pid in on_a_roster or srow.get("actual") is None:
+            continue
+        pr = preds(pid)
+        if pr["sleeper"] is None or pr["sleeper"] < WAIVER_PROJ_MIN:
+            continue
+        waiver.append((pid, pr, srow.get("actual")))
 
     def level(pairs):
         out = {}
@@ -190,7 +216,8 @@ def week_report(ctx, week, snaps_cache):
     drift = [abs((scored.get(p) or {}).get("proj") - pre[p][0]) for p in pre if (scored.get(p) or {}).get("proj") is not None]
     coverage = {"starters_with_snapshot": sum(1 for p, pr, _ in started if pr["src"] == "snapshot"), "starters": len(started),
                 "posthoc_drift_mae": _mean(drift), "posthoc_drift_n": len(drift)}
-    return {"week": week, "started": level(started), "rostered": level(rostered), "lineups": lineup_summary,
+    return {"week": week, "started": level(started), "rostered": level(rostered), "waiver": level(waiver),
+            "waiver_cut": WAIVER_PROJ_MIN, "lineups": lineup_summary,
             "lineup_rows": lineup_rows, "mine": mine, "def_bias": def_bias, "coverage": coverage}
 
 
@@ -214,7 +241,7 @@ def build(ctx):
                     "preseason": player_metrics([p for _, p in pre], [r["actual"] for r, _ in pre]),
                     "naive": {"n": 0, "mae": None, "bias": None, "spearman": None}}
     pooled = {}
-    for lvl in ("started", "rostered"):
+    for lvl in POOLS:
         pooled[lvl] = {}
         for b in BASELINES:
             maes = [(w[lvl][b]["mae"], w[lvl][b]["n"]) for w in weeks if w[lvl][b]["n"]]
@@ -241,8 +268,14 @@ def build(ctx):
         honesty.append("Week 1 has no pre-kickoff snapshot (the snapshot job did not exist yet), so its Sleeper baseline is the "
                        "post-hoc value stored by the Wednesday pull. From week 2 the post-hoc drift metric tells us how much that matters.")
     honesty.append("The naive baseline (start the highest season-average scorer) is undefined in week 1 and thin until week 4.")
+    wv = (pooled.get("waiver") or {}).get("sleeper") or {}
+    if wv.get("n"):
+        honesty.append(f"The waiver pool grades the projections the FAAB bids are built on: {wv['n']} player-weeks of "
+                       f"non-rostered players Sleeper projected at {WAIVER_PROJ_MIN}+ points. A free agent is a different "
+                       "population from a starter (more part-time roles, more zeroes), so compare it with the other pools "
+                       "carefully rather than reading one MAE against the other.")
     history = {"generated_at_utc": ctx.now.isoformat().replace("+00:00", "Z"), "weeks": weeks, "pooled": pooled,
-               "fallback": fallback, "honesty": honesty, "baselines": {
+               "fallback": fallback, "honesty": honesty, "pools": POOLS, "waiver_cut": WAIVER_PROJ_MIN, "baselines": {
                    "sleeper": "Sleeper's projection, frozen pre-kickoff when a snapshot exists (else post-hoc)",
                    "preseason": "v2.0 preseason model proj_ppg (VOR ranking), constant all season",
                    "naive": "start the highest season-to-date average scorer (undefined week 1)"}}

@@ -185,13 +185,30 @@ def inj_tag(status):
     return f'<span class="tag {esc(status)}">{esc(status)}</span>' if status else ""
 
 
+def _vac_cell(r):
+    """The vacated-share cell. Display only: it is never part of Expected."""
+    sig = r.get("vacated")
+    if not sig:
+        return "<td class='n muted'>-</td>"
+    if not sig.get("n_out"):
+        return "<td class='n muted' title='No teammate at his position is ruled out.'>0.0</td>"
+    who = ", ".join(d["name"] for d in sig["out"][:3]) + ("..." if sig["n_out"] > 3 else "")
+    pct = []
+    if sig.get("absorbed_tgt"):
+        pct.append(f"{sig['absorbed_tgt'] * 100:.0f}% tgt")
+    if sig.get("absorbed_car"):
+        pct.append(f"{sig['absorbed_car'] * 100:.0f}% car")
+    return (f"<td class=n title=\"{esc(sig.get('why'))}\"><b>{num(sig.get('points'))}</b>"
+            f"<div class='small muted'>{esc(' / '.join(pct))}{' from ' + esc(who) if pct else esc(who)}</div></td>")
+
+
 def lineup_table(rows, show_slot=True, started_cols=False):
     h = ["<table><tr>" + ("<th>Slot</th>" if show_slot else "") +
          "<th>Player</th><th>Pos</th><th>Tm</th><th>Opp</th><th class=n>Sleeper</th><th class=n>Preseason</th><th class=n>Season avg</th>"
-         "<th class=n>Expected</th><th>Injury</th><th>Why</th></tr>"]
+         "<th class=n>Expected</th><th class=n>Vacated share</th><th>Injury</th><th>Why</th></tr>"]
     for r in rows:
         if not r.get("player_id"):
-            h.append(f"<tr><td>{esc(r.get('slot'))}</td><td colspan=10 class=muted>EMPTY slot</td></tr>")
+            h.append(f"<tr><td>{esc(r.get('slot'))}</td><td colspan=11 class=muted>EMPTY slot</td></tr>")
             continue
         avg = f"{num(r.get('season_avg'))} ({r.get('n_games')})" if r.get("season_avg") is not None else "-"
         extra = ""
@@ -202,6 +219,7 @@ def lineup_table(rows, show_slot=True, started_cols=False):
                  + f"<td>{esc(r.get('name'))}{extra}</td><td class=pos>{esc(r.get('pos'))}</td><td>{esc(r.get('team'))}</td>"
                  f"<td>{'BYE' if r.get('bye') else esc(r.get('opp') or '-')}</td><td class=n>{num(r.get('sleeper'))}</td>"
                  f"<td class=n>{num(r.get('preseason'))}</td><td class=n>{avg}</td><td class=n><b>{num(r.get('expected'))}</b></td>"
+                 + _vac_cell(r) +
                  f"<td>{inj_tag(r.get('injury_status'))}</td><td class=why>{esc(r.get('why'))}</td></tr>")
     h.append("</table>")
     return "".join(h)
@@ -223,11 +241,23 @@ def section_lineup(rec, ctx_completed_block):
     if rec["close_calls"]:
         L.append("<h3>Close calls</h3><ul class=tight>")
         for c in rec["close_calls"]:
-            L.append(f"<li>{esc(c['slot'])}: <b>{esc(c['starter'])}</b> over {esc(c['bench'])}. <span class=why>{esc(c['why'])}</span></li>")
+            vac = ""
+            if c.get("vacated_note"):
+                vac = (f" <span class='why muted'>{esc(c['vacated_note'])}</span>")
+            L.append(f"<li>{esc(c['slot'])}: <b>{esc(c['starter'])}</b> over {esc(c['bench'])}. "
+                     f"<span class=why>{esc(c['why'])}</span>{vac}</li>")
         L.append("</ul>")
     L.append("<details><summary>Bench and IR</summary>" + lineup_table(rec["bench"] + rec["ir"]) + "</details>")
     for n in rec["notes"]:
         L.append(f"<p class='small muted'>{esc(n)}</p>")
+    vm = rec.get("vacated_meta") or {}
+    if vm.get("available"):
+        L.append(f"<p class='small muted'>Vacated share: {esc(vm.get('note'))} Usage through week "
+                 f"{max(vm.get('weeks_of_usage') or [0])} of the nflverse weekly file, written {central(vm.get('pulled_at_utc'))}; "
+                 f"{vm.get('n_players', 0)} of your skill players matched"
+                 + (f", {vm['n_unmapped']} could not be matched to an nflverse id" if vm.get("n_unmapped") else "") + ".</p>")
+    elif vm:
+        L.append(f"<p class='small muted'>Vacated share column unavailable: {esc(vm.get('reason'))}</p>")
     L.append(f"<p class='small muted'>Method: {esc(rec['method'])}</p>")
     c = ctx_completed_block or {}
     if c.get("week"):
@@ -359,6 +389,21 @@ def section_accuracy(acc):
                      + "".join(f"<td class=n>{num(s[b]['mae'], 2)}</td><td class=n>{num(s[b]['bias'], 2)}</td><td class=n>{num(s[b]['spearman'], 3)}</td>" for b in ("sleeper", "preseason", "naive"))
                      + f"<td class=n>{s['sleeper_from_snapshot']} of {s['n_players']}</td></tr>")
         L.append("</table><p class='small muted'>MAE = average absolute miss in points. Bias = actual minus predicted (positive means the baseline ran low). Rank corr = Spearman correlation between predicted and actual order (1.0 is perfect).</p>")
+        cut = acc.get("waiver_cut", 5.0)
+        L.append(f"<h3>Player level, the waiver pool: players on nobody's roster that Sleeper projected at {cut:g}+ points</h3>"
+                 "<table><tr><th>Week</th><th class=n>n</th><th class=n>Sleeper MAE</th><th class=n>Sleeper bias</th><th class=n>Sleeper rank corr</th>"
+                 "<th class=n>Preseason MAE</th><th class=n>Preseason bias</th><th class=n>Preseason rank corr</th><th class=n>Naive MAE</th><th class=n>Naive bias</th><th class=n>Naive rank corr</th><th class=n>Sleeper from snapshot</th></tr>")
+        for w in weeks:
+            v = w.get("waiver") or {}
+            if not v.get("n_players"):
+                L.append(f"<tr><td>{w['week']}</td><td class=n>0</td><td class=n colspan=10 class=muted>no non-rostered player cleared the cut</td></tr>")
+                continue
+            L.append(f"<tr><td>{w['week']}</td><td class=n>{v['n_players']}</td>"
+                     + "".join(f"<td class=n>{num(v[b]['mae'], 2)}</td><td class=n>{num(v[b]['bias'], 2)}</td><td class=n>{num(v[b]['spearman'], 3)}</td>" for b in ("sleeper", "preseason", "naive"))
+                     + f"<td class=n>{v['sleeper_from_snapshot']} of {v['n_players']}</td></tr>")
+        L.append(f"</table><p class='small muted'>These are the projections the FAAB bids are priced from, so they are now graded like the "
+                 f"rostered ones. Free agents are a different population from starters (more part-time roles, more zeroes); read this table "
+                 f"against itself week to week rather than against the starter table.</p>")
         L.append("<h3>Lineup level, all 12 rosters: points the lineup each baseline would have started</h3>"
                  "<table><tr><th>Week</th><th class=n>Managers actually scored</th><th class=n>% of optimal</th><th class=n>Sleeper lineup</th><th class=n>% opt</th><th class=n>vs manager</th>"
                  "<th class=n>Preseason lineup</th><th class=n>% opt</th><th class=n>vs manager</th><th class=n>Naive lineup</th><th class=n>% opt</th><th class=n>vs manager</th><th class=n>Your lineup / Sleeper / Preseason / Optimal</th></tr>")
@@ -381,12 +426,15 @@ def section_accuracy(acc):
                  f"<li><b>Post-hoc drift:</b> " + (f"Wednesday's stored projection differed from the frozen snapshot by {num(cov['posthoc_drift_mae'], 2)} on average over {cov['posthoc_drift_n']} players." if cov.get("posthoc_drift_n") else "not measurable yet (needs a week with both a snapshot and a Wednesday pull).") + "</li></ul>")
         p = acc.get("pooled") or {}
         if p.get("started") and len(weeks) > 1:
-            L.append("<h3>Pooled over all weeks</h3><table><tr><th>Baseline</th><th class=n>Weeks</th><th class=n>n</th><th class=n>MAE</th><th class=n>Bias</th><th class=n>Lineup avg</th><th class=n>% of optimal</th><th class=n>vs manager</th></tr>")
-            for b in ("sleeper", "preseason", "naive"):
-                s = p["started"][b]
-                lu = (p.get("lineups") or {}).get(b) or {}
-                L.append(f"<tr><td>{b}</td><td class=n>{s['weeks']}</td><td class=n>{s['n']}</td><td class=n>{num(s['mae'], 2)}</td><td class=n>{num(s['bias'], 2)}</td><td class=n>{num(lu.get('avg_points'))}</td><td class=n>{num(lu.get('pct_of_optimal'))}</td><td class=n>{num(lu.get('vs_manager'))}</td></tr>")
-            L.append("</table>")
+            L.append("<h3>Pooled over all weeks</h3><table><tr><th>Pool</th><th>Baseline</th><th class=n>Weeks</th><th class=n>n</th><th class=n>MAE</th><th class=n>Bias</th><th class=n>Lineup avg</th><th class=n>% of optimal</th><th class=n>vs manager</th></tr>")
+            for lvl in (acc.get("pools") or ["started", "rostered", "waiver"]):
+                for b in ("sleeper", "preseason", "naive"):
+                    st = (p.get(lvl) or {}).get(b) or {}
+                    lu = ((p.get("lineups") or {}).get(b) or {}) if lvl == "started" else {}
+                    L.append(f"<tr><td>{esc(lvl)}</td><td>{b}</td><td class=n>{st.get('weeks', 0)}</td><td class=n>{st.get('n', 0)}</td>"
+                             f"<td class=n>{num(st.get('mae'), 2)}</td><td class=n>{num(st.get('bias'), 2)}</td>"
+                             f"<td class=n>{num(lu.get('avg_points'))}</td><td class=n>{num(lu.get('pct_of_optimal'))}</td><td class=n>{num(lu.get('vs_manager'))}</td></tr>")
+            L.append("</table><p class='small muted'>Lineup columns apply to the started pool only; the rostered and waiver pools are player-level accuracy.</p>")
     elif acc.get("fallback"):
         f = acc["fallback"]
         L.append(f"<h3>Week {f['week']}, {esc(f['scope'])}, n = {f['n']} players</h3><table><tr><th>Baseline</th><th class=n>n</th><th class=n>MAE</th><th class=n>Bias</th><th class=n>Rank corr</th></tr>")

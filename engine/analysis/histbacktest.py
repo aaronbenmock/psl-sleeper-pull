@@ -466,6 +466,13 @@ def run(data_dir=None, download=True, quick=False):
         "Week 1 is not evaluated (no in-season data); every model falls back to the prior-season number there.",
         "Injury status, weather, Vegas totals and depth-chart news are not in the data.",
     ]
+    # ---- the vacated-share column's own backtest, written into the same file
+    say("vacated-share tiebreak backtest")
+    try:
+        from . import histvacated
+        out["vacated_full"] = histvacated.run(download=download, quiet=True)
+    except Exception as e:  # noqa: BLE001  a failure here must not lose the main run
+        say(f"vacated backtest skipped: {e}")
     out["status"] = "OK"
     out["runtime_seconds"] = round(time.time() - t0, 1)
     say(f"done in {out['runtime_seconds']} s")
@@ -678,6 +685,13 @@ def _write(out, log):
     for pos, c in out["volume_coefs"].items():
         md.append(f"| {pos} | {c['intercept']} | {c['targets']} | {c['carries']} | {c['rz']} | {c['pass_att']} |")
     md.append("")
+    vout = out.pop("vacated_full", None)
+    if vout:
+        from . import histvacated
+        md += histvacated.markdown(vout)
+        blocks += histvacated.blocks(vout)
+        headline += histvacated.headline(vout)
+        out["vacated"] = {k: v for k, v in vout.items() if k != "injuries_coverage"}
     out["scope_line"] = scope_line
     out["headline"] = headline
     out["blocks"] = blocks

@@ -36,7 +36,8 @@ For each player on Aaron's roster for the upcoming week:
 - The lineup is filled greedily by expected points: QB, then two RB, two WR, two FLEX from the
   best remaining RB/WR/TE, then DEF. A "close call" is any starter within 1.5 points of a bench
   player eligible for that slot; the preseason boom rate (share of weeks in the positional top 12)
-  is quoted as the tiebreak.
+  is quoted as the tiebreak. The vacated target share column (section 10) is shown beside these
+  rows but is not part of `expected` and does not change the tiebreak.
 
 Projection source: the newest pre-kickoff snapshot of the week when one exists, otherwise the
 Wednesday pull. The page says which.
@@ -102,9 +103,19 @@ Three named baselines, each asked to predict every player's points for a complet
 | Preseason | `proj_ppg` from the v2.0 VOR rankings, the same number all season |
 | Naive | The player's season-to-date average before that week (undefined in week 1) |
 
-Player level, over every starter the 12 teams used that week (about 96) and over everyone
-rostered (about 190): MAE (average absolute miss), bias (actual minus predicted), Spearman rank
-correlation (does the ordering hold).
+Player level, over three pools: every starter the 12 teams used that week (about 96), everyone
+rostered (about 190), and the waiver pool, which is every player on nobody's roster whose Sleeper
+projection for that week was 5.0 points or more (about 60 in week 1). Each pool gets MAE (average
+absolute miss), bias (actual minus predicted) and Spearman rank correlation (does the ordering hold).
+
+The waiver pool exists because the waiver engine recommends players nobody rosters and prices FAAB
+bids off their projections, and until it was added none of those projections were ever graded. The
+snapshots already freeze a projection for every projected player (about 3,150) and the weekly scored
+file carries actual points for every cached player (about 840), so widening the scoring pool needed
+no new collection. The 5.0 cut keeps out the several hundred players Sleeper projects near zero,
+whose near-zero errors would flatter every baseline. Free agents are a different population from
+starters (more part-time roles, more zeroes), so the waiver MAE is meant to be read against itself
+week to week rather than against the starter MAE.
 
 Lineup level, the decision that matters: for each of the 12 rosters, the lineup each baseline
 would have started, scored with real points, against the hindsight-optimal lineup and against
@@ -126,9 +137,12 @@ The page stores its build time. A script compares it with the clock on every vie
 
 ## 8. What is deliberately not modeled yet
 
-Matchup strength (opponent defense vs position), weather, Vegas totals, snap and target shares,
-coordinator changes, and any calibration of the constants above. See the forecasting proposal in
-the Fantasy-Football folder for what each would be worth and what it would cost.
+Matchup strength (opponent defense vs position), weather, Vegas totals, snap shares, coordinator
+changes, and any calibration of the constants above. See the forecasting proposal in the
+Fantasy-Football folder for what each would be worth and what it would cost.
+
+Target and carry shares are now collected and displayed (section 10), but they are still not
+modeled: they feed a display column only.
 
 ## 9. Historical backtest harness (offline, never scheduled)
 
@@ -165,3 +179,96 @@ touches the Sleeper API or the files the scheduled jobs write. It is stdlib-only
   adjustment at DEF.
 - **What it cannot do**: tune `w`, the weight on Sleeper's number, because no archive of Sleeper's
   weekly projections exists. It tunes only the baseline half that Sleeper is blended against.
+
+## 10. Vacated target share (display only)
+
+A column on the start/sit rows and the close-calls list saying how much of an absent teammate's
+usage this player is likely to absorb, in points. **It is not part of `expected` and it does not
+change the close-call tiebreak.** That constraint is not a style choice: the ten-season backtest
+found opponent and role adjustments indistinguishable from zero on held-out data outside DEF, so
+nothing new enters the projection until it has been measured on this league's own results. The
+separate backtest below says the same thing about this signal in particular. `tests/test_vacated.py`
+builds the real lineup twice, once with the column and once with it stubbed out, and asserts that
+every expected number and the slot order are identical.
+
+### What it computes
+
+For each rostered WR, RB and TE, for the upcoming week:
+
+1. **Vacated share.** Sum the prior usage share of every teammate at the same position who is Out,
+   Doubtful, on IR or PUP, suspended, or carrying an inactive Sleeper roster status. Prior share is
+   his recency-weighted (decay 0.1) season-to-date share of the team's targets, and of the team's
+   carries for an RB, shrunk to his previous-season share with k = 4, the same shrinkage the
+   baseline in section 2 uses.
+2. **Expected absorption**, by one of two estimators:
+   - *Proportional*: the vacated share is split among the remaining teammates at that position in
+     proportion to their own prior shares.
+   - *Historical*: for each absent teammate, the share this player actually took in past games where
+     that teammate was out, minus his share in games where the teammate played, capped at what was
+     actually vacated. Needs 3 games on each side; falls back to proportional otherwise.
+
+   The 2015-2024 select block preferred *historical* by 0.02 lineup points a team-week, which is
+   well inside the noise, so the choice between the two is effectively arbitrary. The live column
+   uses historical (`ESTIMATOR` in `engine/analysis/vacated.py`).
+3. **Points equivalent.** Absorbed share x the team's recency-weighted opportunities per game x the
+   player's own shrunk points per target (or per carry), so the column reads in points like
+   everything else on the row.
+
+Position groups are narrow on purpose: a WR's vacated share counts absent WRs only. Targets vacated
+by a TE do flow to WRs in reality; modelling that would need a cross-position absorption matrix the
+backtest has no power to fit, so the narrow reading is used and stated. [Guessing] on the group
+definition and on the three constants (decay 0.1, k = 4, 12 pseudo-opportunities on points per
+opportunity); [Certain] that the column is display only.
+
+### Where the data comes from
+
+- **Usage**: nflverse weekly player stats, the same public source the historical harness uses.
+  Sleeper publishes no target or carry counts, so a new collector, `python engine.py usage`,
+  downloads the current and previous season's weekly file (about 0.6 MB) and writes
+  `data/usage/<season>/usage.json`, which is committed. It runs inside the Wednesday pull, after
+  every game of the previous week is final. `build` reads only that file, so the dashboard build
+  stays a no-network job; if nflverse is unreachable the previous file stays in place and the column
+  goes stale rather than wrong.
+- **Absence, live**: the daily Sleeper injury tracker, which already records the injury and roster
+  status of every fantasy-relevant player.
+- **Absence, historical**: the nflverse `injuries` release, added to the fetch list in
+  `engine/history.py`. It is present for every season from 2014 through 2026, so the backtest window
+  did not have to be cut; `history.injuries_coverage()` reports it per season and the write-up prints
+  the table. A player counts as absent in week W when that week's report says Out or Doubtful, or
+  when he was absent in W-1 and had no stat row in W-1, which covers players who drop off the report
+  once they land on IR. Everything that rule reads is published before kickoff. From 2016 the report
+  only carries a status for Out, Doubtful and Questionable, so a healthy scratch who never appears on
+  it is counted as available: that understates vacated share, it never overstates it.
+- **Id mapping**: Sleeper ids to nflverse gsis ids, from Sleeper's own `gsis_id` field, then the
+  preseason rankings file (which carries both), then a normalized name-and-team match. In week 2 of
+  2026, 651 ids mapped and none of the roster was left unmatched.
+
+### What the backtest found
+
+Full tables in `data/derived/hist_backtest.md` and on the dashboard's Backtest tab; the command is
+`python engine.py vacatedbacktest` (a full `histbacktest` also runs it). Seasons 2015 to 2024
+selected the estimator; 2025 was held out and touched once. Three arms, all starting from the same
+lineup chosen by expected points and allowed to swap only inside the same 1.5-point close-call
+window: no tiebreak, the current boom-rate tiebreak, and the vacated tiebreak.
+
+**Null result.** On held-out 2025 the vacated tiebreak did not beat the boom-rate tiebreak: -0.19
+lineup points per team-week, 95% interval -0.89 to +0.55, over 17 weeks. Against no tiebreak at all
+it was -0.23 (-0.42 to -0.06), i.e. measurably worse: swapping starters on this signal inside the
+close-call window costs points. The column therefore ships as information only and the tiebreak
+stays on boom rate. For scale, the boom-rate rule itself was -0.04 (-0.70 to +0.58) against no
+tiebreak on 2025 and -0.42 (-0.71 to -0.14) on the select block, so nothing here promotes it either;
+whether that rule earns its place is its own question, not this one.
+
+The column is still worth showing. It is the only place on the page that says, in points, what a
+teammate's absence is worth, and the week-2 Sutton-over-Boston miss recorded in the project status is
+exactly the kind of role change it makes visible.
+
+### Limits, stated rather than buried
+
+- The backtest replays the engine's k = 4 baseline half, not the live 0.65 Sleeper blend. No archive
+  of Sleeper's weekly projections exists, so the live blend cannot be replayed at all.
+- Boom rate in the backtest is computed from the previous season. The preseason model's `boom_rate`
+  column is a 2026 artifact with no historical equivalent.
+- Rosters in the simulation are drafted from prior-season points per game and held fixed; no waivers,
+  no trades.
+- A player with no nflverse id match gets no column rather than a zero, and the page says how many.

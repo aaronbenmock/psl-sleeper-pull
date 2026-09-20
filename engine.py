@@ -3,12 +3,15 @@
 
   python engine.py pull        Wednesday weekly pull (v1.2), then build
   python engine.py injuries    daily injury tracker, then build
+  python engine.py usage       nflverse weekly target/carry shares for the vacated-share column, then build
   python engine.py snapshot    pre-kickoff projection snapshot, then build
   python engine.py build       analysis + dashboard only, no network
   python engine.py auto        decide from the current Central time which task the cron meant
   python engine.py synthesis   optional news synthesis via the Anthropic API (needs ANTHROPIC_API_KEY)
   python engine.py full        pull + injuries + snapshot + build (first run after a push)
   python engine.py backtest    same as build (the backtest runs inside every build); prints its verdict
+  python engine.py vacatedbacktest  backtest of the vacated-share tiebreak on nflverse 2015-2025;
+                               appends its section to data/derived/hist_backtest.md
   python engine.py histbacktest  historical backtest on nflverse 2014-2025 (downloads about 240 MB to
                                data/history/ on first run, gitignored); writes data/derived/hist_backtest.*
                                and then rebuilds the dashboard so the Backtest tab shows it. Never scheduled.
@@ -53,6 +56,11 @@ def task_injuries(args):
     return _run_task("injuries", injuries.run)
 
 
+def task_usage(args):
+    from engine import usage
+    return _run_task("usage", usage.run)
+
+
 def task_snapshot(args):
     from engine import snapshot
     return _run_task("snapshot", snapshot.run, week_override=args.week)
@@ -73,6 +81,11 @@ def task_histbacktest(args):
     return _run_task("histbacktest", histbacktest.run, download=not args.no_download)
 
 
+def task_vacatedbacktest(args):
+    from engine.analysis import histvacated
+    return _run_task("vacatedbacktest", histvacated.main, download=not args.no_download)
+
+
 def decide_auto():
     """Map the current Central time onto the intended task. Returns list of task names."""
     local = now_central()
@@ -89,7 +102,8 @@ def decide_auto():
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("task", choices=["pull", "injuries", "snapshot", "build", "auto", "synthesis", "full", "selftest", "backtest", "histbacktest"])
+    ap.add_argument("task", choices=["pull", "injuries", "usage", "snapshot", "build", "auto", "synthesis", "full",
+                                     "selftest", "backtest", "histbacktest", "vacatedbacktest"])
     ap.add_argument("--no-download", action="store_true", help="histbacktest: use only the cached data/history files")
     ap.add_argument("--completed-week", type=int)
     ap.add_argument("--week", type=int)
@@ -112,6 +126,8 @@ def main():
             store.record_run("auto-skip", True, f"skipped at {local.isoformat()}", iso(now_utc()), iso(now_utc()))
         for t in tasks:
             ok = {"injuries": task_injuries, "pull": task_pull, "snapshot": task_snapshot}[t](args) and ok
+        if "pull" in tasks:
+            task_usage(args)      # usage feeds the display-only vacated column; a failure must not fail the pull
         if "pull" in tasks and os.environ.get("ANTHROPIC_API_KEY"):
             task_build(args)          # synthesis reads the derived files, so build first
             ok = task_synthesis(args) and ok
@@ -119,16 +135,21 @@ def main():
         ok = task_pull(args)
         ok = task_injuries(args) and ok
         ok = task_snapshot(args) and ok
+        task_usage(args)
     elif args.task == "pull":
         ok = task_pull(args)
     elif args.task == "injuries":
         ok = task_injuries(args)
+    elif args.task == "usage":
+        ok = task_usage(args)
     elif args.task == "snapshot":
         ok = task_snapshot(args)
     elif args.task == "synthesis":
         ok = task_synthesis(args)
     elif args.task == "histbacktest":
         ok = task_histbacktest(args)
+    elif args.task == "vacatedbacktest":
+        ok = task_vacatedbacktest(args)
 
     if not args.no_build:
         built = task_build(args)

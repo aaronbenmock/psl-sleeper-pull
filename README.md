@@ -13,7 +13,7 @@ Windows shortcut you can drop on the desktop).
 | When | Job | What it does |
 |---|---|---|
 | Every day 6:00 AM | Injury tracker | Pulls Sleeper's injury and practice fields for every rostered player in the league, diffs against yesterday, refreshes rosters. |
-| Wednesday 10:00 AM | Weekly pull | Last week's projected vs actual, this week's lineup, the waiver wire, the whole league's rosters, matchups and transactions. Then the waiver digest with FAAB bids. |
+| Wednesday 10:00 AM | Weekly pull | Last week's projected vs actual, this week's lineup, the waiver wire, the whole league's rosters, matchups and transactions. Then the waiver digest with FAAB bids, and the nflverse usage pull that feeds the vacated target share column. |
 | Thu, Fri, Sat, Sun, Mon at 10:30 AM and 6:00 PM, plus Sunday 7:30 AM | Pre-kickoff snapshot | Freezes Sleeper's projections for every player before games start, so projection accuracy can be measured honestly later. |
 | After every job | Build | Rebuilds the dashboard and the weekly archive page from the committed data. No network. |
 | Wednesday 12:30 PM (Aaron's PC) | News synthesis | A scheduled Claude task reads the committed data, does a web news pass, writes the synthesis box, rebuilds, pushes. |
@@ -26,9 +26,9 @@ cannot make the Sunday snapshot land after kickoff. Details: `docs/RUNBOOK.md`.
 
 | Path | Contents |
 |---|---|
-| `engine.py` | Single entry point: `pull`, `injuries`, `snapshot`, `build`, `auto`, `synthesis`, `full`, `selftest`, `histbacktest` (offline historical backtest, see docs/METHOD.md section 9) |
+| `engine.py` | Single entry point: `pull`, `injuries`, `usage`, `snapshot`, `build`, `auto`, `synthesis`, `full`, `selftest`, `histbacktest` (offline historical backtest, docs/METHOD.md section 9), `vacatedbacktest` (the vacated-share tiebreak, section 10) |
 | `data/history/` | nflverse cache for the historical backtest (gitignored, about 240 MB); `manifest.json` is committed and lists every file's URL, sha256, rows and columns |
-| `tests/` | `python -m unittest tests.test_histbacktest -v`: scoring hand checks, the week-1 gate, leakage and determinism |
+| `tests/` | `python -m unittest tests.test_histbacktest tests.test_vacated -v`: scoring hand checks, the week-1 gate, leakage and determinism, the vacated-share arithmetic, and the test that the vacated column never alters expected points |
 | `engine/` | The code (stdlib-only Python, no packages to install) |
 | `reference/` | Preseason rankings v2.0, team defense rankings, 2026 schedule, week 1 Sleeper UI export |
 | `data/latest.json`, `data/latest.md` | The weekly pull, same shape as v1.1 plus validation fields |
@@ -36,6 +36,7 @@ cannot make the Sunday snapshot land after kickoff. Details: `docs/RUNBOOK.md`.
 | `data/weeks/2026/weekNN_scored.json` | Every player's projected and actual points for each completed week |
 | `data/snapshots/2026/` | Frozen pre-kickoff projections, one file per snapshot, plus an index |
 | `data/injuries/2026/` | Daily injury tables and day-over-day diffs |
+| `data/usage/2026/usage.json` | Weekly target and carry shares from nflverse, plus last season's, for the vacated target share column. Written by the Wednesday pull; the dashboard build reads it offline |
 | `data/synthesis/` | The weekly news synthesis (markdown plus a small metadata file) |
 | `data/derived/` | What the dashboard shows: lineup, waivers, league view, accuracy history, validation |
 | `data/status.json` | Last result of every job; the dashboard's job strip reads it |
@@ -60,12 +61,16 @@ live, so a bookmarked page can be old but it can never quietly lie about when it
 
 Start/sit blends Sleeper's weekly projection (65%) with a baseline (35%) that starts at the
 preseason model's projected points per game and drifts toward the player's season average as
-games accumulate, then applies an injury multiplier. Waiver bids measure how much a player
+games accumulate, then applies an injury multiplier. A separate, display-only column says how many
+points of an absent teammate's targets or carries each skill player is likely to absorb; it is
+never added to the projection, because the ten-season backtest could not tell it apart from the
+tiebreak already in use. Waiver bids measure how much a player
 would lift the weekly starting lineup after the add and the drop, price that at $0.60 per
 point per remaining week, add a demand premium from Sleeper's add counts, and cap against the
 remaining budget. Accuracy is tracked against three named baselines every week: Sleeper's own
 projection (frozen pre-kickoff), the preseason VOR model, and a naive "start the highest
-season average" rule. Full detail in `docs/METHOD.md`.
+season average" rule, over three pools: started, rostered, and the non-rostered players Sleeper
+projected at 5+ points, which is what the waiver bids are priced from. Full detail in `docs/METHOD.md`.
 
 ## Running it by hand
 
@@ -77,3 +82,5 @@ works: `python engine.py build`.
 
 - v1.0, v1.1 (2026-09-16): weekly Wednesday pull, `sleeper_weekly_pull.py`
 - v1.2 / engine v2.0 (2026-09-18): this engine. The old script name still works as a shim.
+- v2.1 (2026-09-20): vacated target share (display-only column, backtested and null), the nflverse
+  usage collector and the nflverse injuries release, and a third accuracy pool for waiver targets.

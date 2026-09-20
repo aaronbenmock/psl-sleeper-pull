@@ -88,7 +88,7 @@ def pull_position_rows(kind, season, week):
 SLIM_FIELDS = ["first_name", "last_name", "full_name", "position", "fantasy_positions", "team", "status",
                "active", "injury_status", "injury_body_part", "injury_start_date", "injury_notes",
                "practice_participation", "practice_description", "news_updated", "depth_chart_order",
-               "depth_chart_position", "years_exp", "age", "search_rank", "number"]
+               "depth_chart_position", "years_exp", "age", "search_rank", "number", "gsis_id"]
 
 
 def slim_players(players, keep_ids=()):

@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-18T21:15:27Z",
+ "generated_at_utc": "2026-09-20T21:36:08Z",
  "gate": {
   "ok": true,
   "tolerance": 0.1,
@@ -214,11 +214,11 @@
      "ours": 8.0,
      "diff": 0.0,
      "category_diffs": {
-      "def_st_ff": [
+      "def_st_fum_rec": [
        null,
        1.0
       ],
-      "def_st_fum_rec": [
+      "def_st_ff": [
        null,
        1.0
       ]
@@ -9433,7 +9433,7 @@
   "Injury status, weather, Vegas totals and depth-chart news are not in the data."
  ],
  "status": "OK",
- "runtime_seconds": 25.5,
+ "runtime_seconds": 40.0,
  "log": [
   "gate: offense 357 compared, 0 mismatches; DEF 32 compared, 0 mismatches",
   "seasons loaded [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]; offensive player-weeks 2015-2025 63,387, defense-weeks 5,790",
@@ -9447,14 +9447,163 @@
   "B6.7 role change",
   "leakage test",
   "determinism test",
-  "done in 25.5 s"
+  "vacated-share tiebreak backtest",
+  "done in 40.0 s"
  ],
+ "vacated": {
+  "generated_at_utc": "2026-09-20T21:39:17Z",
+  "select_seasons": [
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024
+  ],
+  "test_season": 2025,
+  "base_model": "kblend:4",
+  "close_gap": 1.5,
+  "estimators": [
+   "proportional",
+   "historical"
+  ],
+  "select": {
+   "arms": [
+    "none",
+    "boom",
+    "vacated:proportional",
+    "vacated:historical"
+   ],
+   "swaps": {
+    "none": 0,
+    "boom": 687,
+    "vacated:proportional": 249,
+    "vacated:historical": 226
+   },
+   "n_disagree_team_weeks": 681,
+   "lineup_pts_per_team_week": {
+    "none": 93.966,
+    "boom": 93.542,
+    "vacated:proportional": 93.945,
+    "vacated:historical": 93.965
+   },
+   "n_weeks": 164
+  },
+  "select_bootstrap": {
+   "vacated:proportional vs boom": {
+    "n_weeks": 164,
+    "mean": 0.402,
+    "lo": 0.081,
+    "hi": 0.73,
+    "crosses_zero": false,
+    "n_boot": 4000
+   },
+   "vacated:historical vs boom": {
+    "n_weeks": 164,
+    "mean": 0.423,
+    "lo": 0.119,
+    "hi": 0.736,
+    "crosses_zero": false,
+    "n_boot": 4000
+   },
+   "boom vs none": {
+    "n_weeks": 164,
+    "mean": -0.423,
+    "lo": -0.706,
+    "hi": -0.144,
+    "crosses_zero": false,
+    "n_boot": 4000
+   },
+   "vacated:proportional vs none": {
+    "n_weeks": 164,
+    "mean": -0.021,
+    "lo": -0.186,
+    "hi": 0.139,
+    "crosses_zero": true,
+    "n_boot": 4000
+   },
+   "vacated:historical vs none": {
+    "n_weeks": 164,
+    "mean": -0.001,
+    "lo": -0.159,
+    "hi": 0.158,
+    "crosses_zero": true,
+    "n_boot": 4000
+   }
+  },
+  "selected_estimator": "vacated:historical",
+  "test": {
+   "arms": [
+    "none",
+    "boom",
+    "vacated:historical"
+   ],
+   "swaps": {
+    "none": 0,
+    "boom": 71,
+    "vacated:historical": 11
+   },
+   "n_disagree_team_weeks": 74,
+   "lineup_pts_per_team_week": {
+    "none": 93.09,
+    "boom": 93.049,
+    "vacated:historical": 92.861
+   },
+   "n_weeks": 17
+  },
+  "test_bootstrap": {
+   "vacated:historical vs boom": {
+    "n_weeks": 17,
+    "mean": -0.188,
+    "lo": -0.888,
+    "hi": 0.552,
+    "crosses_zero": true,
+    "n_boot": 4000
+   },
+   "vacated:historical vs none": {
+    "n_weeks": 17,
+    "mean": -0.229,
+    "lo": -0.418,
+    "hi": -0.064,
+    "crosses_zero": false,
+    "n_boot": 4000
+   },
+   "boom vs none": {
+    "n_weeks": 17,
+    "mean": -0.041,
+    "lo": -0.7,
+    "hi": 0.582,
+    "crosses_zero": true,
+    "n_boot": 4000
+   }
+  },
+  "notes": [],
+  "constants": {
+   "decay": 0.1,
+   "prior_games": 4,
+   "ppo_prior_opps": 12,
+   "min_hist_games": 3
+  },
+  "limitations": [
+   "Expected points are the engine's k=4 baseline half, not the live 0.65 Sleeper blend; no archive of Sleeper's weekly projections exists.",
+   "Absence is read from the nflverse weekly injury report (Out or Doubtful) plus a carry-forward for players who drop off the report; a healthy scratch who never appears on the report is counted as available, which understates vacated share.",
+   "Vacated share counts absent teammates at the same position only. Cross-position flow (a TE's targets going to WRs) is not modeled.",
+   "Boom rate here is computed from the previous season, because the preseason model's boom_rate column is a 2026 artifact with no historical equivalent.",
+   "Rosters are the main harness's fixed drafted rosters; no waivers, no trades."
+  ],
+  "runtime_seconds": 14.9
+ },
  "scope_line": "63,387 offensive player-weeks and 5,790 defense-weeks, seasons 2015-2025. Fit 2015-2019, select 2020-2024, held-out 2025. 36 configurations tried.",
  "headline": [
   "Scoring gate: 357 offensive players and 32 defenses reproduced Sleeper's week-1 2026 points, 0 mismatches.",
   "vol:0.5:4:0.1+opp:0.5:4:0.2 beat the naive baseline on lineup points: +1.30 per team-week, 95% interval +0.14 to +2.50 over 17 weeks; MAE -0.115 (-0.252 to -0.012).",
   "vol:0.5:4:0.1+opp:0.5:4:0.2 did NOT beat the engine's k=4 baseline half on lineup points: +0.20 per team-week, 95% interval -0.73 to +1.09 over 17 weeks; MAE -0.029 (-0.046 to -0.012).",
-  "Leakage test passed (32 week x model checks); determinism test passed."
+  "Leakage test passed (32 week x model checks); determinism test passed.",
+  "NULL RESULT. On held-out 2025 the vacated tiebreak did not beat the boom-rate tiebreak: -0.188 (-0.888 to +0.552, 17 weeks) lineup points per team-week, and the interval includes zero. The column therefore ships as information only and the close-call tiebreak stays on boom rate."
  ],
  "blocks": [
   {
@@ -11374,6 +11523,157 @@
      "Share leads %",
      3
     ]
+   ]
+  },
+  {
+   "group": "vacated",
+   "title": "Vacated share: tiebreak arms on the select block 2015-2024 (164 season-weeks)",
+   "rows": [
+    {
+     "arm": "none",
+     "pts": 93.966,
+     "swaps": 0
+    },
+    {
+     "arm": "boom",
+     "pts": 93.542,
+     "swaps": 687
+    },
+    {
+     "arm": "vacated:proportional",
+     "pts": 93.945,
+     "swaps": 249
+    },
+    {
+     "arm": "vacated:historical",
+     "pts": 93.965,
+     "swaps": 226
+    }
+   ],
+   "cols": [
+    [
+     "arm",
+     "Tiebreak arm"
+    ],
+    [
+     "pts",
+     "Lineup pts / team-week",
+     3
+    ],
+    [
+     "swaps",
+     "Starters swapped in",
+     0
+    ]
+   ],
+   "text": "Every arm starts from the same lineup chosen by expected points and may only swap inside the 1.5-point close-call window. 'none' applies no tiebreak at all."
+  },
+  {
+   "group": "vacated",
+   "title": "Vacated share: paired bootstrap over weeks (positive = the first arm scored more)",
+   "rows": [
+    {
+     "pair": "vacated:proportional vs boom",
+     "mean": 0.402,
+     "lo": 0.081,
+     "hi": 0.73,
+     "weeks": 164,
+     "zero": "no"
+    },
+    {
+     "pair": "vacated:historical vs boom",
+     "mean": 0.423,
+     "lo": 0.119,
+     "hi": 0.736,
+     "weeks": 164,
+     "zero": "no"
+    },
+    {
+     "pair": "boom vs none",
+     "mean": -0.423,
+     "lo": -0.706,
+     "hi": -0.144,
+     "weeks": 164,
+     "zero": "no"
+    },
+    {
+     "pair": "vacated:proportional vs none",
+     "mean": -0.021,
+     "lo": -0.186,
+     "hi": 0.139,
+     "weeks": 164,
+     "zero": "yes"
+    },
+    {
+     "pair": "vacated:historical vs none",
+     "mean": -0.001,
+     "lo": -0.159,
+     "hi": 0.158,
+     "weeks": 164,
+     "zero": "yes"
+    },
+    {
+     "pair": "vacated:historical vs boom (held-out 2025)",
+     "mean": -0.188,
+     "lo": -0.888,
+     "hi": 0.552,
+     "weeks": 17,
+     "zero": "yes"
+    },
+    {
+     "pair": "vacated:historical vs none (held-out 2025)",
+     "mean": -0.229,
+     "lo": -0.418,
+     "hi": -0.064,
+     "weeks": 17,
+     "zero": "no"
+    },
+    {
+     "pair": "boom vs none (held-out 2025)",
+     "mean": -0.041,
+     "lo": -0.7,
+     "hi": 0.582,
+     "weeks": 17,
+     "zero": "yes"
+    }
+   ],
+   "cols": [
+    [
+     "pair",
+     "Comparison"
+    ],
+    [
+     "mean",
+     "Mean diff",
+     3
+    ],
+    [
+     "lo",
+     "95% lo",
+     3
+    ],
+    [
+     "hi",
+     "95% hi",
+     3
+    ],
+    [
+     "weeks",
+     "Weeks",
+     0
+    ],
+    [
+     "zero",
+     "Crosses zero"
+    ]
+   ],
+   "text": "'yes' in the last column means the difference cannot be told apart from zero.",
+   "notes": [
+    "NULL RESULT. On held-out 2025 the vacated tiebreak did not beat the boom-rate tiebreak: -0.188 (-0.888 to +0.552, 17 weeks) lineup points per team-week, and the interval includes zero. The column therefore ships as information only and the close-call tiebreak stays on boom rate.",
+    "Against no tiebreak at all, the vacated arm scored -0.229 (-0.418 to -0.064, 17 weeks) on held-out 2025, which is measurably worse: swapping on this signal inside the close-call window costs points. That is another reason it stays a display column.",
+    "For scale, the tiebreak the engine uses today scored -0.041 (-0.700 to +0.582, 17 weeks) against no tiebreak on held-out 2025. On the select block it was -0.423 (-0.706 to -0.144, 164 weeks), i.e. the boom-rate rule is not itself established as an improvement; nothing here promotes it either.",
+    "Estimators: proportional and historical. The select block preferred historical, by 0.020 lineup points per team-week, which is well inside the noise; treat the choice between them as arbitrary.",
+    "The column never enters `expected` in any arm. tests/test_vacated.py asserts that a roster's expected points are identical with the column computed and with it absent."
    ]
   }
  ]

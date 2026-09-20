@@ -34,7 +34,7 @@ on:
         required: true
         default: "full"
         type: choice
-        options: [full, pull, injuries, snapshot, build, synthesis, auto]
+        options: [full, pull, injuries, usage, snapshot, build, synthesis, auto]
       completed_week:
         description: "pull only: override the completed week (blank = auto-detect)"
         required: false

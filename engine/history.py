@@ -9,6 +9,10 @@ Files per season S (2014..2026):
   play_by_play_S.csv.gz     nflverse play-by-play, needed for the defense categories that the weekly
                             stats do not carry (three-and-outs, fourth-down stops, points allowed)
                             and for 40-plus-yard touchdowns and red-zone touches.
+  injuries_S.csv            nflverse weekly injury reports (report_status, practice_status and the
+                            body parts), the absence signal behind the vacated target share column.
+                            Released for 2009 onward; coverage per season is asserted by
+                            injuries_coverage() and the backtest window is cut to whatever is real.
 
 Run: python engine.py histbacktest --download   (or histbacktest alone, which downloads what is missing)
 """
@@ -30,6 +34,7 @@ HIST_DIR = os.path.join(config.DATA_DIR, "history")
 ASSETS = {
     "stats": ("stats_player/stats_player_week_{s}.csv", "stats_player_week_{s}.csv"),
     "pbp": ("pbp/play_by_play_{s}.csv.gz", "play_by_play_{s}.csv.gz"),
+    "injuries": ("injuries/injuries_{s}.csv", "injuries_{s}.csv"),
 }
 
 
@@ -105,7 +110,38 @@ def fetch(kind, season, force=False, quiet=False):
     return path
 
 
-def ensure(seasons=None, kinds=("stats", "pbp"), quiet=False):
+def injuries_coverage(seasons=None):
+    """Per season: is the injuries file cached, how many rows, how many weeks, how many rows carry a
+    report_status. Used to state the real backtest window instead of silently filling gaps."""
+    import csv as _csv
+    from collections import defaultdict as _dd
+    out = {}
+    for s in seasons or SEASONS:
+        path = os.path.join(hist_dir(), ASSETS["injuries"][1].format(s=s))
+        if not os.path.exists(path):
+            out[s] = {"present": False}
+            continue
+        weeks, n, n_status, n_out = set(), 0, 0, 0
+        by_week = _dd(int)
+        with open_text(path) as f:
+            for r in _csv.DictReader(f):
+                n += 1
+                wk = r.get("week")
+                if wk:
+                    weeks.add(int(float(wk)))
+                    by_week[int(float(wk))] += 1
+                st = (r.get("report_status") or "").strip()
+                if st:
+                    n_status += 1
+                    if st.lower() == "out":
+                        n_out += 1
+        out[s] = {"present": True, "rows": n, "weeks": sorted(weeks), "n_weeks": len(weeks),
+                  "rows_with_report_status": n_status, "rows_out": n_out,
+                  "min_rows_in_a_week": min(by_week.values()) if by_week else 0}
+    return out
+
+
+def ensure(seasons=None, kinds=("stats", "pbp", "injuries"), quiet=False):
     """Download whatever is missing. Returns {kind: {season: path}}."""
     out = {k: {} for k in kinds}
     for s in seasons or SEASONS:

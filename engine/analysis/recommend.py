@@ -12,12 +12,14 @@ import os
 
 from .. import config, store
 from ..timeutil import parse_iso, iso, to_central
+from . import vacated as vc
 
 INJ_MULT = {"Questionable": 0.90, "Doubtful": 0.40, "Out": 0.0, "IR": 0.0, "PUP": 0.0, "Sus": 0.0,
             "NA": 0.0, "COV": 0.0, "DNR": 0.0}
 W_SLEEPER = 0.65
 PRIOR_GAMES = 4
 FLEX_ELIGIBLE = {"RB", "WR", "TE"}
+SLEEPER_TO_NFLVERSE = {"LAR": "LA"}      # Sleeper's team code -> the nflverse code used by the usage file
 
 
 def _r(v, n=1):
@@ -89,6 +91,57 @@ def value_player(ctx, pid, week, proj_row, injury=None):
     }
 
 
+# ---------------------------------------------------------------- vacated target share (display only)
+def vacated_column(ctx, week, values):
+    """{player_id: signal} for the WR, RB and TE on the roster, plus a meta dict.
+
+    DISPLAY ONLY. Nothing this returns is allowed to reach `expected`; `value_player` above never
+    calls it and tests/test_vacated.py asserts the two stay separate. See docs/METHOD.md section 10.
+    """
+    from .. import usage
+    meta = {"available": False, "reason": None, "estimator": vc.ESTIMATOR}
+    try:
+        u, raw = usage.load(ctx.data_dir, ctx.season)
+    except Exception as e:  # noqa: BLE001  the column must never take the build down
+        return {}, dict(meta, reason=f"usage file could not be read ({e})")
+    if u is None:
+        return {}, dict(meta, reason="no data/usage file yet; it is written by the Wednesday pull")
+    season = int(ctx.season)
+    s2g = raw.get("sleeper_to_gsis") or {}
+    g2s = {g: s for s, g in s2g.items()}
+    mine = [v for v in values if v.get("pos") in vc.POS_OK and v.get("team")]
+    teams = {SLEEPER_TO_NFLVERSE.get(v["team"], v["team"]) for v in mine}
+    # who on those teams is out this week, from the daily Sleeper injury table
+    for t in teams:
+        out = set()
+        for pos in vc.POS_OK:
+            for g in u.teammates(t, pos, season, week):
+                sid = g2s.get(g)
+                p = (ctx.players.get(sid) or {}) if sid else {}
+                inj = ctx.injury(sid) if sid else {}
+                if vc.is_absent((inj or {}).get("injury_status"), p.get("status")):
+                    out.add(g)
+        u.absent[(season, week, t)] = out
+    sigs, unmapped = {}, 0
+    for v in mine:
+        g = s2g.get(v["player_id"])
+        if not g:
+            unmapped += 1
+            continue
+        team = SLEEPER_TO_NFLVERSE.get(v["team"], v["team"])
+        sig = vc.signal(u, g, team, v["pos"], season, week, u.absent.get((season, week, team)) or set())
+        if sig:
+            sig["name"] = v["name"]
+            sig["why"] = vc.why(sig)
+            sigs[v["player_id"]] = sig
+    meta.update({"available": True, "weeks_of_usage": raw.get("weeks"), "pulled_at_utc": raw.get("pulled_at_utc"),
+                 "n_players": len(sigs), "n_unmapped": unmapped,
+                 "note": ("Vacated share is display only. It is not part of expected points, and it does not change the "
+                          "close-call tiebreak: the 2015-2024 backtest could not tell it apart from the current rule on "
+                          "held-out 2025 (see the Backtest tab).")})
+    return sigs, meta
+
+
 def _why_value(v):
     bits = []
     if not v["playing"]:
@@ -143,9 +196,16 @@ def lineup_recommendation(ctx):
         current = [r.get("player_id") for r in up.get("starters") or []]
     values = [value_player(ctx, pid, week, proj.get(pid)) for pid in active]
     lineup, bench = build_lineup(values, ctx.slots)
+    # The vacated column is computed after the lineup is built, from a copy of the values, so there
+    # is no path by which it can influence `expected` or the slot order. Display only.
+    vac, vac_meta = vacated_column(ctx, week, [dict(v) for v in values])
     for row in lineup + bench:
         if row.get("player_id"):
             row["why"] = _why_value(row)
+            sig = vac.get(row["player_id"])
+            if sig:
+                row["vacated"] = sig
+                row["vacated_pts"] = sig["points"]
     by_id = {v["player_id"]: v for v in values}
     changes = []
     cur_set = [p for p in current if p and p != "0"]
@@ -175,11 +235,24 @@ def lineup_recommendation(ctx):
                     hi = row if row["boom_rate"] >= b["boom_rate"] else b
                     tie = (f" Tiebreak: {hi['name']} has the higher ceiling "
                            f"(boom rate {hi['boom_rate'] * 100:.0f}% vs {min(row['boom_rate'], b['boom_rate']) * 100:.0f}%).")
+                sa, sb = vac.get(row["player_id"]), vac.get(b["player_id"])
+                vnote = ""
+                if (sa and sa["n_out"]) or (sb and sb["n_out"]):
+                    hi = max([x for x in (sa, sb) if x], key=lambda x: (x["n_out"] > 0, x["points"]))
+                    vnote = (f" Vacated share (display only, not in the numbers above): "
+                             f"{row['name']} {(sa or {}).get('points', 0):.1f}, {b['name']} {(sb or {}).get('points', 0):.1f} "
+                             f"points of absorbed usage. {vc.why(hi)}")
                 close.append({"slot": row["slot"], "starter": row["name"], "bench": b["name"],
                               "gap": _r(row["expected"] - b["expected"], 1),
+                              "vacated_starter": (sa or {}).get("points"), "vacated_bench": (sb or {}).get("points"),
+                              "vacated_note": vnote.strip() or None,
                               "why": f"{row['name']} {row['expected']:.1f} vs {b['name']} {b['expected']:.1f}, "
                                      f"only {row['expected'] - b['expected']:.1f} apart.{tie}"})
     ir_rows = [dict(value_player(ctx, pid, week, proj.get(pid)), slot="IR") for pid in reserve]
+    for row in ir_rows:
+        sig = vac.get(row.get("player_id"))
+        if sig:
+            row["vacated"], row["vacated_pts"] = sig, sig["points"]
     total = round(sum(r.get("expected") or 0 for r in lineup), 1)
     notes = []
     if src["kind"] == "latest.json":
@@ -195,6 +268,7 @@ def lineup_recommendation(ctx):
     return {"week": week, "generated_at_utc": iso(ctx.now), "source": src, "lineup": lineup, "bench": bench, "ir": ir_rows,
             "current_starters": [by_id.get(p, {}).get("name") or ctx.name(p) for p in cur_set],
             "changes": changes, "close_calls": close, "expected_total": total, "notes": notes,
+            "vacated_meta": vac_meta,
             "method": f"expected = {W_SLEEPER:.2f} x Sleeper + {1 - W_SLEEPER:.2f} x baseline; baseline = "
                       f"(n x season avg + {PRIOR_GAMES} x preseason) / (n + {PRIOR_GAMES}); injury multipliers Q 0.90, D 0.40, Out 0."}
 
