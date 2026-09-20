@@ -381,6 +381,96 @@
    "pf_rank": 4
   },
   {
+   "roster_id": 8,
+   "team": "ValKilmersComeback",
+   "manager": "Mockstar",
+   "is_mine": true,
+   "wins": 2,
+   "losses": 0,
+   "ties": 0,
+   "h2h": "1-0",
+   "median": "1-0",
+   "allplay": "7-4",
+   "allplay_pct": 0.636,
+   "scores": [
+    111.26
+   ],
+   "avg": 111.26,
+   "last": 111.26,
+   "pf": 111.26,
+   "proj_totals": [
+    95.5
+   ],
+   "vs_proj": 15.76,
+   "bench_left": [
+    24.2
+   ],
+   "efficiency": 0.82,
+   "injured_starters": [],
+   "byes_next": [],
+   "proj_next": 100.51,
+   "future_opps": [
+    2,
+    11,
+    5,
+    9,
+    6,
+    12,
+    4,
+    7,
+    10,
+    3,
+    1,
+    2,
+    11,
+    5,
+    9,
+    6,
+    12
+   ],
+   "faab_used": 0,
+   "starters_now": [
+    {
+     "name": "Josh Allen",
+     "pos": "QB"
+    },
+    {
+     "name": "Jonathan Taylor",
+     "pos": "RB"
+    },
+    {
+     "name": "Rico Dowdle",
+     "pos": "RB"
+    },
+    {
+     "name": "Deebo Samuel",
+     "pos": "WR"
+    },
+    {
+     "name": "DK Metcalf",
+     "pos": "WR"
+    },
+    {
+     "name": "Davante Adams",
+     "pos": "WR"
+    },
+    {
+     "name": "Courtland Sutton",
+     "pos": "WR"
+    },
+    {
+     "name": "SEA DEF",
+     "pos": "DEF"
+    }
+   ],
+   "trend": null,
+   "trend_label": "n/a (1 week)",
+   "sos_remaining": 108.5,
+   "power": 107.0,
+   "power_rank": 5,
+   "pf_rank": 5
+  },
+  {
    "roster_id": 7,
    "team": "Cheeky Nando\u2019s",
    "manager": "aCaps",
@@ -480,98 +570,8 @@
    "trend_label": "n/a (1 week)",
    "sos_remaining": 106.91,
    "power": 106.8,
-   "power_rank": 5,
-   "pf_rank": 6
-  },
-  {
-   "roster_id": 8,
-   "team": "ValKilmersComeback",
-   "manager": "Mockstar",
-   "is_mine": true,
-   "wins": 2,
-   "losses": 0,
-   "ties": 0,
-   "h2h": "1-0",
-   "median": "1-0",
-   "allplay": "7-4",
-   "allplay_pct": 0.636,
-   "scores": [
-    111.26
-   ],
-   "avg": 111.26,
-   "last": 111.26,
-   "pf": 111.26,
-   "proj_totals": [
-    95.5
-   ],
-   "vs_proj": 15.76,
-   "bench_left": [
-    24.2
-   ],
-   "efficiency": 0.82,
-   "injured_starters": [],
-   "byes_next": [],
-   "proj_next": 97.15,
-   "future_opps": [
-    2,
-    11,
-    5,
-    9,
-    6,
-    12,
-    4,
-    7,
-    10,
-    3,
-    1,
-    2,
-    11,
-    5,
-    9,
-    6,
-    12
-   ],
-   "faab_used": 0,
-   "starters_now": [
-    {
-     "name": "Josh Allen",
-     "pos": "QB"
-    },
-    {
-     "name": "Jonathan Taylor",
-     "pos": "RB"
-    },
-    {
-     "name": "Woody Marks",
-     "pos": "RB"
-    },
-    {
-     "name": "Davante Adams",
-     "pos": "WR"
-    },
-    {
-     "name": "Deebo Samuel",
-     "pos": "WR"
-    },
-    {
-     "name": "DK Metcalf",
-     "pos": "WR"
-    },
-    {
-     "name": "Denzel Boston",
-     "pos": "WR"
-    },
-    {
-     "name": "SEA DEF",
-     "pos": "DEF"
-    }
-   ],
-   "trend": null,
-   "trend_label": "n/a (1 week)",
-   "sos_remaining": 108.5,
-   "power": 105.6,
    "power_rank": 6,
-   "pf_rank": 5
+   "pf_rank": 6
   },
   {
    "roster_id": 6,

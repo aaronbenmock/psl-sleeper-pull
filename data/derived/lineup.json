@@ -1,6 +1,6 @@
 {
  "week": 2,
- "generated_at_utc": "2026-09-20T00:10:28Z",
+ "generated_at_utc": "2026-09-20T11:09:45Z",
  "source": {
   "kind": "pre-kickoff snapshot",
   "taken_at_utc": "2026-09-19T23:13:10Z",
@@ -404,29 +404,14 @@
  "current_starters": [
   "Josh Allen",
   "Jonathan Taylor",
-  "Woody Marks",
-  "Davante Adams",
+  "Rico Dowdle",
   "Deebo Samuel",
   "DK Metcalf",
-  "Denzel Boston",
+  "Davante Adams",
+  "Courtland Sutton",
   "SEA DEF"
  ],
- "changes": [
-  {
-   "out": "Woody Marks",
-   "in": "Rico Dowdle",
-   "out_expected": 8.05,
-   "in_expected": 9.56,
-   "why": "Rico Dowdle 9.6 vs Woody Marks 8.1 expected (+1.5). "
-  },
-  {
-   "out": "Denzel Boston",
-   "in": "Courtland Sutton",
-   "out_expected": 7.62,
-   "in_expected": 8.78,
-   "why": "Courtland Sutton 8.8 vs Denzel Boston 7.6 expected (+1.2). "
-  }
- ],
+ "changes": [],
  "close_calls": [
   {
    "slot": "FLEX",

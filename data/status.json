@@ -3,9 +3,9 @@
   "build": {
    "task": "build",
    "ok": true,
-   "summary": "index.html + reports/2026/week02.html; lineup changes 2, claims 8, signals 5, accuracy weeks 1",
-   "started_utc": "2026-09-20T00:10:28Z",
-   "finished_utc": "2026-09-20T00:10:28Z",
+   "summary": "index.html + reports/2026/week02.html; lineup changes 0, claims 8, signals 5, accuracy weeks 1",
+   "started_utc": "2026-09-20T11:09:45Z",
+   "finished_utc": "2026-09-20T11:09:45Z",
    "error": null
   },
   "pull": {
@@ -21,9 +21,9 @@
   "injuries": {
    "task": "injuries",
    "ok": true,
-   "summary": "177 rostered players tracked, 113 changes since 2026-09-18, 3 of mine carry an injury tag, players cache reused",
-   "started_utc": "2026-09-19T19:50:03Z",
-   "finished_utc": "2026-09-19T19:50:03Z",
+   "summary": "177 rostered players tracked, 0 changes since 2026-09-19, 3 of mine carry an injury tag, players cache reused",
+   "started_utc": "2026-09-20T11:09:44Z",
+   "finished_utc": "2026-09-20T11:09:45Z",
    "error": null
   },
   "snapshot": {
@@ -305,14 +305,30 @@
    "started_utc": "2026-09-20T00:10:28Z",
    "finished_utc": "2026-09-20T00:10:28Z",
    "error": null
+  },
+  {
+   "task": "injuries",
+   "ok": true,
+   "summary": "177 rostered players tracked, 0 changes since 2026-09-19, 3 of mine carry an injury tag, players cache reused",
+   "started_utc": "2026-09-20T11:09:44Z",
+   "finished_utc": "2026-09-20T11:09:45Z",
+   "error": null
+  },
+  {
+   "task": "build",
+   "ok": true,
+   "summary": "index.html + reports/2026/week02.html; lineup changes 0, claims 8, signals 5, accuracy weeks 1",
+   "started_utc": "2026-09-20T11:09:45Z",
+   "finished_utc": "2026-09-20T11:09:45Z",
+   "error": null
   }
  ],
  "last_run": {
   "task": "build",
   "ok": true,
-  "summary": "index.html + reports/2026/week02.html; lineup changes 2, claims 8, signals 5, accuracy weeks 1",
-  "started_utc": "2026-09-20T00:10:28Z",
-  "finished_utc": "2026-09-20T00:10:28Z",
+  "summary": "index.html + reports/2026/week02.html; lineup changes 0, claims 8, signals 5, accuracy weeks 1",
+  "started_utc": "2026-09-20T11:09:45Z",
+  "finished_utc": "2026-09-20T11:09:45Z",
   "error": null
  }
 }
