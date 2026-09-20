@@ -1,10 +1,10 @@
 {
  "week": 2,
- "generated_at_utc": "2026-09-20T11:09:45Z",
+ "generated_at_utc": "2026-09-20T12:02:44Z",
  "source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-09-19T23:13:10Z",
-  "label": "sat_pm"
+  "taken_at_utc": "2026-09-20T12:02:44Z",
+  "label": "sun_early"
  },
  "lineup": [
   {
@@ -223,12 +223,12 @@
    "pos": "RB",
    "team": "HOU",
    "opp": "CIN",
-   "sleeper": 7.92,
+   "sleeper": 7.97,
    "preseason": 8.26,
    "season_avg": 8.4,
    "n_games": 1,
    "baseline": 8.29,
-   "expected": 8.05,
+   "expected": 8.08,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -241,7 +241,7 @@
    "started": false,
    "actual_so_far": null,
    "slot": "BN",
-   "why": "Sleeper projects 7.9, season average 8.4 over 1 game, preseason model 8.3. Blended expectation 8.1 vs CIN."
+   "why": "Sleeper projects 8.0, season average 8.4 over 1 game, preseason model 8.3. Blended expectation 8.1 vs CIN."
   },
   {
    "player_id": "13346",
@@ -414,6 +414,13 @@
  "changes": [],
  "close_calls": [
   {
+   "slot": "RB",
+   "starter": "Rico Dowdle",
+   "bench": "Woody Marks",
+   "gap": 1.5,
+   "why": "Rico Dowdle 9.6 vs Woody Marks 8.1, only 1.5 apart. Tiebreak: Rico Dowdle has the higher ceiling (boom rate 24% vs 12%)."
+  },
+  {
    "slot": "FLEX",
    "starter": "Courtland Sutton",
    "bench": "Woody Marks",
@@ -430,7 +437,7 @@
  ],
  "expected_total": 102.7,
  "notes": [
-  "Projections are from the sat_pm snapshot taken Sat Sep 19 06:13 PM Central.",
+  "Projections are from the sun_early snapshot taken Sun Sep 20 07:02 AM Central.",
   "1 of your players have already kicked off this week; their rows show points so far."
  ],
  "method": "expected = 0.65 x Sleeper + 0.35 x baseline; baseline = (n x season avg + 4 x preseason) / (n + 4); injury multipliers Q 0.90, D 0.40, Out 0."

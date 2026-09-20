@@ -41,7 +41,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 114.0,
+   "proj_next": 114.25,
    "future_opps": [
     7,
     1,
@@ -99,7 +99,7 @@
    "trend": null,
    "trend_label": "n/a (1 week)",
    "sos_remaining": 104.66,
-   "power": 136.2,
+   "power": 136.3,
    "power_rank": 1,
    "pf_rank": 1
   },
@@ -138,7 +138,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 98.63,
+   "proj_next": 98.46,
    "future_opps": [
     6,
     12,
@@ -196,7 +196,7 @@
    "trend": null,
    "trend_label": "n/a (1 week)",
    "sos_remaining": 108.41,
-   "power": 126.7,
+   "power": 126.6,
    "power_rank": 2,
    "pf_rank": 2
   },
@@ -228,7 +228,7 @@
    "efficiency": 0.9,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 102.64,
+   "proj_next": 102.69,
    "future_opps": [
     5,
     9,
@@ -601,7 +601,7 @@
    "efficiency": 0.82,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 108.16,
+   "proj_next": 108.09,
    "future_opps": [
     9,
     7,
@@ -698,7 +698,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 93.6,
+   "proj_next": 93.65,
    "future_opps": [
     1,
     2,
@@ -795,7 +795,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 105.4,
+   "proj_next": 105.49,
    "future_opps": [
     10,
     3,
@@ -853,7 +853,7 @@
    "trend": null,
    "trend_label": "n/a (1 week)",
    "sos_remaining": 108.94,
-   "power": 99.3,
+   "power": 99.4,
    "power_rank": 9,
    "pf_rank": 9
   },
@@ -885,7 +885,7 @@
    "efficiency": 0.78,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 108.09,
+   "proj_next": 108.07,
    "future_opps": [
     4,
     8,
@@ -975,7 +975,7 @@
    "efficiency": 0.88,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 95.98,
+   "proj_next": 96.14,
    "future_opps": [
     11,
     5,
@@ -1166,7 +1166,7 @@
  ],
  "projection_source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-09-19T23:13:10Z",
-  "label": "sat_pm"
+  "taken_at_utc": "2026-09-20T12:02:44Z",
+  "label": "sun_early"
  }
 }
