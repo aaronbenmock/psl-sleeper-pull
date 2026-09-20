@@ -138,7 +138,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 98.46,
+   "proj_next": 98.63,
    "future_opps": [
     6,
     12,
@@ -196,7 +196,7 @@
    "trend": null,
    "trend_label": "n/a (1 week)",
    "sos_remaining": 108.41,
-   "power": 126.6,
+   "power": 126.7,
    "power_rank": 2,
    "pf_rank": 2
   },
@@ -228,7 +228,7 @@
    "efficiency": 0.9,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 102.69,
+   "proj_next": 102.66,
    "future_opps": [
     5,
     9,
@@ -511,7 +511,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 105.05,
+   "proj_next": 105.06,
    "future_opps": [
     3,
     6,
@@ -664,103 +664,6 @@
    "pf_rank": 8
   },
   {
-   "roster_id": 10,
-   "team": "Derrelick my Balls",
-   "manager": "dlamas",
-   "is_mine": false,
-   "wins": 0,
-   "losses": 2,
-   "ties": 0,
-   "h2h": "0-1",
-   "median": "0-1",
-   "allplay": "5-6",
-   "allplay_pct": 0.455,
-   "scores": [
-    106.59
-   ],
-   "avg": 106.59,
-   "last": 106.59,
-   "pf": 106.59,
-   "proj_totals": [
-    96.09
-   ],
-   "vs_proj": 10.5,
-   "bench_left": [
-    39.22
-   ],
-   "efficiency": 0.73,
-   "injured_starters": [
-    {
-     "name": "RJ Harvey",
-     "pos": "RB",
-     "status": "Questionable",
-     "body": "Hamstring"
-    }
-   ],
-   "byes_next": [],
-   "proj_next": 93.65,
-   "future_opps": [
-    1,
-    2,
-    11,
-    5,
-    9,
-    6,
-    12,
-    4,
-    8,
-    7,
-    3,
-    1,
-    2,
-    11,
-    5,
-    9,
-    6
-   ],
-   "faab_used": 27,
-   "starters_now": [
-    {
-     "name": "Patrick Mahomes",
-     "pos": "QB"
-    },
-    {
-     "name": "Derrick Henry",
-     "pos": "RB"
-    },
-    {
-     "name": "RJ Harvey",
-     "pos": "RB"
-    },
-    {
-     "name": "Garrett Wilson",
-     "pos": "WR"
-    },
-    {
-     "name": "Rashee Rice",
-     "pos": "WR"
-    },
-    {
-     "name": "Terry McLaurin",
-     "pos": "WR"
-    },
-    {
-     "name": "Dalton Kincaid",
-     "pos": "TE"
-    },
-    {
-     "name": "MIN DEF",
-     "pos": "DEF"
-    }
-   ],
-   "trend": null,
-   "trend_label": "n/a (1 week)",
-   "sos_remaining": 106.82,
-   "power": 101.4,
-   "power_rank": 8,
-   "pf_rank": 7
-  },
-  {
    "roster_id": 1,
    "team": "tacocats",
    "manager": "ben_g",
@@ -854,7 +757,7 @@
    "trend_label": "n/a (1 week)",
    "sos_remaining": 108.94,
    "power": 99.4,
-   "power_rank": 9,
+   "power_rank": 8,
    "pf_rank": 9
   },
   {
@@ -885,7 +788,7 @@
    "efficiency": 0.78,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 108.07,
+   "proj_next": 108.06,
    "future_opps": [
     4,
     8,
@@ -944,8 +847,105 @@
    "trend_label": "n/a (1 week)",
    "sos_remaining": 107.12,
    "power": 99.3,
-   "power_rank": 10,
+   "power_rank": 9,
    "pf_rank": 10
+  },
+  {
+   "roster_id": 10,
+   "team": "Derrelick my Balls",
+   "manager": "dlamas",
+   "is_mine": false,
+   "wins": 0,
+   "losses": 2,
+   "ties": 0,
+   "h2h": "0-1",
+   "median": "0-1",
+   "allplay": "5-6",
+   "allplay_pct": 0.455,
+   "scores": [
+    106.59
+   ],
+   "avg": 106.59,
+   "last": 106.59,
+   "pf": 106.59,
+   "proj_totals": [
+    96.09
+   ],
+   "vs_proj": 10.5,
+   "bench_left": [
+    39.22
+   ],
+   "efficiency": 0.73,
+   "injured_starters": [
+    {
+     "name": "RJ Harvey",
+     "pos": "RB",
+     "status": "Questionable",
+     "body": "Hamstring"
+    }
+   ],
+   "byes_next": [],
+   "proj_next": 87.93,
+   "future_opps": [
+    1,
+    2,
+    11,
+    5,
+    9,
+    6,
+    12,
+    4,
+    8,
+    7,
+    3,
+    1,
+    2,
+    11,
+    5,
+    9,
+    6
+   ],
+   "faab_used": 27,
+   "starters_now": [
+    {
+     "name": "Patrick Mahomes",
+     "pos": "QB"
+    },
+    {
+     "name": "Derrick Henry",
+     "pos": "RB"
+    },
+    {
+     "name": "RJ Harvey",
+     "pos": "RB"
+    },
+    {
+     "name": "Garrett Wilson",
+     "pos": "WR"
+    },
+    {
+     "name": "Rashee Rice",
+     "pos": "WR"
+    },
+    {
+     "name": "Terry McLaurin",
+     "pos": "WR"
+    },
+    {
+     "name": "Dalton Kincaid",
+     "pos": "TE"
+    },
+    {
+     "name": "MIN DEF",
+     "pos": "DEF"
+    }
+   ],
+   "trend": null,
+   "trend_label": "n/a (1 week)",
+   "sos_remaining": 106.82,
+   "power": 99.1,
+   "power_rank": 10,
+   "pf_rank": 7
   },
   {
    "roster_id": 4,
@@ -975,7 +975,7 @@
    "efficiency": 0.88,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 96.14,
+   "proj_next": 98.81,
    "future_opps": [
     11,
     5,
@@ -1033,7 +1033,7 @@
    "trend": null,
    "trend_label": "n/a (1 week)",
    "sos_remaining": 112.91,
-   "power": 89.1,
+   "power": 90.2,
    "power_rank": 11,
    "pf_rank": 11
   },
@@ -1166,7 +1166,7 @@
  ],
  "projection_source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-09-20T12:38:51Z",
-  "label": "sun_early"
+  "taken_at_utc": "2026-09-20T15:34:04Z",
+  "label": "sun_late_am"
  }
 }

@@ -4,8 +4,8 @@
    "task": "build",
    "ok": true,
    "summary": "index.html + reports/2026/week02.html; lineup changes 0, claims 8, signals 5, accuracy weeks 1",
-   "started_utc": "2026-09-20T13:39:07Z",
-   "finished_utc": "2026-09-20T13:39:08Z",
+   "started_utc": "2026-09-20T15:34:04Z",
+   "finished_utc": "2026-09-20T15:34:04Z",
    "error": null
   },
   "pull": {
@@ -29,12 +29,12 @@
   "snapshot": {
    "task": "snapshot",
    "ok": true,
-   "summary": "week 2 sun_early: 3148 projections, 2 NFL teams already started, 3102 players still pre-kickoff",
-   "started_utc": "2026-09-20T12:38:50Z",
-   "finished_utc": "2026-09-20T12:38:51Z",
+   "summary": "week 2 sun_late_am: 3148 projections, 2 NFL teams already started, 3102 players still pre-kickoff",
+   "started_utc": "2026-09-20T15:34:02Z",
+   "finished_utc": "2026-09-20T15:34:04Z",
    "error": null,
    "week": 2,
-   "label": "sun_early"
+   "label": "sun_late_am"
   },
   "auto-skip": {
    "task": "auto-skip",
@@ -373,14 +373,32 @@
    "started_utc": "2026-09-20T13:39:07Z",
    "finished_utc": "2026-09-20T13:39:08Z",
    "error": null
+  },
+  {
+   "task": "snapshot",
+   "ok": true,
+   "summary": "week 2 sun_late_am: 3148 projections, 2 NFL teams already started, 3102 players still pre-kickoff",
+   "started_utc": "2026-09-20T15:34:02Z",
+   "finished_utc": "2026-09-20T15:34:04Z",
+   "error": null,
+   "week": 2,
+   "label": "sun_late_am"
+  },
+  {
+   "task": "build",
+   "ok": true,
+   "summary": "index.html + reports/2026/week02.html; lineup changes 0, claims 8, signals 5, accuracy weeks 1",
+   "started_utc": "2026-09-20T15:34:04Z",
+   "finished_utc": "2026-09-20T15:34:04Z",
+   "error": null
   }
  ],
  "last_run": {
   "task": "build",
   "ok": true,
   "summary": "index.html + reports/2026/week02.html; lineup changes 0, claims 8, signals 5, accuracy weeks 1",
-  "started_utc": "2026-09-20T13:39:07Z",
-  "finished_utc": "2026-09-20T13:39:08Z",
+  "started_utc": "2026-09-20T15:34:04Z",
+  "finished_utc": "2026-09-20T15:34:04Z",
   "error": null
  }
 }
