@@ -9451,7 +9451,7 @@
   "done in 40.0 s"
  ],
  "vacated": {
-  "generated_at_utc": "2026-09-20T21:39:17Z",
+  "generated_at_utc": "2026-09-20T21:40:34Z",
   "select_seasons": [
    2015,
    2016,
@@ -9595,7 +9595,7 @@
    "Boom rate here is computed from the previous season, because the preseason model's boom_rate column is a 2026 artifact with no historical equivalent.",
    "Rosters are the main harness's fixed drafted rosters; no waivers, no trades."
   ],
-  "runtime_seconds": 14.9
+  "runtime_seconds": 15.0
  },
  "scope_line": "63,387 offensive player-weeks and 5,790 defense-weeks, seasons 2015-2025. Fit 2015-2019, select 2020-2024, held-out 2025. 36 configurations tried.",
  "headline": [

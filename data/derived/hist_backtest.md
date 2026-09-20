@@ -369,7 +369,7 @@ FLEX view (same team-weeks): the five skill starters split into the RB/WR core (
 
 ## Vacated target share (display-only column)
 
-Generated 2026-09-20T21:39:17Z. Select block 2015-2024, held out 2025. Expected points for the pairing come from `kblend:4`, the engine's own baseline half, and a pair counts as close when it is within 1.5 points.
+Generated 2026-09-20T21:40:34Z. Select block 2015-2024, held out 2025. Expected points for the pairing come from `kblend:4`, the engine's own baseline half, and a pair counts as close when it is within 1.5 points.
 
 ### Data
 

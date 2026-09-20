@@ -4,8 +4,8 @@
    "task": "build",
    "ok": true,
    "summary": "index.html + reports/2026/week02.html; lineup changes 0, claims 8, signals 5, accuracy weeks 1",
-   "started_utc": "2026-09-20T16:37:35Z",
-   "finished_utc": "2026-09-20T16:37:35Z",
+   "started_utc": "2026-09-20T21:40:35Z",
+   "finished_utc": "2026-09-20T21:40:35Z",
    "error": null
   },
   "pull": {
@@ -42,6 +42,14 @@
    "summary": "skipped at 2026-09-20T11:37:35-05:00",
    "started_utc": "2026-09-20T16:37:35Z",
    "finished_utc": "2026-09-20T16:37:35Z",
+   "error": null
+  },
+  "usage": {
+   "task": "usage",
+   "ok": true,
+   "summary": "2 weeks of 2026 usage, 391 players with a stat row, 651 Sleeper ids mapped (0 from Sleeper, 563 from the rankings file, 88 by name), 430,415 bytes",
+   "started_utc": "2026-09-20T21:40:18Z",
+   "finished_utc": "2026-09-20T21:40:19Z",
    "error": null
   }
  },
@@ -407,14 +415,38 @@
    "started_utc": "2026-09-20T16:37:35Z",
    "finished_utc": "2026-09-20T16:37:35Z",
    "error": null
+  },
+  {
+   "task": "usage",
+   "ok": true,
+   "summary": "2 weeks of 2026 usage, 391 players with a stat row, 651 Sleeper ids mapped (0 from Sleeper, 563 from the rankings file, 88 by name), 430,415 bytes",
+   "started_utc": "2026-09-20T21:40:18Z",
+   "finished_utc": "2026-09-20T21:40:19Z",
+   "error": null
+  },
+  {
+   "task": "build",
+   "ok": true,
+   "summary": "index.html + reports/2026/week02.html; lineup changes 0, claims 8, signals 5, accuracy weeks 1",
+   "started_utc": "2026-09-20T21:40:19Z",
+   "finished_utc": "2026-09-20T21:40:19Z",
+   "error": null
+  },
+  {
+   "task": "build",
+   "ok": true,
+   "summary": "index.html + reports/2026/week02.html; lineup changes 0, claims 8, signals 5, accuracy weeks 1",
+   "started_utc": "2026-09-20T21:40:35Z",
+   "finished_utc": "2026-09-20T21:40:35Z",
+   "error": null
   }
  ],
  "last_run": {
   "task": "build",
   "ok": true,
   "summary": "index.html + reports/2026/week02.html; lineup changes 0, claims 8, signals 5, accuracy weeks 1",
-  "started_utc": "2026-09-20T16:37:35Z",
-  "finished_utc": "2026-09-20T16:37:35Z",
+  "started_utc": "2026-09-20T21:40:35Z",
+  "finished_utc": "2026-09-20T21:40:35Z",
   "error": null
  }
 }
