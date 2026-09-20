@@ -4,8 +4,8 @@
    "task": "build",
    "ok": true,
    "summary": "index.html + reports/2026/week02.html; lineup changes 1, claims 8, signals 4, accuracy weeks 1",
-   "started_utc": "2026-09-20T21:41:16Z",
-   "finished_utc": "2026-09-20T21:41:16Z",
+   "started_utc": "2026-09-20T23:14:05Z",
+   "finished_utc": "2026-09-20T23:14:06Z",
    "error": null
   },
   "pull": {
@@ -30,8 +30,8 @@
    "task": "snapshot",
    "ok": true,
    "summary": "week 2 sun_pm: 3148 projections, 28 NFL teams already started, 2404 players still pre-kickoff",
-   "started_utc": "2026-09-20T21:41:14Z",
-   "finished_utc": "2026-09-20T21:41:15Z",
+   "started_utc": "2026-09-20T23:14:04Z",
+   "finished_utc": "2026-09-20T23:14:05Z",
    "error": null,
    "week": 2,
    "label": "sun_pm"
@@ -483,14 +483,32 @@
    "started_utc": "2026-09-20T21:41:16Z",
    "finished_utc": "2026-09-20T21:41:16Z",
    "error": null
+  },
+  {
+   "task": "snapshot",
+   "ok": true,
+   "summary": "week 2 sun_pm: 3148 projections, 28 NFL teams already started, 2404 players still pre-kickoff",
+   "started_utc": "2026-09-20T23:14:04Z",
+   "finished_utc": "2026-09-20T23:14:05Z",
+   "error": null,
+   "week": 2,
+   "label": "sun_pm"
+  },
+  {
+   "task": "build",
+   "ok": true,
+   "summary": "index.html + reports/2026/week02.html; lineup changes 1, claims 8, signals 4, accuracy weeks 1",
+   "started_utc": "2026-09-20T23:14:05Z",
+   "finished_utc": "2026-09-20T23:14:06Z",
+   "error": null
   }
  ],
  "last_run": {
   "task": "build",
   "ok": true,
   "summary": "index.html + reports/2026/week02.html; lineup changes 1, claims 8, signals 4, accuracy weeks 1",
-  "started_utc": "2026-09-20T21:41:16Z",
-  "finished_utc": "2026-09-20T21:41:16Z",
+  "started_utc": "2026-09-20T23:14:05Z",
+  "finished_utc": "2026-09-20T23:14:06Z",
   "error": null
  }
 }

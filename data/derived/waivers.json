@@ -382,7 +382,7 @@
    "sd_wk": 3.283,
    "vor": -82.8,
    "started": true,
-   "actual_so_far": 0.0,
+   "actual_so_far": 2.0,
    "slot": "BN",
    "why": "Sleeper projects 7.1, season average 2.9 over 1 game, preseason model 5.8. Blended expectation 6.5 vs ARI.",
    "vacated": {
@@ -617,7 +617,7 @@
    "sd_wk": 6.489,
    "vor": 37.6,
    "started": true,
-   "actual_so_far": 1.3,
+   "actual_so_far": 4.0,
    "slot": "FLEX",
    "why": "Sleeper projects 8.8, season average 2.1 over 1 game, preseason model 10.4. Blended expectation 8.8 vs JAX.",
    "vacated": {
@@ -798,7 +798,7 @@
    "sd_wk": 10.357,
    "vor": null,
    "started": true,
-   "actual_so_far": 3.8,
+   "actual_so_far": 7.8,
    "slot": "DEF",
    "why": "Sleeper projects 9.3, season average 13.0 over 1 game, preseason model 13.1. Blended expectation 10.6 vs ARI.",
    "ros": 13.08,
@@ -827,7 +827,7 @@
    "sd_wk": 6.486,
    "vor": 27.9,
    "started": true,
-   "actual_so_far": 2.55,
+   "actual_so_far": 6.45,
    "slot": "FLEX",
    "why": "Sleeper projects 8.7, season average 18.7 over 1 game, preseason model 10.2. Blended expectation 9.8 vs MIA.",
    "vacated": {
@@ -957,7 +957,7 @@
    "sd_wk": 4.947,
    "vor": 13.1,
    "started": true,
-   "actual_so_far": 0.0,
+   "actual_so_far": 3.3,
    "slot": "BN",
    "why": "Sleeper projects 5.9, season average 11.2 over 1 game, preseason model 9.2. Blended expectation 7.2 vs DEN.",
    "vacated": {
@@ -1143,7 +1143,7 @@
    "sd_wk": 6.489,
    "vor": 37.6,
    "started": true,
-   "actual_so_far": 1.3,
+   "actual_so_far": 4.0,
    "slot": "FLEX",
    "why": "Sleeper projects 8.8, season average 2.1 over 1 game, preseason model 10.4. Blended expectation 8.8 vs JAX.",
    "vacated": {
@@ -1371,7 +1371,7 @@
    "sd_wk": 3.283,
    "vor": -82.8,
    "started": true,
-   "actual_so_far": 0.0,
+   "actual_so_far": 2.0,
    "slot": "BN",
    "why": "Sleeper projects 7.1, season average 2.9 over 1 game, preseason model 5.8. Blended expectation 6.5 vs ARI.",
    "vacated": {
