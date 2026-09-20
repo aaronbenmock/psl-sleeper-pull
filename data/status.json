@@ -3,17 +3,17 @@
   "build": {
    "task": "build",
    "ok": true,
-   "summary": "index.html + reports/2026/week02.html; lineup changes 0, claims 8, signals 5, accuracy weeks 1",
-   "started_utc": "2026-09-20T21:40:35Z",
-   "finished_utc": "2026-09-20T21:40:35Z",
+   "summary": "index.html + reports/2026/week02.html; lineup changes 1, claims 8, signals 4, accuracy weeks 1",
+   "started_utc": "2026-09-20T21:41:16Z",
+   "finished_utc": "2026-09-20T21:41:16Z",
    "error": null
   },
   "pull": {
    "task": "pull",
    "ok": true,
    "summary": "completed wk 1, upcoming wk 2, waiver pool 664, matchup weeks 18, scored files 1, record check: median game ON: each team plays its opponent and the league median every week",
-   "started_utc": "2026-09-19T19:49:59Z",
-   "finished_utc": "2026-09-19T19:50:03Z",
+   "started_utc": "2026-09-20T21:41:10Z",
+   "finished_utc": "2026-09-20T21:41:14Z",
    "error": null,
    "completed_week": 1,
    "upcoming_week": 2
@@ -21,20 +21,20 @@
   "injuries": {
    "task": "injuries",
    "ok": true,
-   "summary": "177 rostered players tracked, 0 changes since 2026-09-19, 3 of mine carry an injury tag, players cache reused",
-   "started_utc": "2026-09-20T11:09:44Z",
-   "finished_utc": "2026-09-20T11:09:45Z",
+   "summary": "177 rostered players tracked, 70 changes since 2026-09-19, 4 of mine carry an injury tag, players cache reused",
+   "started_utc": "2026-09-20T21:41:14Z",
+   "finished_utc": "2026-09-20T21:41:14Z",
    "error": null
   },
   "snapshot": {
    "task": "snapshot",
    "ok": true,
-   "summary": "week 2 sun_late_am: 3148 projections, 2 NFL teams already started, 3102 players still pre-kickoff",
-   "started_utc": "2026-09-20T15:34:02Z",
-   "finished_utc": "2026-09-20T15:34:04Z",
+   "summary": "week 2 sun_pm: 3148 projections, 28 NFL teams already started, 2404 players still pre-kickoff",
+   "started_utc": "2026-09-20T21:41:14Z",
+   "finished_utc": "2026-09-20T21:41:15Z",
    "error": null,
    "week": 2,
-   "label": "sun_late_am"
+   "label": "sun_pm"
   },
   "auto-skip": {
    "task": "auto-skip",
@@ -47,9 +47,9 @@
   "usage": {
    "task": "usage",
    "ok": true,
-   "summary": "2 weeks of 2026 usage, 391 players with a stat row, 651 Sleeper ids mapped (0 from Sleeper, 563 from the rankings file, 88 by name), 430,415 bytes",
-   "started_utc": "2026-09-20T21:40:18Z",
-   "finished_utc": "2026-09-20T21:40:19Z",
+   "summary": "2 weeks of 2026 usage, 391 players with a stat row, 689 Sleeper ids mapped (155 from Sleeper, 462 from the rankings file, 72 by name), 431,224 bytes",
+   "started_utc": "2026-09-20T21:41:15Z",
+   "finished_utc": "2026-09-20T21:41:16Z",
    "error": null
   }
  },
@@ -439,14 +439,58 @@
    "started_utc": "2026-09-20T21:40:35Z",
    "finished_utc": "2026-09-20T21:40:35Z",
    "error": null
+  },
+  {
+   "task": "pull",
+   "ok": true,
+   "summary": "completed wk 1, upcoming wk 2, waiver pool 664, matchup weeks 18, scored files 1, record check: median game ON: each team plays its opponent and the league median every week",
+   "started_utc": "2026-09-20T21:41:10Z",
+   "finished_utc": "2026-09-20T21:41:14Z",
+   "error": null,
+   "completed_week": 1,
+   "upcoming_week": 2
+  },
+  {
+   "task": "injuries",
+   "ok": true,
+   "summary": "177 rostered players tracked, 70 changes since 2026-09-19, 4 of mine carry an injury tag, players cache reused",
+   "started_utc": "2026-09-20T21:41:14Z",
+   "finished_utc": "2026-09-20T21:41:14Z",
+   "error": null
+  },
+  {
+   "task": "snapshot",
+   "ok": true,
+   "summary": "week 2 sun_pm: 3148 projections, 28 NFL teams already started, 2404 players still pre-kickoff",
+   "started_utc": "2026-09-20T21:41:14Z",
+   "finished_utc": "2026-09-20T21:41:15Z",
+   "error": null,
+   "week": 2,
+   "label": "sun_pm"
+  },
+  {
+   "task": "usage",
+   "ok": true,
+   "summary": "2 weeks of 2026 usage, 391 players with a stat row, 689 Sleeper ids mapped (155 from Sleeper, 462 from the rankings file, 72 by name), 431,224 bytes",
+   "started_utc": "2026-09-20T21:41:15Z",
+   "finished_utc": "2026-09-20T21:41:16Z",
+   "error": null
+  },
+  {
+   "task": "build",
+   "ok": true,
+   "summary": "index.html + reports/2026/week02.html; lineup changes 1, claims 8, signals 4, accuracy weeks 1",
+   "started_utc": "2026-09-20T21:41:16Z",
+   "finished_utc": "2026-09-20T21:41:16Z",
+   "error": null
   }
  ],
  "last_run": {
   "task": "build",
   "ok": true,
-  "summary": "index.html + reports/2026/week02.html; lineup changes 0, claims 8, signals 5, accuracy weeks 1",
-  "started_utc": "2026-09-20T21:40:35Z",
-  "finished_utc": "2026-09-20T21:40:35Z",
+  "summary": "index.html + reports/2026/week02.html; lineup changes 1, claims 8, signals 4, accuracy weeks 1",
+  "started_utc": "2026-09-20T21:41:16Z",
+  "finished_utc": "2026-09-20T21:41:16Z",
   "error": null
  }
 }

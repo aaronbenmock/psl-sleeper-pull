@@ -1614,7 +1614,7 @@
    "kind": "stats",
    "season": 2025,
    "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2025.csv",
-   "downloaded_at_utc": "2026-09-18T20:56:19Z",
+   "downloaded_at_utc": "2026-09-20T21:41:16Z",
    "sha256": "e5e0615b3d96a3eaebfaee91e55afb4a4e7fe0caf057454177bcd7d6ad4bcfc2",
    "bytes": 8656387,
    "rows": 19422,
@@ -1775,7 +1775,7 @@
    "kind": "stats",
    "season": 2026,
    "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2026.csv",
-   "downloaded_at_utc": "2026-09-20T21:40:18Z",
+   "downloaded_at_utc": "2026-09-20T21:41:15Z",
    "sha256": "9f03279558503bf8aef46b1d3ff5398458da262c86f1a671222575b3301d7736",
    "bytes": 746235,
    "rows": 1674,
@@ -7373,7 +7373,7 @@
    "kind": "injuries",
    "season": 2025,
    "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
-   "downloaded_at_utc": "2026-09-20T21:20:01Z",
+   "downloaded_at_utc": "2026-09-20T21:41:16Z",
    "sha256": "873ca1606dd575bd01152508a243ef6b3a0f8f97b90b707217e62ee8c7ceb735",
    "bytes": 696006,
    "rows": 6068,
@@ -7400,7 +7400,7 @@
    "kind": "injuries",
    "season": 2026,
    "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
-   "downloaded_at_utc": "2026-09-20T21:40:19Z",
+   "downloaded_at_utc": "2026-09-20T21:41:15Z",
    "sha256": "f097cbc175dd913f75193c8e6b123a6bfc9f89b52460dab67601f31c776bac2b",
    "bytes": 49524,
    "rows": 433,
@@ -7424,6 +7424,6 @@
    ]
   }
  },
- "generated_at_utc": "2026-09-20T21:40:19Z",
+ "generated_at_utc": "2026-09-20T21:41:16Z",
  "note": "Raw files are gitignored (too large). Re-run `python engine.py histbacktest --download` to recreate them; compare sha256 here to confirm the same bytes came back."
 }

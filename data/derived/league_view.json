@@ -34,14 +34,14 @@
    "efficiency": 0.99,
    "injured_starters": [
     {
-     "name": "Chris Olave",
-     "pos": "WR",
+     "name": "Aaron Jones",
+     "pos": "RB",
      "status": "Questionable",
-     "body": "Hamstring"
+     "body": "Knee"
     }
    ],
    "byes_next": [],
-   "proj_next": 114.25,
+   "proj_next": 114.87,
    "future_opps": [
     7,
     1,
@@ -99,7 +99,7 @@
    "trend": null,
    "trend_label": "n/a (1 week)",
    "sos_remaining": 104.66,
-   "power": 136.3,
+   "power": 136.6,
    "power_rank": 1,
    "pf_rank": 1
   },
@@ -130,6 +130,12 @@
    ],
    "efficiency": 0.93,
    "injured_starters": [
+    {
+     "name": "Caleb Williams",
+     "pos": "QB",
+     "status": "Out",
+     "body": "Hamstring"
+    },
     {
      "name": "DJ Moore",
      "pos": "WR",
@@ -177,11 +183,11 @@
      "pos": "WR"
     },
     {
-     "name": "Stefon Diggs",
+     "name": "Michael Wilson",
      "pos": "WR"
     },
     {
-     "name": "Michael Wilson",
+     "name": "Stefon Diggs",
      "pos": "WR"
     },
     {
@@ -228,7 +234,7 @@
    "efficiency": 0.9,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 102.66,
+   "proj_next": 102.62,
    "future_opps": [
     5,
     9,
@@ -286,7 +292,7 @@
    "trend": null,
    "trend_label": "n/a (1 week)",
    "sos_remaining": 108.78,
-   "power": 118.2,
+   "power": 118.1,
    "power_rank": 3,
    "pf_rank": 3
   },
@@ -316,9 +322,16 @@
     33.8
    ],
    "efficiency": 0.78,
-   "injured_starters": [],
+   "injured_starters": [
+    {
+     "name": "Saquon Barkley",
+     "pos": "RB",
+     "status": "Questionable",
+     "body": "Arm"
+    }
+   ],
    "byes_next": [],
-   "proj_next": 107.13,
+   "proj_next": 107.06,
    "future_opps": [
     12,
     4,
@@ -381,6 +394,103 @@
    "pf_rank": 4
   },
   {
+   "roster_id": 7,
+   "team": "Cheeky Nando\u2019s",
+   "manager": "aCaps",
+   "is_mine": false,
+   "wins": 1,
+   "losses": 1,
+   "ties": 0,
+   "h2h": "0-1",
+   "median": "1-0",
+   "allplay": "6-5",
+   "allplay_pct": 0.545,
+   "scores": [
+    107.96
+   ],
+   "avg": 107.96,
+   "last": 107.96,
+   "pf": 107.96,
+   "proj_totals": [
+    111.34
+   ],
+   "vs_proj": -3.38,
+   "bench_left": [
+    8.5
+   ],
+   "efficiency": 0.93,
+   "injured_starters": [
+    {
+     "name": "Puka Nacua",
+     "pos": "WR",
+     "status": "Questionable",
+     "body": "Hip"
+    }
+   ],
+   "byes_next": [],
+   "proj_next": 107.54,
+   "future_opps": [
+    3,
+    6,
+    1,
+    12,
+    2,
+    4,
+    11,
+    8,
+    5,
+    10,
+    9,
+    3,
+    6,
+    1,
+    12,
+    2,
+    4
+   ],
+   "faab_used": 6,
+   "starters_now": [
+    {
+     "name": "Jordan Love",
+     "pos": "QB"
+    },
+    {
+     "name": "D'Andre Swift",
+     "pos": "RB"
+    },
+    {
+     "name": "Rhamondre Stevenson",
+     "pos": "RB"
+    },
+    {
+     "name": "CeeDee Lamb",
+     "pos": "WR"
+    },
+    {
+     "name": "Mike Evans",
+     "pos": "WR"
+    },
+    {
+     "name": "Malik Nabers",
+     "pos": "WR"
+    },
+    {
+     "name": "Puka Nacua",
+     "pos": "WR"
+    },
+    {
+     "name": "LAR DEF",
+     "pos": "DEF"
+    }
+   ],
+   "trend": null,
+   "trend_label": "n/a (1 week)",
+   "sos_remaining": 106.91,
+   "power": 107.8,
+   "power_rank": 5,
+   "pf_rank": 6
+  },
+  {
    "roster_id": 8,
    "team": "ValKilmersComeback",
    "manager": "Mockstar",
@@ -406,7 +516,14 @@
     24.2
    ],
    "efficiency": 0.82,
-   "injured_starters": [],
+   "injured_starters": [
+    {
+     "name": "Rico Dowdle",
+     "pos": "RB",
+     "status": "Out",
+     "body": "Toe"
+    }
+   ],
    "byes_next": [],
    "proj_next": 100.51,
    "future_opps": [
@@ -467,111 +584,8 @@
    "trend_label": "n/a (1 week)",
    "sos_remaining": 108.5,
    "power": 107.0,
-   "power_rank": 5,
-   "pf_rank": 5
-  },
-  {
-   "roster_id": 7,
-   "team": "Cheeky Nando\u2019s",
-   "manager": "aCaps",
-   "is_mine": false,
-   "wins": 1,
-   "losses": 1,
-   "ties": 0,
-   "h2h": "0-1",
-   "median": "1-0",
-   "allplay": "6-5",
-   "allplay_pct": 0.545,
-   "scores": [
-    107.96
-   ],
-   "avg": 107.96,
-   "last": 107.96,
-   "pf": 107.96,
-   "proj_totals": [
-    111.34
-   ],
-   "vs_proj": -3.38,
-   "bench_left": [
-    8.5
-   ],
-   "efficiency": 0.93,
-   "injured_starters": [
-    {
-     "name": "Joe Burrow",
-     "pos": "QB",
-     "status": "Questionable",
-     "body": "Back"
-    },
-    {
-     "name": "Puka Nacua",
-     "pos": "WR",
-     "status": "Questionable",
-     "body": "Hip"
-    }
-   ],
-   "byes_next": [],
-   "proj_next": 105.06,
-   "future_opps": [
-    3,
-    6,
-    1,
-    12,
-    2,
-    4,
-    11,
-    8,
-    5,
-    10,
-    9,
-    3,
-    6,
-    1,
-    12,
-    2,
-    4
-   ],
-   "faab_used": 6,
-   "starters_now": [
-    {
-     "name": "Joe Burrow",
-     "pos": "QB"
-    },
-    {
-     "name": "D'Andre Swift",
-     "pos": "RB"
-    },
-    {
-     "name": "Rhamondre Stevenson",
-     "pos": "RB"
-    },
-    {
-     "name": "CeeDee Lamb",
-     "pos": "WR"
-    },
-    {
-     "name": "Mike Evans",
-     "pos": "WR"
-    },
-    {
-     "name": "Malik Nabers",
-     "pos": "WR"
-    },
-    {
-     "name": "Puka Nacua",
-     "pos": "WR"
-    },
-    {
-     "name": "LAR DEF",
-     "pos": "DEF"
-    }
-   ],
-   "trend": null,
-   "trend_label": "n/a (1 week)",
-   "sos_remaining": 106.91,
-   "power": 106.8,
    "power_rank": 6,
-   "pf_rank": 6
+   "pf_rank": 5
   },
   {
    "roster_id": 6,
@@ -601,7 +615,7 @@
    "efficiency": 0.82,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 108.09,
+   "proj_next": 107.7,
    "future_opps": [
     9,
     7,
@@ -659,9 +673,99 @@
    "trend": null,
    "trend_label": "n/a (1 week)",
    "sos_remaining": 111.18,
-   "power": 103.4,
+   "power": 103.2,
    "power_rank": 7,
    "pf_rank": 8
+  },
+  {
+   "roster_id": 10,
+   "team": "Derrelick my Balls",
+   "manager": "dlamas",
+   "is_mine": false,
+   "wins": 0,
+   "losses": 2,
+   "ties": 0,
+   "h2h": "0-1",
+   "median": "0-1",
+   "allplay": "5-6",
+   "allplay_pct": 0.455,
+   "scores": [
+    106.59
+   ],
+   "avg": 106.59,
+   "last": 106.59,
+   "pf": 106.59,
+   "proj_totals": [
+    96.09
+   ],
+   "vs_proj": 10.5,
+   "bench_left": [
+    39.22
+   ],
+   "efficiency": 0.73,
+   "injured_starters": [],
+   "byes_next": [],
+   "proj_next": 92.16,
+   "future_opps": [
+    1,
+    2,
+    11,
+    5,
+    9,
+    6,
+    12,
+    4,
+    8,
+    7,
+    3,
+    1,
+    2,
+    11,
+    5,
+    9,
+    6
+   ],
+   "faab_used": 27,
+   "starters_now": [
+    {
+     "name": "Patrick Mahomes",
+     "pos": "QB"
+    },
+    {
+     "name": "Derrick Henry",
+     "pos": "RB"
+    },
+    {
+     "name": "Kyle Monangai",
+     "pos": "RB"
+    },
+    {
+     "name": "Garrett Wilson",
+     "pos": "WR"
+    },
+    {
+     "name": "Rashee Rice",
+     "pos": "WR"
+    },
+    {
+     "name": "Terry McLaurin",
+     "pos": "WR"
+    },
+    {
+     "name": "Dalton Kincaid",
+     "pos": "TE"
+    },
+    {
+     "name": "MIN DEF",
+     "pos": "DEF"
+    }
+   ],
+   "trend": null,
+   "trend_label": "n/a (1 week)",
+   "sos_remaining": 106.82,
+   "power": 100.8,
+   "power_rank": 8,
+   "pf_rank": 7
   },
   {
    "roster_id": 1,
@@ -689,16 +793,9 @@
     0.3
    ],
    "efficiency": 1.0,
-   "injured_starters": [
-    {
-     "name": "Ladd McConkey",
-     "pos": "WR",
-     "status": "Questionable",
-     "body": "Chest"
-    }
-   ],
+   "injured_starters": [],
    "byes_next": [],
-   "proj_next": 105.49,
+   "proj_next": 105.4,
    "future_opps": [
     10,
     3,
@@ -756,8 +853,8 @@
    "trend": null,
    "trend_label": "n/a (1 week)",
    "sos_remaining": 108.94,
-   "power": 99.4,
-   "power_rank": 8,
+   "power": 99.3,
+   "power_rank": 9,
    "pf_rank": 9
   },
   {
@@ -788,7 +885,7 @@
    "efficiency": 0.78,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 108.06,
+   "proj_next": 108.07,
    "future_opps": [
     4,
     8,
@@ -847,105 +944,8 @@
    "trend_label": "n/a (1 week)",
    "sos_remaining": 107.12,
    "power": 99.3,
-   "power_rank": 9,
-   "pf_rank": 10
-  },
-  {
-   "roster_id": 10,
-   "team": "Derrelick my Balls",
-   "manager": "dlamas",
-   "is_mine": false,
-   "wins": 0,
-   "losses": 2,
-   "ties": 0,
-   "h2h": "0-1",
-   "median": "0-1",
-   "allplay": "5-6",
-   "allplay_pct": 0.455,
-   "scores": [
-    106.59
-   ],
-   "avg": 106.59,
-   "last": 106.59,
-   "pf": 106.59,
-   "proj_totals": [
-    96.09
-   ],
-   "vs_proj": 10.5,
-   "bench_left": [
-    39.22
-   ],
-   "efficiency": 0.73,
-   "injured_starters": [
-    {
-     "name": "RJ Harvey",
-     "pos": "RB",
-     "status": "Questionable",
-     "body": "Hamstring"
-    }
-   ],
-   "byes_next": [],
-   "proj_next": 87.93,
-   "future_opps": [
-    1,
-    2,
-    11,
-    5,
-    9,
-    6,
-    12,
-    4,
-    8,
-    7,
-    3,
-    1,
-    2,
-    11,
-    5,
-    9,
-    6
-   ],
-   "faab_used": 27,
-   "starters_now": [
-    {
-     "name": "Patrick Mahomes",
-     "pos": "QB"
-    },
-    {
-     "name": "Derrick Henry",
-     "pos": "RB"
-    },
-    {
-     "name": "RJ Harvey",
-     "pos": "RB"
-    },
-    {
-     "name": "Garrett Wilson",
-     "pos": "WR"
-    },
-    {
-     "name": "Rashee Rice",
-     "pos": "WR"
-    },
-    {
-     "name": "Terry McLaurin",
-     "pos": "WR"
-    },
-    {
-     "name": "Dalton Kincaid",
-     "pos": "TE"
-    },
-    {
-     "name": "MIN DEF",
-     "pos": "DEF"
-    }
-   ],
-   "trend": null,
-   "trend_label": "n/a (1 week)",
-   "sos_remaining": 106.82,
-   "power": 99.1,
    "power_rank": 10,
-   "pf_rank": 7
+   "pf_rank": 10
   },
   {
    "roster_id": 4,
@@ -975,7 +975,7 @@
    "efficiency": 0.88,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 98.81,
+   "proj_next": 98.72,
    "future_opps": [
     11,
     5,
@@ -1065,7 +1065,7 @@
    "efficiency": 0.88,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 93.57,
+   "proj_next": 94.32,
    "future_opps": [
     8,
     10,
@@ -1123,35 +1123,29 @@
    "trend": null,
    "trend_label": "n/a (1 week)",
    "sos_remaining": 112.48,
-   "power": 73.3,
+   "power": 73.6,
    "power_rank": 12,
    "pf_rank": 12
   }
  ],
  "signals": [
   {
-   "team": "Cheeky Nando\u2019s",
+   "team": "Girthenheimer",
    "kind": "injured_starters",
-   "severity": "medium",
-   "text": "Cheeky Nando\u2019s has 2 of 8 starters carrying injury tags: Joe Burrow Questionable (Back), Puka Nacua Questionable (Hip)."
+   "severity": "high",
+   "text": "Girthenheimer is the #2 scorer at 145.36 a week but has 2 of 8 starters carrying injury tags: Caleb Williams Out (Hamstring), DJ Moore Out (Shoulder)."
   },
   {
    "team": "Be Safe, Get Jaxcinated",
    "kind": "injured_starter",
    "severity": "low",
-   "text": "Be Safe, Get Jaxcinated (#1 scorer) has Chris Olave listed Questionable."
+   "text": "Be Safe, Get Jaxcinated (#1 scorer) has Aaron Jones listed Questionable."
   },
   {
    "team": "Eazy E Squad",
    "kind": "bench_points",
    "severity": "low",
    "text": "Eazy E Squad left 34 points on the bench in week 1 (lineup efficiency 78%)."
-  },
-  {
-   "team": "Girthenheimer",
-   "kind": "injured_starter",
-   "severity": "low",
-   "text": "Girthenheimer (#2 scorer) has DJ Moore listed Out."
   },
   {
    "team": "City of Champyinz",
@@ -1166,7 +1160,7 @@
  ],
  "projection_source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-09-20T15:34:04Z",
-  "label": "sun_late_am"
+  "taken_at_utc": "2026-09-20T21:41:15Z",
+  "label": "sun_pm"
  }
 }
