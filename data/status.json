@@ -4,8 +4,8 @@
    "task": "build",
    "ok": true,
    "summary": "index.html + reports/2026/week02.html; lineup changes 1, claims 8, signals 4, accuracy weeks 1",
-   "started_utc": "2026-09-21T16:39:02Z",
-   "finished_utc": "2026-09-21T16:39:02Z",
+   "started_utc": "2026-09-21T23:14:21Z",
+   "finished_utc": "2026-09-21T23:14:21Z",
    "error": null
   },
   "pull": {
@@ -29,12 +29,12 @@
   "snapshot": {
    "task": "snapshot",
    "ok": true,
-   "summary": "week 2 mon_late_am: 3148 projections, 30 NFL teams already started, 2349 players still pre-kickoff",
-   "started_utc": "2026-09-21T15:34:12Z",
-   "finished_utc": "2026-09-21T15:34:14Z",
+   "summary": "week 2 mon_pm: 3148 projections, 30 NFL teams already started, 2348 players still pre-kickoff",
+   "started_utc": "2026-09-21T23:14:20Z",
+   "finished_utc": "2026-09-21T23:14:21Z",
    "error": null,
    "week": 2,
-   "label": "mon_late_am"
+   "label": "mon_pm"
   },
   "auto-skip": {
    "task": "auto-skip",
@@ -585,14 +585,32 @@
    "started_utc": "2026-09-21T16:39:02Z",
    "finished_utc": "2026-09-21T16:39:02Z",
    "error": null
+  },
+  {
+   "task": "snapshot",
+   "ok": true,
+   "summary": "week 2 mon_pm: 3148 projections, 30 NFL teams already started, 2348 players still pre-kickoff",
+   "started_utc": "2026-09-21T23:14:20Z",
+   "finished_utc": "2026-09-21T23:14:21Z",
+   "error": null,
+   "week": 2,
+   "label": "mon_pm"
+  },
+  {
+   "task": "build",
+   "ok": true,
+   "summary": "index.html + reports/2026/week02.html; lineup changes 1, claims 8, signals 4, accuracy weeks 1",
+   "started_utc": "2026-09-21T23:14:21Z",
+   "finished_utc": "2026-09-21T23:14:21Z",
+   "error": null
   }
  ],
  "last_run": {
   "task": "build",
   "ok": true,
   "summary": "index.html + reports/2026/week02.html; lineup changes 1, claims 8, signals 4, accuracy weeks 1",
-  "started_utc": "2026-09-21T16:39:02Z",
-  "finished_utc": "2026-09-21T16:39:02Z",
+  "started_utc": "2026-09-21T23:14:21Z",
+  "finished_utc": "2026-09-21T23:14:21Z",
   "error": null
  }
 }

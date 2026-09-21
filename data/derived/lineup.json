@@ -1,10 +1,10 @@
 {
  "week": 2,
- "generated_at_utc": "2026-09-21T16:39:02Z",
+ "generated_at_utc": "2026-09-21T23:14:21Z",
  "source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-09-21T15:34:14Z",
-  "label": "mon_late_am"
+  "taken_at_utc": "2026-09-21T23:14:21Z",
+  "label": "mon_pm"
  },
  "lineup": [
   {
@@ -205,63 +205,6 @@
    "vacated_pts": 0.0
   },
   {
-   "player_id": "2133",
-   "name": "Davante Adams",
-   "pos": "WR",
-   "team": "LAR",
-   "opp": "NYG",
-   "sleeper": 10.21,
-   "preseason": 12.3,
-   "season_avg": 4.1,
-   "n_games": 1,
-   "baseline": 10.66,
-   "expected": 10.37,
-   "injury_status": null,
-   "injury_body_part": null,
-   "practice": null,
-   "bye": false,
-   "playing": true,
-   "inj_mult": 1.0,
-   "boom_rate": 0.357,
-   "sd_wk": 8.123,
-   "vor": 51.4,
-   "started": false,
-   "actual_so_far": null,
-   "slot": "WR",
-   "why": "Sleeper projects 10.2, season average 4.1 over 1 game, preseason model 12.3. Blended expectation 10.4 vs NYG.",
-   "vacated": {
-    "player_id": "00-0031381",
-    "pos": "WR",
-    "team": "LA",
-    "estimator": "historical",
-    "n_out": 1,
-    "out": [
-     {
-      "player_id": "00-0039751",
-      "name": "Jordan Whittington",
-      "tgt": 0.0169
-     }
-    ],
-    "vacated_tgt": 0.048,
-    "vacated_car": null,
-    "absorbed_tgt": 0.017,
-    "absorbed_car": null,
-    "own_tgt_share": 0.246,
-    "own_car_share": 0.0,
-    "ppt": 1.362,
-    "ppc": 0.746,
-    "team_tgt_pg": 32.74,
-    "team_car_pg": 27.68,
-    "hist_pairs_used": 0,
-    "hist_min_games": null,
-    "points": 0.75,
-    "n_games": 1,
-    "name": "Davante Adams",
-    "why": "Jordan Whittington out, vacating 5% of the targets. The proportional split gives him 2% of targets, worth about 0.8 points. Display only: it does not change the expected number."
-   },
-   "vacated_pts": 0.75
-  },
-  {
    "player_id": "5872",
    "name": "Deebo Samuel",
    "pos": "WR",
@@ -284,7 +227,7 @@
    "vor": 27.9,
    "started": true,
    "actual_so_far": 6.45,
-   "slot": "FLEX",
+   "slot": "WR",
    "why": "Sleeper projects 8.7, season average 18.7 over 1 game, preseason model 10.2. Blended expectation 9.8 vs MIA.",
    "vacated": {
     "player_id": " 00-0035719",
@@ -327,6 +270,63 @@
     "why": "Jauan Jennings, Ricky Pearsall, Jordan Watkins out, vacating 40% of the targets. The proportional split gives him none of it, worth about 0.0 points. Display only: it does not change the expected number."
    },
    "vacated_pts": 0.0
+  },
+  {
+   "player_id": "2133",
+   "name": "Davante Adams",
+   "pos": "WR",
+   "team": "LAR",
+   "opp": "NYG",
+   "sleeper": 8.96,
+   "preseason": 12.3,
+   "season_avg": 4.1,
+   "n_games": 1,
+   "baseline": 10.66,
+   "expected": 9.55,
+   "injury_status": null,
+   "injury_body_part": null,
+   "practice": null,
+   "bye": false,
+   "playing": true,
+   "inj_mult": 1.0,
+   "boom_rate": 0.357,
+   "sd_wk": 8.123,
+   "vor": 51.4,
+   "started": false,
+   "actual_so_far": null,
+   "slot": "FLEX",
+   "why": "Sleeper projects 9.0, season average 4.1 over 1 game, preseason model 12.3. Blended expectation 9.6 vs NYG.",
+   "vacated": {
+    "player_id": "00-0031381",
+    "pos": "WR",
+    "team": "LA",
+    "estimator": "historical",
+    "n_out": 1,
+    "out": [
+     {
+      "player_id": "00-0039751",
+      "name": "Jordan Whittington",
+      "tgt": 0.0169
+     }
+    ],
+    "vacated_tgt": 0.048,
+    "vacated_car": null,
+    "absorbed_tgt": 0.017,
+    "absorbed_car": null,
+    "own_tgt_share": 0.246,
+    "own_car_share": 0.0,
+    "ppt": 1.362,
+    "ppc": 0.746,
+    "team_tgt_pg": 32.74,
+    "team_car_pg": 27.68,
+    "hist_pairs_used": 0,
+    "hist_min_games": null,
+    "points": 0.75,
+    "n_games": 1,
+    "name": "Davante Adams",
+    "why": "Jordan Whittington out, vacating 5% of the targets. The proportional split gives him 2% of targets, worth about 0.8 points. Display only: it does not change the expected number."
+   },
+   "vacated_pts": 0.75
   },
   {
    "player_id": "5045",
@@ -785,9 +785,9 @@
    "why": "Courtland Sutton 8.8 vs Denzel Boston 7.6, only 1.2 apart."
   }
  ],
- "expected_total": 101.2,
+ "expected_total": 100.4,
  "notes": [
-  "Projections are from the mon_late_am snapshot taken Mon Sep 21 10:34 AM Central.",
+  "Projections are from the mon_pm snapshot taken Mon Sep 21 06:14 PM Central.",
   "13 of your players have already kicked off this week; their rows show points so far."
  ],
  "vacated_meta": {

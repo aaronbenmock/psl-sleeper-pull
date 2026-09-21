@@ -428,7 +428,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 107.54,
+   "proj_next": 107.82,
    "future_opps": [
     3,
     6,
@@ -486,7 +486,7 @@
    "trend": null,
    "trend_label": "n/a (1 week)",
    "sos_remaining": 106.91,
-   "power": 107.8,
+   "power": 107.9,
    "power_rank": 5,
    "pf_rank": 6
   },
@@ -525,7 +525,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 100.5,
+   "proj_next": 99.25,
    "future_opps": [
     2,
     11,
@@ -583,7 +583,7 @@
    "trend": null,
    "trend_label": "n/a (1 week)",
    "sos_remaining": 108.5,
-   "power": 107.0,
+   "power": 106.5,
    "power_rank": 6,
    "pf_rank": 5
   },
@@ -615,7 +615,7 @@
    "efficiency": 0.82,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 107.7,
+   "proj_next": 109.02,
    "future_opps": [
     9,
     7,
@@ -673,7 +673,7 @@
    "trend": null,
    "trend_label": "n/a (1 week)",
    "sos_remaining": 111.18,
-   "power": 103.2,
+   "power": 103.7,
    "power_rank": 7,
    "pf_rank": 8
   },
@@ -885,7 +885,7 @@
    "efficiency": 0.78,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 108.07,
+   "proj_next": 106.88,
    "future_opps": [
     4,
     8,
@@ -943,7 +943,7 @@
    "trend": null,
    "trend_label": "n/a (1 week)",
    "sos_remaining": 107.12,
-   "power": 99.3,
+   "power": 98.8,
    "power_rank": 10,
    "pf_rank": 10
   },
@@ -1160,7 +1160,7 @@
  ],
  "projection_source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-09-21T15:34:14Z",
-  "label": "mon_late_am"
+  "taken_at_utc": "2026-09-21T23:14:21Z",
+  "label": "mon_pm"
  }
 }

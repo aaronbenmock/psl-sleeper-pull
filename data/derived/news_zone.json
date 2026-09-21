@@ -1,7 +1,7 @@
 {
  "machine": {
   "date_central": "2026-09-21",
-  "age_hours": 5.5,
+  "age_hours": 12.1,
   "my_roster": [
    {
     "player_id": "7049",
@@ -125,7 +125,7 @@
     "name": "Davante Adams",
     "pos": "WR",
     "team": "LAR",
-    "slot": "WR",
+    "slot": "FLEX",
     "injury_status": null,
     "injury_body_part": null,
     "injury_start_date": null,
@@ -143,7 +143,7 @@
     "name": "Deebo Samuel",
     "pos": "WR",
     "team": "SF",
-    "slot": "FLEX",
+    "slot": "WR",
     "injury_status": null,
     "injury_body_part": null,
     "injury_start_date": null,
@@ -758,6 +758,6 @@
   "week": 2,
   "source": "scheduled Claude task (desktop app)",
   "stale": false,
-  "age_days": 3.0
+  "age_days": 3.2
  }
 }
