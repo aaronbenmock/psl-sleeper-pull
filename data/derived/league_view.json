@@ -331,7 +331,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 107.06,
+   "proj_next": 107.0,
    "future_opps": [
     12,
     4,
@@ -525,7 +525,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 100.51,
+   "proj_next": 100.5,
    "future_opps": [
     2,
     11,
@@ -1160,7 +1160,7 @@
  ],
  "projection_source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-09-20T23:14:05Z",
-  "label": "sun_pm"
+  "taken_at_utc": "2026-09-21T12:02:57Z",
+  "label": "mon_early"
  }
 }

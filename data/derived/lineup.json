@@ -1,10 +1,10 @@
 {
  "week": 2,
- "generated_at_utc": "2026-09-21T11:10:27Z",
+ "generated_at_utc": "2026-09-21T12:02:57Z",
  "source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-09-20T23:14:05Z",
-  "label": "sun_pm"
+  "taken_at_utc": "2026-09-21T12:02:57Z",
+  "label": "mon_early"
  },
  "lineup": [
   {
@@ -39,12 +39,12 @@
    "pos": "RB",
    "team": "IND",
    "opp": "KC",
-   "sleeper": 17.31,
+   "sleeper": 17.3,
    "preseason": 16.44,
    "season_avg": 23.6,
    "n_games": 1,
    "baseline": 17.87,
-   "expected": 17.51,
+   "expected": 17.5,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -54,8 +54,8 @@
    "boom_rate": 0.419,
    "sd_wk": 11.95,
    "vor": 123.3,
-   "started": false,
-   "actual_so_far": null,
+   "started": true,
+   "actual_so_far": 27.2,
    "slot": "RB",
    "why": "Sleeper projects 17.3, season average 23.6 over 1 game, preseason model 16.4. Blended expectation 17.5 vs KC.",
    "vacated": {
@@ -787,8 +787,8 @@
  ],
  "expected_total": 101.2,
  "notes": [
-  "Projections are from the sun_pm snapshot taken Sun Sep 20 06:14 PM Central.",
-  "12 of your players have already kicked off this week; their rows show points so far."
+  "Projections are from the mon_early snapshot taken Mon Sep 21 07:02 AM Central.",
+  "13 of your players have already kicked off this week; their rows show points so far."
  ],
  "vacated_meta": {
   "available": true,
