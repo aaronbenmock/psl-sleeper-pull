@@ -1,10 +1,10 @@
 {
  "week": 2,
- "generated_at_utc": "2026-09-21T12:02:57Z",
+ "generated_at_utc": "2026-09-21T15:34:14Z",
  "source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-09-21T12:02:57Z",
-  "label": "mon_early"
+  "taken_at_utc": "2026-09-21T15:34:14Z",
+  "label": "mon_late_am"
  },
  "lineup": [
   {
@@ -787,7 +787,7 @@
  ],
  "expected_total": 101.2,
  "notes": [
-  "Projections are from the mon_early snapshot taken Mon Sep 21 07:02 AM Central.",
+  "Projections are from the mon_late_am snapshot taken Mon Sep 21 10:34 AM Central.",
   "13 of your players have already kicked off this week; their rows show points so far."
  ],
  "vacated_meta": {
