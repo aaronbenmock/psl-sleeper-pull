@@ -358,7 +358,7 @@
    "why": "Rest-of-season value about 6.7 a week (model+season; next week 6.14). He would not start over anyone you have, so the gain is depth only: +0.4 a week (a quarter of his edge over George Holani)."
   }
  ],
- "all_evaluated": 124,
+ "all_evaluated": 123,
  "drop_candidates": [
   {
    "player_id": "12048",
@@ -716,19 +716,25 @@
     "pos": "RB",
     "team": "IND",
     "estimator": "historical",
-    "n_out": 1,
+    "n_out": 2,
     "out": [
      {
       "player_id": "00-0037120",
       "name": "Tyler Goodson",
       "car": 0.0,
       "tgt": 0.0
+     },
+     {
+      "player_id": "00-0040179",
+      "name": "DJ Giddens",
+      "car": 0.1482,
+      "tgt": 0.0074
      }
     ],
-    "vacated_tgt": 0.007,
-    "vacated_car": 0.039,
-    "absorbed_tgt": 0.0,
-    "absorbed_car": 0.0,
+    "vacated_tgt": 0.02,
+    "vacated_car": 0.204,
+    "absorbed_tgt": 0.007,
+    "absorbed_car": 0.148,
     "own_tgt_share": 0.115,
     "own_car_share": 0.785,
     "ppt": 1.23,
@@ -737,12 +743,12 @@
     "team_car_pg": 24.8,
     "hist_pairs_used": 2,
     "hist_min_games": 4,
-    "points": 0.0,
+    "points": 4.07,
     "n_games": 1,
     "name": "Jonathan Taylor",
-    "why": "Tyler Goodson out, vacating 1% of the targets and 4% of the carries. The historical split gives him none of it, worth about 0.0 points. Display only: it does not change the expected number."
+    "why": "Tyler Goodson, DJ Giddens out, vacating 2% of the targets and 20% of the carries. The historical split gives him 1% of targets and 15% of carries, worth about 4.1 points. Display only: it does not change the expected number."
    },
-   "vacated_pts": 0.0,
+   "vacated_pts": 4.07,
    "ros": 17.87,
    "ros_how": "model+season",
    "protected": null
@@ -835,8 +841,13 @@
     "pos": "WR",
     "team": "SF",
     "estimator": "historical",
-    "n_out": 3,
+    "n_out": 4,
     "out": [
+     {
+      "player_id": "00-0032775",
+      "name": "Demarcus Robinson",
+      "tgt": 0.0
+     },
      {
       "player_id": "00-0036259",
       "name": "Jauan Jennings",
@@ -853,7 +864,7 @@
       "tgt": 0.0
      }
     ],
-    "vacated_tgt": 0.402,
+    "vacated_tgt": 0.48,
     "vacated_car": null,
     "absorbed_tgt": 0.0,
     "absorbed_car": null,
@@ -868,7 +879,7 @@
     "points": 0.0,
     "n_games": 0,
     "name": "Deebo Samuel",
-    "why": "Jauan Jennings, Ricky Pearsall, Jordan Watkins out, vacating 40% of the targets. The proportional split gives him none of it, worth about 0.0 points. Display only: it does not change the expected number."
+    "why": "Demarcus Robinson, Jauan Jennings, Ricky Pearsall and 1 more out, vacating 48% of the targets. The proportional split gives him none of it, worth about 0.0 points. Display only: it does not change the expected number."
    },
    "vacated_pts": 0.0,
    "ros": 11.9,
@@ -905,17 +916,22 @@
     "pos": "WR",
     "team": "LA",
     "estimator": "historical",
-    "n_out": 1,
+    "n_out": 2,
     "out": [
+     {
+      "player_id": "00-0039075",
+      "name": "Puka Nacua",
+      "tgt": 0.1946
+     },
      {
       "player_id": "00-0039751",
       "name": "Jordan Whittington",
-      "tgt": 0.0169
+      "tgt": 0.0303
      }
     ],
-    "vacated_tgt": 0.048,
+    "vacated_tgt": 0.356,
     "vacated_car": null,
-    "absorbed_tgt": 0.017,
+    "absorbed_tgt": 0.225,
     "absorbed_car": null,
     "own_tgt_share": 0.246,
     "own_car_share": 0.0,
@@ -925,12 +941,12 @@
     "team_car_pg": 27.68,
     "hist_pairs_used": 0,
     "hist_min_games": null,
-    "points": 0.75,
+    "points": 10.03,
     "n_games": 1,
     "name": "Davante Adams",
-    "why": "Jordan Whittington out, vacating 5% of the targets. The proportional split gives him 2% of targets, worth about 0.8 points. Display only: it does not change the expected number."
+    "why": "Puka Nacua, Jordan Whittington out, vacating 36% of the targets. The proportional split gives him 22% of targets, worth about 10.0 points. Display only: it does not change the expected number."
    },
-   "vacated_pts": 0.75,
+   "vacated_pts": 10.03,
    "ros": 10.66,
    "ros_how": "model+season",
    "protected": null
