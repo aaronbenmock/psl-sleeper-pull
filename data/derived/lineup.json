@@ -1,9 +1,9 @@
 {
  "week": 3,
- "generated_at_utc": "2026-09-23T15:03:19Z",
+ "generated_at_utc": "2026-09-23T16:01:46Z",
  "source": {
   "kind": "latest.json",
-  "taken_at_utc": "2026-09-23T15:03:17+00:00"
+  "taken_at_utc": "2026-09-23T16:01:44+00:00"
  },
  "lineup": [
   {
@@ -12,12 +12,12 @@
    "pos": "QB",
    "team": "BUF",
    "opp": "LAC",
-   "sleeper": 25.19,
+   "sleeper": 25.13,
    "preseason": 22.57,
    "season_avg": 43.74,
    "n_games": 2,
    "baseline": 29.63,
-   "expected": 26.74,
+   "expected": 26.7,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -30,7 +30,7 @@
    "started": null,
    "actual_so_far": null,
    "slot": "QB",
-   "why": "Sleeper projects 25.2, season average 43.7 over 2 games, preseason model 22.6. Blended expectation 26.7 vs LAC."
+   "why": "Sleeper projects 25.1, season average 43.7 over 2 games, preseason model 22.6. Blended expectation 26.7 vs LAC."
   },
   {
    "player_id": "6813",
@@ -38,12 +38,12 @@
    "pos": "RB",
    "team": "IND",
    "opp": "HOU",
-   "sleeper": 17.73,
+   "sleeper": 17.67,
    "preseason": 16.44,
    "season_avg": 25.4,
    "n_games": 2,
    "baseline": 19.42,
-   "expected": 18.32,
+   "expected": 18.28,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -89,12 +89,12 @@
    "pos": "RB",
    "team": "PIT",
    "opp": "CIN",
-   "sleeper": 10.98,
+   "sleeper": 11.02,
    "preseason": 10.44,
    "season_avg": 4.25,
    "n_games": 2,
    "baseline": 8.38,
-   "expected": 9.06,
+   "expected": 9.08,
    "injury_status": "Questionable",
    "injury_body_part": "Toe",
    "practice": null,
@@ -147,12 +147,12 @@
    "pos": "WR",
    "team": "LAR",
    "opp": "DEN",
-   "sleeper": 10.46,
+   "sleeper": 10.55,
    "preseason": 12.3,
    "season_avg": 20.3,
    "n_games": 2,
    "baseline": 14.97,
-   "expected": 12.04,
+   "expected": 12.1,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -165,7 +165,7 @@
    "started": null,
    "actual_so_far": null,
    "slot": "WR",
-   "why": "Sleeper projects 10.5, season average 20.3 over 2 games, preseason model 12.3. Blended expectation 12.0 vs DEN.",
+   "why": "Sleeper projects 10.6, season average 20.3 over 2 games, preseason model 12.3. Blended expectation 12.1 vs DEN.",
    "vacated": {
     "player_id": "00-0031381",
     "pos": "WR",
@@ -198,12 +198,12 @@
    "pos": "WR",
    "team": "SF",
    "opp": "ARI",
-   "sleeper": 9.45,
+   "sleeper": 9.54,
    "preseason": 10.2,
    "season_avg": 12.57,
    "n_games": 2,
    "baseline": 10.99,
-   "expected": 9.99,
+   "expected": 10.05,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -216,7 +216,7 @@
    "started": null,
    "actual_so_far": null,
    "slot": "WR",
-   "why": "Sleeper projects 9.4, season average 12.6 over 2 games, preseason model 10.2. Blended expectation 10.0 vs ARI.",
+   "why": "Sleeper projects 9.5, season average 12.6 over 2 games, preseason model 10.2. Blended expectation 10.1 vs ARI.",
    "vacated": {
     "player_id": " 00-0035719",
     "pos": "WR",
@@ -260,12 +260,12 @@
    "pos": "WR",
    "team": "PIT",
    "opp": "CIN",
-   "sleeper": 9.28,
+   "sleeper": 9.23,
    "preseason": 10.03,
    "season_avg": 5.35,
    "n_games": 2,
    "baseline": 8.47,
-   "expected": 9.0,
+   "expected": 8.96,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -278,7 +278,7 @@
    "started": null,
    "actual_so_far": null,
    "slot": "FLEX",
-   "why": "Sleeper projects 9.3, season average 5.3 over 2 games, preseason model 10.0. Blended expectation 9.0 vs CIN.",
+   "why": "Sleeper projects 9.2, season average 5.3 over 2 games, preseason model 10.0. Blended expectation 9.0 vs CIN.",
    "vacated": {
     "player_id": " 00-0035640",
     "pos": "WR",
@@ -422,12 +422,12 @@
    "pos": "WR",
    "team": "DEN",
    "opp": "LAR",
-   "sleeper": 8.65,
+   "sleeper": 8.73,
    "preseason": 10.43,
    "season_avg": 3.05,
    "n_games": 2,
    "baseline": 7.97,
-   "expected": 8.41,
+   "expected": 8.46,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -440,7 +440,7 @@
    "started": null,
    "actual_so_far": null,
    "slot": "BN",
-   "why": "Sleeper projects 8.7, season average 3.0 over 2 games, preseason model 10.4. Blended expectation 8.4 vs LAR.",
+   "why": "Sleeper projects 8.7, season average 3.0 over 2 games, preseason model 10.4. Blended expectation 8.5 vs LAR.",
    "vacated": {
     "player_id": "00-0034348",
     "pos": "WR",
@@ -738,9 +738,9 @@
   {
    "out": "Courtland Sutton",
    "in": "Denzel Boston",
-   "out_expected": 8.41,
+   "out_expected": 8.46,
    "in_expected": 8.74,
-   "why": "Denzel Boston 8.7 vs Courtland Sutton 8.4 expected (+0.3). "
+   "why": "Denzel Boston 8.7 vs Courtland Sutton 8.5 expected (+0.3). "
   }
  ],
  "close_calls": [
@@ -748,11 +748,11 @@
    "slot": "FLEX",
    "starter": "DK Metcalf",
    "bench": "Courtland Sutton",
-   "gap": 0.6,
+   "gap": 0.5,
    "vacated_starter": 0.0,
    "vacated_bench": 0.0,
    "vacated_note": "Vacated share (display only, not in the numbers above): DK Metcalf 0.0, Courtland Sutton 0.0 points of absorbed usage. Calvin Austin III out, vacating 13% of the targets. The proportional split gives him none of it, worth about 0.0 points. Display only: it does not change the expected number.",
-   "why": "DK Metcalf 9.0 vs Courtland Sutton 8.4, only 0.6 apart. Tiebreak: Courtland Sutton has the higher ceiling (boom rate 24% vs 20%)."
+   "why": "DK Metcalf 9.0 vs Courtland Sutton 8.5, only 0.5 apart. Tiebreak: Courtland Sutton has the higher ceiling (boom rate 24% vs 20%)."
   },
   {
    "slot": "FLEX",
@@ -762,7 +762,7 @@
    "vacated_starter": 0.0,
    "vacated_bench": 0.0,
    "vacated_note": null,
-   "why": "Denzel Boston 8.7 vs Courtland Sutton 8.4, only 0.3 apart."
+   "why": "Denzel Boston 8.7 vs Courtland Sutton 8.5, only 0.3 apart."
   },
   {
    "slot": "FLEX",
@@ -787,7 +787,7 @@
    1,
    2
   ],
-  "pulled_at_utc": "2026-09-23T15:03:18Z",
+  "pulled_at_utc": "2026-09-23T16:01:46Z",
   "n_players": 11,
   "n_unmapped": 0,
   "note": "Vacated share is display only. It is not part of expected points, and it does not change the close-call tiebreak: the 2015-2024 backtest could not tell it apart from the current rule on held-out 2025 (see the Backtest tab)."
