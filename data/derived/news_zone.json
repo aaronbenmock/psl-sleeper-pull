@@ -1,7 +1,7 @@
 {
  "machine": {
   "date_central": "2026-09-23",
-  "age_hours": 0.9,
+  "age_hours": 3.9,
   "my_roster": [
    {
     "player_id": "7021",
@@ -69,31 +69,11 @@
     ]
    },
    {
-    "player_id": "5045",
-    "name": "Courtland Sutton",
-    "pos": "WR",
-    "team": "DEN",
-    "slot": "FLEX",
-    "injury_status": null,
-    "injury_body_part": null,
-    "injury_start_date": null,
-    "injury_notes": null,
-    "practice_participation": null,
-    "practice_description": null,
-    "news_updated": "2026-09-21",
-    "depth_chart_order": 2,
-    "history": [
-     "2026-09-19: news updated 1789476313542 to 1789783250384",
-     "2026-09-22: news updated 1789783250384 to 1789985704033",
-     "2026-09-22: depth chart order 1 to 2"
-    ]
-   },
-   {
     "player_id": "5846",
     "name": "DK Metcalf",
     "pos": "WR",
     "team": "PIT",
-    "slot": "WR",
+    "slot": "FLEX",
     "injury_status": null,
     "injury_body_part": null,
     "injury_start_date": null,
@@ -112,7 +92,7 @@
     "name": "Davante Adams",
     "pos": "WR",
     "team": "LAR",
-    "slot": "FLEX",
+    "slot": "WR",
     "injury_status": null,
     "injury_body_part": null,
     "injury_start_date": null,
@@ -147,6 +127,27 @@
      "2026-09-19: news updated 1789664129421 to 1789798552080",
      "2026-09-20: news updated 1789798552080 to 1789868749083",
      "2026-09-22: news updated 1789868749083 to 1790001305675"
+    ]
+   },
+   {
+    "player_id": "13346",
+    "name": "Denzel Boston",
+    "pos": "WR",
+    "team": "CLE",
+    "slot": "FLEX",
+    "injury_status": null,
+    "injury_body_part": null,
+    "injury_start_date": null,
+    "injury_notes": null,
+    "practice_participation": null,
+    "practice_description": null,
+    "news_updated": "2026-09-21",
+    "depth_chart_order": 1,
+    "history": [
+     "2026-09-19: news updated 1789417205563 to 1789776649492",
+     "2026-09-22: news updated 1789776649492 to 1790004004180",
+     "2026-09-22: depth chart order 2 to 3",
+     "2026-09-23: depth chart order 3 to 1"
     ]
    },
    {
@@ -201,10 +202,10 @@
     "history": []
    },
    {
-    "player_id": "13346",
-    "name": "Denzel Boston",
+    "player_id": "5045",
+    "name": "Courtland Sutton",
     "pos": "WR",
-    "team": "CLE",
+    "team": "DEN",
     "slot": "BN",
     "injury_status": null,
     "injury_body_part": null,
@@ -213,12 +214,11 @@
     "practice_participation": null,
     "practice_description": null,
     "news_updated": "2026-09-21",
-    "depth_chart_order": 1,
+    "depth_chart_order": 2,
     "history": [
-     "2026-09-19: news updated 1789417205563 to 1789776649492",
-     "2026-09-22: news updated 1789776649492 to 1790004004180",
-     "2026-09-22: depth chart order 2 to 3",
-     "2026-09-23: depth chart order 3 to 1"
+     "2026-09-19: news updated 1789476313542 to 1789783250384",
+     "2026-09-22: news updated 1789783250384 to 1789985704033",
+     "2026-09-22: depth chart order 1 to 2"
     ]
    },
    {
@@ -838,6 +838,6 @@
   "week": 2,
   "source": "scheduled Claude task (desktop app)",
   "stale": false,
-  "age_days": 4.8
+  "age_days": 4.9
  }
 }

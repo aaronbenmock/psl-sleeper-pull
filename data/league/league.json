@@ -1,11 +1,11 @@
 {
- "pulled_at_utc": "2026-09-20T21:41:11Z",
+ "pulled_at_utc": "2026-09-23T15:03:14Z",
  "name": "Pretend Sportsball League '26",
  "season": "2026",
  "status": "in_season",
  "settings": {
   "best_ball": 0,
-  "last_report": 1,
+  "last_report": 2,
   "waiver_budget": 200,
   "disable_adds": 0,
   "divisions": 0,
@@ -24,7 +24,7 @@
   "playoff_type": 1,
   "taxi_slots": 0,
   "sub_start_time_eligibility": 1,
-  "last_scored_leg": 1,
+  "last_scored_leg": 2,
   "daily_waivers_days": 336,
   "sub_lock_if_starter_active": 0,
   "playoff_week_start": 15,
@@ -166,14 +166,14 @@
  ],
  "total_rosters": 12,
  "nfl_state": {
-  "week": 2,
-  "leg": 2,
-  "season_type": "regular",
+  "week": 3,
+  "leg": 3,
   "season": "2026",
+  "season_type": "regular",
   "league_season": "2026",
   "previous_season": "2025",
   "season_start_date": "2026-09-09",
-  "display_week": 2,
+  "display_week": 3,
   "league_create_season": "2026",
   "season_has_scores": true
  }
