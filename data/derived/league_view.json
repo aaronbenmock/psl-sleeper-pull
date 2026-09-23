@@ -126,18 +126,12 @@
     {
      "name": "Caleb Williams",
      "pos": "QB",
-     "status": "Out",
+     "status": "Doubtful",
      "body": "Hamstring"
-    },
-    {
-     "name": "DJ Moore",
-     "pos": "WR",
-     "status": "Out",
-     "body": "Shoulder"
     }
    ],
    "byes_next": [],
-   "proj_next": 98.63,
+   "proj_next": 91.58,
    "future_opps": [
     6,
     12,
@@ -172,7 +166,7 @@
      "pos": "RB"
     },
     {
-     "name": "DJ Moore",
+     "name": "Stefon Diggs",
      "pos": "WR"
     },
     {
@@ -180,22 +174,22 @@
      "pos": "WR"
     },
     {
-     "name": "Stefon Diggs",
-     "pos": "WR"
-    },
-    {
      "name": "Jacory Croskey-Merritt",
      "pos": "RB"
     },
     {
-     "name": "TB DEF",
+     "name": "Dontayvion Wicks",
+     "pos": "WR"
+    },
+    {
+     "name": "CHI DEF",
      "pos": "DEF"
     }
    ],
    "trend": null,
    "trend_label": "n/a (1 week)",
    "sos_remaining": 108.41,
-   "power": 126.7,
+   "power": 123.8,
    "power_rank": 2,
    "pf_rank": 2
   },
@@ -416,7 +410,7 @@
     {
      "name": "Rico Dowdle",
      "pos": "RB",
-     "status": "Out",
+     "status": "Questionable",
      "body": "Toe"
     }
    ],
@@ -621,7 +615,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 95.73,
+   "proj_next": 93.6,
    "future_opps": [
     3,
     6,
@@ -644,7 +638,7 @@
    "faab_used": 6,
    "starters_now": [
     {
-     "name": "Jordan Love",
+     "name": "Joe Burrow",
      "pos": "QB"
     },
     {
@@ -652,7 +646,7 @@
      "pos": "RB"
     },
     {
-     "name": "Rhamondre Stevenson",
+     "name": "TreVeyon Henderson",
      "pos": "RB"
     },
     {
@@ -668,7 +662,7 @@
      "pos": "WR"
     },
     {
-     "name": "Malachi Fields",
+     "name": "Devaughn Vele",
      "pos": "WR"
     },
     {
@@ -679,7 +673,7 @@
    "trend": null,
    "trend_label": "n/a (1 week)",
    "sos_remaining": 106.91,
-   "power": 103.1,
+   "power": 102.2,
    "power_rank": 7,
    "pf_rank": 6
   },
@@ -891,7 +885,7 @@
    "efficiency": 0.78,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 106.88,
+   "proj_next": 107.25,
    "future_opps": [
     4,
     8,
@@ -914,7 +908,7 @@
    "faab_used": 0,
    "starters_now": [
     {
-     "name": "Matthew Stafford",
+     "name": "Bryce Young",
      "pos": "QB"
     },
     {
@@ -926,15 +920,15 @@
      "pos": "RB"
     },
     {
-     "name": "Christian Watson",
-     "pos": "WR"
-    },
-    {
-     "name": "Emeka Egbuka",
-     "pos": "WR"
-    },
-    {
      "name": "Parker Washington",
+     "pos": "WR"
+    },
+    {
+     "name": "Jaylen Waddle",
+     "pos": "WR"
+    },
+    {
+     "name": "Christian Watson",
      "pos": "WR"
     },
     {
@@ -949,7 +943,7 @@
    "trend": null,
    "trend_label": "n/a (1 week)",
    "sos_remaining": 107.12,
-   "power": 98.8,
+   "power": 99.0,
    "power_rank": 10,
    "pf_rank": 10
   },
@@ -1143,12 +1137,6 @@
  ],
  "signals": [
   {
-   "team": "Girthenheimer",
-   "kind": "injured_starters",
-   "severity": "high",
-   "text": "Girthenheimer is the #2 scorer at 145.36 a week but has 2 of 8 starters carrying injury tags: Caleb Williams Out (Hamstring), DJ Moore Out (Shoulder)."
-  },
-  {
    "team": "Cheeky Nando\u2019s",
    "kind": "injured_starters",
    "severity": "medium",
@@ -1174,6 +1162,12 @@
   },
   {
    "team": "Girthenheimer",
+   "kind": "injured_starter",
+   "severity": "low",
+   "text": "Girthenheimer (#2 scorer) has Caleb Williams listed Doubtful."
+  },
+  {
+   "team": "Girthenheimer",
    "kind": "unlucky",
    "severity": "low",
    "text": "Girthenheimer is 2-2 but would be about 3.6-0.4 against the whole league (all-play 10-1). Better than the record."
@@ -1185,16 +1179,16 @@
    "text": "RafiBomb is 2-2 but would be about 0.7-3.3 against the whole league each week (all-play 2-9). Record flatters the roster."
   },
   {
-   "team": "Cheeky Nando\u2019s",
-   "kind": "trade_fit",
-   "severity": "info",
-   "text": "Cheeky Nando\u2019s starts Malachi Fields (WR) at a projected 4.8; you carry 7 WRs. Possible trade partner (deadline week 12)."
-  },
-  {
    "team": "City of Champyinz",
    "kind": "trade_fit",
    "severity": "info",
    "text": "City of Champyinz starts Romeo Doubs (WR) at a projected 7.5; you carry 7 WRs. Possible trade partner (deadline week 12)."
+  },
+  {
+   "team": "Girthenheimer",
+   "kind": "trade_fit",
+   "severity": "info",
+   "text": "Girthenheimer starts Dontayvion Wicks (WR) at a projected 6.7; you carry 7 WRs. Possible trade partner (deadline week 12)."
   }
  ],
  "notes": [

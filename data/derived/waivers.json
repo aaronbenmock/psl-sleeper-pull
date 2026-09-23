@@ -19,7 +19,7 @@
    "starter_gain": 2.13,
    "depth_gain": 0.0,
    "trending": 0,
-   "injury_status": "Questionable",
+   "injury_status": "Doubtful",
    "would_start": true,
    "drop": {
     "player_id": "12048",
@@ -358,7 +358,7 @@
    "why": "Rest-of-season value about 6.7 a week (model+season; next week 6.14). He would not start over anyone you have, so the gain is depth only: +0.4 a week (a quarter of his edge over George Holani)."
   }
  ],
- "all_evaluated": 123,
+ "all_evaluated": 125,
  "drop_candidates": [
   {
    "player_id": "12048",
@@ -439,19 +439,19 @@
    "n_games": 1,
    "baseline": 7.17,
    "expected": 0.0,
-   "injury_status": "Out",
+   "injury_status": "Questionable",
    "injury_body_part": "Personal",
    "practice": null,
    "bye": false,
    "playing": false,
-   "inj_mult": 0.0,
+   "inj_mult": 0.9,
    "boom_rate": 0.167,
    "sd_wk": 8.163,
    "vor": 4.1,
    "started": true,
    "actual_so_far": null,
    "slot": "BN",
-   "why": "Ruled Out, 0 points.",
+   "why": "No Sleeper projection this week (ruled out or not active), 0 points.",
    "vacated": {
     "player_id": "00-0036259",
     "pos": "WR",
@@ -564,7 +564,7 @@
    "vor": -31.6,
    "started": true,
    "actual_so_far": 8.0,
-   "slot": "RB",
+   "slot": "BN",
    "why": "Sleeper projects 8.0, season average 8.4 over 1 game, preseason model 8.3. Blended expectation 8.1 vs CIN.",
    "vacated": {
     "player_id": "00-0040583",
@@ -625,15 +625,9 @@
     "pos": "WR",
     "team": "DEN",
     "estimator": "historical",
-    "n_out": 1,
-    "out": [
-     {
-      "player_id": "00-0038976",
-      "name": "Marvin Mims Jr.",
-      "tgt": 0.0
-     }
-    ],
-    "vacated_tgt": 0.08,
+    "n_out": 0,
+    "out": [],
+    "vacated_tgt": 0.0,
     "vacated_car": null,
     "absorbed_tgt": 0.0,
     "absorbed_car": null,
@@ -643,12 +637,12 @@
     "ppc": 0.746,
     "team_tgt_pg": 32.88,
     "team_car_pg": 24.46,
-    "hist_pairs_used": 1,
-    "hist_min_games": 3,
+    "hist_pairs_used": 0,
+    "hist_min_games": null,
     "points": 0.0,
     "n_games": 1,
     "name": "Courtland Sutton",
-    "why": "Marvin Mims Jr. out, vacating 8% of the targets. The historical split gives him none of it, worth about 0.0 points. Display only: it does not change the expected number."
+    "why": "No teammate at his position is ruled out, so nothing is vacated."
    },
    "vacated_pts": 0.0,
    "ros": 8.76,
@@ -716,39 +710,26 @@
     "pos": "RB",
     "team": "IND",
     "estimator": "historical",
-    "n_out": 2,
-    "out": [
-     {
-      "player_id": "00-0037120",
-      "name": "Tyler Goodson",
-      "car": 0.0,
-      "tgt": 0.0
-     },
-     {
-      "player_id": "00-0040179",
-      "name": "DJ Giddens",
-      "car": 0.1482,
-      "tgt": 0.0074
-     }
-    ],
-    "vacated_tgt": 0.02,
-    "vacated_car": 0.204,
-    "absorbed_tgt": 0.007,
-    "absorbed_car": 0.148,
+    "n_out": 0,
+    "out": [],
+    "vacated_tgt": 0.0,
+    "vacated_car": 0.0,
+    "absorbed_tgt": 0.0,
+    "absorbed_car": 0.0,
     "own_tgt_share": 0.115,
     "own_car_share": 0.785,
     "ppt": 1.23,
     "ppc": 1.032,
     "team_tgt_pg": 30.74,
     "team_car_pg": 24.8,
-    "hist_pairs_used": 2,
-    "hist_min_games": 4,
-    "points": 4.07,
+    "hist_pairs_used": 0,
+    "hist_min_games": null,
+    "points": 0.0,
     "n_games": 1,
     "name": "Jonathan Taylor",
-    "why": "Tyler Goodson, DJ Giddens out, vacating 2% of the targets and 20% of the carries. The historical split gives him 1% of targets and 15% of carries, worth about 4.1 points. Display only: it does not change the expected number."
+    "why": "No teammate at his position is ruled out, so nothing is vacated."
    },
-   "vacated_pts": 4.07,
+   "vacated_pts": 0.0,
    "ros": 17.87,
    "ros_how": "model+season",
    "protected": null
@@ -765,19 +746,19 @@
    "n_games": 1,
    "baseline": 13.89,
    "expected": 0.0,
-   "injury_status": "Out",
-   "injury_body_part": "Concussion",
+   "injury_status": null,
+   "injury_body_part": null,
    "practice": null,
    "bye": false,
    "playing": false,
-   "inj_mult": 0.0,
+   "inj_mult": 1.0,
    "boom_rate": 0.318,
    "sd_wk": 7.899,
    "vor": -79.2,
    "started": true,
    "actual_so_far": null,
    "slot": "BN",
-   "why": "Ruled Out, 0 points.",
+   "why": "No Sleeper projection this week (ruled out or not active), 0 points.",
    "ros": 13.89,
    "ros_how": "model+season",
    "protected": "QB2 covers Josh Allen's week 7 bye"
@@ -841,7 +822,7 @@
     "pos": "WR",
     "team": "SF",
     "estimator": "historical",
-    "n_out": 4,
+    "n_out": 2,
     "out": [
      {
       "player_id": "00-0032775",
@@ -849,22 +830,12 @@
       "tgt": 0.0
      },
      {
-      "player_id": "00-0036259",
-      "name": "Jauan Jennings",
-      "tgt": 0.0
-     },
-     {
       "player_id": "00-0039916",
       "name": "Ricky Pearsall",
       "tgt": 0.0
-     },
-     {
-      "player_id": "00-0040172",
-      "name": "Jordan Watkins",
-      "tgt": 0.0
      }
     ],
-    "vacated_tgt": 0.48,
+    "vacated_tgt": 0.258,
     "vacated_car": null,
     "absorbed_tgt": 0.0,
     "absorbed_car": null,
@@ -879,7 +850,7 @@
     "points": 0.0,
     "n_games": 0,
     "name": "Deebo Samuel",
-    "why": "Demarcus Robinson, Jauan Jennings, Ricky Pearsall and 1 more out, vacating 48% of the targets. The proportional split gives him none of it, worth about 0.0 points. Display only: it does not change the expected number."
+    "why": "Demarcus Robinson, Ricky Pearsall out, vacating 26% of the targets. The proportional split gives him none of it, worth about 0.0 points. Display only: it does not change the expected number."
    },
    "vacated_pts": 0.0,
    "ros": 11.9,
@@ -916,22 +887,11 @@
     "pos": "WR",
     "team": "LA",
     "estimator": "historical",
-    "n_out": 2,
-    "out": [
-     {
-      "player_id": "00-0039075",
-      "name": "Puka Nacua",
-      "tgt": 0.1946
-     },
-     {
-      "player_id": "00-0039751",
-      "name": "Jordan Whittington",
-      "tgt": 0.0303
-     }
-    ],
-    "vacated_tgt": 0.356,
+    "n_out": 0,
+    "out": [],
+    "vacated_tgt": 0.0,
     "vacated_car": null,
-    "absorbed_tgt": 0.225,
+    "absorbed_tgt": 0.0,
     "absorbed_car": null,
     "own_tgt_share": 0.246,
     "own_car_share": 0.0,
@@ -941,12 +901,12 @@
     "team_car_pg": 27.68,
     "hist_pairs_used": 0,
     "hist_min_games": null,
-    "points": 10.03,
+    "points": 0.0,
     "n_games": 1,
     "name": "Davante Adams",
-    "why": "Puka Nacua, Jordan Whittington out, vacating 36% of the targets. The proportional split gives him 22% of targets, worth about 10.0 points. Display only: it does not change the expected number."
+    "why": "No teammate at his position is ruled out, so nothing is vacated."
    },
-   "vacated_pts": 10.03,
+   "vacated_pts": 0.0,
    "ros": 10.66,
    "ros_how": "model+season",
    "protected": null
@@ -1041,20 +1001,15 @@
     "pos": "WR",
     "team": "PIT",
     "estimator": "historical",
-    "n_out": 2,
+    "n_out": 1,
     "out": [
-     {
-      "player_id": "00-0036252",
-      "name": "Michael Pittman",
-      "tgt": 0.0
-     },
      {
       "player_id": "00-0037837",
       "name": "Calvin Austin III",
       "tgt": 0.0
      }
     ],
-    "vacated_tgt": 0.312,
+    "vacated_tgt": 0.131,
     "vacated_car": null,
     "absorbed_tgt": 0.0,
     "absorbed_car": null,
@@ -1069,7 +1024,7 @@
     "points": 0.0,
     "n_games": 0,
     "name": "DK Metcalf",
-    "why": "Michael Pittman, Calvin Austin III out, vacating 31% of the targets. The proportional split gives him none of it, worth about 0.0 points. Display only: it does not change the expected number."
+    "why": "Calvin Austin III out, vacating 13% of the targets. The proportional split gives him none of it, worth about 0.0 points. Display only: it does not change the expected number."
    },
    "vacated_pts": 0.0,
    "ros": 9.22,
@@ -1087,20 +1042,20 @@
    "season_avg": 3.1,
    "n_games": 1,
    "baseline": 8.97,
-   "expected": 0.0,
-   "injury_status": "Out",
+   "expected": 8.56,
+   "injury_status": "Questionable",
    "injury_body_part": "Toe",
    "practice": null,
    "bye": false,
    "playing": true,
-   "inj_mult": 0.0,
+   "inj_mult": 0.9,
    "boom_rate": 0.242,
    "sd_wk": 7.725,
    "vor": 39.2,
    "started": true,
    "actual_so_far": 5.4,
-   "slot": "BN",
-   "why": "Sleeper projects 9.8, season average 3.1 over 1 game, preseason model 10.4, Out (Toe) cuts it by 100%. Blended expectation 0.0 vs NE.",
+   "slot": "RB",
+   "why": "Sleeper projects 9.8, season average 3.1 over 1 game, preseason model 10.4, Questionable (Toe) cuts it by 9%. Blended expectation 8.6 vs NE.",
    "vacated": {
     "player_id": "00-0036139",
     "pos": "RB",
@@ -1167,15 +1122,9 @@
     "pos": "WR",
     "team": "DEN",
     "estimator": "historical",
-    "n_out": 1,
-    "out": [
-     {
-      "player_id": "00-0038976",
-      "name": "Marvin Mims Jr.",
-      "tgt": 0.0
-     }
-    ],
-    "vacated_tgt": 0.08,
+    "n_out": 0,
+    "out": [],
+    "vacated_tgt": 0.0,
     "vacated_car": null,
     "absorbed_tgt": 0.0,
     "absorbed_car": null,
@@ -1185,12 +1134,12 @@
     "ppc": 0.746,
     "team_tgt_pg": 32.88,
     "team_car_pg": 24.46,
-    "hist_pairs_used": 1,
-    "hist_min_games": 3,
+    "hist_pairs_used": 0,
+    "hist_min_games": null,
     "points": 0.0,
     "n_games": 1,
     "name": "Courtland Sutton",
-    "why": "Marvin Mims Jr. out, vacating 8% of the targets. The historical split gives him none of it, worth about 0.0 points. Display only: it does not change the expected number."
+    "why": "No teammate at his position is ruled out, so nothing is vacated."
    },
    "vacated_pts": 0.0,
    "ros": 8.76,
@@ -1220,7 +1169,7 @@
    "vor": -31.6,
    "started": true,
    "actual_so_far": 8.0,
-   "slot": "RB",
+   "slot": "BN",
    "why": "Sleeper projects 8.0, season average 8.4 over 1 game, preseason model 8.3. Blended expectation 8.1 vs CIN.",
    "vacated": {
     "player_id": "00-0040583",
@@ -1317,19 +1266,19 @@
    "n_games": 1,
    "baseline": 7.17,
    "expected": 0.0,
-   "injury_status": "Out",
+   "injury_status": "Questionable",
    "injury_body_part": "Personal",
    "practice": null,
    "bye": false,
    "playing": false,
-   "inj_mult": 0.0,
+   "inj_mult": 0.9,
    "boom_rate": 0.167,
    "sd_wk": 8.163,
    "vor": 4.1,
    "started": true,
    "actual_so_far": null,
    "slot": "BN",
-   "why": "Ruled Out, 0 points.",
+   "why": "No Sleeper projection this week (ruled out or not active), 0 points.",
    "vacated": {
     "player_id": "00-0036259",
     "pos": "WR",
