@@ -38,7 +38,7 @@
    "efficiency": 0.98,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 123.52,
+   "proj_next": 123.21,
    "future_opps": [
     1,
     2,
@@ -95,7 +95,7 @@
    "trend": -12.7,
    "trend_label": "down",
    "sos_remaining": 96.74,
-   "power": 136.2,
+   "power": 136.1,
    "power_rank": 1,
    "pf_rank": 1
   },
@@ -137,7 +137,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 108.6,
+   "proj_next": 108.7,
    "future_opps": [
     9,
     6,
@@ -194,7 +194,7 @@
    "trend": 4.7,
    "trend_label": "flat",
    "sos_remaining": 99.83,
-   "power": 121.9,
+   "power": 122.0,
    "power_rank": 2,
    "pf_rank": 2
   },
@@ -236,7 +236,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 100.96,
+   "proj_next": 102.37,
    "future_opps": [
     11,
     5,
@@ -293,7 +293,7 @@
    "trend": 27.6,
    "trend_label": "up",
    "sos_remaining": 101.71,
-   "power": 115.4,
+   "power": 116.0,
    "power_rank": 3,
    "pf_rank": 3
   },
@@ -335,7 +335,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 99.21,
+   "proj_next": 98.96,
    "future_opps": [
     2,
     11,
@@ -392,7 +392,7 @@
    "trend": 17.6,
    "trend_label": "up",
    "sos_remaining": 97.81,
-   "power": 108.9,
+   "power": 108.8,
    "power_rank": 4,
    "pf_rank": 4
   },
@@ -427,7 +427,7 @@
    "efficiency": 0.85,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 104.49,
+   "proj_next": 104.46,
    "future_opps": [
     8,
     10,
@@ -519,7 +519,7 @@
    "efficiency": 0.97,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 106.21,
+   "proj_next": 105.97,
    "future_opps": [
     3,
     7,
@@ -576,7 +576,7 @@
    "trend": 17.0,
    "trend_label": "up",
    "sos_remaining": 101.14,
-   "power": 104.8,
+   "power": 104.7,
    "power_rank": 6,
    "pf_rank": 7
   },
@@ -611,7 +611,7 @@
    "efficiency": 0.81,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 87.08,
+   "proj_next": 86.54,
    "future_opps": [
     12,
     4,
@@ -668,7 +668,7 @@
    "trend": -78.0,
    "trend_label": "down",
    "sos_remaining": 107.49,
-   "power": 98.6,
+   "power": 98.4,
    "power_rank": 7,
    "pf_rank": 6
   },
@@ -710,7 +710,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 103.2,
+   "proj_next": 102.73,
    "future_opps": [
     7,
     12,
@@ -767,7 +767,7 @@
    "trend": -17.3,
    "trend_label": "down",
    "sos_remaining": 105.3,
-   "power": 96.2,
+   "power": 96.0,
    "power_rank": 8,
    "pf_rank": 9
   },
@@ -815,7 +815,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 96.81,
+   "proj_next": 96.57,
    "future_opps": [
     6,
     1,
@@ -872,7 +872,7 @@
    "trend": -26.0,
    "trend_label": "down",
    "sos_remaining": 100.01,
-   "power": 95.7,
+   "power": 95.6,
    "power_rank": 9,
    "pf_rank": 8
   },
@@ -920,7 +920,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 107.07,
+   "proj_next": 105.86,
    "future_opps": [
     4,
     8,
@@ -977,7 +977,7 @@
    "trend": -84.7,
    "trend_label": "down",
    "sos_remaining": 107.45,
-   "power": 90.8,
+   "power": 90.3,
    "power_rank": 10,
    "pf_rank": 10
   },
@@ -1019,7 +1019,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 96.49,
+   "proj_next": 96.11,
    "future_opps": [
     5,
     9,
@@ -1076,7 +1076,7 @@
    "trend": -18.8,
    "trend_label": "down",
    "sos_remaining": 103.98,
-   "power": 83.6,
+   "power": 83.5,
    "power_rank": 11,
    "pf_rank": 11
   },
@@ -1118,7 +1118,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 88.65,
+   "proj_next": 88.4,
    "future_opps": [
     10,
     3,
@@ -1175,7 +1175,7 @@
    "trend": -2.0,
    "trend_label": "flat",
    "sos_remaining": 109.0,
-   "power": 70.7,
+   "power": 70.6,
    "power_rank": 12,
    "pf_rank": 12
   }
@@ -1275,7 +1275,7 @@
    "team": "Amateur Hour",
    "kind": "trade_fit",
    "severity": "info",
-   "text": "Amateur Hour starts Rome Odunze (WR) at a projected 7.3; you carry 7 WRs. Possible trade partner (deadline week 12)."
+   "text": "Amateur Hour starts Rome Odunze (WR) at a projected 6.5; you carry 7 WRs. Possible trade partner (deadline week 12)."
   }
  ],
  "notes": [
@@ -1284,7 +1284,7 @@
  ],
  "projection_source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-09-24T15:36:08Z",
-  "label": "thu_late_am"
+  "taken_at_utc": "2026-09-24T23:13:55Z",
+  "label": "thu_pm"
  }
 }

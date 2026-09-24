@@ -4,8 +4,8 @@
    "task": "build",
    "ok": true,
    "summary": "index.html + reports/2026/week03.html; lineup changes 0, claims 8, signals 16, accuracy weeks 2",
-   "started_utc": "2026-09-24T16:39:29Z",
-   "finished_utc": "2026-09-24T16:39:29Z",
+   "started_utc": "2026-09-24T23:13:55Z",
+   "finished_utc": "2026-09-24T23:13:56Z",
    "error": null
   },
   "pull": {
@@ -29,12 +29,12 @@
   "snapshot": {
    "task": "snapshot",
    "ok": true,
-   "summary": "week 3 thu_late_am: 3148 projections, 0 NFL teams already started, 3148 players still pre-kickoff",
-   "started_utc": "2026-09-24T15:36:07Z",
-   "finished_utc": "2026-09-24T15:36:08Z",
+   "summary": "week 3 thu_pm: 3148 projections, 0 NFL teams already started, 3148 players still pre-kickoff",
+   "started_utc": "2026-09-24T23:13:55Z",
+   "finished_utc": "2026-09-24T23:13:55Z",
    "error": null,
    "week": 3,
-   "label": "thu_late_am"
+   "label": "thu_pm"
   },
   "auto-skip": {
    "task": "auto-skip",
@@ -811,14 +811,32 @@
    "started_utc": "2026-09-24T16:39:29Z",
    "finished_utc": "2026-09-24T16:39:29Z",
    "error": null
+  },
+  {
+   "task": "snapshot",
+   "ok": true,
+   "summary": "week 3 thu_pm: 3148 projections, 0 NFL teams already started, 3148 players still pre-kickoff",
+   "started_utc": "2026-09-24T23:13:55Z",
+   "finished_utc": "2026-09-24T23:13:55Z",
+   "error": null,
+   "week": 3,
+   "label": "thu_pm"
+  },
+  {
+   "task": "build",
+   "ok": true,
+   "summary": "index.html + reports/2026/week03.html; lineup changes 0, claims 8, signals 16, accuracy weeks 2",
+   "started_utc": "2026-09-24T23:13:55Z",
+   "finished_utc": "2026-09-24T23:13:56Z",
+   "error": null
   }
  ],
  "last_run": {
   "task": "build",
   "ok": true,
   "summary": "index.html + reports/2026/week03.html; lineup changes 0, claims 8, signals 16, accuracy weeks 2",
-  "started_utc": "2026-09-24T16:39:29Z",
-  "finished_utc": "2026-09-24T16:39:29Z",
+  "started_utc": "2026-09-24T23:13:55Z",
+  "finished_utc": "2026-09-24T23:13:56Z",
   "error": null
  }
 }
