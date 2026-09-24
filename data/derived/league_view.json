@@ -57,7 +57,7 @@
     5,
     9
    ],
-   "faab_used": 0,
+   "faab_used": 26,
    "starters_now": [
     {
      "name": "Lamar Jackson",
@@ -128,7 +128,14 @@
     5.1
    ],
    "efficiency": 0.93,
-   "injured_starters": [],
+   "injured_starters": [
+    {
+     "name": "Tony Pollard",
+     "pos": "RB",
+     "status": "Questionable",
+     "body": "Undisclosed"
+    }
+   ],
    "byes_next": [],
    "proj_next": null,
    "future_opps": [
@@ -229,7 +236,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 102.35,
+   "proj_next": 101.75,
    "future_opps": [
     11,
     5,
@@ -275,7 +282,7 @@
      "pos": "WR"
     },
     {
-     "name": "Courtland Sutton",
+     "name": "Denzel Boston",
      "pos": "WR"
     },
     {
@@ -286,7 +293,7 @@
    "trend": 27.6,
    "trend_label": "up",
    "sos_remaining": 101.71,
-   "power": 116.0,
+   "power": 115.7,
    "power_rank": 3,
    "pf_rank": 3
   },
@@ -319,7 +326,14 @@
     1.6
    ],
    "efficiency": 0.86,
-   "injured_starters": [],
+   "injured_starters": [
+    {
+     "name": "Kyle Monangai",
+     "pos": "RB",
+     "status": "Questionable",
+     "body": "Undisclosed"
+    }
+   ],
    "byes_next": [],
    "proj_next": null,
    "future_opps": [
@@ -340,7 +354,7 @@
     9,
     6
    ],
-   "faab_used": 27,
+   "faab_used": 89,
    "starters_now": [
     {
      "name": "Patrick Mahomes",
@@ -524,8 +538,12 @@
     10,
     3
    ],
-   "faab_used": 0,
+   "faab_used": 25,
    "starters_now": [
+    {
+     "name": "Geno Smith",
+     "pos": "QB"
+    },
     {
      "name": "Breece Hall",
      "pos": "RB"
@@ -551,7 +569,7 @@
      "pos": "WR"
     },
     {
-     "name": "CHI DEF",
+     "name": "CIN DEF",
      "pos": "DEF"
     }
    ],
@@ -612,7 +630,7 @@
     11,
     5
    ],
-   "faab_used": 41,
+   "faab_used": 47,
    "starters_now": [
     {
      "name": "Brock Purdy",
@@ -627,11 +645,11 @@
      "pos": "RB"
     },
     {
-     "name": "Josh Downs",
+     "name": "Ladd McConkey",
      "pos": "WR"
     },
     {
-     "name": "Ladd McConkey",
+     "name": "Josh Downs",
      "pos": "WR"
     },
     {
@@ -893,6 +911,12 @@
      "pos": "RB",
      "status": "Questionable",
      "body": "Arm"
+    },
+    {
+     "name": "Jaylen Warren",
+     "pos": "RB",
+     "status": "Questionable",
+     "body": "Undisclosed"
     }
    ],
    "byes_next": [],
@@ -1014,10 +1038,10 @@
     12,
     7
    ],
-   "faab_used": 0,
+   "faab_used": 65,
    "starters_now": [
     {
-     "name": "Justin Herbert",
+     "name": "Tyler Shough",
      "pos": "QB"
     },
     {
@@ -1045,7 +1069,7 @@
      "pos": "WR"
     },
     {
-     "name": "JAX DEF",
+     "name": "BUF DEF",
      "pos": "DEF"
     }
    ],
@@ -1085,7 +1109,14 @@
     11.9
    ],
    "efficiency": 0.85,
-   "injured_starters": [],
+   "injured_starters": [
+    {
+     "name": "Travis Etienne",
+     "pos": "RB",
+     "status": "Questionable",
+     "body": "Hamstring"
+    }
+   ],
    "byes_next": [],
    "proj_next": null,
    "future_opps": [
@@ -1157,6 +1188,12 @@
    "text": "Cheeky Nando\u2019s has 2 of 8 starters carrying injury tags: Mike Evans Questionable (Hip), Malik Nabers Questionable (Shoulder)."
   },
   {
+   "team": "Eazy E Squad",
+   "kind": "injured_starters",
+   "severity": "medium",
+   "text": "Eazy E Squad has 2 of 8 starters carrying injury tags: Saquon Barkley Questionable (Arm), Jaylen Warren Questionable (Undisclosed)."
+  },
+  {
    "team": "ValKilmersComeback",
    "kind": "injured_starter",
    "severity": "low",
@@ -1173,6 +1210,12 @@
    "kind": "vs_projection",
    "severity": "low",
    "text": "Amateur Hour has missed Sleeper's starter projections by 42 points a week over 2 weeks."
+  },
+  {
+   "team": "Baker\u2019s Dozen",
+   "kind": "injured_starter",
+   "severity": "low",
+   "text": "Baker\u2019s Dozen (#2 scorer) has Tony Pollard listed Questionable."
   },
   {
    "team": "Baker\u2019s Dozen",
@@ -1233,18 +1276,6 @@
    "kind": "trade_fit",
    "severity": "info",
    "text": "Amateur Hour starts Rome Odunze (WR) at a projected 0.0; you carry 7 WRs. Possible trade partner (deadline week 12)."
-  },
-  {
-   "team": "Baker\u2019s Dozen",
-   "kind": "trade_fit",
-   "severity": "info",
-   "text": "Baker\u2019s Dozen starts Tee Higgins (WR) at a projected 0.0; you carry 7 WRs. Possible trade partner (deadline week 12)."
-  },
-  {
-   "team": "Be Safe, Get Jaxcinated",
-   "kind": "trade_fit",
-   "severity": "info",
-   "text": "Be Safe, Get Jaxcinated starts Chris Olave (WR) at a projected 0.0; you carry 7 WRs. Possible trade partner (deadline week 12)."
   }
  ],
  "notes": [
