@@ -38,7 +38,7 @@
    "efficiency": 0.98,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": null,
+   "proj_next": 123.56,
    "future_opps": [
     1,
     2,
@@ -95,7 +95,7 @@
    "trend": -12.7,
    "trend_label": "down",
    "sos_remaining": 96.74,
-   "power": 144.7,
+   "power": 136.3,
    "power_rank": 1,
    "pf_rank": 1
   },
@@ -137,7 +137,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": null,
+   "proj_next": 108.73,
    "future_opps": [
     9,
     6,
@@ -194,7 +194,7 @@
    "trend": 4.7,
    "trend_label": "flat",
    "sos_remaining": 99.83,
-   "power": 130.8,
+   "power": 122.0,
    "power_rank": 2,
    "pf_rank": 2
   },
@@ -236,7 +236,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 101.75,
+   "proj_next": 101.0,
    "future_opps": [
     11,
     5,
@@ -293,7 +293,7 @@
    "trend": 27.6,
    "trend_label": "up",
    "sos_remaining": 101.71,
-   "power": 115.7,
+   "power": 115.4,
    "power_rank": 3,
    "pf_rank": 3
   },
@@ -335,7 +335,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": null,
+   "proj_next": 99.11,
    "future_opps": [
     2,
     11,
@@ -392,7 +392,7 @@
    "trend": 17.6,
    "trend_label": "up",
    "sos_remaining": 97.81,
-   "power": 115.4,
+   "power": 108.9,
    "power_rank": 4,
    "pf_rank": 4
   },
@@ -427,7 +427,7 @@
    "efficiency": 0.85,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": null,
+   "proj_next": 104.25,
    "future_opps": [
     8,
     10,
@@ -484,101 +484,9 @@
    "trend": 30.4,
    "trend_label": "up",
    "sos_remaining": 104.63,
-   "power": 108.7,
+   "power": 106.9,
    "power_rank": 5,
    "pf_rank": 5
-  },
-  {
-   "roster_id": 9,
-   "team": "Girthenheimer",
-   "manager": "Breadsticks310",
-   "is_mine": false,
-   "wins": 2,
-   "losses": 2,
-   "ties": 0,
-   "h2h": "1-1",
-   "median": "1-1",
-   "allplay": "13-9",
-   "allplay_pct": 0.591,
-   "scores": [
-    145.36,
-    67.32
-   ],
-   "avg": 106.34,
-   "last": 67.32,
-   "pf": 212.68,
-   "proj_totals": [
-    95.65,
-    98.63
-   ],
-   "vs_proj": 18.4,
-   "bench_left": [
-    11.4,
-    29.87
-   ],
-   "efficiency": 0.81,
-   "injured_starters": [],
-   "byes_next": [],
-   "proj_next": null,
-   "future_opps": [
-    12,
-    4,
-    8,
-    10,
-    3,
-    1,
-    2,
-    11,
-    5,
-    7,
-    6,
-    12,
-    4,
-    8,
-    10,
-    3
-   ],
-   "faab_used": 25,
-   "starters_now": [
-    {
-     "name": "Geno Smith",
-     "pos": "QB"
-    },
-    {
-     "name": "Breece Hall",
-     "pos": "RB"
-    },
-    {
-     "name": "Omarion Hampton",
-     "pos": "RB"
-    },
-    {
-     "name": "Stefon Diggs",
-     "pos": "WR"
-    },
-    {
-     "name": "Michael Wilson",
-     "pos": "WR"
-    },
-    {
-     "name": "Jacory Croskey-Merritt",
-     "pos": "RB"
-    },
-    {
-     "name": "Dontayvion Wicks",
-     "pos": "WR"
-    },
-    {
-     "name": "CIN DEF",
-     "pos": "DEF"
-    }
-   ],
-   "trend": -78.0,
-   "trend_label": "down",
-   "sos_remaining": 107.49,
-   "power": 106.3,
-   "power_rank": 6,
-   "pf_rank": 6
   },
   {
    "roster_id": 1,
@@ -611,7 +519,7 @@
    "efficiency": 0.97,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": null,
+   "proj_next": 106.27,
    "future_opps": [
     3,
     7,
@@ -668,114 +576,101 @@
    "trend": 17.0,
    "trend_label": "up",
    "sos_remaining": 101.14,
-   "power": 103.8,
-   "power_rank": 7,
+   "power": 104.8,
+   "power_rank": 6,
    "pf_rank": 7
   },
   {
-   "roster_id": 7,
-   "team": "Cheeky Nando\u2019s",
-   "manager": "aCaps",
+   "roster_id": 9,
+   "team": "Girthenheimer",
+   "manager": "Breadsticks310",
    "is_mine": false,
-   "wins": 1,
-   "losses": 3,
+   "wins": 2,
+   "losses": 2,
    "ties": 0,
-   "h2h": "0-2",
+   "h2h": "1-1",
    "median": "1-1",
-   "allplay": "10-12",
-   "allplay_pct": 0.455,
+   "allplay": "13-9",
+   "allplay_pct": 0.591,
    "scores": [
-    107.96,
-    82.0
+    145.36,
+    67.32
    ],
-   "avg": 94.98,
-   "last": 82.0,
-   "pf": 189.96,
+   "avg": 106.34,
+   "last": 67.32,
+   "pf": 212.68,
    "proj_totals": [
-    111.34,
-    95.73
+    95.65,
+    98.63
    ],
-   "vs_proj": -17.11,
+   "vs_proj": 18.4,
    "bench_left": [
-    8.5,
-    32.38
+    11.4,
+    29.87
    ],
-   "efficiency": 0.82,
-   "injured_starters": [
-    {
-     "name": "Mike Evans",
-     "pos": "WR",
-     "status": "Questionable",
-     "body": "Hip"
-    },
-    {
-     "name": "Malik Nabers",
-     "pos": "WR",
-     "status": "Questionable",
-     "body": "Shoulder"
-    }
-   ],
+   "efficiency": 0.81,
+   "injured_starters": [],
    "byes_next": [],
-   "proj_next": null,
+   "proj_next": 87.08,
    "future_opps": [
-    6,
-    1,
     12,
-    2,
     4,
-    11,
     8,
-    5,
     10,
-    9,
     3,
-    6,
     1,
-    12,
     2,
-    4
+    11,
+    5,
+    7,
+    6,
+    12,
+    4,
+    8,
+    10,
+    3
    ],
-   "faab_used": 6,
+   "faab_used": 25,
    "starters_now": [
     {
-     "name": "Joe Burrow",
+     "name": "Geno Smith",
      "pos": "QB"
     },
     {
-     "name": "D'Andre Swift",
+     "name": "Breece Hall",
      "pos": "RB"
     },
     {
-     "name": "TreVeyon Henderson",
+     "name": "Omarion Hampton",
      "pos": "RB"
     },
     {
-     "name": "CeeDee Lamb",
+     "name": "Stefon Diggs",
      "pos": "WR"
     },
     {
-     "name": "Mike Evans",
+     "name": "Michael Wilson",
      "pos": "WR"
     },
     {
-     "name": "Malik Nabers",
+     "name": "Jacory Croskey-Merritt",
+     "pos": "RB"
+    },
+    {
+     "name": "Dontayvion Wicks",
      "pos": "WR"
     },
     {
-     "name": "Devaughn Vele",
-     "pos": "WR"
-    },
-    {
-     "name": "LAR DEF",
+     "name": "CIN DEF",
      "pos": "DEF"
     }
    ],
-   "trend": -26.0,
+   "trend": -78.0,
    "trend_label": "down",
-   "sos_remaining": 100.01,
-   "power": 95.0,
-   "power_rank": 8,
-   "pf_rank": 8
+   "sos_remaining": 107.49,
+   "power": 98.6,
+   "power_rank": 7,
+   "pf_rank": 6
   },
   {
    "roster_id": 6,
@@ -815,7 +710,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": null,
+   "proj_next": 103.4,
    "future_opps": [
     7,
     12,
@@ -872,9 +767,114 @@
    "trend": -17.3,
    "trend_label": "down",
    "sos_remaining": 105.3,
-   "power": 91.6,
-   "power_rank": 9,
+   "power": 96.3,
+   "power_rank": 8,
    "pf_rank": 9
+  },
+  {
+   "roster_id": 7,
+   "team": "Cheeky Nando\u2019s",
+   "manager": "aCaps",
+   "is_mine": false,
+   "wins": 1,
+   "losses": 3,
+   "ties": 0,
+   "h2h": "0-2",
+   "median": "1-1",
+   "allplay": "10-12",
+   "allplay_pct": 0.455,
+   "scores": [
+    107.96,
+    82.0
+   ],
+   "avg": 94.98,
+   "last": 82.0,
+   "pf": 189.96,
+   "proj_totals": [
+    111.34,
+    95.73
+   ],
+   "vs_proj": -17.11,
+   "bench_left": [
+    8.5,
+    32.38
+   ],
+   "efficiency": 0.82,
+   "injured_starters": [
+    {
+     "name": "Mike Evans",
+     "pos": "WR",
+     "status": "Questionable",
+     "body": "Hip"
+    },
+    {
+     "name": "Malik Nabers",
+     "pos": "WR",
+     "status": "Questionable",
+     "body": "Shoulder"
+    }
+   ],
+   "byes_next": [],
+   "proj_next": 97.0,
+   "future_opps": [
+    6,
+    1,
+    12,
+    2,
+    4,
+    11,
+    8,
+    5,
+    10,
+    9,
+    3,
+    6,
+    1,
+    12,
+    2,
+    4
+   ],
+   "faab_used": 6,
+   "starters_now": [
+    {
+     "name": "Joe Burrow",
+     "pos": "QB"
+    },
+    {
+     "name": "D'Andre Swift",
+     "pos": "RB"
+    },
+    {
+     "name": "TreVeyon Henderson",
+     "pos": "RB"
+    },
+    {
+     "name": "CeeDee Lamb",
+     "pos": "WR"
+    },
+    {
+     "name": "Mike Evans",
+     "pos": "WR"
+    },
+    {
+     "name": "Malik Nabers",
+     "pos": "WR"
+    },
+    {
+     "name": "Devaughn Vele",
+     "pos": "WR"
+    },
+    {
+     "name": "LAR DEF",
+     "pos": "DEF"
+    }
+   ],
+   "trend": -26.0,
+   "trend_label": "down",
+   "sos_remaining": 100.01,
+   "power": 95.8,
+   "power_rank": 9,
+   "pf_rank": 8
   },
   {
    "roster_id": 5,
@@ -920,7 +920,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": null,
+   "proj_next": 106.9,
    "future_opps": [
     4,
     8,
@@ -977,7 +977,7 @@
    "trend": -84.7,
    "trend_label": "down",
    "sos_remaining": 107.45,
-   "power": 79.9,
+   "power": 90.7,
    "power_rank": 10,
    "pf_rank": 10
   },
@@ -1019,7 +1019,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": null,
+   "proj_next": 96.42,
    "future_opps": [
     5,
     9,
@@ -1076,7 +1076,7 @@
    "trend": -18.8,
    "trend_label": "down",
    "sos_remaining": 103.98,
-   "power": 75.1,
+   "power": 83.6,
    "power_rank": 11,
    "pf_rank": 11
   },
@@ -1118,7 +1118,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": null,
+   "proj_next": 88.63,
    "future_opps": [
     10,
     3,
@@ -1175,7 +1175,7 @@
    "trend": -2.0,
    "trend_label": "flat",
    "sos_remaining": 109.0,
-   "power": 58.7,
+   "power": 70.7,
    "power_rank": 12,
    "pf_rank": 12
   }
@@ -1275,7 +1275,7 @@
    "team": "Amateur Hour",
    "kind": "trade_fit",
    "severity": "info",
-   "text": "Amateur Hour starts Rome Odunze (WR) at a projected 0.0; you carry 7 WRs. Possible trade partner (deadline week 12)."
+   "text": "Amateur Hour starts Rome Odunze (WR) at a projected 7.3; you carry 7 WRs. Possible trade partner (deadline week 12)."
   }
  ],
  "notes": [
@@ -1283,7 +1283,8 @@
   "This league plays a second game against the league median every week, which is why records add up to two games per week (your 2-0 after week 1)."
  ],
  "projection_source": {
-  "kind": "latest.json",
-  "taken_at_utc": "2026-09-23T16:01:44+00:00"
+  "kind": "pre-kickoff snapshot",
+  "taken_at_utc": "2026-09-24T12:03:03Z",
+  "label": "thu_early"
  }
 }
