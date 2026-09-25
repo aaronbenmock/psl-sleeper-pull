@@ -2,11 +2,11 @@
  "tasks": {
   "build": {
    "task": "build",
-   "ok": true,
-   "summary": "index.html + reports/2026/week03.html; lineup changes 0, claims 8, signals 15, accuracy weeks 2",
-   "started_utc": "2026-09-25T16:40:52Z",
-   "finished_utc": "2026-09-25T16:40:53Z",
-   "error": null
+   "ok": false,
+   "summary": "failed: build completed with section errors: lineup: 'why'",
+   "started_utc": "2026-09-25T23:13:41Z",
+   "finished_utc": "2026-09-25T23:13:41Z",
+   "error": "Traceback (most recent call last):\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine.py\", line 36, in _run_task\n    fn(**kw)\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine/build.py\", line 87, in run\n    raise RuntimeError(\"build completed with section errors: \" + \"; \".join(errors))\nRuntimeError: build completed with section errors: lineup: 'why'\n"
   },
   "pull": {
    "task": "pull",
@@ -29,12 +29,12 @@
   "snapshot": {
    "task": "snapshot",
    "ok": true,
-   "summary": "week 3 fri_late_am: 3148 projections, 2 NFL teams already started, 3091 players still pre-kickoff",
-   "started_utc": "2026-09-25T15:35:39Z",
-   "finished_utc": "2026-09-25T15:35:41Z",
+   "summary": "week 3 fri_pm: 3148 projections, 2 NFL teams already started, 3091 players still pre-kickoff",
+   "started_utc": "2026-09-25T23:13:40Z",
+   "finished_utc": "2026-09-25T23:13:41Z",
    "error": null,
    "week": 3,
-   "label": "fri_late_am"
+   "label": "fri_pm"
   },
   "auto-skip": {
    "task": "auto-skip",
@@ -913,14 +913,40 @@
    "started_utc": "2026-09-25T16:40:52Z",
    "finished_utc": "2026-09-25T16:40:53Z",
    "error": null
+  },
+  {
+   "task": "snapshot",
+   "ok": true,
+   "summary": "week 3 fri_pm: 3148 projections, 2 NFL teams already started, 3091 players still pre-kickoff",
+   "started_utc": "2026-09-25T23:13:40Z",
+   "finished_utc": "2026-09-25T23:13:41Z",
+   "error": null,
+   "week": 3,
+   "label": "fri_pm"
+  },
+  {
+   "task": "build",
+   "ok": false,
+   "summary": "index.html + reports/2026/week03.html; lineup changes 0, claims 0, signals 14, accuracy weeks 2; ERRORS: [\"lineup: 'why'\"]",
+   "started_utc": "2026-09-25T23:13:41Z",
+   "finished_utc": "2026-09-25T23:13:41Z",
+   "error": "lineup: 'why'"
+  },
+  {
+   "task": "build",
+   "ok": false,
+   "summary": "failed: build completed with section errors: lineup: 'why'",
+   "started_utc": "2026-09-25T23:13:41Z",
+   "finished_utc": "2026-09-25T23:13:41Z",
+   "error": "Traceback (most recent call last):\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine.py\", line 36, in _run_task\n    fn(**kw)\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine/build.py\", line 87, in run\n    raise RuntimeError(\"build completed with section errors: \" + \"; \".join(errors))\nRuntimeError: build completed with section errors: lineup: 'why'\n"
   }
  ],
  "last_run": {
   "task": "build",
-  "ok": true,
-  "summary": "index.html + reports/2026/week03.html; lineup changes 0, claims 8, signals 15, accuracy weeks 2",
-  "started_utc": "2026-09-25T16:40:52Z",
-  "finished_utc": "2026-09-25T16:40:53Z",
-  "error": null
+  "ok": false,
+  "summary": "failed: build completed with section errors: lineup: 'why'",
+  "started_utc": "2026-09-25T23:13:41Z",
+  "finished_utc": "2026-09-25T23:13:41Z",
+  "error": "Traceback (most recent call last):\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine.py\", line 36, in _run_task\n    fn(**kw)\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine/build.py\", line 87, in run\n    raise RuntimeError(\"build completed with section errors: \" + \"; \".join(errors))\nRuntimeError: build completed with section errors: lineup: 'why'\n"
  }
 }
