@@ -1,10 +1,10 @@
 {
  "week": 3,
- "generated_at_utc": "2026-09-25T11:10:26Z",
+ "generated_at_utc": "2026-09-25T12:03:02Z",
  "source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-09-24T23:13:55Z",
-  "label": "thu_pm"
+  "taken_at_utc": "2026-09-25T12:03:02Z",
+  "label": "fri_early"
  },
  "lineup": [
   {
@@ -90,12 +90,12 @@
    "pos": "RB",
    "team": "PIT",
    "opp": "CIN",
-   "sleeper": 11.08,
+   "sleeper": 10.87,
    "preseason": 10.44,
    "season_avg": 4.25,
    "n_games": 2,
    "baseline": 8.38,
-   "expected": 9.12,
+   "expected": 9.0,
    "injury_status": "Questionable",
    "injury_body_part": "Toe",
    "practice": null,
@@ -108,7 +108,7 @@
    "started": false,
    "actual_so_far": null,
    "slot": "RB",
-   "why": "Sleeper projects 11.1, season average 4.2 over 2 games, preseason model 10.4, Questionable (Toe) cuts it by 9%. Blended expectation 9.1 vs CIN.",
+   "why": "Sleeper projects 10.9, season average 4.2 over 2 games, preseason model 10.4, Questionable (Toe) cuts it by 9%. Blended expectation 9.0 vs CIN.",
    "vacated": {
     "player_id": "00-0036139",
     "pos": "RB",
@@ -148,7 +148,7 @@
    "pos": "WR",
    "team": "LAR",
    "opp": "DEN",
-   "sleeper": 11.33,
+   "sleeper": 11.32,
    "preseason": 12.3,
    "season_avg": 20.3,
    "n_games": 2,
@@ -261,12 +261,12 @@
    "pos": "WR",
    "team": "PIT",
    "opp": "CIN",
-   "sleeper": 9.12,
+   "sleeper": 9.36,
    "preseason": 10.03,
    "season_avg": 5.35,
    "n_games": 2,
    "baseline": 8.47,
-   "expected": 8.89,
+   "expected": 9.05,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -279,7 +279,7 @@
    "started": false,
    "actual_so_far": null,
    "slot": "FLEX",
-   "why": "Sleeper projects 9.1, season average 5.3 over 2 games, preseason model 10.0. Blended expectation 8.9 vs CIN.",
+   "why": "Sleeper projects 9.4, season average 5.3 over 2 games, preseason model 10.0. Blended expectation 9.1 vs CIN.",
    "vacated": {
     "player_id": " 00-0035640",
     "pos": "WR",
@@ -318,12 +318,12 @@
    "pos": "WR",
    "team": "CLE",
    "opp": "CAR",
-   "sleeper": 8.29,
+   "sleeper": 8.52,
    "preseason": 6.59,
    "season_avg": 16.45,
    "n_games": 2,
    "baseline": 9.88,
-   "expected": 8.85,
+   "expected": 8.99,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -336,7 +336,7 @@
    "started": false,
    "actual_so_far": null,
    "slot": "FLEX",
-   "why": "Sleeper projects 8.3, season average 16.4 over 2 games, preseason model 6.6. Blended expectation 8.8 vs CAR.",
+   "why": "Sleeper projects 8.5, season average 16.4 over 2 games, preseason model 6.6. Blended expectation 9.0 vs CAR.",
    "vacated": {
     "player_id": "00-0041037",
     "pos": "WR",
@@ -639,12 +639,12 @@
    "pos": "RB",
    "team": "SEA",
    "opp": "WAS",
-   "sleeper": 4.62,
+   "sleeper": 4.67,
    "preseason": 5.85,
    "season_avg": 2.45,
    "n_games": 2,
    "baseline": 4.72,
-   "expected": 4.65,
+   "expected": 4.69,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -657,7 +657,7 @@
    "started": false,
    "actual_so_far": null,
    "slot": "BN",
-   "why": "Sleeper projects 4.6, season average 2.5 over 2 games, preseason model 5.8. Blended expectation 4.7 vs WAS.",
+   "why": "Sleeper projects 4.7, season average 2.5 over 2 games, preseason model 5.8. Blended expectation 4.7 vs WAS.",
    "vacated": {
     "player_id": "00-0039299",
     "pos": "RB",
@@ -741,26 +741,26 @@
    "slot": "FLEX",
    "starter": "DK Metcalf",
    "bench": "Courtland Sutton",
-   "gap": 0.7,
+   "gap": 0.8,
    "vacated_starter": 0.0,
    "vacated_bench": 0.0,
    "vacated_note": "Vacated share (display only, not in the numbers above): DK Metcalf 0.0, Courtland Sutton 0.0 points of absorbed usage. Calvin Austin III out, vacating 13% of the targets. The proportional split gives him none of it, worth about 0.0 points. Display only: it does not change the expected number.",
-   "why": "DK Metcalf 8.9 vs Courtland Sutton 8.2, only 0.7 apart. Tiebreak: Courtland Sutton has the higher ceiling (boom rate 24% vs 20%)."
+   "why": "DK Metcalf 9.1 vs Courtland Sutton 8.2, only 0.8 apart. Tiebreak: Courtland Sutton has the higher ceiling (boom rate 24% vs 20%)."
   },
   {
    "slot": "FLEX",
    "starter": "Denzel Boston",
    "bench": "Courtland Sutton",
-   "gap": 0.6,
+   "gap": 0.8,
    "vacated_starter": 0.0,
    "vacated_bench": 0.0,
    "vacated_note": null,
-   "why": "Denzel Boston 8.8 vs Courtland Sutton 8.2, only 0.6 apart."
+   "why": "Denzel Boston 9.0 vs Courtland Sutton 8.2, only 0.8 apart."
   }
  ],
- "expected_total": 105.4,
+ "expected_total": 105.6,
  "notes": [
-  "Projections are from the thu_pm snapshot taken Thu Sep 24 06:13 PM Central."
+  "Projections are from the fri_early snapshot taken Fri Sep 25 07:03 AM Central."
  ],
  "vacated_meta": {
   "available": true,
