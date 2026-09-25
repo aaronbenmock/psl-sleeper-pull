@@ -137,7 +137,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 108.7,
+   "proj_next": 108.59,
    "future_opps": [
     9,
     6,
@@ -179,7 +179,7 @@
      "pos": "WR"
     },
     {
-     "name": "Jordan Addison",
+     "name": "Rashid Shaheed",
      "pos": "WR"
     },
     {
@@ -194,7 +194,7 @@
    "trend": 4.7,
    "trend_label": "flat",
    "sos_remaining": 99.83,
-   "power": 122.0,
+   "power": 121.9,
    "power_rank": 2,
    "pf_rank": 2
   },
@@ -710,7 +710,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 102.73,
+   "proj_next": 104.77,
    "future_opps": [
     7,
     12,
@@ -760,14 +760,14 @@
      "pos": "RB"
     },
     {
-     "name": "DEN DEF",
+     "name": "CAR DEF",
      "pos": "DEF"
     }
    ],
    "trend": -17.3,
    "trend_label": "down",
    "sos_remaining": 105.3,
-   "power": 96.0,
+   "power": 96.9,
    "power_rank": 8,
    "pf_rank": 9
   },
@@ -806,12 +806,6 @@
      "pos": "WR",
      "status": "Questionable",
      "body": "Hip"
-    },
-    {
-     "name": "Malik Nabers",
-     "pos": "WR",
-     "status": "Questionable",
-     "body": "Shoulder"
     }
    ],
    "byes_next": [],
@@ -853,11 +847,11 @@
      "pos": "WR"
     },
     {
-     "name": "Mike Evans",
+     "name": "Malik Nabers",
      "pos": "WR"
     },
     {
-     "name": "Malik Nabers",
+     "name": "Mike Evans",
      "pos": "WR"
     },
     {
@@ -913,6 +907,12 @@
      "body": "Arm"
     },
     {
+     "name": "Jalen Coker",
+     "pos": "WR",
+     "status": "Questionable",
+     "body": "Ankle"
+    },
+    {
      "name": "Jaylen Warren",
      "pos": "RB",
      "status": "Questionable",
@@ -920,7 +920,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 105.86,
+   "proj_next": 110.77,
    "future_opps": [
     4,
     8,
@@ -962,8 +962,8 @@
      "pos": "WR"
     },
     {
-     "name": "Colston Loveland",
-     "pos": "TE"
+     "name": "Jalen Coker",
+     "pos": "WR"
     },
     {
      "name": "Jaylen Warren",
@@ -977,7 +977,7 @@
    "trend": -84.7,
    "trend_label": "down",
    "sos_remaining": 107.45,
-   "power": 90.3,
+   "power": 92.3,
    "power_rank": 10,
    "pf_rank": 10
   },
@@ -1012,8 +1012,8 @@
    "efficiency": 0.88,
    "injured_starters": [
     {
-     "name": "J.K. Dobbins",
-     "pos": "RB",
+     "name": "DeVonta Smith",
+     "pos": "WR",
      "status": "Questionable",
      "body": "Hamstring"
     }
@@ -1182,16 +1182,10 @@
  ],
  "signals": [
   {
-   "team": "Cheeky Nando\u2019s",
-   "kind": "injured_starters",
-   "severity": "medium",
-   "text": "Cheeky Nando\u2019s has 2 of 8 starters carrying injury tags: Mike Evans Questionable (Hip), Malik Nabers Questionable (Shoulder)."
-  },
-  {
    "team": "Eazy E Squad",
    "kind": "injured_starters",
    "severity": "medium",
-   "text": "Eazy E Squad has 2 of 8 starters carrying injury tags: Saquon Barkley Questionable (Arm), Jaylen Warren Questionable (Undisclosed)."
+   "text": "Eazy E Squad has 3 of 8 starters carrying injury tags: Saquon Barkley Questionable (Arm), Jalen Coker Questionable (Ankle), Jaylen Warren Questionable (Undisclosed)."
   },
   {
    "team": "ValKilmersComeback",

@@ -3,9 +3,9 @@
   "build": {
    "task": "build",
    "ok": true,
-   "summary": "index.html + reports/2026/week03.html; lineup changes 0, claims 8, signals 16, accuracy weeks 2",
-   "started_utc": "2026-09-25T00:11:07Z",
-   "finished_utc": "2026-09-25T00:11:07Z",
+   "summary": "index.html + reports/2026/week03.html; lineup changes 0, claims 8, signals 15, accuracy weeks 2",
+   "started_utc": "2026-09-25T11:10:26Z",
+   "finished_utc": "2026-09-25T11:10:27Z",
    "error": null
   },
   "pull": {
@@ -21,9 +21,9 @@
   "injuries": {
    "task": "injuries",
    "ok": true,
-   "summary": "181 rostered players tracked, 56 changes since 2026-09-23, 4 of mine carry an injury tag, players cache pulled",
-   "started_utc": "2026-09-24T11:10:20Z",
-   "finished_utc": "2026-09-24T11:10:21Z",
+   "summary": "182 rostered players tracked, 58 changes since 2026-09-24, 3 of mine carry an injury tag, players cache pulled",
+   "started_utc": "2026-09-25T11:10:26Z",
+   "finished_utc": "2026-09-25T11:10:26Z",
    "error": null
   },
   "snapshot": {
@@ -845,14 +845,30 @@
    "started_utc": "2026-09-25T00:11:07Z",
    "finished_utc": "2026-09-25T00:11:07Z",
    "error": null
+  },
+  {
+   "task": "injuries",
+   "ok": true,
+   "summary": "182 rostered players tracked, 58 changes since 2026-09-24, 3 of mine carry an injury tag, players cache pulled",
+   "started_utc": "2026-09-25T11:10:26Z",
+   "finished_utc": "2026-09-25T11:10:26Z",
+   "error": null
+  },
+  {
+   "task": "build",
+   "ok": true,
+   "summary": "index.html + reports/2026/week03.html; lineup changes 0, claims 8, signals 15, accuracy weeks 2",
+   "started_utc": "2026-09-25T11:10:26Z",
+   "finished_utc": "2026-09-25T11:10:27Z",
+   "error": null
   }
  ],
  "last_run": {
   "task": "build",
   "ok": true,
-  "summary": "index.html + reports/2026/week03.html; lineup changes 0, claims 8, signals 16, accuracy weeks 2",
-  "started_utc": "2026-09-25T00:11:07Z",
-  "finished_utc": "2026-09-25T00:11:07Z",
+  "summary": "index.html + reports/2026/week03.html; lineup changes 0, claims 8, signals 15, accuracy weeks 2",
+  "started_utc": "2026-09-25T11:10:26Z",
+  "finished_utc": "2026-09-25T11:10:27Z",
   "error": null
  }
 }

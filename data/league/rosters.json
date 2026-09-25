@@ -1,5 +1,5 @@
 {
- "pulled_at_utc": "2026-09-24T11:10:21Z",
+ "pulled_at_utc": "2026-09-25T11:10:26Z",
  "rosters": [
   {
    "co_owners": [
@@ -461,6 +461,7 @@
     "p_nick_616": "Squished Graham Crackers",
     "p_nick_5892": "Knuckles",
     "p_nick_2505": "Waller Da Baller",
+    "p_nick_11625": "Damn, You's A Sexy Mitch",
     "p_nick_6011": "Playoff Good Luck Charm",
     "p_nick_7543": "Let \"Em Et",
     "p_nick_2078": "OBJ",
@@ -911,7 +912,7 @@
     "5892",
     "6794",
     "8137",
-    "12517",
+    "11646",
     "8228",
     "KC"
    ],
@@ -946,6 +947,7 @@
     "8131",
     "9224",
     "9225",
+    "CAR",
     "DEN"
    ],
    "reserve": [
@@ -974,7 +976,7 @@
     "8112",
     "12481",
     "13286",
-    "DEN"
+    "CAR"
    ],
    "taxi": null
   },
@@ -1148,8 +1150,8 @@
     "6790",
     "12529",
     "6786",
-    "2216",
     "11632",
+    "2216",
     "11834",
     "LAR"
    ],
@@ -1313,6 +1315,7 @@
     "p_nick_9502": "Tank Deliciousness",
     "p_nick_5995": "Ice Ice Baby",
     "p_nick_12476": "Devinci Code",
+    "p_nick_CIN": "Who Girth?",
     "p_nick_6694": "Big Johnson",
     "p_nick_SEA": "Rainy Bitch Pigeons",
     "p_nick_8155": "Girth Hall Pass",
@@ -1327,6 +1330,7 @@
     "p_nick_8143": "Jerome Ferrari",
     "p_nick_4602": "Tounge Yen",
     "p_nick_6984": "Tony Roster Jr",
+    "p_nick_11435": "Emmanuel Girthson",
     "p_nick_PHI": "Tush Pushers",
     "p_nick_11647": "Kimani-yah!",
     "p_nick_9221": "Baby Back Gibbs",
@@ -1346,6 +1350,7 @@
     "p_nick_5012": "Mandrew",
     "p_nick_12534": "The Run Guy",
     "p_nick_6938": "Ron",
+    "p_nick_1373": "Girtho Mode",
     "p_nick_4111": "Rumpelforeskin",
     "p_nick_2216": "Evansescence",
     "p_nick_9486": "Girth on the Wicks",
@@ -1753,7 +1758,7 @@
     "11584",
     "7547",
     "6801",
-    "9756",
+    "8676",
     "5967",
     "GB"
    ],
