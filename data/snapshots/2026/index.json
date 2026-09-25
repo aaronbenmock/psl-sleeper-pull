@@ -227,6 +227,18 @@
    "n_players_pre_kickoff": 3091,
    "nfl_state_week": 3,
    "path": "data/snapshots/2026/week03/snap_2026-09-25T1203Z.json"
+  },
+  {
+   "season": "2026",
+   "week": 3,
+   "taken_at_utc": "2026-09-25T15:35:41Z",
+   "taken_at_central": "2026-09-25T10:35:41-05:00",
+   "label": "fri_late_am",
+   "n_players": 3148,
+   "n_teams_started": 2,
+   "n_players_pre_kickoff": 3091,
+   "nfl_state_week": 3,
+   "path": "data/snapshots/2026/week03/snap_2026-09-25T1535Z.json"
   }
  ]
 }

@@ -38,7 +38,7 @@
    "efficiency": 0.98,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 123.93,
+   "proj_next": 123.98,
    "future_opps": [
     1,
     2,
@@ -137,7 +137,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 109.9,
+   "proj_next": 108.93,
    "future_opps": [
     9,
     6,
@@ -194,7 +194,7 @@
    "trend": 4.7,
    "trend_label": "flat",
    "sos_remaining": 99.83,
-   "power": 122.5,
+   "power": 122.1,
    "power_rank": 2,
    "pf_rank": 2
   },
@@ -236,7 +236,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 102.62,
+   "proj_next": 102.53,
    "future_opps": [
     11,
     5,
@@ -293,7 +293,7 @@
    "trend": 27.6,
    "trend_label": "up",
    "sos_remaining": 101.71,
-   "power": 116.1,
+   "power": 116.0,
    "power_rank": 3,
    "pf_rank": 3
   },
@@ -335,7 +335,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 99.27,
+   "proj_next": 99.66,
    "future_opps": [
     2,
     11,
@@ -392,7 +392,7 @@
    "trend": 17.6,
    "trend_label": "up",
    "sos_remaining": 97.81,
-   "power": 108.9,
+   "power": 109.1,
    "power_rank": 4,
    "pf_rank": 4
   },
@@ -427,7 +427,7 @@
    "efficiency": 0.85,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 104.5,
+   "proj_next": 104.31,
    "future_opps": [
     8,
     10,
@@ -484,7 +484,7 @@
    "trend": 30.4,
    "trend_label": "up",
    "sos_remaining": 104.63,
-   "power": 107.0,
+   "power": 106.9,
    "power_rank": 5,
    "pf_rank": 5
   },
@@ -519,7 +519,7 @@
    "efficiency": 0.97,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 105.84,
+   "proj_next": 105.85,
    "future_opps": [
     3,
     7,
@@ -611,7 +611,7 @@
    "efficiency": 0.81,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 86.83,
+   "proj_next": 87.58,
    "future_opps": [
     12,
     4,
@@ -668,7 +668,7 @@
    "trend": -78.0,
    "trend_label": "down",
    "sos_remaining": 107.49,
-   "power": 98.5,
+   "power": 98.8,
    "power_rank": 7,
    "pf_rank": 6
   },
@@ -710,7 +710,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 105.73,
+   "proj_next": 104.95,
    "future_opps": [
     7,
     12,
@@ -767,7 +767,7 @@
    "trend": -17.3,
    "trend_label": "down",
    "sos_remaining": 105.3,
-   "power": 97.2,
+   "power": 96.9,
    "power_rank": 8,
    "pf_rank": 9
   },
@@ -809,7 +809,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 95.22,
+   "proj_next": 96.26,
    "future_opps": [
     6,
     1,
@@ -866,7 +866,7 @@
    "trend": -26.0,
    "trend_label": "down",
    "sos_remaining": 100.01,
-   "power": 95.1,
+   "power": 95.5,
    "power_rank": 9,
    "pf_rank": 8
   },
@@ -920,7 +920,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 110.91,
+   "proj_next": 111.03,
    "future_opps": [
     4,
     8,
@@ -977,7 +977,7 @@
    "trend": -84.7,
    "trend_label": "down",
    "sos_remaining": 107.45,
-   "power": 92.3,
+   "power": 92.4,
    "power_rank": 10,
    "pf_rank": 10
   },
@@ -1019,7 +1019,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 96.24,
+   "proj_next": 96.21,
    "future_opps": [
     5,
     9,
@@ -1118,7 +1118,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 88.72,
+   "proj_next": 88.62,
    "future_opps": [
     10,
     3,
@@ -1278,7 +1278,7 @@
  ],
  "projection_source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-09-25T12:03:02Z",
-  "label": "fri_early"
+  "taken_at_utc": "2026-09-25T15:35:41Z",
+  "label": "fri_late_am"
  }
 }
