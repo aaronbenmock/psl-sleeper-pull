@@ -1,10 +1,10 @@
 {
  "week": 3,
- "generated_at_utc": "2026-09-26T12:02:44Z",
+ "generated_at_utc": "2026-09-26T15:36:02Z",
  "source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-09-26T12:02:43Z",
-  "label": "sat_early"
+  "taken_at_utc": "2026-09-26T15:36:01Z",
+  "label": "sat_late_am"
  },
  "lineup": [
   {
@@ -260,12 +260,12 @@
    "pos": "WR",
    "team": "PIT",
    "opp": "CIN",
-   "sleeper": 9.65,
+   "sleeper": 9.47,
    "preseason": 10.03,
    "season_avg": 5.35,
    "n_games": 2,
    "baseline": 8.47,
-   "expected": 9.24,
+   "expected": 9.12,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -278,7 +278,7 @@
    "started": false,
    "actual_so_far": null,
    "slot": "FLEX",
-   "why": "Sleeper projects 9.7, season average 5.3 over 2 games, preseason model 10.0. Blended expectation 9.2 vs CIN.",
+   "why": "Sleeper projects 9.5, season average 5.3 over 2 games, preseason model 10.0. Blended expectation 9.1 vs CIN.",
    "vacated": {
     "player_id": " 00-0035640",
     "pos": "WR",
@@ -317,12 +317,12 @@
    "pos": "WR",
    "team": "CLE",
    "opp": "CAR",
-   "sleeper": 8.52,
+   "sleeper": 8.29,
    "preseason": 6.59,
    "season_avg": 16.45,
    "n_games": 2,
    "baseline": 9.88,
-   "expected": 8.99,
+   "expected": 8.85,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -335,7 +335,7 @@
    "started": false,
    "actual_so_far": null,
    "slot": "FLEX",
-   "why": "Sleeper projects 8.5, season average 16.4 over 2 games, preseason model 6.6. Blended expectation 9.0 vs CAR.",
+   "why": "Sleeper projects 8.3, season average 16.4 over 2 games, preseason model 6.6. Blended expectation 8.8 vs CAR.",
    "vacated": {
     "player_id": "00-0041037",
     "pos": "WR",
@@ -422,7 +422,7 @@
    "pos": "WR",
    "team": "DEN",
    "opp": "LAR",
-   "sleeper": 8.42,
+   "sleeper": 8.41,
    "preseason": 10.43,
    "season_avg": 3.05,
    "n_games": 2,
@@ -473,12 +473,12 @@
    "pos": "WR",
    "team": "JAX",
    "opp": "NE",
-   "sleeper": 6.66,
+   "sleeper": 6.78,
    "preseason": 9.21,
    "season_avg": 7.25,
    "n_games": 2,
    "baseline": 8.56,
-   "expected": 7.32,
+   "expected": 7.4,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -491,7 +491,7 @@
    "started": false,
    "actual_so_far": null,
    "slot": "BN",
-   "why": "Sleeper projects 6.7, season average 7.2 over 2 games, preseason model 9.2. Blended expectation 7.3 vs NE.",
+   "why": "Sleeper projects 6.8, season average 7.2 over 2 games, preseason model 9.2. Blended expectation 7.4 vs NE.",
    "vacated": {
     "player_id": " 00-0034960",
     "pos": "WR",
@@ -747,26 +747,36 @@
    "slot": "FLEX",
    "starter": "DK Metcalf",
    "bench": "Courtland Sutton",
-   "gap": 1.0,
+   "gap": 0.9,
    "vacated_starter": 0.0,
    "vacated_bench": 0.0,
    "vacated_note": "Vacated share (display only, not in the numbers above): DK Metcalf 0.0, Courtland Sutton 0.0 points of absorbed usage. Calvin Austin III out, vacating 13% of the targets. The proportional split gives him none of it, worth about 0.0 points. Display only: it does not change the expected number.",
-   "why": "DK Metcalf 9.2 vs Courtland Sutton 8.3, only 1.0 apart. Tiebreak: Courtland Sutton has the higher ceiling (boom rate 24% vs 20%)."
+   "why": "DK Metcalf 9.1 vs Courtland Sutton 8.3, only 0.9 apart. Tiebreak: Courtland Sutton has the higher ceiling (boom rate 24% vs 20%)."
   },
   {
    "slot": "FLEX",
    "starter": "Denzel Boston",
    "bench": "Courtland Sutton",
-   "gap": 0.7,
+   "gap": 0.6,
    "vacated_starter": 0.0,
    "vacated_bench": 0.0,
    "vacated_note": null,
-   "why": "Denzel Boston 9.0 vs Courtland Sutton 8.3, only 0.7 apart."
+   "why": "Denzel Boston 8.8 vs Courtland Sutton 8.3, only 0.6 apart."
+  },
+  {
+   "slot": "FLEX",
+   "starter": "Denzel Boston",
+   "bench": "Jakobi Meyers",
+   "gap": 1.4,
+   "vacated_starter": 0.0,
+   "vacated_bench": 0.0,
+   "vacated_note": "Vacated share (display only, not in the numbers above): Denzel Boston 0.0, Jakobi Meyers 0.0 points of absorbed usage. Tim Patrick out, vacating 6% of the targets. The proportional split gives him none of it, worth about 0.0 points. Display only: it does not change the expected number.",
+   "why": "Denzel Boston 8.8 vs Jakobi Meyers 7.4, only 1.4 apart."
   }
  ],
- "expected_total": 104.8,
+ "expected_total": 104.6,
  "notes": [
-  "Projections are from the sat_early snapshot taken Sat Sep 26 07:02 AM Central."
+  "Projections are from the sat_late_am snapshot taken Sat Sep 26 10:36 AM Central."
  ],
  "vacated_meta": {
   "available": true,

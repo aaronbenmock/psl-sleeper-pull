@@ -38,7 +38,7 @@
    "efficiency": 0.98,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 123.95,
+   "proj_next": 123.89,
    "future_opps": [
     1,
     2,
@@ -130,7 +130,7 @@
    "efficiency": 0.93,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 109.99,
+   "proj_next": 109.92,
    "future_opps": [
     9,
     6,
@@ -222,7 +222,7 @@
    "efficiency": 0.85,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 99.98,
+   "proj_next": 99.57,
    "future_opps": [
     11,
     5,
@@ -279,7 +279,7 @@
    "trend": 27.6,
    "trend_label": "up",
    "sos_remaining": 101.71,
-   "power": 115.0,
+   "power": 114.9,
    "power_rank": 3,
    "pf_rank": 3
   },
@@ -321,7 +321,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 102.09,
+   "proj_next": 101.78,
    "future_opps": [
     2,
     11,
@@ -378,7 +378,7 @@
    "trend": 17.6,
    "trend_label": "up",
    "sos_remaining": 97.81,
-   "power": 110.1,
+   "power": 109.9,
    "power_rank": 4,
    "pf_rank": 4
   },
@@ -413,7 +413,7 @@
    "efficiency": 0.85,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 105.02,
+   "proj_next": 105.23,
    "future_opps": [
     8,
     10,
@@ -470,7 +470,7 @@
    "trend": 30.4,
    "trend_label": "up",
    "sos_remaining": 104.63,
-   "power": 107.2,
+   "power": 107.3,
    "power_rank": 5,
    "pf_rank": 5
   },
@@ -505,7 +505,7 @@
    "efficiency": 0.97,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 105.9,
+   "proj_next": 106.12,
    "future_opps": [
     3,
     7,
@@ -562,7 +562,7 @@
    "trend": 17.0,
    "trend_label": "up",
    "sos_remaining": 101.14,
-   "power": 104.6,
+   "power": 104.7,
    "power_rank": 6,
    "pf_rank": 7
   },
@@ -597,7 +597,7 @@
    "efficiency": 0.81,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 87.7,
+   "proj_next": 87.79,
    "future_opps": [
     12,
     4,
@@ -689,7 +689,7 @@
    "efficiency": 0.8,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 105.42,
+   "proj_next": 105.35,
    "future_opps": [
     7,
     12,
@@ -788,7 +788,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 96.03,
+   "proj_next": 95.54,
    "future_opps": [
     6,
     1,
@@ -845,7 +845,7 @@
    "trend": -26.0,
    "trend_label": "down",
    "sos_remaining": 100.01,
-   "power": 95.4,
+   "power": 95.2,
    "power_rank": 9,
    "pf_rank": 8
   },
@@ -893,7 +893,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 112.87,
+   "proj_next": 112.93,
    "future_opps": [
     4,
     8,
@@ -992,7 +992,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 100.6,
+   "proj_next": 100.89,
    "future_opps": [
     5,
     9,
@@ -1049,7 +1049,7 @@
    "trend": -18.8,
    "trend_label": "down",
    "sos_remaining": 103.98,
-   "power": 85.3,
+   "power": 85.4,
    "power_rank": 11,
    "pf_rank": 11
   },
@@ -1084,7 +1084,7 @@
    "efficiency": 0.85,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 88.42,
+   "proj_next": 88.39,
    "future_opps": [
     10,
     3,
@@ -1223,7 +1223,7 @@
    "team": "Amateur Hour",
    "kind": "trade_fit",
    "severity": "info",
-   "text": "Amateur Hour starts Rome Odunze (WR) at a projected 6.5; you carry 7 WRs. Possible trade partner (deadline week 12)."
+   "text": "Amateur Hour starts Rome Odunze (WR) at a projected 6.6; you carry 7 WRs. Possible trade partner (deadline week 12)."
   }
  ],
  "notes": [
@@ -1232,7 +1232,7 @@
  ],
  "projection_source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-09-26T12:02:43Z",
-  "label": "sat_early"
+  "taken_at_utc": "2026-09-26T15:36:01Z",
+  "label": "sat_late_am"
  }
 }
