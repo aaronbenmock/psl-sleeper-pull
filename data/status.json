@@ -2,11 +2,11 @@
  "tasks": {
   "build": {
    "task": "build",
-   "ok": false,
-   "summary": "failed: build completed with section errors: lineup: 'why'",
-   "started_utc": "2026-09-26T00:09:50Z",
-   "finished_utc": "2026-09-26T00:09:50Z",
-   "error": "Traceback (most recent call last):\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine.py\", line 36, in _run_task\n    fn(**kw)\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine/build.py\", line 87, in run\n    raise RuntimeError(\"build completed with section errors: \" + \"; \".join(errors))\nRuntimeError: build completed with section errors: lineup: 'why'\n"
+   "ok": true,
+   "summary": "index.html + reports/2026/week03.html; lineup changes 0, claims 8, signals 13, accuracy weeks 2",
+   "started_utc": "2026-09-26T11:09:35Z",
+   "finished_utc": "2026-09-26T11:09:36Z",
+   "error": null
   },
   "pull": {
    "task": "pull",
@@ -21,9 +21,9 @@
   "injuries": {
    "task": "injuries",
    "ok": true,
-   "summary": "182 rostered players tracked, 58 changes since 2026-09-24, 3 of mine carry an injury tag, players cache pulled",
-   "started_utc": "2026-09-25T11:10:26Z",
-   "finished_utc": "2026-09-25T11:10:26Z",
+   "summary": "182 rostered players tracked, 88 changes since 2026-09-25, 2 of mine carry an injury tag, players cache pulled",
+   "started_utc": "2026-09-26T11:09:35Z",
+   "finished_utc": "2026-09-26T11:09:35Z",
    "error": null
   },
   "snapshot": {
@@ -963,14 +963,30 @@
    "started_utc": "2026-09-26T00:09:50Z",
    "finished_utc": "2026-09-26T00:09:50Z",
    "error": "Traceback (most recent call last):\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine.py\", line 36, in _run_task\n    fn(**kw)\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine/build.py\", line 87, in run\n    raise RuntimeError(\"build completed with section errors: \" + \"; \".join(errors))\nRuntimeError: build completed with section errors: lineup: 'why'\n"
+  },
+  {
+   "task": "injuries",
+   "ok": true,
+   "summary": "182 rostered players tracked, 88 changes since 2026-09-25, 2 of mine carry an injury tag, players cache pulled",
+   "started_utc": "2026-09-26T11:09:35Z",
+   "finished_utc": "2026-09-26T11:09:35Z",
+   "error": null
+  },
+  {
+   "task": "build",
+   "ok": true,
+   "summary": "index.html + reports/2026/week03.html; lineup changes 0, claims 8, signals 13, accuracy weeks 2",
+   "started_utc": "2026-09-26T11:09:35Z",
+   "finished_utc": "2026-09-26T11:09:36Z",
+   "error": null
   }
  ],
  "last_run": {
   "task": "build",
-  "ok": false,
-  "summary": "failed: build completed with section errors: lineup: 'why'",
-  "started_utc": "2026-09-26T00:09:50Z",
-  "finished_utc": "2026-09-26T00:09:50Z",
-  "error": "Traceback (most recent call last):\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine.py\", line 36, in _run_task\n    fn(**kw)\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine/build.py\", line 87, in run\n    raise RuntimeError(\"build completed with section errors: \" + \"; \".join(errors))\nRuntimeError: build completed with section errors: lineup: 'why'\n"
+  "ok": true,
+  "summary": "index.html + reports/2026/week03.html; lineup changes 0, claims 8, signals 13, accuracy weeks 2",
+  "started_utc": "2026-09-26T11:09:35Z",
+  "finished_utc": "2026-09-26T11:09:36Z",
+  "error": null
  }
 }

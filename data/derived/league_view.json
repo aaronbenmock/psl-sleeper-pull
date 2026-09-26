@@ -128,14 +128,7 @@
     5.1
    ],
    "efficiency": 0.93,
-   "injured_starters": [
-    {
-     "name": "Tony Pollard",
-     "pos": "RB",
-     "status": "Questionable",
-     "body": "Undisclosed"
-    }
-   ],
+   "injured_starters": [],
    "byes_next": [],
    "proj_next": 108.75,
    "future_opps": [
@@ -227,16 +220,9 @@
     18.3
    ],
    "efficiency": 0.85,
-   "injured_starters": [
-    {
-     "name": "Rico Dowdle",
-     "pos": "RB",
-     "status": "Questionable",
-     "body": "Toe"
-    }
-   ],
+   "injured_starters": [],
    "byes_next": [],
-   "proj_next": 92.79,
+   "proj_next": 99.78,
    "future_opps": [
     11,
     5,
@@ -266,7 +252,7 @@
      "pos": "RB"
     },
     {
-     "name": "Rico Dowdle",
+     "name": "Woody Marks",
      "pos": "RB"
     },
     {
@@ -293,7 +279,7 @@
    "trend": 27.6,
    "trend_label": "up",
    "sos_remaining": 101.71,
-   "power": 112.2,
+   "power": 114.9,
    "power_rank": 3,
    "pf_rank": 3
   },
@@ -328,14 +314,14 @@
    "efficiency": 0.86,
    "injured_starters": [
     {
-     "name": "Kyle Monangai",
-     "pos": "RB",
+     "name": "Brock Bowers",
+     "pos": "TE",
      "status": "Questionable",
-     "body": "Undisclosed"
+     "body": "Knee - Meniscus"
     }
    ],
    "byes_next": [],
-   "proj_next": 99.96,
+   "proj_next": 102.11,
    "future_opps": [
     2,
     11,
@@ -377,8 +363,8 @@
      "pos": "WR"
     },
     {
-     "name": "Terry McLaurin",
-     "pos": "WR"
+     "name": "Brock Bowers",
+     "pos": "TE"
     },
     {
      "name": "Dalton Kincaid",
@@ -392,7 +378,7 @@
    "trend": 17.6,
    "trend_label": "up",
    "sos_remaining": 97.81,
-   "power": 109.2,
+   "power": 110.1,
    "power_rank": 4,
    "pf_rank": 4
   },
@@ -701,14 +687,7 @@
     23.0
    ],
    "efficiency": 0.8,
-   "injured_starters": [
-    {
-     "name": "Jadarian Price",
-     "pos": "RB",
-     "status": "Questionable",
-     "body": "Chest"
-    }
-   ],
+   "injured_starters": [],
    "byes_next": [],
    "proj_next": 104.58,
    "future_opps": [
@@ -729,7 +708,7 @@
     8,
     10
    ],
-   "faab_used": 0,
+   "faab_used": 6,
    "starters_now": [
     {
      "name": "Jalen Hurts",
@@ -809,7 +788,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 95.61,
+   "proj_next": 97.1,
    "future_opps": [
     6,
     1,
@@ -855,8 +834,8 @@
      "pos": "WR"
     },
     {
-     "name": "Devaughn Vele",
-     "pos": "WR"
+     "name": "Sam LaPorta",
+     "pos": "TE"
     },
     {
      "name": "LAR DEF",
@@ -866,7 +845,7 @@
    "trend": -26.0,
    "trend_label": "down",
    "sos_remaining": 100.01,
-   "power": 95.2,
+   "power": 95.8,
    "power_rank": 9,
    "pf_rank": 8
   },
@@ -900,12 +879,6 @@
    ],
    "efficiency": 0.75,
    "injured_starters": [
-    {
-     "name": "Saquon Barkley",
-     "pos": "RB",
-     "status": "Questionable",
-     "body": "Arm"
-    },
     {
      "name": "Jalen Coker",
      "pos": "WR",
@@ -1109,14 +1082,7 @@
     11.9
    ],
    "efficiency": 0.85,
-   "injured_starters": [
-    {
-     "name": "Travis Etienne",
-     "pos": "RB",
-     "status": "Questionable",
-     "body": "Hamstring"
-    }
-   ],
+   "injured_starters": [],
    "byes_next": [],
    "proj_next": 88.42,
    "future_opps": [
@@ -1185,13 +1151,7 @@
    "team": "Eazy E Squad",
    "kind": "injured_starters",
    "severity": "medium",
-   "text": "Eazy E Squad has 3 of 8 starters carrying injury tags: Saquon Barkley Questionable (Arm), Jalen Coker Questionable (Ankle), Jaylen Warren Questionable (Undisclosed)."
-  },
-  {
-   "team": "ValKilmersComeback",
-   "kind": "injured_starter",
-   "severity": "low",
-   "text": "ValKilmersComeback (you) (#3 scorer) has Rico Dowdle listed Questionable."
+   "text": "Eazy E Squad has 2 of 8 starters carrying injury tags: Jalen Coker Questionable (Ankle), Jaylen Warren Questionable (Undisclosed)."
   },
   {
    "team": "ValKilmersComeback",
@@ -1204,12 +1164,6 @@
    "kind": "vs_projection",
    "severity": "low",
    "text": "Amateur Hour has missed Sleeper's starter projections by 42 points a week over 2 weeks."
-  },
-  {
-   "team": "Baker\u2019s Dozen",
-   "kind": "injured_starter",
-   "severity": "low",
-   "text": "Baker\u2019s Dozen (#2 scorer) has Tony Pollard listed Questionable."
   },
   {
    "team": "Baker\u2019s Dozen",
@@ -1264,6 +1218,12 @@
    "kind": "vs_projection",
    "severity": "low",
    "text": "ScampDaddy has missed Sleeper's starter projections by 20 points a week over 2 weeks."
+  },
+  {
+   "team": "Amateur Hour",
+   "kind": "trade_fit",
+   "severity": "info",
+   "text": "Amateur Hour starts Rome Odunze (WR) at a projected 6.5; you carry 7 WRs. Possible trade partner (deadline week 12)."
   }
  ],
  "notes": [
