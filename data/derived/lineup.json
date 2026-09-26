@@ -1,10 +1,10 @@
 {
  "week": 3,
- "generated_at_utc": "2026-09-26T16:38:32Z",
+ "generated_at_utc": "2026-09-26T23:13:48Z",
  "source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-09-26T15:36:01Z",
-  "label": "sat_late_am"
+  "taken_at_utc": "2026-09-26T23:13:48Z",
+  "label": "sat_pm"
  },
  "lineup": [
   {
@@ -13,7 +13,7 @@
    "pos": "QB",
    "team": "BUF",
    "opp": "LAC",
-   "sleeper": 25.22,
+   "sleeper": 25.21,
    "preseason": 22.57,
    "season_avg": 43.74,
    "n_games": 2,
@@ -141,12 +141,12 @@
    "pos": "WR",
    "team": "LAR",
    "opp": "DEN",
-   "sleeper": 11.78,
+   "sleeper": 11.76,
    "preseason": 12.3,
    "season_avg": 20.3,
    "n_games": 2,
    "baseline": 14.97,
-   "expected": 12.9,
+   "expected": 12.88,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -473,12 +473,12 @@
    "pos": "WR",
    "team": "JAX",
    "opp": "NE",
-   "sleeper": 6.78,
+   "sleeper": 6.66,
    "preseason": 9.21,
    "season_avg": 7.25,
    "n_games": 2,
    "baseline": 8.56,
-   "expected": 7.4,
+   "expected": 7.32,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -491,7 +491,7 @@
    "started": false,
    "actual_so_far": null,
    "slot": "BN",
-   "why": "Sleeper projects 6.8, season average 7.2 over 2 games, preseason model 9.2. Blended expectation 7.4 vs NE.",
+   "why": "Sleeper projects 6.7, season average 7.2 over 2 games, preseason model 9.2. Blended expectation 7.3 vs NE.",
    "vacated": {
     "player_id": " 00-0034960",
     "pos": "WR",
@@ -762,21 +762,11 @@
    "vacated_bench": 0.0,
    "vacated_note": null,
    "why": "Denzel Boston 8.8 vs Courtland Sutton 8.3, only 0.6 apart."
-  },
-  {
-   "slot": "FLEX",
-   "starter": "Denzel Boston",
-   "bench": "Jakobi Meyers",
-   "gap": 1.4,
-   "vacated_starter": 0.0,
-   "vacated_bench": 0.0,
-   "vacated_note": "Vacated share (display only, not in the numbers above): Denzel Boston 0.0, Jakobi Meyers 0.0 points of absorbed usage. Tim Patrick out, vacating 6% of the targets. The proportional split gives him none of it, worth about 0.0 points. Display only: it does not change the expected number.",
-   "why": "Denzel Boston 8.8 vs Jakobi Meyers 7.4, only 1.4 apart."
   }
  ],
- "expected_total": 104.6,
+ "expected_total": 104.5,
  "notes": [
-  "Projections are from the sat_late_am snapshot taken Sat Sep 26 10:36 AM Central."
+  "Projections are from the sat_pm snapshot taken Sat Sep 26 06:13 PM Central."
  ],
  "vacated_meta": {
   "available": true,
