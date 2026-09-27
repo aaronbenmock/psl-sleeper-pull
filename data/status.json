@@ -3,9 +3,9 @@
   "build": {
    "task": "build",
    "ok": true,
-   "summary": "index.html + reports/2026/week03.html; lineup changes 0, claims 8, signals 13, accuracy weeks 2",
-   "started_utc": "2026-09-27T16:38:57Z",
-   "finished_utc": "2026-09-27T16:38:58Z",
+   "summary": "index.html + reports/2026/week03.html; lineup changes 0, claims 8, signals 14, accuracy weeks 2",
+   "started_utc": "2026-09-27T23:13:55Z",
+   "finished_utc": "2026-09-27T23:13:55Z",
    "error": null
   },
   "pull": {
@@ -29,12 +29,12 @@
   "snapshot": {
    "task": "snapshot",
    "ok": true,
-   "summary": "week 3 sun_late_am: 3148 projections, 2 NFL teams already started, 3091 players still pre-kickoff",
-   "started_utc": "2026-09-27T15:34:54Z",
-   "finished_utc": "2026-09-27T15:34:54Z",
+   "summary": "week 3 sun_pm: 3148 projections, 28 NFL teams already started, 2397 players still pre-kickoff",
+   "started_utc": "2026-09-27T23:13:53Z",
+   "finished_utc": "2026-09-27T23:13:55Z",
    "error": null,
    "week": 3,
-   "label": "sun_late_am"
+   "label": "sun_pm"
   },
   "auto-skip": {
    "task": "auto-skip",
@@ -1167,14 +1167,32 @@
    "started_utc": "2026-09-27T16:38:57Z",
    "finished_utc": "2026-09-27T16:38:58Z",
    "error": null
+  },
+  {
+   "task": "snapshot",
+   "ok": true,
+   "summary": "week 3 sun_pm: 3148 projections, 28 NFL teams already started, 2397 players still pre-kickoff",
+   "started_utc": "2026-09-27T23:13:53Z",
+   "finished_utc": "2026-09-27T23:13:55Z",
+   "error": null,
+   "week": 3,
+   "label": "sun_pm"
+  },
+  {
+   "task": "build",
+   "ok": true,
+   "summary": "index.html + reports/2026/week03.html; lineup changes 0, claims 8, signals 14, accuracy weeks 2",
+   "started_utc": "2026-09-27T23:13:55Z",
+   "finished_utc": "2026-09-27T23:13:55Z",
+   "error": null
   }
  ],
  "last_run": {
   "task": "build",
   "ok": true,
-  "summary": "index.html + reports/2026/week03.html; lineup changes 0, claims 8, signals 13, accuracy weeks 2",
-  "started_utc": "2026-09-27T16:38:57Z",
-  "finished_utc": "2026-09-27T16:38:58Z",
+  "summary": "index.html + reports/2026/week03.html; lineup changes 0, claims 8, signals 14, accuracy weeks 2",
+  "started_utc": "2026-09-27T23:13:55Z",
+  "finished_utc": "2026-09-27T23:13:55Z",
   "error": null
  }
 }
