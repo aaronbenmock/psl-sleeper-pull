@@ -788,7 +788,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 95.02,
+   "proj_next": 94.69,
    "future_opps": [
     6,
     1,
@@ -834,7 +834,7 @@
      "pos": "WR"
     },
     {
-     "name": "Sam LaPorta",
+     "name": "Dalton Schultz",
      "pos": "TE"
     },
     {
@@ -845,7 +845,7 @@
    "trend": -26.0,
    "trend_label": "down",
    "sos_remaining": 100.01,
-   "power": 95.0,
+   "power": 94.9,
    "power_rank": 9,
    "pf_rank": 8
   },
@@ -983,14 +983,7 @@
     8.1
    ],
    "efficiency": 0.88,
-   "injured_starters": [
-    {
-     "name": "DeVonta Smith",
-     "pos": "WR",
-     "status": "Questionable",
-     "body": "Hamstring"
-    }
-   ],
+   "injured_starters": [],
    "byes_next": [],
    "proj_next": 100.8,
    "future_opps": [
