@@ -312,16 +312,9 @@
     1.6
    ],
    "efficiency": 0.86,
-   "injured_starters": [
-    {
-     "name": "Brock Bowers",
-     "pos": "TE",
-     "status": "Questionable",
-     "body": "Knee - Meniscus"
-    }
-   ],
+   "injured_starters": [],
    "byes_next": [],
-   "proj_next": 102.66,
+   "proj_next": 101.72,
    "future_opps": [
     2,
     11,
@@ -363,7 +356,7 @@
      "pos": "WR"
     },
     {
-     "name": "Brock Bowers",
+     "name": "Travis Kelce",
      "pos": "TE"
     },
     {
@@ -378,7 +371,7 @@
    "trend": 17.6,
    "trend_label": "up",
    "sos_remaining": 97.81,
-   "power": 110.3,
+   "power": 109.9,
    "power_rank": 4,
    "pf_rank": 4
   },
@@ -505,7 +498,7 @@
    "efficiency": 0.97,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 106.2,
+   "proj_next": 107.37,
    "future_opps": [
     3,
     7,
@@ -555,14 +548,14 @@
      "pos": "TE"
     },
     {
-     "name": "SF DEF",
+     "name": "NYG DEF",
      "pos": "DEF"
     }
    ],
    "trend": 17.0,
    "trend_label": "up",
    "sos_remaining": 101.14,
-   "power": 104.8,
+   "power": 105.2,
    "power_rank": 6,
    "pf_rank": 7
   },
@@ -595,9 +588,16 @@
     29.87
    ],
    "efficiency": 0.81,
-   "injured_starters": [],
+   "injured_starters": [
+    {
+     "name": "Breece Hall",
+     "pos": "RB",
+     "status": "Out",
+     "body": "Thigh"
+    }
+   ],
    "byes_next": [],
-   "proj_next": 86.8,
+   "proj_next": 88.48,
    "future_opps": [
     12,
     4,
@@ -635,12 +635,12 @@
      "pos": "WR"
     },
     {
-     "name": "Michael Wilson",
+     "name": "DJ Moore",
      "pos": "WR"
     },
     {
-     "name": "Jacory Croskey-Merritt",
-     "pos": "RB"
+     "name": "Michael Wilson",
+     "pos": "WR"
     },
     {
      "name": "Dontayvion Wicks",
@@ -654,7 +654,7 @@
    "trend": -78.0,
    "trend_label": "down",
    "sos_remaining": 107.49,
-   "power": 98.5,
+   "power": 99.2,
    "power_rank": 7,
    "pf_rank": 6
   },
@@ -783,8 +783,8 @@
     {
      "name": "Mike Evans",
      "pos": "WR",
-     "status": "Questionable",
-     "body": "Hip"
+     "status": "Out",
+     "body": "Ribs"
     }
    ],
    "byes_next": [],
@@ -880,16 +880,16 @@
    "efficiency": 0.75,
    "injured_starters": [
     {
-     "name": "Jalen Coker",
+     "name": "Justin Jefferson",
      "pos": "WR",
-     "status": "Questionable",
+     "status": "Out",
      "body": "Ankle"
     },
     {
-     "name": "Jaylen Warren",
-     "pos": "RB",
-     "status": "Questionable",
-     "body": "Undisclosed"
+     "name": "Jalen Coker",
+     "pos": "WR",
+     "status": "Out",
+     "body": "Quadriceps"
     }
    ],
    "byes_next": [],
@@ -1075,7 +1075,20 @@
     11.9
    ],
    "efficiency": 0.85,
-   "injured_starters": [],
+   "injured_starters": [
+    {
+     "name": "De'Von Achane",
+     "pos": "RB",
+     "status": "Out",
+     "body": "Knee"
+    },
+    {
+     "name": "Travis Etienne",
+     "pos": "RB",
+     "status": "Questionable",
+     "body": "Undisclosed"
+    }
+   ],
    "byes_next": [],
    "proj_next": 88.32,
    "future_opps": [
@@ -1141,10 +1154,16 @@
  ],
  "signals": [
   {
+   "team": "Amateur Hour",
+   "kind": "injured_starters",
+   "severity": "medium",
+   "text": "Amateur Hour has 2 of 8 starters carrying injury tags: De'Von Achane Out (Knee), Travis Etienne Questionable (Undisclosed)."
+  },
+  {
    "team": "Eazy E Squad",
    "kind": "injured_starters",
    "severity": "medium",
-   "text": "Eazy E Squad has 2 of 8 starters carrying injury tags: Jalen Coker Questionable (Ankle), Jaylen Warren Questionable (Undisclosed)."
+   "text": "Eazy E Squad has 2 of 8 starters carrying injury tags: Justin Jefferson Out (Ankle), Jalen Coker Out (Quadriceps)."
   },
   {
    "team": "ValKilmersComeback",
