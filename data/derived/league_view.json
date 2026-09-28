@@ -222,7 +222,7 @@
    "efficiency": 0.85,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 100.03,
+   "proj_next": 100.01,
    "future_opps": [
     11,
     5,
@@ -985,7 +985,7 @@
    "efficiency": 0.88,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 101.46,
+   "proj_next": 101.45,
    "future_opps": [
     5,
     9,
@@ -1250,7 +1250,7 @@
  ],
  "projection_source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-09-27T23:13:55Z",
-  "label": "sun_pm"
+  "taken_at_utc": "2026-09-28T12:02:46Z",
+  "label": "mon_early"
  }
 }
