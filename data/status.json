@@ -4,8 +4,8 @@
    "task": "build",
    "ok": true,
    "summary": "index.html + reports/2026/week03.html; lineup changes 0, claims 8, signals 15, accuracy weeks 2",
-   "started_utc": "2026-09-28T12:02:46Z",
-   "finished_utc": "2026-09-28T12:02:46Z",
+   "started_utc": "2026-09-28T15:38:21Z",
+   "finished_utc": "2026-09-28T15:38:21Z",
    "error": null
   },
   "pull": {
@@ -29,12 +29,12 @@
   "snapshot": {
    "task": "snapshot",
    "ok": true,
-   "summary": "week 3 mon_early: 3148 projections, 30 NFL teams already started, 2345 players still pre-kickoff",
-   "started_utc": "2026-09-28T12:02:45Z",
-   "finished_utc": "2026-09-28T12:02:46Z",
+   "summary": "week 3 mon_late_am: 3148 projections, 30 NFL teams already started, 2345 players still pre-kickoff",
+   "started_utc": "2026-09-28T15:38:20Z",
+   "finished_utc": "2026-09-28T15:38:21Z",
    "error": null,
    "week": 3,
-   "label": "mon_early"
+   "label": "mon_late_am"
   },
   "auto-skip": {
    "task": "auto-skip",
@@ -1235,14 +1235,32 @@
    "started_utc": "2026-09-28T12:02:46Z",
    "finished_utc": "2026-09-28T12:02:46Z",
    "error": null
+  },
+  {
+   "task": "snapshot",
+   "ok": true,
+   "summary": "week 3 mon_late_am: 3148 projections, 30 NFL teams already started, 2345 players still pre-kickoff",
+   "started_utc": "2026-09-28T15:38:20Z",
+   "finished_utc": "2026-09-28T15:38:21Z",
+   "error": null,
+   "week": 3,
+   "label": "mon_late_am"
+  },
+  {
+   "task": "build",
+   "ok": true,
+   "summary": "index.html + reports/2026/week03.html; lineup changes 0, claims 8, signals 15, accuracy weeks 2",
+   "started_utc": "2026-09-28T15:38:21Z",
+   "finished_utc": "2026-09-28T15:38:21Z",
+   "error": null
   }
  ],
  "last_run": {
   "task": "build",
   "ok": true,
   "summary": "index.html + reports/2026/week03.html; lineup changes 0, claims 8, signals 15, accuracy weeks 2",
-  "started_utc": "2026-09-28T12:02:46Z",
-  "finished_utc": "2026-09-28T12:02:46Z",
+  "started_utc": "2026-09-28T15:38:21Z",
+  "finished_utc": "2026-09-28T15:38:21Z",
   "error": null
  }
 }
