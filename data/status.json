@@ -4,8 +4,8 @@
    "task": "build",
    "ok": true,
    "summary": "index.html + reports/2026/week03.html; lineup changes 0, claims 8, signals 15, accuracy weeks 2",
-   "started_utc": "2026-09-28T16:40:15Z",
-   "finished_utc": "2026-09-28T16:40:15Z",
+   "started_utc": "2026-09-28T23:14:20Z",
+   "finished_utc": "2026-09-28T23:14:20Z",
    "error": null
   },
   "pull": {
@@ -29,12 +29,12 @@
   "snapshot": {
    "task": "snapshot",
    "ok": true,
-   "summary": "week 3 mon_late_am: 3148 projections, 30 NFL teams already started, 2345 players still pre-kickoff",
-   "started_utc": "2026-09-28T15:38:20Z",
-   "finished_utc": "2026-09-28T15:38:21Z",
+   "summary": "week 3 mon_pm: 3148 projections, 30 NFL teams already started, 2343 players still pre-kickoff",
+   "started_utc": "2026-09-28T23:14:19Z",
+   "finished_utc": "2026-09-28T23:14:20Z",
    "error": null,
    "week": 3,
-   "label": "mon_late_am"
+   "label": "mon_pm"
   },
   "auto-skip": {
    "task": "auto-skip",
@@ -1269,14 +1269,32 @@
    "started_utc": "2026-09-28T16:40:15Z",
    "finished_utc": "2026-09-28T16:40:15Z",
    "error": null
+  },
+  {
+   "task": "snapshot",
+   "ok": true,
+   "summary": "week 3 mon_pm: 3148 projections, 30 NFL teams already started, 2343 players still pre-kickoff",
+   "started_utc": "2026-09-28T23:14:19Z",
+   "finished_utc": "2026-09-28T23:14:20Z",
+   "error": null,
+   "week": 3,
+   "label": "mon_pm"
+  },
+  {
+   "task": "build",
+   "ok": true,
+   "summary": "index.html + reports/2026/week03.html; lineup changes 0, claims 8, signals 15, accuracy weeks 2",
+   "started_utc": "2026-09-28T23:14:20Z",
+   "finished_utc": "2026-09-28T23:14:20Z",
+   "error": null
   }
  ],
  "last_run": {
   "task": "build",
   "ok": true,
   "summary": "index.html + reports/2026/week03.html; lineup changes 0, claims 8, signals 15, accuracy weeks 2",
-  "started_utc": "2026-09-28T16:40:15Z",
-  "finished_utc": "2026-09-28T16:40:15Z",
+  "started_utc": "2026-09-28T23:14:20Z",
+  "finished_utc": "2026-09-28T23:14:20Z",
   "error": null
  }
 }

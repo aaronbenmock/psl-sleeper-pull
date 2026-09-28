@@ -314,7 +314,7 @@
    "efficiency": 0.86,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 101.53,
+   "proj_next": 101.35,
    "future_opps": [
     2,
     11,
@@ -597,7 +597,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 88.67,
+   "proj_next": 88.64,
    "future_opps": [
     12,
     4,
@@ -689,7 +689,7 @@
    "efficiency": 0.8,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 105.2,
+   "proj_next": 105.33,
    "future_opps": [
     7,
     12,
@@ -746,7 +746,7 @@
    "trend": -17.3,
    "trend_label": "down",
    "sos_remaining": 105.3,
-   "power": 97.0,
+   "power": 97.1,
    "power_rank": 8,
    "pf_rank": 9
   },
@@ -788,7 +788,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 96.53,
+   "proj_next": 96.97,
    "future_opps": [
     6,
     1,
@@ -845,7 +845,7 @@
    "trend": -26.0,
    "trend_label": "down",
    "sos_remaining": 100.01,
-   "power": 95.6,
+   "power": 95.8,
    "power_rank": 9,
    "pf_rank": 8
   },
@@ -893,7 +893,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 112.94,
+   "proj_next": 112.83,
    "future_opps": [
     4,
     8,
@@ -985,7 +985,7 @@
    "efficiency": 0.88,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 101.29,
+   "proj_next": 101.24,
    "future_opps": [
     5,
     9,
@@ -1042,7 +1042,7 @@
    "trend": -18.8,
    "trend_label": "down",
    "sos_remaining": 103.98,
-   "power": 85.6,
+   "power": 85.5,
    "power_rank": 11,
    "pf_rank": 11
   },
@@ -1090,7 +1090,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 88.38,
+   "proj_next": 88.99,
    "future_opps": [
     10,
     3,
@@ -1147,7 +1147,7 @@
    "trend": -2.0,
    "trend_label": "flat",
    "sos_remaining": 109.0,
-   "power": 70.6,
+   "power": 70.8,
    "power_rank": 12,
    "pf_rank": 12
   }
@@ -1235,7 +1235,7 @@
    "team": "Amateur Hour",
    "kind": "trade_fit",
    "severity": "info",
-   "text": "Amateur Hour starts Rome Odunze (WR) at a projected 6.8; you carry 7 WRs. Possible trade partner (deadline week 12)."
+   "text": "Amateur Hour starts Rome Odunze (WR) at a projected 7.3; you carry 7 WRs. Possible trade partner (deadline week 12)."
   },
   {
    "team": "Girthenheimer",
@@ -1250,7 +1250,7 @@
  ],
  "projection_source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-09-28T15:38:21Z",
-  "label": "mon_late_am"
+  "taken_at_utc": "2026-09-28T23:14:20Z",
+  "label": "mon_pm"
  }
 }
