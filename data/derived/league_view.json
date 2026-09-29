@@ -12,7 +12,7 @@
    "team": "Be Safe, Get Jaxcinated",
    "manager": "jnally8",
    "is_mine": false,
-   "wins": 4,
+   "wins": 6,
    "losses": 0,
    "ties": 0,
    "h2h": "2-0",
@@ -104,8 +104,8 @@
    "team": "Baker\u2019s Dozen",
    "manager": "juicyjuicy100",
    "is_mine": false,
-   "wins": 4,
-   "losses": 0,
+   "wins": 5,
+   "losses": 1,
    "ties": 0,
    "h2h": "2-0",
    "median": "2-0",
@@ -197,7 +197,7 @@
    "manager": "Mockstar",
    "is_mine": true,
    "wins": 4,
-   "losses": 0,
+   "losses": 2,
    "ties": 0,
    "h2h": "2-0",
    "median": "2-0",
@@ -220,7 +220,14 @@
     18.3
    ],
    "efficiency": 0.85,
-   "injured_starters": [],
+   "injured_starters": [
+    {
+     "name": "Josh Allen",
+     "pos": "QB",
+     "status": "Questionable",
+     "body": "Knee"
+    }
+   ],
    "byes_next": [],
    "proj_next": 100.01,
    "future_opps": [
@@ -288,7 +295,7 @@
    "team": "Derrelick my Balls",
    "manager": "dlamas",
    "is_mine": false,
-   "wins": 2,
+   "wins": 4,
    "losses": 2,
    "ties": 0,
    "h2h": "1-1",
@@ -380,7 +387,7 @@
    "team": "RafiBomb",
    "manager": "TheRafiBombb",
    "is_mine": false,
-   "wins": 2,
+   "wins": 4,
    "losses": 2,
    "ties": 0,
    "h2h": "1-1",
@@ -406,7 +413,7 @@
    "efficiency": 0.85,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 104.53,
+   "proj_next": 102.31,
    "future_opps": [
     8,
     10,
@@ -444,11 +451,11 @@
      "pos": "WR"
     },
     {
-     "name": "Jaylen Waddle",
+     "name": "Christian Watson",
      "pos": "WR"
     },
     {
-     "name": "Christian Watson",
+     "name": "Malik Washington",
      "pos": "WR"
     },
     {
@@ -463,7 +470,7 @@
    "trend": 30.4,
    "trend_label": "up",
    "sos_remaining": 104.63,
-   "power": 107.0,
+   "power": 106.1,
    "power_rank": 5,
    "pf_rank": 5
   },
@@ -472,8 +479,8 @@
    "team": "tacocats",
    "manager": "ben_g",
    "is_mine": false,
-   "wins": 1,
-   "losses": 3,
+   "wins": 2,
+   "losses": 4,
    "ties": 0,
    "h2h": "0-2",
    "median": "1-1",
@@ -565,7 +572,7 @@
    "manager": "Breadsticks310",
    "is_mine": false,
    "wins": 2,
-   "losses": 2,
+   "losses": 4,
    "ties": 0,
    "h2h": "1-1",
    "median": "1-1",
@@ -663,7 +670,7 @@
    "team": "ScampDaddy",
    "manager": "marlos9",
    "is_mine": false,
-   "wins": 1,
+   "wins": 3,
    "losses": 3,
    "ties": 0,
    "h2h": "1-1",
@@ -756,7 +763,7 @@
    "manager": "aCaps",
    "is_mine": false,
    "wins": 1,
-   "losses": 3,
+   "losses": 5,
    "ties": 0,
    "h2h": "0-2",
    "median": "1-1",
@@ -855,7 +862,7 @@
    "manager": "espad",
    "is_mine": false,
    "wins": 2,
-   "losses": 2,
+   "losses": 4,
    "ties": 0,
    "h2h": "1-1",
    "median": "1-1",
@@ -959,7 +966,7 @@
    "team": "City of Champyinz",
    "manager": "danglish9",
    "is_mine": false,
-   "wins": 1,
+   "wins": 3,
    "losses": 3,
    "ties": 0,
    "h2h": "1-1",
@@ -1052,7 +1059,7 @@
    "manager": "cjgordon819",
    "is_mine": false,
    "wins": 0,
-   "losses": 4,
+   "losses": 6,
    "ties": 0,
    "h2h": "0-2",
    "median": "0-2",
@@ -1079,14 +1086,14 @@
     {
      "name": "De'Von Achane",
      "pos": "RB",
-     "status": "Out",
-     "body": "Knee"
+     "status": "IR",
+     "body": "Knee - ACL"
     },
     {
      "name": "Travis Etienne",
      "pos": "RB",
-     "status": "Questionable",
-     "body": "Undisclosed"
+     "status": "Out",
+     "body": "Hamstring"
     }
    ],
    "byes_next": [],
@@ -1157,13 +1164,19 @@
    "team": "Amateur Hour",
    "kind": "injured_starters",
    "severity": "medium",
-   "text": "Amateur Hour has 2 of 8 starters carrying injury tags: De'Von Achane Out (Knee), Travis Etienne Questionable (Undisclosed)."
+   "text": "Amateur Hour has 2 of 8 starters carrying injury tags: De'Von Achane IR (Knee - ACL), Travis Etienne Out (Hamstring)."
   },
   {
    "team": "Eazy E Squad",
    "kind": "injured_starters",
    "severity": "medium",
    "text": "Eazy E Squad has 2 of 8 starters carrying injury tags: Justin Jefferson Out (Ankle), Jalen Coker Out (Quadriceps)."
+  },
+  {
+   "team": "ValKilmersComeback",
+   "kind": "injured_starter",
+   "severity": "low",
+   "text": "ValKilmersComeback (you) (#3 scorer) has Josh Allen listed Questionable."
   },
   {
    "team": "ValKilmersComeback",
@@ -1188,6 +1201,18 @@
    "kind": "vs_projection",
    "severity": "low",
    "text": "Be Safe, Get Jaxcinated has beaten Sleeper's starter projections by 32 points a week over 2 weeks."
+  },
+  {
+   "team": "Cheeky Nando\u2019s",
+   "kind": "unlucky",
+   "severity": "low",
+   "text": "Cheeky Nando\u2019s is 1-5 but would be about 2.7-3.3 against the whole league (all-play 10-12). Better than the record."
+  },
+  {
+   "team": "City of Champyinz",
+   "kind": "lucky",
+   "severity": "low",
+   "text": "City of Champyinz is 3-3 but would be about 0.8-5.2 against the whole league each week (all-play 3-19). Record flatters the roster."
   },
   {
    "team": "City of Champyinz",
@@ -1215,6 +1240,12 @@
   },
   {
    "team": "Girthenheimer",
+   "kind": "unlucky",
+   "severity": "low",
+   "text": "Girthenheimer is 2-4 but would be about 3.5-2.5 against the whole league (all-play 13-9). Better than the record."
+  },
+  {
+   "team": "Girthenheimer",
    "kind": "bench_points",
    "severity": "low",
    "text": "Girthenheimer left 30 points on the bench in week 2 (lineup efficiency 81%)."
@@ -1224,24 +1255,6 @@
    "kind": "hot",
    "severity": "low",
    "text": "RafiBomb scored 123.88 last week, 15 above its average of 108.66."
-  },
-  {
-   "team": "ScampDaddy",
-   "kind": "vs_projection",
-   "severity": "low",
-   "text": "ScampDaddy has missed Sleeper's starter projections by 20 points a week over 2 weeks."
-  },
-  {
-   "team": "Amateur Hour",
-   "kind": "trade_fit",
-   "severity": "info",
-   "text": "Amateur Hour starts Rome Odunze (WR) at a projected 7.3; you carry 7 WRs. Possible trade partner (deadline week 12)."
-  },
-  {
-   "team": "Girthenheimer",
-   "kind": "trade_fit",
-   "severity": "info",
-   "text": "Girthenheimer starts Stefon Diggs (WR) at a projected 7.4; you carry 7 WRs. Possible trade partner (deadline week 12)."
   }
  ],
  "notes": [
