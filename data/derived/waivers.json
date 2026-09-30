@@ -208,7 +208,7 @@
    "starter_gain": 0.0,
    "depth_gain": 0.61,
    "trending": 173808,
-   "injury_status": "Questionable",
+   "injury_status": null,
    "would_start": false,
    "drop": {
     "player_id": "12048",
@@ -358,7 +358,7 @@
    "why": "Rest-of-season value about 6.1 a week (model+season; next week 6.03). He would not start over anyone you have, so the gain is depth only: +0.4 a week (a quarter of his edge over George Holani)."
   }
  ],
- "all_evaluated": 112,
+ "all_evaluated": 121,
  "drop_candidates": [
   {
    "player_id": "12048",
@@ -457,22 +457,11 @@
     "pos": "WR",
     "team": "MIN",
     "estimator": "historical",
-    "n_out": 2,
-    "out": [
-     {
-      "player_id": "00-0036322",
-      "name": "Justin Jefferson",
-      "tgt": 0.1098
-     },
-     {
-      "player_id": "00-0039710",
-      "name": "Jeshaun Jones",
-      "tgt": 0.0
-     }
-    ],
-    "vacated_tgt": 0.322,
+    "n_out": 0,
+    "out": [],
+    "vacated_tgt": 0.0,
     "vacated_car": null,
-    "absorbed_tgt": 0.11,
+    "absorbed_tgt": 0.0,
     "absorbed_car": null,
     "own_tgt_share": 0.168,
     "own_car_share": 0.0,
@@ -482,12 +471,12 @@
     "team_car_pg": 26.36,
     "hist_pairs_used": 0,
     "hist_min_games": null,
-    "points": 4.21,
+    "points": 0.0,
     "n_games": 1,
     "name": "Jauan Jennings",
-    "why": "Justin Jefferson, Jeshaun Jones out, vacating 32% of the targets. The proportional split gives him 11% of targets, worth about 4.2 points. Display only: it does not change the expected number."
+    "why": "No teammate at his position is ruled out, so nothing is vacated."
    },
-   "vacated_pts": 4.21,
+   "vacated_pts": 0.0,
    "ros": 7.17,
    "ros_how": "model+season",
    "protected": null
@@ -522,15 +511,9 @@
     "pos": "WR",
     "team": "DEN",
     "estimator": "historical",
-    "n_out": 1,
-    "out": [
-     {
-      "player_id": "00-0038976",
-      "name": "Marvin Mims Jr.",
-      "tgt": 0.0
-     }
-    ],
-    "vacated_tgt": 0.08,
+    "n_out": 0,
+    "out": [],
+    "vacated_tgt": 0.0,
     "vacated_car": null,
     "absorbed_tgt": 0.0,
     "absorbed_car": null,
@@ -540,12 +523,12 @@
     "ppc": 0.746,
     "team_tgt_pg": 32.25,
     "team_car_pg": 25.16,
-    "hist_pairs_used": 1,
-    "hist_min_games": 4,
+    "hist_pairs_used": 0,
+    "hist_min_games": null,
     "points": 0.0,
     "n_games": 2,
     "name": "Courtland Sutton",
-    "why": "Marvin Mims Jr. out, vacating 8% of the targets. The historical split gives him none of it, worth about 0.0 points. Display only: it does not change the expected number."
+    "why": "No teammate at his position is ruled out, so nothing is vacated."
    },
    "vacated_pts": 0.0,
    "ros": 7.97,
@@ -618,35 +601,29 @@
    "n_games": 2,
    "baseline": 8.38,
    "expected": 0.0,
-   "injury_status": "Out",
+   "injury_status": "Questionable",
    "injury_body_part": "Toe",
    "practice": null,
    "bye": false,
    "playing": false,
-   "inj_mult": 0.0,
+   "inj_mult": 0.9,
    "boom_rate": 0.242,
    "sd_wk": 7.725,
    "vor": 39.2,
    "started": true,
    "actual_so_far": null,
    "slot": "BN",
-   "why": "Ruled Out, 0 points.",
+   "why": "No Sleeper projection this week (ruled out or not active), 0 points.",
    "vacated": {
     "player_id": "00-0036139",
     "pos": "RB",
     "team": "PIT",
     "estimator": "historical",
-    "n_out": 2,
+    "n_out": 1,
     "out": [
      {
       "player_id": "00-0036984",
       "name": "Trey Sermon",
-      "car": 0.0,
-      "tgt": 0.0
-     },
-     {
-      "player_id": "00-0041490",
-      "name": "Eli Heidenreich",
       "car": 0.0,
       "tgt": 0.0
      }
@@ -666,7 +643,7 @@
     "points": 0.0,
     "n_games": 2,
     "name": "Rico Dowdle",
-    "why": "Trey Sermon, Eli Heidenreich out, vacating no measured usage. The proportional split gives him none of it, worth about 0.0 points. Display only: it does not change the expected number."
+    "why": "Trey Sermon out, vacating no measured usage. The proportional split gives him none of it, worth about 0.0 points. Display only: it does not change the expected number."
    },
    "vacated_pts": 0.0,
    "ros": 8.38,
@@ -734,19 +711,12 @@
     "pos": "RB",
     "team": "IND",
     "estimator": "historical",
-    "n_out": 1,
-    "out": [
-     {
-      "player_id": "00-0040179",
-      "name": "DJ Giddens",
-      "car": 0.135,
-      "tgt": 0.008
-     }
-    ],
-    "vacated_tgt": 0.013,
-    "vacated_car": 0.164,
-    "absorbed_tgt": 0.008,
-    "absorbed_car": 0.135,
+    "n_out": 0,
+    "out": [],
+    "vacated_tgt": 0.0,
+    "vacated_car": 0.0,
+    "absorbed_tgt": 0.0,
+    "absorbed_car": 0.0,
     "own_tgt_share": 0.118,
     "own_car_share": 0.777,
     "ppt": 1.284,
@@ -755,12 +725,12 @@
     "team_car_pg": 26.11,
     "hist_pairs_used": 0,
     "hist_min_games": null,
-    "points": 3.73,
+    "points": 0.0,
     "n_games": 2,
     "name": "Jonathan Taylor",
-    "why": "DJ Giddens out, vacating 1% of the targets and 16% of the carries. The proportional split gives him 1% of targets and 14% of carries, worth about 3.7 points. Display only: it does not change the expected number."
+    "why": "No teammate at his position is ruled out, so nothing is vacated."
    },
-   "vacated_pts": 3.73,
+   "vacated_pts": 0.0,
    "ros": 19.42,
    "ros_how": "model+season",
    "protected": null
@@ -795,22 +765,11 @@
     "pos": "WR",
     "team": "LA",
     "estimator": "historical",
-    "n_out": 2,
-    "out": [
-     {
-      "player_id": "00-0036849",
-      "name": "Tutu Atwell",
-      "tgt": 0.0342
-     },
-     {
-      "player_id": "00-0039075",
-      "name": "Puka Nacua",
-      "tgt": 0.1989
-     }
-    ],
-    "vacated_tgt": 0.361,
+    "n_out": 0,
+    "out": [],
+    "vacated_tgt": 0.0,
     "vacated_car": null,
-    "absorbed_tgt": 0.233,
+    "absorbed_tgt": 0.0,
     "absorbed_car": null,
     "own_tgt_share": 0.261,
     "own_car_share": 0.0,
@@ -820,12 +779,12 @@
     "team_car_pg": 27.72,
     "hist_pairs_used": 0,
     "hist_min_games": null,
-    "points": 16.41,
+    "points": 0.0,
     "n_games": 2,
     "name": "Davante Adams",
-    "why": "Tutu Atwell, Puka Nacua out, vacating 36% of the targets. The proportional split gives him 23% of targets, worth about 16.4 points. Display only: it does not change the expected number."
+    "why": "No teammate at his position is ruled out, so nothing is vacated."
    },
-   "vacated_pts": 16.41,
+   "vacated_pts": 0.0,
    "ros": 14.97,
    "ros_how": "model+season",
    "protected": null
@@ -918,13 +877,8 @@
     "pos": "WR",
     "team": "SF",
     "estimator": "historical",
-    "n_out": 3,
+    "n_out": 2,
     "out": [
-     {
-      "player_id": "00-0031408",
-      "name": "Mike Evans",
-      "tgt": 0.0
-     },
      {
       "player_id": "00-0032775",
       "name": "Demarcus Robinson",
@@ -936,7 +890,7 @@
       "tgt": 0.0
      }
     ],
-    "vacated_tgt": 0.489,
+    "vacated_tgt": 0.269,
     "vacated_car": null,
     "absorbed_tgt": 0.0,
     "absorbed_car": null,
@@ -951,7 +905,7 @@
     "points": 0.0,
     "n_games": 0,
     "name": "Deebo Samuel",
-    "why": "Mike Evans, Demarcus Robinson, Ricky Pearsall out, vacating 49% of the targets. The proportional split gives him none of it, worth about 0.0 points. Display only: it does not change the expected number."
+    "why": "Demarcus Robinson, Ricky Pearsall out, vacating 27% of the targets. The proportional split gives him none of it, worth about 0.0 points. Display only: it does not change the expected number."
    },
    "vacated_pts": 0.0,
    "ros": 10.99,
@@ -1144,35 +1098,29 @@
    "n_games": 2,
    "baseline": 8.38,
    "expected": 0.0,
-   "injury_status": "Out",
+   "injury_status": "Questionable",
    "injury_body_part": "Toe",
    "practice": null,
    "bye": false,
    "playing": false,
-   "inj_mult": 0.0,
+   "inj_mult": 0.9,
    "boom_rate": 0.242,
    "sd_wk": 7.725,
    "vor": 39.2,
    "started": true,
    "actual_so_far": null,
    "slot": "BN",
-   "why": "Ruled Out, 0 points.",
+   "why": "No Sleeper projection this week (ruled out or not active), 0 points.",
    "vacated": {
     "player_id": "00-0036139",
     "pos": "RB",
     "team": "PIT",
     "estimator": "historical",
-    "n_out": 2,
+    "n_out": 1,
     "out": [
      {
       "player_id": "00-0036984",
       "name": "Trey Sermon",
-      "car": 0.0,
-      "tgt": 0.0
-     },
-     {
-      "player_id": "00-0041490",
-      "name": "Eli Heidenreich",
       "car": 0.0,
       "tgt": 0.0
      }
@@ -1192,7 +1140,7 @@
     "points": 0.0,
     "n_games": 2,
     "name": "Rico Dowdle",
-    "why": "Trey Sermon, Eli Heidenreich out, vacating no measured usage. The proportional split gives him none of it, worth about 0.0 points. Display only: it does not change the expected number."
+    "why": "Trey Sermon out, vacating no measured usage. The proportional split gives him none of it, worth about 0.0 points. Display only: it does not change the expected number."
    },
    "vacated_pts": 0.0,
    "ros": 8.38,
@@ -1283,15 +1231,9 @@
     "pos": "WR",
     "team": "DEN",
     "estimator": "historical",
-    "n_out": 1,
-    "out": [
-     {
-      "player_id": "00-0038976",
-      "name": "Marvin Mims Jr.",
-      "tgt": 0.0
-     }
-    ],
-    "vacated_tgt": 0.08,
+    "n_out": 0,
+    "out": [],
+    "vacated_tgt": 0.0,
     "vacated_car": null,
     "absorbed_tgt": 0.0,
     "absorbed_car": null,
@@ -1301,12 +1243,12 @@
     "ppc": 0.746,
     "team_tgt_pg": 32.25,
     "team_car_pg": 25.16,
-    "hist_pairs_used": 1,
-    "hist_min_games": 4,
+    "hist_pairs_used": 0,
+    "hist_min_games": null,
     "points": 0.0,
     "n_games": 2,
     "name": "Courtland Sutton",
-    "why": "Marvin Mims Jr. out, vacating 8% of the targets. The historical split gives him none of it, worth about 0.0 points. Display only: it does not change the expected number."
+    "why": "No teammate at his position is ruled out, so nothing is vacated."
    },
    "vacated_pts": 0.0,
    "ros": 7.97,
@@ -1343,22 +1285,11 @@
     "pos": "WR",
     "team": "MIN",
     "estimator": "historical",
-    "n_out": 2,
-    "out": [
-     {
-      "player_id": "00-0036322",
-      "name": "Justin Jefferson",
-      "tgt": 0.1098
-     },
-     {
-      "player_id": "00-0039710",
-      "name": "Jeshaun Jones",
-      "tgt": 0.0
-     }
-    ],
-    "vacated_tgt": 0.322,
+    "n_out": 0,
+    "out": [],
+    "vacated_tgt": 0.0,
     "vacated_car": null,
-    "absorbed_tgt": 0.11,
+    "absorbed_tgt": 0.0,
     "absorbed_car": null,
     "own_tgt_share": 0.168,
     "own_car_share": 0.0,
@@ -1368,12 +1299,12 @@
     "team_car_pg": 26.36,
     "hist_pairs_used": 0,
     "hist_min_games": null,
-    "points": 4.21,
+    "points": 0.0,
     "n_games": 1,
     "name": "Jauan Jennings",
-    "why": "Justin Jefferson, Jeshaun Jones out, vacating 32% of the targets. The proportional split gives him 11% of targets, worth about 4.2 points. Display only: it does not change the expected number."
+    "why": "No teammate at his position is ruled out, so nothing is vacated."
    },
-   "vacated_pts": 4.21,
+   "vacated_pts": 0.0,
    "ros": 7.17,
    "ros_how": "model+season",
    "protected": null

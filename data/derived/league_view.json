@@ -130,7 +130,7 @@
    "efficiency": 0.93,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 109.61,
+   "proj_next": 109.65,
    "future_opps": [
     9,
     6,
@@ -172,7 +172,7 @@
      "pos": "WR"
     },
     {
-     "name": "Rashid Shaheed",
+     "name": "Jordan Addison",
      "pos": "WR"
     },
     {
@@ -187,7 +187,7 @@
    "trend": 4.7,
    "trend_label": "flat",
    "sos_remaining": 99.83,
-   "power": 122.3,
+   "power": 122.4,
    "power_rank": 2,
    "pf_rank": 2
   },
@@ -599,7 +599,7 @@
     {
      "name": "Breece Hall",
      "pos": "RB",
-     "status": "Out",
+     "status": "Questionable",
      "body": "Thigh"
     }
    ],
@@ -696,7 +696,7 @@
    "efficiency": 0.8,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 105.33,
+   "proj_next": 103.81,
    "future_opps": [
     7,
     12,
@@ -742,8 +742,8 @@
      "pos": "RB"
     },
     {
-     "name": "Jadarian Price",
-     "pos": "RB"
+     "name": "Isaiah Likely",
+     "pos": "TE"
     },
     {
      "name": "CAR DEF",
@@ -753,7 +753,7 @@
    "trend": -17.3,
    "trend_label": "down",
    "sos_remaining": 105.3,
-   "power": 97.1,
+   "power": 96.5,
    "power_rank": 8,
    "pf_rank": 9
   },
@@ -790,7 +790,7 @@
     {
      "name": "Mike Evans",
      "pos": "WR",
-     "status": "Out",
+     "status": "Questionable",
      "body": "Ribs"
     }
    ],
@@ -889,13 +889,13 @@
     {
      "name": "Justin Jefferson",
      "pos": "WR",
-     "status": "Out",
+     "status": "Questionable",
      "body": "Ankle"
     },
     {
      "name": "Jalen Coker",
      "pos": "WR",
-     "status": "Out",
+     "status": "Questionable",
      "body": "Quadriceps"
     }
    ],
@@ -1170,7 +1170,7 @@
    "team": "Eazy E Squad",
    "kind": "injured_starters",
    "severity": "medium",
-   "text": "Eazy E Squad has 2 of 8 starters carrying injury tags: Justin Jefferson Out (Ankle), Jalen Coker Out (Quadriceps)."
+   "text": "Eazy E Squad has 2 of 8 starters carrying injury tags: Justin Jefferson Questionable (Ankle), Jalen Coker Questionable (Quadriceps)."
   },
   {
    "team": "ValKilmersComeback",
