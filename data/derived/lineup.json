@@ -1,9 +1,9 @@
 {
  "week": 4,
- "generated_at_utc": "2026-09-30T15:08:35Z",
+ "generated_at_utc": "2026-09-30T16:04:50Z",
  "source": {
   "kind": "latest.json",
-  "taken_at_utc": "2026-09-30T15:08:33+00:00"
+  "taken_at_utc": "2026-09-30T16:04:47+00:00"
  },
  "lineup": [
   {
@@ -140,12 +140,12 @@
    "pos": "WR",
    "team": "LAR",
    "opp": "PHI",
-   "sleeper": 13.51,
+   "sleeper": 13.49,
    "preseason": 12.3,
    "season_avg": 19.6,
    "n_games": 3,
    "baseline": 15.43,
-   "expected": 14.18,
+   "expected": 14.17,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -304,12 +304,12 @@
    "pos": "WR",
    "team": "JAX",
    "opp": "CIN",
-   "sleeper": 8.02,
+   "sleeper": 8.04,
    "preseason": 9.21,
    "season_avg": 10.13,
    "n_games": 3,
    "baseline": 9.6,
-   "expected": 8.57,
+   "expected": 8.59,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -733,7 +733,7 @@
    "out": "DK Metcalf",
    "in": "Jakobi Meyers",
    "out_expected": 8.3,
-   "in_expected": 8.57,
+   "in_expected": 8.59,
    "why": "Jakobi Meyers 8.6 vs DK Metcalf 8.3 expected (+0.3). "
   }
  ],
@@ -797,16 +797,6 @@
    "vacated_bench": 0.0,
    "vacated_note": "Vacated share (display only, not in the numbers above): Jakobi Meyers 0.0, Courtland Sutton 0.0 points of absorbed usage. Tim Patrick out, vacating 6% of the targets. The proportional split gives him none of it, worth about 0.0 points. Display only: it does not change the expected number.",
    "why": "Jakobi Meyers 8.6 vs Courtland Sutton 8.1, only 0.5 apart. Tiebreak: Courtland Sutton has the higher ceiling (boom rate 24% vs 13%)."
-  },
-  {
-   "slot": "FLEX",
-   "starter": "Jakobi Meyers",
-   "bench": "Jauan Jennings",
-   "gap": 1.5,
-   "vacated_starter": 0.0,
-   "vacated_bench": 0.0,
-   "vacated_note": "Vacated share (display only, not in the numbers above): Jakobi Meyers 0.0, Jauan Jennings 0.0 points of absorbed usage. Tim Patrick out, vacating 6% of the targets. The proportional split gives him none of it, worth about 0.0 points. Display only: it does not change the expected number.",
-   "why": "Jakobi Meyers 8.6 vs Jauan Jennings 7.1, only 1.5 apart. Tiebreak: Jauan Jennings has the higher ceiling (boom rate 17% vs 13%)."
   }
  ],
  "expected_total": 101.9,
@@ -822,7 +812,7 @@
    2,
    3
   ],
-  "pulled_at_utc": "2026-09-30T15:08:35Z",
+  "pulled_at_utc": "2026-09-30T16:04:50Z",
   "n_players": 11,
   "n_unmapped": 0,
   "note": "Vacated share is display only. It is not part of expected points, and it does not change the close-call tiebreak: the 2015-2024 backtest could not tell it apart from the current rule on held-out 2025 (see the Backtest tab)."

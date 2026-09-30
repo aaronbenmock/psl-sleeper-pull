@@ -18,7 +18,7 @@
    "gain": 0.9,
    "starter_gain": 0.0,
    "depth_gain": 0.9,
-   "trending": 4293009,
+   "trending": 4320396,
    "injury_status": null,
    "would_start": false,
    "drop": {
@@ -28,7 +28,7 @@
     "ros": 5.23
    },
    "bid": 11,
-   "bid_why": "0.9 pts/week x 14 weeks left x $0.60 per point, x1.29 demand premium (4,293,009 Sleeper adds in 72h; the hottest player on the wire has 12,827,038), x1.15 early-season premium (everyone still has a full budget)",
+   "bid_why": "0.9 pts/week x 14 weeks left x $0.60 per point, x1.29 demand premium (4,320,396 Sleeper adds in 72h; the hottest player on the wire has 12,864,768), x1.15 early-season premium (everyone still has a full budget)",
    "why": "Rest-of-season value about 8.8 a week (model+season; next week 7.65). He would not start over anyone you have, so the gain is depth only: +0.9 a week (a quarter of his edge over George Holani)."
   },
   {
@@ -37,15 +37,15 @@
    "pos": "TE",
    "team": "CLE",
    "opp_next": "PIT",
-   "next_proj": 9.92,
+   "next_proj": 9.85,
    "last_actual": 20.6,
    "ros": 9.14,
    "ros_how": "model+season",
-   "value": 9.53,
+   "value": 9.49,
    "gain": 0.98,
    "starter_gain": 0.0,
    "depth_gain": 0.98,
-   "trending": 142710,
+   "trending": 144335,
    "injury_status": null,
    "would_start": false,
    "drop": {
@@ -55,8 +55,8 @@
     "ros": 5.23
    },
    "bid": 10,
-   "bid_why": "1.0 pts/week x 14 weeks left x $0.60 per point, x1.05 demand premium (142,710 Sleeper adds in 72h; the hottest player on the wire has 12,827,038), x1.15 early-season premium (everyone still has a full budget)",
-   "why": "Rest-of-season value about 9.1 a week (model+season; next week 9.92). He would not start over anyone you have, so the gain is depth only: +1.0 a week (a quarter of his edge over George Holani)."
+   "bid_why": "1.0 pts/week x 14 weeks left x $0.60 per point, x1.05 demand premium (144,335 Sleeper adds in 72h; the hottest player on the wire has 12,864,768), x1.15 early-season premium (everyone still has a full budget)",
+   "why": "Rest-of-season value about 9.1 a week (model+season; next week 9.85). He would not start over anyone you have, so the gain is depth only: +1.0 a week (a quarter of his edge over George Holani)."
   },
   {
    "player_id": "1479",
@@ -72,7 +72,7 @@
    "gain": 0.79,
    "starter_gain": 0.0,
    "depth_gain": 0.79,
-   "trending": 925220,
+   "trending": 939252,
    "injury_status": null,
    "would_start": false,
    "drop": {
@@ -82,7 +82,7 @@
     "ros": 5.23
    },
    "bid": 9,
-   "bid_why": "0.8 pts/week x 14 weeks left x $0.60 per point, x1.13 demand premium (925,220 Sleeper adds in 72h; the hottest player on the wire has 12,827,038), x1.15 early-season premium (everyone still has a full budget)",
+   "bid_why": "0.8 pts/week x 14 weeks left x $0.60 per point, x1.14 demand premium (939,252 Sleeper adds in 72h; the hottest player on the wire has 12,864,768), x1.15 early-season premium (everyone still has a full budget)",
    "why": "Rest-of-season value about 8.4 a week (model+season; next week 6.98). He would not start over anyone you have, so the gain is depth only: +0.8 a week (a quarter of his edge over George Holani)."
   },
   {
@@ -99,7 +99,7 @@
    "gain": 0.8,
    "starter_gain": 0.0,
    "depth_gain": 0.8,
-   "trending": 64820,
+   "trending": 66071,
    "injury_status": null,
    "would_start": false,
    "drop": {
@@ -109,7 +109,7 @@
     "ros": 5.23
    },
    "bid": 8,
-   "bid_why": "0.8 pts/week x 14 weeks left x $0.60 per point, x1.04 demand premium (64,820 Sleeper adds in 72h; the hottest player on the wire has 12,827,038), x1.15 early-season premium (everyone still has a full budget)",
+   "bid_why": "0.8 pts/week x 14 weeks left x $0.60 per point, x1.04 demand premium (66,071 Sleeper adds in 72h; the hottest player on the wire has 12,864,768), x1.15 early-season premium (everyone still has a full budget)",
    "why": "Rest-of-season value about 8.4 a week (model+season; next week 7.88). He would not start over anyone you have, so the gain is depth only: +0.8 a week (a quarter of his edge over George Holani)."
   },
   {
@@ -126,7 +126,7 @@
    "gain": 0.71,
    "starter_gain": 0.71,
    "depth_gain": 0.0,
-   "trending": 665610,
+   "trending": 674640,
    "injury_status": null,
    "would_start": true,
    "drop": {
@@ -136,7 +136,7 @@
     "ros": 11.07
    },
    "bid": 8,
-   "bid_why": "0.7 pts/week x 14 weeks left x $0.60 per point, x1.11 demand premium (665,610 Sleeper adds in 72h; the hottest player on the wire has 12,827,038), x1.15 early-season premium (everyone still has a full budget)",
+   "bid_why": "0.7 pts/week x 14 weeks left x $0.60 per point, x1.11 demand premium (674,640 Sleeper adds in 72h; the hottest player on the wire has 12,864,768), x1.15 early-season premium (everyone still has a full budget)",
    "why": "Rest-of-season value about 11.8 a week (model+season; next week 6.1). Adding him and dropping SEA DEF lifts your weekly starting lineup by +0.7."
   },
   {
@@ -153,7 +153,7 @@
    "gain": 0.69,
    "starter_gain": 0.0,
    "depth_gain": 0.69,
-   "trending": 900162,
+   "trending": 910287,
    "injury_status": null,
    "would_start": false,
    "drop": {
@@ -163,7 +163,7 @@
     "ros": 5.23
    },
    "bid": 8,
-   "bid_why": "0.7 pts/week x 14 weeks left x $0.60 per point, x1.13 demand premium (900,162 Sleeper adds in 72h; the hottest player on the wire has 12,827,038), x1.15 early-season premium (everyone still has a full budget)",
+   "bid_why": "0.7 pts/week x 14 weeks left x $0.60 per point, x1.13 demand premium (910,287 Sleeper adds in 72h; the hottest player on the wire has 12,864,768), x1.15 early-season premium (everyone still has a full budget)",
    "why": "Rest-of-season value about 8.0 a week (model+season; next week 7.64). He would not start over anyone you have, so the gain is depth only: +0.7 a week (a quarter of his edge over George Holani)."
   }
  ],
@@ -182,7 +182,7 @@
    "gain": 0.49,
    "starter_gain": 0.0,
    "depth_gain": 0.49,
-   "trending": 238416,
+   "trending": 242176,
    "injury_status": null,
    "would_start": false,
    "drop": {
@@ -209,7 +209,7 @@
    "gain": 0.47,
    "starter_gain": 0.0,
    "depth_gain": 0.47,
-   "trending": 184716,
+   "trending": 173940,
    "injury_status": null,
    "would_start": false,
    "drop": {
@@ -228,15 +228,15 @@
    "pos": "TE",
    "team": "CIN",
    "opp_next": "JAX",
-   "next_proj": 6.46,
+   "next_proj": 6.47,
    "last_actual": 11.2,
    "ros": 6.87,
    "ros_how": "model+season",
-   "value": 6.66,
+   "value": 6.67,
    "gain": 0.41,
    "starter_gain": 0.0,
    "depth_gain": 0.41,
-   "trending": 71332,
+   "trending": 73436,
    "injury_status": null,
    "would_start": false,
    "drop": {
@@ -247,7 +247,7 @@
    },
    "bid": 0,
    "bid_why": "gain under 0.5 points per week, not worth a claim",
-   "why": "Rest-of-season value about 6.9 a week (model+season; next week 6.46). He would not start over anyone you have, so the gain is depth only: +0.4 a week (a quarter of his edge over George Holani)."
+   "why": "Rest-of-season value about 6.9 a week (model+season; next week 6.47). He would not start over anyone you have, so the gain is depth only: +0.4 a week (a quarter of his edge over George Holani)."
   },
   {
    "player_id": "7528",
@@ -263,7 +263,7 @@
    "gain": 0.4,
    "starter_gain": 0.0,
    "depth_gain": 0.4,
-   "trending": 94830,
+   "trending": 96720,
    "injury_status": null,
    "would_start": false,
    "drop": {
@@ -290,7 +290,7 @@
    "gain": 0.39,
    "starter_gain": 0.0,
    "depth_gain": 0.39,
-   "trending": 386926,
+   "trending": 395518,
    "injury_status": null,
    "would_start": false,
    "drop": {
@@ -304,7 +304,7 @@
    "why": "Rest-of-season value about 6.8 a week (model+season; next week 6.58). He would not start over anyone you have, so the gain is depth only: +0.4 a week (a quarter of his edge over George Holani)."
   }
  ],
- "all_evaluated": 122,
+ "all_evaluated": 121,
  "drop_candidates": [
   {
    "player_id": "12048",
@@ -687,12 +687,12 @@
    "pos": "WR",
    "team": "LAR",
    "opp": "PHI",
-   "sleeper": 13.51,
+   "sleeper": 13.49,
    "preseason": 12.3,
    "season_avg": 19.6,
    "n_games": 3,
    "baseline": 15.43,
-   "expected": 14.18,
+   "expected": 14.17,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -864,12 +864,12 @@
    "pos": "WR",
    "team": "JAX",
    "opp": "CIN",
-   "sleeper": 8.02,
+   "sleeper": 8.04,
    "preseason": 9.21,
    "season_avg": 10.13,
    "n_games": 3,
    "baseline": 9.6,
-   "expected": 8.57,
+   "expected": 8.59,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
