@@ -1,11 +1,12 @@
 {
- "week_next": 3,
+ "week_next": 4,
  "weeks_completed": [
   1,
-  2
+  2,
+  3
  ],
  "median_game": true,
- "league_avg": 102.92,
+ "league_avg": 102.69,
  "teams": [
   {
    "roster_id": 3,
@@ -15,32 +16,34 @@
    "wins": 6,
    "losses": 0,
    "ties": 0,
-   "h2h": "2-0",
-   "median": "2-0",
-   "allplay": "21-1",
-   "allplay_pct": 0.955,
+   "h2h": "3-0",
+   "median": "3-0",
+   "allplay": "32-1",
+   "allplay_pct": 0.97,
    "scores": [
     151.06,
-    138.4
+    138.4,
+    144.0
    ],
-   "avg": 144.73,
-   "last": 138.4,
-   "pf": 289.46,
+   "avg": 144.49,
+   "last": 144.0,
+   "pf": 433.46,
    "proj_totals": [
     110.58,
-    114.87
+    114.87,
+    124.35
    ],
-   "vs_proj": 64.01,
+   "vs_proj": 83.66,
    "bench_left": [
     0.7,
-    4.9
+    4.9,
+    13.12
    ],
-   "efficiency": 0.98,
+   "efficiency": 0.96,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 124.35,
+   "proj_next": null,
    "future_opps": [
-    1,
     2,
     11,
     5,
@@ -92,10 +95,10 @@
      "pos": "DEF"
     }
    ],
-   "trend": -12.7,
-   "trend_label": "down",
-   "sos_remaining": 96.74,
-   "power": 136.6,
+   "trend": -3.5,
+   "trend_label": "flat",
+   "sos_remaining": 95.5,
+   "power": 144.5,
    "power_rank": 1,
    "pf_rank": 1
   },
@@ -107,32 +110,34 @@
    "wins": 5,
    "losses": 1,
    "ties": 0,
-   "h2h": "2-0",
-   "median": "2-0",
-   "allplay": "18-4",
-   "allplay_pct": 0.818,
+   "h2h": "3-0",
+   "median": "2-1",
+   "allplay": "22-11",
+   "allplay_pct": 0.667,
    "scores": [
     128.5,
-    133.16
+    133.16,
+    95.54
    ],
-   "avg": 130.83,
-   "last": 133.16,
-   "pf": 261.66,
+   "avg": 119.07,
+   "last": 95.54,
+   "pf": 357.2,
    "proj_totals": [
     105.33,
-    102.62
+    102.62,
+    109.61
    ],
-   "vs_proj": 53.71,
+   "vs_proj": 39.64,
    "bench_left": [
     14.54,
-    5.1
+    5.1,
+    14.12
    ],
-   "efficiency": 0.93,
+   "efficiency": 0.91,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 109.65,
+   "proj_next": null,
    "future_opps": [
-    9,
     6,
     7,
     4,
@@ -184,295 +189,12 @@
      "pos": "DEF"
     }
    ],
-   "trend": 4.7,
-   "trend_label": "flat",
-   "sos_remaining": 99.83,
-   "power": 122.4,
+   "trend": -16.5,
+   "trend_label": "falling",
+   "sos_remaining": 100.31,
+   "power": 119.1,
    "power_rank": 2,
    "pf_rank": 2
-  },
-  {
-   "roster_id": 8,
-   "team": "ValKilmersComeback",
-   "manager": "Mockstar",
-   "is_mine": true,
-   "wins": 4,
-   "losses": 2,
-   "ties": 0,
-   "h2h": "2-0",
-   "median": "2-0",
-   "allplay": "18-4",
-   "allplay_pct": 0.818,
-   "scores": [
-    111.26,
-    138.87
-   ],
-   "avg": 125.06,
-   "last": 138.87,
-   "pf": 250.13,
-   "proj_totals": [
-    95.5,
-    101.61
-   ],
-   "vs_proj": 53.02,
-   "bench_left": [
-    24.2,
-    18.3
-   ],
-   "efficiency": 0.85,
-   "injured_starters": [
-    {
-     "name": "Josh Allen",
-     "pos": "QB",
-     "status": "Questionable",
-     "body": "Knee"
-    }
-   ],
-   "byes_next": [],
-   "proj_next": 100.01,
-   "future_opps": [
-    11,
-    5,
-    9,
-    6,
-    12,
-    4,
-    7,
-    10,
-    3,
-    1,
-    2,
-    11,
-    5,
-    9,
-    6,
-    12
-   ],
-   "faab_used": 0,
-   "starters_now": [
-    {
-     "name": "Josh Allen",
-     "pos": "QB"
-    },
-    {
-     "name": "Jonathan Taylor",
-     "pos": "RB"
-    },
-    {
-     "name": "Woody Marks",
-     "pos": "RB"
-    },
-    {
-     "name": "Deebo Samuel",
-     "pos": "WR"
-    },
-    {
-     "name": "DK Metcalf",
-     "pos": "WR"
-    },
-    {
-     "name": "Davante Adams",
-     "pos": "WR"
-    },
-    {
-     "name": "Denzel Boston",
-     "pos": "WR"
-    },
-    {
-     "name": "SEA DEF",
-     "pos": "DEF"
-    }
-   ],
-   "trend": 27.6,
-   "trend_label": "up",
-   "sos_remaining": 101.71,
-   "power": 115.0,
-   "power_rank": 3,
-   "pf_rank": 3
-  },
-  {
-   "roster_id": 10,
-   "team": "Derrelick my Balls",
-   "manager": "dlamas",
-   "is_mine": false,
-   "wins": 4,
-   "losses": 2,
-   "ties": 0,
-   "h2h": "1-1",
-   "median": "1-1",
-   "allplay": "13-9",
-   "allplay_pct": 0.591,
-   "scores": [
-    106.59,
-    124.18
-   ],
-   "avg": 115.39,
-   "last": 124.18,
-   "pf": 230.77,
-   "proj_totals": [
-    96.09,
-    92.16
-   ],
-   "vs_proj": 42.52,
-   "bench_left": [
-    39.22,
-    1.6
-   ],
-   "efficiency": 0.86,
-   "injured_starters": [],
-   "byes_next": [],
-   "proj_next": 101.35,
-   "future_opps": [
-    2,
-    11,
-    5,
-    9,
-    6,
-    12,
-    4,
-    8,
-    7,
-    3,
-    1,
-    2,
-    11,
-    5,
-    9,
-    6
-   ],
-   "faab_used": 89,
-   "starters_now": [
-    {
-     "name": "Patrick Mahomes",
-     "pos": "QB"
-    },
-    {
-     "name": "Derrick Henry",
-     "pos": "RB"
-    },
-    {
-     "name": "Kyle Monangai",
-     "pos": "RB"
-    },
-    {
-     "name": "Garrett Wilson",
-     "pos": "WR"
-    },
-    {
-     "name": "Rashee Rice",
-     "pos": "WR"
-    },
-    {
-     "name": "Travis Kelce",
-     "pos": "TE"
-    },
-    {
-     "name": "Dalton Kincaid",
-     "pos": "TE"
-    },
-    {
-     "name": "MIN DEF",
-     "pos": "DEF"
-    }
-   ],
-   "trend": 17.6,
-   "trend_label": "up",
-   "sos_remaining": 97.81,
-   "power": 109.8,
-   "power_rank": 4,
-   "pf_rank": 4
-  },
-  {
-   "roster_id": 11,
-   "team": "RafiBomb",
-   "manager": "TheRafiBombb",
-   "is_mine": false,
-   "wins": 4,
-   "losses": 2,
-   "ties": 0,
-   "h2h": "1-1",
-   "median": "1-1",
-   "allplay": "9-13",
-   "allplay_pct": 0.409,
-   "scores": [
-    93.45,
-    123.88
-   ],
-   "avg": 108.66,
-   "last": 123.88,
-   "pf": 217.33,
-   "proj_totals": [
-    103.14,
-    106.09
-   ],
-   "vs_proj": 8.1,
-   "bench_left": [
-    26.6,
-    10.0
-   ],
-   "efficiency": 0.85,
-   "injured_starters": [],
-   "byes_next": [],
-   "proj_next": 102.31,
-   "future_opps": [
-    8,
-    10,
-    3,
-    1,
-    2,
-    7,
-    5,
-    9,
-    6,
-    12,
-    4,
-    8,
-    10,
-    3,
-    1,
-    2
-   ],
-   "faab_used": 0,
-   "starters_now": [
-    {
-     "name": "Bryce Young",
-     "pos": "QB"
-    },
-    {
-     "name": "James Cook",
-     "pos": "RB"
-    },
-    {
-     "name": "Kyren Williams",
-     "pos": "RB"
-    },
-    {
-     "name": "Parker Washington",
-     "pos": "WR"
-    },
-    {
-     "name": "Christian Watson",
-     "pos": "WR"
-    },
-    {
-     "name": "Malik Washington",
-     "pos": "WR"
-    },
-    {
-     "name": "Chuba Hubbard",
-     "pos": "RB"
-    },
-    {
-     "name": "BAL DEF",
-     "pos": "DEF"
-    }
-   ],
-   "trend": 30.4,
-   "trend_label": "up",
-   "sos_remaining": 104.63,
-   "power": 106.1,
-   "power_rank": 5,
-   "pf_rank": 5
   },
   {
    "roster_id": 1,
@@ -482,32 +204,34 @@
    "wins": 2,
    "losses": 4,
    "ties": 0,
-   "h2h": "0-2",
-   "median": "1-1",
-   "allplay": "9-13",
-   "allplay_pct": 0.409,
+   "h2h": "0-3",
+   "median": "2-1",
+   "allplay": "19-14",
+   "allplay_pct": 0.576,
    "scores": [
     95.3,
-    112.28
+    112.28,
+    141.58
    ],
-   "avg": 103.79,
-   "last": 112.28,
-   "pf": 207.58,
+   "avg": 116.39,
+   "last": 141.58,
+   "pf": 349.16,
    "proj_totals": [
     98.39,
-    105.4
+    105.4,
+    107.37
    ],
-   "vs_proj": 3.79,
+   "vs_proj": 38.0,
    "bench_left": [
     0.3,
-    6.0
+    6.0,
+    12.7
    ],
-   "efficiency": 0.97,
+   "efficiency": 0.95,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 107.37,
+   "proj_next": null,
    "future_opps": [
-    3,
     7,
     2,
     11,
@@ -559,12 +283,301 @@
      "pos": "DEF"
     }
    ],
-   "trend": 17.0,
-   "trend_label": "up",
-   "sos_remaining": 101.14,
-   "power": 105.2,
+   "trend": 23.1,
+   "trend_label": "rising",
+   "sos_remaining": 96.8,
+   "power": 116.4,
+   "power_rank": 3,
+   "pf_rank": 3
+  },
+  {
+   "roster_id": 10,
+   "team": "Derrelick my Balls",
+   "manager": "dlamas",
+   "is_mine": false,
+   "wins": 4,
+   "losses": 2,
+   "ties": 0,
+   "h2h": "2-1",
+   "median": "2-1",
+   "allplay": "21-12",
+   "allplay_pct": 0.636,
+   "scores": [
+    106.59,
+    124.18,
+    117.54
+   ],
+   "avg": 116.1,
+   "last": 117.54,
+   "pf": 348.31,
+   "proj_totals": [
+    96.09,
+    92.16,
+    101.35
+   ],
+   "vs_proj": 58.71,
+   "bench_left": [
+    39.22,
+    1.6,
+    38.0
+   ],
+   "efficiency": 0.82,
+   "injured_starters": [],
+   "byes_next": [],
+   "proj_next": null,
+   "future_opps": [
+    11,
+    5,
+    9,
+    6,
+    12,
+    4,
+    8,
+    7,
+    3,
+    1,
+    2,
+    11,
+    5,
+    9,
+    6
+   ],
+   "faab_used": 89,
+   "starters_now": [
+    {
+     "name": "Patrick Mahomes",
+     "pos": "QB"
+    },
+    {
+     "name": "Derrick Henry",
+     "pos": "RB"
+    },
+    {
+     "name": "Kyle Monangai",
+     "pos": "RB"
+    },
+    {
+     "name": "Garrett Wilson",
+     "pos": "WR"
+    },
+    {
+     "name": "Rashee Rice",
+     "pos": "WR"
+    },
+    {
+     "name": "Travis Kelce",
+     "pos": "TE"
+    },
+    {
+     "name": "Dalton Kincaid",
+     "pos": "TE"
+    },
+    {
+     "name": "MIN DEF",
+     "pos": "DEF"
+    }
+   ],
+   "trend": 5.5,
+   "trend_label": "rising",
+   "sos_remaining": 100.22,
+   "power": 116.1,
+   "power_rank": 4,
+   "pf_rank": 4
+  },
+  {
+   "roster_id": 11,
+   "team": "RafiBomb",
+   "manager": "TheRafiBombb",
+   "is_mine": false,
+   "wins": 4,
+   "losses": 2,
+   "ties": 0,
+   "h2h": "2-1",
+   "median": "2-1",
+   "allplay": "16-17",
+   "allplay_pct": 0.485,
+   "scores": [
+    93.45,
+    123.88,
+    113.24
+   ],
+   "avg": 110.19,
+   "last": 113.24,
+   "pf": 330.57,
+   "proj_totals": [
+    103.14,
+    106.09,
+    104.53
+   ],
+   "vs_proj": 16.81,
+   "bench_left": [
+    26.6,
+    10.0,
+    27.56
+   ],
+   "efficiency": 0.84,
+   "injured_starters": [],
+   "byes_next": [],
+   "proj_next": null,
+   "future_opps": [
+    10,
+    3,
+    1,
+    2,
+    7,
+    5,
+    9,
+    6,
+    12,
+    4,
+    8,
+    10,
+    3,
+    1,
+    2
+   ],
+   "faab_used": 0,
+   "starters_now": [
+    {
+     "name": "Bryce Young",
+     "pos": "QB"
+    },
+    {
+     "name": "James Cook",
+     "pos": "RB"
+    },
+    {
+     "name": "Kyren Williams",
+     "pos": "RB"
+    },
+    {
+     "name": "Parker Washington",
+     "pos": "WR"
+    },
+    {
+     "name": "Christian Watson",
+     "pos": "WR"
+    },
+    {
+     "name": "Malik Washington",
+     "pos": "WR"
+    },
+    {
+     "name": "Chuba Hubbard",
+     "pos": "RB"
+    },
+    {
+     "name": "BAL DEF",
+     "pos": "DEF"
+    }
+   ],
+   "trend": 9.9,
+   "trend_label": "rising",
+   "sos_remaining": 103.39,
+   "power": 110.2,
+   "power_rank": 5,
+   "pf_rank": 6
+  },
+  {
+   "roster_id": 8,
+   "team": "ValKilmersComeback",
+   "manager": "Mockstar",
+   "is_mine": true,
+   "wins": 4,
+   "losses": 2,
+   "ties": 0,
+   "h2h": "2-1",
+   "median": "2-1",
+   "allplay": "23-10",
+   "allplay_pct": 0.697,
+   "scores": [
+    111.26,
+    138.87,
+    96.91
+   ],
+   "avg": 115.68,
+   "last": 96.91,
+   "pf": 347.04,
+   "proj_totals": [
+    95.5,
+    101.61,
+    100.01
+   ],
+   "vs_proj": 49.92,
+   "bench_left": [
+    24.2,
+    18.3,
+    8.9
+   ],
+   "efficiency": 0.87,
+   "injured_starters": [
+    {
+     "name": "Josh Allen",
+     "pos": "QB",
+     "status": "Questionable",
+     "body": "Knee"
+    }
+   ],
+   "byes_next": [],
+   "proj_next": 100.39,
+   "future_opps": [
+    5,
+    9,
+    6,
+    12,
+    4,
+    7,
+    10,
+    3,
+    1,
+    2,
+    11,
+    5,
+    9,
+    6,
+    12
+   ],
+   "faab_used": 0,
+   "starters_now": [
+    {
+     "name": "Josh Allen",
+     "pos": "QB"
+    },
+    {
+     "name": "Jonathan Taylor",
+     "pos": "RB"
+    },
+    {
+     "name": "Woody Marks",
+     "pos": "RB"
+    },
+    {
+     "name": "Deebo Samuel",
+     "pos": "WR"
+    },
+    {
+     "name": "DK Metcalf",
+     "pos": "WR"
+    },
+    {
+     "name": "Davante Adams",
+     "pos": "WR"
+    },
+    {
+     "name": "Denzel Boston",
+     "pos": "WR"
+    },
+    {
+     "name": "SEA DEF",
+     "pos": "DEF"
+    }
+   ],
+   "trend": -7.2,
+   "trend_label": "falling",
+   "sos_remaining": 100.84,
+   "power": 109.6,
    "power_rank": 6,
-   "pf_rank": 7
+   "pf_rank": 5
   },
   {
    "roster_id": 9,
@@ -574,27 +587,30 @@
    "wins": 2,
    "losses": 4,
    "ties": 0,
-   "h2h": "1-1",
-   "median": "1-1",
-   "allplay": "13-9",
-   "allplay_pct": 0.591,
+   "h2h": "1-2",
+   "median": "1-2",
+   "allplay": "15-18",
+   "allplay_pct": 0.455,
    "scores": [
     145.36,
-    67.32
+    67.32,
+    87.74
    ],
-   "avg": 106.34,
-   "last": 67.32,
-   "pf": 212.68,
+   "avg": 100.14,
+   "last": 87.74,
+   "pf": 300.42,
    "proj_totals": [
     95.65,
-    98.63
+    98.63,
+    88.64
    ],
-   "vs_proj": 18.4,
+   "vs_proj": 17.5,
    "bench_left": [
     11.4,
-    29.87
+    29.87,
+    25.1
    ],
-   "efficiency": 0.81,
+   "efficiency": 0.8,
    "injured_starters": [
     {
      "name": "Breece Hall",
@@ -604,9 +620,8 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 88.64,
+   "proj_next": null,
    "future_opps": [
-    12,
     4,
     8,
     10,
@@ -658,12 +673,12 @@
      "pos": "DEF"
     }
    ],
-   "trend": -78.0,
-   "trend_label": "down",
-   "sos_remaining": 107.49,
-   "power": 99.3,
+   "trend": -28.8,
+   "trend_label": "falling",
+   "sos_remaining": 106.56,
+   "power": 100.1,
    "power_rank": 7,
-   "pf_rank": 6
+   "pf_rank": 7
   },
   {
    "roster_id": 6,
@@ -673,32 +688,34 @@
    "wins": 3,
    "losses": 3,
    "ties": 0,
-   "h2h": "1-1",
-   "median": "0-2",
-   "allplay": "9-13",
-   "allplay_pct": 0.409,
+   "h2h": "2-1",
+   "median": "1-2",
+   "allplay": "15-18",
+   "allplay_pct": 0.455,
    "scores": [
     100.22,
-    82.96
+    82.96,
+    99.62
    ],
-   "avg": 91.59,
-   "last": 82.96,
-   "pf": 183.18,
+   "avg": 94.27,
+   "last": 99.62,
+   "pf": 282.8,
    "proj_totals": [
     113.68,
-    109.02
+    109.02,
+    105.33
    ],
-   "vs_proj": -39.52,
+   "vs_proj": -45.23,
    "bench_left": [
     21.9,
-    23.0
+    23.0,
+    15.1
    ],
-   "efficiency": 0.8,
+   "efficiency": 0.82,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 103.81,
+   "proj_next": null,
    "future_opps": [
-    7,
     12,
     4,
     8,
@@ -750,12 +767,12 @@
      "pos": "DEF"
     }
    ],
-   "trend": -17.3,
-   "trend_label": "down",
-   "sos_remaining": 105.3,
-   "power": 96.5,
+   "trend": -0.3,
+   "trend_label": "flat",
+   "sos_remaining": 105.26,
+   "power": 94.3,
    "power_rank": 8,
-   "pf_rank": 9
+   "pf_rank": 8
   },
   {
    "roster_id": 7,
@@ -765,27 +782,30 @@
    "wins": 1,
    "losses": 5,
    "ties": 0,
-   "h2h": "0-2",
-   "median": "1-1",
-   "allplay": "10-12",
-   "allplay_pct": 0.455,
+   "h2h": "0-3",
+   "median": "1-2",
+   "allplay": "11-22",
+   "allplay_pct": 0.333,
    "scores": [
     107.96,
-    82.0
+    82.0,
+    84.58
    ],
-   "avg": 94.98,
-   "last": 82.0,
-   "pf": 189.96,
+   "avg": 91.51,
+   "last": 84.58,
+   "pf": 274.54,
    "proj_totals": [
     111.34,
-    95.73
+    95.73,
+    96.97
    ],
-   "vs_proj": -17.11,
+   "vs_proj": -29.5,
    "bench_left": [
     8.5,
-    32.38
+    32.38,
+    3.6
    ],
-   "efficiency": 0.82,
+   "efficiency": 0.87,
    "injured_starters": [
     {
      "name": "Mike Evans",
@@ -795,9 +815,8 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 96.97,
+   "proj_next": null,
    "future_opps": [
-    6,
     1,
     12,
     2,
@@ -849,117 +868,12 @@
      "pos": "DEF"
     }
    ],
-   "trend": -26.0,
-   "trend_label": "down",
-   "sos_remaining": 100.01,
-   "power": 95.8,
+   "trend": -11.7,
+   "trend_label": "falling",
+   "sos_remaining": 101.2,
+   "power": 91.5,
    "power_rank": 9,
-   "pf_rank": 8
-  },
-  {
-   "roster_id": 5,
-   "team": "Eazy E Squad",
-   "manager": "espad",
-   "is_mine": false,
-   "wins": 2,
-   "losses": 4,
-   "ties": 0,
-   "h2h": "1-1",
-   "median": "1-1",
-   "allplay": "8-14",
-   "allplay_pct": 0.364,
-   "scores": [
-    122.3,
-    37.56
-   ],
-   "avg": 79.93,
-   "last": 37.56,
-   "pf": 159.86,
-   "proj_totals": [
-    108.72,
-    107.0
-   ],
-   "vs_proj": -55.86,
-   "bench_left": [
-    33.8,
-    14.95
-   ],
-   "efficiency": 0.75,
-   "injured_starters": [
-    {
-     "name": "Justin Jefferson",
-     "pos": "WR",
-     "status": "Questionable",
-     "body": "Ankle"
-    },
-    {
-     "name": "Jalen Coker",
-     "pos": "WR",
-     "status": "Questionable",
-     "body": "Quadriceps"
-    }
-   ],
-   "byes_next": [],
-   "proj_next": 112.83,
-   "future_opps": [
-    4,
-    8,
-    10,
-    3,
-    1,
-    2,
-    11,
-    7,
-    9,
-    6,
-    12,
-    4,
-    8,
-    10,
-    3,
-    1
-   ],
-   "faab_used": 0,
-   "starters_now": [
-    {
-     "name": "Trevor Lawrence",
-     "pos": "QB"
-    },
-    {
-     "name": "Saquon Barkley",
-     "pos": "RB"
-    },
-    {
-     "name": "David Montgomery",
-     "pos": "RB"
-    },
-    {
-     "name": "Justin Jefferson",
-     "pos": "WR"
-    },
-    {
-     "name": "George Pickens",
-     "pos": "WR"
-    },
-    {
-     "name": "Jalen Coker",
-     "pos": "WR"
-    },
-    {
-     "name": "Jaylen Warren",
-     "pos": "RB"
-    },
-    {
-     "name": "KC DEF",
-     "pos": "DEF"
-    }
-   ],
-   "trend": -84.7,
-   "trend_label": "down",
-   "sos_remaining": 107.45,
-   "power": 93.1,
-   "power_rank": 10,
-   "pf_rank": 10
+   "pf_rank": 9
   },
   {
    "roster_id": 4,
@@ -969,32 +883,34 @@
    "wins": 3,
    "losses": 3,
    "ties": 0,
-   "h2h": "1-1",
-   "median": "0-2",
-   "allplay": "3-19",
-   "allplay_pct": 0.136,
+   "h2h": "2-1",
+   "median": "1-2",
+   "allplay": "12-21",
+   "allplay_pct": 0.364,
    "scores": [
     84.46,
-    65.68
+    65.68,
+    120.0
    ],
-   "avg": 75.07,
-   "last": 65.68,
-   "pf": 150.14,
+   "avg": 90.05,
+   "last": 120.0,
+   "pf": 270.14,
    "proj_totals": [
     100.04,
-    98.72
+    98.72,
+    101.24
    ],
-   "vs_proj": -48.62,
+   "vs_proj": -29.86,
    "bench_left": [
     11.7,
-    8.1
+    8.1,
+    20.05
    ],
    "efficiency": 0.88,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 101.24,
+   "proj_next": null,
    "future_opps": [
-    5,
     9,
     6,
     12,
@@ -1046,10 +962,117 @@
      "pos": "DEF"
     }
    ],
-   "trend": -18.8,
-   "trend_label": "down",
-   "sos_remaining": 103.98,
-   "power": 85.5,
+   "trend": 17.8,
+   "trend_label": "rising",
+   "sos_remaining": 103.15,
+   "power": 90.0,
+   "power_rank": 10,
+   "pf_rank": 10
+  },
+  {
+   "roster_id": 5,
+   "team": "Eazy E Squad",
+   "manager": "espad",
+   "is_mine": false,
+   "wins": 2,
+   "losses": 4,
+   "ties": 0,
+   "h2h": "1-2",
+   "median": "1-2",
+   "allplay": "11-22",
+   "allplay_pct": 0.333,
+   "scores": [
+    122.3,
+    37.56,
+    87.88
+   ],
+   "avg": 82.58,
+   "last": 87.88,
+   "pf": 247.74,
+   "proj_totals": [
+    108.72,
+    107.0,
+    112.83
+   ],
+   "vs_proj": -80.81,
+   "bench_left": [
+    33.8,
+    14.95,
+    9.9
+   ],
+   "efficiency": 0.8,
+   "injured_starters": [
+    {
+     "name": "Justin Jefferson",
+     "pos": "WR",
+     "status": "Questionable",
+     "body": "Ankle"
+    },
+    {
+     "name": "Jalen Coker",
+     "pos": "WR",
+     "status": "Questionable",
+     "body": "Quadriceps"
+    }
+   ],
+   "byes_next": [],
+   "proj_next": null,
+   "future_opps": [
+    8,
+    10,
+    3,
+    1,
+    2,
+    11,
+    7,
+    9,
+    6,
+    12,
+    4,
+    8,
+    10,
+    3,
+    1
+   ],
+   "faab_used": 0,
+   "starters_now": [
+    {
+     "name": "Trevor Lawrence",
+     "pos": "QB"
+    },
+    {
+     "name": "Saquon Barkley",
+     "pos": "RB"
+    },
+    {
+     "name": "David Montgomery",
+     "pos": "RB"
+    },
+    {
+     "name": "Justin Jefferson",
+     "pos": "WR"
+    },
+    {
+     "name": "George Pickens",
+     "pos": "WR"
+    },
+    {
+     "name": "Jalen Coker",
+     "pos": "WR"
+    },
+    {
+     "name": "Jaylen Warren",
+     "pos": "RB"
+    },
+    {
+     "name": "KC DEF",
+     "pos": "DEF"
+    }
+   ],
+   "trend": -17.2,
+   "trend_label": "falling",
+   "sos_remaining": 109.49,
+   "power": 82.6,
    "power_rank": 11,
    "pf_rank": 11
   },
@@ -1061,27 +1084,30 @@
    "wins": 0,
    "losses": 6,
    "ties": 0,
-   "h2h": "0-2",
-   "median": "0-2",
-   "allplay": "1-21",
-   "allplay_pct": 0.045,
+   "h2h": "0-3",
+   "median": "0-3",
+   "allplay": "1-32",
+   "allplay_pct": 0.03,
    "scores": [
     59.72,
-    57.72
+    57.72,
+    37.96
    ],
-   "avg": 58.72,
-   "last": 57.72,
-   "pf": 117.44,
+   "avg": 51.8,
+   "last": 37.96,
+   "pf": 155.4,
    "proj_totals": [
     106.79,
-    94.32
+    94.32,
+    88.99
    ],
-   "vs_proj": -83.67,
+   "vs_proj": -134.7,
    "bench_left": [
     8.3,
-    11.9
+    11.9,
+    18.5
    ],
-   "efficiency": 0.85,
+   "efficiency": 0.79,
    "injured_starters": [
     {
      "name": "De'Von Achane",
@@ -1097,9 +1123,8 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 88.99,
+   "proj_next": null,
    "future_opps": [
-    10,
     3,
     1,
     7,
@@ -1151,10 +1176,10 @@
      "pos": "DEF"
     }
    ],
-   "trend": -2.0,
-   "trend_label": "flat",
-   "sos_remaining": 109.0,
-   "power": 70.8,
+   "trend": -10.9,
+   "trend_label": "falling",
+   "sos_remaining": 109.54,
+   "power": 51.8,
    "power_rank": 12,
    "pf_rank": 12
   }
@@ -1174,96 +1199,94 @@
   },
   {
    "team": "ValKilmersComeback",
-   "kind": "injured_starter",
+   "kind": "cold",
    "severity": "low",
-   "text": "ValKilmersComeback (you) (#3 scorer) has Josh Allen listed Questionable."
+   "text": "ValKilmersComeback (you) scored 96.91 last week, 19 below its average of 115.68."
   },
   {
    "team": "ValKilmersComeback",
    "kind": "vs_projection",
    "severity": "low",
-   "text": "ValKilmersComeback (you) has beaten Sleeper's starter projections by 27 points a week over 2 weeks."
+   "text": "ValKilmersComeback (you) has beaten Sleeper's starter projections by 17 points a week over 3 weeks."
   },
   {
    "team": "Amateur Hour",
    "kind": "vs_projection",
    "severity": "low",
-   "text": "Amateur Hour has missed Sleeper's starter projections by 42 points a week over 2 weeks."
+   "text": "Amateur Hour has missed Sleeper's starter projections by 45 points a week over 3 weeks."
   },
   {
    "team": "Baker\u2019s Dozen",
-   "kind": "vs_projection",
+   "kind": "cold",
    "severity": "low",
-   "text": "Baker\u2019s Dozen has beaten Sleeper's starter projections by 27 points a week over 2 weeks."
+   "text": "Baker\u2019s Dozen scored 95.54 last week, 24 below its average of 119.07."
   },
   {
    "team": "Be Safe, Get Jaxcinated",
    "kind": "vs_projection",
    "severity": "low",
-   "text": "Be Safe, Get Jaxcinated has beaten Sleeper's starter projections by 32 points a week over 2 weeks."
-  },
-  {
-   "team": "Cheeky Nando\u2019s",
-   "kind": "unlucky",
-   "severity": "low",
-   "text": "Cheeky Nando\u2019s is 1-5 but would be about 2.7-3.3 against the whole league (all-play 10-12). Better than the record."
+   "text": "Be Safe, Get Jaxcinated has beaten Sleeper's starter projections by 28 points a week over 3 weeks."
   },
   {
    "team": "City of Champyinz",
-   "kind": "lucky",
+   "kind": "hot",
    "severity": "low",
-   "text": "City of Champyinz is 3-3 but would be about 0.8-5.2 against the whole league each week (all-play 3-19). Record flatters the roster."
-  },
-  {
-   "team": "City of Champyinz",
-   "kind": "vs_projection",
-   "severity": "low",
-   "text": "City of Champyinz has missed Sleeper's starter projections by 24 points a week over 2 weeks."
+   "text": "City of Champyinz scored 120.0 last week, 30 above its average of 90.05."
   },
   {
    "team": "Derrelick my Balls",
    "kind": "vs_projection",
    "severity": "low",
-   "text": "Derrelick my Balls has beaten Sleeper's starter projections by 21 points a week over 2 weeks."
+   "text": "Derrelick my Balls has beaten Sleeper's starter projections by 20 points a week over 3 weeks."
   },
   {
-   "team": "Eazy E Squad",
-   "kind": "cold",
+   "team": "Derrelick my Balls",
+   "kind": "bench_points",
    "severity": "low",
-   "text": "Eazy E Squad scored 37.56 last week, 42 below its average of 79.93."
+   "text": "Derrelick my Balls left 39 points on the bench in week 3 (lineup efficiency 82%)."
   },
   {
    "team": "Eazy E Squad",
    "kind": "vs_projection",
    "severity": "low",
-   "text": "Eazy E Squad has missed Sleeper's starter projections by 28 points a week over 2 weeks."
-  },
-  {
-   "team": "Girthenheimer",
-   "kind": "unlucky",
-   "severity": "low",
-   "text": "Girthenheimer is 2-4 but would be about 3.5-2.5 against the whole league (all-play 13-9). Better than the record."
-  },
-  {
-   "team": "Girthenheimer",
-   "kind": "bench_points",
-   "severity": "low",
-   "text": "Girthenheimer left 30 points on the bench in week 2 (lineup efficiency 81%)."
+   "text": "Eazy E Squad has missed Sleeper's starter projections by 27 points a week over 3 weeks."
   },
   {
    "team": "RafiBomb",
+   "kind": "lucky",
+   "severity": "low",
+   "text": "RafiBomb is 4-2 but would be about 2.9-3.1 against the whole league each week (all-play 16-17). Record flatters the roster."
+  },
+  {
+   "team": "RafiBomb",
+   "kind": "bench_points",
+   "severity": "low",
+   "text": "RafiBomb left 28 points on the bench in week 3 (lineup efficiency 84%)."
+  },
+  {
+   "team": "ScampDaddy",
+   "kind": "vs_projection",
+   "severity": "low",
+   "text": "ScampDaddy has missed Sleeper's starter projections by 15 points a week over 3 weeks."
+  },
+  {
+   "team": "tacocats",
    "kind": "hot",
    "severity": "low",
-   "text": "RafiBomb scored 123.88 last week, 15 above its average of 108.66."
+   "text": "tacocats scored 141.58 last week, 25 above its average of 116.39."
+  },
+  {
+   "team": "tacocats",
+   "kind": "unlucky",
+   "severity": "low",
+   "text": "tacocats is 2-4 but would be about 3.5-2.5 against the whole league (all-play 19-14). Better than the record."
   }
  ],
  "notes": [
-  "Trend lines need 3 completed weeks; 2 available. Hot/cold and luck signals are suppressed or marked n=1.",
   "This league plays a second game against the league median every week, which is why records add up to two games per week (your 2-0 after week 1)."
  ],
  "projection_source": {
-  "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-09-28T23:14:20Z",
-  "label": "mon_pm"
+  "kind": "latest.json",
+  "taken_at_utc": "2026-09-30T15:08:33+00:00"
  }
 }

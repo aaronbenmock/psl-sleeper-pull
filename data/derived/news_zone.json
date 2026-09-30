@@ -1,7 +1,7 @@
 {
  "machine": {
   "date_central": "2026-09-30",
-  "age_hours": 0.9,
+  "age_hours": 4.0,
   "my_roster": [
    {
     "player_id": "4984",
@@ -70,25 +70,6 @@
     ]
    },
    {
-    "player_id": "5846",
-    "name": "DK Metcalf",
-    "pos": "WR",
-    "team": "PIT",
-    "slot": "FLEX",
-    "injury_status": null,
-    "injury_body_part": null,
-    "injury_start_date": null,
-    "injury_notes": null,
-    "practice_participation": null,
-    "practice_description": null,
-    "news_updated": "2026-09-28",
-    "depth_chart_order": 1,
-    "history": [
-     "2026-09-26: news updated 1789948859094 to 1790396723680",
-     "2026-09-28: news updated 1790396723680 to 1790558158006"
-    ]
-   },
-   {
     "player_id": "2133",
     "name": "Davante Adams",
     "pos": "WR",
@@ -115,7 +96,7 @@
     "name": "Deebo Samuel",
     "pos": "WR",
     "team": "SF",
-    "slot": "WR",
+    "slot": "FLEX",
     "injury_status": null,
     "injury_body_part": null,
     "injury_start_date": null,
@@ -135,7 +116,7 @@
     "name": "Denzel Boston",
     "pos": "WR",
     "team": "CLE",
-    "slot": "FLEX",
+    "slot": "WR",
     "injury_status": null,
     "injury_body_part": null,
     "injury_start_date": null,
@@ -148,6 +129,29 @@
      "2026-09-27: news updated 1790004004180 to 1790424326259",
      "2026-09-28: news updated 1790424326259 to 1790522752226",
      "2026-09-29: news updated 1790522752226 to 1790642109059"
+    ]
+   },
+   {
+    "player_id": "5947",
+    "name": "Jakobi Meyers",
+    "pos": "WR",
+    "team": "JAX",
+    "slot": "FLEX",
+    "injury_status": null,
+    "injury_body_part": null,
+    "injury_start_date": null,
+    "injury_notes": null,
+    "practice_participation": null,
+    "practice_description": null,
+    "news_updated": "2026-09-28",
+    "depth_chart_order": 2,
+    "history": [
+     "2026-09-26: injury body part Thumb to none",
+     "2026-09-26: news updated 1790288446083 to 1790368223459",
+     "2026-09-27: news updated 1790368223459 to 1790441427860",
+     "2026-09-28: news updated 1790441427860 to 1790561758214",
+     "2026-09-29: news updated 1790561758214 to 1790617506267",
+     "2026-09-30: depth chart order 3 to 2"
     ]
    },
    {
@@ -226,6 +230,25 @@
     ]
    },
    {
+    "player_id": "5846",
+    "name": "DK Metcalf",
+    "pos": "WR",
+    "team": "PIT",
+    "slot": "BN",
+    "injury_status": null,
+    "injury_body_part": null,
+    "injury_start_date": null,
+    "injury_notes": null,
+    "practice_participation": null,
+    "practice_description": null,
+    "news_updated": "2026-09-28",
+    "depth_chart_order": 1,
+    "history": [
+     "2026-09-26: news updated 1789948859094 to 1790396723680",
+     "2026-09-28: news updated 1790396723680 to 1790558158006"
+    ]
+   },
+   {
     "player_id": "12048",
     "name": "George Holani",
     "pos": "RB",
@@ -246,29 +269,6 @@
      "2026-09-26: news updated 1790293247589 to 1790377822717",
      "2026-09-28: news updated 1790377822717 to 1790561158693",
      "2026-09-30: news updated 1790561158693 to 1790698203431"
-    ]
-   },
-   {
-    "player_id": "5947",
-    "name": "Jakobi Meyers",
-    "pos": "WR",
-    "team": "JAX",
-    "slot": "BN",
-    "injury_status": null,
-    "injury_body_part": null,
-    "injury_start_date": null,
-    "injury_notes": null,
-    "practice_participation": null,
-    "practice_description": null,
-    "news_updated": "2026-09-28",
-    "depth_chart_order": 2,
-    "history": [
-     "2026-09-26: injury body part Thumb to none",
-     "2026-09-26: news updated 1790288446083 to 1790368223459",
-     "2026-09-27: news updated 1790368223459 to 1790441427860",
-     "2026-09-28: news updated 1790441427860 to 1790561758214",
-     "2026-09-29: news updated 1790561758214 to 1790617506267",
-     "2026-09-30: depth chart order 3 to 2"
     ]
    },
    {
@@ -808,6 +808,6 @@
   "week": 3,
   "source": "scheduled Claude task (desktop app)",
   "stale": false,
-  "age_days": 6.8
+  "age_days": 6.9
  }
 }

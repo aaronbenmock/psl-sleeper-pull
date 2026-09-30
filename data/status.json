@@ -3,20 +3,20 @@
   "build": {
    "task": "build",
    "ok": true,
-   "summary": "index.html + reports/2026/week03.html; lineup changes 0, claims 8, signals 16, accuracy weeks 2",
-   "started_utc": "2026-09-30T12:04:08Z",
-   "finished_utc": "2026-09-30T12:04:09Z",
+   "summary": "index.html + reports/2026/week04.html; lineup changes 1, claims 6, signals 16, accuracy weeks 3",
+   "started_utc": "2026-09-30T15:08:35Z",
+   "finished_utc": "2026-09-30T15:08:36Z",
    "error": null
   },
   "pull": {
    "task": "pull",
    "ok": true,
-   "summary": "completed wk 2, upcoming wk 3, waiver pool 674, matchup weeks 18, scored files 1, record check: median game ON: each team plays its opponent and the league median every week",
-   "started_utc": "2026-09-23T16:01:36Z",
-   "finished_utc": "2026-09-23T16:01:44Z",
+   "summary": "completed wk 3, upcoming wk 4, waiver pool 674, matchup weeks 18, scored files 1, record check: median game ON: each team plays its opponent and the league median every week",
+   "started_utc": "2026-09-30T15:08:29Z",
+   "finished_utc": "2026-09-30T15:08:33Z",
    "error": null,
-   "completed_week": 2,
-   "upcoming_week": 3
+   "completed_week": 3,
+   "upcoming_week": 4
   },
   "injuries": {
    "task": "injuries",
@@ -47,9 +47,9 @@
   "usage": {
    "task": "usage",
    "ok": true,
-   "summary": "2 weeks of 2026 usage, 420 players with a stat row, 696 Sleeper ids mapped (158 from Sleeper, 461 from the rankings file, 77 by name), 458,764 bytes",
-   "started_utc": "2026-09-23T16:01:44Z",
-   "finished_utc": "2026-09-23T16:01:46Z",
+   "summary": "3 weeks of 2026 usage, 461 players with a stat row, 707 Sleeper ids mapped (162 from Sleeper, 461 from the rankings file, 84 by name), 494,952 bytes",
+   "started_utc": "2026-09-30T15:08:33Z",
+   "finished_utc": "2026-09-30T15:08:35Z",
    "error": null
   }
  },
@@ -1367,14 +1367,40 @@
    "started_utc": "2026-09-30T12:04:08Z",
    "finished_utc": "2026-09-30T12:04:09Z",
    "error": null
+  },
+  {
+   "task": "pull",
+   "ok": true,
+   "summary": "completed wk 3, upcoming wk 4, waiver pool 674, matchup weeks 18, scored files 1, record check: median game ON: each team plays its opponent and the league median every week",
+   "started_utc": "2026-09-30T15:08:29Z",
+   "finished_utc": "2026-09-30T15:08:33Z",
+   "error": null,
+   "completed_week": 3,
+   "upcoming_week": 4
+  },
+  {
+   "task": "usage",
+   "ok": true,
+   "summary": "3 weeks of 2026 usage, 461 players with a stat row, 707 Sleeper ids mapped (162 from Sleeper, 461 from the rankings file, 84 by name), 494,952 bytes",
+   "started_utc": "2026-09-30T15:08:33Z",
+   "finished_utc": "2026-09-30T15:08:35Z",
+   "error": null
+  },
+  {
+   "task": "build",
+   "ok": true,
+   "summary": "index.html + reports/2026/week04.html; lineup changes 1, claims 6, signals 16, accuracy weeks 3",
+   "started_utc": "2026-09-30T15:08:35Z",
+   "finished_utc": "2026-09-30T15:08:36Z",
+   "error": null
   }
  ],
  "last_run": {
   "task": "build",
   "ok": true,
-  "summary": "index.html + reports/2026/week03.html; lineup changes 0, claims 8, signals 16, accuracy weeks 2",
-  "started_utc": "2026-09-30T12:04:08Z",
-  "finished_utc": "2026-09-30T12:04:09Z",
+  "summary": "index.html + reports/2026/week04.html; lineup changes 1, claims 6, signals 16, accuracy weeks 3",
+  "started_utc": "2026-09-30T15:08:35Z",
+  "finished_utc": "2026-09-30T15:08:36Z",
   "error": null
  }
 }
