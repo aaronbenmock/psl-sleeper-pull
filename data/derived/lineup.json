@@ -1,10 +1,10 @@
 {
  "week": 4,
- "generated_at_utc": "2026-10-01T11:11:53Z",
+ "generated_at_utc": "2026-10-01T12:05:45Z",
  "source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-10-01T01:14:22Z",
-  "label": "wed_pm"
+  "taken_at_utc": "2026-10-01T12:05:45Z",
+  "label": "thu_early"
  },
  "lineup": [
   {
@@ -13,12 +13,12 @@
    "pos": "QB",
    "team": "BUF",
    "opp": "NE",
-   "sleeper": 24.83,
+   "sleeper": 24.82,
    "preseason": 22.57,
    "season_avg": 34.81,
    "n_games": 3,
    "baseline": 27.82,
-   "expected": 25.88,
+   "expected": 25.87,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -39,12 +39,12 @@
    "pos": "RB",
    "team": "IND",
    "opp": "WAS",
-   "sleeper": 19.9,
+   "sleeper": 20.09,
    "preseason": 16.44,
    "season_avg": 19.67,
    "n_games": 3,
    "baseline": 17.82,
-   "expected": 19.17,
+   "expected": 19.3,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -57,7 +57,7 @@
    "started": false,
    "actual_so_far": null,
    "slot": "RB",
-   "why": "Sleeper projects 19.9, season average 19.7 over 3 games, preseason model 16.4. Blended expectation 19.2 vs WAS.",
+   "why": "Sleeper projects 20.1, season average 19.7 over 3 games, preseason model 16.4. Blended expectation 19.3 vs WAS.",
    "vacated": {
     "player_id": "00-0036223",
     "pos": "RB",
@@ -141,12 +141,12 @@
    "pos": "WR",
    "team": "LAR",
    "opp": "PHI",
-   "sleeper": 13.63,
+   "sleeper": 13.54,
    "preseason": 12.3,
    "season_avg": 19.6,
    "n_games": 3,
    "baseline": 15.43,
-   "expected": 14.26,
+   "expected": 14.2,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -159,7 +159,7 @@
    "started": false,
    "actual_so_far": null,
    "slot": "WR",
-   "why": "Sleeper projects 13.6, season average 19.6 over 3 games, preseason model 12.3. Blended expectation 14.3 vs PHI.",
+   "why": "Sleeper projects 13.5, season average 19.6 over 3 games, preseason model 12.3. Blended expectation 14.2 vs PHI.",
    "vacated": {
     "player_id": "00-0031381",
     "pos": "WR",
@@ -422,12 +422,12 @@
    "pos": "WR",
    "team": "DEN",
    "opp": "SF",
-   "sleeper": 8.35,
+   "sleeper": 8.36,
    "preseason": 10.43,
    "season_avg": 4.07,
    "n_games": 3,
    "baseline": 7.7,
-   "expected": 8.12,
+   "expected": 8.13,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -440,7 +440,7 @@
    "started": false,
    "actual_so_far": null,
    "slot": "BN",
-   "why": "Sleeper projects 8.3, season average 4.1 over 3 games, preseason model 10.4. Blended expectation 8.1 vs SF.",
+   "why": "Sleeper projects 8.4, season average 4.1 over 3 games, preseason model 10.4. Blended expectation 8.1 vs SF.",
    "vacated": {
     "player_id": "00-0034348",
     "pos": "WR",
@@ -473,12 +473,12 @@
    "pos": "WR",
    "team": "JAX",
    "opp": "CIN",
-   "sleeper": 8.03,
+   "sleeper": 8.04,
    "preseason": 9.21,
    "season_avg": 10.13,
    "n_games": 3,
    "baseline": 9.6,
-   "expected": 7.72,
+   "expected": 7.73,
    "injury_status": "Questionable",
    "injury_body_part": "Thumb",
    "practice": null,
@@ -795,9 +795,9 @@
    "why": "DK Metcalf 8.3 vs Jakobi Meyers 7.7, only 0.6 apart. Tiebreak: DK Metcalf has the higher ceiling (boom rate 20% vs 13%)."
   }
  ],
- "expected_total": 104.3,
+ "expected_total": 104.4,
  "notes": [
-  "Projections are from the wed_pm snapshot taken Wed Sep 30 08:14 PM Central."
+  "Projections are from the thu_early snapshot taken Thu Oct 01 07:05 AM Central."
  ],
  "vacated_meta": {
   "available": true,

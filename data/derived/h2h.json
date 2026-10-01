@@ -5,9 +5,9 @@
  "opponent": "Eazy E Squad",
  "manager": "espad",
  "roster_id": 5,
- "my_total": 104.3,
- "opp_set_total": 103.9,
- "opp_best_total": 103.9,
+ "my_total": 104.4,
+ "opp_set_total": 104.0,
+ "opp_best_total": 104.0,
  "verdict": "toss-up",
  "margin": 0.4,
  "verdict_vs_best": "toss-up",
@@ -23,7 +23,7 @@
    "name": "Jalen Coker",
    "pos": "WR",
    "status": "Questionable",
-   "expected": 10.5,
+   "expected": 10.58,
    "body": "Quadriceps"
   }
  ],
@@ -32,14 +32,14 @@
   {
    "name": "Trevor Lawrence",
    "pos": "QB",
-   "expected": 21.58,
+   "expected": 21.59,
    "injury_status": null,
    "baseline_only": false
   },
   {
    "name": "Saquon Barkley",
    "pos": "RB",
-   "expected": 12.65,
+   "expected": 12.68,
    "injury_status": null,
    "baseline_only": false
   },
@@ -67,7 +67,7 @@
   {
    "name": "Jalen Coker",
    "pos": "WR",
-   "expected": 10.5,
+   "expected": 10.58,
    "injury_status": "Questionable",
    "baseline_only": false
   },
@@ -86,15 +86,15 @@
    "baseline_only": false
   }
  ],
- "median_total": 102.8,
+ "median_total": 102.6,
  "median_verdict": "toss-up",
- "median_margin": 1.5,
+ "median_margin": 1.8,
  "source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-10-01T01:14:22Z",
-  "label": "wed_pm"
+  "taken_at_utc": "2026-10-01T12:05:45Z",
+  "label": "thu_early"
  },
  "opp_baseline_only": 0,
- "why": "Your recommended lineup projects 104.3; Eazy E Squad's set lineup 103.9 (best possible from their roster 103.9). Margin +0.4: toss-up, with a 5-point band called a toss-up.",
+ "why": "Your recommended lineup projects 104.4; Eazy E Squad's set lineup 104.0 (best possible from their roster 104.0). Margin +0.4: toss-up, with a 5-point band called a toss-up.",
  "note": "Both sides use the engine blend (0.65 x Sleeper + 0.35 x baseline, injury multipliers), so the totals are comparable. Inside +/-5 points the game is called a toss-up [Guessing]. Your own lineup still follows max expected points; the matchup does not change who you start."
 }
