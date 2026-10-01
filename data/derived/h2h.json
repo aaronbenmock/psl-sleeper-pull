@@ -1,0 +1,100 @@
+{
+ "week": 4,
+ "available": true,
+ "median_game": true,
+ "opponent": "Eazy E Squad",
+ "manager": "espad",
+ "roster_id": 5,
+ "my_total": 101.9,
+ "opp_set_total": 103.9,
+ "opp_best_total": 103.9,
+ "verdict": "toss-up",
+ "margin": -2.0,
+ "verdict_vs_best": "toss-up",
+ "opp_injured": [
+  {
+   "name": "Justin Jefferson",
+   "pos": "WR",
+   "status": "Questionable",
+   "expected": 11.65,
+   "body": "Ankle"
+  },
+  {
+   "name": "Jalen Coker",
+   "pos": "WR",
+   "status": "Questionable",
+   "expected": 10.5,
+   "body": "Quadriceps"
+  }
+ ],
+ "opp_byes": [],
+ "opp_starters": [
+  {
+   "name": "Trevor Lawrence",
+   "pos": "QB",
+   "expected": 21.58,
+   "injury_status": null,
+   "baseline_only": false
+  },
+  {
+   "name": "Saquon Barkley",
+   "pos": "RB",
+   "expected": 12.65,
+   "injury_status": null,
+   "baseline_only": false
+  },
+  {
+   "name": "David Montgomery",
+   "pos": "RB",
+   "expected": 12.9,
+   "injury_status": null,
+   "baseline_only": false
+  },
+  {
+   "name": "Justin Jefferson",
+   "pos": "WR",
+   "expected": 11.65,
+   "injury_status": "Questionable",
+   "baseline_only": false
+  },
+  {
+   "name": "George Pickens",
+   "pos": "WR",
+   "expected": 11.28,
+   "injury_status": null,
+   "baseline_only": false
+  },
+  {
+   "name": "Jalen Coker",
+   "pos": "WR",
+   "expected": 10.5,
+   "injury_status": "Questionable",
+   "baseline_only": false
+  },
+  {
+   "name": "Jaylen Warren",
+   "pos": "RB",
+   "expected": 14.87,
+   "injury_status": null,
+   "baseline_only": false
+  },
+  {
+   "name": "KC DEF",
+   "pos": "DEF",
+   "expected": 8.49,
+   "injury_status": null,
+   "baseline_only": false
+  }
+ ],
+ "median_total": 102.8,
+ "median_verdict": "toss-up",
+ "median_margin": -0.9,
+ "source": {
+  "kind": "pre-kickoff snapshot",
+  "taken_at_utc": "2026-10-01T01:14:22Z",
+  "label": "wed_pm"
+ },
+ "opp_baseline_only": 0,
+ "why": "Your recommended lineup projects 101.9; Eazy E Squad's set lineup 103.9 (best possible from their roster 103.9). Margin -2.0: toss-up, with a 5-point band called a toss-up.",
+ "note": "Both sides use the engine blend (0.65 x Sleeper + 0.35 x baseline, injury multipliers), so the totals are comparable. Inside +/-5 points the game is called a toss-up [Guessing]. Your own lineup still follows max expected points; the matchup does not change who you start."
+}

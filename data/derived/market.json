@@ -1,0 +1,900 @@
+{
+ "claims": [
+  {
+   "run": 29840051,
+   "processed_utc": "2026-09-26T06:11:00Z",
+   "processed": "Sat Sep 26 1:11 AM",
+   "player_id": "6819",
+   "name": "Michael Pittman",
+   "pos": "WR",
+   "winner_rid": 6,
+   "winner": "ScampDaddy",
+   "winning_bid": 6,
+   "dropped": [
+    "Wan'Dale Robinson"
+   ],
+   "losing": [
+    {
+     "roster_id": 7,
+     "team": "Cheeky Nando\u2019s",
+     "bid": 1,
+     "reason": "This player was claimed by another owner."
+    }
+   ],
+   "n_bidders": 2
+  },
+  {
+   "run": 29837221,
+   "processed_utc": "2026-09-24T07:01:00Z",
+   "processed": "Thu Sep 24 2:01 AM",
+   "player_id": "12545",
+   "name": "Tyler Shough",
+   "pos": "QB",
+   "winner_rid": 4,
+   "winner": "City of Champyinz",
+   "winning_bid": 65,
+   "dropped": [
+    "Michael Pittman"
+   ],
+   "losing": [
+    {
+     "roster_id": 9,
+     "team": "Girthenheimer",
+     "bid": 31,
+     "reason": "This player was claimed by another owner."
+    },
+    {
+     "roster_id": 3,
+     "team": "Be Safe, Get Jaxcinated",
+     "bid": 22,
+     "reason": "This player was claimed by another owner."
+    },
+    {
+     "roster_id": 6,
+     "team": "ScampDaddy",
+     "bid": 16,
+     "reason": "This player was claimed by another owner."
+    },
+    {
+     "roster_id": 7,
+     "team": "Cheeky Nando\u2019s",
+     "bid": 8,
+     "reason": "This player was claimed by another owner."
+    },
+    {
+     "roster_id": 1,
+     "team": "tacocats",
+     "bid": 3,
+     "reason": "This player was claimed by another owner."
+    }
+   ],
+   "n_bidders": 6
+  },
+  {
+   "run": 29837221,
+   "processed_utc": "2026-09-24T07:01:00Z",
+   "processed": "Thu Sep 24 2:01 AM",
+   "player_id": "1466",
+   "name": "Travis Kelce",
+   "pos": "TE",
+   "winner_rid": 10,
+   "winner": "Derrelick my Balls",
+   "winning_bid": 31,
+   "dropped": [
+    "Keenan Allen"
+   ],
+   "losing": [
+    {
+     "roster_id": 8,
+     "team": "ValKilmersComeback",
+     "bid": 22,
+     "reason": "This player was claimed by another owner."
+    },
+    {
+     "roster_id": 7,
+     "team": "Cheeky Nando\u2019s",
+     "bid": 12,
+     "reason": "This player was claimed by another owner."
+    },
+    {
+     "roster_id": 1,
+     "team": "tacocats",
+     "bid": 0,
+     "reason": "This player was claimed by another owner."
+    }
+   ],
+   "n_bidders": 4
+  },
+  {
+   "run": 29837221,
+   "processed_utc": "2026-09-24T07:01:00Z",
+   "processed": "Thu Sep 24 2:01 AM",
+   "player_id": "11625",
+   "name": "Adonai Mitchell",
+   "pos": "WR",
+   "winner_rid": 3,
+   "winner": "Be Safe, Get Jaxcinated",
+   "winning_bid": 26,
+   "dropped": [],
+   "losing": [
+    {
+     "roster_id": 6,
+     "team": "ScampDaddy",
+     "bid": 16,
+     "reason": "This player was claimed by another owner."
+    },
+    {
+     "roster_id": 1,
+     "team": "tacocats",
+     "bid": 0,
+     "reason": "This player was claimed by another owner."
+    }
+   ],
+   "n_bidders": 3
+  },
+  {
+   "run": 29837221,
+   "processed_utc": "2026-09-24T07:01:00Z",
+   "processed": "Thu Sep 24 2:01 AM",
+   "player_id": "CIN",
+   "name": "CIN DEF",
+   "pos": "DEF",
+   "winner_rid": 9,
+   "winner": "Girthenheimer",
+   "winning_bid": 10,
+   "dropped": [
+    "TB DEF"
+   ],
+   "losing": [
+    {
+     "roster_id": 3,
+     "team": "Be Safe, Get Jaxcinated",
+     "bid": 3,
+     "reason": "This player was claimed by another owner."
+    }
+   ],
+   "n_bidders": 2
+  },
+  {
+   "run": 29837221,
+   "processed_utc": "2026-09-24T07:01:00Z",
+   "processed": "Thu Sep 24 2:01 AM",
+   "player_id": "PIT",
+   "name": "PIT DEF",
+   "pos": "DEF",
+   "winner_rid": 10,
+   "winner": "Derrelick my Balls",
+   "winning_bid": 31,
+   "dropped": [
+    "MarShawn Lloyd"
+   ],
+   "losing": [],
+   "n_bidders": 1
+  },
+  {
+   "run": 29837221,
+   "processed_utc": "2026-09-24T07:01:00Z",
+   "processed": "Thu Sep 24 2:01 AM",
+   "player_id": "11435",
+   "name": "Emanuel Wilson",
+   "pos": "RB",
+   "winner_rid": 9,
+   "winner": "Girthenheimer",
+   "winning_bid": 15,
+   "dropped": [
+    "Kayshon Boutte"
+   ],
+   "losing": [],
+   "n_bidders": 1
+  },
+  {
+   "run": 29837221,
+   "processed_utc": "2026-09-24T07:01:00Z",
+   "processed": "Thu Sep 24 2:01 AM",
+   "player_id": "12504",
+   "name": "Kaleb Johnson",
+   "pos": "RB",
+   "winner_rid": 1,
+   "winner": "tacocats",
+   "winning_bid": 6,
+   "dropped": [
+    "Demond Claiborne"
+   ],
+   "losing": [],
+   "n_bidders": 1
+  },
+  {
+   "run": 29837221,
+   "processed_utc": "2026-09-24T07:01:00Z",
+   "processed": "Thu Sep 24 2:01 AM",
+   "player_id": "8110",
+   "name": "Jake Ferguson",
+   "pos": "TE",
+   "winner_rid": 11,
+   "winner": "RafiBomb",
+   "winning_bid": 0,
+   "dropped": [],
+   "losing": [],
+   "n_bidders": 1
+  },
+  {
+   "run": 29837221,
+   "processed_utc": "2026-09-24T07:01:00Z",
+   "processed": "Thu Sep 24 2:01 AM",
+   "player_id": "BUF",
+   "name": "BUF DEF",
+   "pos": "DEF",
+   "winner_rid": 4,
+   "winner": "City of Champyinz",
+   "winning_bid": 0,
+   "dropped": [
+    "JAX DEF"
+   ],
+   "losing": [],
+   "n_bidders": 1
+  },
+  {
+   "run": 29829961,
+   "processed_utc": "2026-09-19T06:01:00Z",
+   "processed": "Sat Sep 19 1:01 AM",
+   "player_id": "9504",
+   "name": "Kayshon Boutte",
+   "pos": "WR",
+   "winner_rid": 9,
+   "winner": "Girthenheimer",
+   "winning_bid": 0,
+   "dropped": [],
+   "losing": [],
+   "n_bidders": 1
+  },
+  {
+   "run": 29827141,
+   "processed_utc": "2026-09-17T07:01:00Z",
+   "processed": "Thu Sep 17 2:01 AM",
+   "player_id": "13296",
+   "name": "Caleb Douglas",
+   "pos": "WR",
+   "winner_rid": 1,
+   "winner": "tacocats",
+   "winning_bid": 12,
+   "dropped": [
+    "Kaleb Johnson"
+   ],
+   "losing": [
+    {
+     "roster_id": 10,
+     "team": "Derrelick my Balls",
+     "bid": 17,
+     "reason": "Unfortunately, your roster will have too many players after this transaction."
+    },
+    {
+     "roster_id": 9,
+     "team": "Girthenheimer",
+     "bid": 8,
+     "reason": "This player was claimed by another owner."
+    },
+    {
+     "roster_id": 2,
+     "team": "Amateur Hour",
+     "bid": 3,
+     "reason": "This player was claimed by another owner."
+    },
+    {
+     "roster_id": 11,
+     "team": "RafiBomb",
+     "bid": 0,
+     "reason": "This player was claimed by another owner."
+    }
+   ],
+   "n_bidders": 5
+  },
+  {
+   "run": 29827141,
+   "processed_utc": "2026-09-17T07:01:00Z",
+   "processed": "Thu Sep 17 2:01 AM",
+   "player_id": "10236",
+   "name": "Dalton Kincaid",
+   "pos": "TE",
+   "winner_rid": 10,
+   "winner": "Derrelick my Balls",
+   "winning_bid": 27,
+   "dropped": [
+    "Harold Fannin"
+   ],
+   "losing": [
+    {
+     "roster_id": 7,
+     "team": "Cheeky Nando\u2019s",
+     "bid": 1,
+     "reason": "This player was claimed by another owner."
+    }
+   ],
+   "n_bidders": 2
+  },
+  {
+   "run": 29827141,
+   "processed_utc": "2026-09-17T07:01:00Z",
+   "processed": "Thu Sep 17 2:01 AM",
+   "player_id": "12048",
+   "name": "George Holani",
+   "pos": "RB",
+   "winner_rid": 8,
+   "winner": "ValKilmersComeback",
+   "winning_bid": 0,
+   "dropped": [],
+   "losing": [
+    {
+     "roster_id": 1,
+     "team": "tacocats",
+     "bid": 1,
+     "reason": "Unfortunately, your roster will have too many players after this transaction."
+    }
+   ],
+   "n_bidders": 2
+  },
+  {
+   "run": 29827141,
+   "processed_utc": "2026-09-17T07:01:00Z",
+   "processed": "Thu Sep 17 2:01 AM",
+   "player_id": "TB",
+   "name": "TB DEF",
+   "pos": "DEF",
+   "winner_rid": 9,
+   "winner": "Girthenheimer",
+   "winning_bid": 0,
+   "dropped": [
+    "Kayshon Boutte"
+   ],
+   "losing": [
+    {
+     "roster_id": 1,
+     "team": "tacocats",
+     "bid": 9,
+     "reason": "Unfortunately, your roster will have too many players after this transaction."
+    }
+   ],
+   "n_bidders": 2
+  },
+  {
+   "run": 29827141,
+   "processed_utc": "2026-09-17T07:01:00Z",
+   "processed": "Thu Sep 17 2:01 AM",
+   "player_id": "6130",
+   "name": "Devin Singletary",
+   "pos": "RB",
+   "winner_rid": null,
+   "winner": null,
+   "winning_bid": null,
+   "dropped": [],
+   "losing": [
+    {
+     "roster_id": 11,
+     "team": "RafiBomb",
+     "bid": 0,
+     "reason": "Unfortunately, your roster will have too many players after this transaction."
+    },
+    {
+     "roster_id": 1,
+     "team": "tacocats",
+     "bid": 0,
+     "reason": "Unfortunately, your roster will have too many players after this transaction."
+    }
+   ],
+   "n_bidders": 2
+  },
+  {
+   "run": 29827141,
+   "processed_utc": "2026-09-17T07:01:00Z",
+   "processed": "Thu Sep 17 2:01 AM",
+   "player_id": "SF",
+   "name": "SF DEF",
+   "pos": "DEF",
+   "winner_rid": 1,
+   "winner": "tacocats",
+   "winning_bid": 28,
+   "dropped": [
+    "LAC DEF"
+   ],
+   "losing": [],
+   "n_bidders": 1
+  },
+  {
+   "run": 29827141,
+   "processed_utc": "2026-09-17T07:01:00Z",
+   "processed": "Thu Sep 17 2:01 AM",
+   "player_id": "4177",
+   "name": "Mack Hollins",
+   "pos": "WR",
+   "winner_rid": 2,
+   "winner": "Amateur Hour",
+   "winning_bid": 7,
+   "dropped": [],
+   "losing": [],
+   "n_bidders": 1
+  },
+  {
+   "run": 29827141,
+   "processed_utc": "2026-09-17T07:01:00Z",
+   "processed": "Thu Sep 17 2:01 AM",
+   "player_id": "6804",
+   "name": "Jordan Love",
+   "pos": "QB",
+   "winner_rid": 7,
+   "winner": "Cheeky Nando\u2019s",
+   "winning_bid": 6,
+   "dropped": [],
+   "losing": [],
+   "n_bidders": 1
+  },
+  {
+   "run": 29827141,
+   "processed_utc": "2026-09-17T07:01:00Z",
+   "processed": "Thu Sep 17 2:01 AM",
+   "player_id": "13347",
+   "name": "Demond Claiborne",
+   "pos": "RB",
+   "winner_rid": 1,
+   "winner": "tacocats",
+   "winning_bid": 1,
+   "dropped": [],
+   "losing": [],
+   "n_bidders": 1
+  },
+  {
+   "run": 29827141,
+   "processed_utc": "2026-09-17T07:01:00Z",
+   "processed": "Thu Sep 17 2:01 AM",
+   "player_id": "5012",
+   "name": "Mark Andrews",
+   "pos": "TE",
+   "winner_rid": null,
+   "winner": null,
+   "winning_bid": null,
+   "dropped": [],
+   "losing": [
+    {
+     "roster_id": 10,
+     "team": "Derrelick my Balls",
+     "bid": 0,
+     "reason": "Unfortunately, your roster will have too many players after this transaction."
+    }
+   ],
+   "n_bidders": 1
+  },
+  {
+   "run": 29827141,
+   "processed_utc": "2026-09-17T07:01:00Z",
+   "processed": "Thu Sep 17 2:01 AM",
+   "player_id": "7571",
+   "name": "Rashod Bateman",
+   "pos": "WR",
+   "winner_rid": null,
+   "winner": null,
+   "winning_bid": null,
+   "dropped": [],
+   "losing": [
+    {
+     "roster_id": 1,
+     "team": "tacocats",
+     "bid": 11,
+     "reason": "Unfortunately, your roster will have too many players after this transaction."
+    }
+   ],
+   "n_bidders": 1
+  },
+  {
+   "run": 29827141,
+   "processed_utc": "2026-09-17T07:01:00Z",
+   "processed": "Thu Sep 17 2:01 AM",
+   "player_id": "13405",
+   "name": "Kaytron Allen",
+   "pos": "RB",
+   "winner_rid": null,
+   "winner": null,
+   "winning_bid": null,
+   "dropped": [],
+   "losing": [
+    {
+     "roster_id": 1,
+     "team": "tacocats",
+     "bid": 0,
+     "reason": "Unfortunately, your roster will have too many players after this transaction."
+    }
+   ],
+   "n_bidders": 1
+  },
+  {
+   "run": 29827141,
+   "processed_utc": "2026-09-17T07:01:00Z",
+   "processed": "Thu Sep 17 2:01 AM",
+   "player_id": "12545",
+   "name": "Tyler Shough",
+   "pos": "QB",
+   "winner_rid": null,
+   "winner": null,
+   "winning_bid": null,
+   "dropped": [],
+   "losing": [
+    {
+     "roster_id": 10,
+     "team": "Derrelick my Balls",
+     "bid": 2,
+     "reason": "Unfortunately, your roster will have too many players after this transaction."
+    }
+   ],
+   "n_bidders": 1
+  },
+  {
+   "run": 29827141,
+   "processed_utc": "2026-09-17T07:01:00Z",
+   "processed": "Thu Sep 17 2:01 AM",
+   "player_id": "9228",
+   "name": "Bryce Young",
+   "pos": "QB",
+   "winner_rid": 11,
+   "winner": "RafiBomb",
+   "winning_bid": 0,
+   "dropped": [
+    "Cooper Kupp"
+   ],
+   "losing": [],
+   "n_bidders": 1
+  },
+  {
+   "run": 29827141,
+   "processed_utc": "2026-09-17T07:01:00Z",
+   "processed": "Thu Sep 17 2:01 AM",
+   "player_id": "5022",
+   "name": "Dallas Goedert",
+   "pos": "TE",
+   "winner_rid": null,
+   "winner": null,
+   "winning_bid": null,
+   "dropped": [],
+   "losing": [
+    {
+     "roster_id": 10,
+     "team": "Derrelick my Balls",
+     "bid": 14,
+     "reason": "Unfortunately, your roster will have too many players after this transaction."
+    }
+   ],
+   "n_bidders": 1
+  }
+ ],
+ "price_guide": {
+  "by_pos": {
+   "QB": {
+    "n_wins": 3,
+    "median_win": 6,
+    "max_win": 65,
+    "n_contested": 1,
+    "median_contested": 65,
+    "max_contested": 65
+   },
+   "RB": {
+    "n_wins": 4,
+    "median_win": 3.5,
+    "max_win": 15,
+    "n_contested": 1,
+    "median_contested": 0,
+    "max_contested": 0
+   },
+   "WR": {
+    "n_wins": 5,
+    "median_win": 7,
+    "max_win": 26,
+    "n_contested": 3,
+    "median_contested": 12,
+    "max_contested": 26
+   },
+   "TE": {
+    "n_wins": 3,
+    "median_win": 27,
+    "max_win": 31,
+    "n_contested": 2,
+    "median_contested": 29.0,
+    "max_contested": 31
+   },
+   "DEF": {
+    "n_wins": 5,
+    "median_win": 10,
+    "max_win": 31,
+    "n_contested": 2,
+    "median_contested": 5.0,
+    "max_contested": 10
+   }
+  },
+  "most_contested": [
+   {
+    "processed": "Sat Sep 26 1:11 AM",
+    "name": "Michael Pittman",
+    "pos": "WR",
+    "winner": "ScampDaddy",
+    "winning_bid": 6,
+    "n_bidders": 2
+   },
+   {
+    "processed": "Thu Sep 24 2:01 AM",
+    "name": "Tyler Shough",
+    "pos": "QB",
+    "winner": "City of Champyinz",
+    "winning_bid": 65,
+    "n_bidders": 6
+   },
+   {
+    "processed": "Thu Sep 17 2:01 AM",
+    "name": "Caleb Douglas",
+    "pos": "WR",
+    "winner": "tacocats",
+    "winning_bid": 12,
+    "n_bidders": 5
+   }
+  ],
+  "most_contested_median": 12
+ },
+ "teams": [
+  {
+   "roster_id": 10,
+   "team": "Derrelick my Balls",
+   "spent": 89,
+   "spent_in_log": 89,
+   "log_matches": true,
+   "remaining": 111,
+   "n_claims": 7,
+   "n_wins": 3,
+   "biggest_win": {
+    "name": "Travis Kelce",
+    "bid": 31
+   },
+   "usual_bid": 31,
+   "usual_how": "bid $31 2 times",
+   "repeated": [
+    31
+   ]
+  },
+  {
+   "roster_id": 4,
+   "team": "City of Champyinz",
+   "spent": 65,
+   "spent_in_log": 65,
+   "log_matches": true,
+   "remaining": 135,
+   "n_claims": 2,
+   "n_wins": 2,
+   "biggest_win": {
+    "name": "Tyler Shough",
+    "bid": 65
+   },
+   "usual_bid": 32.5,
+   "usual_how": "median winning bid",
+   "repeated": []
+  },
+  {
+   "roster_id": 1,
+   "team": "tacocats",
+   "spent": 47,
+   "spent_in_log": 47,
+   "log_matches": true,
+   "remaining": 153,
+   "n_claims": 12,
+   "n_wins": 4,
+   "biggest_win": {
+    "name": "SF DEF",
+    "bid": 28
+   },
+   "usual_bid": 1,
+   "usual_how": "bid $1 2 times",
+   "repeated": [
+    1
+   ]
+  },
+  {
+   "roster_id": 3,
+   "team": "Be Safe, Get Jaxcinated",
+   "spent": 26,
+   "spent_in_log": 26,
+   "log_matches": true,
+   "remaining": 174,
+   "n_claims": 3,
+   "n_wins": 1,
+   "biggest_win": {
+    "name": "Adonai Mitchell",
+    "bid": 26
+   },
+   "usual_bid": 26,
+   "usual_how": "median winning bid",
+   "repeated": []
+  },
+  {
+   "roster_id": 9,
+   "team": "Girthenheimer",
+   "spent": 25,
+   "spent_in_log": 25,
+   "log_matches": true,
+   "remaining": 175,
+   "n_claims": 6,
+   "n_wins": 4,
+   "biggest_win": {
+    "name": "Emanuel Wilson",
+    "bid": 15
+   },
+   "usual_bid": 5.0,
+   "usual_how": "median winning bid",
+   "repeated": []
+  },
+  {
+   "roster_id": 2,
+   "team": "Amateur Hour",
+   "spent": 7,
+   "spent_in_log": 7,
+   "log_matches": true,
+   "remaining": 193,
+   "n_claims": 2,
+   "n_wins": 1,
+   "biggest_win": {
+    "name": "Mack Hollins",
+    "bid": 7
+   },
+   "usual_bid": 7,
+   "usual_how": "median winning bid",
+   "repeated": []
+  },
+  {
+   "roster_id": 7,
+   "team": "Cheeky Nando\u2019s",
+   "spent": 6,
+   "spent_in_log": 6,
+   "log_matches": true,
+   "remaining": 194,
+   "n_claims": 5,
+   "n_wins": 1,
+   "biggest_win": {
+    "name": "Jordan Love",
+    "bid": 6
+   },
+   "usual_bid": 1,
+   "usual_how": "bid $1 2 times",
+   "repeated": [
+    1
+   ]
+  },
+  {
+   "roster_id": 6,
+   "team": "ScampDaddy",
+   "spent": 6,
+   "spent_in_log": 6,
+   "log_matches": true,
+   "remaining": 194,
+   "n_claims": 3,
+   "n_wins": 1,
+   "biggest_win": {
+    "name": "Michael Pittman",
+    "bid": 6
+   },
+   "usual_bid": 16,
+   "usual_how": "bid $16 2 times",
+   "repeated": [
+    16
+   ]
+  },
+  {
+   "roster_id": 12,
+   "team": "Baker\u2019s Dozen",
+   "spent": 0,
+   "spent_in_log": 0,
+   "log_matches": true,
+   "remaining": 200,
+   "n_claims": 0,
+   "n_wins": 0,
+   "biggest_win": null,
+   "usual_bid": null,
+   "usual_how": "no wins yet",
+   "repeated": []
+  },
+  {
+   "roster_id": 5,
+   "team": "Eazy E Squad",
+   "spent": 0,
+   "spent_in_log": 0,
+   "log_matches": true,
+   "remaining": 200,
+   "n_claims": 0,
+   "n_wins": 0,
+   "biggest_win": null,
+   "usual_bid": null,
+   "usual_how": "no wins yet",
+   "repeated": []
+  },
+  {
+   "roster_id": 11,
+   "team": "RafiBomb",
+   "spent": 0,
+   "spent_in_log": 0,
+   "log_matches": true,
+   "remaining": 200,
+   "n_claims": 4,
+   "n_wins": 2,
+   "biggest_win": {
+    "name": "Jake Ferguson",
+    "bid": 0
+   },
+   "usual_bid": 0.0,
+   "usual_how": "median winning bid",
+   "repeated": []
+  },
+  {
+   "roster_id": 8,
+   "team": "ValKilmersComeback",
+   "spent": 0,
+   "spent_in_log": 0,
+   "log_matches": true,
+   "remaining": 200,
+   "n_claims": 2,
+   "n_wins": 1,
+   "biggest_win": {
+    "name": "George Holani",
+    "bid": 0
+   },
+   "usual_bid": 0,
+   "usual_how": "median winning bid",
+   "repeated": []
+  }
+ ],
+ "mine": [
+  {
+   "processed": "Thu Sep 24 2:01 AM",
+   "run": 29837221,
+   "name": "Travis Kelce",
+   "pos": "TE",
+   "result": "lost",
+   "my_bid": 22,
+   "winning_bid": 31,
+   "winner": "Derrelick my Balls",
+   "n_bidders": 4,
+   "reason": "This player was claimed by another owner."
+  },
+  {
+   "processed": "Thu Sep 17 2:01 AM",
+   "run": 29827141,
+   "name": "George Holani",
+   "pos": "RB",
+   "result": "won",
+   "my_bid": 0,
+   "winning_bid": 0,
+   "winner": "ValKilmersComeback",
+   "n_bidders": 2,
+   "next_best": 1
+  }
+ ],
+ "latest": {
+  "run": 29840051,
+  "processed": "Sat Sep 26 1:11 AM",
+  "processed_utc": "2026-09-26T06:11:00Z",
+  "n_claims_league": 2,
+  "bids": []
+ },
+ "latest_mine": {
+  "run": 29837221,
+  "processed": "Thu Sep 24 2:01 AM",
+  "bids": [
+   {
+    "processed": "Thu Sep 24 2:01 AM",
+    "run": 29837221,
+    "name": "Travis Kelce",
+    "pos": "TE",
+    "result": "lost",
+    "my_bid": 22,
+    "winning_bid": 31,
+    "winner": "Derrelick my Balls",
+    "n_bidders": 4,
+    "reason": "This player was claimed by another owner."
+   }
+  ]
+ },
+ "budget_total": 200,
+ "n_runs": 4,
+ "ids_total": 54,
+ "ids_unresolved": [],
+ "note": "Losing bids come from Sleeper's failed-claim records. A failed claim above the winning bid failed for another reason (roster limit, budget, an earlier claim), so it is not read as an outbid. Failure reasons are only recorded from October 2026 on."
+}

@@ -1,8 +1,8 @@
 {
  "date_central": "2026-09-30",
- "pulled_at_utc": "2026-09-30T11:11:02Z",
+ "pulled_at_utc": "2026-10-01T01:14:21Z",
  "compared_to": "2026-09-29",
- "n_changes": 55,
+ "n_changes": 53,
  "n_mine": 5,
  "changes": [
   {
@@ -327,27 +327,6 @@
    }
   },
   {
-   "player_id": "10222",
-   "name": "Jayden Reed",
-   "pos": "WR",
-   "team": "GB",
-   "roster_id": 3,
-   "team_name": "Be Safe, Get Jaxcinated",
-   "is_mine": false,
-   "slot": "IR",
-   "kind": "changed",
-   "fields": {
-    "injury_status": {
-     "from": "Out",
-     "to": "Doubtful"
-    },
-    "depth_chart_order": {
-     "from": 6,
-     "to": 4
-    }
-   }
-  },
-  {
    "player_id": "11834",
    "name": "Devaughn Vele",
    "pos": "WR",
@@ -355,7 +334,7 @@
    "roster_id": 7,
    "team_name": "Cheeky Nando\u2019s",
    "is_mine": false,
-   "slot": "BN",
+   "slot": "FLEX",
    "kind": "changed",
    "fields": {
     "news_updated": {
@@ -406,7 +385,7 @@
    "roster_id": 7,
    "team_name": "Cheeky Nando\u2019s",
    "is_mine": false,
-   "slot": "FLEX",
+   "slot": "BN",
    "kind": "changed",
    "fields": {
     "injury_status": {
@@ -427,7 +406,7 @@
    "roster_id": 7,
    "team_name": "Cheeky Nando\u2019s",
    "is_mine": false,
-   "slot": "IR",
+   "slot": "FLEX",
    "kind": "changed",
    "fields": {
     "injury_status": {
@@ -437,27 +416,6 @@
     "depth_chart_order": {
      "from": 7,
      "to": 1
-    }
-   }
-  },
-  {
-   "player_id": "12487",
-   "name": "Terrance Ferguson",
-   "pos": "TE",
-   "team": "LAR",
-   "roster_id": 7,
-   "team_name": "Cheeky Nando\u2019s",
-   "is_mine": false,
-   "slot": "BN",
-   "kind": "changed",
-   "fields": {
-    "injury_status": {
-     "from": "Questionable",
-     "to": "Doubtful"
-    },
-    "injury_notes": {
-     "from": null,
-     "to": "Sprain"
     }
    }
   },

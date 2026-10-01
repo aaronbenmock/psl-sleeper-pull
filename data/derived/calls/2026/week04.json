@@ -2,7 +2,7 @@
  "week": 4,
  "first_recorded_utc": "2026-09-30T21:26:23Z",
  "source": "live build",
- "updated_utc": "2026-10-01T00:34:18Z",
+ "updated_utc": "2026-10-01T01:14:23Z",
  "start_sit": [
   {
    "type": "start_sit",
@@ -11,8 +11,8 @@
    "name": "Jakobi Meyers",
    "alt_id": "5846",
    "alt_name": "DK Metcalf",
-   "expected": 8.59,
-   "alt_expected": 8.3,
+   "expected": 8.58,
+   "alt_expected": 8.35,
    "started": false
   },
   {
@@ -22,8 +22,8 @@
    "name": "Denzel Boston",
    "alt_id": "5846",
    "alt_name": "DK Metcalf",
-   "expected": 9.4,
-   "alt_expected": 8.3,
+   "expected": 9.41,
+   "alt_expected": 8.35,
    "started": false
   },
   {
@@ -33,7 +33,7 @@
    "name": "Denzel Boston",
    "alt_id": "5045",
    "alt_name": "Courtland Sutton",
-   "expected": 9.4,
+   "expected": 9.41,
    "alt_expected": 8.12,
    "started": false
   },
@@ -45,7 +45,7 @@
    "alt_id": "5846",
    "alt_name": "DK Metcalf",
    "expected": 9.21,
-   "alt_expected": 8.3,
+   "alt_expected": 8.35,
    "started": false
   },
   {
@@ -66,8 +66,8 @@
    "name": "Jakobi Meyers",
    "alt_id": "5846",
    "alt_name": "DK Metcalf",
-   "expected": 8.59,
-   "alt_expected": 8.3,
+   "expected": 8.58,
+   "alt_expected": 8.35,
    "started": false
   },
   {
@@ -77,7 +77,7 @@
    "name": "Jakobi Meyers",
    "alt_id": "5045",
    "alt_name": "Courtland Sutton",
-   "expected": 8.59,
+   "expected": 8.58,
    "alt_expected": 8.12,
    "started": false
   }
@@ -87,7 +87,7 @@
    "slot": "QB",
    "player_id": "4984",
    "name": "Josh Allen",
-   "expected": 23.28,
+   "expected": 23.29,
    "started": false,
    "frozen": false
   },
@@ -95,7 +95,7 @@
    "slot": "RB",
    "player_id": "6813",
    "name": "Jonathan Taylor",
-   "expected": 19.3,
+   "expected": 19.17,
    "started": false,
    "frozen": false
   },
@@ -103,7 +103,7 @@
    "slot": "RB",
    "player_id": "12474",
    "name": "Woody Marks",
-   "expected": 8.09,
+   "expected": 8.13,
    "started": false,
    "frozen": false
   },
@@ -111,7 +111,7 @@
    "slot": "WR",
    "player_id": "2133",
    "name": "Davante Adams",
-   "expected": 14.17,
+   "expected": 14.26,
    "started": false,
    "frozen": false
   },
@@ -119,7 +119,7 @@
    "slot": "WR",
    "player_id": "13346",
    "name": "Denzel Boston",
-   "expected": 9.4,
+   "expected": 9.41,
    "started": false,
    "frozen": false
   },
@@ -135,7 +135,7 @@
    "slot": "FLEX",
    "player_id": "5947",
    "name": "Jakobi Meyers",
-   "expected": 8.59,
+   "expected": 8.58,
    "started": false,
    "frozen": false
   },
@@ -253,7 +253,7 @@
    "alt_name": "George Holani"
   }
  ],
- "claims_rec_utc": "2026-10-01T00:34:18Z",
+ "claims_rec_utc": "2026-10-01T01:14:23Z",
  "claims_source": "git 11e2510",
  "claims_frozen": false,
  "synthesis": [
