@@ -2,8 +2,19 @@
  "week": 4,
  "first_recorded_utc": "2026-09-30T21:26:23Z",
  "source": "live build",
- "updated_utc": "2026-10-01T16:40:22Z",
+ "updated_utc": "2026-10-01T23:13:16Z",
  "start_sit": [
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "5872",
+   "name": "Deebo Samuel",
+   "alt_id": "5045",
+   "alt_name": "Courtland Sutton",
+   "expected": 9.24,
+   "alt_expected": 8.12,
+   "started": false
+  },
   {
    "type": "start_sit",
    "kind": "close_call",
@@ -11,29 +22,18 @@
    "name": "Denzel Boston",
    "alt_id": "5045",
    "alt_name": "Courtland Sutton",
-   "expected": 9.45,
+   "expected": 9.16,
    "alt_expected": 8.12,
    "started": false
   },
   {
    "type": "start_sit",
    "kind": "close_call",
-   "player_id": "5872",
-   "name": "Deebo Samuel",
-   "alt_id": "5045",
-   "alt_name": "Courtland Sutton",
-   "expected": 9.21,
-   "alt_expected": 8.12,
-   "started": false
-  },
-  {
-   "type": "start_sit",
-   "kind": "close_call",
-   "player_id": "5872",
-   "name": "Deebo Samuel",
+   "player_id": "13346",
+   "name": "Denzel Boston",
    "alt_id": "5947",
    "alt_name": "Jakobi Meyers",
-   "expected": 9.21,
+   "expected": 9.16,
    "alt_expected": 7.73,
    "started": false
   },
@@ -44,7 +44,7 @@
    "name": "DK Metcalf",
    "alt_id": "5045",
    "alt_name": "Courtland Sutton",
-   "expected": 8.32,
+   "expected": 8.26,
    "alt_expected": 8.12,
    "started": false
   },
@@ -55,7 +55,7 @@
    "name": "DK Metcalf",
    "alt_id": "5947",
    "alt_name": "Jakobi Meyers",
-   "expected": 8.32,
+   "expected": 8.26,
    "alt_expected": 7.73,
    "started": false
   }
@@ -65,7 +65,7 @@
    "slot": "QB",
    "player_id": "4984",
    "name": "Josh Allen",
-   "expected": 25.88,
+   "expected": 25.95,
    "started": false,
    "frozen": false
   },
@@ -73,7 +73,7 @@
    "slot": "RB",
    "player_id": "6813",
    "name": "Jonathan Taylor",
-   "expected": 19.3,
+   "expected": 19.48,
    "started": false,
    "frozen": false
   },
@@ -89,23 +89,23 @@
    "slot": "WR",
    "player_id": "2133",
    "name": "Davante Adams",
-   "expected": 14.23,
+   "expected": 13.56,
    "started": false,
    "frozen": false
   },
   {
    "slot": "WR",
-   "player_id": "13346",
-   "name": "Denzel Boston",
-   "expected": 9.45,
+   "player_id": "5872",
+   "name": "Deebo Samuel",
+   "expected": 9.24,
    "started": false,
    "frozen": false
   },
   {
    "slot": "FLEX",
-   "player_id": "5872",
-   "name": "Deebo Samuel",
-   "expected": 9.21,
+   "player_id": "13346",
+   "name": "Denzel Boston",
+   "expected": 9.16,
    "started": false,
    "frozen": false
   },
@@ -113,7 +113,7 @@
    "slot": "FLEX",
    "player_id": "5846",
    "name": "DK Metcalf",
-   "expected": 8.32,
+   "expected": 8.26,
    "started": false,
    "frozen": false
   },
