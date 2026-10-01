@@ -5,11 +5,11 @@
  "opponent": "Eazy E Squad",
  "manager": "espad",
  "roster_id": 5,
- "my_total": 101.9,
+ "my_total": 104.3,
  "opp_set_total": 103.9,
  "opp_best_total": 103.9,
  "verdict": "toss-up",
- "margin": -2.0,
+ "margin": 0.4,
  "verdict_vs_best": "toss-up",
  "opp_injured": [
   {
@@ -88,13 +88,13 @@
  ],
  "median_total": 102.8,
  "median_verdict": "toss-up",
- "median_margin": -0.9,
+ "median_margin": 1.5,
  "source": {
   "kind": "pre-kickoff snapshot",
   "taken_at_utc": "2026-10-01T01:14:22Z",
   "label": "wed_pm"
  },
  "opp_baseline_only": 0,
- "why": "Your recommended lineup projects 101.9; Eazy E Squad's set lineup 103.9 (best possible from their roster 103.9). Margin -2.0: toss-up, with a 5-point band called a toss-up.",
+ "why": "Your recommended lineup projects 104.3; Eazy E Squad's set lineup 103.9 (best possible from their roster 103.9). Margin +0.4: toss-up, with a 5-point band called a toss-up.",
  "note": "Both sides use the engine blend (0.65 x Sleeper + 0.35 x baseline, injury multipliers), so the totals are comparable. Inside +/-5 points the game is called a toss-up [Guessing]. Your own lineup still follows max expected points; the matchup does not change who you start."
 }

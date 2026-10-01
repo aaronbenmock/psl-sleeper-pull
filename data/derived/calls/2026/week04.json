@@ -2,32 +2,10 @@
  "week": 4,
  "first_recorded_utc": "2026-09-30T21:26:23Z",
  "source": "live build",
- "updated_utc": "2026-10-01T01:14:23Z",
+ "updated_utc": "2026-10-01T11:11:53Z",
  "start_sit": [
   {
    "type": "start_sit",
-   "kind": "change",
-   "player_id": "5947",
-   "name": "Jakobi Meyers",
-   "alt_id": "5846",
-   "alt_name": "DK Metcalf",
-   "expected": 8.58,
-   "alt_expected": 8.35,
-   "started": false
-  },
-  {
-   "type": "start_sit",
-   "kind": "close_call",
-   "player_id": "13346",
-   "name": "Denzel Boston",
-   "alt_id": "5846",
-   "alt_name": "DK Metcalf",
-   "expected": 9.41,
-   "alt_expected": 8.35,
-   "started": false
-  },
-  {
-   "type": "start_sit",
    "kind": "close_call",
    "player_id": "13346",
    "name": "Denzel Boston",
@@ -35,17 +13,6 @@
    "alt_name": "Courtland Sutton",
    "expected": 9.41,
    "alt_expected": 8.12,
-   "started": false
-  },
-  {
-   "type": "start_sit",
-   "kind": "close_call",
-   "player_id": "5872",
-   "name": "Deebo Samuel",
-   "alt_id": "5846",
-   "alt_name": "DK Metcalf",
-   "expected": 9.21,
-   "alt_expected": 8.35,
    "started": false
   },
   {
@@ -62,23 +29,34 @@
   {
    "type": "start_sit",
    "kind": "close_call",
-   "player_id": "5947",
-   "name": "Jakobi Meyers",
-   "alt_id": "5846",
-   "alt_name": "DK Metcalf",
-   "expected": 8.58,
-   "alt_expected": 8.35,
+   "player_id": "5872",
+   "name": "Deebo Samuel",
+   "alt_id": "5947",
+   "alt_name": "Jakobi Meyers",
+   "expected": 9.21,
+   "alt_expected": 7.72,
    "started": false
   },
   {
    "type": "start_sit",
    "kind": "close_call",
-   "player_id": "5947",
-   "name": "Jakobi Meyers",
+   "player_id": "5846",
+   "name": "DK Metcalf",
    "alt_id": "5045",
    "alt_name": "Courtland Sutton",
-   "expected": 8.58,
+   "expected": 8.35,
    "alt_expected": 8.12,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "5846",
+   "name": "DK Metcalf",
+   "alt_id": "5947",
+   "alt_name": "Jakobi Meyers",
+   "expected": 8.35,
+   "alt_expected": 7.72,
    "started": false
   }
  ],
@@ -87,7 +65,7 @@
    "slot": "QB",
    "player_id": "4984",
    "name": "Josh Allen",
-   "expected": 23.29,
+   "expected": 25.88,
    "started": false,
    "frozen": false
   },
@@ -133,9 +111,9 @@
   },
   {
    "slot": "FLEX",
-   "player_id": "5947",
-   "name": "Jakobi Meyers",
-   "expected": 8.58,
+   "player_id": "5846",
+   "name": "DK Metcalf",
+   "expected": 8.35,
    "started": false,
    "frozen": false
   },
@@ -255,7 +233,7 @@
  ],
  "claims_rec_utc": "2026-10-01T01:14:23Z",
  "claims_source": "git 11e2510",
- "claims_frozen": false,
+ "claims_frozen": true,
  "synthesis": [
   {
    "type": "start",

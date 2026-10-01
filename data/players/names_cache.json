@@ -808,7 +808,7 @@
 },
 "11643": {
 "first_seen": "2026-09-18",
-"last_seen": "2026-09-30",
+"last_seen": "2026-10-01",
 "name": "Jaylen Wright",
 "pos": "RB",
 "team": "MIA"
@@ -871,7 +871,7 @@
 },
 "1166": {
 "first_seen": "2026-09-18",
-"last_seen": "2026-09-30",
+"last_seen": "2026-10-01",
 "name": "Kirk Cousins",
 "pos": "QB",
 "team": "LV"
@@ -1151,7 +1151,7 @@
 },
 "12476": {
 "first_seen": "2026-09-30",
-"last_seen": "2026-09-30",
+"last_seen": "2026-10-01",
 "name": "Devin Neal",
 "pos": "RB",
 "team": "MIN"
@@ -1263,7 +1263,7 @@
 },
 "12495": {
 "first_seen": "2026-09-18",
-"last_seen": "2026-09-30",
+"last_seen": "2026-10-01",
 "name": "Ollie Gordon",
 "pos": "RB",
 "team": "MIA"
@@ -2376,7 +2376,7 @@
 },
 "13330": {
 "first_seen": "2026-09-18",
-"last_seen": "2026-09-30",
+"last_seen": "2026-10-01",
 "name": "Kenyon Sadiq",
 "pos": "TE",
 "team": "NYJ"
@@ -3356,7 +3356,7 @@
 },
 "3257": {
 "first_seen": "2026-09-18",
-"last_seen": "2026-09-30",
+"last_seen": "2026-10-01",
 "name": "Jacoby Brissett",
 "pos": "QB",
 "team": "ARI"
@@ -3454,7 +3454,7 @@
 },
 "4017": {
 "first_seen": "2026-09-18",
-"last_seen": "2026-09-30",
+"last_seen": "2026-10-01",
 "name": "Deshaun Watson",
 "pos": "QB",
 "team": "CLE"
@@ -4504,7 +4504,7 @@
 },
 "7002": {
 "first_seen": "2026-09-18",
-"last_seen": "2026-09-30",
+"last_seen": "2026-10-01",
 "name": "Juwan Johnson",
 "pos": "TE",
 "team": "NO"
@@ -5904,7 +5904,7 @@
 },
 "ARI": {
 "first_seen": "2026-09-18",
-"last_seen": "2026-09-30",
+"last_seen": "2026-10-01",
 "name": "ARI DEF",
 "pos": "DEF",
 "team": "ARI"
@@ -5953,7 +5953,7 @@
 },
 "CLE": {
 "first_seen": "2026-09-18",
-"last_seen": "2026-09-30",
+"last_seen": "2026-10-01",
 "name": "CLE DEF",
 "pos": "DEF",
 "team": "CLE"
@@ -6030,7 +6030,7 @@
 },
 "LV": {
 "first_seen": "2026-09-18",
-"last_seen": "2026-09-30",
+"last_seen": "2026-10-01",
 "name": "LV DEF",
 "pos": "DEF",
 "team": "LV"
@@ -6127,5 +6127,5 @@
 "team": "WAS"
 }
 },
-"updated_utc": "2026-10-01T01:14:22Z"
+"updated_utc": "2026-10-01T11:11:53Z"
 }

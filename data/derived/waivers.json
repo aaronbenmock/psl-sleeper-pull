@@ -15,20 +15,20 @@
    "ros": 8.4,
    "ros_how": "model+season",
    "value": 7.72,
-   "gain": 0.79,
+   "gain": 0.93,
    "starter_gain": 0.0,
-   "depth_gain": 0.79,
+   "depth_gain": 0.93,
    "trending": 996476,
    "injury_status": null,
    "would_start": false,
    "drop": {
-    "player_id": "12048",
-    "name": "George Holani",
+    "player_id": "12495",
+    "name": "Ollie Gordon",
     "pos": "RB",
-    "ros": 5.23
+    "ros": 4.66
    },
-   "bid": 9,
-   "bid_why": "0.8 pts/week x 14 weeks left x $0.60 per point, x1.14 demand premium (996,476 Sleeper adds in 72h; the hottest player on the wire has 11,901,393), x1.15 early-season premium (everyone still has a full budget)",
+   "bid": 10,
+   "bid_why": "0.9 pts/week x 14 weeks left x $0.60 per point, x1.14 demand premium (996,476 Sleeper adds in 72h; the hottest player on the wire has 11,901,393), x1.15 early-season premium (everyone still has a full budget)",
    "ceiling": 10.2,
    "ceiling_gap": 1.8,
    "ceiling_gain": 0.72,
@@ -43,7 +43,7 @@
     ]
    },
    "ceiling_why": "Alec Pierce out now: about +1.8 a week of vacated usage. Ceiling 10.2 a week vs 8.4 expected.",
-   "why": "Rest-of-season value about 8.4 a week (model+season; next week 7.04). He would not start over anyone you have, so the gain is depth only: +0.8 a week (a quarter of his edge over George Holani).",
+   "why": "Rest-of-season value about 8.4 a week (model+season; next week 7.04). He would not start over anyone you have, so the gain is depth only: +0.9 a week (a quarter of his edge over Ollie Gordon).",
    "threats": [
     {
      "roster_id": 11,
@@ -61,7 +61,7 @@
     {
      "roster_id": 7,
      "team": "Cheeky Nando\u2019s",
-     "remaining": 194,
+     "remaining": 186,
      "score": 4.5,
      "why": [
       "starter Puka Nacua Questionable",
@@ -69,8 +69,9 @@
       "just dropped Malachi Fields",
       "has bid on a WR before"
      ],
-     "usual_bid": 1,
+     "usual_bid": 8,
      "repeated": [
+      8,
       1
      ],
      "pos_max": 1
@@ -78,30 +79,32 @@
     {
      "roster_id": 1,
      "team": "tacocats",
-     "remaining": 153,
-     "score": 2.5,
+     "remaining": 140,
+     "score": 3.5,
      "why": [
       "owns Josh Downs, the IND WR1 (handcuff interest)",
+      "starter Ladd McConkey Questionable",
       "just dropped Caleb Douglas",
       "has bid on a WR before"
      ],
-     "usual_bid": 1,
+     "usual_bid": 13,
      "repeated": [
+      13,
       1
      ],
      "pos_max": 12
     }
    ],
-   "league_bid": 8,
-   "league_bid_why": "$12 market (median winning bid of each run's most-contested player (n=3), 4 likely bidders counting you), held to $7, what he is worth to you; x1.21 budget pace: $200 of $200 left with 14 of 17 weeks to go, and you usually finish with FAAB unspent, so bids are scaled up to spend it down toward $0",
-   "value_cap": 7,
-   "market": 12,
-   "market_basis": "median winning bid of each run's most-contested player (n=3)",
+   "league_bid": 9,
+   "league_bid_why": "$29.5 market (median winning bid of each run's most-contested player (n=4), 4 likely bidders counting you), held to $8, what he is worth to you; x1.21 budget pace: $200 of $200 left with 14 of 17 weeks to go, and you usually finish with FAAB unspent, so bids are scaled up to spend it down toward $0",
+   "value_cap": 8,
+   "market": 29.5,
+   "market_basis": "median winning bid of each run's most-contested player (n=4)",
    "pace": 1.21,
-   "comparable": "Thu Sep 24 run's top WR add: Adonai Mitchell went $26 to Be Safe, Get Jaxcinated with 3 bidders (losing: ScampDaddy $16, tacocats $0).",
-   "comparable_bid": 26,
-   "to_beat": 14,
-   "to_beat_why": "$14: $2 over tacocats, who has bid as much as $12 on a WR",
+   "comparable": "Thu Oct 1 run's top WR add: Keenan Allen went $23 to ScampDaddy with 3 bidders (losing: ValKilmersComeback $17, Be Safe, Get Jaxcinated $14).",
+   "comparable_bid": 23,
+   "to_beat": 15,
+   "to_beat_why": "$15: $2 over tacocats, who has bid $13 more than once",
    "to_beat_within_value": false
   },
   {
@@ -115,23 +118,23 @@
    "ros": 8.42,
    "ros_how": "model+season",
    "value": 8.06,
-   "gain": 0.8,
+   "gain": 0.94,
    "starter_gain": 0.0,
-   "depth_gain": 0.8,
+   "depth_gain": 0.94,
    "trending": 72073,
    "injury_status": null,
    "would_start": false,
    "drop": {
-    "player_id": "12048",
-    "name": "George Holani",
+    "player_id": "12495",
+    "name": "Ollie Gordon",
     "pos": "RB",
-    "ros": 5.23
+    "ros": 4.66
    },
-   "bid": 8,
-   "bid_why": "0.8 pts/week x 14 weeks left x $0.60 per point, x1.04 demand premium (72,073 Sleeper adds in 72h; the hottest player on the wire has 11,901,393), x1.15 early-season premium (everyone still has a full budget)",
+   "bid": 9,
+   "bid_why": "0.9 pts/week x 14 weeks left x $0.60 per point, x1.04 demand premium (72,073 Sleeper adds in 72h; the hottest player on the wire has 11,901,393), x1.15 early-season premium (everyone still has a full budget)",
    "ceiling": 8.42,
    "ceiling_gap": 0.0,
-   "ceiling_gain": 0.8,
+   "ceiling_gain": 0.94,
    "ceiling_sig": {
     "bump_now": 0.0,
     "bump_if_lead": 0.0,
@@ -141,12 +144,12 @@
     "out_now": []
    },
    "ceiling_why": "No role-change upside measured.",
-   "why": "Rest-of-season value about 8.4 a week (model+season; next week 7.7). He would not start over anyone you have, so the gain is depth only: +0.8 a week (a quarter of his edge over George Holani).",
+   "why": "Rest-of-season value about 8.4 a week (model+season; next week 7.7). He would not start over anyone you have, so the gain is depth only: +0.9 a week (a quarter of his edge over Ollie Gordon).",
    "threats": [
     {
      "roster_id": 7,
      "team": "Cheeky Nando\u2019s",
-     "remaining": 194,
+     "remaining": 186,
      "score": 4.5,
      "why": [
       "starter Puka Nacua Questionable",
@@ -154,51 +157,58 @@
       "just dropped Malachi Fields",
       "has bid on a WR before"
      ],
-     "usual_bid": 1,
+     "usual_bid": 8,
      "repeated": [
+      8,
       1
      ],
      "pos_max": 1
     },
     {
-     "roster_id": 6,
-     "team": "ScampDaddy",
-     "remaining": 194,
-     "score": 1.5,
+     "roster_id": 9,
+     "team": "Girthenheimer",
+     "remaining": 167,
+     "score": 2.5,
      "why": [
-      "just dropped Wan'Dale Robinson",
+      "starter DJ Moore Questionable, Zay Flowers Questionable",
+      "just dropped Tyreek Hill",
       "has bid on a WR before"
      ],
-     "usual_bid": 16,
+     "usual_bid": 3,
      "repeated": [
-      16
+      15,
+      3
      ],
-     "pos_max": 16
+     "pos_max": 8
     },
     {
-     "roster_id": 2,
-     "team": "Amateur Hour",
-     "remaining": 193,
-     "score": 1.5,
+     "roster_id": 1,
+     "team": "tacocats",
+     "remaining": 140,
+     "score": 2.5,
      "why": [
-      "owns Carnell Tate, the TEN WR1 (handcuff interest)",
+      "starter Ladd McConkey Questionable",
+      "just dropped Caleb Douglas",
       "has bid on a WR before"
      ],
-     "usual_bid": 7,
-     "repeated": [],
-     "pos_max": 7
+     "usual_bid": 13,
+     "repeated": [
+      13,
+      1
+     ],
+     "pos_max": 12
     }
    ],
-   "league_bid": 8,
-   "league_bid_why": "$12 market (median winning bid of each run's most-contested player (n=3), 4 likely bidders counting you), held to $7, what he is worth to you; x1.21 budget pace: $200 of $200 left with 14 of 17 weeks to go, and you usually finish with FAAB unspent, so bids are scaled up to spend it down toward $0",
-   "value_cap": 7,
-   "market": 12,
-   "market_basis": "median winning bid of each run's most-contested player (n=3)",
+   "league_bid": 10,
+   "league_bid_why": "$29.5 market (median winning bid of each run's most-contested player (n=4), 4 likely bidders counting you), held to $8, what he is worth to you; x1.21 budget pace: $200 of $200 left with 14 of 17 weeks to go, and you usually finish with FAAB unspent, so bids are scaled up to spend it down toward $0",
+   "value_cap": 8,
+   "market": 29.5,
+   "market_basis": "median winning bid of each run's most-contested player (n=4)",
    "pace": 1.21,
-   "comparable": "Thu Sep 24 run's top WR add: Adonai Mitchell went $26 to Be Safe, Get Jaxcinated with 3 bidders (losing: ScampDaddy $16, tacocats $0).",
-   "comparable_bid": 26,
-   "to_beat": 18,
-   "to_beat_why": "$18: $2 over ScampDaddy, who has bid $16 more than once",
+   "comparable": "Thu Oct 1 run's top WR add: Keenan Allen went $23 to ScampDaddy with 3 bidders (losing: ValKilmersComeback $17, Be Safe, Get Jaxcinated $14).",
+   "comparable_bid": 23,
+   "to_beat": 17,
+   "to_beat_why": "$17: $2 over Girthenheimer, who has bid $15 more than once",
    "to_beat_within_value": false
   },
   {
@@ -236,59 +246,474 @@
     {
      "roster_id": 9,
      "team": "Girthenheimer",
-     "remaining": 175,
+     "remaining": 167,
      "score": 1.5,
      "why": [
-      "just dropped TB DEF, CHI DEF",
+      "just dropped CHI DEF, CIN DEF",
       "has bid on a DEF before"
      ],
-     "usual_bid": 5.0,
-     "repeated": [],
+     "usual_bid": 3,
+     "repeated": [
+      15,
+      3
+     ],
      "pos_max": 10
     },
     {
      "roster_id": 1,
      "team": "tacocats",
-     "remaining": 153,
+     "remaining": 140,
      "score": 1.5,
      "why": [
-      "just dropped SF DEF",
+      "just dropped SF DEF, NYG DEF",
       "has bid on a DEF before"
      ],
-     "usual_bid": 1,
+     "usual_bid": 13,
      "repeated": [
+      13,
       1
      ],
      "pos_max": 28
     },
     {
-     "roster_id": 4,
-     "team": "City of Champyinz",
-     "remaining": 135,
+     "roster_id": 2,
+     "team": "Amateur Hour",
+     "remaining": 94,
      "score": 1.5,
      "why": [
-      "just dropped JAX DEF",
+      "just dropped PHI DEF",
       "has bid on a DEF before"
      ],
-     "usual_bid": 32.5,
-     "repeated": [],
-     "pos_max": 0
+     "usual_bid": 7,
+     "repeated": [
+      7,
+      3
+     ],
+     "pos_max": 3
     }
    ],
    "league_bid": 7,
-   "league_bid_why": "$12 market (median winning bid of each run's most-contested player (n=3), 4 likely bidders counting you), held to $6, what he is worth to you; x1.21 budget pace: $200 of $200 left with 14 of 17 weeks to go, and you usually finish with FAAB unspent, so bids are scaled up to spend it down toward $0",
+   "league_bid_why": "$29.5 market (median winning bid of each run's most-contested player (n=4), 4 likely bidders counting you), held to $6, what he is worth to you; x1.21 budget pace: $200 of $200 left with 14 of 17 weeks to go, and you usually finish with FAAB unspent, so bids are scaled up to spend it down toward $0",
    "value_cap": 6,
-   "market": 12,
-   "market_basis": "median winning bid of each run's most-contested player (n=3)",
+   "market": 29.5,
+   "market_basis": "median winning bid of each run's most-contested player (n=4)",
    "pace": 1.21,
-   "comparable": "Thu Sep 24 run's top DEF add: PIT DEF went $31 to Derrelick my Balls with 1 bidder.",
-   "comparable_bid": 31,
+   "comparable": "Thu Oct 1 run's top DEF add: CHI DEF went $13 to tacocats with 3 bidders (losing: Be Safe, Get Jaxcinated $4, Girthenheimer $3).",
+   "comparable_bid": 13,
    "to_beat": 30,
    "to_beat_why": "$30: $2 over tacocats, who has bid as much as $28 on a DEF",
    "to_beat_within_value": false
-  }
- ],
- "flyers": [
+  },
+  {
+   "player_id": "12472",
+   "name": "Raheim Sanders",
+   "pos": "RB",
+   "team": "CLE",
+   "opp_next": "PIT",
+   "next_proj": 4.41,
+   "last_actual": 9.45,
+   "ros": 7.21,
+   "ros_how": "model+season",
+   "value": 5.81,
+   "gain": 0.64,
+   "starter_gain": 0.0,
+   "depth_gain": 0.64,
+   "trending": 267832,
+   "injury_status": null,
+   "would_start": false,
+   "drop": {
+    "player_id": "12495",
+    "name": "Ollie Gordon",
+    "pos": "RB",
+    "ros": 4.66
+   },
+   "bid": 7,
+   "bid_why": "0.6 pts/week x 14 weeks left x $0.60 per point, x1.08 demand premium (267,832 Sleeper adds in 72h; the hottest player on the wire has 11,901,393), x1.15 early-season premium (everyone still has a full budget)",
+   "ceiling": 12.3,
+   "ceiling_gap": 5.09,
+   "ceiling_gain": 3.64,
+   "ceiling_sig": {
+    "bump_now": 0.73,
+    "bump_if_lead": 5.09,
+    "lead": "00-0040784",
+    "lead_name": "Quinshon Judkins",
+    "bump": 5.09,
+    "out_now": [
+     "Dylan Sampson"
+    ],
+    "lead_sleeper_id": "12512"
+   },
+   "ceiling_why": "Dylan Sampson out now: about +0.7 a week of vacated usage; if Quinshon Judkins misses time: about +5.1 a week. Ceiling 12.3 a week vs 7.2 expected.",
+   "why": "Rest-of-season value about 7.2 a week (model+season; next week 4.41). He would not start over anyone you have, so the gain is depth only: +0.6 a week (a quarter of his edge over Ollie Gordon).",
+   "threats": [
+    {
+     "roster_id": 5,
+     "team": "Eazy E Squad",
+     "remaining": 200,
+     "score": 4.0,
+     "why": [
+      "owns Dylan Sampson (IR), the CLE RB he would replace"
+     ],
+     "usual_bid": null,
+     "repeated": [],
+     "pos_max": null
+    },
+    {
+     "roster_id": 9,
+     "team": "Girthenheimer",
+     "remaining": 167,
+     "score": 3.5,
+     "why": [
+      "starter ruled out or put on IR this week: Breece Hall (Out)",
+      "just dropped Emanuel Wilson",
+      "has bid on a RB before"
+     ],
+     "usual_bid": 3,
+     "repeated": [
+      15,
+      3
+     ],
+     "pos_max": 18
+    },
+    {
+     "roster_id": 2,
+     "team": "Amateur Hour",
+     "remaining": 94,
+     "score": 3.5,
+     "why": [
+      "starter ruled out or put on IR this week: De'Von Achane (IR), Travis Etienne (Out)",
+      "just dropped De'Von Achane",
+      "has bid on a RB before"
+     ],
+     "usual_bid": 7,
+     "repeated": [
+      7,
+      3
+     ],
+     "pos_max": 53
+    }
+   ],
+   "league_bid": 7,
+   "league_bid_why": "$29.5 market (median winning bid of each run's most-contested player (n=4), 4 likely bidders counting you), held to $5, what he is worth to you; x1.21 budget pace: $200 of $200 left with 14 of 17 weeks to go, and you usually finish with FAAB unspent, so bids are scaled up to spend it down toward $0",
+   "value_cap": 5,
+   "market": 29.5,
+   "market_basis": "median winning bid of each run's most-contested player (n=4)",
+   "pace": 1.21,
+   "comparable": "Thu Oct 1 run's top RB add: Jaylen Wright went $53 to Amateur Hour with 2 bidders (losing: Girthenheimer $18).",
+   "comparable_bid": 53,
+   "to_beat": 55,
+   "to_beat_why": "$55: $2 over Amateur Hour, who has bid as much as $53 on a RB",
+   "to_beat_within_value": false
+  },
+  {
+   "player_id": "4039",
+   "name": "Cooper Kupp",
+   "pos": "WR",
+   "team": "SEA",
+   "opp_next": "LAC",
+   "next_proj": 5.18,
+   "last_actual": 12.6,
+   "ros": 7.23,
+   "ros_how": "model+season",
+   "value": 6.2,
+   "gain": 0.64,
+   "starter_gain": 0.0,
+   "depth_gain": 0.64,
+   "trending": 58668,
+   "injury_status": null,
+   "would_start": false,
+   "drop": {
+    "player_id": "12495",
+    "name": "Ollie Gordon",
+    "pos": "RB",
+    "ros": 4.66
+   },
+   "bid": 6,
+   "bid_why": "0.6 pts/week x 14 weeks left x $0.60 per point, x1.04 demand premium (58,668 Sleeper adds in 72h; the hottest player on the wire has 11,901,393), x1.15 early-season premium (everyone still has a full budget)",
+   "ceiling": 13.65,
+   "ceiling_gap": 6.42,
+   "ceiling_gain": 4.17,
+   "ceiling_sig": {
+    "bump_now": 0.74,
+    "bump_if_lead": 6.42,
+    "lead": "00-0038543",
+    "lead_name": "Jaxon Smith-Njigba",
+    "bump": 6.42,
+    "out_now": [
+     "Jake Bobo"
+    ],
+    "lead_sleeper_id": "9488"
+   },
+   "ceiling_why": "Jake Bobo out now: about +0.7 a week of vacated usage; if Jaxon Smith-Njigba misses time: about +6.4 a week. Ceiling 13.6 a week vs 7.2 expected.",
+   "why": "Rest-of-season value about 7.2 a week (model+season; next week 5.18). He would not start over anyone you have, so the gain is depth only: +0.6 a week (a quarter of his edge over Ollie Gordon).",
+   "threats": [
+    {
+     "roster_id": 7,
+     "team": "Cheeky Nando\u2019s",
+     "remaining": 186,
+     "score": 4.5,
+     "why": [
+      "starter Puka Nacua Questionable",
+      "starter ruled out or put on IR this week: Mike Evans (Out)",
+      "just dropped Malachi Fields",
+      "has bid on a WR before"
+     ],
+     "usual_bid": 8,
+     "repeated": [
+      8,
+      1
+     ],
+     "pos_max": 1
+    },
+    {
+     "roster_id": 3,
+     "team": "Be Safe, Get Jaxcinated",
+     "remaining": 174,
+     "score": 2.5,
+     "why": [
+      "owns Jaxon Smith-Njigba, the SEA WR1 (handcuff interest)",
+      "just dropped Jayden Reed",
+      "has bid on a WR before"
+     ],
+     "usual_bid": 26,
+     "repeated": [],
+     "pos_max": 26
+    },
+    {
+     "roster_id": 9,
+     "team": "Girthenheimer",
+     "remaining": 167,
+     "score": 2.5,
+     "why": [
+      "starter DJ Moore Questionable, Zay Flowers Questionable",
+      "just dropped Tyreek Hill",
+      "has bid on a WR before"
+     ],
+     "usual_bid": 3,
+     "repeated": [
+      15,
+      3
+     ],
+     "pos_max": 8
+    }
+   ],
+   "league_bid": 7,
+   "league_bid_why": "$29.5 market (median winning bid of each run's most-contested player (n=4), 4 likely bidders counting you), held to $5, what he is worth to you; x1.21 budget pace: $200 of $200 left with 14 of 17 weeks to go, and you usually finish with FAAB unspent, so bids are scaled up to spend it down toward $0",
+   "value_cap": 5,
+   "market": 29.5,
+   "market_basis": "median winning bid of each run's most-contested player (n=4)",
+   "pace": 1.21,
+   "comparable": "Thu Oct 1 run's top WR add: Keenan Allen went $23 to ScampDaddy with 3 bidders (losing: ValKilmersComeback $17, Be Safe, Get Jaxcinated $14).",
+   "comparable_bid": 23,
+   "to_beat": 28,
+   "to_beat_why": "$28: $2 over Be Safe, Get Jaxcinated, who has bid as much as $26 on a WR",
+   "to_beat_within_value": false
+  },
+  {
+   "player_id": "11608",
+   "name": "Isaiah Williams",
+   "pos": "WR",
+   "team": "NYJ",
+   "opp_next": "CHI",
+   "next_proj": 4.61,
+   "last_actual": 7.35,
+   "ros": 7.13,
+   "ros_how": "model+season",
+   "value": 5.87,
+   "gain": 0.62,
+   "starter_gain": 0.0,
+   "depth_gain": 0.62,
+   "trending": 0,
+   "injury_status": null,
+   "would_start": false,
+   "drop": {
+    "player_id": "12495",
+    "name": "Ollie Gordon",
+    "pos": "RB",
+    "ros": 4.66
+   },
+   "bid": 6,
+   "bid_why": "0.6 pts/week x 14 weeks left x $0.60 per point, x1.15 early-season premium (everyone still has a full budget)",
+   "ceiling": 10.48,
+   "ceiling_gap": 3.35,
+   "ceiling_gain": 1.0,
+   "ceiling_sig": {
+    "bump_now": 0.7,
+    "bump_if_lead": 3.35,
+    "lead": "00-0037740",
+    "lead_name": "Garrett Wilson",
+    "bump": 3.35,
+    "out_now": [
+     "Adonai Mitchell",
+     "Arian Smith",
+     "Omar Cooper Jr."
+    ],
+    "lead_sleeper_id": "8146"
+   },
+   "ceiling_why": "Adonai Mitchell, Arian Smith out now: about +0.7 a week of vacated usage; if Garrett Wilson misses time: about +3.4 a week. Ceiling 10.5 a week vs 7.1 expected.",
+   "why": "Rest-of-season value about 7.1 a week (model+season; next week 4.61). He would not start over anyone you have, so the gain is depth only: +0.6 a week (a quarter of his edge over Ollie Gordon).",
+   "threats": [
+    {
+     "roster_id": 3,
+     "team": "Be Safe, Get Jaxcinated",
+     "remaining": 174,
+     "score": 5.5,
+     "why": [
+      "owns Adonai Mitchell (Doubtful), the NYJ WR he would replace",
+      "just dropped Jayden Reed",
+      "has bid on a WR before"
+     ],
+     "usual_bid": 26,
+     "repeated": [],
+     "pos_max": 26
+    },
+    {
+     "roster_id": 5,
+     "team": "Eazy E Squad",
+     "remaining": 200,
+     "score": 5.0,
+     "why": [
+      "owns Omar Cooper (IR), the NYJ WR he would replace",
+      "starter Jalen Coker Questionable, Justin Jefferson Questionable"
+     ],
+     "usual_bid": null,
+     "repeated": [],
+     "pos_max": null
+    },
+    {
+     "roster_id": 7,
+     "team": "Cheeky Nando\u2019s",
+     "remaining": 186,
+     "score": 4.5,
+     "why": [
+      "starter Puka Nacua Questionable",
+      "starter ruled out or put on IR this week: Mike Evans (Out)",
+      "just dropped Malachi Fields",
+      "has bid on a WR before"
+     ],
+     "usual_bid": 8,
+     "repeated": [
+      8,
+      1
+     ],
+     "pos_max": 1
+    }
+   ],
+   "league_bid": 6,
+   "league_bid_why": "$29.5 market (median winning bid of each run's most-contested player (n=4), 4 likely bidders counting you), held to $5, what he is worth to you; x1.21 budget pace: $200 of $200 left with 14 of 17 weeks to go, and you usually finish with FAAB unspent, so bids are scaled up to spend it down toward $0",
+   "value_cap": 5,
+   "market": 29.5,
+   "market_basis": "median winning bid of each run's most-contested player (n=4)",
+   "pace": 1.21,
+   "comparable": "Thu Oct 1 run's top WR add: Keenan Allen went $23 to ScampDaddy with 3 bidders (losing: ValKilmersComeback $17, Be Safe, Get Jaxcinated $14).",
+   "comparable_bid": 23,
+   "to_beat": 28,
+   "to_beat_why": "$28: $2 over Be Safe, Get Jaxcinated, who has bid as much as $26 on a WR",
+   "to_beat_within_value": false
+  },
+  {
+   "player_id": "9757",
+   "name": "Kendre Miller",
+   "pos": "RB",
+   "team": "NO",
+   "opp_next": "ATL",
+   "next_proj": 6.58,
+   "last_actual": 2.8,
+   "ros": 6.8,
+   "ros_how": "model+season",
+   "value": 6.69,
+   "gain": 0.53,
+   "starter_gain": 0.0,
+   "depth_gain": 0.53,
+   "trending": 440746,
+   "injury_status": null,
+   "would_start": false,
+   "drop": {
+    "player_id": "12495",
+    "name": "Ollie Gordon",
+    "pos": "RB",
+    "ros": 4.66
+   },
+   "bid": 6,
+   "bid_why": "0.5 pts/week x 14 weeks left x $0.60 per point, x1.10 demand premium (440,746 Sleeper adds in 72h; the hottest player on the wire has 11,901,393), x1.15 early-season premium (everyone still has a full budget)",
+   "ceiling": 11.65,
+   "ceiling_gap": 4.85,
+   "ceiling_gain": 2.99,
+   "ceiling_sig": {
+    "bump_now": 1.71,
+    "bump_if_lead": 4.85,
+    "lead": "00-0033906",
+    "lead_name": "Alvin Kamara",
+    "bump": 4.85,
+    "out_now": [
+     "Travis Etienne"
+    ],
+    "lead_sleeper_id": "4035"
+   },
+   "ceiling_why": "Travis Etienne out now: about +1.7 a week of vacated usage; if Alvin Kamara misses time: about +4.8 a week. Ceiling 11.6 a week vs 6.8 expected.",
+   "why": "Rest-of-season value about 6.8 a week (model+season; next week 6.58). He would not start over anyone you have, so the gain is depth only: +0.5 a week (a quarter of his edge over Ollie Gordon).",
+   "threats": [
+    {
+     "roster_id": 2,
+     "team": "Amateur Hour",
+     "remaining": 94,
+     "score": 8.5,
+     "why": [
+      "owns Alvin Kamara, the NO RB1 (handcuff interest)",
+      "owns Travis Etienne (Out), the NO RB he would replace",
+      "starter ruled out or put on IR this week: De'Von Achane (IR)",
+      "just dropped De'Von Achane",
+      "has bid on a RB before"
+     ],
+     "usual_bid": 7,
+     "repeated": [
+      7,
+      3
+     ],
+     "pos_max": 53
+    },
+    {
+     "roster_id": 9,
+     "team": "Girthenheimer",
+     "remaining": 167,
+     "score": 3.5,
+     "why": [
+      "starter ruled out or put on IR this week: Breece Hall (Out)",
+      "just dropped Emanuel Wilson",
+      "has bid on a RB before"
+     ],
+     "usual_bid": 3,
+     "repeated": [
+      15,
+      3
+     ],
+     "pos_max": 18
+    },
+    {
+     "roster_id": 12,
+     "team": "Baker\u2019s Dozen",
+     "remaining": 200,
+     "score": 1.0,
+     "why": [
+      "starter Bucky Irving Questionable, Tony Pollard Questionable"
+     ],
+     "usual_bid": null,
+     "repeated": [],
+     "pos_max": null
+    }
+   ],
+   "league_bid": 5,
+   "league_bid_why": "$29.5 market (median winning bid of each run's most-contested player (n=4), 4 likely bidders counting you), held to $4, what he is worth to you; x1.21 budget pace: $200 of $200 left with 14 of 17 weeks to go, and you usually finish with FAAB unspent, so bids are scaled up to spend it down toward $0",
+   "value_cap": 4,
+   "market": 29.5,
+   "market_basis": "median winning bid of each run's most-contested player (n=4)",
+   "pace": 1.21,
+   "comparable": "Thu Oct 1 run's top RB add: Jaylen Wright went $53 to Amateur Hour with 2 bidders (losing: Girthenheimer $18).",
+   "comparable_bid": 53,
+   "to_beat": 55,
+   "to_beat_why": "$55: $2 over Amateur Hour, who has bid as much as $53 on a RB",
+   "to_beat_within_value": false
+  },
   {
    "player_id": "7528",
    "name": "Najee Harris",
@@ -300,20 +725,20 @@
    "ros": 6.83,
    "ros_how": "model+season",
    "value": 5.69,
-   "gain": 0.4,
+   "gain": 0.54,
    "starter_gain": 0.0,
-   "depth_gain": 0.4,
+   "depth_gain": 0.54,
    "trending": 94005,
    "injury_status": null,
    "would_start": false,
    "drop": {
-    "player_id": "12048",
-    "name": "George Holani",
+    "player_id": "12495",
+    "name": "Ollie Gordon",
     "pos": "RB",
-    "ros": 5.23
+    "ros": 4.66
    },
-   "bid": 0,
-   "bid_why": "gain under 0.5 points per week, not worth a claim",
+   "bid": 5,
+   "bid_why": "0.5 pts/week x 14 weeks left x $0.60 per point, x1.04 demand premium (94,005 Sleeper adds in 72h; the hottest player on the wire has 11,901,393), x1.15 early-season premium (everyone still has a full budget)",
    "ceiling": 9.39,
    "ceiling_gap": 2.56,
    "ceiling_gain": 0.73,
@@ -327,7 +752,108 @@
     "lead_sleeper_id": "12481"
    },
    "ceiling_why": "if Cam Skattebo misses time: about +2.6 a week. Ceiling 9.4 a week vs 6.8 expected.",
-   "why": "Rest-of-season value about 6.8 a week (model+season; next week 4.56). He would not start over anyone you have, so the gain is depth only: +0.4 a week (a quarter of his edge over George Holani)."
+   "why": "Rest-of-season value about 6.8 a week (model+season; next week 4.56). He would not start over anyone you have, so the gain is depth only: +0.5 a week (a quarter of his edge over Ollie Gordon).",
+   "threats": [
+    {
+     "roster_id": 9,
+     "team": "Girthenheimer",
+     "remaining": 167,
+     "score": 3.5,
+     "why": [
+      "starter ruled out or put on IR this week: Breece Hall (Out)",
+      "just dropped Emanuel Wilson",
+      "has bid on a RB before"
+     ],
+     "usual_bid": 3,
+     "repeated": [
+      15,
+      3
+     ],
+     "pos_max": 18
+    },
+    {
+     "roster_id": 2,
+     "team": "Amateur Hour",
+     "remaining": 94,
+     "score": 3.5,
+     "why": [
+      "starter ruled out or put on IR this week: De'Von Achane (IR), Travis Etienne (Out)",
+      "just dropped De'Von Achane",
+      "has bid on a RB before"
+     ],
+     "usual_bid": 7,
+     "repeated": [
+      7,
+      3
+     ],
+     "pos_max": 53
+    },
+    {
+     "roster_id": 12,
+     "team": "Baker\u2019s Dozen",
+     "remaining": 200,
+     "score": 1.0,
+     "why": [
+      "starter Bucky Irving Questionable, Tony Pollard Questionable"
+     ],
+     "usual_bid": null,
+     "repeated": [],
+     "pos_max": null
+    }
+   ],
+   "league_bid": 5,
+   "league_bid_why": "$29.5 market (median winning bid of each run's most-contested player (n=4), 4 likely bidders counting you), held to $5, what he is worth to you; x1.21 budget pace: $200 of $200 left with 14 of 17 weeks to go, and you usually finish with FAAB unspent, so bids are scaled up to spend it down toward $0",
+   "value_cap": 5,
+   "market": 29.5,
+   "market_basis": "median winning bid of each run's most-contested player (n=4)",
+   "pace": 1.21,
+   "comparable": "Thu Oct 1 run's top RB add: Jaylen Wright went $53 to Amateur Hour with 2 bidders (losing: Girthenheimer $18).",
+   "comparable_bid": 53,
+   "to_beat": 55,
+   "to_beat_why": "$55: $2 over Amateur Hour, who has bid as much as $53 on a RB",
+   "to_beat_within_value": false
+  }
+ ],
+ "flyers": [
+  {
+   "player_id": "6039",
+   "name": "Ty Johnson",
+   "pos": "RB",
+   "team": "BUF",
+   "opp_next": "NE",
+   "next_proj": 4.27,
+   "last_actual": 7.0,
+   "ros": 6.26,
+   "ros_how": "model+season",
+   "value": 5.26,
+   "gain": 0.4,
+   "starter_gain": 0.0,
+   "depth_gain": 0.4,
+   "trending": 87222,
+   "injury_status": null,
+   "would_start": false,
+   "drop": {
+    "player_id": "12495",
+    "name": "Ollie Gordon",
+    "pos": "RB",
+    "ros": 4.66
+   },
+   "bid": 0,
+   "bid_why": "gain under 0.5 points per week, not worth a claim",
+   "ceiling": 6.26,
+   "ceiling_gap": 0.0,
+   "ceiling_gain": 0.4,
+   "ceiling_sig": {
+    "bump_now": 0.0,
+    "bump_if_lead": 0.0,
+    "lead": "00-0037248",
+    "lead_name": "James Cook",
+    "bump": 0.0,
+    "out_now": [],
+    "lead_sleeper_id": "8138"
+   },
+   "ceiling_why": "No role-change upside measured.",
+   "why": "Rest-of-season value about 6.3 a week (model+season; next week 4.27). He would not start over anyone you have, so the gain is depth only: +0.4 a week (a quarter of his edge over Ollie Gordon)."
   },
   {
    "player_id": "1166",
@@ -347,10 +873,10 @@
    "injury_status": null,
    "would_start": false,
    "drop": {
-    "player_id": "12048",
-    "name": "George Holani",
+    "player_id": "12495",
+    "name": "Ollie Gordon",
     "pos": "RB",
-    "ros": 5.23
+    "ros": 4.66
    },
    "bid": 0,
    "bid_why": "gain under 0.5 points per week, not worth a claim",
@@ -359,212 +885,135 @@
    "ceiling_gain": 0.38,
    "ceiling_sig": null,
    "ceiling_why": null,
-   "why": "Rest-of-season value about 19.1 a week (model+season; next week 17.67). He would not start over anyone you have, so the gain is depth only: +0.4 a week (a quarter of his edge over George Holani, or just the bye week for a second QB)."
+   "why": "Rest-of-season value about 19.1 a week (model+season; next week 17.67). He would not start over anyone you have, so the gain is depth only: +0.4 a week (a quarter of his edge over Ollie Gordon, or just the bye week for a second QB)."
   },
   {
-   "player_id": "4017",
-   "name": "Deshaun Watson",
-   "pos": "QB",
-   "team": "CLE",
-   "opp_next": "PIT",
-   "next_proj": 17.71,
-   "last_actual": 24.26,
-   "ros": 17.91,
+   "player_id": "11630",
+   "name": "Roman Wilson",
+   "pos": "WR",
+   "team": "PIT",
+   "opp_next": "CLE",
+   "next_proj": 4.17,
+   "last_actual": 13.5,
+   "ros": 6.09,
    "ros_how": "model+season",
-   "value": 17.81,
-   "gain": 0.29,
+   "value": 5.13,
+   "gain": 0.36,
    "starter_gain": 0.0,
-   "depth_gain": 0.29,
-   "trending": 417016,
+   "depth_gain": 0.36,
+   "trending": 641088,
    "injury_status": null,
    "would_start": false,
    "drop": {
-    "player_id": "12048",
-    "name": "George Holani",
+    "player_id": "12495",
+    "name": "Ollie Gordon",
     "pos": "RB",
-    "ros": 5.23
+    "ros": 4.66
    },
    "bid": 0,
    "bid_why": "gain under 0.5 points per week, not worth a claim",
-   "ceiling": null,
-   "ceiling_gap": null,
-   "ceiling_gain": 0.29,
-   "ceiling_sig": null,
-   "ceiling_why": null,
-   "why": "Rest-of-season value about 17.9 a week (model+season; next week 17.71). He would not start over anyone you have, so the gain is depth only: +0.3 a week (a quarter of his edge over George Holani, or just the bye week for a second QB)."
-  },
-  {
-   "player_id": "6039",
-   "name": "Ty Johnson",
-   "pos": "RB",
-   "team": "BUF",
-   "opp_next": "NE",
-   "next_proj": 4.27,
-   "last_actual": 7.0,
-   "ros": 6.26,
-   "ros_how": "model+season",
-   "value": 5.26,
-   "gain": 0.26,
-   "starter_gain": 0.0,
-   "depth_gain": 0.26,
-   "trending": 87222,
-   "injury_status": null,
-   "would_start": false,
-   "drop": {
-    "player_id": "12048",
-    "name": "George Holani",
-    "pos": "RB",
-    "ros": 5.23
-   },
-   "bid": 0,
-   "bid_why": "gain under 0.5 points per week, not worth a claim",
-   "ceiling": 6.26,
-   "ceiling_gap": 0.0,
-   "ceiling_gain": 0.26,
+   "ceiling": 7.93,
+   "ceiling_gap": 1.84,
+   "ceiling_gain": 0.82,
    "ceiling_sig": {
     "bump_now": 0.0,
-    "bump_if_lead": 0.0,
-    "lead": "00-0037248",
-    "lead_name": "James Cook",
-    "bump": 0.0,
-    "out_now": [],
-    "lead_sleeper_id": "8138"
+    "bump_if_lead": 1.84,
+    "lead": "00-0035640",
+    "lead_name": "DK Metcalf",
+    "bump": 1.84,
+    "out_now": [
+     "Calvin Austin III"
+    ],
+    "lead_sleeper_id": null
    },
-   "ceiling_why": "No role-change upside measured.",
-   "why": "Rest-of-season value about 6.3 a week (model+season; next week 4.27). He would not start over anyone you have, so the gain is depth only: +0.3 a week (a quarter of his edge over George Holani)."
+   "ceiling_why": "if DK Metcalf misses time: about +1.8 a week. Ceiling 7.9 a week vs 6.1 expected.",
+   "why": "Rest-of-season value about 6.1 a week (model+season; next week 4.17). He would not start over anyone you have, so the gain is depth only: +0.4 a week (a quarter of his edge over Ollie Gordon)."
   },
   {
-   "player_id": "9758",
-   "name": "C.J. Stroud",
-   "pos": "QB",
-   "team": "HOU",
-   "opp_next": "DAL",
-   "next_proj": 20.93,
-   "last_actual": 13.68,
-   "ros": 17.04,
+   "player_id": "12492",
+   "name": "Pat Bryant",
+   "pos": "WR",
+   "team": "DEN",
+   "opp_next": "SF",
+   "next_proj": 6.1,
+   "last_actual": 13.4,
+   "ros": 6.05,
    "ros_how": "model+season",
-   "value": 18.99,
-   "gain": 0.23,
+   "value": 6.07,
+   "gain": 0.35,
    "starter_gain": 0.0,
-   "depth_gain": 0.23,
-   "trending": 201264,
+   "depth_gain": 0.35,
+   "trending": 200976,
    "injury_status": null,
    "would_start": false,
    "drop": {
-    "player_id": "12048",
-    "name": "George Holani",
+    "player_id": "12495",
+    "name": "Ollie Gordon",
     "pos": "RB",
-    "ros": 5.23
+    "ros": 4.66
    },
    "bid": 0,
    "bid_why": "gain under 0.5 points per week, not worth a claim",
-   "ceiling": null,
-   "ceiling_gap": null,
-   "ceiling_gain": 0.23,
-   "ceiling_sig": null,
-   "ceiling_why": null,
-   "why": "Rest-of-season value about 17.0 a week (model+season; next week 20.93). He would not start over anyone you have, so the gain is depth only: +0.2 a week (a quarter of his edge over George Holani, or just the bye week for a second QB)."
+   "ceiling": 8.08,
+   "ceiling_gap": 2.03,
+   "ceiling_gain": 0.85,
+   "ceiling_sig": {
+    "bump_now": 0.0,
+    "bump_if_lead": 2.03,
+    "lead": "00-0036613",
+    "lead_name": "Jaylen Waddle",
+    "bump": 2.03,
+    "out_now": [],
+    "lead_sleeper_id": "7526"
+   },
+   "ceiling_why": "if Jaylen Waddle misses time: about +2.0 a week. Ceiling 8.1 a week vs 6.0 expected.",
+   "why": "Rest-of-season value about 6.0 a week (model+season; next week 6.1). He would not start over anyone you have, so the gain is depth only: +0.3 a week (a quarter of his edge over Ollie Gordon)."
+  },
+  {
+   "player_id": "8168",
+   "name": "Skyy Moore",
+   "pos": "WR",
+   "team": "GB",
+   "opp_next": "TB",
+   "next_proj": 4.58,
+   "last_actual": 11.3,
+   "ros": 5.96,
+   "ros_how": "model+season",
+   "value": 5.27,
+   "gain": 0.32,
+   "starter_gain": 0.0,
+   "depth_gain": 0.32,
+   "trending": 294056,
+   "injury_status": null,
+   "would_start": false,
+   "drop": {
+    "player_id": "12495",
+    "name": "Ollie Gordon",
+    "pos": "RB",
+    "ros": 4.66
+   },
+   "bid": 0,
+   "bid_why": "gain under 0.5 points per week, not worth a claim",
+   "ceiling": 6.77,
+   "ceiling_gap": 0.81,
+   "ceiling_gain": 0.53,
+   "ceiling_sig": {
+    "bump_now": 0.28,
+    "bump_if_lead": 0.81,
+    "lead": "00-0038124",
+    "lead_name": "Christian Watson",
+    "bump": 0.81,
+    "out_now": [
+     "Jayden Reed",
+     "Savion Williams"
+    ],
+    "lead_sleeper_id": "8167"
+   },
+   "ceiling_why": "Jayden Reed, Savion Williams out now: about +0.3 a week of vacated usage; if Christian Watson misses time: about +0.8 a week. Ceiling 6.8 a week vs 6.0 expected.",
+   "why": "Rest-of-season value about 6.0 a week (model+season; next week 4.58). He would not start over anyone you have, so the gain is depth only: +0.3 a week (a quarter of his edge over Ollie Gordon)."
   }
  ],
  "speculative": [
-  {
-   "player_id": "12495",
-   "name": "Ollie Gordon",
-   "pos": "RB",
-   "team": "MIA",
-   "opp_next": "MIN",
-   "next_proj": 7.3,
-   "last_actual": 14.0,
-   "ros": 4.66,
-   "ros_how": "model+season",
-   "value": 5.98,
-   "gain": 0.0,
-   "starter_gain": 0.0,
-   "depth_gain": 0.0,
-   "trending": 11901393,
-   "injury_status": null,
-   "would_start": false,
-   "drop": {
-    "player_id": "12048",
-    "name": "George Holani",
-    "pos": "RB",
-    "ros": 5.23
-   },
-   "bid": 0,
-   "bid_why": "gain under 0.5 points per week, not worth a claim",
-   "ceiling": 9.83,
-   "ceiling_gap": 5.17,
-   "ceiling_gain": 1.17,
-   "ceiling_sig": {
-    "bump_now": 5.17,
-    "bump_if_lead": 0.0,
-    "lead": null,
-    "lead_name": null,
-    "bump": 5.17,
-    "out_now": [
-     "De'Von Achane"
-    ]
-   },
-   "ceiling_why": "De'Von Achane out now: about +5.2 a week of vacated usage. Ceiling 9.8 a week vs 4.7 expected.",
-   "why": "Rest-of-season value about 4.7 a week (model+season; next week 7.3). He would not start over anyone you have, so the gain is depth only: +0.0 a week (a quarter of his edge over George Holani).",
-   "role_open_now": true,
-   "threats": [
-    {
-     "roster_id": 2,
-     "team": "Amateur Hour",
-     "remaining": 193,
-     "score": 6.0,
-     "why": [
-      "owns De'Von Achane (IR), the MIA RB he would replace",
-      "starter Travis Etienne Out"
-     ],
-     "usual_bid": 7,
-     "repeated": [],
-     "pos_max": null
-    },
-    {
-     "roster_id": 9,
-     "team": "Girthenheimer",
-     "remaining": 175,
-     "score": 1.5,
-     "why": [
-      "starter Breece Hall Questionable",
-      "has bid on a RB before"
-     ],
-     "usual_bid": 5.0,
-     "repeated": [],
-     "pos_max": 15
-    },
-    {
-     "roster_id": 1,
-     "team": "tacocats",
-     "remaining": 153,
-     "score": 1.5,
-     "why": [
-      "just dropped Demond Claiborne",
-      "has bid on a RB before"
-     ],
-     "usual_bid": 1,
-     "repeated": [
-      1
-     ],
-     "pos_max": 6
-    }
-   ],
-   "league_bid": 12,
-   "league_bid_why": "$12 market (median winning bid of each run's most-contested player (n=3), 4 likely bidders counting you), held to $10, what he is worth to you; x1.21 budget pace: $200 of $200 left with 14 of 17 weeks to go, and you usually finish with FAAB unspent, so bids are scaled up to spend it down toward $0",
-   "value_cap": 10,
-   "market": 12,
-   "market_basis": "median winning bid of each run's most-contested player (n=3)",
-   "pace": 1.21,
-   "comparable": "Thu Sep 24 run's top RB add: Emanuel Wilson went $15 to Girthenheimer with 1 bidder.",
-   "comparable_bid": 15,
-   "to_beat": 17,
-   "to_beat_why": "$17: $2 over Girthenheimer, who has bid as much as $15 on a RB",
-   "to_beat_within_value": false,
-   "spec_bid": 2,
-   "spec_why": "Untested: priced from the display-only vacated-share signal. De'Von Achane out now: about +5.2 a week of vacated usage. Ceiling 9.8 a week vs 4.7 expected. At that ceiling he adds +1.2 a week; bid = min(5% of your $200, 1.2 x 14 wks x $0.60 x 0.25 chance the role lands), also held to the league bid."
-  },
   {
    "player_id": "11643",
    "name": "Jaylen Wright",
@@ -576,17 +1025,17 @@
    "ros": 5.09,
    "ros_how": "model+season",
    "value": 4.27,
-   "gain": 0.0,
+   "gain": 0.11,
    "starter_gain": 0.0,
-   "depth_gain": 0.0,
+   "depth_gain": 0.11,
    "trending": 672896,
    "injury_status": "Questionable",
    "would_start": false,
    "drop": {
-    "player_id": "12048",
-    "name": "George Holani",
+    "player_id": "12495",
+    "name": "Ollie Gordon",
     "pos": "RB",
-    "ros": 5.23
+    "ros": 4.66
    },
    "bid": 0,
    "bid_why": "gain under 0.5 points per week, not worth a claim",
@@ -605,64 +1054,176 @@
     "lead_sleeper_id": "12495"
    },
    "ceiling_why": "De'Von Achane out now: about +4.0 a week of vacated usage; if Ollie Gordon II misses time: about +11.3 a week. Ceiling 16.4 a week vs 5.1 expected.",
-   "why": "Rest-of-season value about 5.1 a week (model+season; next week 3.45). He would not start over anyone you have, so the gain is depth only: +0.0 a week (a quarter of his edge over George Holani).",
+   "why": "Rest-of-season value about 5.1 a week (model+season; next week 3.45). He would not start over anyone you have, so the gain is depth only: +0.1 a week (a quarter of his edge over Ollie Gordon).",
    "role_open_now": true,
    "threats": [
     {
-     "roster_id": 2,
-     "team": "Amateur Hour",
-     "remaining": 193,
-     "score": 6.0,
-     "why": [
-      "owns De'Von Achane (IR), the MIA RB he would replace",
-      "starter Travis Etienne Out"
-     ],
-     "usual_bid": 7,
-     "repeated": [],
-     "pos_max": null
-    },
-    {
      "roster_id": 9,
      "team": "Girthenheimer",
-     "remaining": 175,
-     "score": 1.5,
+     "remaining": 167,
+     "score": 3.5,
      "why": [
-      "starter Breece Hall Questionable",
+      "starter ruled out or put on IR this week: Breece Hall (Out)",
+      "just dropped Emanuel Wilson",
       "has bid on a RB before"
      ],
-     "usual_bid": 5.0,
-     "repeated": [],
-     "pos_max": 15
+     "usual_bid": 3,
+     "repeated": [
+      15,
+      3
+     ],
+     "pos_max": 18
     },
     {
-     "roster_id": 1,
-     "team": "tacocats",
-     "remaining": 153,
-     "score": 1.5,
+     "roster_id": 2,
+     "team": "Amateur Hour",
+     "remaining": 94,
+     "score": 3.5,
      "why": [
-      "just dropped Demond Claiborne",
+      "starter ruled out or put on IR this week: De'Von Achane (IR), Travis Etienne (Out)",
+      "just dropped De'Von Achane",
       "has bid on a RB before"
      ],
-     "usual_bid": 1,
+     "usual_bid": 7,
      "repeated": [
-      1
+      7,
+      3
      ],
-     "pos_max": 6
+     "pos_max": 53
+    },
+    {
+     "roster_id": 12,
+     "team": "Baker\u2019s Dozen",
+     "remaining": 200,
+     "score": 1.0,
+     "why": [
+      "starter Bucky Irving Questionable, Tony Pollard Questionable"
+     ],
+     "usual_bid": null,
+     "repeated": [],
+     "pos_max": null
     }
    ],
-   "league_bid": 15,
-   "league_bid_why": "$12 market (median winning bid of each run's most-contested player (n=3), 4 likely bidders counting you), under your $65 value; x1.21 budget pace: $200 of $200 left with 14 of 17 weeks to go, and you usually finish with FAAB unspent, so bids are scaled up to spend it down toward $0",
+   "league_bid": 36,
+   "league_bid_why": "$29.5 market (median winning bid of each run's most-contested player (n=4), 4 likely bidders counting you), under your $65 value; x1.21 budget pace: $200 of $200 left with 14 of 17 weeks to go, and you usually finish with FAAB unspent, so bids are scaled up to spend it down toward $0",
    "value_cap": 65,
-   "market": 12,
-   "market_basis": "median winning bid of each run's most-contested player (n=3)",
+   "market": 29.5,
+   "market_basis": "median winning bid of each run's most-contested player (n=4)",
    "pace": 1.21,
-   "comparable": "Thu Sep 24 run's top RB add: Emanuel Wilson went $15 to Girthenheimer with 1 bidder.",
-   "comparable_bid": 15,
-   "to_beat": 17,
-   "to_beat_why": "$17: $2 over Girthenheimer, who has bid as much as $15 on a RB",
+   "comparable": "Thu Oct 1 run's top RB add: Jaylen Wright went $53 to Amateur Hour with 2 bidders (losing: Girthenheimer $18).",
+   "comparable_bid": 53,
+   "to_beat": 55,
+   "to_beat_why": "$55: $2 over Amateur Hour, who has bid as much as $53 on a RB",
    "to_beat_within_value": true,
    "spec_bid": 10,
    "spec_why": "Untested: priced from the display-only vacated-share signal. De'Von Achane out now: about +4.0 a week of vacated usage; if Ollie Gordon II misses time: about +11.3 a week. Ceiling 16.4 a week vs 5.1 expected. At that ceiling he adds +7.8 a week; bid = min(5% of your $200, 7.8 x 14 wks x $0.60 x 0.25 chance the role lands), also held to the league bid."
+  },
+  {
+   "player_id": "6828",
+   "name": "AJ Dillon",
+   "pos": "RB",
+   "team": "CAR",
+   "opp_next": "DET",
+   "next_proj": 3.9,
+   "last_actual": 1.9,
+   "ros": 3.66,
+   "ros_how": "model+season",
+   "value": 3.78,
+   "gain": 0.0,
+   "starter_gain": 0.0,
+   "depth_gain": 0.0,
+   "trending": 0,
+   "injury_status": null,
+   "would_start": false,
+   "drop": {
+    "player_id": "12495",
+    "name": "Ollie Gordon",
+    "pos": "RB",
+    "ros": 4.66
+   },
+   "bid": 0,
+   "bid_why": "gain under 0.5 points per week, not worth a claim",
+   "ceiling": 24.44,
+   "ceiling_gap": 20.78,
+   "ceiling_gain": 15.78,
+   "ceiling_sig": {
+    "bump_now": 2.25,
+    "bump_if_lead": 20.78,
+    "lead": "00-0036555",
+    "lead_name": "Chuba Hubbard",
+    "bump": 20.78,
+    "out_now": [
+     "Rico Dowdle",
+     "Jonathon Brooks",
+     "Trevor Etienne"
+    ],
+    "lead_sleeper_id": "7594"
+   },
+   "ceiling_why": "Rico Dowdle, Jonathon Brooks out now: about +2.2 a week of vacated usage; if Chuba Hubbard misses time: about +20.8 a week. Ceiling 24.4 a week vs 3.7 expected.",
+   "why": "Rest-of-season value about 3.7 a week (model+season; next week 3.9). He would not start over anyone you have, so the gain is depth only: +0.0 a week (a quarter of his edge over Ollie Gordon).",
+   "role_open_now": false,
+   "threats": [
+    {
+     "roster_id": 9,
+     "team": "Girthenheimer",
+     "remaining": 167,
+     "score": 3.5,
+     "why": [
+      "starter ruled out or put on IR this week: Breece Hall (Out)",
+      "just dropped Emanuel Wilson",
+      "has bid on a RB before"
+     ],
+     "usual_bid": 3,
+     "repeated": [
+      15,
+      3
+     ],
+     "pos_max": 18
+    },
+    {
+     "roster_id": 2,
+     "team": "Amateur Hour",
+     "remaining": 94,
+     "score": 3.5,
+     "why": [
+      "starter ruled out or put on IR this week: De'Von Achane (IR), Travis Etienne (Out)",
+      "just dropped De'Von Achane",
+      "has bid on a RB before"
+     ],
+     "usual_bid": 7,
+     "repeated": [
+      7,
+      3
+     ],
+     "pos_max": 53
+    },
+    {
+     "roster_id": 11,
+     "team": "RafiBomb",
+     "remaining": 200,
+     "score": 1.5,
+     "why": [
+      "owns Chuba Hubbard, the CAR RB1 (handcuff interest)",
+      "has bid on a RB before"
+     ],
+     "usual_bid": 0.0,
+     "repeated": [],
+     "pos_max": 0
+    }
+   ],
+   "league_bid": 36,
+   "league_bid_why": "$29.5 market (median winning bid of each run's most-contested player (n=4), 4 likely bidders counting you), under your $120 value; x1.21 budget pace: $200 of $200 left with 14 of 17 weeks to go, and you usually finish with FAAB unspent, so bids are scaled up to spend it down toward $0",
+   "value_cap": 120,
+   "market": 29.5,
+   "market_basis": "median winning bid of each run's most-contested player (n=4)",
+   "pace": 1.21,
+   "comparable": "Thu Oct 1 run's top RB add: Jaylen Wright went $53 to Amateur Hour with 2 bidders (losing: Girthenheimer $18).",
+   "comparable_bid": 53,
+   "to_beat": 55,
+   "to_beat_why": "$55: $2 over Amateur Hour, who has bid as much as $53 on a RB",
+   "to_beat_within_value": true,
+   "spec_bid": 10,
+   "spec_why": "Untested: priced from the display-only vacated-share signal. Rico Dowdle, Jonathon Brooks out now: about +2.2 a week of vacated usage; if Chuba Hubbard misses time: about +20.8 a week. Ceiling 24.4 a week vs 3.7 expected. At that ceiling he adds +15.8 a week; bid = min(5% of your $200, 15.8 x 14 wks x $0.60 x 0.25 chance the role lands), also held to the league bid."
   },
   {
    "player_id": "4147",
@@ -675,17 +1236,17 @@
    "ros": 5.16,
    "ros_how": "model+season",
    "value": 5.27,
-   "gain": 0.0,
+   "gain": 0.12,
    "starter_gain": 0.0,
-   "depth_gain": 0.0,
+   "depth_gain": 0.12,
    "trending": 0,
    "injury_status": null,
    "would_start": false,
    "drop": {
-    "player_id": "12048",
-    "name": "George Holani",
+    "player_id": "12495",
+    "name": "Ollie Gordon",
     "pos": "RB",
-    "ros": 5.23
+    "ros": 4.66
    },
    "bid": 0,
    "bid_why": "gain under 0.5 points per week, not worth a claim",
@@ -702,167 +1263,69 @@
     "lead_sleeper_id": "9224"
    },
    "ceiling_why": "if Chase Brown misses time: about +8.9 a week. Ceiling 14.0 a week vs 5.2 expected.",
-   "why": "Rest-of-season value about 5.2 a week (model+season; next week 5.38). He would not start over anyone you have, so the gain is depth only: +0.0 a week (a quarter of his edge over George Holani).",
+   "why": "Rest-of-season value about 5.2 a week (model+season; next week 5.38). He would not start over anyone you have, so the gain is depth only: +0.1 a week (a quarter of his edge over Ollie Gordon).",
    "role_open_now": false,
    "threats": [
-    {
-     "roster_id": 2,
-     "team": "Amateur Hour",
-     "remaining": 193,
-     "score": 2.0,
-     "why": [
-      "starter Travis Etienne Out, De'Von Achane IR"
-     ],
-     "usual_bid": 7,
-     "repeated": [],
-     "pos_max": null
-    },
     {
      "roster_id": 9,
      "team": "Girthenheimer",
-     "remaining": 175,
-     "score": 1.5,
+     "remaining": 167,
+     "score": 3.5,
      "why": [
-      "starter Breece Hall Questionable",
+      "starter ruled out or put on IR this week: Breece Hall (Out)",
+      "just dropped Emanuel Wilson",
       "has bid on a RB before"
      ],
-     "usual_bid": 5.0,
-     "repeated": [],
-     "pos_max": 15
+     "usual_bid": 3,
+     "repeated": [
+      15,
+      3
+     ],
+     "pos_max": 18
     },
     {
-     "roster_id": 1,
-     "team": "tacocats",
-     "remaining": 153,
-     "score": 1.5,
+     "roster_id": 2,
+     "team": "Amateur Hour",
+     "remaining": 94,
+     "score": 3.5,
      "why": [
-      "just dropped Demond Claiborne",
+      "starter ruled out or put on IR this week: De'Von Achane (IR), Travis Etienne (Out)",
+      "just dropped De'Von Achane",
       "has bid on a RB before"
      ],
-     "usual_bid": 1,
+     "usual_bid": 7,
      "repeated": [
-      1
+      7,
+      3
      ],
-     "pos_max": 6
+     "pos_max": 53
+    },
+    {
+     "roster_id": 12,
+     "team": "Baker\u2019s Dozen",
+     "remaining": 200,
+     "score": 1.0,
+     "why": [
+      "starter Bucky Irving Questionable, Tony Pollard Questionable"
+     ],
+     "usual_bid": null,
+     "repeated": [],
+     "pos_max": null
     }
    ],
-   "league_bid": 15,
-   "league_bid_why": "$12 market (median winning bid of each run's most-contested player (n=3), 4 likely bidders counting you), under your $45 value; x1.21 budget pace: $200 of $200 left with 14 of 17 weeks to go, and you usually finish with FAAB unspent, so bids are scaled up to spend it down toward $0",
+   "league_bid": 36,
+   "league_bid_why": "$29.5 market (median winning bid of each run's most-contested player (n=4), 4 likely bidders counting you), under your $45 value; x1.21 budget pace: $200 of $200 left with 14 of 17 weeks to go, and you usually finish with FAAB unspent, so bids are scaled up to spend it down toward $0",
    "value_cap": 45,
-   "market": 12,
-   "market_basis": "median winning bid of each run's most-contested player (n=3)",
+   "market": 29.5,
+   "market_basis": "median winning bid of each run's most-contested player (n=4)",
    "pace": 1.21,
-   "comparable": "Thu Sep 24 run's top RB add: Emanuel Wilson went $15 to Girthenheimer with 1 bidder.",
-   "comparable_bid": 15,
-   "to_beat": 17,
-   "to_beat_why": "$17: $2 over Girthenheimer, who has bid as much as $15 on a RB",
-   "to_beat_within_value": true,
+   "comparable": "Thu Oct 1 run's top RB add: Jaylen Wright went $53 to Amateur Hour with 2 bidders (losing: Girthenheimer $18).",
+   "comparable_bid": 53,
+   "to_beat": 55,
+   "to_beat_why": "$55: $2 over Amateur Hour, who has bid as much as $53 on a RB",
+   "to_beat_within_value": false,
    "spec_bid": 10,
    "spec_why": "Untested: priced from the display-only vacated-share signal. if Chase Brown misses time: about +8.9 a week. Ceiling 14.0 a week vs 5.2 expected. At that ceiling he adds +5.4 a week; bid = min(5% of your $200, 5.4 x 14 wks x $0.60 x 0.25 chance the role lands), also held to the league bid."
-  },
-  {
-   "player_id": "4039",
-   "name": "Cooper Kupp",
-   "pos": "WR",
-   "team": "SEA",
-   "opp_next": "LAC",
-   "next_proj": 5.18,
-   "last_actual": 12.6,
-   "ros": 7.23,
-   "ros_how": "model+season",
-   "value": 6.2,
-   "gain": 0.5,
-   "starter_gain": 0.0,
-   "depth_gain": 0.5,
-   "trending": 58668,
-   "injury_status": null,
-   "would_start": false,
-   "drop": {
-    "player_id": "12048",
-    "name": "George Holani",
-    "pos": "RB",
-    "ros": 5.23
-   },
-   "bid": 0,
-   "bid_why": "gain under 0.5 points per week, not worth a claim",
-   "ceiling": 13.65,
-   "ceiling_gap": 6.42,
-   "ceiling_gain": 4.17,
-   "ceiling_sig": {
-    "bump_now": 0.74,
-    "bump_if_lead": 6.42,
-    "lead": "00-0038543",
-    "lead_name": "Jaxon Smith-Njigba",
-    "bump": 6.42,
-    "out_now": [
-     "Jake Bobo"
-    ],
-    "lead_sleeper_id": "9488"
-   },
-   "ceiling_why": "Jake Bobo out now: about +0.7 a week of vacated usage; if Jaxon Smith-Njigba misses time: about +6.4 a week. Ceiling 13.6 a week vs 7.2 expected.",
-   "why": "Rest-of-season value about 7.2 a week (model+season; next week 5.18). He would not start over anyone you have, so the gain is depth only: +0.5 a week (a quarter of his edge over George Holani).",
-   "role_open_now": false,
-   "threats": [
-    {
-     "roster_id": 7,
-     "team": "Cheeky Nando\u2019s",
-     "remaining": 194,
-     "score": 4.5,
-     "why": [
-      "starter Puka Nacua Questionable",
-      "starter ruled out or put on IR this week: Mike Evans (Out)",
-      "just dropped Malachi Fields",
-      "has bid on a WR before"
-     ],
-     "usual_bid": 1,
-     "repeated": [
-      1
-     ],
-     "pos_max": 1
-    },
-    {
-     "roster_id": 3,
-     "team": "Be Safe, Get Jaxcinated",
-     "remaining": 174,
-     "score": 2.5,
-     "why": [
-      "owns Jaxon Smith-Njigba, the SEA WR1 (handcuff interest)",
-      "just dropped Jayden Reed",
-      "has bid on a WR before"
-     ],
-     "usual_bid": 26,
-     "repeated": [],
-     "pos_max": 26
-    },
-    {
-     "roster_id": 6,
-     "team": "ScampDaddy",
-     "remaining": 194,
-     "score": 1.5,
-     "why": [
-      "just dropped Wan'Dale Robinson",
-      "has bid on a WR before"
-     ],
-     "usual_bid": 16,
-     "repeated": [
-      16
-     ],
-     "pos_max": 16
-    }
-   ],
-   "league_bid": 15,
-   "league_bid_why": "$12 market (median winning bid of each run's most-contested player (n=3), 4 likely bidders counting you), under your $35 value; x1.21 budget pace: $200 of $200 left with 14 of 17 weeks to go, and you usually finish with FAAB unspent, so bids are scaled up to spend it down toward $0",
-   "value_cap": 35,
-   "market": 12,
-   "market_basis": "median winning bid of each run's most-contested player (n=3)",
-   "pace": 1.21,
-   "comparable": "Thu Sep 24 run's top WR add: Adonai Mitchell went $26 to Be Safe, Get Jaxcinated with 3 bidders (losing: ScampDaddy $16, tacocats $0).",
-   "comparable_bid": 26,
-   "to_beat": 28,
-   "to_beat_why": "$28: $2 over Be Safe, Get Jaxcinated, who has bid as much as $26 on a WR",
-   "to_beat_within_value": true,
-   "spec_bid": 9,
-   "spec_why": "Untested: priced from the display-only vacated-share signal. Jake Bobo out now: about +0.7 a week of vacated usage; if Jaxon Smith-Njigba misses time: about +6.4 a week. Ceiling 13.6 a week vs 7.2 expected. At that ceiling he adds +4.2 a week; bid = min(5% of your $200, 4.2 x 14 wks x $0.60 x 0.25 chance the role lands), also held to the league bid."
   },
   {
    "player_id": "12497",
@@ -875,17 +1338,17 @@
    "ros": 6.49,
    "ros_how": "model+season",
    "value": 4.95,
-   "gain": 0.31,
+   "gain": 0.46,
    "starter_gain": 0.0,
-   "depth_gain": 0.31,
+   "depth_gain": 0.46,
    "trending": 0,
    "injury_status": null,
    "would_start": false,
    "drop": {
-    "player_id": "12048",
-    "name": "George Holani",
+    "player_id": "12495",
+    "name": "Ollie Gordon",
     "pos": "RB",
-    "ros": 5.23
+    "ros": 4.66
    },
    "bid": 0,
    "bid_why": "gain under 0.5 points per week, not worth a claim",
@@ -904,13 +1367,13 @@
     "lead_sleeper_id": "9488"
    },
    "ceiling_why": "Jake Bobo out now: about +1.0 a week of vacated usage; if Jaxon Smith-Njigba misses time: about +6.8 a week. Ceiling 13.2 a week vs 6.5 expected.",
-   "why": "Rest-of-season value about 6.5 a week (model+season; next week 3.41). He would not start over anyone you have, so the gain is depth only: +0.3 a week (a quarter of his edge over George Holani).",
+   "why": "Rest-of-season value about 6.5 a week (model+season; next week 3.41). He would not start over anyone you have, so the gain is depth only: +0.5 a week (a quarter of his edge over Ollie Gordon).",
    "role_open_now": false,
    "threats": [
     {
      "roster_id": 7,
      "team": "Cheeky Nando\u2019s",
-     "remaining": 194,
+     "remaining": 186,
      "score": 4.5,
      "why": [
       "starter Puka Nacua Questionable",
@@ -918,8 +1381,9 @@
       "just dropped Malachi Fields",
       "has bid on a WR before"
      ],
-     "usual_bid": 1,
+     "usual_bid": 8,
      "repeated": [
+      8,
       1
      ],
      "pos_max": 1
@@ -939,232 +1403,36 @@
      "pos_max": 26
     },
     {
-     "roster_id": 6,
-     "team": "ScampDaddy",
-     "remaining": 194,
-     "score": 1.5,
+     "roster_id": 9,
+     "team": "Girthenheimer",
+     "remaining": 167,
+     "score": 2.5,
      "why": [
-      "just dropped Wan'Dale Robinson",
+      "starter DJ Moore Questionable, Zay Flowers Questionable",
+      "just dropped Tyreek Hill",
       "has bid on a WR before"
      ],
-     "usual_bid": 16,
+     "usual_bid": 3,
      "repeated": [
-      16
+      15,
+      3
      ],
-     "pos_max": 16
+     "pos_max": 8
     }
    ],
-   "league_bid": 15,
-   "league_bid_why": "$12 market (median winning bid of each run's most-contested player (n=3), 4 likely bidders counting you), under your $32 value; x1.21 budget pace: $200 of $200 left with 14 of 17 weeks to go, and you usually finish with FAAB unspent, so bids are scaled up to spend it down toward $0",
+   "league_bid": 36,
+   "league_bid_why": "$29.5 market (median winning bid of each run's most-contested player (n=4), 4 likely bidders counting you), under your $32 value; x1.21 budget pace: $200 of $200 left with 14 of 17 weeks to go, and you usually finish with FAAB unspent, so bids are scaled up to spend it down toward $0",
    "value_cap": 32,
-   "market": 12,
-   "market_basis": "median winning bid of each run's most-contested player (n=3)",
+   "market": 29.5,
+   "market_basis": "median winning bid of each run's most-contested player (n=4)",
    "pace": 1.21,
-   "comparable": "Thu Sep 24 run's top WR add: Adonai Mitchell went $26 to Be Safe, Get Jaxcinated with 3 bidders (losing: ScampDaddy $16, tacocats $0).",
-   "comparable_bid": 26,
+   "comparable": "Thu Oct 1 run's top WR add: Keenan Allen went $23 to ScampDaddy with 3 bidders (losing: ValKilmersComeback $17, Be Safe, Get Jaxcinated $14).",
+   "comparable_bid": 23,
    "to_beat": 28,
    "to_beat_why": "$28: $2 over Be Safe, Get Jaxcinated, who has bid as much as $26 on a WR",
    "to_beat_within_value": true,
    "spec_bid": 8,
    "spec_why": "Untested: priced from the display-only vacated-share signal. Jake Bobo out now: about +1.0 a week of vacated usage; if Jaxon Smith-Njigba misses time: about +6.8 a week. Ceiling 13.2 a week vs 6.5 expected. At that ceiling he adds +3.8 a week; bid = min(5% of your $200, 3.8 x 14 wks x $0.60 x 0.25 chance the role lands), also held to the league bid."
-  },
-  {
-   "player_id": "12472",
-   "name": "Raheim Sanders",
-   "pos": "RB",
-   "team": "CLE",
-   "opp_next": "PIT",
-   "next_proj": 4.41,
-   "last_actual": 9.45,
-   "ros": 7.21,
-   "ros_how": "model+season",
-   "value": 5.81,
-   "gain": 0.49,
-   "starter_gain": 0.0,
-   "depth_gain": 0.49,
-   "trending": 267832,
-   "injury_status": null,
-   "would_start": false,
-   "drop": {
-    "player_id": "12048",
-    "name": "George Holani",
-    "pos": "RB",
-    "ros": 5.23
-   },
-   "bid": 0,
-   "bid_why": "gain under 0.5 points per week, not worth a claim",
-   "ceiling": 12.3,
-   "ceiling_gap": 5.09,
-   "ceiling_gain": 3.64,
-   "ceiling_sig": {
-    "bump_now": 0.73,
-    "bump_if_lead": 5.09,
-    "lead": "00-0040784",
-    "lead_name": "Quinshon Judkins",
-    "bump": 5.09,
-    "out_now": [
-     "Dylan Sampson"
-    ],
-    "lead_sleeper_id": "12512"
-   },
-   "ceiling_why": "Dylan Sampson out now: about +0.7 a week of vacated usage; if Quinshon Judkins misses time: about +5.1 a week. Ceiling 12.3 a week vs 7.2 expected.",
-   "why": "Rest-of-season value about 7.2 a week (model+season; next week 4.41). He would not start over anyone you have, so the gain is depth only: +0.5 a week (a quarter of his edge over George Holani).",
-   "role_open_now": false,
-   "threats": [
-    {
-     "roster_id": 5,
-     "team": "Eazy E Squad",
-     "remaining": 200,
-     "score": 4.0,
-     "why": [
-      "owns Dylan Sampson (IR), the CLE RB he would replace"
-     ],
-     "usual_bid": null,
-     "repeated": [],
-     "pos_max": null
-    },
-    {
-     "roster_id": 1,
-     "team": "tacocats",
-     "remaining": 153,
-     "score": 2.5,
-     "why": [
-      "owns Quinshon Judkins, the CLE RB1 (handcuff interest)",
-      "just dropped Demond Claiborne",
-      "has bid on a RB before"
-     ],
-     "usual_bid": 1,
-     "repeated": [
-      1
-     ],
-     "pos_max": 6
-    },
-    {
-     "roster_id": 2,
-     "team": "Amateur Hour",
-     "remaining": 193,
-     "score": 2.0,
-     "why": [
-      "starter Travis Etienne Out, De'Von Achane IR"
-     ],
-     "usual_bid": 7,
-     "repeated": [],
-     "pos_max": null
-    }
-   ],
-   "league_bid": 15,
-   "league_bid_why": "$12 market (median winning bid of each run's most-contested player (n=3), 4 likely bidders counting you), under your $31 value; x1.21 budget pace: $200 of $200 left with 14 of 17 weeks to go, and you usually finish with FAAB unspent, so bids are scaled up to spend it down toward $0",
-   "value_cap": 31,
-   "market": 12,
-   "market_basis": "median winning bid of each run's most-contested player (n=3)",
-   "pace": 1.21,
-   "comparable": "Thu Sep 24 run's top RB add: Emanuel Wilson went $15 to Girthenheimer with 1 bidder.",
-   "comparable_bid": 15,
-   "to_beat": 8,
-   "to_beat_why": "$8: $2 over tacocats, who has bid as much as $6 on a RB",
-   "to_beat_within_value": true,
-   "spec_bid": 8,
-   "spec_why": "Untested: priced from the display-only vacated-share signal. Dylan Sampson out now: about +0.7 a week of vacated usage; if Quinshon Judkins misses time: about +5.1 a week. Ceiling 12.3 a week vs 7.2 expected. At that ceiling he adds +3.6 a week; bid = min(5% of your $200, 3.6 x 14 wks x $0.60 x 0.25 chance the role lands), also held to the league bid."
-  },
-  {
-   "player_id": "9757",
-   "name": "Kendre Miller",
-   "pos": "RB",
-   "team": "NO",
-   "opp_next": "ATL",
-   "next_proj": 6.58,
-   "last_actual": 2.8,
-   "ros": 6.8,
-   "ros_how": "model+season",
-   "value": 6.69,
-   "gain": 0.39,
-   "starter_gain": 0.0,
-   "depth_gain": 0.39,
-   "trending": 440746,
-   "injury_status": null,
-   "would_start": false,
-   "drop": {
-    "player_id": "12048",
-    "name": "George Holani",
-    "pos": "RB",
-    "ros": 5.23
-   },
-   "bid": 0,
-   "bid_why": "gain under 0.5 points per week, not worth a claim",
-   "ceiling": 11.65,
-   "ceiling_gap": 4.85,
-   "ceiling_gain": 2.99,
-   "ceiling_sig": {
-    "bump_now": 1.71,
-    "bump_if_lead": 4.85,
-    "lead": "00-0033906",
-    "lead_name": "Alvin Kamara",
-    "bump": 4.85,
-    "out_now": [
-     "Travis Etienne"
-    ],
-    "lead_sleeper_id": "4035"
-   },
-   "ceiling_why": "Travis Etienne out now: about +1.7 a week of vacated usage; if Alvin Kamara misses time: about +4.8 a week. Ceiling 11.6 a week vs 6.8 expected.",
-   "why": "Rest-of-season value about 6.8 a week (model+season; next week 6.58). He would not start over anyone you have, so the gain is depth only: +0.4 a week (a quarter of his edge over George Holani).",
-   "role_open_now": false,
-   "threats": [
-    {
-     "roster_id": 2,
-     "team": "Amateur Hour",
-     "remaining": 193,
-     "score": 7.0,
-     "why": [
-      "owns Alvin Kamara, the NO RB1 (handcuff interest)",
-      "owns Travis Etienne (Out), the NO RB he would replace",
-      "starter De'Von Achane IR"
-     ],
-     "usual_bid": 7,
-     "repeated": [],
-     "pos_max": null
-    },
-    {
-     "roster_id": 9,
-     "team": "Girthenheimer",
-     "remaining": 175,
-     "score": 1.5,
-     "why": [
-      "starter Breece Hall Questionable",
-      "has bid on a RB before"
-     ],
-     "usual_bid": 5.0,
-     "repeated": [],
-     "pos_max": 15
-    },
-    {
-     "roster_id": 1,
-     "team": "tacocats",
-     "remaining": 153,
-     "score": 1.5,
-     "why": [
-      "just dropped Demond Claiborne",
-      "has bid on a RB before"
-     ],
-     "usual_bid": 1,
-     "repeated": [
-      1
-     ],
-     "pos_max": 6
-    }
-   ],
-   "league_bid": 15,
-   "league_bid_why": "$12 market (median winning bid of each run's most-contested player (n=3), 4 likely bidders counting you), under your $25 value; x1.21 budget pace: $200 of $200 left with 14 of 17 weeks to go, and you usually finish with FAAB unspent, so bids are scaled up to spend it down toward $0",
-   "value_cap": 25,
-   "market": 12,
-   "market_basis": "median winning bid of each run's most-contested player (n=3)",
-   "pace": 1.21,
-   "comparable": "Thu Sep 24 run's top RB add: Emanuel Wilson went $15 to Girthenheimer with 1 bidder.",
-   "comparable_bid": 15,
-   "to_beat": 17,
-   "to_beat_why": "$17: $2 over Girthenheimer, who has bid as much as $15 on a RB",
-   "to_beat_within_value": true,
-   "spec_bid": 6,
-   "spec_why": "Untested: priced from the display-only vacated-share signal. Travis Etienne out now: about +1.7 a week of vacated usage; if Alvin Kamara misses time: about +4.8 a week. Ceiling 11.6 a week vs 6.8 expected. At that ceiling he adds +3.0 a week; bid = min(5% of your $200, 3.0 x 14 wks x $0.60 x 0.25 chance the role lands), also held to the league bid."
   },
   {
    "player_id": "9504",
@@ -1177,17 +1445,17 @@
    "ros": 5.62,
    "ros_how": "model+season",
    "value": 5.53,
-   "gain": 0.1,
+   "gain": 0.24,
    "starter_gain": 0.0,
-   "depth_gain": 0.1,
+   "depth_gain": 0.24,
    "trending": 0,
    "injury_status": null,
    "would_start": false,
    "drop": {
-    "player_id": "12048",
-    "name": "George Holani",
+    "player_id": "12495",
+    "name": "Ollie Gordon",
     "pos": "RB",
-    "ros": 5.23
+    "ros": 4.66
    },
    "bid": 0,
    "bid_why": "gain under 0.5 points per week, not worth a claim",
@@ -1207,18 +1475,17 @@
     "lead_sleeper_id": "7569"
    },
    "ceiling_why": "Christian Kirk, Jayden Higgins out now: about +2.3 a week of vacated usage; if Nico Collins misses time: about +6.5 a week. Ceiling 12.2 a week vs 5.6 expected.",
-   "why": "Rest-of-season value about 5.6 a week (model+season; next week 5.43). He would not start over anyone you have, so the gain is depth only: +0.1 a week (a quarter of his edge over George Holani).",
+   "why": "Rest-of-season value about 5.6 a week (model+season; next week 5.43). He would not start over anyone you have, so the gain is depth only: +0.2 a week (a quarter of his edge over Ollie Gordon).",
    "role_open_now": false,
    "threats": [
     {
      "roster_id": 10,
      "team": "Derrelick my Balls",
      "remaining": 111,
-     "score": 7.0,
+     "score": 6.0,
      "why": [
       "owns Tank Dell (IR), the HOU WR he would replace",
       "owns Nico Collins (Questionable), a HOU WR he could replace",
-      "just dropped Keenan Allen",
       "has bid on a WR before"
      ],
      "usual_bid": 31,
@@ -1230,7 +1497,7 @@
     {
      "roster_id": 7,
      "team": "Cheeky Nando\u2019s",
-     "remaining": 194,
+     "remaining": 186,
      "score": 4.5,
      "why": [
       "starter Puka Nacua Questionable",
@@ -1238,47 +1505,367 @@
       "just dropped Malachi Fields",
       "has bid on a WR before"
      ],
-     "usual_bid": 1,
+     "usual_bid": 8,
      "repeated": [
+      8,
       1
      ],
      "pos_max": 1
     },
     {
-     "roster_id": 6,
-     "team": "ScampDaddy",
-     "remaining": 194,
-     "score": 1.5,
+     "roster_id": 9,
+     "team": "Girthenheimer",
+     "remaining": 167,
+     "score": 2.5,
      "why": [
-      "just dropped Wan'Dale Robinson",
+      "starter DJ Moore Questionable, Zay Flowers Questionable",
+      "just dropped Tyreek Hill",
       "has bid on a WR before"
      ],
-     "usual_bid": 16,
+     "usual_bid": 3,
      "repeated": [
-      16
+      15,
+      3
      ],
-     "pos_max": 16
+     "pos_max": 8
     }
    ],
-   "league_bid": 15,
-   "league_bid_why": "$12 market (median winning bid of each run's most-contested player (n=3), 4 likely bidders counting you), under your $23 value; x1.21 budget pace: $200 of $200 left with 14 of 17 weeks to go, and you usually finish with FAAB unspent, so bids are scaled up to spend it down toward $0",
+   "league_bid": 27,
+   "league_bid_why": "$29.5 market (median winning bid of each run's most-contested player (n=4), 4 likely bidders counting you), held to $23, what he is worth to you; x1.21 budget pace: $200 of $200 left with 14 of 17 weeks to go, and you usually finish with FAAB unspent, so bids are scaled up to spend it down toward $0",
    "value_cap": 23,
-   "market": 12,
-   "market_basis": "median winning bid of each run's most-contested player (n=3)",
+   "market": 29.5,
+   "market_basis": "median winning bid of each run's most-contested player (n=4)",
    "pace": 1.21,
-   "comparable": "Thu Sep 24 run's top WR add: Adonai Mitchell went $26 to Be Safe, Get Jaxcinated with 3 bidders (losing: ScampDaddy $16, tacocats $0).",
-   "comparable_bid": 26,
+   "comparable": "Thu Oct 1 run's top WR add: Keenan Allen went $23 to ScampDaddy with 3 bidders (losing: ValKilmersComeback $17, Be Safe, Get Jaxcinated $14).",
+   "comparable_bid": 23,
    "to_beat": 33,
    "to_beat_why": "$33: $2 over Derrelick my Balls, who has bid $31 more than once",
    "to_beat_within_value": false,
    "spec_bid": 6,
    "spec_why": "Untested: priced from the display-only vacated-share signal. Christian Kirk, Jayden Higgins out now: about +2.3 a week of vacated usage; if Nico Collins misses time: about +6.5 a week. Ceiling 12.2 a week vs 5.6 expected. At that ceiling he adds +2.7 a week; bid = min(5% of your $200, 2.7 x 14 wks x $0.60 x 0.25 chance the role lands), also held to the league bid."
+  },
+  {
+   "player_id": "11581",
+   "name": "MarShawn Lloyd",
+   "pos": "RB",
+   "team": "GB",
+   "opp_next": "TB",
+   "next_proj": 7.14,
+   "last_actual": 2.8,
+   "ros": 6.13,
+   "ros_how": "model+season",
+   "value": 6.64,
+   "gain": 0.37,
+   "starter_gain": 0.0,
+   "depth_gain": 0.37,
+   "trending": 170532,
+   "injury_status": null,
+   "would_start": false,
+   "drop": {
+    "player_id": "12495",
+    "name": "Ollie Gordon",
+    "pos": "RB",
+    "ros": 4.66
+   },
+   "bid": 0,
+   "bid_why": "gain under 0.5 points per week, not worth a claim",
+   "ceiling": 10.24,
+   "ceiling_gap": 4.11,
+   "ceiling_gain": 1.58,
+   "ceiling_sig": {
+    "bump_now": 0.0,
+    "bump_if_lead": 4.11,
+    "lead": "00-0035700",
+    "lead_name": "Josh Jacobs",
+    "bump": 4.11,
+    "out_now": [],
+    "lead_sleeper_id": null
+   },
+   "ceiling_why": "if Josh Jacobs misses time: about +4.1 a week. Ceiling 10.2 a week vs 6.1 expected.",
+   "why": "Rest-of-season value about 6.1 a week (model+season; next week 7.14). He would not start over anyone you have, so the gain is depth only: +0.4 a week (a quarter of his edge over Ollie Gordon).",
+   "role_open_now": false,
+   "threats": [
+    {
+     "roster_id": 7,
+     "team": "Cheeky Nando\u2019s",
+     "remaining": 186,
+     "score": 5.0,
+     "why": [
+      "owns Josh Jacobs (NA), the GB RB he would replace",
+      "just dropped Jonathon Brooks"
+     ],
+     "usual_bid": 8,
+     "repeated": [
+      8,
+      1
+     ],
+     "pos_max": null
+    },
+    {
+     "roster_id": 9,
+     "team": "Girthenheimer",
+     "remaining": 167,
+     "score": 3.5,
+     "why": [
+      "starter ruled out or put on IR this week: Breece Hall (Out)",
+      "just dropped Emanuel Wilson",
+      "has bid on a RB before"
+     ],
+     "usual_bid": 3,
+     "repeated": [
+      15,
+      3
+     ],
+     "pos_max": 18
+    },
+    {
+     "roster_id": 2,
+     "team": "Amateur Hour",
+     "remaining": 94,
+     "score": 3.5,
+     "why": [
+      "starter ruled out or put on IR this week: De'Von Achane (IR), Travis Etienne (Out)",
+      "just dropped De'Von Achane",
+      "has bid on a RB before"
+     ],
+     "usual_bid": 7,
+     "repeated": [
+      7,
+      3
+     ],
+     "pos_max": 53
+    }
+   ],
+   "league_bid": 16,
+   "league_bid_why": "$29.5 market (median winning bid of each run's most-contested player (n=4), 4 likely bidders counting you), held to $13, what he is worth to you; x1.21 budget pace: $200 of $200 left with 14 of 17 weeks to go, and you usually finish with FAAB unspent, so bids are scaled up to spend it down toward $0",
+   "value_cap": 13,
+   "market": 29.5,
+   "market_basis": "median winning bid of each run's most-contested player (n=4)",
+   "pace": 1.21,
+   "comparable": "Thu Oct 1 run's top RB add: Jaylen Wright went $53 to Amateur Hour with 2 bidders (losing: Girthenheimer $18).",
+   "comparable_bid": 53,
+   "to_beat": 55,
+   "to_beat_why": "$55: $2 over Amateur Hour, who has bid as much as $53 on a RB",
+   "to_beat_within_value": false,
+   "spec_bid": 3,
+   "spec_why": "Untested: priced from the display-only vacated-share signal. if Josh Jacobs misses time: about +4.1 a week. Ceiling 10.2 a week vs 6.1 expected. At that ceiling he adds +1.6 a week; bid = min(5% of your $200, 1.6 x 14 wks x $0.60 x 0.25 chance the role lands), also held to the league bid."
+  },
+  {
+   "player_id": "13347",
+   "name": "Demond Claiborne",
+   "pos": "RB",
+   "team": "MIN",
+   "opp_next": "MIA",
+   "next_proj": 2.4,
+   "last_actual": 0.1,
+   "ros": 3.93,
+   "ros_how": "model+season",
+   "value": 3.17,
+   "gain": 0.0,
+   "starter_gain": 0.0,
+   "depth_gain": 0.0,
+   "trending": 0,
+   "injury_status": null,
+   "would_start": false,
+   "drop": {
+    "player_id": "12495",
+    "name": "Ollie Gordon",
+    "pos": "RB",
+    "ros": 4.66
+   },
+   "bid": 0,
+   "bid_why": "gain under 0.5 points per week, not worth a claim",
+   "ceiling": 10.03,
+   "ceiling_gap": 6.1,
+   "ceiling_gain": 1.37,
+   "ceiling_sig": {
+    "bump_now": 0.97,
+    "bump_if_lead": 6.1,
+    "lead": "00-0033293",
+    "lead_name": "Aaron Jones",
+    "bump": 6.1,
+    "out_now": [
+     "Ty Chandler",
+     "Jordan Mason"
+    ],
+    "lead_sleeper_id": "4199"
+   },
+   "ceiling_why": "Ty Chandler, Jordan Mason out now: about +1.0 a week of vacated usage; if Aaron Jones misses time: about +6.1 a week. Ceiling 10.0 a week vs 3.9 expected.",
+   "why": "Rest-of-season value about 3.9 a week (model+season; next week 2.4). He would not start over anyone you have, so the gain is depth only: +0.0 a week (a quarter of his edge over Ollie Gordon).",
+   "role_open_now": false,
+   "threats": [
+    {
+     "roster_id": 7,
+     "team": "Cheeky Nando\u2019s",
+     "remaining": 186,
+     "score": 5.0,
+     "why": [
+      "owns Jordan Mason (IR), the MIN RB he would replace",
+      "just dropped Jonathon Brooks"
+     ],
+     "usual_bid": 8,
+     "repeated": [
+      8,
+      1
+     ],
+     "pos_max": null
+    },
+    {
+     "roster_id": 9,
+     "team": "Girthenheimer",
+     "remaining": 167,
+     "score": 3.5,
+     "why": [
+      "starter ruled out or put on IR this week: Breece Hall (Out)",
+      "just dropped Emanuel Wilson",
+      "has bid on a RB before"
+     ],
+     "usual_bid": 3,
+     "repeated": [
+      15,
+      3
+     ],
+     "pos_max": 18
+    },
+    {
+     "roster_id": 2,
+     "team": "Amateur Hour",
+     "remaining": 94,
+     "score": 3.5,
+     "why": [
+      "starter ruled out or put on IR this week: De'Von Achane (IR), Travis Etienne (Out)",
+      "just dropped De'Von Achane",
+      "has bid on a RB before"
+     ],
+     "usual_bid": 7,
+     "repeated": [
+      7,
+      3
+     ],
+     "pos_max": 53
+    }
+   ],
+   "league_bid": 14,
+   "league_bid_why": "$29.5 market (median winning bid of each run's most-contested player (n=4), 4 likely bidders counting you), held to $12, what he is worth to you; x1.21 budget pace: $200 of $200 left with 14 of 17 weeks to go, and you usually finish with FAAB unspent, so bids are scaled up to spend it down toward $0",
+   "value_cap": 12,
+   "market": 29.5,
+   "market_basis": "median winning bid of each run's most-contested player (n=4)",
+   "pace": 1.21,
+   "comparable": "Thu Oct 1 run's top RB add: Jaylen Wright went $53 to Amateur Hour with 2 bidders (losing: Girthenheimer $18).",
+   "comparable_bid": 53,
+   "to_beat": 55,
+   "to_beat_why": "$55: $2 over Amateur Hour, who has bid as much as $53 on a RB",
+   "to_beat_within_value": false,
+   "spec_bid": 3,
+   "spec_why": "Untested: priced from the display-only vacated-share signal. Ty Chandler, Jordan Mason out now: about +1.0 a week of vacated usage; if Aaron Jones misses time: about +6.1 a week. Ceiling 10.0 a week vs 3.9 expected. At that ceiling he adds +1.4 a week; bid = min(5% of your $200, 1.4 x 14 wks x $0.60 x 0.25 chance the role lands), also held to the league bid."
+  },
+  {
+   "player_id": "2359",
+   "name": "Ameer Abdullah",
+   "pos": "RB",
+   "team": "JAX",
+   "opp_next": "CIN",
+   "next_proj": 2.49,
+   "last_actual": 0.2,
+   "ros": 5.05,
+   "ros_how": "model+season",
+   "value": 3.77,
+   "gain": 0.1,
+   "starter_gain": 0.0,
+   "depth_gain": 0.1,
+   "trending": 0,
+   "injury_status": null,
+   "would_start": false,
+   "drop": {
+    "player_id": "12495",
+    "name": "Ollie Gordon",
+    "pos": "RB",
+    "ros": 4.66
+   },
+   "bid": 0,
+   "bid_why": "gain under 0.5 points per week, not worth a claim",
+   "ceiling": 9.43,
+   "ceiling_gap": 4.38,
+   "ceiling_gain": 0.77,
+   "ceiling_sig": {
+    "bump_now": 1.67,
+    "bump_if_lead": 4.38,
+    "lead": "00-0040719",
+    "lead_name": "Bhayshul Tuten",
+    "bump": 4.38,
+    "out_now": [
+     "Travis Etienne"
+    ],
+    "lead_sleeper_id": "12490"
+   },
+   "ceiling_why": "Travis Etienne out now: about +1.7 a week of vacated usage; if Bhayshul Tuten misses time: about +4.4 a week. Ceiling 9.4 a week vs 5.0 expected.",
+   "why": "Rest-of-season value about 5.0 a week (model+season; next week 2.49). He would not start over anyone you have, so the gain is depth only: +0.1 a week (a quarter of his edge over Ollie Gordon).",
+   "role_open_now": false,
+   "threats": [
+    {
+     "roster_id": 9,
+     "team": "Girthenheimer",
+     "remaining": 167,
+     "score": 3.5,
+     "why": [
+      "starter ruled out or put on IR this week: Breece Hall (Out)",
+      "just dropped Emanuel Wilson",
+      "has bid on a RB before"
+     ],
+     "usual_bid": 3,
+     "repeated": [
+      15,
+      3
+     ],
+     "pos_max": 18
+    },
+    {
+     "roster_id": 2,
+     "team": "Amateur Hour",
+     "remaining": 94,
+     "score": 3.5,
+     "why": [
+      "starter ruled out or put on IR this week: De'Von Achane (IR), Travis Etienne (Out)",
+      "just dropped De'Von Achane",
+      "has bid on a RB before"
+     ],
+     "usual_bid": 7,
+     "repeated": [
+      7,
+      3
+     ],
+     "pos_max": 53
+    },
+    {
+     "roster_id": 12,
+     "team": "Baker\u2019s Dozen",
+     "remaining": 200,
+     "score": 1.0,
+     "why": [
+      "starter Bucky Irving Questionable, Tony Pollard Questionable"
+     ],
+     "usual_bid": null,
+     "repeated": [],
+     "pos_max": null
+    }
+   ],
+   "league_bid": 8,
+   "league_bid_why": "$29.5 market (median winning bid of each run's most-contested player (n=4), 4 likely bidders counting you), held to $6, what he is worth to you; x1.21 budget pace: $200 of $200 left with 14 of 17 weeks to go, and you usually finish with FAAB unspent, so bids are scaled up to spend it down toward $0",
+   "value_cap": 6,
+   "market": 29.5,
+   "market_basis": "median winning bid of each run's most-contested player (n=4)",
+   "pace": 1.21,
+   "comparable": "Thu Oct 1 run's top RB add: Jaylen Wright went $53 to Amateur Hour with 2 bidders (losing: Girthenheimer $18).",
+   "comparable_bid": 53,
+   "to_beat": 55,
+   "to_beat_why": "$55: $2 over Amateur Hour, who has bid as much as $53 on a RB",
+   "to_beat_within_value": false,
+   "spec_bid": 2,
+   "spec_why": "Untested: priced from the display-only vacated-share signal. Travis Etienne out now: about +1.7 a week of vacated usage; if Bhayshul Tuten misses time: about +4.4 a week. Ceiling 9.4 a week vs 5.0 expected. At that ceiling he adds +0.8 a week; bid = min(5% of your $200, 0.8 x 14 wks x $0.60 x 0.25 chance the role lands), also held to the league bid."
   }
  ],
  "speculative_more": [
-  "MarShawn Lloyd (RB, +4.1)",
-  "Demond Claiborne (RB, +6.1)",
-  "Ameer Abdullah (RB, +4.4)"
+  "Isaiah Davis (RB, +5.7)"
  ],
  "excluded_claims": [
   {
@@ -1292,53 +1879,71 @@
    "ros": 8.81,
    "ros_how": "model+season",
    "value": 8.76,
-   "gain": 0.9,
+   "gain": 1.04,
    "starter_gain": 0.0,
-   "depth_gain": 0.9,
+   "depth_gain": 1.04,
    "trending": 4185414,
-   "injury_status": null,
+   "injury_status": "Questionable",
    "would_start": false,
    "drop": {
-    "player_id": "12048",
-    "name": "George Holani",
+    "player_id": "12495",
+    "name": "Ollie Gordon",
     "pos": "RB",
-    "ros": 5.23
+    "ros": 4.66
    },
-   "bid": 11,
-   "bid_why": "0.9 pts/week x 14 weeks left x $0.60 per point, x1.30 demand premium (4,185,414 Sleeper adds in 72h; the hottest player on the wire has 11,901,393), x1.15 early-season premium (everyone still has a full budget)",
+   "bid": 13,
+   "bid_why": "1.0 pts/week x 14 weeks left x $0.60 per point, x1.30 demand premium (4,185,414 Sleeper adds in 72h; the hottest player on the wire has 11,901,393), x1.15 early-season premium (everyone still has a full budget)",
    "ceiling": null,
    "ceiling_gap": null,
-   "ceiling_gain": 0.9,
+   "ceiling_gain": 1.04,
    "ceiling_sig": null,
    "ceiling_why": null,
-   "why": "Rest-of-season value about 8.8 a week (model+season; next week 8.71). He would not start over anyone you have, so the gain is depth only: +0.9 a week (a quarter of his edge over George Holani).",
+   "why": "Rest-of-season value about 8.8 a week (model+season; next week 8.71). He would not start over anyone you have, so the gain is depth only: +1.0 a week (a quarter of his edge over Ollie Gordon).",
    "threats": [
+    {
+     "roster_id": 2,
+     "team": "Amateur Hour",
+     "remaining": 94,
+     "score": 2.5,
+     "why": [
+      "starter Kenyon Sadiq Questionable",
+      "just dropped Tucker Kraft",
+      "has bid on a TE before"
+     ],
+     "usual_bid": 7,
+     "repeated": [
+      7,
+      3
+     ],
+     "pos_max": 43
+    },
     {
      "roster_id": 7,
      "team": "Cheeky Nando\u2019s",
-     "remaining": 194,
+     "remaining": 186,
      "score": 1.5,
      "why": [
-      "just dropped Terrance Ferguson",
+      "just dropped Terrance Ferguson, Dalton Schultz",
       "has bid on a TE before"
      ],
-     "usual_bid": 1,
+     "usual_bid": 8,
      "repeated": [
+      8,
       1
      ],
      "pos_max": 12
     }
    ],
-   "league_bid": 9,
-   "league_bid_why": "$29 market (median contested TE winning bid (n=2), 2 likely bidders counting you), held to $8, what he is worth to you; x1.21 budget pace: $200 of $200 left with 14 of 17 weeks to go, and you usually finish with FAAB unspent, so bids are scaled up to spend it down toward $0",
-   "value_cap": 8,
-   "market": 29.0,
-   "market_basis": "median contested TE winning bid (n=2)",
+   "league_bid": 11,
+   "league_bid_why": "$29.5 market (median winning bid of each run's most-contested player (n=4), 3 likely bidders counting you), held to $9, what he is worth to you; x1.21 budget pace: $200 of $200 left with 14 of 17 weeks to go, and you usually finish with FAAB unspent, so bids are scaled up to spend it down toward $0",
+   "value_cap": 9,
+   "market": 29.5,
+   "market_basis": "median winning bid of each run's most-contested player (n=4)",
    "pace": 1.21,
-   "comparable": "Thu Sep 24 run's top TE add: Travis Kelce went $31 to Derrelick my Balls with 4 bidders (losing: ValKilmersComeback $22, Cheeky Nando\u2019s $12, tacocats $0).",
-   "comparable_bid": 31,
-   "to_beat": 14,
-   "to_beat_why": "$14: $2 over Cheeky Nando\u2019s, who has bid as much as $12 on a TE",
+   "comparable": "Thu Oct 1 run's top TE add: Kenyon Sadiq went $43 to Amateur Hour with 1 bidder.",
+   "comparable_bid": 43,
+   "to_beat": 45,
+   "to_beat_why": "$45: $2 over Amateur Hour, who has bid as much as $43 on a TE",
    "to_beat_within_value": false
   },
   {
@@ -1352,53 +1957,71 @@
    "ros": 9.14,
    "ros_how": "model+season",
    "value": 9.5,
-   "gain": 0.98,
+   "gain": 1.12,
    "starter_gain": 0.0,
-   "depth_gain": 0.98,
+   "depth_gain": 1.12,
    "trending": 138710,
    "injury_status": null,
    "would_start": false,
    "drop": {
-    "player_id": "12048",
-    "name": "George Holani",
+    "player_id": "12495",
+    "name": "Ollie Gordon",
     "pos": "RB",
-    "ros": 5.23
+    "ros": 4.66
    },
-   "bid": 10,
-   "bid_why": "1.0 pts/week x 14 weeks left x $0.60 per point, x1.05 demand premium (138,710 Sleeper adds in 72h; the hottest player on the wire has 11,901,393), x1.15 early-season premium (everyone still has a full budget)",
+   "bid": 11,
+   "bid_why": "1.1 pts/week x 14 weeks left x $0.60 per point, x1.05 demand premium (138,710 Sleeper adds in 72h; the hottest player on the wire has 11,901,393), x1.15 early-season premium (everyone still has a full budget)",
    "ceiling": null,
    "ceiling_gap": null,
-   "ceiling_gain": 0.98,
+   "ceiling_gain": 1.12,
    "ceiling_sig": null,
    "ceiling_why": null,
-   "why": "Rest-of-season value about 9.1 a week (model+season; next week 9.87). He would not start over anyone you have, so the gain is depth only: +1.0 a week (a quarter of his edge over George Holani).",
+   "why": "Rest-of-season value about 9.1 a week (model+season; next week 9.87). He would not start over anyone you have, so the gain is depth only: +1.1 a week (a quarter of his edge over Ollie Gordon).",
    "threats": [
+    {
+     "roster_id": 2,
+     "team": "Amateur Hour",
+     "remaining": 94,
+     "score": 2.5,
+     "why": [
+      "starter Kenyon Sadiq Questionable",
+      "just dropped Tucker Kraft",
+      "has bid on a TE before"
+     ],
+     "usual_bid": 7,
+     "repeated": [
+      7,
+      3
+     ],
+     "pos_max": 43
+    },
     {
      "roster_id": 7,
      "team": "Cheeky Nando\u2019s",
-     "remaining": 194,
+     "remaining": 186,
      "score": 1.5,
      "why": [
-      "just dropped Terrance Ferguson",
+      "just dropped Terrance Ferguson, Dalton Schultz",
       "has bid on a TE before"
      ],
-     "usual_bid": 1,
+     "usual_bid": 8,
      "repeated": [
+      8,
       1
      ],
      "pos_max": 12
     }
    ],
-   "league_bid": 10,
-   "league_bid_why": "$29 market (median contested TE winning bid (n=2), 2 likely bidders counting you), held to $8, what he is worth to you; x1.21 budget pace: $200 of $200 left with 14 of 17 weeks to go, and you usually finish with FAAB unspent, so bids are scaled up to spend it down toward $0",
-   "value_cap": 8,
-   "market": 29.0,
-   "market_basis": "median contested TE winning bid (n=2)",
+   "league_bid": 11,
+   "league_bid_why": "$29.5 market (median winning bid of each run's most-contested player (n=4), 3 likely bidders counting you), held to $9, what he is worth to you; x1.21 budget pace: $200 of $200 left with 14 of 17 weeks to go, and you usually finish with FAAB unspent, so bids are scaled up to spend it down toward $0",
+   "value_cap": 9,
+   "market": 29.5,
+   "market_basis": "median winning bid of each run's most-contested player (n=4)",
    "pace": 1.21,
-   "comparable": "Thu Sep 24 run's top TE add: Travis Kelce went $31 to Derrelick my Balls with 4 bidders (losing: ValKilmersComeback $22, Cheeky Nando\u2019s $12, tacocats $0).",
-   "comparable_bid": 31,
-   "to_beat": 14,
-   "to_beat_why": "$14: $2 over Cheeky Nando\u2019s, who has bid as much as $12 on a TE",
+   "comparable": "Thu Oct 1 run's top TE add: Kenyon Sadiq went $43 to Amateur Hour with 1 bidder.",
+   "comparable_bid": 43,
+   "to_beat": 45,
+   "to_beat_why": "$45: $2 over Amateur Hour, who has bid as much as $43 on a TE",
    "to_beat_within_value": false
   },
   {
@@ -1412,53 +2035,384 @@
    "ros": 7.99,
    "ros_how": "model+season",
    "value": 7.8,
-   "gain": 0.69,
+   "gain": 0.83,
    "starter_gain": 0.0,
-   "depth_gain": 0.69,
+   "depth_gain": 0.83,
    "trending": 980469,
    "injury_status": null,
    "would_start": false,
    "drop": {
-    "player_id": "12048",
-    "name": "George Holani",
+    "player_id": "12495",
+    "name": "Ollie Gordon",
     "pos": "RB",
-    "ros": 5.23
+    "ros": 4.66
    },
-   "bid": 8,
-   "bid_why": "0.7 pts/week x 14 weeks left x $0.60 per point, x1.14 demand premium (980,469 Sleeper adds in 72h; the hottest player on the wire has 11,901,393), x1.15 early-season premium (everyone still has a full budget)",
+   "bid": 9,
+   "bid_why": "0.8 pts/week x 14 weeks left x $0.60 per point, x1.14 demand premium (980,469 Sleeper adds in 72h; the hottest player on the wire has 11,901,393), x1.15 early-season premium (everyone still has a full budget)",
    "ceiling": null,
    "ceiling_gap": null,
-   "ceiling_gain": 0.69,
+   "ceiling_gain": 0.83,
    "ceiling_sig": null,
    "ceiling_why": null,
-   "why": "Rest-of-season value about 8.0 a week (model+season; next week 7.6). He would not start over anyone you have, so the gain is depth only: +0.7 a week (a quarter of his edge over George Holani).",
+   "why": "Rest-of-season value about 8.0 a week (model+season; next week 7.6). He would not start over anyone you have, so the gain is depth only: +0.8 a week (a quarter of his edge over Ollie Gordon).",
    "threats": [
+    {
+     "roster_id": 2,
+     "team": "Amateur Hour",
+     "remaining": 94,
+     "score": 2.5,
+     "why": [
+      "starter Kenyon Sadiq Questionable",
+      "just dropped Tucker Kraft",
+      "has bid on a TE before"
+     ],
+     "usual_bid": 7,
+     "repeated": [
+      7,
+      3
+     ],
+     "pos_max": 43
+    },
     {
      "roster_id": 7,
      "team": "Cheeky Nando\u2019s",
-     "remaining": 194,
+     "remaining": 186,
      "score": 1.5,
      "why": [
-      "just dropped Terrance Ferguson",
+      "just dropped Terrance Ferguson, Dalton Schultz",
       "has bid on a TE before"
      ],
-     "usual_bid": 1,
+     "usual_bid": 8,
      "repeated": [
+      8,
       1
      ],
      "pos_max": 12
     }
    ],
-   "league_bid": 7,
-   "league_bid_why": "$29 market (median contested TE winning bid (n=2), 2 likely bidders counting you), held to $6, what he is worth to you; x1.21 budget pace: $200 of $200 left with 14 of 17 weeks to go, and you usually finish with FAAB unspent, so bids are scaled up to spend it down toward $0",
-   "value_cap": 6,
-   "market": 29.0,
-   "market_basis": "median contested TE winning bid (n=2)",
+   "league_bid": 8,
+   "league_bid_why": "$29.5 market (median winning bid of each run's most-contested player (n=4), 3 likely bidders counting you), held to $7, what he is worth to you; x1.21 budget pace: $200 of $200 left with 14 of 17 weeks to go, and you usually finish with FAAB unspent, so bids are scaled up to spend it down toward $0",
+   "value_cap": 7,
+   "market": 29.5,
+   "market_basis": "median winning bid of each run's most-contested player (n=4)",
    "pace": 1.21,
-   "comparable": "Thu Sep 24 run's top TE add: Travis Kelce went $31 to Derrelick my Balls with 4 bidders (losing: ValKilmersComeback $22, Cheeky Nando\u2019s $12, tacocats $0).",
-   "comparable_bid": 31,
-   "to_beat": 14,
-   "to_beat_why": "$14: $2 over Cheeky Nando\u2019s, who has bid as much as $12 on a TE",
+   "comparable": "Thu Oct 1 run's top TE add: Kenyon Sadiq went $43 to Amateur Hour with 1 bidder.",
+   "comparable_bid": 43,
+   "to_beat": 45,
+   "to_beat_why": "$45: $2 over Amateur Hour, who has bid as much as $43 on a TE",
+   "to_beat_within_value": false
+  },
+  {
+   "player_id": "4993",
+   "name": "Mike Gesicki",
+   "pos": "TE",
+   "team": "CIN",
+   "opp_next": "JAX",
+   "next_proj": 6.46,
+   "last_actual": 11.2,
+   "ros": 6.87,
+   "ros_how": "model+season",
+   "value": 6.66,
+   "gain": 0.55,
+   "starter_gain": 0.0,
+   "depth_gain": 0.55,
+   "trending": 82208,
+   "injury_status": null,
+   "would_start": false,
+   "drop": {
+    "player_id": "12495",
+    "name": "Ollie Gordon",
+    "pos": "RB",
+    "ros": 4.66
+   },
+   "bid": 6,
+   "bid_why": "0.6 pts/week x 14 weeks left x $0.60 per point, x1.04 demand premium (82,208 Sleeper adds in 72h; the hottest player on the wire has 11,901,393), x1.15 early-season premium (everyone still has a full budget)",
+   "ceiling": null,
+   "ceiling_gap": null,
+   "ceiling_gain": 0.55,
+   "ceiling_sig": null,
+   "ceiling_why": null,
+   "why": "Rest-of-season value about 6.9 a week (model+season; next week 6.46). He would not start over anyone you have, so the gain is depth only: +0.6 a week (a quarter of his edge over Ollie Gordon).",
+   "threats": [
+    {
+     "roster_id": 2,
+     "team": "Amateur Hour",
+     "remaining": 94,
+     "score": 2.5,
+     "why": [
+      "starter Kenyon Sadiq Questionable",
+      "just dropped Tucker Kraft",
+      "has bid on a TE before"
+     ],
+     "usual_bid": 7,
+     "repeated": [
+      7,
+      3
+     ],
+     "pos_max": 43
+    },
+    {
+     "roster_id": 7,
+     "team": "Cheeky Nando\u2019s",
+     "remaining": 186,
+     "score": 1.5,
+     "why": [
+      "just dropped Terrance Ferguson, Dalton Schultz",
+      "has bid on a TE before"
+     ],
+     "usual_bid": 8,
+     "repeated": [
+      8,
+      1
+     ],
+     "pos_max": 12
+    }
+   ],
+   "league_bid": 6,
+   "league_bid_why": "$29.5 market (median winning bid of each run's most-contested player (n=4), 3 likely bidders counting you), held to $5, what he is worth to you; x1.21 budget pace: $200 of $200 left with 14 of 17 weeks to go, and you usually finish with FAAB unspent, so bids are scaled up to spend it down toward $0",
+   "value_cap": 5,
+   "market": 29.5,
+   "market_basis": "median winning bid of each run's most-contested player (n=4)",
+   "pace": 1.21,
+   "comparable": "Thu Oct 1 run's top TE add: Kenyon Sadiq went $43 to Amateur Hour with 1 bidder.",
+   "comparable_bid": 43,
+   "to_beat": 45,
+   "to_beat_why": "$45: $2 over Amateur Hour, who has bid as much as $43 on a TE",
+   "to_beat_within_value": false
+  },
+  {
+   "player_id": "7600",
+   "name": "Pat Freiermuth",
+   "pos": "TE",
+   "team": "PIT",
+   "opp_next": "CLE",
+   "next_proj": 6.31,
+   "last_actual": 4.1,
+   "ros": 6.86,
+   "ros_how": "model+season",
+   "value": 6.58,
+   "gain": 0.55,
+   "starter_gain": 0.0,
+   "depth_gain": 0.55,
+   "trending": 0,
+   "injury_status": null,
+   "would_start": false,
+   "drop": {
+    "player_id": "12495",
+    "name": "Ollie Gordon",
+    "pos": "RB",
+    "ros": 4.66
+   },
+   "bid": 5,
+   "bid_why": "0.5 pts/week x 14 weeks left x $0.60 per point, x1.15 early-season premium (everyone still has a full budget)",
+   "ceiling": null,
+   "ceiling_gap": null,
+   "ceiling_gain": 0.55,
+   "ceiling_sig": null,
+   "ceiling_why": null,
+   "why": "Rest-of-season value about 6.9 a week (model+season; next week 6.31). He would not start over anyone you have, so the gain is depth only: +0.5 a week (a quarter of his edge over Ollie Gordon).",
+   "threats": [
+    {
+     "roster_id": 2,
+     "team": "Amateur Hour",
+     "remaining": 94,
+     "score": 2.5,
+     "why": [
+      "starter Kenyon Sadiq Questionable",
+      "just dropped Tucker Kraft",
+      "has bid on a TE before"
+     ],
+     "usual_bid": 7,
+     "repeated": [
+      7,
+      3
+     ],
+     "pos_max": 43
+    },
+    {
+     "roster_id": 7,
+     "team": "Cheeky Nando\u2019s",
+     "remaining": 186,
+     "score": 1.5,
+     "why": [
+      "just dropped Terrance Ferguson, Dalton Schultz",
+      "has bid on a TE before"
+     ],
+     "usual_bid": 8,
+     "repeated": [
+      8,
+      1
+     ],
+     "pos_max": 12
+    }
+   ],
+   "league_bid": 6,
+   "league_bid_why": "$29.5 market (median winning bid of each run's most-contested player (n=4), 3 likely bidders counting you), held to $5, what he is worth to you; x1.21 budget pace: $200 of $200 left with 14 of 17 weeks to go, and you usually finish with FAAB unspent, so bids are scaled up to spend it down toward $0",
+   "value_cap": 5,
+   "market": 29.5,
+   "market_basis": "median winning bid of each run's most-contested player (n=4)",
+   "pace": 1.21,
+   "comparable": "Thu Oct 1 run's top TE add: Kenyon Sadiq went $43 to Amateur Hour with 1 bidder.",
+   "comparable_bid": 43,
+   "to_beat": 45,
+   "to_beat_why": "$45: $2 over Amateur Hour, who has bid as much as $43 on a TE",
+   "to_beat_within_value": false
+  },
+  {
+   "player_id": "5857",
+   "name": "Noah Fant",
+   "pos": "TE",
+   "team": "NO",
+   "opp_next": "ATL",
+   "next_proj": 4.97,
+   "last_actual": 17.3,
+   "ros": 6.76,
+   "ros_how": "model+season",
+   "value": 5.87,
+   "gain": 0.53,
+   "starter_gain": 0.0,
+   "depth_gain": 0.53,
+   "trending": 0,
+   "injury_status": null,
+   "would_start": false,
+   "drop": {
+    "player_id": "12495",
+    "name": "Ollie Gordon",
+    "pos": "RB",
+    "ros": 4.66
+   },
+   "bid": 5,
+   "bid_why": "0.5 pts/week x 14 weeks left x $0.60 per point, x1.15 early-season premium (everyone still has a full budget)",
+   "ceiling": null,
+   "ceiling_gap": null,
+   "ceiling_gain": 0.53,
+   "ceiling_sig": null,
+   "ceiling_why": null,
+   "why": "Rest-of-season value about 6.8 a week (model+season; next week 4.97). He would not start over anyone you have, so the gain is depth only: +0.5 a week (a quarter of his edge over Ollie Gordon).",
+   "threats": [
+    {
+     "roster_id": 7,
+     "team": "Cheeky Nando\u2019s",
+     "remaining": 186,
+     "score": 2.5,
+     "why": [
+      "owns Juwan Johnson, the NO TE1 (handcuff interest)",
+      "just dropped Terrance Ferguson, Dalton Schultz",
+      "has bid on a TE before"
+     ],
+     "usual_bid": 8,
+     "repeated": [
+      8,
+      1
+     ],
+     "pos_max": 12
+    },
+    {
+     "roster_id": 2,
+     "team": "Amateur Hour",
+     "remaining": 94,
+     "score": 2.5,
+     "why": [
+      "starter Kenyon Sadiq Questionable",
+      "just dropped Tucker Kraft",
+      "has bid on a TE before"
+     ],
+     "usual_bid": 7,
+     "repeated": [
+      7,
+      3
+     ],
+     "pos_max": 43
+    }
+   ],
+   "league_bid": 5,
+   "league_bid_why": "$29.5 market (median winning bid of each run's most-contested player (n=4), 3 likely bidders counting you), held to $4, what he is worth to you; x1.21 budget pace: $200 of $200 left with 14 of 17 weeks to go, and you usually finish with FAAB unspent, so bids are scaled up to spend it down toward $0",
+   "value_cap": 4,
+   "market": 29.5,
+   "market_basis": "median winning bid of each run's most-contested player (n=4)",
+   "pace": 1.21,
+   "comparable": "Thu Oct 1 run's top TE add: Kenyon Sadiq went $43 to Amateur Hour with 1 bidder.",
+   "comparable_bid": 43,
+   "to_beat": 45,
+   "to_beat_why": "$45: $2 over Amateur Hour, who has bid as much as $43 on a TE",
+   "to_beat_within_value": false
+  },
+  {
+   "player_id": "5012",
+   "name": "Mark Andrews",
+   "pos": "TE",
+   "team": "BAL",
+   "opp_next": "TEN",
+   "next_proj": 6.76,
+   "last_actual": 3.9,
+   "ros": 6.69,
+   "ros_how": "model+season",
+   "value": 6.72,
+   "gain": 0.51,
+   "starter_gain": 0.0,
+   "depth_gain": 0.51,
+   "trending": 0,
+   "injury_status": null,
+   "would_start": false,
+   "drop": {
+    "player_id": "12495",
+    "name": "Ollie Gordon",
+    "pos": "RB",
+    "ros": 4.66
+   },
+   "bid": 5,
+   "bid_why": "0.5 pts/week x 14 weeks left x $0.60 per point, x1.15 early-season premium (everyone still has a full budget)",
+   "ceiling": null,
+   "ceiling_gap": null,
+   "ceiling_gain": 0.51,
+   "ceiling_sig": null,
+   "ceiling_why": null,
+   "why": "Rest-of-season value about 6.7 a week (model+season; next week 6.76). He would not start over anyone you have, so the gain is depth only: +0.5 a week (a quarter of his edge over Ollie Gordon).",
+   "threats": [
+    {
+     "roster_id": 2,
+     "team": "Amateur Hour",
+     "remaining": 94,
+     "score": 2.5,
+     "why": [
+      "starter Kenyon Sadiq Questionable",
+      "just dropped Tucker Kraft",
+      "has bid on a TE before"
+     ],
+     "usual_bid": 7,
+     "repeated": [
+      7,
+      3
+     ],
+     "pos_max": 43
+    },
+    {
+     "roster_id": 7,
+     "team": "Cheeky Nando\u2019s",
+     "remaining": 186,
+     "score": 1.5,
+     "why": [
+      "just dropped Terrance Ferguson, Dalton Schultz",
+      "has bid on a TE before"
+     ],
+     "usual_bid": 8,
+     "repeated": [
+      8,
+      1
+     ],
+     "pos_max": 12
+    }
+   ],
+   "league_bid": 5,
+   "league_bid_why": "$29.5 market (median winning bid of each run's most-contested player (n=4), 3 likely bidders counting you), held to $4, what he is worth to you; x1.21 budget pace: $200 of $200 left with 14 of 17 weeks to go, and you usually finish with FAAB unspent, so bids are scaled up to spend it down toward $0",
+   "value_cap": 4,
+   "market": 29.5,
+   "market_basis": "median winning bid of each run's most-contested player (n=4)",
+   "pace": 1.21,
+   "comparable": "Thu Oct 1 run's top TE add: Kenyon Sadiq went $43 to Amateur Hour with 1 bidder.",
+   "comparable_bid": 43,
+   "to_beat": 45,
+   "to_beat_why": "$45: $2 over Amateur Hour, who has bid as much as $43 on a TE",
    "to_beat_within_value": false
   }
  ],
@@ -1474,8 +2428,75 @@
   "projected_leftover": 200,
   "summary": "At your pace ($0 spent in 3 weeks) you would finish with about $200 unspent; league bids are scaled x1.21 to spend it down."
  },
- "all_evaluated": 121,
+ "all_evaluated": 120,
  "drop_candidates": [
+  {
+   "player_id": "12495",
+   "name": "Ollie Gordon",
+   "pos": "RB",
+   "team": "MIA",
+   "opp": "MIN",
+   "sleeper": 7.3,
+   "preseason": 4.48,
+   "season_avg": 4.9,
+   "n_games": 3,
+   "baseline": 4.66,
+   "expected": 6.38,
+   "injury_status": null,
+   "injury_body_part": null,
+   "practice": null,
+   "bye": false,
+   "playing": true,
+   "inj_mult": 1.0,
+   "boom_rate": 0.0,
+   "sd_wk": 4.525,
+   "vor": -74.8,
+   "started": false,
+   "actual_so_far": null,
+   "slot": "BN",
+   "why": "Sleeper projects 7.3, season average 4.9 over 3 games, preseason model 4.5. Blended expectation 6.4 vs MIN.",
+   "vacated": {
+    "player_id": "00-0040198",
+    "pos": "RB",
+    "team": "MIA",
+    "estimator": "historical",
+    "n_out": 1,
+    "out": [
+     {
+      "player_id": "00-0039040",
+      "name": "De'Von Achane",
+      "car": 0.2929,
+      "tgt": 0.0293
+     }
+    ],
+    "vacated_tgt": 0.173,
+    "vacated_car": 0.542,
+    "absorbed_tgt": 0.029,
+    "absorbed_car": 0.293,
+    "own_tgt_share": 0.027,
+    "own_car_share": 0.22,
+    "ppt": 1.322,
+    "ppc": 0.541,
+    "team_tgt_pg": 27.8,
+    "team_car_pg": 25.86,
+    "hist_pairs_used": 0,
+    "hist_min_games": null,
+    "points": 5.17,
+    "n_games": 2,
+    "name": "Ollie Gordon",
+    "why": "De'Von Achane out, vacating 17% of the targets and 54% of the carries. The proportional split gives him 3% of targets and 29% of carries, worth about 5.2 points. Display only: it does not change the expected number."
+   },
+   "vacated_pts": 5.17,
+   "ros": 4.66,
+   "ros_how": "model+season",
+   "protected": null,
+   "handcuff": null,
+   "drop_reasons": [
+    "rest-of-season 4.7/wk, the lowest of your 11 droppable players (model+season)",
+    "not in this week's recommended lineup"
+   ],
+   "held_from_auto_drop": false
+  },
   {
    "player_id": "12048",
    "name": "George Holani",
@@ -1487,20 +2508,20 @@
    "season_avg": 4.4,
    "n_games": 3,
    "baseline": 5.23,
-   "expected": 4.68,
-   "injury_status": null,
-   "injury_body_part": null,
+   "expected": 4.21,
+   "injury_status": "Questionable",
+   "injury_body_part": "Ribs",
    "practice": null,
    "bye": false,
    "playing": true,
-   "inj_mult": 1.0,
+   "inj_mult": 0.9,
    "boom_rate": 0.0,
    "sd_wk": 3.283,
    "vor": -82.8,
    "started": false,
    "actual_so_far": null,
    "slot": "BN",
-   "why": "Sleeper projects 4.4, season average 4.4 over 3 games, preseason model 5.8. Blended expectation 4.7 vs LAC.",
+   "why": "Sleeper projects 4.4, season average 4.4 over 3 games, preseason model 5.8, Questionable (Ribs) cuts it by 9%. Blended expectation 4.2 vs LAC.",
    "vacated": {
     "player_id": "00-0039299",
     "pos": "RB",
@@ -1544,68 +2565,9 @@
    "protected": null,
    "handcuff": null,
    "drop_reasons": [
-    "rest-of-season 5.2/wk, the lowest of your 11 droppable players (model+season)",
-    "not in this week's recommended lineup"
-   ],
-   "held_from_auto_drop": false
-  },
-  {
-   "player_id": "7049",
-   "name": "Jauan Jennings",
-   "pos": "WR",
-   "team": "MIN",
-   "opp": "MIA",
-   "sleeper": 7.63,
-   "preseason": 8.96,
-   "season_avg": 0.3,
-   "n_games": 2,
-   "baseline": 6.07,
-   "expected": 7.08,
-   "injury_status": null,
-   "injury_body_part": null,
-   "practice": null,
-   "bye": false,
-   "playing": true,
-   "inj_mult": 1.0,
-   "boom_rate": 0.167,
-   "sd_wk": 8.163,
-   "vor": 4.1,
-   "started": false,
-   "actual_so_far": null,
-   "slot": "BN",
-   "why": "Sleeper projects 7.6, season average 0.3 over 2 games, preseason model 9.0. Blended expectation 7.1 vs MIA.",
-   "vacated": {
-    "player_id": "00-0036259",
-    "pos": "WR",
-    "team": "MIN",
-    "estimator": "historical",
-    "n_out": 0,
-    "out": [],
-    "vacated_tgt": 0.0,
-    "vacated_car": null,
-    "absorbed_tgt": 0.0,
-    "absorbed_car": null,
-    "own_tgt_share": 0.154,
-    "own_car_share": 0.0,
-    "ppt": 1.354,
-    "ppc": 0.746,
-    "team_tgt_pg": 25.34,
-    "team_car_pg": 25.76,
-    "hist_pairs_used": 0,
-    "hist_min_games": null,
-    "points": 0.0,
-    "n_games": 2,
-    "name": "Jauan Jennings",
-    "why": "No teammate at his position is ruled out, so nothing is vacated."
-   },
-   "vacated_pts": 0.0,
-   "ros": 6.07,
-   "ros_how": "model+season",
-   "protected": null,
-   "handcuff": null,
-   "drop_reasons": [
-    "rest-of-season 6.1/wk, the #2 lowest of your 11 droppable players (model+season)",
-    "not in this week's recommended lineup"
+    "rest-of-season 5.2/wk, the #2 lowest of your 11 droppable players (model+season)",
+    "not in this week's recommended lineup",
+    "Questionable (Ribs)"
    ],
    "held_from_auto_drop": false
   },
@@ -1752,7 +2714,7 @@
    "vor": 22.3,
    "started": false,
    "actual_so_far": null,
-   "slot": "BN",
+   "slot": "FLEX",
    "why": "Sleeper projects 8.1, season average 7.1 over 3 games, preseason model 10.0. Blended expectation 8.3 vs CLE.",
    "vacated": {
     "player_id": " 00-0035640",
@@ -1791,12 +2753,79 @@
    "handcuff": null,
    "drop_reasons": [
     "rest-of-season 8.8/wk, the #6 lowest of your 11 droppable players (model+season)",
-    "not in this week's recommended lineup"
+    "starts in this week's recommended lineup"
    ],
    "held_from_auto_drop": false
   }
  ],
  "drop_list": [
+  {
+   "player_id": "12495",
+   "name": "Ollie Gordon",
+   "pos": "RB",
+   "team": "MIA",
+   "opp": "MIN",
+   "sleeper": 7.3,
+   "preseason": 4.48,
+   "season_avg": 4.9,
+   "n_games": 3,
+   "baseline": 4.66,
+   "expected": 6.38,
+   "injury_status": null,
+   "injury_body_part": null,
+   "practice": null,
+   "bye": false,
+   "playing": true,
+   "inj_mult": 1.0,
+   "boom_rate": 0.0,
+   "sd_wk": 4.525,
+   "vor": -74.8,
+   "started": false,
+   "actual_so_far": null,
+   "slot": "BN",
+   "why": "Sleeper projects 7.3, season average 4.9 over 3 games, preseason model 4.5. Blended expectation 6.4 vs MIN.",
+   "vacated": {
+    "player_id": "00-0040198",
+    "pos": "RB",
+    "team": "MIA",
+    "estimator": "historical",
+    "n_out": 1,
+    "out": [
+     {
+      "player_id": "00-0039040",
+      "name": "De'Von Achane",
+      "car": 0.2929,
+      "tgt": 0.0293
+     }
+    ],
+    "vacated_tgt": 0.173,
+    "vacated_car": 0.542,
+    "absorbed_tgt": 0.029,
+    "absorbed_car": 0.293,
+    "own_tgt_share": 0.027,
+    "own_car_share": 0.22,
+    "ppt": 1.322,
+    "ppc": 0.541,
+    "team_tgt_pg": 27.8,
+    "team_car_pg": 25.86,
+    "hist_pairs_used": 0,
+    "hist_min_games": null,
+    "points": 5.17,
+    "n_games": 2,
+    "name": "Ollie Gordon",
+    "why": "De'Von Achane out, vacating 17% of the targets and 54% of the carries. The proportional split gives him 3% of targets and 29% of carries, worth about 5.2 points. Display only: it does not change the expected number."
+   },
+   "vacated_pts": 5.17,
+   "ros": 4.66,
+   "ros_how": "model+season",
+   "protected": null,
+   "handcuff": null,
+   "drop_reasons": [
+    "rest-of-season 4.7/wk, the lowest of your 11 droppable players (model+season)",
+    "not in this week's recommended lineup"
+   ],
+   "held_from_auto_drop": false
+  },
   {
    "player_id": "12048",
    "name": "George Holani",
@@ -1808,20 +2837,20 @@
    "season_avg": 4.4,
    "n_games": 3,
    "baseline": 5.23,
-   "expected": 4.68,
-   "injury_status": null,
-   "injury_body_part": null,
+   "expected": 4.21,
+   "injury_status": "Questionable",
+   "injury_body_part": "Ribs",
    "practice": null,
    "bye": false,
    "playing": true,
-   "inj_mult": 1.0,
+   "inj_mult": 0.9,
    "boom_rate": 0.0,
    "sd_wk": 3.283,
    "vor": -82.8,
    "started": false,
    "actual_so_far": null,
    "slot": "BN",
-   "why": "Sleeper projects 4.4, season average 4.4 over 3 games, preseason model 5.8. Blended expectation 4.7 vs LAC.",
+   "why": "Sleeper projects 4.4, season average 4.4 over 3 games, preseason model 5.8, Questionable (Ribs) cuts it by 9%. Blended expectation 4.2 vs LAC.",
    "vacated": {
     "player_id": "00-0039299",
     "pos": "RB",
@@ -1865,68 +2894,9 @@
    "protected": null,
    "handcuff": null,
    "drop_reasons": [
-    "rest-of-season 5.2/wk, the lowest of your 11 droppable players (model+season)",
-    "not in this week's recommended lineup"
-   ],
-   "held_from_auto_drop": false
-  },
-  {
-   "player_id": "7049",
-   "name": "Jauan Jennings",
-   "pos": "WR",
-   "team": "MIN",
-   "opp": "MIA",
-   "sleeper": 7.63,
-   "preseason": 8.96,
-   "season_avg": 0.3,
-   "n_games": 2,
-   "baseline": 6.07,
-   "expected": 7.08,
-   "injury_status": null,
-   "injury_body_part": null,
-   "practice": null,
-   "bye": false,
-   "playing": true,
-   "inj_mult": 1.0,
-   "boom_rate": 0.167,
-   "sd_wk": 8.163,
-   "vor": 4.1,
-   "started": false,
-   "actual_so_far": null,
-   "slot": "BN",
-   "why": "Sleeper projects 7.6, season average 0.3 over 2 games, preseason model 9.0. Blended expectation 7.1 vs MIA.",
-   "vacated": {
-    "player_id": "00-0036259",
-    "pos": "WR",
-    "team": "MIN",
-    "estimator": "historical",
-    "n_out": 0,
-    "out": [],
-    "vacated_tgt": 0.0,
-    "vacated_car": null,
-    "absorbed_tgt": 0.0,
-    "absorbed_car": null,
-    "own_tgt_share": 0.154,
-    "own_car_share": 0.0,
-    "ppt": 1.354,
-    "ppc": 0.746,
-    "team_tgt_pg": 25.34,
-    "team_car_pg": 25.76,
-    "hist_pairs_used": 0,
-    "hist_min_games": null,
-    "points": 0.0,
-    "n_games": 2,
-    "name": "Jauan Jennings",
-    "why": "No teammate at his position is ruled out, so nothing is vacated."
-   },
-   "vacated_pts": 0.0,
-   "ros": 6.07,
-   "ros_how": "model+season",
-   "protected": null,
-   "handcuff": null,
-   "drop_reasons": [
-    "rest-of-season 6.1/wk, the #2 lowest of your 11 droppable players (model+season)",
-    "not in this week's recommended lineup"
+    "rest-of-season 5.2/wk, the #2 lowest of your 11 droppable players (model+season)",
+    "not in this week's recommended lineup",
+    "Questionable (Ribs)"
    ],
    "held_from_auto_drop": false
   },
@@ -2002,19 +2972,19 @@
    "n_games": 2,
    "baseline": 8.38,
    "expected": 0.0,
-   "injury_status": "Questionable",
+   "injury_status": "Out",
    "injury_body_part": "Toe",
    "practice": null,
    "bye": false,
    "playing": false,
-   "inj_mult": 0.9,
+   "inj_mult": 0.0,
    "boom_rate": 0.242,
    "sd_wk": 7.725,
    "vor": 39.2,
    "started": false,
    "actual_so_far": null,
    "slot": "BN",
-   "why": "No Sleeper projection this week (ruled out or not active), 0 points.",
+   "why": "Ruled Out, 0 points.",
    "vacated": {
     "player_id": "00-0036139",
     "pos": "RB",
@@ -2057,9 +3027,9 @@
    "drop_reasons": [
     "rest-of-season 8.4/wk, the #4 lowest of your 11 droppable players (model+season)",
     "not in this week's recommended lineup",
-    "Questionable (Toe)",
+    "Out (Toe)",
     "handcuff: PIT backup to Jaylen Warren, about +4.1/wk if Jaylen Warren misses time",
-    "held back from the auto-drop: injured handcuff, and George Holani (5.2/wk, healthy) is a lower-value drop"
+    "held back from the auto-drop: injured handcuff, and Ollie Gordon (4.7/wk, healthy) is a lower-value drop"
    ],
    "held_from_auto_drop": true
   },
@@ -2146,7 +3116,7 @@
    "vor": 22.3,
    "started": false,
    "actual_so_far": null,
-   "slot": "BN",
+   "slot": "FLEX",
    "why": "Sleeper projects 8.1, season average 7.1 over 3 games, preseason model 10.0. Blended expectation 8.3 vs CLE.",
    "vacated": {
     "player_id": " 00-0035640",
@@ -2185,7 +3155,7 @@
    "handcuff": null,
    "drop_reasons": [
     "rest-of-season 8.8/wk, the #6 lowest of your 11 droppable players (model+season)",
-    "not in this week's recommended lineup"
+    "starts in this week's recommended lineup"
    ],
    "held_from_auto_drop": false
   },
@@ -2219,11 +3189,17 @@
     "pos": "WR",
     "team": "CLE",
     "estimator": "historical",
-    "n_out": 0,
-    "out": [],
-    "vacated_tgt": 0.0,
+    "n_out": 1,
+    "out": [
+     {
+      "player_id": "00-0036630",
+      "name": "Tylan Wallace",
+      "tgt": 0.0045
+     }
+    ],
+    "vacated_tgt": 0.022,
     "vacated_car": null,
-    "absorbed_tgt": 0.0,
+    "absorbed_tgt": 0.005,
     "absorbed_car": null,
     "own_tgt_share": 0.181,
     "own_car_share": 0.0,
@@ -2233,12 +3209,12 @@
     "team_car_pg": 24.98,
     "hist_pairs_used": 0,
     "hist_min_games": null,
-    "points": 0.0,
+    "points": 0.27,
     "n_games": 3,
     "name": "Denzel Boston",
-    "why": "No teammate at his position is ruled out, so nothing is vacated."
+    "why": "Tylan Wallace out, vacating 2% of the targets. The proportional split gives him 0% of targets, worth about 0.3 points. Display only: it does not change the expected number."
    },
-   "vacated_pts": 0.0,
+   "vacated_pts": 0.27,
    "ros": 9.48,
    "ros_how": "model+season",
    "protected": null,
@@ -2260,20 +3236,20 @@
    "season_avg": 10.13,
    "n_games": 3,
    "baseline": 9.6,
-   "expected": 8.58,
-   "injury_status": null,
-   "injury_body_part": null,
+   "expected": 7.72,
+   "injury_status": "Questionable",
+   "injury_body_part": "Thumb",
    "practice": null,
    "bye": false,
    "playing": true,
-   "inj_mult": 1.0,
+   "inj_mult": 0.9,
    "boom_rate": 0.129,
    "sd_wk": 4.947,
    "vor": 13.1,
    "started": false,
    "actual_so_far": null,
-   "slot": "FLEX",
-   "why": "Sleeper projects 8.0, season average 10.1 over 3 games, preseason model 9.2. Blended expectation 8.6 vs CIN.",
+   "slot": "BN",
+   "why": "Sleeper projects 8.0, season average 10.1 over 3 games, preseason model 9.2, Questionable (Thumb) cuts it by 9%. Blended expectation 7.7 vs CIN.",
    "vacated": {
     "player_id": " 00-0034960",
     "pos": "WR",
@@ -2311,7 +3287,8 @@
    "handcuff": null,
    "drop_reasons": [
     "rest-of-season 9.6/wk, the #8 lowest of your 11 droppable players (model+season)",
-    "starts in this week's recommended lineup"
+    "not in this week's recommended lineup",
+    "Questionable (Thumb)"
    ],
    "held_from_auto_drop": false
   },
@@ -2521,20 +3498,20 @@
    "season_avg": 34.81,
    "n_games": 3,
    "baseline": 27.82,
-   "expected": 23.29,
-   "injury_status": "Questionable",
-   "injury_body_part": "Knee",
+   "expected": 25.88,
+   "injury_status": null,
+   "injury_body_part": null,
    "practice": null,
    "bye": false,
    "playing": true,
-   "inj_mult": 0.9,
+   "inj_mult": 1.0,
    "boom_rate": 0.656,
    "sd_wk": 12.988,
    "vor": 77.8,
    "started": false,
    "actual_so_far": null,
    "slot": "QB",
-   "why": "Sleeper projects 24.8, season average 34.8 over 3 games, preseason model 22.6, Questionable (Knee) cuts it by 9%. Blended expectation 23.3 vs NE.",
+   "why": "Sleeper projects 24.8, season average 34.8 over 3 games, preseason model 22.6. Blended expectation 25.9 vs NE.",
    "ros": 27.82,
    "ros_how": "model+season",
    "protected": "QB1",
@@ -2802,20 +3779,20 @@
    "season_avg": 10.13,
    "n_games": 3,
    "baseline": 9.6,
-   "expected": 8.58,
-   "injury_status": null,
-   "injury_body_part": null,
+   "expected": 7.72,
+   "injury_status": "Questionable",
+   "injury_body_part": "Thumb",
    "practice": null,
    "bye": false,
    "playing": true,
-   "inj_mult": 1.0,
+   "inj_mult": 0.9,
    "boom_rate": 0.129,
    "sd_wk": 4.947,
    "vor": 13.1,
    "started": false,
    "actual_so_far": null,
-   "slot": "FLEX",
-   "why": "Sleeper projects 8.0, season average 10.1 over 3 games, preseason model 9.2. Blended expectation 8.6 vs CIN.",
+   "slot": "BN",
+   "why": "Sleeper projects 8.0, season average 10.1 over 3 games, preseason model 9.2, Questionable (Thumb) cuts it by 9%. Blended expectation 7.7 vs CIN.",
    "vacated": {
     "player_id": " 00-0034960",
     "pos": "WR",
@@ -2853,7 +3830,8 @@
    "handcuff": null,
    "drop_reasons": [
     "rest-of-season 9.6/wk, the #8 lowest of your 11 droppable players (model+season)",
-    "starts in this week's recommended lineup"
+    "not in this week's recommended lineup",
+    "Questionable (Thumb)"
    ],
    "held_from_auto_drop": false
   },
@@ -2887,11 +3865,17 @@
     "pos": "WR",
     "team": "CLE",
     "estimator": "historical",
-    "n_out": 0,
-    "out": [],
-    "vacated_tgt": 0.0,
+    "n_out": 1,
+    "out": [
+     {
+      "player_id": "00-0036630",
+      "name": "Tylan Wallace",
+      "tgt": 0.0045
+     }
+    ],
+    "vacated_tgt": 0.022,
     "vacated_car": null,
-    "absorbed_tgt": 0.0,
+    "absorbed_tgt": 0.005,
     "absorbed_car": null,
     "own_tgt_share": 0.181,
     "own_car_share": 0.0,
@@ -2901,12 +3885,12 @@
     "team_car_pg": 24.98,
     "hist_pairs_used": 0,
     "hist_min_games": null,
-    "points": 0.0,
+    "points": 0.27,
     "n_games": 3,
     "name": "Denzel Boston",
-    "why": "No teammate at his position is ruled out, so nothing is vacated."
+    "why": "Tylan Wallace out, vacating 2% of the targets. The proportional split gives him 0% of targets, worth about 0.3 points. Display only: it does not change the expected number."
    },
-   "vacated_pts": 0.0,
+   "vacated_pts": 0.27,
    "ros": 9.48,
    "ros_how": "model+season",
    "protected": null,
@@ -2940,7 +3924,7 @@
    "vor": 22.3,
    "started": false,
    "actual_so_far": null,
-   "slot": "BN",
+   "slot": "FLEX",
    "why": "Sleeper projects 8.1, season average 7.1 over 3 games, preseason model 10.0. Blended expectation 8.3 vs CLE.",
    "vacated": {
     "player_id": " 00-0035640",
@@ -2979,7 +3963,7 @@
    "handcuff": null,
    "drop_reasons": [
     "rest-of-season 8.8/wk, the #6 lowest of your 11 droppable players (model+season)",
-    "not in this week's recommended lineup"
+    "starts in this week's recommended lineup"
    ],
    "held_from_auto_drop": false
   },
@@ -3055,19 +4039,19 @@
    "n_games": 2,
    "baseline": 8.38,
    "expected": 0.0,
-   "injury_status": "Questionable",
+   "injury_status": "Out",
    "injury_body_part": "Toe",
    "practice": null,
    "bye": false,
    "playing": false,
-   "inj_mult": 0.9,
+   "inj_mult": 0.0,
    "boom_rate": 0.242,
    "sd_wk": 7.725,
    "vor": 39.2,
    "started": false,
    "actual_so_far": null,
    "slot": "BN",
-   "why": "No Sleeper projection this week (ruled out or not active), 0 points.",
+   "why": "Ruled Out, 0 points.",
    "vacated": {
     "player_id": "00-0036139",
     "pos": "RB",
@@ -3110,9 +4094,9 @@
    "drop_reasons": [
     "rest-of-season 8.4/wk, the #4 lowest of your 11 droppable players (model+season)",
     "not in this week's recommended lineup",
-    "Questionable (Toe)",
+    "Out (Toe)",
     "handcuff: PIT backup to Jaylen Warren, about +4.1/wk if Jaylen Warren misses time",
-    "held back from the auto-drop: injured handcuff, and George Holani (5.2/wk, healthy) is a lower-value drop"
+    "held back from the auto-drop: injured handcuff, and Ollie Gordon (4.7/wk, healthy) is a lower-value drop"
    ],
    "held_from_auto_drop": true
   },
@@ -3177,66 +4161,6 @@
    "held_from_auto_drop": false
   },
   {
-   "player_id": "7049",
-   "name": "Jauan Jennings",
-   "pos": "WR",
-   "team": "MIN",
-   "opp": "MIA",
-   "sleeper": 7.63,
-   "preseason": 8.96,
-   "season_avg": 0.3,
-   "n_games": 2,
-   "baseline": 6.07,
-   "expected": 7.08,
-   "injury_status": null,
-   "injury_body_part": null,
-   "practice": null,
-   "bye": false,
-   "playing": true,
-   "inj_mult": 1.0,
-   "boom_rate": 0.167,
-   "sd_wk": 8.163,
-   "vor": 4.1,
-   "started": false,
-   "actual_so_far": null,
-   "slot": "BN",
-   "why": "Sleeper projects 7.6, season average 0.3 over 2 games, preseason model 9.0. Blended expectation 7.1 vs MIA.",
-   "vacated": {
-    "player_id": "00-0036259",
-    "pos": "WR",
-    "team": "MIN",
-    "estimator": "historical",
-    "n_out": 0,
-    "out": [],
-    "vacated_tgt": 0.0,
-    "vacated_car": null,
-    "absorbed_tgt": 0.0,
-    "absorbed_car": null,
-    "own_tgt_share": 0.154,
-    "own_car_share": 0.0,
-    "ppt": 1.354,
-    "ppc": 0.746,
-    "team_tgt_pg": 25.34,
-    "team_car_pg": 25.76,
-    "hist_pairs_used": 0,
-    "hist_min_games": null,
-    "points": 0.0,
-    "n_games": 2,
-    "name": "Jauan Jennings",
-    "why": "No teammate at his position is ruled out, so nothing is vacated."
-   },
-   "vacated_pts": 0.0,
-   "ros": 6.07,
-   "ros_how": "model+season",
-   "protected": null,
-   "handcuff": null,
-   "drop_reasons": [
-    "rest-of-season 6.1/wk, the #2 lowest of your 11 droppable players (model+season)",
-    "not in this week's recommended lineup"
-   ],
-   "held_from_auto_drop": false
-  },
-  {
    "player_id": "12048",
    "name": "George Holani",
    "pos": "RB",
@@ -3247,20 +4171,20 @@
    "season_avg": 4.4,
    "n_games": 3,
    "baseline": 5.23,
-   "expected": 4.68,
-   "injury_status": null,
-   "injury_body_part": null,
+   "expected": 4.21,
+   "injury_status": "Questionable",
+   "injury_body_part": "Ribs",
    "practice": null,
    "bye": false,
    "playing": true,
-   "inj_mult": 1.0,
+   "inj_mult": 0.9,
    "boom_rate": 0.0,
    "sd_wk": 3.283,
    "vor": -82.8,
    "started": false,
    "actual_so_far": null,
    "slot": "BN",
-   "why": "Sleeper projects 4.4, season average 4.4 over 3 games, preseason model 5.8. Blended expectation 4.7 vs LAC.",
+   "why": "Sleeper projects 4.4, season average 4.4 over 3 games, preseason model 5.8, Questionable (Ribs) cuts it by 9%. Blended expectation 4.2 vs LAC.",
    "vacated": {
     "player_id": "00-0039299",
     "pos": "RB",
@@ -3304,7 +4228,75 @@
    "protected": null,
    "handcuff": null,
    "drop_reasons": [
-    "rest-of-season 5.2/wk, the lowest of your 11 droppable players (model+season)",
+    "rest-of-season 5.2/wk, the #2 lowest of your 11 droppable players (model+season)",
+    "not in this week's recommended lineup",
+    "Questionable (Ribs)"
+   ],
+   "held_from_auto_drop": false
+  },
+  {
+   "player_id": "12495",
+   "name": "Ollie Gordon",
+   "pos": "RB",
+   "team": "MIA",
+   "opp": "MIN",
+   "sleeper": 7.3,
+   "preseason": 4.48,
+   "season_avg": 4.9,
+   "n_games": 3,
+   "baseline": 4.66,
+   "expected": 6.38,
+   "injury_status": null,
+   "injury_body_part": null,
+   "practice": null,
+   "bye": false,
+   "playing": true,
+   "inj_mult": 1.0,
+   "boom_rate": 0.0,
+   "sd_wk": 4.525,
+   "vor": -74.8,
+   "started": false,
+   "actual_so_far": null,
+   "slot": "BN",
+   "why": "Sleeper projects 7.3, season average 4.9 over 3 games, preseason model 4.5. Blended expectation 6.4 vs MIN.",
+   "vacated": {
+    "player_id": "00-0040198",
+    "pos": "RB",
+    "team": "MIA",
+    "estimator": "historical",
+    "n_out": 1,
+    "out": [
+     {
+      "player_id": "00-0039040",
+      "name": "De'Von Achane",
+      "car": 0.2929,
+      "tgt": 0.0293
+     }
+    ],
+    "vacated_tgt": 0.173,
+    "vacated_car": 0.542,
+    "absorbed_tgt": 0.029,
+    "absorbed_car": 0.293,
+    "own_tgt_share": 0.027,
+    "own_car_share": 0.22,
+    "ppt": 1.322,
+    "ppc": 0.541,
+    "team_tgt_pg": 27.8,
+    "team_car_pg": 25.86,
+    "hist_pairs_used": 0,
+    "hist_min_games": null,
+    "points": 5.17,
+    "n_games": 2,
+    "name": "Ollie Gordon",
+    "why": "De'Von Achane out, vacating 17% of the targets and 54% of the carries. The proportional split gives him 3% of targets and 29% of carries, worth about 5.2 points. Display only: it does not change the expected number."
+   },
+   "vacated_pts": 5.17,
+   "ros": 4.66,
+   "ros_how": "model+season",
+   "protected": null,
+   "handcuff": null,
+   "drop_reasons": [
+    "rest-of-season 4.7/wk, the lowest of your 11 droppable players (model+season)",
     "not in this week's recommended lineup"
    ],
    "held_from_auto_drop": false
@@ -3312,7 +4304,7 @@
  ],
  "timing": "Waivers clear Thursday 2:00 AM Central. This digest runs Wednesday 10:00 AM Central, so enter claims Wednesday. Dropped players sit on waivers for 2 days before becoming free agents.",
  "assumptions": [
-  "FAAB left across the other 11 teams: 3 still hold the full $200; the least is Derrelick my Balls with $111. Per-team detail is in the market history below.",
+  "FAAB left across the other 11 teams: 3 still hold the full $200; the least is Amateur Hour with $94. Per-team detail is in the market history below.",
   "Gain = how much your weekly starting lineup improves (rest-of-season values) after the add and the drop. A player who would only sit on your bench counts a quarter of his edge over the player dropped; a second QB counts only his bye-week value.",
   "Engine bid (unchanged): weekly gain x weeks left x $0.60, times a demand premium of up to 1.5x scaled to the hottest national add on the wire, plus 15% in weeks 1-4. Capped at 45% of remaining budget (60% for a 5+ point gain). A judgment rule.",
   "League bid (beside it): the same value without the national premiums, held to what this league has actually paid for the position at the expected number of bidders, then the budget-pace scale. To beat = the likely bidders' usual amount plus $2.",
