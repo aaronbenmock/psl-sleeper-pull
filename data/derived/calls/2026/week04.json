@@ -1,0 +1,314 @@
+{
+ "week": 4,
+ "first_recorded_utc": "2026-09-30T21:26:23Z",
+ "source": "live build",
+ "updated_utc": "2026-10-01T00:34:18Z",
+ "start_sit": [
+  {
+   "type": "start_sit",
+   "kind": "change",
+   "player_id": "5947",
+   "name": "Jakobi Meyers",
+   "alt_id": "5846",
+   "alt_name": "DK Metcalf",
+   "expected": 8.59,
+   "alt_expected": 8.3,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "13346",
+   "name": "Denzel Boston",
+   "alt_id": "5846",
+   "alt_name": "DK Metcalf",
+   "expected": 9.4,
+   "alt_expected": 8.3,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "13346",
+   "name": "Denzel Boston",
+   "alt_id": "5045",
+   "alt_name": "Courtland Sutton",
+   "expected": 9.4,
+   "alt_expected": 8.12,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "5872",
+   "name": "Deebo Samuel",
+   "alt_id": "5846",
+   "alt_name": "DK Metcalf",
+   "expected": 9.21,
+   "alt_expected": 8.3,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "5872",
+   "name": "Deebo Samuel",
+   "alt_id": "5045",
+   "alt_name": "Courtland Sutton",
+   "expected": 9.21,
+   "alt_expected": 8.12,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "5947",
+   "name": "Jakobi Meyers",
+   "alt_id": "5846",
+   "alt_name": "DK Metcalf",
+   "expected": 8.59,
+   "alt_expected": 8.3,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "5947",
+   "name": "Jakobi Meyers",
+   "alt_id": "5045",
+   "alt_name": "Courtland Sutton",
+   "expected": 8.59,
+   "alt_expected": 8.12,
+   "started": false
+  }
+ ],
+ "lineup": [
+  {
+   "slot": "QB",
+   "player_id": "4984",
+   "name": "Josh Allen",
+   "expected": 23.28,
+   "started": false,
+   "frozen": false
+  },
+  {
+   "slot": "RB",
+   "player_id": "6813",
+   "name": "Jonathan Taylor",
+   "expected": 19.3,
+   "started": false,
+   "frozen": false
+  },
+  {
+   "slot": "RB",
+   "player_id": "12474",
+   "name": "Woody Marks",
+   "expected": 8.09,
+   "started": false,
+   "frozen": false
+  },
+  {
+   "slot": "WR",
+   "player_id": "2133",
+   "name": "Davante Adams",
+   "expected": 14.17,
+   "started": false,
+   "frozen": false
+  },
+  {
+   "slot": "WR",
+   "player_id": "13346",
+   "name": "Denzel Boston",
+   "expected": 9.4,
+   "started": false,
+   "frozen": false
+  },
+  {
+   "slot": "FLEX",
+   "player_id": "5872",
+   "name": "Deebo Samuel",
+   "expected": 9.21,
+   "started": false,
+   "frozen": false
+  },
+  {
+   "slot": "FLEX",
+   "player_id": "5947",
+   "name": "Jakobi Meyers",
+   "expected": 8.59,
+   "started": false,
+   "frozen": false
+  },
+  {
+   "slot": "DEF",
+   "player_id": "SEA",
+   "name": "SEA DEF",
+   "expected": 9.89,
+   "started": false,
+   "frozen": false
+  }
+ ],
+ "claims_freeze_utc": "2026-10-01T07:00:00Z",
+ "claims": [
+  {
+   "type": "claim",
+   "player_id": "1479",
+   "name": "Keenan Allen",
+   "pos": "WR",
+   "bid": 9,
+   "league_bid": 8,
+   "alt_id": "12048",
+   "alt_name": "George Holani"
+  },
+  {
+   "type": "claim",
+   "player_id": "8126",
+   "name": "Wan'Dale Robinson",
+   "pos": "WR",
+   "bid": 8,
+   "league_bid": 8,
+   "alt_id": "12048",
+   "alt_name": "George Holani"
+  },
+  {
+   "type": "def_stream",
+   "player_id": "LV",
+   "name": "LV DEF",
+   "pos": "DEF",
+   "bid": 8,
+   "league_bid": 7,
+   "alt_id": "SEA",
+   "alt_name": "SEA DEF"
+  },
+  {
+   "type": "speculative",
+   "player_id": "12495",
+   "name": "Ollie Gordon",
+   "pos": "RB",
+   "bid": 2,
+   "alt_id": "12048",
+   "alt_name": "George Holani"
+  },
+  {
+   "type": "speculative",
+   "player_id": "11643",
+   "name": "Jaylen Wright",
+   "pos": "RB",
+   "bid": 10,
+   "alt_id": "12048",
+   "alt_name": "George Holani"
+  },
+  {
+   "type": "speculative",
+   "player_id": "4147",
+   "name": "Samaje Perine",
+   "pos": "RB",
+   "bid": 10,
+   "alt_id": "12048",
+   "alt_name": "George Holani"
+  },
+  {
+   "type": "speculative",
+   "player_id": "4039",
+   "name": "Cooper Kupp",
+   "pos": "WR",
+   "bid": 9,
+   "alt_id": "12048",
+   "alt_name": "George Holani"
+  },
+  {
+   "type": "speculative",
+   "player_id": "12497",
+   "name": "Tory Horton",
+   "pos": "WR",
+   "bid": 8,
+   "alt_id": "12048",
+   "alt_name": "George Holani"
+  },
+  {
+   "type": "speculative",
+   "player_id": "12472",
+   "name": "Raheim Sanders",
+   "pos": "RB",
+   "bid": 8,
+   "alt_id": "12048",
+   "alt_name": "George Holani"
+  },
+  {
+   "type": "speculative",
+   "player_id": "9757",
+   "name": "Kendre Miller",
+   "pos": "RB",
+   "bid": 6,
+   "alt_id": "12048",
+   "alt_name": "George Holani"
+  },
+  {
+   "type": "speculative",
+   "player_id": "9504",
+   "name": "Kayshon Boutte",
+   "pos": "WR",
+   "bid": 6,
+   "alt_id": "12048",
+   "alt_name": "George Holani"
+  }
+ ],
+ "claims_rec_utc": "2026-10-01T00:34:18Z",
+ "claims_source": "git 11e2510",
+ "claims_frozen": false,
+ "synthesis": [
+  {
+   "type": "start",
+   "name": "Josh Allen",
+   "alt_name": "Kyler Murray",
+   "text": "Start Allen",
+   "player_id": "4984",
+   "source": "extracted by hand",
+   "made_at_utc": "2026-09-30T21:26:11Z",
+   "file": "week04_synthesis_2026-09-30.md",
+   "alt_id": "5849"
+  },
+  {
+   "type": "start",
+   "name": "Denzel Boston",
+   "alt_name": "DK Metcalf",
+   "text": "Lock the Boston over Metcalf call before Thursday night",
+   "player_id": "13346",
+   "source": "extracted by hand",
+   "made_at_utc": "2026-09-30T21:26:11Z",
+   "file": "week04_synthesis_2026-09-30.md",
+   "alt_id": "5846"
+  },
+  {
+   "type": "claim",
+   "name": "Harold Fannin",
+   "bid": 10,
+   "text": "Put in Fannin ($10)",
+   "player_id": "12506",
+   "source": "extracted by hand",
+   "made_at_utc": "2026-09-30T21:26:11Z",
+   "file": "week04_synthesis_2026-09-30.md"
+  },
+  {
+   "type": "claim",
+   "name": "Kenyon Sadiq",
+   "bid": 11,
+   "text": "A Sadiq bid at the engine's $11 only",
+   "player_id": "13330",
+   "source": "extracted by hand",
+   "made_at_utc": "2026-09-30T21:26:11Z",
+   "file": "week04_synthesis_2026-09-30.md"
+  },
+  {
+   "type": "skip",
+   "name": "LV DEF",
+   "alt_name": "SEA DEF",
+   "text": "Skip the LV defense swap this week",
+   "player_id": "LV",
+   "source": "extracted by hand",
+   "made_at_utc": "2026-09-30T21:26:11Z",
+   "file": "week04_synthesis_2026-09-30.md",
+   "alt_id": "SEA"
+  }
+ ]
+}

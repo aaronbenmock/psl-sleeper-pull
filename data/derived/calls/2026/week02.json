@@ -1,0 +1,156 @@
+{
+ "week": 2,
+ "first_recorded_utc": "2026-09-18T16:42:06Z",
+ "source": "backfilled from git d8e06d7 (first build of the engine, made after the week's Thursday game)",
+ "updated_utc": "2026-09-18T16:42:06Z",
+ "start_sit": [
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "5872",
+   "name": "Deebo Samuel",
+   "alt_id": "7049",
+   "alt_name": "Jauan Jennings",
+   "expected": 9.25,
+   "alt_expected": 8.11,
+   "started": false,
+   "frozen": true
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "5045",
+   "name": "Courtland Sutton",
+   "alt_id": "7049",
+   "alt_name": "Jauan Jennings",
+   "expected": 8.8,
+   "alt_expected": 8.11,
+   "started": false,
+   "frozen": true
+  }
+ ],
+ "lineup": [
+  {
+   "slot": "QB",
+   "player_id": "4984",
+   "name": "Josh Allen",
+   "expected": 23.81,
+   "started": false,
+   "frozen": true
+  },
+  {
+   "slot": "RB",
+   "player_id": "6813",
+   "name": "Jonathan Taylor",
+   "expected": 17.0,
+   "started": false,
+   "frozen": true
+  },
+  {
+   "slot": "RB",
+   "player_id": "7021",
+   "name": "Rico Dowdle",
+   "expected": 10.03,
+   "started": false,
+   "frozen": true
+  },
+  {
+   "slot": "WR",
+   "player_id": "2133",
+   "name": "Davante Adams",
+   "expected": 10.95,
+   "started": false,
+   "frozen": true
+  },
+  {
+   "slot": "WR",
+   "player_id": "5846",
+   "name": "DK Metcalf",
+   "expected": 10.15,
+   "started": false,
+   "frozen": true
+  },
+  {
+   "slot": "FLEX",
+   "player_id": "5872",
+   "name": "Deebo Samuel",
+   "expected": 9.25,
+   "started": false,
+   "frozen": true
+  },
+  {
+   "slot": "FLEX",
+   "player_id": "5045",
+   "name": "Courtland Sutton",
+   "expected": 8.8,
+   "started": false,
+   "frozen": true
+  },
+  {
+   "slot": "DEF",
+   "player_id": "SEA",
+   "name": "SEA DEF",
+   "expected": 10.62,
+   "started": false,
+   "frozen": true
+  }
+ ],
+ "claims_freeze_utc": "2026-09-24T07:00:00Z",
+ "claims": [
+  {
+   "type": "claim",
+   "player_id": "11655",
+   "name": "Tyrone Tracy",
+   "pos": "RB",
+   "bid": 8,
+   "league_bid": null,
+   "alt_id": "13346",
+   "alt_name": "Denzel Boston"
+  },
+  {
+   "type": "claim",
+   "player_id": "8917",
+   "name": "KaVontae Turpin",
+   "pos": "WR",
+   "bid": 6,
+   "league_bid": null,
+   "alt_id": "13346",
+   "alt_name": "Denzel Boston"
+  },
+  {
+   "type": "claim",
+   "player_id": "7528",
+   "name": "Najee Harris",
+   "pos": "RB",
+   "bid": 6,
+   "league_bid": null,
+   "alt_id": "13346",
+   "alt_name": "Denzel Boston"
+  }
+ ],
+ "claims_rec_utc": "2026-09-18T16:42:06Z",
+ "claims_source": "git d8e06d7",
+ "claims_frozen": true,
+ "synthesis": [
+  {
+   "type": "claim",
+   "name": "Dallas Goedert",
+   "bid": 25,
+   "text": "Bid $25 on Goedert (would start at flex)",
+   "player_id": "5022",
+   "source": "extracted by hand",
+   "made_at_utc": "2026-09-18T17:23:12Z",
+   "file": "week02_synthesis_2026-09-18.md"
+  },
+  {
+   "type": "claim",
+   "name": "Devin Singletary",
+   "bid": 11,
+   "text": "Consider $11 on Singletary only as depth",
+   "player_id": "6130",
+   "source": "extracted by hand",
+   "made_at_utc": "2026-09-18T17:23:12Z",
+   "file": "week02_synthesis_2026-09-18.md"
+  }
+ ]
+}

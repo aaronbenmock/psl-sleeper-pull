@@ -272,3 +272,113 @@ exactly the kind of role change it makes visible.
 - Rosters in the simulation are drafted from prior-season points per game and held fixed; no waivers,
   no trades.
 - A player with no nflverse id match gets no column rather than a zero, and the page says how many.
+
+## 11. League FAAB market and the league bid
+
+Added 2026-10 after the week 4 review: the engine bid priced claims off national Sleeper add counts,
+not off how this league bids.
+
+**Market history** (`engine/analysis/market.py`, Waivers tab). Sleeper's transaction log keeps every
+waiver claim including the failed ones, with its bid, so for every player claimed in a waiver run the
+page shows the winner, the winning bid, every losing bid and the number of bidders. A waiver run is
+every claim processed in the same minute; the log's week key is not used because Sleeper files a claim
+under the week it was made, not the week it ran. A failed claim can fail for reasons other than being
+outbid (roster full after an earlier claim, budget, a tie lost on priority). Sleeper writes the reason
+into `metadata.notes`, which the pull keeps from October 2026 on; before that, a losing bid above the
+winning bid is labelled "failed for another reason" rather than read as an outbid. [Certain] on the
+data, [Likely] on the reading of the pre-October failures.
+
+From the log: a per-position price guide (median and max winning bid, overall and when 2 or more teams
+bid), the median winning bid of each run's single most-contested player, and per team the FAAB spent
+(checked against Sleeper's `waiver_budget_used`), left, claims, biggest win and the amounts it repeats
+(Derrelick won twice at exactly $31). Player ids resolve through `data/players/names_cache.json`, which
+the pull and the daily injury job extend with every id that has ever appeared in a transaction and
+never prune, so a player cut from the league keeps his name.
+
+**League bid** (`engine/analysis/bidding.py`), shown beside the engine bid, which is unchanged:
+
+    value_cap  = gain x weeks_left x $0.60, capped at 45% of budget left (60% at a 5+ point gain)
+    market     = 3+ likely bidders: median winning bid of each run's most-contested player
+                 2: median contested winning bid at the position;  0-1: median winning bid at the position
+    pace       = 1, or with faab_leftover_tendency on:
+                 clamp((budget_left / budget_total) / (weeks_left / season_weeks), 1.0, 1.5)
+    league_bid = pace x min(value_cap, max(market, 1))
+    to_beat    = $2 over the highest known amount among the likely bidders (an amount the team has bid
+                 two or more times, or its highest bid at this position); red when above value_cap x pace
+
+Each claim quotes a comparable: the newest weekly run's top add at the position (a run with four or
+more claimed players; a two-claim Saturday trickle is not a market). [Guessing] on the bidder tiers,
+the 1.5 pace cap and the $2 margin; the sample is about twenty completed claims after three runs.
+
+`faab_leftover_tendency` (config/preferences.json) exists because Aaron usually finishes a season with
+FAAB unspent. With $200 left and 14 of 17 weeks to go the pace factor is x1.21, and the page also
+states the leftover projected at his season-to-date spending rate.
+
+## 12. Likely bidders (competitor threat)
+
+`engine/analysis/threats.py` scores every other team with FAAB left for each claim, and lists the top
+three with the reasons in words: +4 owns an absent player at the target's position on the same NFL team
+(Amateur Hour owns De'Von Achane, so they are the natural Ollie Gordon bidder), +1.5 owns a Questionable
+one, +1 owns the healthy number 1 there (handcuff interest), +2 / +1 an Out or IR / Questionable starter
+at the position, +2 a starter there ruled out or put on IR in the last 7 days (from the daily injury
+diffs, when not already counted), +1 dropped a player at the position in the last 7 days, +1 a starter
+there on bye next week, +1 healthy players at the position no more than the starting slots (not for
+DEF, where everyone carries one), +0.5 has bid on the position this season. [Guessing] on every weight;
+they only order the list and set the bidder count for the market tier above.
+
+## 13. Ceiling and speculative claims (RB and WR)
+
+The engine ranks claims by expected points, so a player whose role just changed can miss the list
+(Ollie Gordon, week 4, with Achane on IR). `engine/analysis/opportunity.py` adds, from the vacated-share
+signal of section 10:
+
+    bump_now      points a week he absorbs from teammates at his position who are absent now
+    bump_if_lead  the same with the healthy teammate ahead of him (more usage) also absent
+    ceiling       ros + max(bump_now, bump_if_lead)
+
+A waiver player is a **speculative claim** when the ceiling gap is 4.0 points a week or more, or when
+his gain at the ceiling would be 3.0 or more while his normal gain earns no bid. Speculative claims whose
+role is open now (bump_now of 3.0 or more) are listed first. The speculative bid is
+min(5% of budget left, ceiling gain x weeks left x $0.60 x 0.25), at least $1, and never above the
+league bid. [Guessing] on all of it.
+
+**Conflict with section 10, stated rather than buried:** section 10 keeps the vacated signal display
+only, because the ten-season backtest found it null as a start/sit tiebreak. It is still display only
+for `expected`, `ros`, the waiver gain and the engine bid (`tests/test_opportunity.py` asserts it). The
+speculative bid is the one place it sizes money, it is small and capped, and it has never been
+backtested as a waiver signal. The calls scorecard (section 16) grades it from week 5 on.
+
+## 14. Drop list and handcuffs
+
+Every droppable player shows why he is on the list: his rest-of-season value and rank, whether he
+starts in this week's recommended lineup, his injury tag, and a handcuff note. A handcuff is an RB whose
+same-team teammate has more usage and who would gain 3 or more points a week if that teammate missed
+time (Rico Dowdle, PIT backup to Jaylen Warren). Rule: an injured handcuff is never picked as the
+automatic drop for a claim while a healthy, lower-value non-handcuff is droppable. [Guessing] on the
+threshold.
+
+## 15. Head-to-head card
+
+Lineup tab. The opponent comes from the week's matchup file. Both sides are valued with the same blend
+(section 2): the opponent's set lineup and the best lineup his roster allows. A player with no
+projection row in the committed data at all (other teams' players before Thursday's first pre-kickoff
+snapshot; from October the pull stores every rostered player's projection) is valued at his baseline
+and marked. Favored when Aaron's recommended total leads by more than 5 points, underdog when it trails
+by more than 5, otherwise a toss-up [Guessing]. Because of the median game, Aaron's total is also
+compared with the median of the other teams' set lineups. The lineup logic stays max expected points.
+
+## 16. Calls scorecard
+
+Accuracy tab, separate from projection accuracy: it grades decisions. Every build records the
+upcoming week's calls in `data/derived/calls/<season>/weekNN.json`: the recommended lineup, every
+change and close call, the claims, DEF streams and speculative claims, and the structured calls the
+news synthesis writes into `data/synthesis/latest.json`. A start/sit row freezes once either player
+kicks off; claims freeze at the Thursday 2 AM waiver run. Weeks 2 to 4 were reconstructed from git
+history (`tools/backfill_calls.py`), and the synthesis calls for those weeks were extracted by hand.
+
+Once `weekNN_scored.json` exists: a start/sit call is a hit when the player recommended to start scored
+at least as much as the alternative; a DEF stream when the claimed defense outscored the one it would
+have replaced that week; a claim when the added player outscored the player he would have replaced,
+summed over every completed week since. "Followed" is what Aaron actually did, from the matchup file
+(his starters) and the transaction log (his bids). A call made after one of its players kicked off is
+not graded. Running hit rate by call type and source.

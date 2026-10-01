@@ -5,9 +5,34 @@
             with its own date and a stale flag. Never mixed with the machine half.
 """
 import datetime as dt
+import re
 
 from .. import config
 from ..timeutil import parse_iso
+
+SOURCE_LABELS = {
+    "desktop-scheduled-task": "Wednesday 12:30 PM scheduled task on Aaron's PC",
+    "anthropic-api-action": "Anthropic API step inside GitHub Actions",
+    "cloud-scheduled-task": "cloud scheduled task (claude.ai)",
+}
+
+
+def synthesis_meta(meta, markdown):
+    """(written_at ISO or None, source key, source label). Newest field first, then the older
+    generated_at_utc, then the markdown's own <!-- generated ... by ... --> header."""
+    meta = meta or {}
+    written = meta.get("synthesis_written_at") or meta.get("generated_at_utc")
+    m = re.match(r"\s*<!--\s*generated\s+(\S+)\s+by\s+(.*?)\s*-->", markdown or "")
+    if not written and m:
+        written = m.group(1)
+    src = meta.get("source") or ""
+    key = src if src in SOURCE_LABELS else None
+    if not key:
+        low = (src or (m.group(2) if m else "")).lower()
+        key = ("anthropic-api-action" if "api" in low else "cloud-scheduled-task" if "cloud" in low
+               else "desktop-scheduled-task" if ("desktop" in low or "scheduled" in low) else "unknown")
+    label = meta.get("source_label") or SOURCE_LABELS.get(key) or (src or "unknown source")
+    return written, key, label
 
 
 def _ms_to_date(ms):
@@ -59,9 +84,11 @@ def build(ctx, lineup_rec):
     inj_age_h = round((ctx.now - inj_pulled).total_seconds() / 3600, 1) if inj_pulled else None
 
     # synthesis half
+    written, key, label = synthesis_meta(ctx.synthesis_meta, ctx.synthesis_md)
     synth = {"present": bool(ctx.synthesis_md.strip()), "markdown": ctx.synthesis_md,
-             "generated_at_utc": ctx.synthesis_meta.get("generated_at_utc"), "week": ctx.synthesis_meta.get("week"),
-             "source": ctx.synthesis_meta.get("source"), "stale": False, "age_days": None}
+             "generated_at_utc": written, "synthesis_written_at": written, "week": ctx.synthesis_meta.get("week"),
+             "source": label, "source_key": key, "n_calls": len(ctx.synthesis_meta.get("calls") or []),
+             "stale": False, "age_days": None}
     t = parse_iso(synth["generated_at_utc"])
     if t:
         synth["age_days"] = round((ctx.now - t).total_seconds() / 86400, 1)

@@ -1,0 +1,207 @@
+{
+ "week": 3,
+ "first_recorded_utc": "2026-09-25T00:11:07Z",
+ "source": "backfilled from git c3651fe (last build before the week's first kickoff)",
+ "updated_utc": "2026-09-25T00:11:07Z",
+ "start_sit": [
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "5846",
+   "name": "DK Metcalf",
+   "alt_id": "5045",
+   "alt_name": "Courtland Sutton",
+   "expected": 8.89,
+   "alt_expected": 8.23,
+   "started": false,
+   "frozen": true
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "13346",
+   "name": "Denzel Boston",
+   "alt_id": "5045",
+   "alt_name": "Courtland Sutton",
+   "expected": 8.85,
+   "alt_expected": 8.23,
+   "started": false,
+   "frozen": true
+  }
+ ],
+ "lineup": [
+  {
+   "slot": "QB",
+   "player_id": "4984",
+   "name": "Josh Allen",
+   "expected": 26.62,
+   "started": false,
+   "frozen": true
+  },
+  {
+   "slot": "RB",
+   "player_id": "6813",
+   "name": "Jonathan Taylor",
+   "expected": 18.58,
+   "started": false,
+   "frozen": true
+  },
+  {
+   "slot": "RB",
+   "player_id": "7021",
+   "name": "Rico Dowdle",
+   "expected": 9.12,
+   "started": false,
+   "frozen": true
+  },
+  {
+   "slot": "WR",
+   "player_id": "2133",
+   "name": "Davante Adams",
+   "expected": 12.6,
+   "started": false,
+   "frozen": true
+  },
+  {
+   "slot": "WR",
+   "player_id": "5872",
+   "name": "Deebo Samuel",
+   "expected": 9.86,
+   "started": false,
+   "frozen": true
+  },
+  {
+   "slot": "FLEX",
+   "player_id": "5846",
+   "name": "DK Metcalf",
+   "expected": 8.89,
+   "started": false,
+   "frozen": true
+  },
+  {
+   "slot": "FLEX",
+   "player_id": "13346",
+   "name": "Denzel Boston",
+   "expected": 8.85,
+   "started": false,
+   "frozen": true
+  },
+  {
+   "slot": "DEF",
+   "player_id": "SEA",
+   "name": "SEA DEF",
+   "expected": 10.89,
+   "started": false,
+   "frozen": true
+  }
+ ],
+ "claims_freeze_utc": "2026-10-01T07:00:00Z",
+ "claims": [
+  {
+   "type": "claim",
+   "player_id": "1466",
+   "name": "Travis Kelce",
+   "pos": "TE",
+   "bid": 22,
+   "league_bid": null,
+   "alt_id": "12048",
+   "alt_name": "George Holani"
+  },
+  {
+   "type": "claim",
+   "player_id": "2505",
+   "name": "Darren Waller",
+   "pos": "TE",
+   "bid": 11,
+   "league_bid": null,
+   "alt_id": "12048",
+   "alt_name": "George Holani"
+  },
+  {
+   "type": "claim",
+   "player_id": "7002",
+   "name": "Juwan Johnson",
+   "pos": "TE",
+   "bid": 10,
+   "league_bid": null,
+   "alt_id": "12048",
+   "alt_name": "George Holani"
+  },
+  {
+   "type": "claim",
+   "player_id": "8110",
+   "name": "Jake Ferguson",
+   "pos": "TE",
+   "bid": 9,
+   "league_bid": null,
+   "alt_id": "12048",
+   "alt_name": "George Holani"
+  },
+  {
+   "type": "claim",
+   "player_id": "12536",
+   "name": "Jaylin Noel",
+   "pos": "WR",
+   "bid": 7,
+   "league_bid": null,
+   "alt_id": "12048",
+   "alt_name": "George Holani"
+  },
+  {
+   "type": "claim",
+   "player_id": "7600",
+   "name": "Pat Freiermuth",
+   "pos": "TE",
+   "bid": 7,
+   "league_bid": null,
+   "alt_id": "12048",
+   "alt_name": "George Holani"
+  },
+  {
+   "type": "def_stream",
+   "player_id": "PIT",
+   "name": "PIT DEF",
+   "pos": "DEF",
+   "bid": 7,
+   "league_bid": null,
+   "alt_id": "SEA",
+   "alt_name": "SEA DEF"
+  },
+  {
+   "type": "claim",
+   "player_id": "5012",
+   "name": "Mark Andrews",
+   "pos": "TE",
+   "bid": 7,
+   "league_bid": null,
+   "alt_id": "12048",
+   "alt_name": "George Holani"
+  }
+ ],
+ "claims_rec_utc": "2026-09-23T16:01:46Z",
+ "claims_source": "git 10bd1a3",
+ "claims_frozen": true,
+ "synthesis": [
+  {
+   "type": "start",
+   "name": "Woody Marks",
+   "alt_name": "George Holani",
+   "text": "If Dowdle is out, plug in Woody Marks, not George Holani",
+   "player_id": "12474",
+   "source": "extracted by hand",
+   "made_at_utc": "2026-09-23T17:15:00Z",
+   "file": "week03_synthesis_2026-09-23.md",
+   "alt_id": "12048"
+  },
+  {
+   "type": "claim",
+   "name": "Travis Kelce",
+   "bid": 22,
+   "text": "Put your FAAB weight behind Travis Kelce at $22",
+   "player_id": "1466",
+   "source": "extracted by hand",
+   "made_at_utc": "2026-09-23T17:15:00Z",
+   "file": "week03_synthesis_2026-09-23.md"
+  }
+ ]
+}

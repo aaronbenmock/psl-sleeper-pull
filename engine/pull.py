@@ -16,7 +16,8 @@ import os
 
 from . import config, store
 from .sleeper import (get, league_points, points_by_category, pull_position_rows, player_info,
-                      load_players, find_me, team_name_fn, detect_weeks)
+                      load_players, find_me, team_name_fn, detect_weeks, slim_transaction,
+                      transaction_player_ids, update_names_cache)
 from .timeutil import now_utc, iso
 
 
@@ -76,7 +77,9 @@ def run(completed_override=None, out_dir=None, force_rescore=False):
     for r in rosters:
         for key in ("players", "reserve", "taxi"):
             rostered_ids.update(r.get(key) or [])
-    players, pmeta = load_players(data_dir, keep_ids=rostered_ids)
+    # keep every id that has ever been in a transaction too, so a cut player keeps his name
+    old_tx = (store.read_json(os.path.join(data_dir, "league", "transactions.json"), {}) or {}).get("by_week") or {}
+    players, pmeta = load_players(data_dir, keep_ids=rostered_ids | transaction_player_ids(old_tx))
     trending = get(f"/v1/players/nfl/trending/add?lookback_hours={config.TRENDING_LOOKBACK_H}&limit=100")
     trend_ct = {str(t["player_id"]): t["count"] for t in trending}
 
@@ -222,11 +225,10 @@ def run(completed_override=None, out_dir=None, force_rescore=False):
             rows = get(f"/v1/league/{config.LEAGUE_ID}/transactions/{wk}")
         except RuntimeError:
             rows = []
-        tx[str(wk)] = [{k: t.get(k) for k in ("transaction_id", "type", "status", "roster_ids", "adds", "drops",
-                                                "settings", "created", "status_updated", "leg", "creator")}
-                       for t in rows or []]
+        tx[str(wk)] = [slim_transaction(t) for t in rows or []]
     store.write_json(os.path.join(league_dir, "transactions.json"),
                      {"pulled_at_utc": iso(now_utc()), "by_week": tx})
+    update_names_cache(data_dir, players, transaction_player_ids(tx) | rostered_ids)
 
     scored_files = []
     for wk in range(1, completed + 1):
@@ -270,6 +272,10 @@ def run(completed_override=None, out_dir=None, force_rescore=False):
         "upcoming_week": upcoming_block,
         "waivers_by_position": waivers,
         "waivers_trending": hot,
+        # every rostered player's next-week projection, so the head-to-head card can value the opponent
+        "rostered_projections_next": {pid: {"p": league_points((proj_next.get(pid) or {}).get("stats"), scoring, config.PROJ_EXCLUDE),
+                                            "opp": (proj_next.get(pid) or {}).get("opponent")}
+                                      for pid in sorted(rostered_ids) if pid in proj_next},
     }
     season_dir = os.path.join(data_dir, season)
     os.makedirs(season_dir, exist_ok=True)

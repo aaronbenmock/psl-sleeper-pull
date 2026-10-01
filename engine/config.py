@@ -11,7 +11,7 @@ REPO_URL = "https://github.com/aaronbenmock/psl-sleeper-pull"
 FANTASY_POS = ["QB", "RB", "WR", "TE", "DEF"]
 WAIVER_TOP_N = 25
 TRENDING_LOOKBACK_H = 72
-ENGINE_VERSION = "2.0"
+ENGINE_VERSION = "2.2"
 PULL_VERSION = "1.2"          # the weekly pull script lineage (v1.0 -> v1.1 -> v1.2)
 
 # Sleeper's displayed projections ignore projected return TDs; verified against the week 1 UI (v1.1)

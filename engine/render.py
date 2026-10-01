@@ -35,6 +35,7 @@ def central(iso_s, fmt="%a %b %d, %I:%M %p"):
 def md_to_html(md):
     """Tiny markdown subset: #/##/### headings, - bullets, **bold**, blank-line paragraphs, links."""
     out, in_list = [], False
+    md = re.sub(r"<!--.*?-->", "", md or "", flags=re.S)     # the writer's provenance header is shown as metadata instead
     for line in md.splitlines():
         s = line.rstrip()
         if not s.strip():
@@ -106,6 +107,7 @@ code{background:var(--head);padding:1px 4px;border-radius:3px;font-size:12.5px}
 .tab.on{background:var(--tabon);color:var(--tabonink);border-color:var(--tabon)}
 .tab.all{margin-left:auto;font-weight:500;color:var(--muted)}
 .tabs-on .panel{display:none}.tabs-on .panel.on{display:block}
+.thr{min-width:260px}td.why{min-width:280px}
 .foot{font-size:12.5px;color:var(--muted);margin-top:10px}.foot a{margin-right:10px}
 @media (max-width:760px){.grid{grid-template-columns:1fr}.wrap{padding:10px 12px 40px}h1{font-size:19px}.kpi b{font-size:16px}.card{padding:12px 12px}th,td{padding:6px 6px}}
 @media print{.tabs-on .panel{display:block!important}.tabbar{display:none}.age{display:none}}
@@ -274,36 +276,248 @@ def section_lineup(rec, ctx_completed_block):
     return "".join(L)
 
 
+def _threats_cell(c):
+    th = c.get("threats") or []
+    if not th:
+        return "<span class=muted>no obvious bidder</span>"
+    return "<br>".join(f"<b>{esc(t['team'])}</b> <span class=muted>(${t['remaining']} left)</span>: {esc('; '.join(t['why']))}" for t in th)
+
+
+def _league_cells(c):
+    beat = c.get("to_beat")
+    beat_cls = "" if c.get("to_beat_within_value") or beat is None else " neg"
+    return (f"<td class=n><span class=bid>${c.get('league_bid', '-')}</span></td>"
+            f"<td class='n{beat_cls}' title=\"{esc(c.get('to_beat_why'))}\">{('$' + str(beat)) if beat is not None else '-'}</td>")
+
+
 def section_waivers(w):
     L = [f"<div class=card id=waivers><h2>Waivers and FAAB (week {w['week']})</h2>"]
     L.append(f"<p><b>Budget:</b> ${w['budget_left']} of ${w['budget_total']} left, {w['weeks_left']} weeks of season remaining. {esc(w['timing'])}</p>")
+    pace = w.get("pace") or {}
+    if pace.get("summary"):
+        L.append(f"<p class=small><b>Budget pace:</b> {esc(pace['summary'])}"
+                 + (" (setting <code>faab_leftover_tendency</code> is on)" if pace.get("on") else "") + "</p>")
     if w["claims"]:
-        L.append("<table><tr><th>#</th><th>Claim</th><th>Pos</th><th>Tm</th><th>Next opp</th><th class=n>Next wk proj</th><th class=n>Last wk actual</th>"
-                 "<th class=n>Rest of season /wk</th><th class=n>Gain /wk</th><th>Drop</th><th class=n>Adds 72h</th><th class=n>Bid</th><th>Why</th></tr>")
+        L.append("<table><tr><th>#</th><th>Claim</th><th>Pos</th><th>Tm</th><th class=n>Next wk proj</th><th class=n>Last wk actual</th>"
+                 "<th class=n>Rest of season /wk</th><th class=n>Ceiling /wk</th><th class=n>Gain /wk</th><th>Drop</th><th class=n>Engine bid</th>"
+                 "<th class=n>League bid</th><th class=n>To beat</th><th>Likely bidders</th><th>Why</th></tr>")
         for i, c in enumerate(w["claims"], 1):
             L.append(f"<tr><td>{i}</td><td><b>{esc(c['name'])}</b> {inj_tag(c.get('injury_status'))}{' <span class=tag>starter</span>' if c.get('would_start') else ''}</td>"
-                     f"<td class=pos>{esc(c['pos'])}</td><td>{esc(c['team'])}</td><td>{esc(c.get('opp_next') or '-')}</td><td class=n>{num(c.get('next_proj'))}</td>"
-                     f"<td class=n>{num(c.get('last_actual'))}</td><td class=n>{num(c['ros'])}</td><td class='n {'posv' if c['gain'] > 0 else 'neg'}'>{c['gain']:+.1f}</td>"
-                     f"<td>{esc(c['drop']['name'])} <span class=muted>({num(c['drop']['ros'])}/wk)</span></td><td class=n>{c['trending']:,}</td>"
-                     f"<td class=n><span class=bid>${c['bid']}</span></td><td class=why>{esc(c['why'])}<br><i>Bid: {esc(c['bid_why'])}.</i></td></tr>")
+                     f"<td class=pos>{esc(c['pos'])}</td><td>{esc(c['team'])}</td><td class=n>{num(c.get('next_proj'))}</td>"
+                     f"<td class=n>{num(c.get('last_actual'))}</td><td class=n>{num(c['ros'])}</td>"
+                     f"<td class=n title=\"{esc(c.get('ceiling_why'))}\">{num(c.get('ceiling'))}</td>"
+                     f"<td class='n {'posv' if c['gain'] > 0 else 'neg'}'>{c['gain']:+.1f}</td>"
+                     f"<td>{esc(c['drop']['name'])} <span class=muted>({num(c['drop']['ros'])}/wk)</span></td>"
+                     f"<td class=n>${c['bid']}</td>" + _league_cells(c) + f"<td class='small thr'>{_threats_cell(c)}</td>"
+                     f"<td class=why>{esc(c['why'])}<br><i>Engine bid: {esc(c['bid_why'])}.</i><br><i>League bid: {esc(c.get('league_bid_why'))}.</i>"
+                     f"<br><i>Comparable: {esc(c.get('comparable'))}</i><br><i>To beat: {esc(c.get('to_beat_why'))}</i>"
+                     + (f"<br><i>Upside: {esc(c['ceiling_why'])}</i>" if c.get("ceiling_why") else "") + "</td></tr>")
         L.append("</table>")
+        L.append("<p class='small muted'>Engine bid = the original formula (value to you plus a national Sleeper-adds premium). "
+                 "League bid = what this league has actually paid for the position at the expected number of bidders, never more than the "
+                 "player is worth to you, scaled by your budget pace. To beat = $2 over the most a likely bidder has shown he will pay "
+                 "(red when that is more than he is worth to you).</p>")
     else:
         L.append("<p><b>No claim clears the bar this week.</b> Nobody on the wire adds more than half a point a week over your worst droppable player.</p>")
+    spec = w.get("speculative") or []
+    if spec:
+        L.append("<h3>Speculative claims: role-change upside</h3><p class='small muted'>These players miss the bid bar on expected points "
+                 "but have a large ceiling if the player ahead of them misses time (or already has). The ceiling comes from the vacated-share "
+                 "signal, which is display only everywhere else and untested as a waiver signal, so the bid is small and capped.</p>")
+        L.append("<table><tr><th>Player</th><th>Pos</th><th>Tm</th><th class=n>Rest of season /wk</th><th class=n>Ceiling /wk</th>"
+                 "<th class=n>Gain at ceiling</th><th>Role</th><th class=n>Spec bid</th><th class=n>To beat</th><th>Likely bidders</th><th>Why</th></tr>")
+        for c in spec:
+            role = "<span class='tag ok'>open now</span>" if c.get("role_open_now") else "<span class='tag info'>if the starter misses</span>"
+            beat = c.get("to_beat")
+            L.append(f"<tr><td><b>{esc(c['name'])}</b> {inj_tag(c.get('injury_status'))}</td><td class=pos>{esc(c['pos'])}</td><td>{esc(c['team'])}</td>"
+                     f"<td class=n>{num(c['ros'])}</td><td class=n><b>{num(c.get('ceiling'))}</b></td><td class=n>{c['ceiling_gain']:+.1f}</td>"
+                     f"<td>{role}</td><td class=n><span class=bid>${c.get('spec_bid')}</span></td>"
+                     f"<td class=n title=\"{esc(c.get('to_beat_why'))}\">{('$' + str(beat)) if beat is not None else '-'}</td>"
+                     f"<td class='small thr'>{_threats_cell(c)}</td><td class=why>{esc(c.get('spec_why'))}<br><i>To beat: {esc(c.get('to_beat_why'))}</i></td></tr>")
+        L.append("</table>")
+        if w.get("speculative_more"):
+            L.append(f"<p class='small muted'>Also flagged, not shown: {esc(', '.join(w['speculative_more']))}.</p>")
+    elif w.get("ceiling_available") is False:
+        L.append(f"<p class='small muted'>Ceiling column unavailable: {esc(w.get('ceiling_reason'))}</p>")
+    ex = w.get("excluded_claims") or []
+    if w.get("excluded_positions"):
+        L.append(f"<details><summary>Excluded by your settings ({esc(', '.join(w['excluded_positions']))}): {len(ex)} player{'s' if len(ex) != 1 else ''} who would otherwise get a bid</summary>")
+        if ex:
+            L.append("<table><tr><th>Player</th><th>Pos</th><th>Tm</th><th class=n>Rest of season /wk</th><th class=n>Gain /wk</th><th class=n>Engine bid</th><th class=n>League bid</th><th class=n>To beat</th><th>Likely bidders</th></tr>")
+            for c in ex:
+                L.append(f"<tr><td>{esc(c['name'])}</td><td class=pos>{esc(c['pos'])}</td><td>{esc(c['team'])}</td><td class=n>{num(c['ros'])}</td>"
+                         f"<td class=n>{c['gain']:+.1f}</td><td class=n>${c['bid']}</td>" + _league_cells(c) + f"<td class='small thr'>{_threats_cell(c)}</td></tr>")
+            L.append("</table>")
+        L.append("<p class='small muted'>Change this in config/preferences.json (<code>exclude_positions_from_claims</code>).</p></details>")
     if w["flyers"]:
         L.append("<h3>Popular adds that do not fit your roster</h3><ul class=tight>")
         for c in w["flyers"]:
             L.append(f"<li>{esc(c['name'])} ({esc(c['pos'])}, {esc(c['team'])}): {c['trending']:,} adds, but {esc(c['why'])}</li>")
         L.append("</ul>")
-    L.append("<h3>Your drop order (lowest rest-of-season value first)</h3><ul class=tight>")
-    for d in w["drop_candidates"]:
-        L.append(f"<li>{esc(d['name'])} ({esc(d['pos'])}) {num(d['ros'])}/wk from {esc(d['ros_how'])}</li>")
-    L.append("</ul><details><summary>Whole roster valued for the rest of the season</summary><table><tr><th>Player</th><th>Pos</th><th class=n>Next wk</th><th class=n>Rest of season /wk</th><th>Basis</th><th>Protected</th></tr>")
+    drops = w.get("drop_list") or w["drop_candidates"]
+    L.append("<h3>Your drop list (lowest rest-of-season value first)</h3><table><tr><th>Player</th><th>Pos</th><th class=n>Rest of season /wk</th><th>Flags</th><th>Why he is on the list</th></tr>")
+    for d in drops[:8]:
+        flags = (inj_tag(d.get("injury_status")) + (" <span class='tag info'>handcuff</span>" if d.get("handcuff") else "")
+                 + (" <span class='tag warn'>not auto-dropped</span>" if d.get("held_from_auto_drop") else ""))
+        L.append(f"<tr><td>{esc(d['name'])}</td><td class=pos>{esc(d['pos'])}</td><td class=n>{num(d['ros'])}</td><td>{flags}</td>"
+                 f"<td class=why>{esc('; '.join(d.get('drop_reasons') or [d.get('ros_how')]))}</td></tr>")
+    L.append("</table><p class='small muted'>An injured handcuff is never picked as the automatic drop while a healthy, lower-value non-handcuff is available.</p>")
+    L.append("<details><summary>Whole roster valued for the rest of the season</summary><table><tr><th>Player</th><th>Pos</th><th class=n>Next wk</th><th class=n>Rest of season /wk</th><th>Basis</th><th>Protected</th></tr>")
     for m in w["my_roster_values"]:
         L.append(f"<tr><td>{esc(m['name'])}</td><td class=pos>{esc(m['pos'])}</td><td class=n>{num(m.get('sleeper'))}</td><td class=n>{num(m['ros'])}</td><td class=small>{esc(m['ros_how'])}</td><td class=small>{esc(m.get('protected') or '')}</td></tr>")
     L.append("</table></details><details><summary>Assumptions behind the bids</summary><ul class=tight>")
     for a in w["assumptions"]:
         L.append(f"<li>{esc(a)}</li>")
     L.append(f"</ul><p class='small muted'>{w['all_evaluated']} unrostered players evaluated.</p></details></div>")
+    return "".join(L)
+
+
+def section_results(m):
+    """Item 7: Aaron's bids in the latest waiver run, won or lost."""
+    latest, lm = m.get("latest"), m.get("latest_mine")
+    if not latest:
+        return ""
+    L = ["<div class=card id=waiver-results><h2>Waiver results</h2>"]
+
+    def rows(bids):
+        out = ["<table><tr><th>Player</th><th>Pos</th><th>Result</th><th class=n>Your bid</th><th class=n>Winning bid</th><th>Winner</th><th class=n>Bidders</th><th>Note</th></tr>"]
+        for b in bids:
+            tag = "<span class='tag ok'>WON</span>" if b["result"] == "won" else "<span class='tag fail'>LOST</span>"
+            out.append(f"<tr><td><b>{esc(b['name'])}</b></td><td class=pos>{esc(b['pos'])}</td><td>{tag}</td><td class=n>${b['my_bid']}</td>"
+                       f"<td class=n>{('$' + str(b['winning_bid'])) if b.get('winning_bid') is not None else '-'}</td><td>{esc(b.get('winner') or 'nobody')}</td>"
+                       f"<td class=n>{b['n_bidders']}</td><td class=small>{esc(b.get('reason') or '')}</td></tr>")
+        out.append("</table>")
+        return "".join(out)
+    if latest.get("bids"):
+        L.append(f"<p>Latest run, <b>{esc(latest['processed'])}</b> Central:</p>" + rows(latest["bids"]))
+    else:
+        L.append(f"<p>No bids from you in the latest run ({esc(latest['processed'])} Central).</p>")
+        if lm:
+            L.append(f"<p class=small>Your most recent bids, {esc(lm['processed'])}:</p>" + rows(lm["bids"]))
+    L.append("<p class='small muted'>From Sleeper's transaction log, refreshed by the daily 6 AM job, so a Thursday 2 AM run shows here by Thursday morning.</p></div>")
+    return "".join(L)
+
+
+def section_market(m):
+    rows = m.get("claims") or []
+    L = ["<div class=card id=market><h2>League FAAB market</h2>"]
+    if not rows:
+        L.append("<p class=muted>No waiver claims in the transaction log yet.</p></div>")
+        return "".join(L)
+    g = m.get("price_guide") or {}
+    mc = "; ".join("{} ${}, {} bidders".format(x["name"], x["winning_bid"], x["n_bidders"]) for x in g.get("most_contested") or [])
+    L.append(f"<p class=small>{m.get('n_runs', 0)} waiver runs, {sum(1 for r in rows if r['winning_bid'] is not None)} players won. "
+             f"Median winning bid for each run's single most-contested player: <b>${num(g.get('most_contested_median'), 0)}</b> "
+             f"({esc(mc)}).</p>")
+    L.append("<h3>Price guide by position</h3><table><tr><th>Pos</th><th class=n>Won</th><th class=n>Median win</th><th class=n>Max win</th><th class=n>Contested (2+ bidders)</th><th class=n>Median contested</th></tr>")
+    for pos, p in (g.get("by_pos") or {}).items():
+        L.append(f"<tr><td class=pos>{esc(pos)}</td><td class=n>{p['n_wins']}</td><td class=n>{('$' + num(p['median_win'], 0)) if p['median_win'] is not None else '-'}</td>"
+                 f"<td class=n>{('$' + str(p['max_win'])) if p['max_win'] is not None else '-'}</td><td class=n>{p['n_contested']}</td>"
+                 f"<td class=n>{('$' + num(p['median_contested'], 0)) if p['median_contested'] is not None else '-'}</td></tr>")
+    L.append("</table>")
+    L.append("<h3>FAAB by team</h3><table><tr><th>Team</th><th class=n>Spent</th><th class=n>Left</th><th class=n>Claims</th><th class=n>Won</th><th>Biggest win</th><th class=n>Usual bid</th><th>Repeats</th></tr>")
+    for t in m.get("teams") or []:
+        bw = f"{esc(t['biggest_win']['name'])} ${t['biggest_win']['bid']}" if t.get("biggest_win") else "<span class=muted>none</span>"
+        u = t.get("usual_bid")
+        L.append(f"<tr><td><b>{esc(t['team'])}</b></td><td class=n>${t['spent']}</td><td class=n>${t['remaining']}</td><td class=n>{t['n_claims']}</td><td class=n>{t['n_wins']}</td>"
+                 f"<td>{bw}</td><td class=n title='{esc(t.get('usual_how'))}'>{('$' + num(u, 0)) if u is not None else '-'}</td>"
+                 f"<td class=small>{esc(', '.join('$' + str(x) for x in t.get('repeated') or [])) or '<span class=muted>none</span>'}</td></tr>")
+    L.append("</table>")
+    mine = m.get("mine") or []
+    L.append("<h3>Your claim history</h3>")
+    if mine:
+        L.append("<table><tr><th>Run</th><th>Player</th><th>Pos</th><th>Result</th><th class=n>Your bid</th><th class=n>Winning bid</th><th>Winner</th><th class=n>Bidders</th></tr>")
+        for b in mine:
+            tag = "<span class='tag ok'>won</span>" if b["result"] == "won" else "<span class='tag fail'>lost</span>"
+            L.append(f"<tr><td class=small>{esc(b['processed'])}</td><td>{esc(b['name'])}</td><td class=pos>{esc(b['pos'])}</td><td>{tag}</td><td class=n>${b['my_bid']}</td>"
+                     f"<td class=n>{('$' + str(b['winning_bid'])) if b.get('winning_bid') is not None else '-'}</td><td>{esc(b.get('winner') or 'nobody')}</td><td class=n>{b['n_bidders']}</td></tr>")
+        L.append("</table>")
+    else:
+        L.append("<p class=muted>You have not filed a waiver claim yet.</p>")
+    L.append("<details><summary>Every waiver claim this season</summary><table><tr><th>Processed (Central)</th><th>Player</th><th>Pos</th><th>Winner</th><th class=n>Winning bid</th><th class=n>Bidders</th><th>Losing bids</th><th>Dropped</th></tr>")
+    for r in rows:
+        lose = "; ".join(f"{lb['team']} ${lb['bid']}" + ("*" if "another reason" in lb["reason"] else "") for lb in r["losing"])
+        L.append(f"<tr><td class=small>{esc(r['processed'])}</td><td>{esc(r['name'])}</td><td class=pos>{esc(r['pos'])}</td><td>{esc(r['winner'] or 'nobody')}</td>"
+                 f"<td class=n>{('$' + str(r['winning_bid'])) if r['winning_bid'] is not None else '-'}</td><td class=n>{r['n_bidders']}</td>"
+                 f"<td class=small>{esc(lose) or '<span class=muted>none</span>'}</td><td class=small>{esc(', '.join(r['dropped']))}</td></tr>")
+    L.append(f"</table><p class='small muted'>* failed for another reason, not outbid. {esc(m.get('note'))}</p></details></div>")
+    return "".join(L)
+
+
+def section_h2h(h):
+    if not h:
+        return ""
+    L = ["<div class=card id=h2h>"]
+    if not h.get("available"):
+        L.append(f"<h2>This week's opponent</h2><p class=muted>{esc(h.get('reason') or 'not available')}</p></div>")
+        return "".join(L)
+    cls = {"favored": "ok", "underdog": "fail", "toss-up": "warn"}.get(h["verdict"], "info")
+    L.append(f"<h2>Week {h['week']} opponent: {esc(h['opponent'])} <span class='muted small'>{esc(h.get('manager'))}</span></h2>")
+    L.append("<div class=kpi>" + f"<div><b>{num(h['my_total'])}</b>you, recommended lineup</div>"
+             + f"<div><b>{num(h['opp_set_total'])}</b>them, lineup as set</div>"
+             + f"<div><b>{num(h['opp_best_total'])}</b>them, best possible</div>"
+             + f"<div><b><span class='tag {cls}'>{esc(h['verdict'])}</span></b>margin {h['margin']:+.1f}</div>"
+             + (f"<div><b>{num(h['median_total'])}</b>league median, you are {esc(h['median_verdict'])} ({h['median_margin']:+.1f})</div>" if h.get("median_total") is not None else "")
+             + "</div>")
+    if h.get("opp_injured"):
+        L.append("<p><b>Their injured starters:</b> " + ", ".join(
+            f"{esc(i['name'])} ({esc(i['pos'])}) {inj_tag(i.get('status')) or '<span class=muted>no projection</span>'}" for i in h["opp_injured"]) + "</p>")
+    else:
+        L.append("<p><b>Their injured starters:</b> <span class=muted>none</span></p>")
+    if h.get("opp_byes"):
+        L.append(f"<p><b>Their starters on bye:</b> {esc(', '.join(h['opp_byes']))}</p>")
+    L.append("<details><summary>Their starters</summary><table><tr><th>Player</th><th>Pos</th><th class=n>Expected</th><th>Injury</th></tr>")
+    for r in h.get("opp_starters") or []:
+        L.append(f"<tr><td>{esc(r['name'])}{' <span class=muted>(baseline)</span>' if r.get('baseline_only') else ''}</td><td class=pos>{esc(r['pos'])}</td>"
+                 f"<td class=n>{num(r['expected'])}</td><td>{inj_tag(r.get('injury_status'))}</td></tr>")
+    L.append(f"</table></details><p class='small muted'>{esc(h.get('why'))} {esc(h.get('note'))}</p></div>")
+    return "".join(L)
+
+
+def section_calls(sc):
+    L = ["<div class=card id=calls><h2>Calls scorecard</h2>"]
+    weeks = sc.get("weeks") or []
+    if not weeks:
+        L.append("<p class=muted>No graded week yet. Calls are recorded every build and graded once the week's scores are in (Wednesday).</p></div>")
+        return "".join(L)
+    hr = sc.get("hit_rates") or []
+    if hr:
+        L.append("<h3>Running hit rate by call type</h3><table><tr><th>Call type</th><th>Source</th><th class=n>Graded</th><th class=n>Hits</th><th class=n>Hit rate</th><th class=n>You followed (start/sit) or bid (claims)</th></tr>")
+        for t in hr:
+            fol = f"{t['followed']} of {t['followed_n']}" if t["followed_n"] else "-"
+            L.append(f"<tr><td>{esc(t['type'].replace('_', '/'))}</td><td>{esc(t['source'])}</td><td class=n>{t['n']}</td><td class=n>{t['hits']}</td>"
+                     f"<td class=n><b>{num(t['hit_rate'] * 100 if t['hit_rate'] is not None else None, 0)}%</b></td><td class=n>{fol}</td></tr>")
+        L.append("</table>")
+    lt = sc.get("lineup_totals")
+    if lt:
+        L.append(f"<p class=small><b>Lineups, {lt['n_weeks']} week{'s' if lt['n_weeks'] != 1 else ''}:</b> recommended lineups scored {num(lt['recommended'])}, "
+                 f"your actual lineups {num(lt['actual'])}, the best possible {num(lt['optimal'])}.</p>")
+    for g in reversed(weeks):
+        lu = g.get("lineup") or {}
+        L.append(f"<details{' open' if g is weeks[-1] else ''}><summary>Week {g['week']} <span class=muted>({esc(g.get('source'))})</span>"
+                 + (f": recommended lineup {num(lu.get('recommended'))}, yours {num(lu.get('actual'))}, best {num(lu.get('optimal'))}" if lu else "")
+                 + "</summary><table><tr><th>Source</th><th>Type</th><th>Call</th><th class=n>Actual</th><th class=n>Alternative</th><th>Result</th><th>What you did</th></tr>")
+        for r in g["rows"]:
+            alt = r.get("alt_name") or ""
+            call = esc(r.get("name")) + (f" over {esc(alt)}" if alt and r["type"] in ("start_sit", "skip") else f" (drop {esc(alt)})" if alt else "")
+            if r.get("bid") is not None:
+                call += f", ${r['bid']}"
+            if not r.get("graded"):
+                res, did = "<span class=muted>not graded</span>", ""
+            else:
+                res = "<span class='tag ok'>hit</span>" if r.get("hit") else "<span class='tag fail'>miss</span>"
+                if r["type"] == "start_sit":
+                    did = "followed" if r.get("followed") else "did not follow" if r.get("followed") is False else "-"
+                elif r.get("aaron_bid") is not None:
+                    did = f"bid ${r['aaron_bid']}, {'won' if r.get('aaron_won') else 'lost to ' + esc(r.get('winner') or '') + ' $' + str(r.get('winning_bid'))}"
+                else:
+                    did = "no bid" if r["type"] in ("claim", "def_stream", "speculative") else "-"
+                if r.get("n_weeks"):
+                    res += f" <span class=muted>{r['n_weeks']} wk</span>"
+            L.append(f"<tr><td class=small>{esc(r['source'])}</td><td class=small>{esc(r['type'].replace('_', '/'))}</td><td>{call}</td>"
+                     f"<td class=n>{num(r.get('actual'))}</td><td class=n>{num(r.get('alt_actual'))}</td><td>{res}</td><td class=small>{did}</td></tr>")
+        L.append("</table></details>")
+    L.append(f"<p class='small muted'>{esc(sc.get('note'))}</p></div>")
     return "".join(L)
 
 
@@ -334,7 +548,8 @@ def section_news(nz):
     L.append("<div class='card synth'><span class=label>Synthesis, written by the weekly Claude news pass</span>")
     if s["present"]:
         st = f"<span class='tag fail'>STALE, {s['age_days']} days old</span>" if s["stale"] else f"<span class='tag ok'>{s['age_days']} days old</span>" if s["age_days"] is not None else ""
-        L.append(f"<p class='small muted'>Written {central(s.get('generated_at_utc'))} for week {esc(s.get('week'))}, source: {esc(s.get('source') or 'scheduled Claude task')}. {st}</p>")
+        L.append(f"<p class=small><b>Showing:</b> {esc(s.get('source') or 'scheduled Claude task')}, written {central(s.get('synthesis_written_at') or s.get('generated_at_utc'))} "
+                 f"for week {esc(s.get('week'))}. {st}</p>")
         L.append(md_to_html(s["markdown"]))
     else:
         L.append("<p class=muted><b>No synthesis yet.</b> This box fills when the weekly scheduled Claude task (or the optional API step) commits data/synthesis/latest.md. "
@@ -568,11 +783,11 @@ def render(page, archive=False):
     completed = ctx.latest.get("completed_week")
     # Tabs. Every panel is in the HTML; the script only toggles which one is visible.
     tabs = [
-        ("tab-lineup", "Lineup", section_lineup(page["lineup"], completed)),
-        ("tab-waivers", "Waivers", section_waivers(page["waivers"])),
+        ("tab-lineup", "Lineup", section_h2h(page.get("h2h") or {}) + section_lineup(page["lineup"], completed)),
+        ("tab-waivers", "Waivers", section_results(page.get("market") or {}) + section_waivers(page["waivers"]) + section_market(page.get("market") or {})),
         ("tab-league", "League", section_league(page["league"]) + section_keepers(page.get("keepers") or {}, page.get("backtest") or {})),
         ("tab-news", "News and injuries", section_news(page["news"])),
-        ("tab-accuracy", "Accuracy", section_accuracy(page["accuracy"]) + section_snapshots(ctx.snap_index, ctx.upcoming_week) + section_validation(page["validation"])),
+        ("tab-accuracy", "Accuracy", section_calls(page.get("calls") or {}) + section_accuracy(page["accuracy"]) + section_snapshots(ctx.snap_index, ctx.upcoming_week) + section_validation(page["validation"])),
         ("tab-backtest", "Backtest", section_backtest(page.get("backtest") or {}, page.get("hist_backtest"))),
     ]
     tabbar = ["<nav class=tabbar role=tablist aria-label='Dashboard sections'>"]

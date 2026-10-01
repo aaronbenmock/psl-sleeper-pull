@@ -4,8 +4,8 @@ and it must keep succeeding if any single collector fails."""
 import os
 import statistics
 
-from .. import config, store, reference
-from ..sleeper import load_cached_players_only, player_info
+from .. import config, store, reference, prefs
+from ..sleeper import load_cached_players_only, player_info, load_names_cache
 from ..timeutil import now_utc, parse_iso
 
 
@@ -29,6 +29,8 @@ class Ctx:
         self.users = store.read_json(os.path.join(d, "league", "users.json"), []) or []
         self.user_by_id = {u.get("user_id"): u for u in self.users}
         self.players, self.players_meta = load_cached_players_only(d)
+        self.names_cache = load_names_cache(d)
+        self.prefs, self.prefs_note = prefs.load()
         # day-one fallback: before the first daily players pull, the only player info is in latest.json
         self.fallback_players = {}
         lt = self.latest
@@ -102,9 +104,20 @@ class Ctx:
         return u.get("display_name") or ""
 
     def info(self, pid):
-        if pid in self.players or pid not in self.fallback_players:
+        """players_slim, then the names cache (players cut since), then latest.json rows."""
+        if pid in self.players or (pid and pid.isalpha()):
             return player_info(pid, self.players)
-        return player_info(pid, self.fallback_players)
+        c = self.names_cache.get(pid)
+        if c:
+            return {"player_id": pid, "name": c.get("name") or pid, "pos": c.get("pos"), "team": c.get("team"),
+                    "injury_status": None, "injury_body_part": None, "depth_chart_order": None, "bye_or_status": None}
+        if pid in self.fallback_players:
+            return player_info(pid, self.fallback_players)
+        return {"player_id": pid, "name": f"Unknown player {pid}", "pos": None, "team": None,
+                "injury_status": None, "injury_body_part": None, "depth_chart_order": None, "bye_or_status": None}
+
+    def resolvable(self, pid):
+        return bool(pid) and (pid in self.players or pid.isalpha() or pid in self.names_cache or pid in self.fallback_players)
 
     def name(self, pid):
         return self.info(pid)["name"]
