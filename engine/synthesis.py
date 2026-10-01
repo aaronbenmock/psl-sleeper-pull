@@ -106,8 +106,9 @@ def run(out_dir=None):
     store.write_text(os.path.join(data_dir, "synthesis", "latest.md"), header + md + "\n")
     store.write_text(os.path.join(data_dir, "synthesis", f"week{int(week or 0):02d}_synthesis_{now:%Y-%m-%d}.md"), header + md + "\n")
     store.write_json(os.path.join(data_dir, "synthesis", "latest.json"),
-                     {"generated_at_utc": iso(now), "week": week, "source": f"Anthropic API ({MODEL}) inside GitHub Actions",
-                      "web_searches": searches, "usage": resp.get("usage")})
+                     {"synthesis_written_at": iso(now), "generated_at_utc": iso(now), "week": week,
+                      "source": "anthropic-api-action", "source_label": f"Anthropic API ({MODEL}) inside GitHub Actions",
+                      "web_searches": searches, "usage": resp.get("usage"), "calls": []})
     summary = f"week {week}: {len(md.split())} words, {searches} web searches, model {MODEL}"
     store.record_run("synthesis", True, summary, started, iso(now_utc()))
     print("synthesis:", summary)

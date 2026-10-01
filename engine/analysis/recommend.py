@@ -40,6 +40,8 @@ def freshest_projections(ctx, week, prefer_snapshot=False):
         for rows in (ctx.latest.get("waivers_by_position") or {}).values():
             for row in rows:
                 proj[row["player_id"]] = {"p": row.get("proj_next_week"), "opp": row.get("opponent_next_week"), "bye": None}
+        for pid, row in (ctx.latest.get("rostered_projections_next") or {}).items():
+            proj.setdefault(pid, {"p": row.get("p"), "opp": row.get("opp"), "bye": None})
     if snaps:
         newest = snaps[-1]
         t = parse_iso(newest.get("taken_at_utc"))
@@ -309,7 +311,41 @@ def bid_size(gain, weeks_left, trending, budget_left, early_season, max_adds=1):
     return bid, why
 
 
-def waiver_recommendation(ctx, lineup_rec):
+SPEC_SHOW = 8
+INJ_TAGGED = {"Questionable", "Doubtful", "Out", "IR", "PUP", "Sus", "NA", "COV", "DNR"}
+
+
+def handcuff_rule(droppable):
+    """Never auto-pick an injured handcuff as the drop while a healthy, lower-value non-handcuff is
+    droppable. Returns (allowed, held) where held maps player_id -> the reason he was held back."""
+    allowed, held = [], {}
+    for m in droppable:
+        if m.get("handcuff") and m.get("injury_status") in INJ_TAGGED:
+            alt = next((d for d in droppable if d is not m and not d.get("handcuff")
+                        and d.get("injury_status") not in INJ_TAGGED and d["ros"] <= m["ros"]), None)
+            if alt:
+                held[m["player_id"]] = (f"held back from the auto-drop: injured handcuff, and {alt['name']} "
+                                        f"({alt['ros']:.1f}/wk, healthy) is a lower-value drop")
+                continue
+        allowed.append(m)
+    return allowed, held
+
+
+def drop_reasons(m, rank, n, in_lineup, held_reason=None):
+    r = [f"rest-of-season {m['ros']:.1f}/wk, the {'lowest' if rank == 1 else f'#{rank} lowest'} of your {n} droppable players ({m['ros_how']})"]
+    r.append("starts in this week's recommended lineup" if in_lineup else "not in this week's recommended lineup")
+    if m.get("injury_status"):
+        r.append(f"{m['injury_status']}" + (f" ({m['injury_body_part']})" if m.get("injury_body_part") else ""))
+    if m.get("handcuff"):
+        h = m["handcuff"]
+        r.append(f"handcuff: {m['team']} backup to {h['lead']}, about +{h['bump']:.1f}/wk if {h['lead']} misses time")
+    if held_reason:
+        r.append(held_reason)
+    return r
+
+
+def waiver_recommendation(ctx, lineup_rec, mkt=None):
+    from . import market as mk, bidding, threats, opportunity as op
     week = ctx.upcoming_week
     up = ctx.latest.get("upcoming_week") or {}
     budget_total = up.get("waiver_budget_total") or config.FAAB_BUDGET_DEFAULT
@@ -317,12 +353,19 @@ def waiver_recommendation(ctx, lineup_rec):
     last_week = int(ctx.settings.get("playoff_week_start") or 15) + 2
     weeks_left = max(1, last_week - week + 1)
     early = week <= 4
+    prefs = getattr(ctx, "prefs", None) or {}
+    excluded_pos = set(prefs.get("exclude_positions_from_claims") or [])
+    tendency = bool(prefs.get("faab_leftover_tendency"))
+    if mkt is None:
+        mkt = mk.build(ctx)
     tkey = f"trending_adds_{config.TRENDING_LOOKBACK_H}h"
     my_vals = {v["player_id"]: v for v in lineup_rec["lineup"] + lineup_rec["bench"] if v.get("player_id")}
+    in_lineup = {r["player_id"] for r in lineup_rec["lineup"] if r.get("player_id")}
     my_qb1_bye = None
     qbs = sorted([v for v in my_vals.values() if v["pos"] == "QB"], key=lambda v: -(v.get("baseline") or 0))
     if qbs:
         my_qb1_bye = ctx.bye_week(qbs[0]["team"])
+    book = op.Book(ctx, week)
     # value my roster for the rest of the season
     mine = []
     for pid, v in my_vals.items():
@@ -334,12 +377,16 @@ def waiver_recommendation(ctx, lineup_rec):
             protected = f"QB2 covers {qbs[0]['name']}'s week {my_qb1_bye} bye"
         elif v["pos"] == "DEF" and sum(1 for x in my_vals.values() if x["pos"] == "DEF") == 1:
             protected = "only DEF"
-        mine.append(dict(v, ros=round(ros, 2), ros_how=how, protected=protected))
-    droppable = sorted([m for m in mine if not m["protected"]], key=lambda m: m["ros"])
-    starters_by_pos = {}
-    for r in lineup_rec["lineup"]:
-        if r.get("player_id"):
-            starters_by_pos.setdefault(r["pos"], []).append(r)
+        c = book.for_player(pid, v["pos"], v.get("team"))
+        handcuff = None
+        if v["pos"] == "RB" and c and c.get("lead") and c["bump_if_lead"] >= op.HANDCUFF_MIN:
+            handcuff = {"lead": c["lead_name"], "bump": c["bump_if_lead"]}
+        mine.append(dict(v, ros=round(ros, 2), ros_how=how, protected=protected, handcuff=handcuff))
+    droppable_all = sorted([m for m in mine if not m["protected"]], key=lambda m: m["ros"])
+    droppable, held = handcuff_rule(droppable_all)
+    for i, m in enumerate(droppable_all, 1):
+        m["drop_reasons"] = drop_reasons(m, i, len(droppable_all), m["player_id"] in in_lineup, held.get(m["player_id"]))
+        m["held_from_auto_drop"] = m["player_id"] in held
     claims, seen = [], set()
     pool = []
     for pos, rows in (ctx.latest.get("waivers_by_position") or {}).items():
@@ -357,6 +404,26 @@ def waiver_recommendation(ctx, lineup_rec):
     # weekly value used for roster math = rest-of-season value (not one week's matchup)
     base_vals = [dict(m, expected=m["ros"]) for m in mine]
     base_total = lineup_total(base_vals)
+
+    def best_drop(cand, pos, ros):
+        best = None
+        for d in droppable + ([m for m in mine if m["pos"] == "DEF"] if pos == "DEF" else []):
+            if (pos == "DEF") != (d["pos"] == "DEF"):
+                continue
+            vals = [v for v in base_vals if v["player_id"] != d["player_id"]] + [cand]
+            starter_gain = lineup_total(vals) - base_total
+            # depth value: a bench upgrade is worth a fraction (injury and bye insurance)
+            if pos == "QB" and starter_gain <= 0:
+                qb_ros = sorted([m["ros"] for m in mine if m["pos"] == "QB"])
+                cur_qb2 = qb_ros[0] if len(qb_ros) > 1 else 0
+                depth_gain = max(0.0, ros - cur_qb2) / max(weeks_left, 1)   # only the bye week uses a QB2
+            else:
+                depth_gain = 0.25 * max(0.0, ros - d["ros"]) if starter_gain <= 0 else 0.0
+            gain = starter_gain + depth_gain
+            if best is None or gain > best[0]:
+                best = (gain, d, starter_gain, depth_gain)
+        return best
+
     for row in pool:
         pid = row["player_id"]
         if pid in seen or pid in my_vals:
@@ -375,28 +442,20 @@ def waiver_recommendation(ctx, lineup_rec):
         value = 0.5 * (nxt or 0) + 0.5 * ros
         cand = {"player_id": pid, "name": info["name"] or row.get("name"), "pos": pos, "expected": ros, "ros": ros}
         # who would he replace? try each droppable player, keep the drop that leaves the best lineup
-        best = None
-        for d in droppable + ([m for m in mine if m["pos"] == "DEF"] if pos == "DEF" else []):
-            if (pos == "DEF") != (d["pos"] == "DEF"):
-                continue
-            vals = [v for v in base_vals if v["player_id"] != d["player_id"]] + [cand]
-            starter_gain = lineup_total(vals) - base_total
-            # depth value: a bench upgrade is worth a fraction (injury and bye insurance)
-            if pos == "QB" and starter_gain <= 0:
-                qb_ros = sorted([m["ros"] for m in mine if m["pos"] == "QB"])
-                cur_qb2 = qb_ros[0] if len(qb_ros) > 1 else 0
-                depth_gain = max(0.0, ros - cur_qb2) / max(weeks_left, 1)   # only the bye week uses a QB2
-            else:
-                depth_gain = 0.25 * max(0.0, ros - d["ros"]) if starter_gain <= 0 else 0.0
-            gain = starter_gain + depth_gain
-            if best is None or gain > best[0]:
-                best = (gain, d, starter_gain, depth_gain)
+        best = best_drop(cand, pos, ros)
         if best is None:
             continue
         gain, drop, starter_gain, depth_gain = best
         would_start = starter_gain > 0.05
         bid, bid_why = bid_size(gain, weeks_left, row.get(tkey), budget_left, early, max_adds)
-        claims.append({"player_id": pid, "name": info["name"] or row.get("name"), "pos": pos, "team": info["team"] or row.get("team"),
+        team = info["team"] or row.get("team")
+        # ceiling (display and the speculative tier only; ros, gain and bid above are already final)
+        c = book.for_player(pid, pos, team)
+        ceil_gain = gain
+        if c and c["bump"] > 0:
+            b2 = best_drop(dict(cand, expected=ros + c["bump"]), pos, ros + c["bump"])
+            ceil_gain = b2[0] if b2 else gain
+        claims.append({"player_id": pid, "name": info["name"] or row.get("name"), "pos": pos, "team": team,
                        "opp_next": row.get("opponent_next_week"), "next_proj": nxt,
                        "last_actual": row.get(f"actual_week_{ctx.completed_week}"),
                        "ros": round(ros, 2), "ros_how": how, "value": round(value, 2), "gain": round(gain, 2),
@@ -404,25 +463,74 @@ def waiver_recommendation(ctx, lineup_rec):
                        "trending": row.get(tkey) or 0, "injury_status": status, "would_start": would_start,
                        "drop": {"player_id": drop["player_id"], "name": drop["name"], "pos": drop["pos"], "ros": drop["ros"]},
                        "bid": bid, "bid_why": bid_why,
+                       "ceiling": round(ros + c["bump"], 2) if c else None, "ceiling_gap": c["bump"] if c else None,
+                       "ceiling_gain": round(ceil_gain, 2), "ceiling_sig": c,
+                       "ceiling_why": op.describe(c, ros) if c else None,
                        "why": (f"Rest-of-season value about {ros:.1f} a week ({how}; next week {nxt if nxt is not None else 'n/a'}). "
                                + (f"Adding him and dropping {drop['name']} lifts your weekly starting lineup by {starter_gain:+.1f}."
                                   if would_start else
                                   f"He would not start over anyone you have, so the gain is depth only: {depth_gain:+.1f} a week "
                                   f"(a quarter of his edge over {drop['name']}" + (", or just the bye week for a second QB" if pos == "QB" else "") + ")."))})
     claims.sort(key=lambda c: (-c["bid"], -c["gain"]))
-    top = [c for c in claims if c["bid"] > 0][:8]
-    flyers = [c for c in claims if c["bid"] == 0 and c["trending"] > 5000][:5]
+    allowed = [c for c in claims if c["pos"] not in excluded_pos]
+    excluded = [c for c in claims if c["pos"] in excluded_pos and c["bid"] > 0][:8]
+    top = [c for c in allowed if c["bid"] > 0][:8]
+    top_ids = {c["player_id"] for c in top}
+    spec = [c for c in allowed if c["player_id"] not in top_ids and c.get("ceiling_gap") is not None
+            and op.is_speculative(c["ceiling_gap"], c["ceiling_gain"], c["bid"])]
+    # a role that is open now (the player ahead is already out) outranks a contingent one
+    for c in spec:
+        c["role_open_now"] = op.role_open(c.get("ceiling_sig"))
+    spec.sort(key=lambda c: (not c["role_open_now"], -((c.get("ceiling_sig") or {}).get("bump_now") or 0) if c["role_open_now"] else 0,
+                             -c["ceiling_gain"]))
+    spec_more = [f"{c['name']} ({c['pos']}, +{c['ceiling_gap']:.1f})" for c in spec[SPEC_SHOW:]]
+    spec = spec[:SPEC_SHOW]
+    spec_ids = {c["player_id"] for c in spec}
+    flyers = [c for c in allowed if c["bid"] == 0 and c["trending"] > 5000 and c["player_id"] not in spec_ids][:5]
+    # league calibration and likely bidders, for the claims, the speculative rows and the excluded rows
+    states = threats.team_states(ctx, mkt.get("teams") or [], mkt.get("claims") or [], week)
+    guide = mkt.get("price_guide") or {}
+    for c in top + spec + excluded:
+        c["threats"] = threats.for_target(states, c, ctx.my_rid, ctx.info)
+        g = c["ceiling_gain"] if c["player_id"] in spec_ids else c["gain"]
+        c.update(bidding.league_bid(g, weeks_left, budget_left, budget_total, last_week, tendency, c["pos"],
+                                    c["threats"], guide, mkt.get("claims") or []))
+    for c in spec:
+        c["spec_bid"] = min(op.spec_bid(c["ceiling_gain"], weeks_left, budget_left), max(c.get("league_bid") or 1, 1))
+        c["spec_why"] = (f"Untested: priced from the display-only vacated-share signal. {c['ceiling_why']} At that ceiling "
+                         f"he adds {c['ceiling_gain']:+.1f} a week; bid = min({int(op.SPEC_BUDGET_SHARE * 100)}% of your "
+                         f"${budget_left}, {c['ceiling_gain']:.1f} x {weeks_left} wks x $0.60 x {op.SPEC_PROB:.2f} chance the "
+                         f"role lands), also held to the league bid.")
+    spent = budget_total - budget_left
+    f, pace_why = bidding.pace(budget_left, budget_total, weeks_left, last_week, tendency)
+    left_proj = bidding.projected_leftover(budget_left, spent, ctx.completed_week, weeks_left)
+    pace_info = {"on": tendency, "factor": f, "why": pace_why, "spent": spent, "weeks_elapsed": ctx.completed_week,
+                 "projected_leftover": left_proj,
+                 "summary": (f"At your pace (${spent} spent in {ctx.completed_week} week{'s' if ctx.completed_week != 1 else ''}) "
+                             f"you would finish with about ${left_proj} unspent"
+                             + (f"; league bids are scaled x{f:.2f} to spend it down." if f > 1 else "."))}
     timing = ("Waivers clear Thursday 2:00 AM Central. This digest runs Wednesday 10:00 AM Central, so enter claims "
               "Wednesday. Dropped players sit on waivers for 2 days before becoming free agents.")
+    others = [t for t in mkt.get("teams") or [] if t["roster_id"] != ctx.my_rid]
+    full = sum(1 for t in others if t["remaining"] >= budget_total)
+    lo = min(others, key=lambda t: t["remaining"], default=None)
     assumptions = [
-        "All 12 teams still hold their full $200 (0 used), so competition is at its maximum and bids run high.",
+        (f"FAAB left across the other {len(others)} teams: {full} still hold the full ${budget_total}"
+         + (f"; the least is {lo['team']} with ${lo['remaining']}" if lo else "") + ". Per-team detail is in the market history below.")
+        if others else "No league FAAB data yet.",
         "Gain = how much your weekly starting lineup improves (rest-of-season values) after the add and the drop. A player who "
         "would only sit on your bench counts a quarter of his edge over the player dropped; a second QB counts only his bye-week value.",
-        "Bid formula: weekly gain x weeks left x $0.60, times a demand premium of up to 1.5x scaled to the hottest add on the wire, "
-        "plus 15% in weeks 1-4. Capped at 45% of remaining budget (60% for a 5+ point gain). This is a judgment rule, "
-        "not a calibrated model; the accuracy tracker will tell us over time whether the gains were real.",
+        "Engine bid (unchanged): weekly gain x weeks left x $0.60, times a demand premium of up to 1.5x scaled to the hottest "
+        "national add on the wire, plus 15% in weeks 1-4. Capped at 45% of remaining budget (60% for a 5+ point gain). A judgment rule.",
+        "League bid (beside it): the same value without the national premiums, held to what this league has actually paid for the "
+        "position at the expected number of bidders, then the budget-pace scale. To beat = the likely bidders' usual amount plus $2.",
         "Sleeper places every player who played last week on waivers until the Thursday run, so all listed players need a bid.",
     ]
+    if excluded_pos:
+        assumptions.append(f"Positions excluded from claims by your settings (config/preferences.json): {', '.join(sorted(excluded_pos))}.")
     return {"week": week, "budget_left": budget_left, "budget_total": budget_total, "weeks_left": weeks_left,
-            "claims": top, "flyers": flyers, "all_evaluated": len(claims), "drop_candidates": droppable[:5],
+            "claims": top, "flyers": flyers, "speculative": spec, "speculative_more": spec_more, "excluded_claims": excluded,
+            "excluded_positions": sorted(excluded_pos), "pace": pace_info,
+            "all_evaluated": len(claims), "drop_candidates": droppable[:5], "drop_list": droppable_all,
+            "ceiling_available": book.ok, "ceiling_reason": book.reason,
             "my_roster_values": sorted(mine, key=lambda m: -m["ros"]), "timing": timing, "assumptions": assumptions}

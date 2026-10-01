@@ -8,11 +8,14 @@ Files:
   data/injuries/<season>/injuries_<date>.json   full table for the day
   data/injuries/<season>/diff_<date>.json       what changed since the last table
   data/league/rosters.json                      refreshed daily
+  data/league/transactions.json                 current and previous week merged in daily (waiver results)
+  data/players/names_cache.json                 every player id ever in a transaction, with a name
 """
 import os
 
 from . import config, store
-from .sleeper import get, load_players, find_me, team_name_fn, player_info
+from .sleeper import (get, load_players, find_me, team_name_fn, player_info, merge_transactions,
+                      transaction_player_ids, update_names_cache)
 from .timeutil import now_utc, iso, to_central
 
 FIELDS = ["injury_status", "injury_body_part", "injury_start_date", "injury_notes",
@@ -111,9 +114,24 @@ def run(out_dir=None):
     store.write_json(os.path.join(data_dir, "league", "users.json"),
                      [{"user_id": u.get("user_id"), "display_name": u.get("display_name"),
                        "team_name": (u.get("metadata") or {}).get("team_name")} for u in users])
+    # transactions for the current and previous week, so Thursday's 2 AM waiver results show at 6 AM
+    tx_path = os.path.join(data_dir, "league", "transactions.json")
+    tx = (store.read_json(tx_path, {}) or {}).get("by_week") or {}
+    wk_now = int(state.get("week") or 0)
+    n_tx = 0
+    for wk in range(max(1, wk_now - 1), wk_now + 2):
+        try:
+            rows = get(f"/v1/league/{config.LEAGUE_ID}/transactions/{wk}")
+        except RuntimeError:
+            continue
+        merge_transactions(tx, wk, rows)
+        n_tx += len(rows or [])
+    if wk_now >= 1:
+        store.write_json(tx_path, {"pulled_at_utc": iso(now), "by_week": tx})
+    update_names_cache(data_dir, players, transaction_player_ids(tx) | rostered)
     mine_flagged = sum(1 for r in table.values() if r["is_mine"] and r.get("injury_status"))
     summary = (f"{len(table)} rostered players tracked, {len(changes)} changes since {(prev or {}).get('date_central') or 'never'}, "
-               f"{mine_flagged} of mine carry an injury tag, players cache {'reused' if pmeta.get('reused') else 'pulled'}")
+               f"{mine_flagged} of mine carry an injury tag, {n_tx} transactions refreshed, players cache {'reused' if pmeta.get('reused') else 'pulled'}")
     store.record_run("injuries", True, summary, started, iso(now_utc()))
     print("injuries:", summary)
     return changes

@@ -1,0 +1,6131 @@
+{
+"n": 875,
+"players": {
+"10210": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Cameron Latu",
+"pos": "TE",
+"team": "NE"
+},
+"10212": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Josh Whyle",
+"pos": "TE",
+"team": "GB"
+},
+"10213": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tre Tucker",
+"pos": "WR",
+"team": "LV"
+},
+"10214": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Davis Allen",
+"pos": "TE",
+"team": "LAR"
+},
+"10215": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-29",
+"name": "Jake Haener",
+"pos": "QB",
+"team": "NYG"
+},
+"10218": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Xavier Hutchinson",
+"pos": "WR",
+"team": "HOU"
+},
+"10219": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Chris Rodriguez",
+"pos": "RB",
+"team": "JAX"
+},
+"10220": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Will Mallory",
+"pos": "TE",
+"team": "IND"
+},
+"10221": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-29",
+"name": "Ronnie Bell",
+"pos": "WR",
+"team": "LV"
+},
+"10222": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jayden Reed",
+"pos": "WR",
+"team": "GB"
+},
+"10223": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Eric Gray",
+"pos": "RB",
+"team": "CLE"
+},
+"10224": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Brayden Willis",
+"pos": "TE",
+"team": "SF"
+},
+"10225": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jonathan Mingo",
+"pos": "WR",
+"team": "DAL"
+},
+"10226": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Andrei Iosivas",
+"pos": "WR",
+"team": "CIN"
+},
+"10227": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Payne Durham",
+"pos": "TE",
+"team": "TB"
+},
+"10228": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Charlie Jones",
+"pos": "WR",
+"team": "NYG"
+},
+"10229": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Rashee Rice",
+"pos": "WR",
+"team": "KC"
+},
+"10231": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Elijah Higgins",
+"pos": "TE",
+"team": "ARI"
+},
+"10232": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Michael Wilson",
+"pos": "WR",
+"team": "ARI"
+},
+"10234": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Derius Davis",
+"pos": "WR",
+"team": "LAC"
+},
+"10235": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Roschon Johnson",
+"pos": "RB",
+"team": "CHI"
+},
+"10236": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Dalton Kincaid",
+"pos": "TE",
+"team": "BUF"
+},
+"10444": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Cedric Tillman",
+"pos": "WR",
+"team": "NO"
+},
+"10857": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Stetson Bennett",
+"pos": "QB",
+"team": "LAR"
+},
+"10859": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Sam LaPorta",
+"pos": "TE",
+"team": "DET"
+},
+"10866": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Aidan O'Connell",
+"pos": "QB",
+"team": "LV"
+},
+"10867": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jake Bobo",
+"pos": "WR",
+"team": "SEA"
+},
+"10871": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Luke Schoonmaker",
+"pos": "TE",
+"team": "DAL"
+},
+"10983": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Sean Clifford",
+"pos": "QB",
+"team": "CIN"
+},
+"11034": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jalen Brooks",
+"pos": "WR",
+"team": "ARI"
+},
+"11056": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jared Wayne",
+"pos": "WR",
+"team": "HOU"
+},
+"11068": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Mitchell Tinsley",
+"pos": "WR",
+"team": "CIN"
+},
+"11113": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Joel Wilson",
+"pos": "TE",
+"team": "TEN"
+},
+"11157": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Brycen Tremayne",
+"pos": "WR",
+"team": "CAR"
+},
+"11168": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Xavier Smith",
+"pos": "WR",
+"team": "LAR"
+},
+"11186": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Carlos Washington",
+"pos": "RB",
+"team": "MIA"
+},
+"11199": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Emari Demercado",
+"pos": "RB",
+"team": "DAL"
+},
+"11201": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Blake Whiteheart",
+"pos": "TE",
+"team": "CLE"
+},
+"11210": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Malik Heath",
+"pos": "WR",
+"team": "ATL"
+},
+"11237": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jacob Saylors",
+"pos": "RB",
+"team": "DET"
+},
+"11256": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tyson Bagent",
+"pos": "QB",
+"team": "CHI"
+},
+"11257": {
+"first_seen": "2026-09-23",
+"last_seen": "2026-09-30",
+"name": "Shedrick Jackson",
+"pos": "WR",
+"team": "BAL"
+},
+"11273": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Ben VanSumeren",
+"pos": "RB",
+"team": "KC"
+},
+"11280": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Brady Russell",
+"pos": "RB",
+"team": "SEA"
+},
+"11292": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tommy DeVito",
+"pos": "QB",
+"team": "NE"
+},
+"11299": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Zavier Scott",
+"pos": "RB",
+"team": "CHI"
+},
+"11304": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "E.J. Jenkins",
+"pos": "TE",
+"team": "PHI"
+},
+"11306": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Xavier Gipson",
+"pos": "WR",
+"team": "PHI"
+},
+"11320": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Nikko Remigio",
+"pos": "WR",
+"team": "KC"
+},
+"11370": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Chris Brooks",
+"pos": "RB",
+"team": "GB"
+},
+"11371": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Julian Hill",
+"pos": "TE",
+"team": "NE"
+},
+"11377": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tyrell Shavers",
+"pos": "WR",
+"team": "BUF"
+},
+"11381": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Travis Vokolek",
+"pos": "TE",
+"team": "ARI"
+},
+"11421": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Ryan Miller",
+"pos": "WR",
+"team": "MIA"
+},
+"11433": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Nate Adkins",
+"pos": "TE",
+"team": "DEN"
+},
+"11435": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Emanuel Wilson",
+"pos": "RB",
+"team": "SEA"
+},
+"11439": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jaleel McLaughlin",
+"pos": "RB",
+"team": "CLE"
+},
+"11474": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Dylan Drummond",
+"pos": "WR",
+"team": "ATL"
+},
+"11506": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jalen Moreno-Cropper",
+"pos": "WR",
+"team": "NO"
+},
+"11508": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Princeton Fant",
+"pos": "TE",
+"team": "DAL"
+},
+"11520": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Lucky Jackson",
+"pos": "WR",
+"team": "DET"
+},
+"11557": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Joe Milton",
+"pos": "QB",
+"team": "DAL"
+},
+"11558": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Sam Hartman",
+"pos": "QB",
+"team": "WAS"
+},
+"11559": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Michael Penix",
+"pos": "QB",
+"team": "ATL"
+},
+"11560": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Caleb Williams",
+"pos": "QB",
+"team": "CHI"
+},
+"11562": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Spencer Rattler",
+"pos": "QB",
+"team": "NO"
+},
+"11563": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Bo Nix",
+"pos": "QB",
+"team": "DEN"
+},
+"11564": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Drake Maye",
+"pos": "QB",
+"team": "NE"
+},
+"11565": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "J.J. McCarthy",
+"pos": "QB",
+"team": "NYG"
+},
+"11566": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jayden Daniels",
+"pos": "QB",
+"team": "WAS"
+},
+"11569": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jarquez Hunter",
+"pos": "RB",
+"team": "MIA"
+},
+"11570": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Rasheen Ali",
+"pos": "RB",
+"team": "BAL"
+},
+"11571": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Isaiah Davis",
+"pos": "RB",
+"team": "NYJ"
+},
+"11573": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Frank Gore",
+"pos": "RB",
+"team": "BUF"
+},
+"11574": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Dylan Laube",
+"pos": "RB",
+"team": "LV"
+},
+"11575": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Ray Davis",
+"pos": "RB",
+"team": "BUF"
+},
+"11576": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Braelon Allen",
+"pos": "RB",
+"team": "NYJ"
+},
+"11577": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Will Shipley",
+"pos": "RB",
+"team": "PHI"
+},
+"11579": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-23",
+"name": "Audric Estime",
+"pos": "RB",
+"team": "NO"
+},
+"11581": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "MarShawn Lloyd",
+"pos": "RB",
+"team": "GB"
+},
+"11582": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Carson Steele",
+"pos": "RB",
+"team": "PHI"
+},
+"11583": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jonathon Brooks",
+"pos": "RB",
+"team": "CAR"
+},
+"11584": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Bucky Irving",
+"pos": "RB",
+"team": "TB"
+},
+"11586": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Blake Corum",
+"pos": "RB",
+"team": "LAR"
+},
+"11588": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jawhar Jordan",
+"pos": "RB",
+"team": "HOU"
+},
+"11589": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Trey Benson",
+"pos": "RB",
+"team": "ARI"
+},
+"11592": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Erick All",
+"pos": "TE",
+"team": "CIN"
+},
+"11593": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Brevyn Spann-Ford",
+"pos": "TE",
+"team": "DAL"
+},
+"11595": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jared Wiley",
+"pos": "TE",
+"team": "KC"
+},
+"11596": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Ben Sinnott",
+"pos": "TE",
+"team": "WAS"
+},
+"11597": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Theo Johnson",
+"pos": "TE",
+"team": "NYG"
+},
+"11599": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Cade Stover",
+"pos": "TE",
+"team": "HOU"
+},
+"11600": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Ja'Tavion Sanders",
+"pos": "TE",
+"team": "CAR"
+},
+"11603": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "AJ Barner",
+"pos": "TE",
+"team": "SEA"
+},
+"11604": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Brock Bowers",
+"pos": "TE",
+"team": "LV"
+},
+"11608": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Isaiah Williams",
+"pos": "WR",
+"team": "NYJ"
+},
+"11610": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Malik Washington",
+"pos": "WR",
+"team": "MIA"
+},
+"11616": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jacob Cowing",
+"pos": "WR",
+"team": "SF"
+},
+"11617": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Malachi Corley",
+"pos": "WR",
+"team": "CLE"
+},
+"11618": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jalen McMillan",
+"pos": "WR",
+"team": "TB"
+},
+"11620": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Rome Odunze",
+"pos": "WR",
+"team": "CHI"
+},
+"11623": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jordan Whittington",
+"pos": "WR",
+"team": "LAR"
+},
+"11624": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Xavier Worthy",
+"pos": "WR",
+"team": "KC"
+},
+"11625": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Adonai Mitchell",
+"pos": "WR",
+"team": "NYJ"
+},
+"11626": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Xavier Legette",
+"pos": "WR",
+"team": "CAR"
+},
+"11627": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Troy Franklin",
+"pos": "WR",
+"team": "DEN"
+},
+"11628": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Marvin Harrison",
+"pos": "WR",
+"team": "ARI"
+},
+"11629": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Devontez Walker",
+"pos": "WR",
+"team": "BAL"
+},
+"11630": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Roman Wilson",
+"pos": "WR",
+"team": "PIT"
+},
+"11631": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Brian Thomas",
+"pos": "WR",
+"team": "JAX"
+},
+"11632": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Malik Nabers",
+"pos": "WR",
+"team": "NYG"
+},
+"11635": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Ladd McConkey",
+"pos": "WR",
+"team": "LAC"
+},
+"11636": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Johnny Wilson",
+"pos": "WR",
+"team": "PHI"
+},
+"11637": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Keon Coleman",
+"pos": "WR",
+"team": "BUF"
+},
+"11638": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Ricky Pearsall",
+"pos": "WR",
+"team": "SF"
+},
+"11643": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jaylen Wright",
+"pos": "RB",
+"team": "MIA"
+},
+"11644": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Cody Schrader",
+"pos": "RB",
+"team": "DEN"
+},
+"11646": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jalen Coker",
+"pos": "WR",
+"team": "CAR"
+},
+"11647": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Kimani Vidal",
+"pos": "RB",
+"team": "LAC"
+},
+"11648": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Kedon Slovis",
+"pos": "QB",
+"team": "GB"
+},
+"11649": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Kendall Milton",
+"pos": "RB",
+"team": "CIN"
+},
+"11650": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Luke McCaffrey",
+"pos": "WR",
+"team": "WAS"
+},
+"11651": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Isaac Guerendo",
+"pos": "RB",
+"team": "SF"
+},
+"11655": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tyrone Tracy",
+"pos": "RB",
+"team": "NYG"
+},
+"1166": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Kirk Cousins",
+"pos": "QB",
+"team": "LV"
+},
+"11716": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tip Reiman",
+"pos": "TE",
+"team": "ARI"
+},
+"11729": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Sione Vaki",
+"pos": "RB",
+"team": "DET"
+},
+"11748": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Bub Means",
+"pos": "WR",
+"team": "CLE"
+},
+"11762": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Anthony Gould",
+"pos": "WR",
+"team": "IND"
+},
+"11783": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Ryan Flournoy",
+"pos": "WR",
+"team": "DAL"
+},
+"11806": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Casey Washington",
+"pos": "WR",
+"team": "CAR"
+},
+"11820": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Devin Culp",
+"pos": "TE",
+"team": "TB"
+},
+"11834": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Devaughn Vele",
+"pos": "WR",
+"team": "NO"
+},
+"11895": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Mason Tipton",
+"pos": "WR",
+"team": "NO"
+},
+"11911": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jeshaun Jones",
+"pos": "WR",
+"team": "MIN"
+},
+"11942": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Colson Yankoff",
+"pos": "TE",
+"team": "WAS"
+},
+"11959": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Bryce Oliver",
+"pos": "WR",
+"team": "HOU"
+},
+"11963": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Chris Collier",
+"pos": "RB",
+"team": "LV"
+},
+"11994": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Kameron Johnson",
+"pos": "WR",
+"team": "TB"
+},
+"12045": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jack Westover",
+"pos": "TE",
+"team": "WAS"
+},
+"12048": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "George Holani",
+"pos": "RB",
+"team": "SEA"
+},
+"12062": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Cam Grandy",
+"pos": "TE",
+"team": "MIN"
+},
+"12079": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Treyton Welch",
+"pos": "TE",
+"team": "NO"
+},
+"12113": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Thomas Yassmin",
+"pos": "TE",
+"team": "GB"
+},
+"12151": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Julian Hicks",
+"pos": "WR",
+"team": "SEA"
+},
+"12154": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Messiah Swinson",
+"pos": "TE",
+"team": "CLE"
+},
+"12171": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "British Brooks",
+"pos": "RB",
+"team": "HOU"
+},
+"12217": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Shawn Bowman",
+"pos": "TE",
+"team": "ARI"
+},
+"12267": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Qadir Ismail",
+"pos": "WR",
+"team": "CHI"
+},
+"12356": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jabari Small",
+"pos": "RB",
+"team": "DET"
+},
+"12357": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "David Martin-Robinson",
+"pos": "TE",
+"team": "TEN"
+},
+"12374": {
+"first_seen": "2026-09-23",
+"last_seen": "2026-09-30",
+"name": "Brenden Bates",
+"pos": "TE",
+"team": "JAX"
+},
+"12389": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Hayden Rucci",
+"pos": "TE",
+"team": "LAC"
+},
+"12455": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Brashard Smith",
+"pos": "RB",
+"team": "KC"
+},
+"12457": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jaydon Blue",
+"pos": "RB",
+"team": "PHI"
+},
+"12460": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Antwane Wells",
+"pos": "WR",
+"team": "ATL"
+},
+"12467": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jordan James",
+"pos": "RB",
+"team": "SF"
+},
+"12469": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Dylan Sampson",
+"pos": "RB",
+"team": "CLE"
+},
+"12470": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Riley Leonard",
+"pos": "QB",
+"team": "IND"
+},
+"12471": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "DJ Giddens",
+"pos": "RB",
+"team": "IND"
+},
+"12472": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Raheim Sanders",
+"pos": "RB",
+"team": "CLE"
+},
+"12473": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Mitchell Evans",
+"pos": "TE",
+"team": "CAR"
+},
+"12474": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Woody Marks",
+"pos": "RB",
+"team": "HOU"
+},
+"12475": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Ricky White",
+"pos": "WR",
+"team": "SEA"
+},
+"12476": {
+"first_seen": "2026-09-30",
+"last_seen": "2026-09-30",
+"name": "Devin Neal",
+"pos": "RB",
+"team": "MIN"
+},
+"12477": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Kurtis Rourke",
+"pos": "QB",
+"team": "SF"
+},
+"12480": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Moliki Matavao",
+"pos": "TE",
+"team": "NO"
+},
+"12481": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Cam Skattebo",
+"pos": "RB",
+"team": "NYG"
+},
+"12482": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Savion Williams",
+"pos": "WR",
+"team": "GB"
+},
+"12483": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jack Bech",
+"pos": "WR",
+"team": "LV"
+},
+"12484": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jayden Higgins",
+"pos": "WR",
+"team": "HOU"
+},
+"12485": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tez Johnson",
+"pos": "WR",
+"team": "TB"
+},
+"12486": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Dillon Gabriel",
+"pos": "QB",
+"team": "CLE"
+},
+"12487": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Terrance Ferguson",
+"pos": "TE",
+"team": "LAR"
+},
+"12489": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "RJ Harvey",
+"pos": "RB",
+"team": "DEN"
+},
+"12490": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Bhayshul Tuten",
+"pos": "RB",
+"team": "JAX"
+},
+"12491": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Corey Kiner",
+"pos": "RB",
+"team": "NE"
+},
+"12492": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Pat Bryant",
+"pos": "WR",
+"team": "DEN"
+},
+"12493": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Oronde Gadsden",
+"pos": "TE",
+"team": "LAC"
+},
+"12494": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Kyle McCord",
+"pos": "QB",
+"team": "MIA"
+},
+"12495": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Ollie Gordon",
+"pos": "RB",
+"team": "MIA"
+},
+"12496": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tai Felton",
+"pos": "WR",
+"team": "MIN"
+},
+"12497": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tory Horton",
+"pos": "WR",
+"team": "SEA"
+},
+"12498": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Mason Taylor",
+"pos": "TE",
+"team": "NYJ"
+},
+"12499": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Elic Ayomanor",
+"pos": "WR",
+"team": "TEN"
+},
+"12500": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Quinn Ewers",
+"pos": "QB",
+"team": "JAX"
+},
+"12501": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Matthew Golden",
+"pos": "WR",
+"team": "GB"
+},
+"12502": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Gunnar Helm",
+"pos": "TE",
+"team": "TEN"
+},
+"12503": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Isaiah Bond",
+"pos": "WR",
+"team": "CLE"
+},
+"12504": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Kaleb Johnson",
+"pos": "RB",
+"team": "GB"
+},
+"12505": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jalen Royals",
+"pos": "WR",
+"team": "KC"
+},
+"12506": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Harold Fannin",
+"pos": "TE",
+"team": "CLE"
+},
+"12507": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Omarion Hampton",
+"pos": "RB",
+"team": "LAC"
+},
+"12508": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jaxson Dart",
+"pos": "QB",
+"team": "NYG"
+},
+"12509": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tre' Harris",
+"pos": "WR",
+"team": "LAC"
+},
+"12510": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jalen Milroe",
+"pos": "QB",
+"team": "SEA"
+},
+"12511": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Will Howard",
+"pos": "QB",
+"team": "PIT"
+},
+"12512": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Quinshon Judkins",
+"pos": "RB",
+"team": "CLE"
+},
+"12514": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Emeka Egbuka",
+"pos": "WR",
+"team": "TB"
+},
+"12516": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Kalel Mullings",
+"pos": "RB",
+"team": "TEN"
+},
+"12517": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Colston Loveland",
+"pos": "TE",
+"team": "CHI"
+},
+"12518": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tyler Warren",
+"pos": "TE",
+"team": "IND"
+},
+"12519": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Luther Burden",
+"pos": "WR",
+"team": "CHI"
+},
+"12520": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Xavier Restrepo",
+"pos": "WR",
+"team": "TEN"
+},
+"12521": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Elijah Arroyo",
+"pos": "TE",
+"team": "SEA"
+},
+"12522": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Cam Ward",
+"pos": "QB",
+"team": "TEN"
+},
+"12523": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jimmy Horn",
+"pos": "WR",
+"team": "CLE"
+},
+"12524": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Shedeur Sanders",
+"pos": "QB",
+"team": "CLE"
+},
+"12526": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tetairoa McMillan",
+"pos": "WR",
+"team": "CAR"
+},
+"12527": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Ashton Jeanty",
+"pos": "RB",
+"team": "LV"
+},
+"12529": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "TreVeyon Henderson",
+"pos": "RB",
+"team": "NE"
+},
+"12531": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Trevor Etienne",
+"pos": "RB",
+"team": "CAR"
+},
+"12533": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jacory Croskey-Merritt",
+"pos": "RB",
+"team": "WAS"
+},
+"12534": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Kyle Monangai",
+"pos": "RB",
+"team": "CHI"
+},
+"12535": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Isaac TeSlaa",
+"pos": "WR",
+"team": "DET"
+},
+"12536": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jaylin Noel",
+"pos": "WR",
+"team": "HOU"
+},
+"12538": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Brady Cook",
+"pos": "QB",
+"team": "MIA"
+},
+"12539": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Arian Smith",
+"pos": "WR",
+"team": "NYJ"
+},
+"12540": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Chimere Dike",
+"pos": "WR",
+"team": "TEN"
+},
+"12541": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Dont'e Thornton",
+"pos": "WR",
+"team": "LV"
+},
+"12542": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Efton Chism",
+"pos": "WR",
+"team": "NE"
+},
+"12543": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tahj Brooks",
+"pos": "RB",
+"team": "CIN"
+},
+"12544": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "LeQuint Allen",
+"pos": "RB",
+"team": "JAX"
+},
+"12545": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tyler Shough",
+"pos": "QB",
+"team": "NO"
+},
+"12547": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Kyle Williams",
+"pos": "WR",
+"team": "NE"
+},
+"12634": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jordan Watkins",
+"pos": "WR",
+"team": "SF"
+},
+"12641": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jaylin Lane",
+"pos": "WR",
+"team": "WAS"
+},
+"12656": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Robbie Ouzts",
+"pos": "RB",
+"team": "SEA"
+},
+"12658": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jackson Hawes",
+"pos": "TE",
+"team": "BUF"
+},
+"12670": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "KeAndre Lambert-Smith",
+"pos": "WR",
+"team": "LAC"
+},
+"12699": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "LaJohntay Wester",
+"pos": "WR",
+"team": "BAL"
+},
+"12700": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Gavin Bartholomew",
+"pos": "TE",
+"team": "MIN"
+},
+"12705": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Graham Mertz",
+"pos": "QB",
+"team": "HOU"
+},
+"12715": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Thomas Fidone",
+"pos": "TE",
+"team": "NYG"
+},
+"12718": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Konata Mumpfield",
+"pos": "WR",
+"team": "LAR"
+},
+"12732": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Dominic Lovett",
+"pos": "WR",
+"team": "DET"
+},
+"12735": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Caleb Lohner",
+"pos": "TE",
+"team": "DEN"
+},
+"12738": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Phil Mafah",
+"pos": "RB",
+"team": "NYG"
+},
+"12746": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "JP Richardson",
+"pos": "WR",
+"team": "CHI"
+},
+"12756": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Stephen Gosnell",
+"pos": "WR",
+"team": "BUF"
+},
+"12761": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jordan Moore",
+"pos": "WR",
+"team": "CIN"
+},
+"12765": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Keleki Latu",
+"pos": "TE",
+"team": "BUF"
+},
+"12773": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "DJ Uiagalelei",
+"pos": "QB",
+"team": "LAC"
+},
+"12775": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Max Brosmer",
+"pos": "QB",
+"team": "MIN"
+},
+"12787": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Josh Williams",
+"pos": "RB",
+"team": "TB"
+},
+"12788": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Will Sheppard",
+"pos": "WR",
+"team": "MIA"
+},
+"12792": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Garrett Greene",
+"pos": "QB",
+"team": "TB"
+},
+"12797": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Ahmani Marshall",
+"pos": "RB",
+"team": "CAR"
+},
+"12817": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jake Briningstool",
+"pos": "TE",
+"team": "KC"
+},
+"12848": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Josh Kelly",
+"pos": "WR",
+"team": "HOU"
+},
+"12860": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Theo Wease",
+"pos": "WR",
+"team": "LAC"
+},
+"12863": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Andrew Armstrong",
+"pos": "WR",
+"team": "KC"
+},
+"12865": {
+"first_seen": "2026-09-25",
+"last_seen": "2026-09-30",
+"name": "AJ Henning",
+"pos": "WR",
+"team": "MIA"
+},
+"12884": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Quincy Skinner",
+"pos": "WR",
+"team": "GB"
+},
+"12888": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Dalen Cambre",
+"pos": "WR",
+"team": "NYG"
+},
+"12889": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Beaux Collins",
+"pos": "WR",
+"team": "ATL"
+},
+"12897": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Nate Carter",
+"pos": "RB",
+"team": "KC"
+},
+"12901": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Patrick Herbert",
+"pos": "TE",
+"team": "LAC"
+},
+"12908": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Chandler Brayboy",
+"pos": "WR",
+"team": "NE"
+},
+"12909": {
+"first_seen": "2026-09-24",
+"last_seen": "2026-09-30",
+"name": "Eli Pancol",
+"pos": "WR",
+"team": "IND"
+},
+"12925": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jamaal Pritchett",
+"pos": "WR",
+"team": "NYJ"
+},
+"12928": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Amar Johnson",
+"pos": "RB",
+"team": "LAC"
+},
+"12938": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jackson Meeks",
+"pos": "TE",
+"team": "DET"
+},
+"12939": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Anthony Tyus",
+"pos": "RB",
+"team": "CAR"
+},
+"12946": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-26",
+"name": "Dontae Fleming",
+"pos": "WR",
+"team": "MIN"
+},
+"12969": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Lan Larison",
+"pos": "RB",
+"team": "NE"
+},
+"12971": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Ke'Shawn Williams",
+"pos": "WR",
+"team": "CIN"
+},
+"12984": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "CJ Dippre",
+"pos": "TE",
+"team": "TB"
+},
+"13010": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jordan Waters",
+"pos": "RB",
+"team": "LAR"
+},
+"13011": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Brennan Presley",
+"pos": "WR",
+"team": "LAR"
+},
+"13013": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Mark Redman",
+"pos": "TE",
+"team": "GB"
+},
+"13032": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Marshall Lang",
+"pos": "TE",
+"team": "MIN"
+},
+"13042": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Xavier Guillory",
+"pos": "WR",
+"team": "BAL"
+},
+"13047": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jacardia Wright",
+"pos": "RB",
+"team": "SEA"
+},
+"13074": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Isaiah Neyor",
+"pos": "WR",
+"team": "GB"
+},
+"13075": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Myles Price",
+"pos": "WR",
+"team": "MIN"
+},
+"13079": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jahdae Walker",
+"pos": "WR",
+"team": "CHI"
+},
+"13101": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Gage Larvadain",
+"pos": "WR",
+"team": "BAL"
+},
+"13116": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tre Watson",
+"pos": "TE",
+"team": "MIA"
+},
+"13121": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Ben Yurosek",
+"pos": "TE",
+"team": "MIN"
+},
+"13122": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Carter Runyon",
+"pos": "TE",
+"team": "LV"
+},
+"13124": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jeremiah Webb",
+"pos": "WR",
+"team": "NE"
+},
+"13150": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Darius Cooper",
+"pos": "WR",
+"team": "PHI"
+},
+"13151": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Nick Kallerup",
+"pos": "TE",
+"team": "SEA"
+},
+"13173": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jimmy Holiday",
+"pos": "WR",
+"team": "KC"
+},
+"13179": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Ja'seem Reed",
+"pos": "WR",
+"team": "CAR"
+},
+"13199": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Montorie Foster",
+"pos": "WR",
+"team": "SEA"
+},
+"13208": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Kyrese Rowan",
+"pos": "WR",
+"team": "NO"
+},
+"13210": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Drake Dabney",
+"pos": "TE",
+"team": "GB"
+},
+"13249": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Thomas Gordon",
+"pos": "TE",
+"team": "DET"
+},
+"13264": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Dohnte Meyers",
+"pos": "WR",
+"team": "CIN"
+},
+"13268": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Elijah Sarratt",
+"pos": "WR",
+"team": "BAL"
+},
+"13269": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Fernando Mendoza",
+"pos": "QB",
+"team": "LV"
+},
+"13270": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "CJ Daniels",
+"pos": "WR",
+"team": "LAR"
+},
+"13272": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Carson Beck",
+"pos": "QB",
+"team": "ARI"
+},
+"13273": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Josh Cuevas",
+"pos": "TE",
+"team": "BAL"
+},
+"13274": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Germie Bernard",
+"pos": "WR",
+"team": "PIT"
+},
+"13275": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Ty Simpson",
+"pos": "QB",
+"team": "LAR"
+},
+"13276": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Omar Cooper",
+"pos": "WR",
+"team": "NYJ"
+},
+"13277": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "CJ Donaldson",
+"pos": "RB",
+"team": "NO"
+},
+"13278": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Max Klare",
+"pos": "TE",
+"team": "LAR"
+},
+"13279": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Carnell Tate",
+"pos": "WR",
+"team": "TEN"
+},
+"13281": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jordyn Tyson",
+"pos": "WR",
+"team": "NO"
+},
+"13282": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jack Endries",
+"pos": "TE",
+"team": "CIN"
+},
+"13285": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Malachi Fields",
+"pos": "WR",
+"team": "NYG"
+},
+"13286": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jadarian Price",
+"pos": "RB",
+"team": "SEA"
+},
+"13287": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jeremiyah Love",
+"pos": "RB",
+"team": "ARI"
+},
+"13288": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Nicholas Singleton",
+"pos": "RB",
+"team": "TEN"
+},
+"13289": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Drew Allar",
+"pos": "QB",
+"team": "PIT"
+},
+"13292": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Lake McRee",
+"pos": "TE",
+"team": "PIT"
+},
+"13293": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Ja'Kobi Lane",
+"pos": "WR",
+"team": "BAL"
+},
+"13294": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Makai Lemon",
+"pos": "WR",
+"team": "PHI"
+},
+"13295": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Behren Morton",
+"pos": "QB",
+"team": "NE"
+},
+"13296": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Caleb Douglas",
+"pos": "WR",
+"team": "MIA"
+},
+"13297": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Reggie Virgil",
+"pos": "WR",
+"team": "ARI"
+},
+"13298": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "KC Concepcion",
+"pos": "WR",
+"team": "CLE"
+},
+"13299": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Nate Boerkircher",
+"pos": "TE",
+"team": "JAX"
+},
+"13301": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Antonio Williams",
+"pos": "WR",
+"team": "WAS"
+},
+"13302": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Adam Randall",
+"pos": "RB",
+"team": "BAL"
+},
+"13303": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Cade Klubnik",
+"pos": "QB",
+"team": "NYJ"
+},
+"13305": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Mike Washington",
+"pos": "RB",
+"team": "LV"
+},
+"13306": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Taylen Green",
+"pos": "QB",
+"team": "CLE"
+},
+"13307": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Marlin Klein",
+"pos": "TE",
+"team": "HOU"
+},
+"13308": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Bauer Sharp",
+"pos": "TE",
+"team": "TB"
+},
+"13310": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Miller Moss",
+"pos": "QB",
+"team": "CHI"
+},
+"13311": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Chris Bell",
+"pos": "WR",
+"team": "MIA"
+},
+"13313": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Emmanuel Henderson",
+"pos": "WR",
+"team": "SEA"
+},
+"13314": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Luke Altmyer",
+"pos": "QB",
+"team": "DET"
+},
+"13315": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Dean Connors",
+"pos": "RB",
+"team": "LAR"
+},
+"13316": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Eric Rivers",
+"pos": "WR",
+"team": "TB"
+},
+"13317": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Ted Hurst",
+"pos": "WR",
+"team": "TB"
+},
+"13318": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Noah Thomas",
+"pos": "WR",
+"team": "CIN"
+},
+"13319": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Oscar Delp",
+"pos": "TE",
+"team": "NO"
+},
+"13320": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Zachariah Branch",
+"pos": "WR",
+"team": "ATL"
+},
+"13321": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Dan Villari",
+"pos": "TE",
+"team": "LAR"
+},
+"13322": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Sam Roush",
+"pos": "TE",
+"team": "CHI"
+},
+"13324": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Matt Hibner",
+"pos": "TE",
+"team": "BAL"
+},
+"13325": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jordan Hudson",
+"pos": "WR",
+"team": "DAL"
+},
+"13329": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Malik Benson",
+"pos": "WR",
+"team": "LV"
+},
+"13330": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Kenyon Sadiq",
+"pos": "TE",
+"team": "NYJ"
+},
+"13333": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Deion Burks",
+"pos": "WR",
+"team": "IND"
+},
+"13335": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Cole Payton",
+"pos": "QB",
+"team": "PHI"
+},
+"13336": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Dane Key",
+"pos": "WR",
+"team": "DEN"
+},
+"13337": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Emmett Johnson",
+"pos": "RB",
+"team": "KC"
+},
+"13338": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Kevin Coleman",
+"pos": "WR",
+"team": "MIA"
+},
+"13339": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Davon Booth",
+"pos": "RB",
+"team": "IND"
+},
+"13342": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "John Michael Gyllenborg",
+"pos": "TE",
+"team": "KC"
+},
+"13343": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Vinny Anthony",
+"pos": "WR",
+"team": "ATL"
+},
+"13345": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jonah Coleman",
+"pos": "RB",
+"team": "DEN"
+},
+"13346": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Denzel Boston",
+"pos": "WR",
+"team": "CLE"
+},
+"13347": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Demond Claiborne",
+"pos": "RB",
+"team": "MIN"
+},
+"13348": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "J'Mari Taylor",
+"pos": "RB",
+"team": "JAX"
+},
+"13349": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Eli Stowers",
+"pos": "TE",
+"team": "PHI"
+},
+"13350": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Joe Fagnano",
+"pos": "QB",
+"team": "BAL"
+},
+"13353": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Chris Brazzell",
+"pos": "WR",
+"team": "CAR"
+},
+"13355": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "DJ Rogers",
+"pos": "TE",
+"team": "DAL"
+},
+"13356": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Trebor Pena",
+"pos": "WR",
+"team": "JAX"
+},
+"13380": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Brenen Thompson",
+"pos": "WR",
+"team": "LAC"
+},
+"1339": {
+"first_seen": "2026-09-22",
+"last_seen": "2026-09-30",
+"name": "Zach Ertz",
+"pos": "TE",
+"team": "PHI"
+},
+"13392": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jeff Caldwell",
+"pos": "WR",
+"team": "KC"
+},
+"13394": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Josh Cameron",
+"pos": "WR",
+"team": "JAX"
+},
+"13400": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Justin Joly",
+"pos": "TE",
+"team": "MIA"
+},
+"13401": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Michael Trigg",
+"pos": "TE",
+"team": "DAL"
+},
+"13402": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Skyler Bell",
+"pos": "WR",
+"team": "BUF"
+},
+"13404": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Garrett Nussmeier",
+"pos": "QB",
+"team": "KC"
+},
+"13405": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Kaytron Allen",
+"pos": "RB",
+"team": "WAS"
+},
+"13407": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Carson Towt",
+"pos": "TE",
+"team": "IND"
+},
+"13408": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tanner Koziol",
+"pos": "TE",
+"team": "JAX"
+},
+"13411": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Zavion Thomas",
+"pos": "WR",
+"team": "CHI"
+},
+"13412": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Kendrick Law",
+"pos": "WR",
+"team": "DET"
+},
+"13413": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Cyrus Allen",
+"pos": "WR",
+"team": "KC"
+},
+"13414": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Kaelon Black",
+"pos": "RB",
+"team": "SF"
+},
+"13415": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Haynes King",
+"pos": "QB",
+"team": "CAR"
+},
+"13416": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Roman Hemby",
+"pos": "RB",
+"team": "LV"
+},
+"13417": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "De'Zhaun Stribling",
+"pos": "WR",
+"team": "SF"
+},
+"13418": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Robert Henry",
+"pos": "RB",
+"team": "WAS"
+},
+"13419": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jaydn Ott",
+"pos": "RB",
+"team": "KC"
+},
+"13420": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Bryce Lance",
+"pos": "WR",
+"team": "NO"
+},
+"13421": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Eli Raridon",
+"pos": "TE",
+"team": "NE"
+},
+"13422": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jaren Kanak",
+"pos": "TE",
+"team": "TEN"
+},
+"13423": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Eli Heidenreich",
+"pos": "RB",
+"team": "PIT"
+},
+"13424": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Seth McGowan",
+"pos": "RB",
+"team": "IND"
+},
+"13425": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jalon Daniels",
+"pos": "QB",
+"team": "TB"
+},
+"13428": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Joey Aguilar",
+"pos": "QB",
+"team": "JAX"
+},
+"13429": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Seydou Traore",
+"pos": "TE",
+"team": "MIA"
+},
+"13431": {
+"first_seen": "2026-09-29",
+"last_seen": "2026-09-30",
+"name": "Miles Kitselman",
+"pos": "TE",
+"team": "DET"
+},
+"13432": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Khalil Dinkins",
+"pos": "TE",
+"team": "SF"
+},
+"13433": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Riley Nowakowski",
+"pos": "TE",
+"team": "PIT"
+},
+"13434": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Will Kacmarek",
+"pos": "TE",
+"team": "MIA"
+},
+"13435": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Joe Royer",
+"pos": "TE",
+"team": "CLE"
+},
+"13436": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Kentrel Bullock",
+"pos": "RB",
+"team": "CIN"
+},
+"13437": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Noah Whittington",
+"pos": "RB",
+"team": "HOU"
+},
+"13438": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "DeaMonte Trayanum",
+"pos": "RB",
+"team": "NYJ"
+},
+"13477": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Colbie Young",
+"pos": "WR",
+"team": "CIN"
+},
+"13491": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Kaden Wetjen",
+"pos": "WR",
+"team": "PIT"
+},
+"13516": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Max Bredeson",
+"pos": "RB",
+"team": "MIN"
+},
+"13533": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Barion Brown",
+"pos": "WR",
+"team": "NO"
+},
+"13541": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Lewis Bond",
+"pos": "WR",
+"team": "HOU"
+},
+"13554": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "CJ Williams",
+"pos": "WR",
+"team": "JAX"
+},
+"13557": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Athan Kaliakmanis",
+"pos": "QB",
+"team": "WAS"
+},
+"13577": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Dallen Bentley",
+"pos": "TE",
+"team": "DEN"
+},
+"13580": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Carsen Ryan",
+"pos": "TE",
+"team": "CLE"
+},
+"13582": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Anthony Smith",
+"pos": "WR",
+"team": "DAL"
+},
+"13595": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Cash Jones",
+"pos": "RB",
+"team": "ATL"
+},
+"13597": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Matthew Caldwell",
+"pos": "QB",
+"team": "LAR"
+},
+"13600": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tyren Montgomery",
+"pos": "WR",
+"team": "TEN"
+},
+"13602": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jack Strand",
+"pos": "QB",
+"team": "ATL"
+},
+"13603": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Gregory Desrosiers",
+"pos": "RB",
+"team": "LAC"
+},
+"13621": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Dillon Bell",
+"pos": "WR",
+"team": "MIN"
+},
+"13630": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Evan Svoboda",
+"pos": "TE",
+"team": "LAC"
+},
+"13645": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Michael Wortham",
+"pos": "WR",
+"team": "JAX"
+},
+"13662": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Will Pauling",
+"pos": "WR",
+"team": "SF"
+},
+"13663": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Wesley Grimes",
+"pos": "WR",
+"team": "SF"
+},
+"13670": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Harrison Wallace",
+"pos": "WR",
+"team": "ARI"
+},
+"13696": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Ja'Mori Maclin",
+"pos": "WR",
+"team": "BUF"
+},
+"13705": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Ty Pezza",
+"pos": "TE",
+"team": "BAL"
+},
+"13712": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Hayden Large",
+"pos": "TE",
+"team": "CHI"
+},
+"13726": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Camden Brown",
+"pos": "WR",
+"team": "DAL"
+},
+"1373": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Geno Smith",
+"pos": "QB",
+"team": "NYJ"
+},
+"13760": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jaden Bradley",
+"pos": "WR",
+"team": "WAS"
+},
+"13770": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "J. Michael Sturdivant",
+"pos": "WR",
+"team": "GB"
+},
+"13779": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Al-Jay Henderson",
+"pos": "RB",
+"team": "NYJ"
+},
+"138": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Ben Roethlisberger",
+"pos": "QB",
+"team": "PIT"
+},
+"13805": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-23",
+"name": "E.J. Williams",
+"pos": "WR",
+"team": "CAR"
+},
+"13825": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Malik McClain",
+"pos": "WR",
+"team": "NYJ"
+},
+"13827": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tanner Arkin",
+"pos": "TE",
+"team": "NE"
+},
+"13830": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Kyle Dixon",
+"pos": "WR",
+"team": "NE"
+},
+"13834": {
+"first_seen": "2026-09-23",
+"last_seen": "2026-09-30",
+"name": "Cody Hardy",
+"pos": "TE",
+"team": "NYJ"
+},
+"13846": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jack Velling",
+"pos": "TE",
+"team": "ATL"
+},
+"13861": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Daniel Sobkowicz",
+"pos": "WR",
+"team": "HOU"
+},
+"13862": {
+"first_seen": "2026-09-30",
+"last_seen": "2026-09-30",
+"name": "Treyvhon Saunders",
+"pos": "WR",
+"team": "HOU"
+},
+"13879": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jameson Geers",
+"pos": "TE",
+"team": "ARI"
+},
+"13890": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Michael Briscoe",
+"pos": "WR",
+"team": "MIN"
+},
+"13898": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Corey Rucker",
+"pos": "WR",
+"team": "LV"
+},
+"13905": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Omari Evans",
+"pos": "WR",
+"team": "KC"
+},
+"13913": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Patrick Gurd",
+"pos": "TE",
+"team": "LV"
+},
+"13949": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Damon Bankston",
+"pos": "RB",
+"team": "GB"
+},
+"13957": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Kenny Fletcher",
+"pos": "TE",
+"team": "IND"
+},
+"13962": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Cameron Dorner",
+"pos": "WR",
+"team": "NE"
+},
+"13964": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Myles Montgomery",
+"pos": "RB",
+"team": "NE"
+},
+"13981": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Kolbe Katsis",
+"pos": "WR",
+"team": "DEN"
+},
+"14020": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Dean Patterson",
+"pos": "WR",
+"team": "TB"
+},
+"14026": {
+"first_seen": "2026-09-30",
+"last_seen": "2026-09-30",
+"name": "DJ Herman",
+"pos": "RB",
+"team": "MIA"
+},
+"14038": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-23",
+"name": "Trayvon Rudolph",
+"pos": "WR",
+"team": "MIN"
+},
+"14041": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-23",
+"name": "Anderson Castle",
+"pos": "RB",
+"team": "IND"
+},
+"14058": {
+"first_seen": "2026-09-24",
+"last_seen": "2026-09-30",
+"name": "Malick Meiga",
+"pos": "WR",
+"team": "SEA"
+},
+"1466": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Travis Kelce",
+"pos": "TE",
+"team": "KC"
+},
+"1479": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Keenan Allen",
+"pos": "WR",
+"team": "IND"
+},
+"1592": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Darren Fells",
+"pos": "TE",
+"team": "TB"
+},
+"1604": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Nick Williams",
+"pos": "WR",
+"team": "DEN"
+},
+"1642": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Levine Toilolo",
+"pos": "TE",
+"team": "NYG"
+},
+"1706": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jack Doyle",
+"pos": "TE",
+"team": "IND"
+},
+"1737": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Case Keenum",
+"pos": "QB",
+"team": "CHI"
+},
+"19": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Joe Flacco",
+"pos": "QB",
+"team": "CIN"
+},
+"1979": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Blake Bortles",
+"pos": "QB",
+"team": "NO"
+},
+"1984": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Allen Hurns",
+"pos": "WR",
+"team": "MIA"
+},
+"2078": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Odell Beckham",
+"pos": "WR",
+"team": "NYG"
+},
+"2118": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Eric Ebron",
+"pos": "TE",
+"team": "PIT"
+},
+"2133": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Davante Adams",
+"pos": "WR",
+"team": "LAR"
+},
+"2197": {
+"first_seen": "2026-09-23",
+"last_seen": "2026-09-30",
+"name": "Brandin Cooks",
+"pos": "WR",
+"team": "SF"
+},
+"2216": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Mike Evans",
+"pos": "WR",
+"team": "SF"
+},
+"2306": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jameis Winston",
+"pos": "QB",
+"team": "NYG"
+},
+"2307": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Marcus Mariota",
+"pos": "QB",
+"team": "WAS"
+},
+"2334": {
+"first_seen": "2026-09-30",
+"last_seen": "2026-09-30",
+"name": "Phillip Dorsett",
+"pos": "WR",
+"team": "LV"
+},
+"2359": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Ameer Abdullah",
+"pos": "RB",
+"team": "JAX"
+},
+"2449": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Stefon Diggs",
+"pos": "WR",
+"team": "WAS"
+},
+"2505": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Darren Waller",
+"pos": "TE",
+"team": "CAR"
+},
+"260": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Josh Johnson",
+"pos": "QB",
+"team": "CIN"
+},
+"2944": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Matt LaCosse",
+"pos": "TE",
+"team": "NE"
+},
+"3048": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Chris Manhertz",
+"pos": "TE",
+"team": "NYG"
+},
+"3050": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Myles White",
+"pos": "WR",
+"team": "NYJ"
+},
+"3155": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Laquon Treadwell",
+"pos": "WR",
+"team": "IND"
+},
+"3161": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Carson Wentz",
+"pos": "QB",
+"team": "MIN"
+},
+"3163": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jared Goff",
+"pos": "QB",
+"team": "DET"
+},
+"3198": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Derrick Henry",
+"pos": "RB",
+"team": "BAL"
+},
+"3200": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Sterling Shepard",
+"pos": "WR",
+"team": "NYJ"
+},
+"3202": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Austin Hooper",
+"pos": "TE",
+"team": "ATL"
+},
+"3214": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Hunter Henry",
+"pos": "TE",
+"team": "NE"
+},
+"3239": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Bronson Kaufusi",
+"pos": "TE",
+"team": "GB"
+},
+"3257": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jacoby Brissett",
+"pos": "QB",
+"team": "ARI"
+},
+"3258": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Nick Vannett",
+"pos": "TE",
+"team": "BAL"
+},
+"3269": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Chris Moore",
+"pos": "WR",
+"team": "BAL"
+},
+"3271": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tyler Higbee",
+"pos": "TE",
+"team": "LAR"
+},
+"3286": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Demarcus Robinson",
+"pos": "WR",
+"team": "SF"
+},
+"3294": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Dak Prescott",
+"pos": "QB",
+"team": "DAL"
+},
+"3309": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Wendell Smallwood",
+"pos": "RB",
+"team": "WAS"
+},
+"3321": {
+"first_seen": "2026-09-29",
+"last_seen": "2026-09-30",
+"name": "Tyreek Hill",
+"pos": "WR",
+"team": null
+},
+"3333": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Temarrick Hemingway",
+"pos": "TE",
+"team": "WAS"
+},
+"3634": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Kalif Raymond",
+"pos": "WR",
+"team": "CHI"
+},
+"3668": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Joshua Perkins",
+"pos": "TE",
+"team": "NYJ"
+},
+"3702": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Andy Jones",
+"pos": "WR",
+"team": "NYG"
+},
+"3868": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jalen Richard",
+"pos": "RB",
+"team": "LV"
+},
+"3976": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Mitchell Trubisky",
+"pos": "QB",
+"team": "TEN"
+},
+"4017": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Deshaun Watson",
+"pos": "QB",
+"team": "CLE"
+},
+"4033": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "David Njoku",
+"pos": "TE",
+"team": "LAC"
+},
+"4034": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Christian McCaffrey",
+"pos": "RB",
+"team": "SF"
+},
+"4035": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Alvin Kamara",
+"pos": "RB",
+"team": "NO"
+},
+"4037": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Chris Godwin",
+"pos": "WR",
+"team": "TB"
+},
+"4039": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Cooper Kupp",
+"pos": "WR",
+"team": "SEA"
+},
+"4046": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Patrick Mahomes",
+"pos": "QB",
+"team": "KC"
+},
+"4054": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Mo Alie-Cox",
+"pos": "TE",
+"team": "IND"
+},
+"4066": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Evan Engram",
+"pos": "TE",
+"team": "DEN"
+},
+"4137": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "James Conner",
+"pos": "RB",
+"team": "ARI"
+},
+"4144": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jonnu Smith",
+"pos": "TE",
+"team": "GB"
+},
+"4147": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Samaje Perine",
+"pos": "RB",
+"team": "CIN"
+},
+"4177": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Mack Hollins",
+"pos": "WR",
+"team": "NE"
+},
+"4179": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Joshua Dobbs",
+"pos": "QB",
+"team": "DET"
+},
+"4189": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Eric Saubert",
+"pos": "TE",
+"team": "SEA"
+},
+"4199": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Aaron Jones",
+"pos": "RB",
+"team": "MIN"
+},
+"421": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Matthew Stafford",
+"pos": "QB",
+"team": "LAR"
+},
+"4217": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "George Kittle",
+"pos": "TE",
+"team": "SF"
+},
+"4219": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jeremy McNichols",
+"pos": "RB",
+"team": "WAS"
+},
+"4263": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Elijah McGuire",
+"pos": "RB",
+"team": "KC"
+},
+"4274": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "David Moore",
+"pos": "WR",
+"team": "CAR"
+},
+"4314": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Johnny Mundt",
+"pos": "TE",
+"team": "PHI"
+},
+"4349": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Taquan Mizzell",
+"pos": "RB",
+"team": "NYG"
+},
+"4351": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tim Patrick",
+"pos": "WR",
+"team": "NYJ"
+},
+"4443": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Pharaoh Brown",
+"pos": "TE",
+"team": "IND"
+},
+"4451": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Isaac Whitney",
+"pos": "WR",
+"team": "ARI"
+},
+"4454": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Kendrick Bourne",
+"pos": "WR",
+"team": "ARI"
+},
+"4464": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Nick Mullens",
+"pos": "QB",
+"team": "JAX"
+},
+"4490": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Wyatt Houston",
+"pos": "TE",
+"team": "CAR"
+},
+"4574": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Cooper Rush",
+"pos": "QB",
+"team": "ATL"
+},
+"4602": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Robert Tonyan",
+"pos": "TE",
+"team": "PIT"
+},
+"4663": {
+"first_seen": "2026-09-30",
+"last_seen": "2026-09-30",
+"name": "Austin Ekeler",
+"pos": "RB",
+"team": "WAS"
+},
+"4683": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Aaron Bailey",
+"pos": "QB",
+"team": "BAL"
+},
+"4718": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Dare Ogunbowale",
+"pos": "RB",
+"team": "HOU"
+},
+"4744": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Barrett Burns",
+"pos": "TE",
+"team": "BAL"
+},
+"4866": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Saquon Barkley",
+"pos": "RB",
+"team": "PHI"
+},
+"4881": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Lamar Jackson",
+"pos": "QB",
+"team": "BAL"
+},
+"4892": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Baker Mayfield",
+"pos": "QB",
+"team": "TB"
+},
+"4914": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Glen Coffee",
+"pos": "RB",
+"team": "SF"
+},
+"4922": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Garrett Scantling",
+"pos": "WR",
+"team": "ATL"
+},
+"4924": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Zach Terrell",
+"pos": "QB",
+"team": "BAL"
+},
+"4926": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Nick Schuessler",
+"pos": "QB",
+"team": "PIT"
+},
+"4930": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Franko House",
+"pos": "TE",
+"team": "CHI"
+},
+"4936": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Skyler Howard",
+"pos": "QB",
+"team": "SEA"
+},
+"4937": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Al Riles",
+"pos": "WR",
+"team": "IND"
+},
+"4943": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Sam Darnold",
+"pos": "QB",
+"team": "SEA"
+},
+"4950": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Christian Kirk",
+"pos": "WR",
+"team": "SF"
+},
+"4972": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Mason Rudolph",
+"pos": "QB",
+"team": "PIT"
+},
+"4981": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Calvin Ridley",
+"pos": "WR",
+"team": "TEN"
+},
+"4983": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "DJ Moore",
+"pos": "WR",
+"team": "BUF"
+},
+"4984": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Josh Allen",
+"pos": "QB",
+"team": "BUF"
+},
+"4992": {
+"first_seen": "2026-09-30",
+"last_seen": "2026-09-30",
+"name": "Dante Pettis",
+"pos": "WR",
+"team": "SF"
+},
+"4993": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Mike Gesicki",
+"pos": "TE",
+"team": "CIN"
+},
+"4995": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Ian Thomas",
+"pos": "TE",
+"team": "LV"
+},
+"5001": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Dalton Schultz",
+"pos": "TE",
+"team": "HOU"
+},
+"5004": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Ito Smith",
+"pos": "RB",
+"team": "DAL"
+},
+"5008": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Durham Smythe",
+"pos": "TE",
+"team": "BAL"
+},
+"5012": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Mark Andrews",
+"pos": "TE",
+"team": "BAL"
+},
+"5022": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Dallas Goedert",
+"pos": "TE",
+"team": "PHI"
+},
+"5045": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Courtland Sutton",
+"pos": "WR",
+"team": "DEN"
+},
+"5086": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Marquez Valdes-Scantling",
+"pos": "WR",
+"team": "LAC"
+},
+"5121": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Braxton Berrios",
+"pos": "WR",
+"team": "NYG"
+},
+"5127": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Kyle Allen",
+"pos": "QB",
+"team": "BUF"
+},
+"5133": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tyler Conklin",
+"pos": "TE",
+"team": "DET"
+},
+"5154": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Trent Sherfield",
+"pos": "WR",
+"team": "BUF"
+},
+"5223": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Caleb Scott",
+"pos": "WR",
+"team": "TEN"
+},
+"5282": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Duplicate Player",
+"pos": "WR",
+"team": "CHI"
+},
+"5288": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Donnie Ernsberger",
+"pos": "TE",
+"team": "TEN"
+},
+"5409": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tanner Hudson",
+"pos": "TE",
+"team": "CIN"
+},
+"5638": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Shaq Roland",
+"pos": "WR",
+"team": "CHI"
+},
+"5744": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Eldridge Massington",
+"pos": "WR",
+"team": "NO"
+},
+"5773": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "KhaDarel Hodge",
+"pos": "WR",
+"team": "SF"
+},
+"5844": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "T.J. Hockenson",
+"pos": "TE",
+"team": "MIN"
+},
+"5845": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Dwayne Haskins",
+"pos": "QB",
+"team": "PIT"
+},
+"5846": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "DK Metcalf",
+"pos": "WR",
+"team": "PIT"
+},
+"5848": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Marquise Brown",
+"pos": "WR",
+"team": "PHI"
+},
+"5849": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Kyler Murray",
+"pos": "QB",
+"team": "MIN"
+},
+"5850": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Josh Jacobs",
+"pos": "RB",
+"team": "GB"
+},
+"5854": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Drew Lock",
+"pos": "QB",
+"team": "SEA"
+},
+"5857": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Noah Fant",
+"pos": "TE",
+"team": "NO"
+},
+"5859": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "A.J. Brown",
+"pos": "WR",
+"team": "NE"
+},
+"5870": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Daniel Jones",
+"pos": "QB",
+"team": "IND"
+},
+"5872": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Deebo Samuel",
+"pos": "WR",
+"team": "SF"
+},
+"5892": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "David Montgomery",
+"pos": "RB",
+"team": "HOU"
+},
+"5906": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Dawson Knox",
+"pos": "TE",
+"team": "BUF"
+},
+"5927": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Terry McLaurin",
+"pos": "WR",
+"team": "WAS"
+},
+"5938": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Lil'Jordan Humphrey",
+"pos": "WR",
+"team": "DEN"
+},
+"5947": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jakobi Meyers",
+"pos": "WR",
+"team": "JAX"
+},
+"5957": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Isaac Nauta",
+"pos": "TE",
+"team": "GB"
+},
+"5967": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tony Pollard",
+"pos": "RB",
+"team": "TEN"
+},
+"5970": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Greg Dortch",
+"pos": "WR",
+"team": "BUF"
+},
+"5973": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Josh Oliver",
+"pos": "TE",
+"team": "MIN"
+},
+"5985": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Foster Moreau",
+"pos": "TE",
+"team": "HOU"
+},
+"5995": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Justice Hill",
+"pos": "RB",
+"team": "BAL"
+},
+"6001": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Drew Sample",
+"pos": "TE",
+"team": "CIN"
+},
+"6011": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Gardner Minshew",
+"pos": "QB",
+"team": "ARI"
+},
+"6012": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Travis Homer",
+"pos": "RB",
+"team": "PIT"
+},
+"6016": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Dax Raymond",
+"pos": "TE",
+"team": "PIT"
+},
+"6037": {
+"first_seen": "2026-09-30",
+"last_seen": "2026-09-30",
+"name": "Brett Rypien",
+"pos": "QB",
+"team": "TB"
+},
+"6039": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Ty Johnson",
+"pos": "RB",
+"team": "BUF"
+},
+"6045": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Gary Jennings",
+"pos": "WR",
+"team": "LAC"
+},
+"6130": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Devin Singletary",
+"pos": "RB",
+"team": "NYG"
+},
+"6136": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jarrett Stidham",
+"pos": "QB",
+"team": "DEN"
+},
+"6147": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Clayton Thorson",
+"pos": "QB",
+"team": "NYG"
+},
+"6149": {
+"first_seen": "2026-09-22",
+"last_seen": "2026-09-30",
+"name": "Darius Slayton",
+"pos": "WR",
+"team": "IND"
+},
+"6154": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "David Sills",
+"pos": "WR",
+"team": "TB"
+},
+"6167": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jordan Scarlett",
+"pos": "RB",
+"team": "MIA"
+},
+"6175": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Kerrith Whyte",
+"pos": "RB",
+"team": "GB"
+},
+"6185": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Easton Stick",
+"pos": "QB",
+"team": "TB"
+},
+"6271": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Olamide Zaccheaus",
+"pos": "WR",
+"team": "ATL"
+},
+"6290": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-25",
+"name": "Scotty Miller",
+"pos": "WR",
+"team": "CHI"
+},
+"6323": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Andrew Beck",
+"pos": "RB",
+"team": "NYJ"
+},
+"6386": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Alex Bachman",
+"pos": "WR",
+"team": "LAR"
+},
+"6427": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Ashton Dulin",
+"pos": "WR",
+"team": "IND"
+},
+"6451": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Stephen Carlson",
+"pos": "TE",
+"team": "CHI"
+},
+"6453": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "D.J. Montgomery",
+"pos": "WR",
+"team": "IND"
+},
+"6465": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Thomas Ives",
+"pos": "WR",
+"team": "CHI"
+},
+"6529": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Chris Myarick",
+"pos": "TE",
+"team": "LV"
+},
+"6540": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "DeAndre Thompkins",
+"pos": "WR",
+"team": "GB"
+},
+"6588": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tom Kennedy",
+"pos": "WR",
+"team": "DET"
+},
+"6659": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Craig Reynolds",
+"pos": "RB",
+"team": "WAS"
+},
+"6677": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Joe Forson",
+"pos": "WR",
+"team": "KC"
+},
+"6699": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Gunner Olszewski",
+"pos": "WR",
+"team": "NYG"
+},
+"6768": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tua Tagovailoa",
+"pos": "QB",
+"team": "ATL"
+},
+"6770": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Joe Burrow",
+"pos": "QB",
+"team": "CIN"
+},
+"6783": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jerry Jeudy",
+"pos": "WR",
+"team": "CLE"
+},
+"6786": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "CeeDee Lamb",
+"pos": "WR",
+"team": "DAL"
+},
+"6790": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "D'Andre Swift",
+"pos": "RB",
+"team": "CHI"
+},
+"6794": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Justin Jefferson",
+"pos": "WR",
+"team": "MIN"
+},
+"6797": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Justin Herbert",
+"pos": "QB",
+"team": "LAC"
+},
+"6798": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jalen Reagor",
+"pos": "WR",
+"team": "MIA"
+},
+"6801": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tee Higgins",
+"pos": "WR",
+"team": "CIN"
+},
+"6803": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Brandon Aiyuk",
+"pos": "WR",
+"team": "SF"
+},
+"6804": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jordan Love",
+"pos": "QB",
+"team": "GB"
+},
+"6806": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "J.K. Dobbins",
+"pos": "RB",
+"team": "DEN"
+},
+"6813": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jonathan Taylor",
+"pos": "RB",
+"team": "IND"
+},
+"6819": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Michael Pittman",
+"pos": "WR",
+"team": "PIT"
+},
+"6826": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Cole Kmet",
+"pos": "TE",
+"team": "CHI"
+},
+"6828": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "AJ Dillon",
+"pos": "RB",
+"team": "CAR"
+},
+"6847": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Devin Duvernay",
+"pos": "WR",
+"team": "ARI"
+},
+"6853": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Van Jefferson",
+"pos": "WR",
+"team": "WAS"
+},
+"6865": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Colby Parkinson",
+"pos": "TE",
+"team": "LAR"
+},
+"6866": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "KJ Hill",
+"pos": "WR",
+"team": "LAC"
+},
+"6869": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Adam Trautman",
+"pos": "TE",
+"team": "DEN"
+},
+"6904": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jalen Hurts",
+"pos": "QB",
+"team": "PHI"
+},
+"6918": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Salvon Ahmed",
+"pos": "RB",
+"team": "CHI"
+},
+"6920": {
+"first_seen": "2026-09-23",
+"last_seen": "2026-09-30",
+"name": "Isaiah Hodgins",
+"pos": "WR",
+"team": "PIT"
+},
+"6931": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "DeeJay Dallas",
+"pos": "RB",
+"team": "MIN"
+},
+"6960": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tyler Johnson",
+"pos": "WR",
+"team": "NYJ"
+},
+"6992": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Michael Warren",
+"pos": "RB",
+"team": "DET"
+},
+"7002": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Juwan Johnson",
+"pos": "TE",
+"team": "NO"
+},
+"7021": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Rico Dowdle",
+"pos": "RB",
+"team": "PIT"
+},
+"7039": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Cody White",
+"pos": "WR",
+"team": "LV"
+},
+"7048": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Benny LeMay",
+"pos": "RB",
+"team": "CLE"
+},
+"7049": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jauan Jennings",
+"pos": "WR",
+"team": "MIN"
+},
+"7050": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Josiah Deguara",
+"pos": "TE",
+"team": "PHI"
+},
+"7066": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "K.J. Osborn",
+"pos": "WR",
+"team": "TEN"
+},
+"7075": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Charlie Woerner",
+"pos": "TE",
+"team": "ATL"
+},
+"7083": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tyler Huntley",
+"pos": "QB",
+"team": "BAL"
+},
+"7087": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jonathan Ward",
+"pos": "RB",
+"team": "BAL"
+},
+"7090": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Darnell Mooney",
+"pos": "WR",
+"team": "NYG"
+},
+"7093": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Adrian Killins",
+"pos": "RB",
+"team": "DEN"
+},
+"7103": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tavien Feaster",
+"pos": "RB",
+"team": "ARI"
+},
+"7149": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tommy Stevens",
+"pos": "TE",
+"team": "NYG"
+},
+"7204": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Reggie Gilliam",
+"pos": "RB",
+"team": "NE"
+},
+"7262": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jalen Morton",
+"pos": "QB",
+"team": "IND"
+},
+"7496": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Nick Westbrook-Ikhine",
+"pos": "WR",
+"team": "IND"
+},
+"7521": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Chris Blair",
+"pos": "WR",
+"team": "ATL"
+},
+"7523": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Trevor Lawrence",
+"pos": "QB",
+"team": "JAX"
+},
+"7525": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "DeVonta Smith",
+"pos": "WR",
+"team": "PHI"
+},
+"7526": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jaylen Waddle",
+"pos": "WR",
+"team": "DEN"
+},
+"7527": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Mac Jones",
+"pos": "QB",
+"team": "SF"
+},
+"7528": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Najee Harris",
+"pos": "RB",
+"team": "NYG"
+},
+"7531": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Feleipe Franks",
+"pos": "TE",
+"team": "CAR"
+},
+"7535": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Hunter Long",
+"pos": "TE",
+"team": "ARI"
+},
+"7536": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Quintin Morris",
+"pos": "TE",
+"team": "JAX"
+},
+"7537": {
+"first_seen": "2026-09-23",
+"last_seen": "2026-09-30",
+"name": "Jaret Patterson",
+"pos": "RB",
+"team": "MIN"
+},
+"7538": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Zach Wilson",
+"pos": "QB",
+"team": "NO"
+},
+"7543": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Travis Etienne",
+"pos": "RB",
+"team": "NO"
+},
+"7547": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Amon-Ra St. Brown",
+"pos": "WR",
+"team": "DET"
+},
+"7553": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Kyle Pitts",
+"pos": "TE",
+"team": "ATL"
+},
+"7559": {
+"first_seen": "2026-09-23",
+"last_seen": "2026-09-30",
+"name": "Ihmir Smith-Marsette",
+"pos": "WR",
+"team": "CAR"
+},
+"7562": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tutu Atwell",
+"pos": "WR",
+"team": "LAR"
+},
+"7564": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Ja'Marr Chase",
+"pos": "WR",
+"team": "CIN"
+},
+"7567": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Kenny Gainwell",
+"pos": "RB",
+"team": "TB"
+},
+"7568": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Brevin Jordan",
+"pos": "TE",
+"team": "HOU"
+},
+"7569": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Nico Collins",
+"pos": "WR",
+"team": "HOU"
+},
+"7571": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Rashod Bateman",
+"pos": "WR",
+"team": "BAL"
+},
+"7583": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Sam Ehlinger",
+"pos": "QB",
+"team": "DEN"
+},
+"7585": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Davis Mills",
+"pos": "QB",
+"team": "HOU"
+},
+"7587": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Dyami Brown",
+"pos": "WR",
+"team": "WAS"
+},
+"7588": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Javonte Williams",
+"pos": "RB",
+"team": "DAL"
+},
+"7591": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Justin Fields",
+"pos": "QB",
+"team": "KC"
+},
+"7593": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Trey Sermon",
+"pos": "RB",
+"team": "ATL"
+},
+"7594": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Chuba Hubbard",
+"pos": "RB",
+"team": "CAR"
+},
+"7595": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tylan Wallace",
+"pos": "WR",
+"team": "CLE"
+},
+"7596": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Elijah Moore",
+"pos": "WR",
+"team": "PHI"
+},
+"7600": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Pat Freiermuth",
+"pos": "TE",
+"team": "PIT"
+},
+"7602": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Kylen Granson",
+"pos": "TE",
+"team": "TEN"
+},
+"7607": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Michael Carter",
+"pos": "RB",
+"team": "TEN"
+},
+"7608": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Khalil Herbert",
+"pos": "RB",
+"team": "ATL"
+},
+"7610": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Trey Lance",
+"pos": "QB",
+"team": "LAC"
+},
+"7611": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Rhamondre Stevenson",
+"pos": "RB",
+"team": "NE"
+},
+"7618": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Micah Simon",
+"pos": "WR",
+"team": "CAR"
+},
+"7670": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Joshua Palmer",
+"pos": "WR",
+"team": "BUF"
+},
+"7694": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tommy Tremble",
+"pos": "TE",
+"team": "CAR"
+},
+"7716": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "John Bates",
+"pos": "TE",
+"team": "WAS"
+},
+"7720": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Kene Nwangwu",
+"pos": "RB",
+"team": "NYJ"
+},
+"7746": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Austin Trammell",
+"pos": "WR",
+"team": "JAX"
+},
+"7757": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Ben Skowronek",
+"pos": "WR",
+"team": "PIT"
+},
+"7812": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Simi Fehoko",
+"pos": "WR",
+"team": "ARI"
+},
+"7828": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Noah Gray",
+"pos": "TE",
+"team": "KC"
+},
+"7842": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Luke Farrell",
+"pos": "TE",
+"team": "SF"
+},
+"7865": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Brandon Smith",
+"pos": "WR",
+"team": "PIT"
+},
+"7891": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Brock Wright",
+"pos": "TE",
+"team": "DET"
+},
+"7946": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jack Stoll",
+"pos": "TE",
+"team": "SF"
+},
+"8002": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Shane Buechele",
+"pos": "QB",
+"team": "BUF"
+},
+"8013": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tim Jones",
+"pos": "WR",
+"team": "JAX"
+},
+"8076": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Michael Bandy",
+"pos": "WR",
+"team": "DEN"
+},
+"8088": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Kalif Jackson",
+"pos": "TE",
+"team": "MIA"
+},
+"8107": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Nikola Kalinic",
+"pos": "TE",
+"team": "CHI"
+},
+"8110": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jake Ferguson",
+"pos": "TE",
+"team": "DAL"
+},
+"8111": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Cade Otton",
+"pos": "TE",
+"team": "TB"
+},
+"8112": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Drake London",
+"pos": "WR",
+"team": "ATL"
+},
+"8116": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Pierre Strong",
+"pos": "RB",
+"team": "GB"
+},
+"8117": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jalen Tolbert",
+"pos": "WR",
+"team": "MIA"
+},
+"8119": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jahan Dotson",
+"pos": "WR",
+"team": "ATL"
+},
+"812": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Lee Smith",
+"pos": "TE",
+"team": "ATL"
+},
+"8121": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Romeo Doubs",
+"pos": "WR",
+"team": "NE"
+},
+"8122": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Zonovan Knight",
+"pos": "RB",
+"team": "ARI"
+},
+"8125": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Calvin Austin",
+"pos": "WR",
+"team": "NYG"
+},
+"8126": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Wan'Dale Robinson",
+"pos": "WR",
+"team": "TEN"
+},
+"8127": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Charlie Kolar",
+"pos": "TE",
+"team": "LAC"
+},
+"8129": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Dameon Pierce",
+"pos": "RB",
+"team": "PHI"
+},
+"8130": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Trey McBride",
+"pos": "TE",
+"team": "ARI"
+},
+"8131": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Isaiah Likely",
+"pos": "TE",
+"team": "NYG"
+},
+"8132": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tyler Allgeier",
+"pos": "RB",
+"team": "ARI"
+},
+"8134": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Khalil Shakir",
+"pos": "WR",
+"team": "BUF"
+},
+"8135": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Treylon Burks",
+"pos": "WR",
+"team": "WAS"
+},
+"8136": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Rachaad White",
+"pos": "RB",
+"team": "WAS"
+},
+"8137": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "George Pickens",
+"pos": "WR",
+"team": "DAL"
+},
+"8138": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "James Cook",
+"pos": "RB",
+"team": "BUF"
+},
+"8139": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Zamir White",
+"pos": "RB",
+"team": "NO"
+},
+"8142": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Alec Pierce",
+"pos": "WR",
+"team": "IND"
+},
+"8143": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jerome Ford",
+"pos": "RB",
+"team": "MIN"
+},
+"8144": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Chris Olave",
+"pos": "WR",
+"team": "NO"
+},
+"8145": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jeremy Ruckert",
+"pos": "TE",
+"team": "NYJ"
+},
+"8146": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Garrett Wilson",
+"pos": "WR",
+"team": "NYJ"
+},
+"8147": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "John Metchie",
+"pos": "WR",
+"team": "CAR"
+},
+"8148": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jameson Williams",
+"pos": "WR",
+"team": "DET"
+},
+"8150": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Kyren Williams",
+"pos": "RB",
+"team": "LAR"
+},
+"8151": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Kenneth Walker",
+"pos": "RB",
+"team": "KC"
+},
+"8154": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Brian Robinson",
+"pos": "RB",
+"team": "ATL"
+},
+"8155": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Breece Hall",
+"pos": "RB",
+"team": "NYJ"
+},
+"8157": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-23",
+"name": "Bailey Zappe",
+"pos": "QB",
+"team": "NYJ"
+},
+"8160": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Kenny Pickett",
+"pos": "QB",
+"team": "CAR"
+},
+"8161": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Malik Willis",
+"pos": "QB",
+"team": "MIA"
+},
+"8162": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Sam Howell",
+"pos": "QB",
+"team": "DAL"
+},
+"8167": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Christian Watson",
+"pos": "WR",
+"team": "GB"
+},
+"8168": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Skyy Moore",
+"pos": "WR",
+"team": "GB"
+},
+"8170": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "James Mitchell",
+"pos": "TE",
+"team": "DAL"
+},
+"8172": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Greg Dulcich",
+"pos": "TE",
+"team": "MIA"
+},
+"8176": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-18",
+"name": "Danny Gray",
+"pos": "WR",
+"team": "PHI"
+},
+"8177": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Grant Calcaterra",
+"pos": "TE",
+"team": "PHI"
+},
+"8180": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jalen Nailor",
+"pos": "WR",
+"team": "LV"
+},
+"8181": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Connor Heyward",
+"pos": "RB",
+"team": "LV"
+},
+"8183": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Brock Purdy",
+"pos": "QB",
+"team": "SF"
+},
+"8188": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tyquan Thornton",
+"pos": "WR",
+"team": "KC"
+},
+"8195": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Ronnie Rivers",
+"pos": "RB",
+"team": "LAR"
+},
+"8200": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Kevin Austin",
+"pos": "WR",
+"team": "NO"
+},
+"8204": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Bo Melton",
+"pos": "WR",
+"team": "GB"
+},
+"8205": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Isiah Pacheco",
+"pos": "RB",
+"team": "DET"
+},
+"8206": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Skylar Thompson",
+"pos": "QB",
+"team": "BAL"
+},
+"8207": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tyler Goodson",
+"pos": "RB",
+"team": "DAL"
+},
+"8208": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tyler Badie",
+"pos": "RB",
+"team": "DEN"
+},
+"8210": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Chig Okonkwo",
+"pos": "TE",
+"team": "WAS"
+},
+"8214": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Cole Turner",
+"pos": "TE",
+"team": "MIA"
+},
+"8219": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jelani Woods",
+"pos": "TE",
+"team": "NYJ"
+},
+"8220": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Sincere McCormick",
+"pos": "RB",
+"team": "SF"
+},
+"8223": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Velus Jones",
+"pos": "WR",
+"team": "SEA"
+},
+"8225": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Daniel Bellinger",
+"pos": "TE",
+"team": "TEN"
+},
+"8227": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Teagan Quitoriano",
+"pos": "TE",
+"team": "ARI"
+},
+"8228": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jaylen Warren",
+"pos": "RB",
+"team": "PIT"
+},
+"8230": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Ty Chandler",
+"pos": "RB",
+"team": "NO"
+},
+"8249": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Lucas Krull",
+"pos": "TE",
+"team": "DEN"
+},
+"8250": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tay Martin",
+"pos": "WR",
+"team": "DET"
+},
+"8253": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Deven Thompkins",
+"pos": "WR",
+"team": "LV"
+},
+"8254": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Julius Chestnut",
+"pos": "RB",
+"team": "TEN"
+},
+"827": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tyrod Taylor",
+"pos": "QB",
+"team": "GB"
+},
+"829": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Andy Dalton",
+"pos": "QB",
+"team": "PHI"
+},
+"8408": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jordan Mason",
+"pos": "RB",
+"team": "MIN"
+},
+"8414": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Britain Covey",
+"pos": "WR",
+"team": "PHI"
+},
+"8423": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Brittain Brown",
+"pos": "RB",
+"team": "CHI"
+},
+"8484": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Ko Kieft",
+"pos": "TE",
+"team": "TB"
+},
+"8489": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Drew Ogletree",
+"pos": "TE",
+"team": "IND"
+},
+"8500": {
+"first_seen": "2026-09-30",
+"last_seen": "2026-09-30",
+"name": "John FitzPatrick",
+"pos": "TE",
+"team": "CLE"
+},
+"8523": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Nick Muse",
+"pos": "TE",
+"team": "ATL"
+},
+"8527": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Dareke Young",
+"pos": "WR",
+"team": "LV"
+},
+"8583": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Stone Smartt",
+"pos": "TE",
+"team": "NO"
+},
+"8676": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Rashid Shaheed",
+"pos": "WR",
+"team": "SEA"
+},
+"8698": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jake Tonges",
+"pos": "TE",
+"team": "SF"
+},
+"8755": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Kaden Davis",
+"pos": "WR",
+"team": "CHI"
+},
+"8756": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Brandon Johnson",
+"pos": "WR",
+"team": "PIT"
+},
+"8799": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Zaire Mitchell-Paden",
+"pos": "TE",
+"team": "HOU"
+},
+"8800": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Malik Davis",
+"pos": "RB",
+"team": "DAL"
+},
+"8849": {
+"first_seen": "2026-09-23",
+"last_seen": "2026-09-30",
+"name": "Tanner Conner",
+"pos": "TE",
+"team": "NE"
+},
+"8861": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Irv Charles",
+"pos": "WR",
+"team": "SEA"
+},
+"8917": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "KaVontae Turpin",
+"pos": "WR",
+"team": "DAL"
+},
+"8924": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Thomas Odukoya",
+"pos": "TE",
+"team": "KC"
+},
+"9220": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Evan Hull",
+"pos": "RB",
+"team": "ARI"
+},
+"9221": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jahmyr Gibbs",
+"pos": "RB",
+"team": "DET"
+},
+"9224": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Chase Brown",
+"pos": "RB",
+"team": "CIN"
+},
+"9225": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tank Bigsby",
+"pos": "RB",
+"team": "PHI"
+},
+"9226": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "De'Von Achane",
+"pos": "RB",
+"team": "MIA"
+},
+"9227": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Israel Abanikanda",
+"pos": "RB",
+"team": "DAL"
+},
+"9228": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Bryce Young",
+"pos": "QB",
+"team": "CAR"
+},
+"9229": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Anthony Richardson",
+"pos": "QB",
+"team": "IND"
+},
+"9230": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tanner McKee",
+"pos": "QB",
+"team": "PHI"
+},
+"9479": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Darnell Washington",
+"pos": "TE",
+"team": "PIT"
+},
+"9480": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Brenton Strange",
+"pos": "TE",
+"team": "JAX"
+},
+"9481": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Luke Musgrave",
+"pos": "TE",
+"team": "GB"
+},
+"9482": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Michael Mayer",
+"pos": "TE",
+"team": "LV"
+},
+"9484": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tucker Kraft",
+"pos": "TE",
+"team": "GB"
+},
+"9486": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Dontayvion Wicks",
+"pos": "WR",
+"team": "PHI"
+},
+"9487": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Parker Washington",
+"pos": "WR",
+"team": "JAX"
+},
+"9488": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jaxon Smith-Njigba",
+"pos": "WR",
+"team": "SEA"
+},
+"9489": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Justin Shorter",
+"pos": "WR",
+"team": "LV"
+},
+"9490": {
+"first_seen": "2026-09-29",
+"last_seen": "2026-09-30",
+"name": "Tyler Scott",
+"pos": "WR",
+"team": "LV"
+},
+"9492": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Trey Palmer",
+"pos": "WR",
+"team": "NO"
+},
+"9493": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Puka Nacua",
+"pos": "WR",
+"team": "LAR"
+},
+"9494": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Marvin Mims",
+"pos": "WR",
+"team": "DEN"
+},
+"9497": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jalin Hyatt",
+"pos": "WR",
+"team": "NYG"
+},
+"9500": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Josh Downs",
+"pos": "WR",
+"team": "IND"
+},
+"9501": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "DeMario Douglas",
+"pos": "WR",
+"team": "NE"
+},
+"9502": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tank Dell",
+"pos": "WR",
+"team": "HOU"
+},
+"9504": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Kayshon Boutte",
+"pos": "WR",
+"team": "HOU"
+},
+"9506": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Sean Tucker",
+"pos": "RB",
+"team": "TB"
+},
+"9508": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Tyjae Spears",
+"pos": "RB",
+"team": "TEN"
+},
+"9509": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Bijan Robinson",
+"pos": "RB",
+"team": "ATL"
+},
+"9510": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Lew Nichols",
+"pos": "RB",
+"team": "PIT"
+},
+"9511": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Keaton Mitchell",
+"pos": "RB",
+"team": "LAC"
+},
+"96": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Aaron Rodgers",
+"pos": "QB",
+"team": "PIT"
+},
+"9753": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Zach Charbonnet",
+"pos": "RB",
+"team": "SEA"
+},
+"9754": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Quentin Johnston",
+"pos": "WR",
+"team": "LAC"
+},
+"9756": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Jordan Addison",
+"pos": "WR",
+"team": "MIN"
+},
+"9757": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Kendre Miller",
+"pos": "RB",
+"team": "NO"
+},
+"9758": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "C.J. Stroud",
+"pos": "QB",
+"team": "HOU"
+},
+"9997": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Zay Flowers",
+"pos": "WR",
+"team": "BAL"
+},
+"9998": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "Hendon Hooker",
+"pos": "QB",
+"team": "TEN"
+},
+"9999": {
+"first_seen": "2026-09-23",
+"last_seen": "2026-09-30",
+"name": "Will Levis",
+"pos": "QB",
+"team": "NYJ"
+},
+"ARI": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "ARI DEF",
+"pos": "DEF",
+"team": "ARI"
+},
+"ATL": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "ATL DEF",
+"pos": "DEF",
+"team": "ATL"
+},
+"BAL": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "BAL DEF",
+"pos": "DEF",
+"team": "BAL"
+},
+"BUF": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "BUF DEF",
+"pos": "DEF",
+"team": "BUF"
+},
+"CAR": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "CAR DEF",
+"pos": "DEF",
+"team": "CAR"
+},
+"CHI": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "CHI DEF",
+"pos": "DEF",
+"team": "CHI"
+},
+"CIN": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "CIN DEF",
+"pos": "DEF",
+"team": "CIN"
+},
+"CLE": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "CLE DEF",
+"pos": "DEF",
+"team": "CLE"
+},
+"DAL": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "DAL DEF",
+"pos": "DEF",
+"team": "DAL"
+},
+"DEN": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "DEN DEF",
+"pos": "DEF",
+"team": "DEN"
+},
+"DET": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "DET DEF",
+"pos": "DEF",
+"team": "DET"
+},
+"GB": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "GB DEF",
+"pos": "DEF",
+"team": "GB"
+},
+"HOU": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "HOU DEF",
+"pos": "DEF",
+"team": "HOU"
+},
+"IND": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "IND DEF",
+"pos": "DEF",
+"team": "IND"
+},
+"JAX": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "JAX DEF",
+"pos": "DEF",
+"team": "JAX"
+},
+"KC": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "KC DEF",
+"pos": "DEF",
+"team": "KC"
+},
+"LAC": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "LAC DEF",
+"pos": "DEF",
+"team": "LAC"
+},
+"LAR": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "LAR DEF",
+"pos": "DEF",
+"team": "LAR"
+},
+"LV": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "LV DEF",
+"pos": "DEF",
+"team": "LV"
+},
+"MIA": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "MIA DEF",
+"pos": "DEF",
+"team": "MIA"
+},
+"MIN": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "MIN DEF",
+"pos": "DEF",
+"team": "MIN"
+},
+"NE": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "NE DEF",
+"pos": "DEF",
+"team": "NE"
+},
+"NO": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "NO DEF",
+"pos": "DEF",
+"team": "NO"
+},
+"NYG": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "NYG DEF",
+"pos": "DEF",
+"team": "NYG"
+},
+"NYJ": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "NYJ DEF",
+"pos": "DEF",
+"team": "NYJ"
+},
+"PHI": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "PHI DEF",
+"pos": "DEF",
+"team": "PHI"
+},
+"PIT": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "PIT DEF",
+"pos": "DEF",
+"team": "PIT"
+},
+"SEA": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "SEA DEF",
+"pos": "DEF",
+"team": "SEA"
+},
+"SF": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "SF DEF",
+"pos": "DEF",
+"team": "SF"
+},
+"TB": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "TB DEF",
+"pos": "DEF",
+"team": "TB"
+},
+"TEN": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "TEN DEF",
+"pos": "DEF",
+"team": "TEN"
+},
+"WAS": {
+"first_seen": "2026-09-18",
+"last_seen": "2026-09-30",
+"name": "WAS DEF",
+"pos": "DEF",
+"team": "WAS"
+}
+},
+"updated_utc": "2026-10-01T00:25:33Z"
+}

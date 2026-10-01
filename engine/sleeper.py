@@ -140,6 +140,73 @@ def load_cached_players_only(data_dir=None):
     return cached.get("players") or {}, cached.get("meta") or {}
 
 
+def names_cache_path(data_dir=None):
+    return os.path.join(data_dir or config.DATA_DIR, "players", "names_cache.json")
+
+
+def load_names_cache(data_dir=None):
+    path = names_cache_path(data_dir)
+    if not os.path.exists(path):
+        return {}
+    with open(path, encoding="utf-8") as f:
+        return (json.load(f) or {}).get("players") or {}
+
+
+TX_FIELDS = ("transaction_id", "type", "status", "roster_ids", "adds", "drops", "settings", "created",
+             "status_updated", "leg", "creator", "metadata")
+
+
+def slim_transaction(t):
+    """The fields the engine keeps from a Sleeper transaction. `metadata` carries the failure reason
+    of a claim (outbid, roster full), kept from October 2026 on."""
+    return {k: t.get(k) for k in TX_FIELDS}
+
+
+def merge_transactions(by_week, wk, rows):
+    """Merge freshly pulled rows for one week into the stored log, by transaction_id. A pulled row
+    replaces the stored one (its status may have moved from pending to complete)."""
+    cur = {t.get("transaction_id"): t for t in by_week.get(str(wk)) or []}
+    for t in rows or []:
+        cur[t.get("transaction_id")] = slim_transaction(t)
+    by_week[str(wk)] = sorted(cur.values(), key=lambda t: (t.get("status_updated") or 0, t.get("transaction_id") or ""))
+    return by_week
+
+
+def transaction_player_ids(tx_by_week):
+    """Every player id that has ever appeared in an add or a drop."""
+    ids = set()
+    for rows in (tx_by_week or {}).values():
+        for t in rows or []:
+            ids.update((t.get("adds") or {}).keys())
+            ids.update((t.get("drops") or {}).keys())
+    return ids
+
+
+def update_names_cache(data_dir, players, ids, today=None):
+    """Remember the name of every id in `ids` that the players file can resolve. Entries are only
+    added or refreshed, never deleted, so a player cut from the league (and so from the slim
+    players file) keeps a name for the transaction log. Returns the number of ids with no name."""
+    cache = load_names_cache(data_dir)
+    today = today or now_utc().strftime("%Y-%m-%d")
+    missing = 0
+    for pid in sorted(set(ids)):
+        p = players.get(pid)
+        if p:
+            info = player_info(pid, players)
+            old = cache.get(pid) or {}
+            cache[pid] = {"name": info["name"], "pos": info["pos"], "team": info["team"] or old.get("team"),
+                          "first_seen": old.get("first_seen") or today, "last_seen": today}
+        elif pid.isalpha():
+            cache.setdefault(pid, {"name": f"{pid} DEF", "pos": "DEF", "team": pid, "first_seen": today, "last_seen": today})
+        elif pid not in cache:
+            missing += 1
+    path = names_cache_path(data_dir)
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump({"updated_utc": iso(now_utc()), "n": len(cache), "players": cache}, f, indent=0, sort_keys=True)
+    return missing
+
+
 def player_info(pid, players):
     p = players.get(pid) or {}
     if p.get("position") == "DEF" or (not p and pid.isalpha()):

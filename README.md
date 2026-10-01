@@ -12,7 +12,7 @@ Windows shortcut you can drop on the desktop).
 
 | When | Job | What it does |
 |---|---|---|
-| Every day 6:00 AM | Injury tracker | Pulls Sleeper's injury and practice fields for every rostered player in the league, diffs against yesterday, refreshes rosters. |
+| Every day 6:00 AM | Injury tracker | Pulls Sleeper's injury and practice fields for every rostered player in the league, diffs against yesterday, refreshes rosters and the current week's transactions (so Thursday's waiver results show by Thursday morning). |
 | Wednesday 10:00 AM | Weekly pull | Last week's projected vs actual, this week's lineup, the waiver wire, the whole league's rosters, matchups and transactions. Then the waiver digest with FAAB bids, and the nflverse usage pull that feeds the vacated target share column. |
 | Thu, Fri, Sat, Sun, Mon at 10:30 AM and 6:00 PM, plus Sunday 7:30 AM | Pre-kickoff snapshot | Freezes Sleeper's projections for every player before games start, so projection accuracy can be measured honestly later. |
 | After every job | Build | Rebuilds the dashboard and the weekly archive page from the committed data. No network. |
@@ -28,17 +28,20 @@ cannot make the Sunday snapshot land after kickoff. Details: `docs/RUNBOOK.md`.
 |---|---|
 | `engine.py` | Single entry point: `pull`, `injuries`, `usage`, `snapshot`, `build`, `auto`, `synthesis`, `full`, `selftest`, `histbacktest` (offline historical backtest, docs/METHOD.md section 9), `vacatedbacktest` (the vacated-share tiebreak, section 10) |
 | `data/history/` | nflverse cache for the historical backtest (gitignored, about 240 MB); `manifest.json` is committed and lists every file's URL, sha256, rows and columns |
-| `tests/` | `python -m unittest tests.test_histbacktest tests.test_vacated -v`: scoring hand checks, the week-1 gate, leakage and determinism, the vacated-share arithmetic, and the test that the vacated column never alters expected points |
+| `tests/` | `python -m unittest discover -s tests -p "test_*.py"`: scoring hand checks, the week-1 gate, leakage and determinism, the vacated-share arithmetic, the FAAB market, league bid, likely bidders, ceilings, drop rule, head-to-head, calls scorecard and preferences, and the tests that none of the new columns alter expected points |
+| `config/preferences.json` | Aaron's settings, read at build time: `exclude_positions_from_claims` (TE for now) and `faab_leftover_tendency` |
 | `engine/` | The code (stdlib-only Python, no packages to install) |
 | `reference/` | Preseason rankings v2.0, team defense rankings, 2026 schedule, week 1 Sleeper UI export |
 | `data/latest.json`, `data/latest.md` | The weekly pull, same shape as v1.1 plus validation fields |
-| `data/league/` | League settings, users, rosters, every week's matchups, transactions |
+| `data/league/` | League settings, users, rosters, every week's matchups, transactions (including every failed claim and its bid) |
+| `data/players/names_cache.json` | A name for every player id that has ever appeared in a transaction, never pruned |
 | `data/weeks/2026/weekNN_scored.json` | Every player's projected and actual points for each completed week |
 | `data/snapshots/2026/` | Frozen pre-kickoff projections, one file per snapshot, plus an index |
 | `data/injuries/2026/` | Daily injury tables and day-over-day diffs |
 | `data/usage/2026/usage.json` | Weekly target and carry shares from nflverse, plus last season's, for the vacated target share column. Written by the Wednesday pull; the dashboard build reads it offline |
-| `data/synthesis/` | The weekly news synthesis (markdown plus a small metadata file) |
-| `data/derived/` | What the dashboard shows: lineup, waivers, league view, accuracy history, validation |
+| `data/synthesis/` | The weekly news synthesis (markdown plus `latest.json`: `synthesis_written_at`, `source`, and a structured `calls` list the scorecard grades) |
+| `data/derived/` | What the dashboard shows: lineup, waivers, FAAB market, head-to-head, league view, accuracy history, calls scorecard, validation |
+| `data/derived/calls/<season>/` | Each week's recommendations as they stood before kickoff, graded by the calls scorecard |
 | `data/status.json` | Last result of every job; the dashboard's job strip reads it |
 | `index.html` | The live dashboard, all data inlined, rebuilt after every job |
 | `reports/2026/weekNN.html` | Self-contained archive page per week, works with no network |
@@ -67,7 +70,10 @@ never added to the projection, because the ten-season backtest could not tell it
 tiebreak already in use. Waiver bids measure how much a player
 would lift the weekly starting lineup after the add and the drop, price that at $0.60 per
 point per remaining week, add a demand premium from Sleeper's add counts, and cap against the
-remaining budget. Accuracy is tracked against three named baselines every week: Sleeper's own
+remaining budget. Beside that engine bid, a league bid reads this league's own FAAB history (what
+each position has gone for, who bids what, who is likely to bid this week) and a to-beat number,
+scaled up when Aaron is on pace to finish with FAAB unspent. RBs and WRs whose role has opened, or
+would if the player ahead missed time, are listed as speculative claims. Accuracy is tracked against three named baselines every week: Sleeper's own
 projection (frozen pre-kickoff), the preseason VOR model, and a naive "start the highest
 season average" rule, over three pools: started, rostered, and the non-rostered players Sleeper
 projected at 5+ points, which is what the waiver bids are priced from. Full detail in `docs/METHOD.md`.
@@ -84,3 +90,6 @@ works: `python engine.py build`.
 - v1.2 / engine v2.0 (2026-09-18): this engine. The old script name still works as a shim.
 - v2.1 (2026-09-20): vacated target share (display-only column, backtested and null), the nflverse
   usage collector and the nflverse injuries release, and a third accuracy pool for waiver targets.
+- v2.2 (2026-10): league FAAB market history and the league bid, likely bidders, ceilings and
+  speculative claims, drop reasons and the handcuff rule, preferences file, waiver results,
+  head-to-head card, calls scorecard, synthesis source metadata. docs/METHOD.md sections 11 to 16.

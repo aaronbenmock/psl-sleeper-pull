@@ -54,6 +54,8 @@ own database on every run and prints any mismatch.
 | A run failed inside `build` | Bug in the analysis code | Open the run log, copy the traceback into a Claude session with this repo |
 | Wednesday pull ran but the record check says "unexplained" | Sleeper changed how it reports records | Ask Claude to look at `data/league/league.json` |
 | Synthesis box stale but the task ran | The task could not push | Push once by hand from GitHub Desktop; then ask Claude to check the task's git credentials |
+| Waiver results card still shows last week's run on Thursday | The daily 6 AM job failed, or Sleeper had not finished processing | Check the injuries job in the Actions tab; the next daily run fills it |
+| A player shows as "Unknown player <id>" | His id is in no players file and not in the names cache | The Data validation table lists the ids; the next pull or daily job fills the cache if Sleeper still knows him |
 | Dashboard 404 | Pages not enabled or index.html missing | Settings, Pages, source main / root; confirm `index.html` at repo root |
 
 ## Manual runs
@@ -65,8 +67,27 @@ completed week number.
 Local only, never scheduled: `python engine.py histbacktest` runs the historical backtest on
 nflverse data (downloads about 240 MB into `data/history/` the first time, gitignored, then about
 25 seconds per run) and rebuilds the dashboard so the Backtest tab shows the result. Add
-`--no-download` to use the cache only and `--no-build` to skip the dashboard. Tests:
-`python -m unittest tests.test_histbacktest -v`. See docs/METHOD.md section 9.
+`--no-download` to use the cache only and `--no-build` to skip the dashboard. Tests (all of them, no network):
+`python -m unittest discover -s tests -p "test_*.py"`. See docs/METHOD.md sections 9 to 16.
+
+## Settings Aaron can change
+
+`config/preferences.json`, read at every build:
+
+- `exclude_positions_from_claims`: positions never recommended as claims (they still show in a collapsed
+  "excluded" list on the Waivers tab). Currently `["TE"]`.
+- `faab_leftover_tendency`: `true` scales the league bid up so the season ends near $0 left.
+
+A missing or broken file falls back to the defaults (nothing excluded, no scaling) and the Data validation
+table says so. Edit, commit and push; the next scheduled build applies it.
+
+## Which news synthesis is on the page
+
+The News tab says which writer produced the synthesis it shows and when (`synthesis_written_at` and
+`source` in `data/synthesis/latest.json`): `desktop-scheduled-task` (the Wednesday 12:30 PM task on
+Aaron's PC), `anthropic-api-action` (the optional Actions step) or `cloud-scheduled-task`. Older files
+without those fields fall back to `generated_at_utc` and the markdown's header. A cloud task that writes
+only to a claude.ai project never reaches this repo and so is never shown.
 
 ## Costs and limits
 

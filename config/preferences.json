@@ -1,0 +1,5 @@
+{
+ "_comment": "Aaron's settings, read at build time. Edit and push; the next build applies them. See docs/METHOD.md section 11.",
+ "exclude_positions_from_claims": ["TE"],
+ "faab_leftover_tendency": true
+}
