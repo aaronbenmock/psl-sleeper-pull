@@ -2,7 +2,7 @@
  "week": 4,
  "first_recorded_utc": "2026-09-30T21:26:23Z",
  "source": "live build",
- "updated_utc": "2026-10-01T12:05:45Z",
+ "updated_utc": "2026-10-01T15:39:23Z",
  "start_sit": [
   {
    "type": "start_sit",
@@ -11,8 +11,8 @@
    "name": "Denzel Boston",
    "alt_id": "5045",
    "alt_name": "Courtland Sutton",
-   "expected": 9.41,
-   "alt_expected": 8.13,
+   "expected": 9.45,
+   "alt_expected": 8.12,
    "started": false
   },
   {
@@ -23,7 +23,7 @@
    "alt_id": "5045",
    "alt_name": "Courtland Sutton",
    "expected": 9.21,
-   "alt_expected": 8.13,
+   "alt_expected": 8.12,
    "started": false
   },
   {
@@ -44,8 +44,8 @@
    "name": "DK Metcalf",
    "alt_id": "5045",
    "alt_name": "Courtland Sutton",
-   "expected": 8.35,
-   "alt_expected": 8.13,
+   "expected": 8.32,
+   "alt_expected": 8.12,
    "started": false
   },
   {
@@ -55,7 +55,7 @@
    "name": "DK Metcalf",
    "alt_id": "5947",
    "alt_name": "Jakobi Meyers",
-   "expected": 8.35,
+   "expected": 8.32,
    "alt_expected": 7.73,
    "started": false
   }
@@ -65,7 +65,7 @@
    "slot": "QB",
    "player_id": "4984",
    "name": "Josh Allen",
-   "expected": 25.87,
+   "expected": 25.88,
    "started": false,
    "frozen": false
   },
@@ -89,7 +89,7 @@
    "slot": "WR",
    "player_id": "2133",
    "name": "Davante Adams",
-   "expected": 14.2,
+   "expected": 14.23,
    "started": false,
    "frozen": false
   },
@@ -97,7 +97,7 @@
    "slot": "WR",
    "player_id": "13346",
    "name": "Denzel Boston",
-   "expected": 9.41,
+   "expected": 9.45,
    "started": false,
    "frozen": false
   },
@@ -113,7 +113,7 @@
    "slot": "FLEX",
    "player_id": "5846",
    "name": "DK Metcalf",
-   "expected": 8.35,
+   "expected": 8.32,
    "started": false,
    "frozen": false
   },

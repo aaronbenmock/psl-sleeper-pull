@@ -4,8 +4,8 @@
    "task": "build",
    "ok": true,
    "summary": "index.html + reports/2026/week04.html; lineup changes 0, claims 8, signals 16, accuracy weeks 3",
-   "started_utc": "2026-10-01T12:05:45Z",
-   "finished_utc": "2026-10-01T12:05:46Z",
+   "started_utc": "2026-10-01T15:39:23Z",
+   "finished_utc": "2026-10-01T15:39:24Z",
    "error": null
   },
   "pull": {
@@ -29,12 +29,12 @@
   "snapshot": {
    "task": "snapshot",
    "ok": true,
-   "summary": "week 4 thu_early: 3149 projections, 0 NFL teams already started, 3149 players still pre-kickoff",
-   "started_utc": "2026-10-01T12:05:44Z",
-   "finished_utc": "2026-10-01T12:05:45Z",
+   "summary": "week 4 thu_late_am: 3149 projections, 0 NFL teams already started, 3149 players still pre-kickoff",
+   "started_utc": "2026-10-01T15:39:22Z",
+   "finished_utc": "2026-10-01T15:39:23Z",
    "error": null,
    "week": 4,
-   "label": "thu_early"
+   "label": "thu_late_am"
   },
   "auto-skip": {
    "task": "auto-skip",
@@ -1505,14 +1505,32 @@
    "started_utc": "2026-10-01T12:05:45Z",
    "finished_utc": "2026-10-01T12:05:46Z",
    "error": null
+  },
+  {
+   "task": "snapshot",
+   "ok": true,
+   "summary": "week 4 thu_late_am: 3149 projections, 0 NFL teams already started, 3149 players still pre-kickoff",
+   "started_utc": "2026-10-01T15:39:22Z",
+   "finished_utc": "2026-10-01T15:39:23Z",
+   "error": null,
+   "week": 4,
+   "label": "thu_late_am"
+  },
+  {
+   "task": "build",
+   "ok": true,
+   "summary": "index.html + reports/2026/week04.html; lineup changes 0, claims 8, signals 16, accuracy weeks 3",
+   "started_utc": "2026-10-01T15:39:23Z",
+   "finished_utc": "2026-10-01T15:39:24Z",
+   "error": null
   }
  ],
  "last_run": {
   "task": "build",
   "ok": true,
   "summary": "index.html + reports/2026/week04.html; lineup changes 0, claims 8, signals 16, accuracy weeks 3",
-  "started_utc": "2026-10-01T12:05:45Z",
-  "finished_utc": "2026-10-01T12:05:46Z",
+  "started_utc": "2026-10-01T15:39:23Z",
+  "finished_utc": "2026-10-01T15:39:24Z",
   "error": null
  }
 }
