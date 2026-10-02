@@ -23,7 +23,7 @@
    "name": "Jalen Coker",
    "pos": "WR",
    "status": "Questionable",
-   "expected": 10.58,
+   "expected": 10.59,
    "body": "Quadriceps"
   }
  ],
@@ -67,7 +67,7 @@
   {
    "name": "Jalen Coker",
    "pos": "WR",
-   "expected": 10.58,
+   "expected": 10.59,
    "injury_status": "Questionable",
    "baseline_only": false
   },
@@ -91,8 +91,8 @@
  "median_margin": 0.7,
  "source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-10-02T12:03:38Z",
-  "label": "fri_early"
+  "taken_at_utc": "2026-10-02T15:39:57Z",
+  "label": "fri_late_am"
  },
  "opp_baseline_only": 0,
  "why": "Your recommended lineup projects 104.7; Eazy E Squad's set lineup 104.0 (best possible from their roster 104.0). Margin +0.7: toss-up, with a 5-point band called a toss-up.",

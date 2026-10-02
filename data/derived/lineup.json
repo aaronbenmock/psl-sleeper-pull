@@ -1,10 +1,10 @@
 {
  "week": 4,
- "generated_at_utc": "2026-10-02T12:03:38Z",
+ "generated_at_utc": "2026-10-02T15:39:57Z",
  "source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-10-02T12:03:38Z",
-  "label": "fri_early"
+  "taken_at_utc": "2026-10-02T15:39:57Z",
+  "label": "fri_late_am"
  },
  "lineup": [
   {
@@ -141,12 +141,12 @@
    "pos": "WR",
    "team": "LAR",
    "opp": "PHI",
-   "sleeper": 12.51,
+   "sleeper": 12.5,
    "preseason": 12.3,
    "season_avg": 19.6,
    "n_games": 3,
    "baseline": 15.43,
-   "expected": 13.53,
+   "expected": 13.52,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -192,7 +192,7 @@
    "pos": "WR",
    "team": "SF",
    "opp": "DEN",
-   "sleeper": 7.57,
+   "sleeper": 7.58,
    "preseason": 10.2,
    "season_avg": 15.17,
    "n_games": 3,
@@ -479,12 +479,12 @@
    "pos": "WR",
    "team": "DEN",
    "opp": "SF",
-   "sleeper": 8.34,
+   "sleeper": 8.41,
    "preseason": 10.43,
    "season_avg": 4.07,
    "n_games": 3,
    "baseline": 7.7,
-   "expected": 8.12,
+   "expected": 8.16,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -497,7 +497,7 @@
    "started": false,
    "actual_so_far": null,
    "slot": "BN",
-   "why": "Sleeper projects 8.3, season average 4.1 over 3 games, preseason model 10.4. Blended expectation 8.1 vs SF.",
+   "why": "Sleeper projects 8.4, season average 4.1 over 3 games, preseason model 10.4. Blended expectation 8.2 vs SF.",
    "vacated": {
     "player_id": "00-0034348",
     "pos": "WR",
@@ -587,12 +587,12 @@
    "pos": "RB",
    "team": "MIA",
    "opp": "MIN",
-   "sleeper": 7.3,
+   "sleeper": 7.36,
    "preseason": 4.48,
    "season_avg": 4.9,
    "n_games": 3,
    "baseline": 4.66,
-   "expected": 6.38,
+   "expected": 6.41,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -605,7 +605,7 @@
    "started": false,
    "actual_so_far": null,
    "slot": "BN",
-   "why": "Sleeper projects 7.3, season average 4.9 over 3 games, preseason model 4.5. Blended expectation 6.4 vs MIN.",
+   "why": "Sleeper projects 7.4, season average 4.9 over 3 games, preseason model 4.5. Blended expectation 6.4 vs MIN.",
    "vacated": {
     "player_id": "00-0040198",
     "pos": "RB",
@@ -777,9 +777,9 @@
   {
    "out": "Courtland Sutton",
    "in": "Harold Fannin",
-   "out_expected": 8.12,
+   "out_expected": 8.16,
    "in_expected": 9.34,
-   "why": "Harold Fannin 9.3 vs Courtland Sutton 8.1 expected (+1.2). "
+   "why": "Harold Fannin 9.3 vs Courtland Sutton 8.2 expected (+1.2). "
   }
  ],
  "close_calls": [
@@ -801,7 +801,7 @@
    "vacated_starter": 0.0,
    "vacated_bench": 0.0,
    "vacated_note": "Vacated share (display only, not in the numbers above): Deebo Samuel 0.0, Courtland Sutton 0.0 points of absorbed usage. Demarcus Robinson, Ricky Pearsall out, vacating 27% of the targets. The proportional split gives him none of it, worth about 0.0 points. Display only: it does not change the expected number.",
-   "why": "Deebo Samuel 9.2 vs Courtland Sutton 8.1, only 1.1 apart. Tiebreak: Courtland Sutton has the higher ceiling (boom rate 24% vs 16%)."
+   "why": "Deebo Samuel 9.2 vs Courtland Sutton 8.2, only 1.1 apart. Tiebreak: Courtland Sutton has the higher ceiling (boom rate 24% vs 16%)."
   },
   {
    "slot": "FLEX",
@@ -821,7 +821,7 @@
    "vacated_starter": 2.47,
    "vacated_bench": 0.0,
    "vacated_note": "Vacated share (display only, not in the numbers above): Harold Fannin 2.5, Courtland Sutton 0.0 points of absorbed usage. David Njoku out, vacating 13% of the targets. The historical split gives him 5% of targets, worth about 2.5 points. Display only: it does not change the expected number.",
-   "why": "Harold Fannin 9.3 vs Courtland Sutton 8.1, only 1.2 apart. Tiebreak: Courtland Sutton has the higher ceiling (boom rate 24% vs 19%)."
+   "why": "Harold Fannin 9.3 vs Courtland Sutton 8.2, only 1.2 apart. Tiebreak: Courtland Sutton has the higher ceiling (boom rate 24% vs 19%)."
   },
   {
    "slot": "FLEX",
@@ -837,11 +837,11 @@
    "slot": "FLEX",
    "starter": "Denzel Boston",
    "bench": "Courtland Sutton",
-   "gap": 1.1,
+   "gap": 1.0,
    "vacated_starter": 0.27,
    "vacated_bench": 0.0,
    "vacated_note": "Vacated share (display only, not in the numbers above): Denzel Boston 0.3, Courtland Sutton 0.0 points of absorbed usage. Tylan Wallace out, vacating 2% of the targets. The proportional split gives him 0% of targets, worth about 0.3 points. Display only: it does not change the expected number.",
-   "why": "Denzel Boston 9.2 vs Courtland Sutton 8.1, only 1.1 apart."
+   "why": "Denzel Boston 9.2 vs Courtland Sutton 8.2, only 1.0 apart."
   },
   {
    "slot": "FLEX",
@@ -856,7 +856,7 @@
  ],
  "expected_total": 104.7,
  "notes": [
-  "Projections are from the fri_early snapshot taken Fri Oct 02 07:03 AM Central.",
+  "Projections are from the fri_late_am snapshot taken Fri Oct 02 10:39 AM Central.",
   "3 of your players have already kicked off this week; their rows show points so far."
  ],
  "vacated_meta": {
