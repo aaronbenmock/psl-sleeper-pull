@@ -4,8 +4,8 @@
    "task": "build",
    "ok": true,
    "summary": "index.html + reports/2026/week04.html; lineup changes 2, claims 8, signals 16, accuracy weeks 3",
-   "started_utc": "2026-10-02T11:10:39Z",
-   "finished_utc": "2026-10-02T11:10:40Z",
+   "started_utc": "2026-10-02T12:03:38Z",
+   "finished_utc": "2026-10-02T12:03:39Z",
    "error": null
   },
   "pull": {
@@ -29,12 +29,12 @@
   "snapshot": {
    "task": "snapshot",
    "ok": true,
-   "summary": "week 4 thu_pm: 3149 projections, 0 NFL teams already started, 3149 players still pre-kickoff",
-   "started_utc": "2026-10-01T23:13:15Z",
-   "finished_utc": "2026-10-01T23:13:16Z",
+   "summary": "week 4 fri_early: 3149 projections, 2 NFL teams already started, 3096 players still pre-kickoff",
+   "started_utc": "2026-10-02T12:03:37Z",
+   "finished_utc": "2026-10-02T12:03:38Z",
    "error": null,
    "week": 4,
-   "label": "thu_pm"
+   "label": "fri_early"
   },
   "auto-skip": {
    "task": "auto-skip",
@@ -1589,14 +1589,32 @@
    "started_utc": "2026-10-02T11:10:39Z",
    "finished_utc": "2026-10-02T11:10:40Z",
    "error": null
+  },
+  {
+   "task": "snapshot",
+   "ok": true,
+   "summary": "week 4 fri_early: 3149 projections, 2 NFL teams already started, 3096 players still pre-kickoff",
+   "started_utc": "2026-10-02T12:03:37Z",
+   "finished_utc": "2026-10-02T12:03:38Z",
+   "error": null,
+   "week": 4,
+   "label": "fri_early"
+  },
+  {
+   "task": "build",
+   "ok": true,
+   "summary": "index.html + reports/2026/week04.html; lineup changes 2, claims 8, signals 16, accuracy weeks 3",
+   "started_utc": "2026-10-02T12:03:38Z",
+   "finished_utc": "2026-10-02T12:03:39Z",
+   "error": null
   }
  ],
  "last_run": {
   "task": "build",
   "ok": true,
   "summary": "index.html + reports/2026/week04.html; lineup changes 2, claims 8, signals 16, accuracy weeks 3",
-  "started_utc": "2026-10-02T11:10:39Z",
-  "finished_utc": "2026-10-02T11:10:40Z",
+  "started_utc": "2026-10-02T12:03:38Z",
+  "finished_utc": "2026-10-02T12:03:39Z",
   "error": null
  }
 }

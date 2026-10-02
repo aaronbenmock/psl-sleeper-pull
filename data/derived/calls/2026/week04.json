@@ -2,7 +2,7 @@
  "week": 4,
  "first_recorded_utc": "2026-09-30T21:26:23Z",
  "source": "live build",
- "updated_utc": "2026-10-02T11:10:39Z",
+ "updated_utc": "2026-10-02T12:03:38Z",
  "start_sit": [
   {
    "type": "start_sit",
@@ -12,8 +12,10 @@
    "alt_id": "5846",
    "alt_name": "DK Metcalf",
    "expected": 9.24,
-   "alt_expected": 8.26,
-   "started": false
+   "alt_expected": 8.31,
+   "started": true,
+   "frozen": true,
+   "frozen_at_utc": "2026-10-02T12:03:38Z"
   },
   {
    "type": "start_sit",
@@ -22,9 +24,11 @@
    "name": "Harold Fannin",
    "alt_id": "5045",
    "alt_name": "Courtland Sutton",
-   "expected": 9.33,
+   "expected": 9.34,
    "alt_expected": 8.12,
-   "started": false
+   "started": true,
+   "frozen": true,
+   "frozen_at_utc": "2026-10-02T12:03:38Z"
   },
   {
    "type": "start_sit",
@@ -34,8 +38,10 @@
    "alt_id": "5846",
    "alt_name": "DK Metcalf",
    "expected": 9.24,
-   "alt_expected": 8.26,
-   "started": false
+   "alt_expected": 8.31,
+   "started": true,
+   "frozen": true,
+   "frozen_at_utc": "2026-10-02T12:03:38Z"
   },
   {
    "type": "start_sit",
@@ -55,9 +61,11 @@
    "name": "Harold Fannin",
    "alt_id": "5846",
    "alt_name": "DK Metcalf",
-   "expected": 9.33,
-   "alt_expected": 8.26,
-   "started": false
+   "expected": 9.34,
+   "alt_expected": 8.31,
+   "started": true,
+   "frozen": true,
+   "frozen_at_utc": "2026-10-02T12:03:38Z"
   },
   {
    "type": "start_sit",
@@ -66,9 +74,11 @@
    "name": "Harold Fannin",
    "alt_id": "5045",
    "alt_name": "Courtland Sutton",
-   "expected": 9.33,
+   "expected": 9.34,
    "alt_expected": 8.12,
-   "started": false
+   "started": true,
+   "frozen": true,
+   "frozen_at_utc": "2026-10-02T12:03:38Z"
   },
   {
    "type": "start_sit",
@@ -77,9 +87,11 @@
    "name": "Denzel Boston",
    "alt_id": "5846",
    "alt_name": "DK Metcalf",
-   "expected": 9.16,
-   "alt_expected": 8.26,
-   "started": false
+   "expected": 9.17,
+   "alt_expected": 8.31,
+   "started": true,
+   "frozen": true,
+   "frozen_at_utc": "2026-10-02T12:03:38Z"
   },
   {
    "type": "start_sit",
@@ -88,9 +100,11 @@
    "name": "Denzel Boston",
    "alt_id": "5045",
    "alt_name": "Courtland Sutton",
-   "expected": 9.16,
+   "expected": 9.17,
    "alt_expected": 8.12,
-   "started": false
+   "started": true,
+   "frozen": true,
+   "frozen_at_utc": "2026-10-02T12:03:38Z"
   },
   {
    "type": "start_sit",
@@ -99,9 +113,11 @@
    "name": "Denzel Boston",
    "alt_id": "5947",
    "alt_name": "Jakobi Meyers",
-   "expected": 9.16,
+   "expected": 9.17,
    "alt_expected": 7.73,
-   "started": false
+   "started": true,
+   "frozen": true,
+   "frozen_at_utc": "2026-10-02T12:03:38Z"
   }
  ],
  "lineup": [
@@ -133,7 +149,7 @@
    "slot": "WR",
    "player_id": "2133",
    "name": "Davante Adams",
-   "expected": 13.56,
+   "expected": 13.53,
    "started": false,
    "frozen": false
   },
@@ -149,17 +165,17 @@
    "slot": "FLEX",
    "player_id": "12506",
    "name": "Harold Fannin",
-   "expected": 9.33,
-   "started": false,
-   "frozen": false
+   "expected": 9.34,
+   "started": true,
+   "frozen": true
   },
   {
    "slot": "FLEX",
    "player_id": "13346",
    "name": "Denzel Boston",
-   "expected": 9.16,
-   "started": false,
-   "frozen": false
+   "expected": 9.17,
+   "started": true,
+   "frozen": true
   },
   {
    "slot": "DEF",
