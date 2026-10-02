@@ -19,7 +19,7 @@
    "starter_gain": 0.0,
    "depth_gain": 0.93,
    "trending": 996476,
-   "injury_status": null,
+   "injury_status": "Questionable",
    "would_start": false,
    "drop": {
     "player_id": "12495",
@@ -170,7 +170,7 @@
      "remaining": 167,
      "score": 2.5,
      "why": [
-      "starter Zay Flowers Questionable, DJ Moore Questionable",
+      "starter DJ Moore Questionable",
       "just dropped Tyreek Hill",
       "has bid on a WR before"
      ],
@@ -182,21 +182,21 @@
      "pos_max": 8
     },
     {
-     "roster_id": 1,
-     "team": "tacocats",
-     "remaining": 140,
+     "roster_id": 6,
+     "team": "ScampDaddy",
+     "remaining": 152,
      "score": 2.5,
      "why": [
-      "starter Ladd McConkey Questionable",
-      "just dropped Caleb Douglas",
+      "starter Keenan Allen Questionable",
+      "just dropped Wan'Dale Robinson, Tre Tucker, Chris Godwin",
       "has bid on a WR before"
      ],
-     "usual_bid": 13,
+     "usual_bid": 16,
      "repeated": [
-      13,
-      1
+      16,
+      6
      ],
-     "pos_max": 12
+     "pos_max": 23
     }
    ],
    "league_bid": 10,
@@ -207,8 +207,8 @@
    "pace": 1.21,
    "comparable": "Thu Oct 1 run's top WR add: Keenan Allen went $23 to ScampDaddy with 3 bidders (losing: ValKilmersComeback $17, Be Safe, Get Jaxcinated $14).",
    "comparable_bid": 23,
-   "to_beat": 17,
-   "to_beat_why": "$17: $2 over Girthenheimer, who has bid $15 more than once",
+   "to_beat": 25,
+   "to_beat_why": "$25: $2 over ScampDaddy, who has bid as much as $23 on a WR",
    "to_beat_within_value": false
   },
   {
@@ -485,7 +485,7 @@
      "remaining": 167,
      "score": 2.5,
      "why": [
-      "starter Zay Flowers Questionable, DJ Moore Questionable",
+      "starter DJ Moore Questionable",
       "just dropped Tyreek Hill",
       "has bid on a WR before"
      ],
@@ -574,7 +574,7 @@
      "score": 5.0,
      "why": [
       "owns Omar Cooper (IR), the NYJ WR he would replace",
-      "starter Justin Jefferson Questionable, Jalen Coker Questionable"
+      "starter Jalen Coker Questionable, Justin Jefferson Questionable"
      ],
      "usual_bid": null,
      "repeated": [],
@@ -660,7 +660,7 @@
      "score": 8.5,
      "why": [
       "owns Alvin Kamara, the NO RB1 (handcuff interest)",
-      "owns Travis Etienne (Out), the NO RB he would replace",
+      "owns Travis Etienne (IR), the NO RB he would replace",
       "starter ruled out or put on IR this week: De'Von Achane (IR)",
       "just dropped De'Von Achane",
       "has bid on a RB before"
@@ -690,15 +690,19 @@
      "pos_max": 18
     },
     {
-     "roster_id": 12,
-     "team": "Baker\u2019s Dozen",
-     "remaining": 200,
-     "score": 1.0,
+     "roster_id": 7,
+     "team": "Cheeky Nando\u2019s",
+     "remaining": 186,
+     "score": 2.0,
      "why": [
-      "starter Bucky Irving Questionable, Tony Pollard Questionable"
+      "starter D'Andre Swift Questionable",
+      "just dropped Jonathon Brooks"
      ],
-     "usual_bid": null,
-     "repeated": [],
+     "usual_bid": 8,
+     "repeated": [
+      8,
+      1
+     ],
      "pos_max": null
     }
    ],
@@ -789,15 +793,19 @@
      "pos_max": 53
     },
     {
-     "roster_id": 12,
-     "team": "Baker\u2019s Dozen",
-     "remaining": 200,
-     "score": 1.0,
+     "roster_id": 7,
+     "team": "Cheeky Nando\u2019s",
+     "remaining": 186,
+     "score": 2.0,
      "why": [
-      "starter Bucky Irving Questionable, Tony Pollard Questionable"
+      "starter D'Andre Swift Questionable",
+      "just dropped Jonathon Brooks"
      ],
-     "usual_bid": null,
-     "repeated": [],
+     "usual_bid": 8,
+     "repeated": [
+      8,
+      1
+     ],
      "pos_max": null
     }
    ],
@@ -1029,7 +1037,7 @@
    "starter_gain": 0.0,
    "depth_gain": 0.11,
    "trending": 672896,
-   "injury_status": "Questionable",
+   "injury_status": null,
    "would_start": false,
    "drop": {
     "player_id": "12495",
@@ -1092,15 +1100,19 @@
      "pos_max": 53
     },
     {
-     "roster_id": 12,
-     "team": "Baker\u2019s Dozen",
-     "remaining": 200,
-     "score": 1.0,
+     "roster_id": 7,
+     "team": "Cheeky Nando\u2019s",
+     "remaining": 186,
+     "score": 2.0,
      "why": [
-      "starter Bucky Irving Questionable, Tony Pollard Questionable"
+      "starter D'Andre Swift Questionable",
+      "just dropped Jonathon Brooks"
      ],
-     "usual_bid": null,
-     "repeated": [],
+     "usual_bid": 8,
+     "repeated": [
+      8,
+      1
+     ],
      "pos_max": null
     }
    ],
@@ -1198,17 +1210,20 @@
      "pos_max": 53
     },
     {
-     "roster_id": 11,
-     "team": "RafiBomb",
-     "remaining": 200,
-     "score": 1.5,
+     "roster_id": 7,
+     "team": "Cheeky Nando\u2019s",
+     "remaining": 186,
+     "score": 2.0,
      "why": [
-      "owns Chuba Hubbard, the CAR RB1 (handcuff interest)",
-      "has bid on a RB before"
+      "starter D'Andre Swift Questionable",
+      "just dropped Jonathon Brooks"
      ],
-     "usual_bid": 0.0,
-     "repeated": [],
-     "pos_max": 0
+     "usual_bid": 8,
+     "repeated": [
+      8,
+      1
+     ],
+     "pos_max": null
     }
    ],
    "league_bid": 36,
@@ -1301,15 +1316,19 @@
      "pos_max": 53
     },
     {
-     "roster_id": 12,
-     "team": "Baker\u2019s Dozen",
-     "remaining": 200,
-     "score": 1.0,
+     "roster_id": 7,
+     "team": "Cheeky Nando\u2019s",
+     "remaining": 186,
+     "score": 2.0,
      "why": [
-      "starter Bucky Irving Questionable, Tony Pollard Questionable"
+      "starter D'Andre Swift Questionable",
+      "just dropped Jonathon Brooks"
      ],
-     "usual_bid": null,
-     "repeated": [],
+     "usual_bid": 8,
+     "repeated": [
+      8,
+      1
+     ],
      "pos_max": null
     }
    ],
@@ -1408,7 +1427,7 @@
      "remaining": 167,
      "score": 2.5,
      "why": [
-      "starter Zay Flowers Questionable, DJ Moore Questionable",
+      "starter DJ Moore Questionable",
       "just dropped Tyreek Hill",
       "has bid on a WR before"
      ],
@@ -1518,7 +1537,7 @@
      "remaining": 167,
      "score": 2.5,
      "why": [
-      "starter Zay Flowers Questionable, DJ Moore Questionable",
+      "starter DJ Moore Questionable",
       "just dropped Tyreek Hill",
       "has bid on a WR before"
      ],
@@ -1589,9 +1608,10 @@
      "roster_id": 7,
      "team": "Cheeky Nando\u2019s",
      "remaining": 186,
-     "score": 5.0,
+     "score": 6.0,
      "why": [
       "owns Josh Jacobs (NA), the GB RB he would replace",
+      "starter D'Andre Swift Questionable",
       "just dropped Jonathon Brooks"
      ],
      "usual_bid": 8,
@@ -1698,9 +1718,10 @@
      "roster_id": 7,
      "team": "Cheeky Nando\u2019s",
      "remaining": 186,
-     "score": 5.0,
+     "score": 6.0,
      "why": [
       "owns Jordan Mason (IR), the MIN RB he would replace",
+      "starter D'Andre Swift Questionable",
       "just dropped Jonathon Brooks"
      ],
      "usual_bid": 8,
@@ -1837,15 +1858,19 @@
      "pos_max": 53
     },
     {
-     "roster_id": 12,
-     "team": "Baker\u2019s Dozen",
-     "remaining": 200,
-     "score": 1.0,
+     "roster_id": 7,
+     "team": "Cheeky Nando\u2019s",
+     "remaining": 186,
+     "score": 2.0,
      "why": [
-      "starter Bucky Irving Questionable, Tony Pollard Questionable"
+      "starter D'Andre Swift Questionable",
+      "just dropped Jonathon Brooks"
      ],
-     "usual_bid": null,
-     "repeated": [],
+     "usual_bid": 8,
+     "repeated": [
+      8,
+      1
+     ],
      "pos_max": null
     }
    ],
@@ -1899,84 +1924,6 @@
    "ceiling_sig": null,
    "ceiling_why": null,
    "why": "Rest-of-season value about 8.8 a week (model+season; next week 8.71). He would not start over anyone you have, so the gain is depth only: +1.0 a week (a quarter of his edge over Ollie Gordon).",
-   "threats": [
-    {
-     "roster_id": 2,
-     "team": "Amateur Hour",
-     "remaining": 94,
-     "score": 2.5,
-     "why": [
-      "starter Kenyon Sadiq Questionable",
-      "just dropped Tucker Kraft",
-      "has bid on a TE before"
-     ],
-     "usual_bid": 7,
-     "repeated": [
-      7,
-      3
-     ],
-     "pos_max": 43
-    },
-    {
-     "roster_id": 7,
-     "team": "Cheeky Nando\u2019s",
-     "remaining": 186,
-     "score": 1.5,
-     "why": [
-      "just dropped Terrance Ferguson, Dalton Schultz",
-      "has bid on a TE before"
-     ],
-     "usual_bid": 8,
-     "repeated": [
-      8,
-      1
-     ],
-     "pos_max": 12
-    }
-   ],
-   "league_bid": 11,
-   "league_bid_why": "$29.5 market (median winning bid of each run's most-contested player (n=4), 3 likely bidders counting you), held to $9, what he is worth to you; x1.21 budget pace: $200 of $200 left with 14 of 17 weeks to go, and you usually finish with FAAB unspent, so bids are scaled up to spend it down toward $0",
-   "value_cap": 9,
-   "market": 29.5,
-   "market_basis": "median winning bid of each run's most-contested player (n=4)",
-   "pace": 1.21,
-   "comparable": "Thu Oct 1 run's top TE add: Kenyon Sadiq went $43 to Amateur Hour with 1 bidder.",
-   "comparable_bid": 43,
-   "to_beat": 45,
-   "to_beat_why": "$45: $2 over Amateur Hour, who has bid as much as $43 on a TE",
-   "to_beat_within_value": false
-  },
-  {
-   "player_id": "12506",
-   "name": "Harold Fannin",
-   "pos": "TE",
-   "team": "CLE",
-   "opp_next": "PIT",
-   "next_proj": 9.87,
-   "last_actual": 20.6,
-   "ros": 9.14,
-   "ros_how": "model+season",
-   "value": 9.5,
-   "gain": 1.12,
-   "starter_gain": 0.0,
-   "depth_gain": 1.12,
-   "trending": 138710,
-   "injury_status": null,
-   "would_start": false,
-   "drop": {
-    "player_id": "12495",
-    "name": "Ollie Gordon",
-    "pos": "RB",
-    "ros": 4.66
-   },
-   "bid": 11,
-   "bid_why": "1.1 pts/week x 14 weeks left x $0.60 per point, x1.05 demand premium (138,710 Sleeper adds in 72h; the hottest player on the wire has 11,901,393), x1.15 early-season premium (everyone still has a full budget)",
-   "ceiling": null,
-   "ceiling_gap": null,
-   "ceiling_gain": 1.12,
-   "ceiling_sig": null,
-   "ceiling_why": null,
-   "why": "Rest-of-season value about 9.1 a week (model+season; next week 9.87). He would not start over anyone you have, so the gain is depth only: +1.1 a week (a quarter of his edge over Ollie Gordon).",
    "threats": [
     {
      "roster_id": 2,
@@ -2273,7 +2220,7 @@
    "starter_gain": 0.0,
    "depth_gain": 0.53,
    "trending": 0,
-   "injury_status": null,
+   "injury_status": "Questionable",
    "would_start": false,
    "drop": {
     "player_id": "12495",
@@ -2428,7 +2375,7 @@
   "projected_leftover": 200,
   "summary": "At your pace ($0 spent in 3 weeks) you would finish with about $200 unspent; league bids are scaled x1.21 to spend it down."
  },
- "all_evaluated": 120,
+ "all_evaluated": 119,
  "drop_candidates": [
   {
    "player_id": "12495",
@@ -2686,7 +2633,7 @@
    "protected": null,
    "handcuff": null,
    "drop_reasons": [
-    "rest-of-season 8.7/wk, the #5 lowest of your 11 droppable players (model+season)",
+    "rest-of-season 8.7/wk, the #4 lowest of your 11 droppable players (model+season)",
     "starts in this week's recommended lineup"
    ],
    "held_from_auto_drop": false
@@ -2714,7 +2661,7 @@
    "vor": 22.3,
    "started": false,
    "actual_so_far": null,
-   "slot": "FLEX",
+   "slot": "BN",
    "why": "Sleeper projects 8.0, season average 7.1 over 3 games, preseason model 10.0. Blended expectation 8.3 vs CLE.",
    "vacated": {
     "player_id": " 00-0035640",
@@ -2752,8 +2699,8 @@
    "protected": null,
    "handcuff": null,
    "drop_reasons": [
-    "rest-of-season 8.8/wk, the #6 lowest of your 11 droppable players (model+season)",
-    "starts in this week's recommended lineup"
+    "rest-of-season 8.8/wk, the #5 lowest of your 11 droppable players (model+season)",
+    "not in this week's recommended lineup"
    ],
    "held_from_auto_drop": false
   }
@@ -2961,79 +2908,6 @@
    "held_from_auto_drop": false
   },
   {
-   "player_id": "7021",
-   "name": "Rico Dowdle",
-   "pos": "RB",
-   "team": "PIT",
-   "opp": null,
-   "sleeper": 0.0,
-   "preseason": 10.44,
-   "season_avg": 4.25,
-   "n_games": 2,
-   "baseline": 8.38,
-   "expected": 0.0,
-   "injury_status": "Out",
-   "injury_body_part": "Toe",
-   "practice": null,
-   "bye": false,
-   "playing": false,
-   "inj_mult": 0.0,
-   "boom_rate": 0.242,
-   "sd_wk": 7.725,
-   "vor": 39.2,
-   "started": false,
-   "actual_so_far": null,
-   "slot": "BN",
-   "why": "Ruled Out, 0 points.",
-   "vacated": {
-    "player_id": "00-0036139",
-    "pos": "RB",
-    "team": "PIT",
-    "estimator": "historical",
-    "n_out": 1,
-    "out": [
-     {
-      "player_id": "00-0036984",
-      "name": "Trey Sermon",
-      "car": 0.0,
-      "tgt": 0.0
-     }
-    ],
-    "vacated_tgt": 0.0,
-    "vacated_car": 0.0,
-    "absorbed_tgt": 0.0,
-    "absorbed_car": 0.0,
-    "own_tgt_share": 0.104,
-    "own_car_share": 0.447,
-    "ppt": 0.95,
-    "ppc": 0.415,
-    "team_tgt_pg": 32.46,
-    "team_car_pg": 23.28,
-    "hist_pairs_used": 0,
-    "hist_min_games": null,
-    "points": 0.0,
-    "n_games": 2,
-    "name": "Rico Dowdle",
-    "why": "Trey Sermon out, vacating no measured usage. The proportional split gives him none of it, worth about 0.0 points. Display only: it does not change the expected number."
-   },
-   "vacated_pts": 0.0,
-   "ros": 8.38,
-   "ros_how": "model+season",
-   "protected": null,
-   "handcuff": {
-    "lead": "Jaylen Warren",
-    "bump": 4.06
-   },
-   "drop_reasons": [
-    "rest-of-season 8.4/wk, the #4 lowest of your 11 droppable players (model+season)",
-    "not in this week's recommended lineup",
-    "Out (Toe)",
-    "handcuff: PIT backup to Jaylen Warren, about +4.1/wk if Jaylen Warren misses time",
-    "held back from the auto-drop: injured handcuff, and Ollie Gordon (4.7/wk, healthy) is a lower-value drop"
-   ],
-   "held_from_auto_drop": true
-  },
-  {
    "player_id": "12474",
    "name": "Woody Marks",
    "pos": "RB",
@@ -3088,7 +2962,7 @@
    "protected": null,
    "handcuff": null,
    "drop_reasons": [
-    "rest-of-season 8.7/wk, the #5 lowest of your 11 droppable players (model+season)",
+    "rest-of-season 8.7/wk, the #4 lowest of your 11 droppable players (model+season)",
     "starts in this week's recommended lineup"
    ],
    "held_from_auto_drop": false
@@ -3116,7 +2990,7 @@
    "vor": 22.3,
    "started": false,
    "actual_so_far": null,
-   "slot": "FLEX",
+   "slot": "BN",
    "why": "Sleeper projects 8.0, season average 7.1 over 3 games, preseason model 10.0. Blended expectation 8.3 vs CLE.",
    "vacated": {
     "player_id": " 00-0035640",
@@ -3154,7 +3028,73 @@
    "protected": null,
    "handcuff": null,
    "drop_reasons": [
-    "rest-of-season 8.8/wk, the #6 lowest of your 11 droppable players (model+season)",
+    "rest-of-season 8.8/wk, the #5 lowest of your 11 droppable players (model+season)",
+    "not in this week's recommended lineup"
+   ],
+   "held_from_auto_drop": false
+  },
+  {
+   "player_id": "12506",
+   "name": "Harold Fannin",
+   "pos": "TE",
+   "team": "CLE",
+   "opp": "PIT",
+   "sleeper": 9.43,
+   "preseason": 8.09,
+   "season_avg": 10.53,
+   "n_games": 3,
+   "baseline": 9.14,
+   "expected": 9.33,
+   "injury_status": null,
+   "injury_body_part": null,
+   "practice": null,
+   "bye": false,
+   "playing": true,
+   "inj_mult": 1.0,
+   "boom_rate": 0.188,
+   "sd_wk": 5.239,
+   "vor": -31.5,
+   "started": false,
+   "actual_so_far": null,
+   "slot": "FLEX",
+   "why": "Sleeper projects 9.4, season average 10.5 over 3 games, preseason model 8.1. Blended expectation 9.3 vs PIT.",
+   "vacated": {
+    "player_id": "00-0040663",
+    "pos": "TE",
+    "team": "CLE",
+    "estimator": "historical",
+    "n_out": 1,
+    "out": [
+     {
+      "player_id": "00-0033885",
+      "name": "David Njoku",
+      "tgt": 0.0526
+     }
+    ],
+    "vacated_tgt": 0.133,
+    "vacated_car": null,
+    "absorbed_tgt": 0.053,
+    "absorbed_car": null,
+    "own_tgt_share": 0.218,
+    "own_car_share": 0.011,
+    "ppt": 1.599,
+    "ppc": 1.043,
+    "team_tgt_pg": 29.38,
+    "team_car_pg": 24.98,
+    "hist_pairs_used": 1,
+    "hist_min_games": 5,
+    "points": 2.47,
+    "n_games": 3,
+    "name": "Harold Fannin",
+    "why": "David Njoku out, vacating 13% of the targets. The historical split gives him 5% of targets, worth about 2.5 points. Display only: it does not change the expected number."
+   },
+   "vacated_pts": 2.47,
+   "ros": 9.14,
+   "ros_how": "model+season",
+   "protected": null,
+   "handcuff": null,
+   "drop_reasons": [
+    "rest-of-season 9.1/wk, the #6 lowest of your 11 droppable players (model+season)",
     "starts in this week's recommended lineup"
    ],
    "held_from_auto_drop": false
@@ -3902,6 +3842,72 @@
    "held_from_auto_drop": false
   },
   {
+   "player_id": "12506",
+   "name": "Harold Fannin",
+   "pos": "TE",
+   "team": "CLE",
+   "opp": "PIT",
+   "sleeper": 9.43,
+   "preseason": 8.09,
+   "season_avg": 10.53,
+   "n_games": 3,
+   "baseline": 9.14,
+   "expected": 9.33,
+   "injury_status": null,
+   "injury_body_part": null,
+   "practice": null,
+   "bye": false,
+   "playing": true,
+   "inj_mult": 1.0,
+   "boom_rate": 0.188,
+   "sd_wk": 5.239,
+   "vor": -31.5,
+   "started": false,
+   "actual_so_far": null,
+   "slot": "FLEX",
+   "why": "Sleeper projects 9.4, season average 10.5 over 3 games, preseason model 8.1. Blended expectation 9.3 vs PIT.",
+   "vacated": {
+    "player_id": "00-0040663",
+    "pos": "TE",
+    "team": "CLE",
+    "estimator": "historical",
+    "n_out": 1,
+    "out": [
+     {
+      "player_id": "00-0033885",
+      "name": "David Njoku",
+      "tgt": 0.0526
+     }
+    ],
+    "vacated_tgt": 0.133,
+    "vacated_car": null,
+    "absorbed_tgt": 0.053,
+    "absorbed_car": null,
+    "own_tgt_share": 0.218,
+    "own_car_share": 0.011,
+    "ppt": 1.599,
+    "ppc": 1.043,
+    "team_tgt_pg": 29.38,
+    "team_car_pg": 24.98,
+    "hist_pairs_used": 1,
+    "hist_min_games": 5,
+    "points": 2.47,
+    "n_games": 3,
+    "name": "Harold Fannin",
+    "why": "David Njoku out, vacating 13% of the targets. The historical split gives him 5% of targets, worth about 2.5 points. Display only: it does not change the expected number."
+   },
+   "vacated_pts": 2.47,
+   "ros": 9.14,
+   "ros_how": "model+season",
+   "protected": null,
+   "handcuff": null,
+   "drop_reasons": [
+    "rest-of-season 9.1/wk, the #6 lowest of your 11 droppable players (model+season)",
+    "starts in this week's recommended lineup"
+   ],
+   "held_from_auto_drop": false
+  },
+  {
    "player_id": "5846",
    "name": "DK Metcalf",
    "pos": "WR",
@@ -3924,7 +3930,7 @@
    "vor": 22.3,
    "started": false,
    "actual_so_far": null,
-   "slot": "FLEX",
+   "slot": "BN",
    "why": "Sleeper projects 8.0, season average 7.1 over 3 games, preseason model 10.0. Blended expectation 8.3 vs CLE.",
    "vacated": {
     "player_id": " 00-0035640",
@@ -3962,8 +3968,8 @@
    "protected": null,
    "handcuff": null,
    "drop_reasons": [
-    "rest-of-season 8.8/wk, the #6 lowest of your 11 droppable players (model+season)",
-    "starts in this week's recommended lineup"
+    "rest-of-season 8.8/wk, the #5 lowest of your 11 droppable players (model+season)",
+    "not in this week's recommended lineup"
    ],
    "held_from_auto_drop": false
   },
@@ -4022,83 +4028,10 @@
    "protected": null,
    "handcuff": null,
    "drop_reasons": [
-    "rest-of-season 8.7/wk, the #5 lowest of your 11 droppable players (model+season)",
+    "rest-of-season 8.7/wk, the #4 lowest of your 11 droppable players (model+season)",
     "starts in this week's recommended lineup"
    ],
    "held_from_auto_drop": false
-  },
-  {
-   "player_id": "7021",
-   "name": "Rico Dowdle",
-   "pos": "RB",
-   "team": "PIT",
-   "opp": null,
-   "sleeper": 0.0,
-   "preseason": 10.44,
-   "season_avg": 4.25,
-   "n_games": 2,
-   "baseline": 8.38,
-   "expected": 0.0,
-   "injury_status": "Out",
-   "injury_body_part": "Toe",
-   "practice": null,
-   "bye": false,
-   "playing": false,
-   "inj_mult": 0.0,
-   "boom_rate": 0.242,
-   "sd_wk": 7.725,
-   "vor": 39.2,
-   "started": false,
-   "actual_so_far": null,
-   "slot": "BN",
-   "why": "Ruled Out, 0 points.",
-   "vacated": {
-    "player_id": "00-0036139",
-    "pos": "RB",
-    "team": "PIT",
-    "estimator": "historical",
-    "n_out": 1,
-    "out": [
-     {
-      "player_id": "00-0036984",
-      "name": "Trey Sermon",
-      "car": 0.0,
-      "tgt": 0.0
-     }
-    ],
-    "vacated_tgt": 0.0,
-    "vacated_car": 0.0,
-    "absorbed_tgt": 0.0,
-    "absorbed_car": 0.0,
-    "own_tgt_share": 0.104,
-    "own_car_share": 0.447,
-    "ppt": 0.95,
-    "ppc": 0.415,
-    "team_tgt_pg": 32.46,
-    "team_car_pg": 23.28,
-    "hist_pairs_used": 0,
-    "hist_min_games": null,
-    "points": 0.0,
-    "n_games": 2,
-    "name": "Rico Dowdle",
-    "why": "Trey Sermon out, vacating no measured usage. The proportional split gives him none of it, worth about 0.0 points. Display only: it does not change the expected number."
-   },
-   "vacated_pts": 0.0,
-   "ros": 8.38,
-   "ros_how": "model+season",
-   "protected": null,
-   "handcuff": {
-    "lead": "Jaylen Warren",
-    "bump": 4.06
-   },
-   "drop_reasons": [
-    "rest-of-season 8.4/wk, the #4 lowest of your 11 droppable players (model+season)",
-    "not in this week's recommended lineup",
-    "Out (Toe)",
-    "handcuff: PIT backup to Jaylen Warren, about +4.1/wk if Jaylen Warren misses time",
-    "held back from the auto-drop: injured handcuff, and Ollie Gordon (4.7/wk, healthy) is a lower-value drop"
-   ],
-   "held_from_auto_drop": true
   },
   {
    "player_id": "5045",

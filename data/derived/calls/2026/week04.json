@@ -2,8 +2,41 @@
  "week": 4,
  "first_recorded_utc": "2026-09-30T21:26:23Z",
  "source": "live build",
- "updated_utc": "2026-10-02T00:10:53Z",
+ "updated_utc": "2026-10-02T11:10:39Z",
  "start_sit": [
+  {
+   "type": "start_sit",
+   "kind": "change",
+   "player_id": "5872",
+   "name": "Deebo Samuel",
+   "alt_id": "5846",
+   "alt_name": "DK Metcalf",
+   "expected": 9.24,
+   "alt_expected": 8.26,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "change",
+   "player_id": "12506",
+   "name": "Harold Fannin",
+   "alt_id": "5045",
+   "alt_name": "Courtland Sutton",
+   "expected": 9.33,
+   "alt_expected": 8.12,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "5872",
+   "name": "Deebo Samuel",
+   "alt_id": "5846",
+   "alt_name": "DK Metcalf",
+   "expected": 9.24,
+   "alt_expected": 8.26,
+   "started": false
+  },
   {
    "type": "start_sit",
    "kind": "close_call",
@@ -18,6 +51,39 @@
   {
    "type": "start_sit",
    "kind": "close_call",
+   "player_id": "12506",
+   "name": "Harold Fannin",
+   "alt_id": "5846",
+   "alt_name": "DK Metcalf",
+   "expected": 9.33,
+   "alt_expected": 8.26,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "12506",
+   "name": "Harold Fannin",
+   "alt_id": "5045",
+   "alt_name": "Courtland Sutton",
+   "expected": 9.33,
+   "alt_expected": 8.12,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "13346",
+   "name": "Denzel Boston",
+   "alt_id": "5846",
+   "alt_name": "DK Metcalf",
+   "expected": 9.16,
+   "alt_expected": 8.26,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
    "player_id": "13346",
    "name": "Denzel Boston",
    "alt_id": "5045",
@@ -34,28 +100,6 @@
    "alt_id": "5947",
    "alt_name": "Jakobi Meyers",
    "expected": 9.16,
-   "alt_expected": 7.73,
-   "started": false
-  },
-  {
-   "type": "start_sit",
-   "kind": "close_call",
-   "player_id": "5846",
-   "name": "DK Metcalf",
-   "alt_id": "5045",
-   "alt_name": "Courtland Sutton",
-   "expected": 8.26,
-   "alt_expected": 8.12,
-   "started": false
-  },
-  {
-   "type": "start_sit",
-   "kind": "close_call",
-   "player_id": "5846",
-   "name": "DK Metcalf",
-   "alt_id": "5947",
-   "alt_name": "Jakobi Meyers",
-   "expected": 8.26,
    "alt_expected": 7.73,
    "started": false
   }
@@ -103,17 +147,17 @@
   },
   {
    "slot": "FLEX",
-   "player_id": "13346",
-   "name": "Denzel Boston",
-   "expected": 9.16,
+   "player_id": "12506",
+   "name": "Harold Fannin",
+   "expected": 9.33,
    "started": false,
    "frozen": false
   },
   {
    "slot": "FLEX",
-   "player_id": "5846",
-   "name": "DK Metcalf",
-   "expected": 8.26,
+   "player_id": "13346",
+   "name": "Denzel Boston",
+   "expected": 9.16,
    "started": false,
    "frozen": false
   },

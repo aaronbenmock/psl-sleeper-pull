@@ -21,6 +21,25 @@
    "why": "Worth about 27.8 a week next year (model+season); a round-2 pick usually returns 20.4 at QB, so keeping him is worth +7.4 a week."
   },
   {
+   "player_id": "12506",
+   "name": "Harold Fannin",
+   "pos": "TE",
+   "team": "CLE",
+   "age": 22,
+   "years_exp": 1,
+   "ros": 9.14,
+   "ros_how": "model+season",
+   "proj_2027": 9.14,
+   "age_note": "",
+   "cost_round": 14,
+   "cost_pick": "undrafted (round 14 assumed)",
+   "slot_baseline": 6.46,
+   "surplus": 2.68,
+   "kept_2026": false,
+   "rank": 2,
+   "why": "Worth about 9.1 a week next year (model+season); a round-14 pick usually returns 6.5 at TE, so keeping him is worth +2.7 a week."
+  },
+  {
    "player_id": "5872",
    "name": "Deebo Samuel",
    "pos": "WR",
@@ -36,7 +55,7 @@
    "slot_baseline": 9.38,
    "surplus": 2.34,
    "kept_2026": false,
-   "rank": 2,
+   "rank": 3,
    "why": "Worth about 11.7 a week next year (model+season, aged 5%/yr for 1 yr past 30); a round-6 pick usually returns 9.4 at WR, so keeping him is worth +2.3 a week."
   },
   {
@@ -55,7 +74,7 @@
    "slot_baseline": 8.2,
    "surplus": 1.28,
    "kept_2026": false,
-   "rank": 3,
+   "rank": 4,
    "why": "Worth about 9.5 a week next year (model+season); a round-12 pick usually returns 8.2 at WR, so keeping him is worth +1.3 a week."
   },
   {
@@ -74,7 +93,7 @@
    "slot_baseline": 11.61,
    "surplus": 0.96,
    "kept_2026": false,
-   "rank": 4,
+   "rank": 5,
    "why": "Worth about 12.6 a week next year (model+season, aged 5%/yr for 4 yr past 30); a round-3 pick usually returns 11.6 at WR, so keeping him is worth +1.0 a week."
   },
   {
@@ -93,7 +112,7 @@
    "slot_baseline": 7.84,
    "surplus": 0.82,
    "kept_2026": false,
-   "rank": 5,
+   "rank": 6,
    "why": "Worth about 8.7 a week next year (model+season); a round-10 pick usually returns 7.8 at RB, so keeping him is worth +0.8 a week."
   },
   {
@@ -112,7 +131,7 @@
    "slot_baseline": 8.84,
    "surplus": 0.76,
    "kept_2026": false,
-   "rank": 6,
+   "rank": 7,
    "why": "Worth about 9.6 a week next year (model+season); a round-9 pick usually returns 8.8 at WR, so keeping him is worth +0.8 a week."
   },
   {
@@ -131,7 +150,7 @@
    "slot_baseline": 16.16,
    "surplus": 0.24,
    "kept_2026": false,
-   "rank": 7,
+   "rank": 8,
    "why": "Worth about 16.4 a week next year (model+season, aged 8%/yr for 1 yr past 27); a round-1 pick usually returns 16.2 at RB, so keeping him is worth +0.2 a week."
   },
   {
@@ -150,7 +169,7 @@
    "slot_baseline": 9.17,
    "surplus": 0.24,
    "kept_2026": false,
-   "rank": 8,
+   "rank": 9,
    "why": "Worth about 9.4 a week next year (model+season, DEF year-to-year is weak; 15% haircut); a round-8 pick usually returns 9.2 at DEF, so keeping him is worth +0.2 a week."
   },
   {
@@ -169,7 +188,7 @@
    "slot_baseline": 9.14,
    "surplus": -0.37,
    "kept_2026": false,
-   "rank": 9,
+   "rank": 10,
    "why": "Worth about 8.8 a week next year (model+season); a round-7 pick usually returns 9.1 at WR, so keeping him is worth -0.4 a week."
   },
   {
@@ -188,7 +207,7 @@
    "slot_baseline": 6.77,
    "surplus": -1.54,
    "kept_2026": false,
-   "rank": 10,
+   "rank": 11,
    "why": "Worth about 5.2 a week next year (model+season); a round-14 pick usually returns 6.8 at RB, so keeping him is worth -1.5 a week."
   },
   {
@@ -207,7 +226,7 @@
    "slot_baseline": 6.77,
    "surplus": -2.11,
    "kept_2026": false,
-   "rank": 11,
+   "rank": 12,
    "why": "Worth about 4.7 a week next year (model+season); a round-14 pick usually returns 6.8 at RB, so keeping him is worth -2.1 a week."
   },
   {
@@ -226,7 +245,7 @@
    "slot_baseline": 7.69,
    "surplus": -2.34,
    "kept_2026": false,
-   "rank": 12,
+   "rank": 13,
    "why": "Worth about 5.3 a week next year (model+season); a round-11 pick usually returns 7.7 at RB, so keeping him is worth -2.3 a week."
   },
   {
@@ -245,7 +264,7 @@
    "slot_baseline": 9.77,
    "surplus": -2.45,
    "kept_2026": false,
-   "rank": 13,
+   "rank": 14,
    "why": "Worth about 7.3 a week next year (model+season, aged 5%/yr for 1 yr past 30); a round-5 pick usually returns 9.8 at WR, so keeping him is worth -2.5 a week."
   },
   {
@@ -264,7 +283,7 @@
    "slot_baseline": 10.34,
    "surplus": -3.25,
    "kept_2026": false,
-   "rank": 14,
+   "rank": 15,
    "why": "Worth about 7.1 a week next year (model+season, aged 8%/yr for 2 yr past 27); a round-4 pick usually returns 10.3 at RB, so keeping him is worth -3.2 a week."
   },
   {
@@ -283,13 +302,13 @@
    "slot_baseline": 17.43,
    "surplus": -3.62,
    "kept_2026": false,
-   "rank": 15,
+   "rank": 16,
    "why": "Worth about 13.8 a week next year (model+season); a round-14 pick usually returns 17.4 at QB, so keeping him is worth -3.6 a week."
   }
  ],
  "top2": [
   "Josh Allen",
-  "Deebo Samuel"
+  "Harold Fannin"
  ],
  "notes": [
   "Keeper cost rule is assumed (same round as drafted; undrafted adds cost round 14). Fix reference/draft_2026_mockstar.json if the league rule differs. [Guessing]",

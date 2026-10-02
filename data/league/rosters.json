@@ -1,5 +1,5 @@
 {
- "pulled_at_utc": "2026-10-01T11:11:53Z",
+ "pulled_at_utc": "2026-10-02T11:10:39Z",
  "rosters": [
   {
    "co_owners": [
@@ -461,10 +461,11 @@
     "p_nick_616": "Squished Graham Crackers",
     "p_nick_5892": "Knuckles",
     "p_nick_2505": "Waller Da Baller",
-    "p_nick_11625": "Damn, You's A Sexy Mitch",
+    "p_nick_11625": "Resting Mitch Face",
     "p_nick_6011": "Playoff Good Luck Charm",
     "p_nick_7543": "Let \"Em Et",
     "p_nick_2078": "OBJ",
+    "p_nick_4943": "Hey Darnold!",
     "p_nick_1034": "Bolden Delicious",
     "p_nick_6824": "DP Jones",
     "p_nick_4037": "Pray To God I Win",
@@ -484,6 +485,7 @@
     "p_nick_9226": "Achane In The Membrane",
     "p_nick_11624": "Xavier GIRTHY",
     "allow_pn_scoring": "off",
+    "p_nick_8134": "Tupac Shakir",
     "p_nick_7049": "Money Pit",
     "p_nick_4039": "Pooper Butt",
     "p_nick_DAL": "America's D",
@@ -507,6 +509,7 @@
     "p_nick_3257": "JaSmokey Briskey",
     "p_nick_5068": "Keep Calm and Kerryon",
     "p_nick_3214": "Hunter? I Barely Know Her!",
+    "p_nick_4199": "Brighton BAaron",
     "p_nick_7547": "Amon-Ra Doggin It",
     "p_nick_12527": "Billie Jeanty",
     "p_nick_11631": "SO BACK \ud83e\udd72",
@@ -890,7 +893,9 @@
     "8228",
     "KC"
    ],
-   "reserve": null,
+   "reserve": [
+    "13276"
+   ],
    "roster_id": 5,
    "settings": {
     "fpts": 247,
@@ -969,14 +974,14 @@
     "wins": 3
    },
    "starters": [
-    "6904",
+    "1166",
     "9224",
     "7588",
     "7564",
     "8112",
     "12481",
-    "8131",
-    "0"
+    "1479",
+    "DEN"
    ],
    "taxi": null
   },
@@ -1149,7 +1154,7 @@
     "12529",
     "6786",
     "11632",
-    "11834",
+    "7002",
     "9493",
     "LAR"
    ],
@@ -1203,6 +1208,7 @@
     "12048",
     "12474",
     "12495",
+    "12506",
     "13346",
     "2133",
     "4984",
@@ -1217,6 +1223,7 @@
     "SEA"
    ],
    "reserve": [
+    "7021",
     "9753"
    ],
    "roster_id": 8,
@@ -1238,10 +1245,10 @@
     "4984",
     "6813",
     "12474",
-    "5872",
+    "13346",
     "5846",
     "2133",
-    "13346",
+    "5045",
     "SEA"
    ],
    "taxi": null
