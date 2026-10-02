@@ -2,7 +2,7 @@
  "week": 4,
  "first_recorded_utc": "2026-09-30T21:26:23Z",
  "source": "live build",
- "updated_utc": "2026-10-02T16:42:51Z",
+ "updated_utc": "2026-10-02T23:12:32Z",
  "start_sit": [
   {
    "type": "start_sit",
@@ -125,7 +125,7 @@
    "slot": "QB",
    "player_id": "4984",
    "name": "Josh Allen",
-   "expected": 25.95,
+   "expected": 26.25,
    "started": false,
    "frozen": false
   },
@@ -133,7 +133,7 @@
    "slot": "RB",
    "player_id": "6813",
    "name": "Jonathan Taylor",
-   "expected": 19.48,
+   "expected": 19.22,
    "started": false,
    "frozen": false
   },
@@ -149,7 +149,7 @@
    "slot": "WR",
    "player_id": "2133",
    "name": "Davante Adams",
-   "expected": 13.52,
+   "expected": 13.54,
    "started": false,
    "frozen": false
   },

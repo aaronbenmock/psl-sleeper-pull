@@ -4,8 +4,8 @@
    "task": "build",
    "ok": true,
    "summary": "index.html + reports/2026/week04.html; lineup changes 2, claims 8, signals 16, accuracy weeks 3",
-   "started_utc": "2026-10-02T16:42:51Z",
-   "finished_utc": "2026-10-02T16:42:51Z",
+   "started_utc": "2026-10-02T23:12:32Z",
+   "finished_utc": "2026-10-02T23:12:32Z",
    "error": null
   },
   "pull": {
@@ -29,12 +29,12 @@
   "snapshot": {
    "task": "snapshot",
    "ok": true,
-   "summary": "week 4 fri_late_am: 3149 projections, 2 NFL teams already started, 3096 players still pre-kickoff",
-   "started_utc": "2026-10-02T15:39:55Z",
-   "finished_utc": "2026-10-02T15:39:57Z",
+   "summary": "week 4 fri_pm: 3149 projections, 2 NFL teams already started, 3096 players still pre-kickoff",
+   "started_utc": "2026-10-02T23:12:31Z",
+   "finished_utc": "2026-10-02T23:12:32Z",
    "error": null,
    "week": 4,
-   "label": "fri_late_am"
+   "label": "fri_pm"
   },
   "auto-skip": {
    "task": "auto-skip",
@@ -1641,14 +1641,32 @@
    "started_utc": "2026-10-02T16:42:51Z",
    "finished_utc": "2026-10-02T16:42:51Z",
    "error": null
+  },
+  {
+   "task": "snapshot",
+   "ok": true,
+   "summary": "week 4 fri_pm: 3149 projections, 2 NFL teams already started, 3096 players still pre-kickoff",
+   "started_utc": "2026-10-02T23:12:31Z",
+   "finished_utc": "2026-10-02T23:12:32Z",
+   "error": null,
+   "week": 4,
+   "label": "fri_pm"
+  },
+  {
+   "task": "build",
+   "ok": true,
+   "summary": "index.html + reports/2026/week04.html; lineup changes 2, claims 8, signals 16, accuracy weeks 3",
+   "started_utc": "2026-10-02T23:12:32Z",
+   "finished_utc": "2026-10-02T23:12:32Z",
+   "error": null
   }
  ],
  "last_run": {
   "task": "build",
   "ok": true,
   "summary": "index.html + reports/2026/week04.html; lineup changes 2, claims 8, signals 16, accuracy weeks 3",
-  "started_utc": "2026-10-02T16:42:51Z",
-  "finished_utc": "2026-10-02T16:42:51Z",
+  "started_utc": "2026-10-02T23:12:32Z",
+  "finished_utc": "2026-10-02T23:12:32Z",
   "error": null
  }
 }

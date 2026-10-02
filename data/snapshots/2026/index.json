@@ -443,6 +443,18 @@
    "n_players_pre_kickoff": 3096,
    "nfl_state_week": 4,
    "path": "data/snapshots/2026/week04/snap_2026-10-02T1539Z.json"
+  },
+  {
+   "season": "2026",
+   "week": 4,
+   "taken_at_utc": "2026-10-02T23:12:32Z",
+   "taken_at_central": "2026-10-02T18:12:32-05:00",
+   "label": "fri_pm",
+   "n_players": 3149,
+   "n_teams_started": 2,
+   "n_players_pre_kickoff": 3096,
+   "nfl_state_week": 4,
+   "path": "data/snapshots/2026/week04/snap_2026-10-02T2312Z.json"
   }
  ]
 }

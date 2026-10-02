@@ -1,10 +1,10 @@
 {
  "week": 4,
- "generated_at_utc": "2026-10-02T16:42:51Z",
+ "generated_at_utc": "2026-10-02T23:12:32Z",
  "source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-10-02T15:39:57Z",
-  "label": "fri_late_am"
+  "taken_at_utc": "2026-10-02T23:12:32Z",
+  "label": "fri_pm"
  },
  "lineup": [
   {
@@ -13,12 +13,12 @@
    "pos": "QB",
    "team": "BUF",
    "opp": "NE",
-   "sleeper": 24.94,
+   "sleeper": 25.41,
    "preseason": 22.57,
    "season_avg": 34.81,
    "n_games": 3,
    "baseline": 27.82,
-   "expected": 25.95,
+   "expected": 26.25,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -31,7 +31,7 @@
    "started": false,
    "actual_so_far": null,
    "slot": "QB",
-   "why": "Sleeper projects 24.9, season average 34.8 over 3 games, preseason model 22.6. Blended expectation 25.9 vs NE."
+   "why": "Sleeper projects 25.4, season average 34.8 over 3 games, preseason model 22.6. Blended expectation 26.2 vs NE."
   },
   {
    "player_id": "6813",
@@ -39,12 +39,12 @@
    "pos": "RB",
    "team": "IND",
    "opp": "WAS",
-   "sleeper": 20.38,
+   "sleeper": 19.98,
    "preseason": 16.44,
    "season_avg": 19.67,
    "n_games": 3,
    "baseline": 17.82,
-   "expected": 19.48,
+   "expected": 19.22,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -57,7 +57,7 @@
    "started": false,
    "actual_so_far": null,
    "slot": "RB",
-   "why": "Sleeper projects 20.4, season average 19.7 over 3 games, preseason model 16.4. Blended expectation 19.5 vs WAS.",
+   "why": "Sleeper projects 20.0, season average 19.7 over 3 games, preseason model 16.4. Blended expectation 19.2 vs WAS.",
    "vacated": {
     "player_id": "00-0036223",
     "pos": "RB",
@@ -141,12 +141,12 @@
    "pos": "WR",
    "team": "LAR",
    "opp": "PHI",
-   "sleeper": 12.5,
+   "sleeper": 12.52,
    "preseason": 12.3,
    "season_avg": 19.6,
    "n_games": 3,
    "baseline": 15.43,
-   "expected": 13.52,
+   "expected": 13.54,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -396,12 +396,12 @@
    "pos": "QB",
    "team": "MIN",
    "opp": "MIA",
-   "sleeper": 19.82,
+   "sleeper": 20.12,
    "preseason": 17.46,
    "season_avg": 6.52,
    "n_games": 2,
    "baseline": 13.81,
-   "expected": 17.72,
+   "expected": 17.91,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -414,7 +414,7 @@
    "started": false,
    "actual_so_far": null,
    "slot": "BN",
-   "why": "Sleeper projects 19.8, season average 6.5 over 2 games, preseason model 17.5. Blended expectation 17.7 vs MIA."
+   "why": "Sleeper projects 20.1, season average 6.5 over 2 games, preseason model 17.5. Blended expectation 17.9 vs MIA."
   },
   {
    "player_id": "5846",
@@ -587,12 +587,12 @@
    "pos": "RB",
    "team": "MIA",
    "opp": "MIN",
-   "sleeper": 7.36,
+   "sleeper": 7.55,
    "preseason": 4.48,
    "season_avg": 4.9,
    "n_games": 3,
    "baseline": 4.66,
-   "expected": 6.41,
+   "expected": 6.54,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -605,7 +605,7 @@
    "started": false,
    "actual_so_far": null,
    "slot": "BN",
-   "why": "Sleeper projects 7.4, season average 4.9 over 3 games, preseason model 4.5. Blended expectation 6.4 vs MIN.",
+   "why": "Sleeper projects 7.5, season average 4.9 over 3 games, preseason model 4.5. Blended expectation 6.5 vs MIN.",
    "vacated": {
     "player_id": "00-0040198",
     "pos": "RB",
@@ -645,12 +645,12 @@
    "pos": "RB",
    "team": "SEA",
    "opp": "LAC",
-   "sleeper": 4.38,
+   "sleeper": 6.42,
    "preseason": 5.85,
    "season_avg": 4.4,
    "n_games": 3,
    "baseline": 5.23,
-   "expected": 4.21,
+   "expected": 5.4,
    "injury_status": "Questionable",
    "injury_body_part": "Ribs",
    "practice": null,
@@ -663,7 +663,7 @@
    "started": false,
    "actual_so_far": null,
    "slot": "BN",
-   "why": "Sleeper projects 4.4, season average 4.4 over 3 games, preseason model 5.8, Questionable (Ribs) cuts it by 9%. Blended expectation 4.2 vs LAC.",
+   "why": "Sleeper projects 6.4, season average 4.4 over 3 games, preseason model 5.8, Questionable (Ribs) cuts it by 9%. Blended expectation 5.4 vs LAC.",
    "vacated": {
     "player_id": "00-0039299",
     "pos": "RB",
@@ -854,9 +854,9 @@
    "why": "Denzel Boston 9.2 vs Jakobi Meyers 7.7, only 1.4 apart."
   }
  ],
- "expected_total": 104.7,
+ "expected_total": 104.8,
  "notes": [
-  "Projections are from the fri_late_am snapshot taken Fri Oct 02 10:39 AM Central.",
+  "Projections are from the fri_pm snapshot taken Fri Oct 02 06:12 PM Central.",
   "3 of your players have already kicked off this week; their rows show points so far."
  ],
  "vacated_meta": {

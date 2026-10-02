@@ -5,25 +5,25 @@
  "opponent": "Eazy E Squad",
  "manager": "espad",
  "roster_id": 5,
- "my_total": 104.7,
- "opp_set_total": 104.0,
- "opp_best_total": 104.0,
- "verdict": "toss-up",
- "margin": 0.7,
- "verdict_vs_best": "toss-up",
+ "my_total": 104.8,
+ "opp_set_total": 92.3,
+ "opp_best_total": 99.7,
+ "verdict": "favored",
+ "margin": 12.5,
+ "verdict_vs_best": "favored",
  "opp_injured": [
   {
    "name": "Justin Jefferson",
    "pos": "WR",
    "status": "Questionable",
-   "expected": 11.65,
+   "expected": 0.0,
    "body": "Ankle"
   },
   {
    "name": "Jalen Coker",
    "pos": "WR",
    "status": "Questionable",
-   "expected": 10.59,
+   "expected": 10.57,
    "body": "Quadriceps"
   }
  ],
@@ -39,7 +39,7 @@
   {
    "name": "Saquon Barkley",
    "pos": "RB",
-   "expected": 12.65,
+   "expected": 12.7,
    "injury_status": null,
    "baseline_only": false
   },
@@ -53,7 +53,7 @@
   {
    "name": "Justin Jefferson",
    "pos": "WR",
-   "expected": 11.65,
+   "expected": 0.0,
    "injury_status": "Questionable",
    "baseline_only": false
   },
@@ -67,7 +67,7 @@
   {
    "name": "Jalen Coker",
    "pos": "WR",
-   "expected": 10.59,
+   "expected": 10.57,
    "injury_status": "Questionable",
    "baseline_only": false
   },
@@ -86,15 +86,15 @@
    "baseline_only": false
   }
  ],
- "median_total": 104.0,
+ "median_total": 101.2,
  "median_verdict": "toss-up",
- "median_margin": 0.7,
+ "median_margin": 3.6,
  "source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-10-02T15:39:57Z",
-  "label": "fri_late_am"
+  "taken_at_utc": "2026-10-02T23:12:32Z",
+  "label": "fri_pm"
  },
  "opp_baseline_only": 0,
- "why": "Your recommended lineup projects 104.7; Eazy E Squad's set lineup 104.0 (best possible from their roster 104.0). Margin +0.7: toss-up, with a 5-point band called a toss-up.",
+ "why": "Your recommended lineup projects 104.8; Eazy E Squad's set lineup 92.3 (best possible from their roster 99.7). Margin +12.5: favored.",
  "note": "Both sides use the engine blend (0.65 x Sleeper + 0.35 x baseline, injury multipliers), so the totals are comparable. Inside +/-5 points the game is called a toss-up [Guessing]. Your own lineup still follows max expected points; the matchup does not change who you start."
 }
