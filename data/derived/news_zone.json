@@ -1,7 +1,7 @@
 {
  "machine": {
   "date_central": "2026-10-02",
-  "age_hours": 27.7,
+  "age_hours": 32.6,
   "my_roster": [
    {
     "player_id": "12048",
@@ -813,6 +813,6 @@
   "source_key": "desktop-scheduled-task",
   "n_calls": 0,
   "stale": false,
-  "age_days": 2.7
+  "age_days": 2.9
  }
 }
