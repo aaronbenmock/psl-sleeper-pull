@@ -2,7 +2,7 @@
  "week": 4,
  "first_recorded_utc": "2026-09-30T21:26:23Z",
  "source": "live build",
- "updated_utc": "2026-10-03T00:10:26Z",
+ "updated_utc": "2026-10-03T12:49:26Z",
  "start_sit": [
   {
    "type": "start_sit",
@@ -111,6 +111,17 @@
   {
    "type": "start_sit",
    "kind": "close_call",
+   "player_id": "12474",
+   "name": "Woody Marks",
+   "alt_id": "12495",
+   "alt_name": "Ollie Gordon",
+   "expected": 8.13,
+   "alt_expected": 6.67,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
    "player_id": "5872",
    "name": "Deebo Samuel",
    "alt_id": "5045",
@@ -133,7 +144,7 @@
    "slot": "RB",
    "player_id": "6813",
    "name": "Jonathan Taylor",
-   "expected": 19.22,
+   "expected": 19.43,
    "started": false,
    "frozen": false
   },
@@ -149,7 +160,7 @@
    "slot": "WR",
    "player_id": "2133",
    "name": "Davante Adams",
-   "expected": 13.54,
+   "expected": 13.52,
    "started": false,
    "frozen": false
   },

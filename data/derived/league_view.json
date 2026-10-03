@@ -42,7 +42,7 @@
    "efficiency": 0.96,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 124.03,
+   "proj_next": 123.77,
    "future_opps": [
     2,
     11,
@@ -98,7 +98,7 @@
    "trend": -3.5,
    "trend_label": "flat",
    "sos_remaining": 95.5,
-   "power": 136.3,
+   "power": 136.2,
    "power_rank": 1,
    "pf_rank": 1
   },
@@ -143,7 +143,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 108.34,
+   "proj_next": 108.74,
    "future_opps": [
     6,
     7,
@@ -199,7 +199,7 @@
    "trend": -16.5,
    "trend_label": "falling",
    "sos_remaining": 100.31,
-   "power": 114.8,
+   "power": 114.9,
    "power_rank": 2,
    "pf_rank": 2
   },
@@ -237,7 +237,7 @@
    "efficiency": 0.82,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 108.4,
+   "proj_next": 108.22,
    "future_opps": [
     11,
     5,
@@ -293,103 +293,9 @@
    "trend": 5.5,
    "trend_label": "rising",
    "sos_remaining": 100.22,
-   "power": 113.0,
+   "power": 112.9,
    "power_rank": 3,
    "pf_rank": 4
-  },
-  {
-   "roster_id": 11,
-   "team": "RafiBomb",
-   "manager": "TheRafiBombb",
-   "is_mine": false,
-   "wins": 4,
-   "losses": 2,
-   "ties": 0,
-   "h2h": "2-1",
-   "median": "2-1",
-   "allplay": "16-17",
-   "allplay_pct": 0.485,
-   "scores": [
-    93.45,
-    123.88,
-    113.24
-   ],
-   "avg": 110.19,
-   "last": 113.24,
-   "pf": 330.57,
-   "proj_totals": [
-    103.14,
-    106.09,
-    104.53
-   ],
-   "vs_proj": 16.81,
-   "bench_left": [
-    26.6,
-    10.0,
-    27.56
-   ],
-   "efficiency": 0.84,
-   "injured_starters": [],
-   "byes_next": [],
-   "proj_next": 114.44,
-   "future_opps": [
-    10,
-    3,
-    1,
-    2,
-    7,
-    5,
-    9,
-    6,
-    12,
-    4,
-    8,
-    10,
-    3,
-    1,
-    2
-   ],
-   "faab_used": 0,
-   "starters_now": [
-    {
-     "name": "Bryce Young",
-     "pos": "QB"
-    },
-    {
-     "name": "James Cook",
-     "pos": "RB"
-    },
-    {
-     "name": "Kyren Williams",
-     "pos": "RB"
-    },
-    {
-     "name": "Parker Washington",
-     "pos": "WR"
-    },
-    {
-     "name": "Christian Watson",
-     "pos": "WR"
-    },
-    {
-     "name": "Jaylen Waddle",
-     "pos": "WR"
-    },
-    {
-     "name": "Chuba Hubbard",
-     "pos": "RB"
-    },
-    {
-     "name": "BAL DEF",
-     "pos": "DEF"
-    }
-   ],
-   "trend": 9.9,
-   "trend_label": "rising",
-   "sos_remaining": 103.39,
-   "power": 111.9,
-   "power_rank": 4,
-   "pf_rank": 6
   },
   {
    "roster_id": 1,
@@ -432,7 +338,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 104.8,
+   "proj_next": 104.63,
    "future_opps": [
     7,
     2,
@@ -488,9 +394,103 @@
    "trend": 23.1,
    "trend_label": "rising",
    "sos_remaining": 96.8,
-   "power": 111.8,
-   "power_rank": 5,
+   "power": 111.7,
+   "power_rank": 4,
    "pf_rank": 3
+  },
+  {
+   "roster_id": 11,
+   "team": "RafiBomb",
+   "manager": "TheRafiBombb",
+   "is_mine": false,
+   "wins": 4,
+   "losses": 2,
+   "ties": 0,
+   "h2h": "2-1",
+   "median": "2-1",
+   "allplay": "16-17",
+   "allplay_pct": 0.485,
+   "scores": [
+    93.45,
+    123.88,
+    113.24
+   ],
+   "avg": 110.19,
+   "last": 113.24,
+   "pf": 330.57,
+   "proj_totals": [
+    103.14,
+    106.09,
+    104.53
+   ],
+   "vs_proj": 16.81,
+   "bench_left": [
+    26.6,
+    10.0,
+    27.56
+   ],
+   "efficiency": 0.84,
+   "injured_starters": [],
+   "byes_next": [],
+   "proj_next": 114.06,
+   "future_opps": [
+    10,
+    3,
+    1,
+    2,
+    7,
+    5,
+    9,
+    6,
+    12,
+    4,
+    8,
+    10,
+    3,
+    1,
+    2
+   ],
+   "faab_used": 0,
+   "starters_now": [
+    {
+     "name": "Bryce Young",
+     "pos": "QB"
+    },
+    {
+     "name": "James Cook",
+     "pos": "RB"
+    },
+    {
+     "name": "Kyren Williams",
+     "pos": "RB"
+    },
+    {
+     "name": "Parker Washington",
+     "pos": "WR"
+    },
+    {
+     "name": "Christian Watson",
+     "pos": "WR"
+    },
+    {
+     "name": "Jaylen Waddle",
+     "pos": "WR"
+    },
+    {
+     "name": "Chuba Hubbard",
+     "pos": "RB"
+    },
+    {
+     "name": "BAL DEF",
+     "pos": "DEF"
+    }
+   ],
+   "trend": 9.9,
+   "trend_label": "rising",
+   "sos_remaining": 103.39,
+   "power": 111.7,
+   "power_rank": 5,
+   "pf_rank": 6
   },
   {
    "roster_id": 8,
@@ -526,7 +526,7 @@
    "efficiency": 0.87,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 100.48,
+   "proj_next": 100.78,
    "future_opps": [
     5,
     9,
@@ -582,7 +582,7 @@
    "trend": -7.2,
    "trend_label": "falling",
    "sos_remaining": 100.84,
-   "power": 109.6,
+   "power": 109.7,
    "power_rank": 6,
    "pf_rank": 5
   },
@@ -627,7 +627,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 102.97,
+   "proj_next": 103.08,
    "future_opps": [
     12,
     4,
@@ -734,7 +734,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 104.52,
+   "proj_next": 105.09,
    "future_opps": [
     1,
     12,
@@ -790,7 +790,7 @@
    "trend": -11.7,
    "trend_label": "falling",
    "sos_remaining": 101.2,
-   "power": 96.7,
+   "power": 96.9,
    "power_rank": 8,
    "pf_rank": 9
   },
@@ -835,7 +835,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 91.41,
+   "proj_next": 90.69,
    "future_opps": [
     4,
     8,
@@ -891,7 +891,7 @@
    "trend": -28.8,
    "trend_label": "falling",
    "sos_remaining": 106.56,
-   "power": 96.6,
+   "power": 96.4,
    "power_rank": 9,
    "pf_rank": 7
   },
@@ -942,7 +942,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 99.77,
+   "proj_next": 99.4,
    "future_opps": [
     8,
     10,
@@ -998,7 +998,7 @@
    "trend": -17.2,
    "trend_label": "falling",
    "sos_remaining": 109.49,
-   "power": 89.5,
+   "power": 89.3,
    "power_rank": 10,
    "pf_rank": 11
   },
@@ -1043,7 +1043,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 87.89,
+   "proj_next": 87.55,
    "future_opps": [
     9,
     6,
@@ -1099,7 +1099,7 @@
    "trend": 17.8,
    "trend_label": "rising",
    "sos_remaining": 103.15,
-   "power": 89.2,
+   "power": 89.0,
    "power_rank": 11,
    "pf_rank": 10
   },
@@ -1144,7 +1144,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 77.71,
+   "proj_next": 77.45,
    "future_opps": [
     3,
     1,
@@ -1200,7 +1200,7 @@
    "trend": -10.9,
    "trend_label": "falling",
    "sos_remaining": 109.54,
-   "power": 62.2,
+   "power": 62.1,
    "power_rank": 12,
    "pf_rank": 12
   }
@@ -1308,7 +1308,7 @@
  ],
  "projection_source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-10-02T23:12:32Z",
-  "label": "fri_pm"
+  "taken_at_utc": "2026-10-03T12:49:26Z",
+  "label": "sat_early"
  }
 }
