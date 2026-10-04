@@ -62,11 +62,10 @@
      "roster_id": 7,
      "team": "Cheeky Nando\u2019s",
      "remaining": 186,
-     "score": 4.5,
+     "score": 3.5,
      "why": [
       "starter Puka Nacua Questionable",
       "starter ruled out or put on IR this week: Mike Evans (Out)",
-      "just dropped Malachi Fields",
       "has bid on a WR before"
      ],
      "usual_bid": 8,
@@ -77,22 +76,21 @@
      "pos_max": 1
     },
     {
-     "roster_id": 1,
-     "team": "tacocats",
-     "remaining": 140,
-     "score": 3.5,
+     "roster_id": 9,
+     "team": "Girthenheimer",
+     "remaining": 167,
+     "score": 2.5,
      "why": [
-      "owns Josh Downs, the IND WR1 (handcuff interest)",
-      "starter Ladd McConkey Questionable",
-      "just dropped Caleb Douglas",
+      "starter DJ Moore Questionable",
+      "just dropped Tyreek Hill",
       "has bid on a WR before"
      ],
-     "usual_bid": 13,
+     "usual_bid": 3,
      "repeated": [
-      13,
-      1
+      15,
+      3
      ],
-     "pos_max": 12
+     "pos_max": 8
     }
    ],
    "league_bid": 9,
@@ -103,8 +101,8 @@
    "pace": 1.21,
    "comparable": "Thu Oct 1 run's top WR add: Keenan Allen went $23 to ScampDaddy with 3 bidders (losing: ValKilmersComeback $17, Be Safe, Get Jaxcinated $14).",
    "comparable_bid": 23,
-   "to_beat": 15,
-   "to_beat_why": "$15: $2 over tacocats, who has bid $13 more than once",
+   "to_beat": 17,
+   "to_beat_why": "$17: $2 over Girthenheimer, who has bid $15 more than once",
    "to_beat_within_value": false
   },
   {
@@ -150,11 +148,10 @@
      "roster_id": 7,
      "team": "Cheeky Nando\u2019s",
      "remaining": 186,
-     "score": 4.5,
+     "score": 3.5,
      "why": [
       "starter Puka Nacua Questionable",
       "starter ruled out or put on IR this week: Mike Evans (Out)",
-      "just dropped Malachi Fields",
       "has bid on a WR before"
      ],
      "usual_bid": 8,
@@ -265,7 +262,7 @@
      "remaining": 140,
      "score": 1.5,
      "why": [
-      "just dropped SF DEF, NYG DEF",
+      "just dropped NYG DEF",
       "has bid on a DEF before"
      ],
      "usual_bid": 13,
@@ -451,11 +448,10 @@
      "roster_id": 7,
      "team": "Cheeky Nando\u2019s",
      "remaining": 186,
-     "score": 4.5,
+     "score": 3.5,
      "why": [
       "starter Puka Nacua Questionable",
       "starter ruled out or put on IR this week: Mike Evans (Out)",
-      "just dropped Malachi Fields",
       "has bid on a WR before"
      ],
      "usual_bid": 8,
@@ -584,11 +580,10 @@
      "roster_id": 7,
      "team": "Cheeky Nando\u2019s",
      "remaining": 186,
-     "score": 4.5,
+     "score": 3.5,
      "why": [
       "starter Puka Nacua Questionable",
       "starter ruled out or put on IR this week: Mike Evans (Out)",
-      "just dropped Malachi Fields",
       "has bid on a WR before"
      ],
      "usual_bid": 8,
@@ -659,8 +654,8 @@
      "remaining": 94,
      "score": 8.5,
      "why": [
-      "owns Alvin Kamara, the NO RB1 (handcuff interest)",
       "owns Travis Etienne (IR), the NO RB he would replace",
+      "owns Alvin Kamara, the NO RB1 (handcuff interest)",
       "starter ruled out or put on IR this week: De'Von Achane (IR)",
       "just dropped De'Von Achane",
       "has bid on a RB before"
@@ -1374,11 +1369,10 @@
      "roster_id": 7,
      "team": "Cheeky Nando\u2019s",
      "remaining": 186,
-     "score": 4.5,
+     "score": 3.5,
      "why": [
       "starter Puka Nacua Questionable",
       "starter ruled out or put on IR this week: Mike Evans (Out)",
-      "just dropped Malachi Fields",
       "has bid on a WR before"
      ],
      "usual_bid": 8,
@@ -1498,11 +1492,10 @@
      "roster_id": 7,
      "team": "Cheeky Nando\u2019s",
      "remaining": 186,
-     "score": 4.5,
+     "score": 3.5,
      "why": [
       "starter Puka Nacua Questionable",
       "starter ruled out or put on IR this week: Mike Evans (Out)",
-      "just dropped Malachi Fields",
       "has bid on a WR before"
      ],
      "usual_bid": 8,
