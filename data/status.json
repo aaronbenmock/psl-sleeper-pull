@@ -4,8 +4,8 @@
    "task": "build",
    "ok": true,
    "summary": "index.html + reports/2026/week04.html; lineup changes 2, claims 8, signals 16, accuracy weeks 3",
-   "started_utc": "2026-10-04T02:59:09Z",
-   "finished_utc": "2026-10-04T02:59:10Z",
+   "started_utc": "2026-10-04T03:05:23Z",
+   "finished_utc": "2026-10-04T03:05:23Z",
    "error": null
   },
   "pull": {
@@ -39,9 +39,9 @@
   "auto-skip": {
    "task": "auto-skip",
    "ok": true,
-   "summary": "skipped at 2026-10-03T21:59:09-05:00",
-   "started_utc": "2026-10-04T02:59:09Z",
-   "finished_utc": "2026-10-04T02:59:09Z",
+   "summary": "skipped at 2026-10-03T22:05:22-05:00",
+   "started_utc": "2026-10-04T03:05:22Z",
+   "finished_utc": "2026-10-04T03:05:22Z",
    "error": null
   },
   "usage": {
@@ -54,24 +54,6 @@
   }
  },
  "runs": [
-  {
-   "task": "pull",
-   "ok": true,
-   "summary": "completed wk 1, upcoming wk 2, waiver pool 667, matchup weeks 18, scored files 1, record check: median game ON: each team plays its opponent and the league median every week",
-   "started_utc": "2026-09-18T17:16:45Z",
-   "finished_utc": "2026-09-18T17:16:49Z",
-   "error": null,
-   "completed_week": 1,
-   "upcoming_week": 2
-  },
-  {
-   "task": "injuries",
-   "ok": true,
-   "summary": "175 rostered players tracked, 28 changes since never, 3 of mine carry an injury tag, players cache reused",
-   "started_utc": "2026-09-18T17:16:49Z",
-   "finished_utc": "2026-09-18T17:16:49Z",
-   "error": null
-  },
   {
    "task": "snapshot",
    "ok": true,
@@ -1749,14 +1731,30 @@
    "started_utc": "2026-10-04T02:59:09Z",
    "finished_utc": "2026-10-04T02:59:10Z",
    "error": null
+  },
+  {
+   "task": "auto-skip",
+   "ok": true,
+   "summary": "skipped at 2026-10-03T22:05:22-05:00",
+   "started_utc": "2026-10-04T03:05:22Z",
+   "finished_utc": "2026-10-04T03:05:22Z",
+   "error": null
+  },
+  {
+   "task": "build",
+   "ok": true,
+   "summary": "index.html + reports/2026/week04.html; lineup changes 2, claims 8, signals 16, accuracy weeks 3",
+   "started_utc": "2026-10-04T03:05:23Z",
+   "finished_utc": "2026-10-04T03:05:23Z",
+   "error": null
   }
  ],
  "last_run": {
   "task": "build",
   "ok": true,
   "summary": "index.html + reports/2026/week04.html; lineup changes 2, claims 8, signals 16, accuracy weeks 3",
-  "started_utc": "2026-10-04T02:59:09Z",
-  "finished_utc": "2026-10-04T02:59:10Z",
+  "started_utc": "2026-10-04T03:05:23Z",
+  "finished_utc": "2026-10-04T03:05:23Z",
   "error": null
  }
 }
