@@ -2,7 +2,7 @@
  "week": 4,
  "first_recorded_utc": "2026-09-30T21:26:23Z",
  "source": "live build",
- "updated_utc": "2026-10-04T21:00:12Z",
+ "updated_utc": "2026-10-04T23:13:42Z",
  "start_sit": [
   {
    "type": "start_sit",
@@ -111,24 +111,15 @@
   {
    "type": "start_sit",
    "kind": "close_call",
-   "player_id": "12474",
-   "name": "Woody Marks",
-   "alt_id": "12495",
-   "alt_name": "Ollie Gordon",
-   "expected": 8.13,
-   "alt_expected": 6.67,
-   "started": false
-  },
-  {
-   "type": "start_sit",
-   "kind": "close_call",
    "player_id": "5872",
    "name": "Deebo Samuel",
    "alt_id": "5045",
    "alt_name": "Courtland Sutton",
-   "expected": 9.24,
-   "alt_expected": 8.16,
-   "started": false
+   "expected": 9.32,
+   "alt_expected": 8.17,
+   "started": true,
+   "frozen": true,
+   "frozen_at_utc": "2026-10-04T23:13:42Z"
   }
  ],
  "lineup": [
@@ -136,41 +127,41 @@
    "slot": "QB",
    "player_id": "4984",
    "name": "Josh Allen",
-   "expected": 26.25,
-   "started": false,
-   "frozen": false
+   "expected": 26.04,
+   "started": true,
+   "frozen": true
   },
   {
    "slot": "RB",
    "player_id": "6813",
    "name": "Jonathan Taylor",
-   "expected": 19.43,
-   "started": false,
-   "frozen": false
+   "expected": 19.42,
+   "started": true,
+   "frozen": true
   },
   {
    "slot": "RB",
    "player_id": "12474",
    "name": "Woody Marks",
-   "expected": 8.13,
-   "started": false,
-   "frozen": false
+   "expected": 8.15,
+   "started": true,
+   "frozen": true
   },
   {
    "slot": "WR",
    "player_id": "2133",
    "name": "Davante Adams",
-   "expected": 13.52,
-   "started": false,
-   "frozen": false
+   "expected": 13.84,
+   "started": true,
+   "frozen": true
   },
   {
    "slot": "WR",
    "player_id": "5872",
    "name": "Deebo Samuel",
-   "expected": 9.24,
-   "started": false,
-   "frozen": false
+   "expected": 9.32,
+   "started": true,
+   "frozen": true
   },
   {
    "slot": "FLEX",
@@ -193,8 +184,8 @@
    "player_id": "SEA",
    "name": "SEA DEF",
    "expected": 9.89,
-   "started": false,
-   "frozen": false
+   "started": true,
+   "frozen": true
   }
  ],
  "claims_freeze_utc": "2026-10-01T07:00:00Z",

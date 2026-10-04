@@ -5,13 +5,20 @@
  "opponent": "Eazy E Squad",
  "manager": "espad",
  "roster_id": 5,
- "my_total": 105.0,
- "opp_set_total": 92.1,
- "opp_best_total": 99.4,
+ "my_total": 105.2,
+ "opp_set_total": 69.1,
+ "opp_best_total": 88.9,
  "verdict": "favored",
- "margin": 12.9,
+ "margin": 36.1,
  "verdict_vs_best": "favored",
  "opp_injured": [
+  {
+   "name": "Saquon Barkley",
+   "pos": "RB",
+   "status": null,
+   "expected": 0.0,
+   "body": null
+  },
   {
    "name": "Justin Jefferson",
    "pos": "WR",
@@ -23,7 +30,7 @@
    "name": "Jalen Coker",
    "pos": "WR",
    "status": "Questionable",
-   "expected": 10.6,
+   "expected": 0.0,
    "body": "Quadriceps"
   }
  ],
@@ -32,21 +39,21 @@
   {
    "name": "Trevor Lawrence",
    "pos": "QB",
-   "expected": 21.59,
+   "expected": 21.72,
    "injury_status": null,
    "baseline_only": false
   },
   {
    "name": "Saquon Barkley",
    "pos": "RB",
-   "expected": 12.71,
+   "expected": 0.0,
    "injury_status": null,
    "baseline_only": false
   },
   {
    "name": "David Montgomery",
    "pos": "RB",
-   "expected": 12.9,
+   "expected": 12.93,
    "injury_status": null,
    "baseline_only": false
   },
@@ -60,14 +67,14 @@
   {
    "name": "George Pickens",
    "pos": "WR",
-   "expected": 11.28,
+   "expected": 11.33,
    "injury_status": null,
    "baseline_only": false
   },
   {
    "name": "Jalen Coker",
    "pos": "WR",
-   "expected": 10.6,
+   "expected": 0.0,
    "injury_status": "Questionable",
    "baseline_only": false
   },
@@ -81,20 +88,20 @@
   {
    "name": "KC DEF",
    "pos": "DEF",
-   "expected": 8.2,
+   "expected": 8.27,
    "injury_status": null,
    "baseline_only": false
   }
  ],
- "median_total": 101.2,
- "median_verdict": "toss-up",
- "median_margin": 3.8,
+ "median_total": 96.0,
+ "median_verdict": "favored",
+ "median_margin": 9.2,
  "source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-10-03T12:49:26Z",
-  "label": "sat_early"
+  "taken_at_utc": "2026-10-04T23:13:42Z",
+  "label": "sun_pm"
  },
  "opp_baseline_only": 0,
- "why": "Your recommended lineup projects 105.0; Eazy E Squad's set lineup 92.1 (best possible from their roster 99.4). Margin +12.9: favored.",
+ "why": "Your recommended lineup projects 105.2; Eazy E Squad's set lineup 69.1 (best possible from their roster 88.9). Margin +36.1: favored.",
  "note": "Both sides use the engine blend (0.65 x Sleeper + 0.35 x baseline, injury multipliers), so the totals are comparable. Inside +/-5 points the game is called a toss-up [Guessing]. Your own lineup still follows max expected points; the matchup does not change who you start."
 }
