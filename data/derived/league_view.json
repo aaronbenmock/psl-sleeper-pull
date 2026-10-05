@@ -49,7 +49,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 123.66,
+   "proj_next": 123.59,
    "future_opps": [
     2,
     11,
@@ -105,7 +105,7 @@
    "trend": -3.5,
    "trend_label": "flat",
    "sos_remaining": 95.5,
-   "power": 136.2,
+   "power": 136.1,
    "power_rank": 1,
    "pf_rank": 1
   },
@@ -728,7 +728,7 @@
    "efficiency": 0.88,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 100.95,
+   "proj_next": 100.68,
    "future_opps": [
     9,
     6,
@@ -784,7 +784,7 @@
    "trend": 17.8,
    "trend_label": "rising",
    "sos_remaining": 103.15,
-   "power": 94.4,
+   "power": 94.3,
    "power_rank": 8,
    "pf_rank": 10
   },
@@ -829,7 +829,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 90.29,
+   "proj_next": 90.21,
    "future_opps": [
     12,
     4,
@@ -885,7 +885,7 @@
    "trend": -0.3,
    "trend_label": "flat",
    "sos_remaining": 105.26,
-   "power": 92.7,
+   "power": 92.6,
    "power_rank": 9,
    "pf_rank": 8
   },
@@ -1144,7 +1144,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 78.2,
+   "proj_next": 78.21,
    "future_opps": [
     3,
     1,
@@ -1308,7 +1308,7 @@
  ],
  "projection_source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-10-05T15:41:28Z",
-  "label": "mon_late_am"
+  "taken_at_utc": "2026-10-05T23:13:57Z",
+  "label": "mon_pm"
  }
 }
