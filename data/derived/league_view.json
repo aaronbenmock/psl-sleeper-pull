@@ -251,7 +251,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 109.5,
+   "proj_next": 110.07,
    "future_opps": [
     6,
     7,
@@ -307,7 +307,7 @@
    "trend": -16.5,
    "trend_label": "falling",
    "sos_remaining": 100.31,
-   "power": 115.2,
+   "power": 115.5,
    "power_rank": 3,
    "pf_rank": 2
   },
@@ -345,7 +345,7 @@
    "efficiency": 0.84,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 115.06,
+   "proj_next": 115.01,
    "future_opps": [
     10,
     3,
@@ -540,7 +540,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 96.41,
+   "proj_next": 97.3,
    "future_opps": [
     7,
     2,
@@ -596,7 +596,7 @@
    "trend": 23.1,
    "trend_label": "rising",
    "sos_remaining": 96.8,
-   "power": 108.4,
+   "power": 108.8,
    "power_rank": 6,
    "pf_rank": 3
   },
@@ -728,7 +728,7 @@
    "efficiency": 0.88,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 100.63,
+   "proj_next": 100.99,
    "future_opps": [
     9,
     6,
@@ -784,7 +784,7 @@
    "trend": 17.8,
    "trend_label": "rising",
    "sos_remaining": 103.15,
-   "power": 94.3,
+   "power": 94.4,
    "power_rank": 8,
    "pf_rank": 10
   },
@@ -1144,7 +1144,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 78.35,
+   "proj_next": 78.38,
    "future_opps": [
     3,
     1,
@@ -1308,7 +1308,7 @@
  ],
  "projection_source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-10-04T23:13:42Z",
-  "label": "sun_pm"
+  "taken_at_utc": "2026-10-05T12:04:53Z",
+  "label": "mon_early"
  }
 }

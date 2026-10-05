@@ -1694,8 +1694,8 @@
      "remaining": 111,
      "score": 6.5,
      "why": [
-      "owns Tank Dell (IR), the HOU WR he would replace",
       "owns Nico Collins, the HOU WR1 (handcuff interest)",
+      "owns Tank Dell (IR), the HOU WR he would replace",
       "starter Rashee Rice Questionable",
       "has bid on a WR before"
      ],
@@ -2327,7 +2327,7 @@
    "sd_wk": 3.283,
    "vor": -82.8,
    "started": true,
-   "actual_so_far": 1.9,
+   "actual_so_far": 2.5,
    "slot": "BN",
    "why": "Sleeper projects 6.5, season average 4.4 over 3 games, preseason model 5.8. Blended expectation 6.1 vs LAC.",
    "vacated": {
@@ -2676,7 +2676,7 @@
    "sd_wk": 3.283,
    "vor": -82.8,
    "started": true,
-   "actual_so_far": 1.9,
+   "actual_so_far": 2.5,
    "slot": "BN",
    "why": "Sleeper projects 6.5, season average 4.4 over 3 games, preseason model 5.8. Blended expectation 6.1 vs LAC.",
    "vacated": {
@@ -3154,7 +3154,7 @@
    "sd_wk": 6.486,
    "vor": 27.9,
    "started": true,
-   "actual_so_far": 15.75,
+   "actual_so_far": 16.95,
    "slot": "WR",
    "why": "Sleeper projects 7.7, season average 15.2 over 3 games, preseason model 10.2. Blended expectation 9.3 vs DEN.",
    "vacated": {
@@ -3543,7 +3543,7 @@
    "sd_wk": 6.486,
    "vor": 27.9,
    "started": true,
-   "actual_so_far": 15.75,
+   "actual_so_far": 16.95,
    "slot": "WR",
    "why": "Sleeper projects 7.7, season average 15.2 over 3 games, preseason model 10.2. Blended expectation 9.3 vs DEN.",
    "vacated": {
@@ -3614,7 +3614,7 @@
    "sd_wk": 10.357,
    "vor": null,
    "started": true,
-   "actual_so_far": 11.5,
+   "actual_so_far": 16.2,
    "slot": "DEF",
    "why": "Sleeper projects 9.2, season average 8.4 over 3 games, preseason model 13.1. Blended expectation 9.9 vs LAC.",
    "ros": 11.07,
@@ -4039,7 +4039,7 @@
    "sd_wk": 3.283,
    "vor": -82.8,
    "started": true,
-   "actual_so_far": 1.9,
+   "actual_so_far": 2.5,
    "slot": "BN",
    "why": "Sleeper projects 6.5, season average 4.4 over 3 games, preseason model 5.8. Blended expectation 6.1 vs LAC.",
    "vacated": {
