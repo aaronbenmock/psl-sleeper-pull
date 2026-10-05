@@ -2,7 +2,7 @@
  "week": 4,
  "first_recorded_utc": "2026-09-30T21:26:23Z",
  "source": "live build",
- "updated_utc": "2026-10-05T00:11:28Z",
+ "updated_utc": "2026-10-05T11:12:24Z",
  "start_sit": [
   {
    "type": "start_sit",
@@ -120,6 +120,32 @@
    "started": true,
    "frozen": true,
    "frozen_at_utc": "2026-10-04T23:13:42Z"
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "5872",
+   "name": "Deebo Samuel",
+   "alt_id": "5947",
+   "alt_name": "Jakobi Meyers",
+   "expected": 9.32,
+   "alt_expected": 8.6,
+   "started": true,
+   "frozen": true,
+   "frozen_at_utc": "2026-10-05T11:12:24Z"
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "12506",
+   "name": "Harold Fannin",
+   "alt_id": "5947",
+   "alt_name": "Jakobi Meyers",
+   "expected": 9.34,
+   "alt_expected": 8.6,
+   "started": true,
+   "frozen": true,
+   "frozen_at_utc": "2026-10-05T11:12:24Z"
   }
  ],
  "lineup": [

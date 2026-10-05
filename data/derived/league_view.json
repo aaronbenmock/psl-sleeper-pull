@@ -40,7 +40,14 @@
     13.12
    ],
    "efficiency": 0.96,
-   "injured_starters": [],
+   "injured_starters": [
+    {
+     "name": "Lamar Jackson",
+     "pos": "QB",
+     "status": "Questionable",
+     "body": "Ankle"
+    }
+   ],
    "byes_next": [],
    "proj_next": 124.11,
    "future_opps": [
@@ -103,6 +110,107 @@
    "pf_rank": 1
   },
   {
+   "roster_id": 10,
+   "team": "Derrelick my Balls",
+   "manager": "dlamas",
+   "is_mine": false,
+   "wins": 4,
+   "losses": 2,
+   "ties": 0,
+   "h2h": "2-1",
+   "median": "2-1",
+   "allplay": "21-12",
+   "allplay_pct": 0.636,
+   "scores": [
+    106.59,
+    124.18,
+    117.54
+   ],
+   "avg": 116.1,
+   "last": 117.54,
+   "pf": 348.31,
+   "proj_totals": [
+    96.09,
+    92.16,
+    101.35
+   ],
+   "vs_proj": 58.71,
+   "bench_left": [
+    39.22,
+    1.6,
+    38.0
+   ],
+   "efficiency": 0.82,
+   "injured_starters": [
+    {
+     "name": "Rashee Rice",
+     "pos": "WR",
+     "status": "Questionable",
+     "body": "Hamstring"
+    }
+   ],
+   "byes_next": [],
+   "proj_next": 118.53,
+   "future_opps": [
+    11,
+    5,
+    9,
+    6,
+    12,
+    4,
+    8,
+    7,
+    3,
+    1,
+    2,
+    11,
+    5,
+    9,
+    6
+   ],
+   "faab_used": 89,
+   "starters_now": [
+    {
+     "name": "Patrick Mahomes",
+     "pos": "QB"
+    },
+    {
+     "name": "Derrick Henry",
+     "pos": "RB"
+    },
+    {
+     "name": "RJ Harvey",
+     "pos": "RB"
+    },
+    {
+     "name": "Nico Collins",
+     "pos": "WR"
+    },
+    {
+     "name": "Garrett Wilson",
+     "pos": "WR"
+    },
+    {
+     "name": "Brock Bowers",
+     "pos": "TE"
+    },
+    {
+     "name": "Rashee Rice",
+     "pos": "WR"
+    },
+    {
+     "name": "MIN DEF",
+     "pos": "DEF"
+    }
+   ],
+   "trend": 5.5,
+   "trend_label": "rising",
+   "sos_remaining": 100.22,
+   "power": 117.1,
+   "power_rank": 2,
+   "pf_rank": 4
+  },
+  {
    "roster_id": 12,
    "team": "Baker\u2019s Dozen",
    "manager": "juicyjuicy100",
@@ -136,10 +244,10 @@
    "efficiency": 0.91,
    "injured_starters": [
     {
-     "name": "Bucky Irving",
-     "pos": "RB",
+     "name": "Tee Higgins",
+     "pos": "WR",
      "status": "Questionable",
-     "body": "Lower Body"
+     "body": "Groin"
     }
    ],
    "byes_next": [],
@@ -200,102 +308,8 @@
    "trend_label": "falling",
    "sos_remaining": 100.31,
    "power": 115.2,
-   "power_rank": 2,
-   "pf_rank": 2
-  },
-  {
-   "roster_id": 10,
-   "team": "Derrelick my Balls",
-   "manager": "dlamas",
-   "is_mine": false,
-   "wins": 4,
-   "losses": 2,
-   "ties": 0,
-   "h2h": "2-1",
-   "median": "2-1",
-   "allplay": "21-12",
-   "allplay_pct": 0.636,
-   "scores": [
-    106.59,
-    124.18,
-    117.54
-   ],
-   "avg": 116.1,
-   "last": 117.54,
-   "pf": 348.31,
-   "proj_totals": [
-    96.09,
-    92.16,
-    101.35
-   ],
-   "vs_proj": 58.71,
-   "bench_left": [
-    39.22,
-    1.6,
-    38.0
-   ],
-   "efficiency": 0.82,
-   "injured_starters": [],
-   "byes_next": [],
-   "proj_next": 108.11,
-   "future_opps": [
-    11,
-    5,
-    9,
-    6,
-    12,
-    4,
-    8,
-    7,
-    3,
-    1,
-    2,
-    11,
-    5,
-    9,
-    6
-   ],
-   "faab_used": 89,
-   "starters_now": [
-    {
-     "name": "Patrick Mahomes",
-     "pos": "QB"
-    },
-    {
-     "name": "Derrick Henry",
-     "pos": "RB"
-    },
-    {
-     "name": "Kyle Monangai",
-     "pos": "RB"
-    },
-    {
-     "name": "Garrett Wilson",
-     "pos": "WR"
-    },
-    {
-     "name": "Rashee Rice",
-     "pos": "WR"
-    },
-    {
-     "name": "Travis Kelce",
-     "pos": "TE"
-    },
-    {
-     "name": "Dalton Kincaid",
-     "pos": "TE"
-    },
-    {
-     "name": "MIN DEF",
-     "pos": "DEF"
-    }
-   ],
-   "trend": 5.5,
-   "trend_label": "rising",
-   "sos_remaining": 100.22,
-   "power": 112.9,
    "power_rank": 3,
-   "pf_rank": 4
+   "pf_rank": 2
   },
   {
    "roster_id": 11,
@@ -521,7 +535,7 @@
     {
      "name": "Ladd McConkey",
      "pos": "WR",
-     "status": "Questionable",
+     "status": "Out",
      "body": "Foot"
     }
    ],
@@ -618,22 +632,9 @@
     3.6
    ],
    "efficiency": 0.87,
-   "injured_starters": [
-    {
-     "name": "D'Andre Swift",
-     "pos": "RB",
-     "status": "Questionable",
-     "body": "Knee"
-    },
-    {
-     "name": "Puka Nacua",
-     "pos": "WR",
-     "status": "Questionable",
-     "body": "Hip"
-    }
-   ],
+   "injured_starters": [],
    "byes_next": [],
-   "proj_next": 106.08,
+   "proj_next": 107.83,
    "future_opps": [
     1,
     12,
@@ -662,7 +663,7 @@
      "pos": "RB"
     },
     {
-     "name": "TreVeyon Henderson",
+     "name": "Rhamondre Stevenson",
      "pos": "RB"
     },
     {
@@ -670,15 +671,15 @@
      "pos": "WR"
     },
     {
-     "name": "Malik Nabers",
+     "name": "Puka Nacua",
      "pos": "WR"
     },
     {
-     "name": "Juwan Johnson",
-     "pos": "TE"
+     "name": "TreVeyon Henderson",
+     "pos": "RB"
     },
     {
-     "name": "Puka Nacua",
+     "name": "Malik Nabers",
      "pos": "WR"
     },
     {
@@ -689,110 +690,9 @@
    "trend": -11.7,
    "trend_label": "falling",
    "sos_remaining": 101.2,
-   "power": 97.3,
+   "power": 98.0,
    "power_rank": 7,
    "pf_rank": 9
-  },
-  {
-   "roster_id": 9,
-   "team": "Girthenheimer",
-   "manager": "Breadsticks310",
-   "is_mine": false,
-   "wins": 2,
-   "losses": 4,
-   "ties": 0,
-   "h2h": "1-2",
-   "median": "1-2",
-   "allplay": "15-18",
-   "allplay_pct": 0.455,
-   "scores": [
-    145.36,
-    67.32,
-    87.74
-   ],
-   "avg": 100.14,
-   "last": 87.74,
-   "pf": 300.42,
-   "proj_totals": [
-    95.65,
-    98.63,
-    88.64
-   ],
-   "vs_proj": 17.5,
-   "bench_left": [
-    11.4,
-    29.87,
-    25.1
-   ],
-   "efficiency": 0.8,
-   "injured_starters": [
-    {
-     "name": "DJ Moore",
-     "pos": "WR",
-     "status": "Questionable",
-     "body": "Shoulder"
-    }
-   ],
-   "byes_next": [],
-   "proj_next": 92.18,
-   "future_opps": [
-    4,
-    8,
-    10,
-    3,
-    1,
-    2,
-    11,
-    5,
-    7,
-    6,
-    12,
-    4,
-    8,
-    10,
-    3
-   ],
-   "faab_used": 33,
-   "starters_now": [
-    {
-     "name": "Geno Smith",
-     "pos": "QB"
-    },
-    {
-     "name": "Jacory Croskey-Merritt",
-     "pos": "RB"
-    },
-    {
-     "name": "Omarion Hampton",
-     "pos": "RB"
-    },
-    {
-     "name": "Zay Flowers",
-     "pos": "WR"
-    },
-    {
-     "name": "DJ Moore",
-     "pos": "WR"
-    },
-    {
-     "name": "Stefon Diggs",
-     "pos": "WR"
-    },
-    {
-     "name": "Michael Wilson",
-     "pos": "WR"
-    },
-    {
-     "name": "JAX DEF",
-     "pos": "DEF"
-    }
-   ],
-   "trend": -28.8,
-   "trend_label": "falling",
-   "sos_remaining": 106.56,
-   "power": 97.0,
-   "power_rank": 8,
-   "pf_rank": 7
   },
   {
    "roster_id": 4,
@@ -826,16 +726,9 @@
     20.05
    ],
    "efficiency": 0.88,
-   "injured_starters": [
-    {
-     "name": "DeVonta Smith",
-     "pos": "WR",
-     "status": "Questionable",
-     "body": "Hamstring"
-    }
-   ],
+   "injured_starters": [],
    "byes_next": [],
-   "proj_next": 87.96,
+   "proj_next": 100.63,
    "future_opps": [
     9,
     6,
@@ -868,7 +761,7 @@
      "pos": "RB"
     },
     {
-     "name": "DeVonta Smith",
+     "name": "Kalif Raymond",
      "pos": "WR"
     },
     {
@@ -876,7 +769,7 @@
      "pos": "WR"
     },
     {
-     "name": "J.K. Dobbins",
+     "name": "Braelon Allen",
      "pos": "RB"
     },
     {
@@ -891,8 +784,8 @@
    "trend": 17.8,
    "trend_label": "rising",
    "sos_remaining": 103.15,
-   "power": 89.2,
-   "power_rank": 9,
+   "power": 94.3,
+   "power_rank": 8,
    "pf_rank": 10
   },
   {
@@ -929,14 +822,14 @@
    "efficiency": 0.82,
    "injured_starters": [
     {
-     "name": "Keenan Allen",
+     "name": "Ja'Marr Chase",
      "pos": "WR",
-     "status": "Questionable",
-     "body": "Groin"
+     "status": "Out",
+     "body": "Concussion"
     }
    ],
    "byes_next": [],
-   "proj_next": 80.36,
+   "proj_next": 89.67,
    "future_opps": [
     12,
     4,
@@ -954,7 +847,7 @@
     8,
     10
    ],
-   "faab_used": 48,
+   "faab_used": 49,
    "starters_now": [
     {
      "name": "Kirk Cousins",
@@ -981,8 +874,8 @@
      "pos": "RB"
     },
     {
-     "name": "Keenan Allen",
-     "pos": "WR"
+     "name": "Isaiah Likely",
+     "pos": "TE"
     },
     {
      "name": "DEN DEF",
@@ -992,9 +885,116 @@
    "trend": -0.3,
    "trend_label": "flat",
    "sos_remaining": 105.26,
-   "power": 88.7,
-   "power_rank": 10,
+   "power": 92.4,
+   "power_rank": 9,
    "pf_rank": 8
+  },
+  {
+   "roster_id": 9,
+   "team": "Girthenheimer",
+   "manager": "Breadsticks310",
+   "is_mine": false,
+   "wins": 2,
+   "losses": 4,
+   "ties": 0,
+   "h2h": "1-2",
+   "median": "1-2",
+   "allplay": "15-18",
+   "allplay_pct": 0.455,
+   "scores": [
+    145.36,
+    67.32,
+    87.74
+   ],
+   "avg": 100.14,
+   "last": 87.74,
+   "pf": 300.42,
+   "proj_totals": [
+    95.65,
+    98.63,
+    88.64
+   ],
+   "vs_proj": 17.5,
+   "bench_left": [
+    11.4,
+    29.87,
+    25.1
+   ],
+   "efficiency": 0.8,
+   "injured_starters": [
+    {
+     "name": "Marcus Mariota",
+     "pos": "QB",
+     "status": "Out",
+     "body": "Knee"
+    },
+    {
+     "name": "DJ Moore",
+     "pos": "WR",
+     "status": "Questionable",
+     "body": "Undisclosed"
+    }
+   ],
+   "byes_next": [],
+   "proj_next": 76.33,
+   "future_opps": [
+    4,
+    8,
+    10,
+    3,
+    1,
+    2,
+    11,
+    5,
+    7,
+    6,
+    12,
+    4,
+    8,
+    10,
+    3
+   ],
+   "faab_used": 36,
+   "starters_now": [
+    {
+     "name": "Marcus Mariota",
+     "pos": "QB"
+    },
+    {
+     "name": "Jacory Croskey-Merritt",
+     "pos": "RB"
+    },
+    {
+     "name": "Omarion Hampton",
+     "pos": "RB"
+    },
+    {
+     "name": "Zay Flowers",
+     "pos": "WR"
+    },
+    {
+     "name": "DJ Moore",
+     "pos": "WR"
+    },
+    {
+     "name": "Stefon Diggs",
+     "pos": "WR"
+    },
+    {
+     "name": "Michael Wilson",
+     "pos": "WR"
+    },
+    {
+     "name": "JAX DEF",
+     "pos": "DEF"
+    }
+   ],
+   "trend": -28.8,
+   "trend_label": "falling",
+   "sos_remaining": 106.56,
+   "power": 90.6,
+   "power_rank": 10,
+   "pf_rank": 7
   },
   {
    "roster_id": 5,
@@ -1030,20 +1030,20 @@
    "efficiency": 0.8,
    "injured_starters": [
     {
-     "name": "Justin Jefferson",
-     "pos": "WR",
-     "status": "Questionable",
-     "body": "Ankle"
+     "name": "Saquon Barkley",
+     "pos": "RB",
+     "status": "Out",
+     "body": "Hamstring"
     },
     {
-     "name": "Jalen Coker",
+     "name": "Justin Jefferson",
      "pos": "WR",
-     "status": "Questionable",
-     "body": "Quadriceps"
+     "status": "Out",
+     "body": "Ankle"
     }
    ],
    "byes_next": [],
-   "proj_next": 73.81,
+   "proj_next": 82.39,
    "future_opps": [
     8,
     10,
@@ -1084,8 +1084,8 @@
      "pos": "WR"
     },
     {
-     "name": "Jalen Coker",
-     "pos": "WR"
+     "name": "Colston Loveland",
+     "pos": "TE"
     },
     {
      "name": "Jaylen Warren",
@@ -1099,7 +1099,7 @@
    "trend": -17.2,
    "trend_label": "falling",
    "sos_remaining": 109.49,
-   "power": 79.1,
+   "power": 82.5,
    "power_rank": 11,
    "pf_rank": 11
   },
@@ -1137,14 +1137,14 @@
    "efficiency": 0.79,
    "injured_starters": [
     {
-     "name": "Kenyon Sadiq",
-     "pos": "TE",
+     "name": "Mack Hollins",
+     "pos": "WR",
      "status": "Questionable",
-     "body": "Undisclosed"
+     "body": "Calf"
     }
    ],
    "byes_next": [],
-   "proj_next": 79.37,
+   "proj_next": 78.35,
    "future_opps": [
     3,
     1,
@@ -1165,7 +1165,7 @@
    "faab_used": 106,
    "starters_now": [
     {
-     "name": "Drake Maye",
+     "name": "Jacoby Brissett",
      "pos": "QB"
     },
     {
@@ -1200,23 +1200,23 @@
    "trend": -10.9,
    "trend_label": "falling",
    "sos_remaining": 109.54,
-   "power": 62.8,
+   "power": 62.4,
    "power_rank": 12,
    "pf_rank": 12
   }
  ],
  "signals": [
   {
-   "team": "Cheeky Nando\u2019s",
-   "kind": "injured_starters",
-   "severity": "medium",
-   "text": "Cheeky Nando\u2019s has 2 of 8 starters carrying injury tags: D'Andre Swift Questionable (Knee), Puka Nacua Questionable (Hip)."
-  },
-  {
    "team": "Eazy E Squad",
    "kind": "injured_starters",
    "severity": "medium",
-   "text": "Eazy E Squad has 2 of 8 starters carrying injury tags: Justin Jefferson Questionable (Ankle), Jalen Coker Questionable (Quadriceps)."
+   "text": "Eazy E Squad has 2 of 8 starters carrying injury tags: Saquon Barkley Out (Hamstring), Justin Jefferson Out (Ankle)."
+  },
+  {
+   "team": "Girthenheimer",
+   "kind": "injured_starters",
+   "severity": "medium",
+   "text": "Girthenheimer has 2 of 8 starters carrying injury tags: Marcus Mariota Out (Knee), DJ Moore Questionable (Undisclosed)."
   },
   {
    "team": "ValKilmersComeback",
@@ -1240,13 +1240,19 @@
    "team": "Baker\u2019s Dozen",
    "kind": "injured_starter",
    "severity": "low",
-   "text": "Baker\u2019s Dozen (#2 scorer) has Bucky Irving listed Questionable."
+   "text": "Baker\u2019s Dozen (#2 scorer) has Tee Higgins listed Questionable."
   },
   {
    "team": "Baker\u2019s Dozen",
    "kind": "cold",
    "severity": "low",
    "text": "Baker\u2019s Dozen scored 95.54 last week, 24 below its average of 119.07."
+  },
+  {
+   "team": "Be Safe, Get Jaxcinated",
+   "kind": "injured_starter",
+   "severity": "low",
+   "text": "Be Safe, Get Jaxcinated (#1 scorer) has Lamar Jackson listed Questionable."
   },
   {
    "team": "Be Safe, Get Jaxcinated",
@@ -1295,12 +1301,6 @@
    "kind": "vs_projection",
    "severity": "low",
    "text": "ScampDaddy has missed Sleeper's starter projections by 15 points a week over 3 weeks."
-  },
-  {
-   "team": "tacocats",
-   "kind": "injured_starter",
-   "severity": "low",
-   "text": "tacocats (#3 scorer) has Ladd McConkey listed Questionable."
   }
  ],
  "notes": [

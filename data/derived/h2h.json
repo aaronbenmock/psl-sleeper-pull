@@ -6,32 +6,25 @@
  "manager": "espad",
  "roster_id": 5,
  "my_total": 105.2,
- "opp_set_total": 69.1,
+ "opp_set_total": 76.4,
  "opp_best_total": 88.9,
  "verdict": "favored",
- "margin": 36.1,
+ "margin": 28.8,
  "verdict_vs_best": "favored",
  "opp_injured": [
   {
    "name": "Saquon Barkley",
    "pos": "RB",
-   "status": null,
+   "status": "Out",
    "expected": 0.0,
-   "body": null
+   "body": "Hamstring"
   },
   {
    "name": "Justin Jefferson",
    "pos": "WR",
-   "status": "Questionable",
+   "status": "Out",
    "expected": 0.0,
    "body": "Ankle"
-  },
-  {
-   "name": "Jalen Coker",
-   "pos": "WR",
-   "status": "Questionable",
-   "expected": 0.0,
-   "body": "Quadriceps"
   }
  ],
  "opp_byes": [],
@@ -47,7 +40,7 @@
    "name": "Saquon Barkley",
    "pos": "RB",
    "expected": 0.0,
-   "injury_status": null,
+   "injury_status": "Out",
    "baseline_only": false
   },
   {
@@ -61,7 +54,7 @@
    "name": "Justin Jefferson",
    "pos": "WR",
    "expected": 0.0,
-   "injury_status": "Questionable",
+   "injury_status": "Out",
    "baseline_only": false
   },
   {
@@ -72,10 +65,10 @@
    "baseline_only": false
   },
   {
-   "name": "Jalen Coker",
-   "pos": "WR",
-   "expected": 0.0,
-   "injury_status": "Questionable",
+   "name": "Colston Loveland",
+   "pos": "TE",
+   "expected": 7.37,
+   "injury_status": null,
    "baseline_only": false
   },
   {
@@ -93,15 +86,15 @@
    "baseline_only": false
   }
  ],
- "median_total": 96.0,
+ "median_total": 97.2,
  "median_verdict": "favored",
- "median_margin": 9.2,
+ "median_margin": 8.0,
  "source": {
   "kind": "pre-kickoff snapshot",
   "taken_at_utc": "2026-10-04T23:13:42Z",
   "label": "sun_pm"
  },
  "opp_baseline_only": 0,
- "why": "Your recommended lineup projects 105.2; Eazy E Squad's set lineup 69.1 (best possible from their roster 88.9). Margin +36.1: favored.",
+ "why": "Your recommended lineup projects 105.2; Eazy E Squad's set lineup 76.4 (best possible from their roster 88.9). Margin +28.8: favored.",
  "note": "Both sides use the engine blend (0.65 x Sleeper + 0.35 x baseline, injury multipliers), so the totals are comparable. Inside +/-5 points the game is called a toss-up [Guessing]. Your own lineup still follows max expected points; the matchup does not change who you start."
 }

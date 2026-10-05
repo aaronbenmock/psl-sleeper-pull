@@ -1,6 +1,66 @@
 {
  "claims": [
   {
+   "run": 29850131,
+   "processed_utc": "2026-10-03T06:11:00Z",
+   "processed": "Sat Oct 3 1:11 AM",
+   "player_id": "11435",
+   "name": "Emanuel Wilson",
+   "pos": "RB",
+   "winner_rid": 9,
+   "winner": "Girthenheimer",
+   "winning_bid": 3,
+   "dropped": [
+    "Devin Neal"
+   ],
+   "losing": [
+    {
+     "roster_id": 6,
+     "team": "ScampDaddy",
+     "bid": 3,
+     "reason": "This player was claimed by another owner."
+    }
+   ],
+   "n_bidders": 2
+  },
+  {
+   "run": 29850131,
+   "processed_utc": "2026-10-03T06:11:00Z",
+   "processed": "Sat Oct 3 1:11 AM",
+   "player_id": "CIN",
+   "name": "CIN DEF",
+   "pos": "DEF",
+   "winner_rid": 1,
+   "winner": "tacocats",
+   "winning_bid": 0,
+   "dropped": [
+    "Keon Coleman"
+   ],
+   "losing": [],
+   "n_bidders": 1
+  },
+  {
+   "run": 29849831,
+   "processed_utc": "2026-10-03T01:11:00Z",
+   "processed": "Fri Oct 2 8:11 PM",
+   "player_id": "3321",
+   "name": "Tyreek Hill",
+   "pos": "WR",
+   "winner_rid": 6,
+   "winner": "ScampDaddy",
+   "winning_bid": 1,
+   "dropped": [],
+   "losing": [
+    {
+     "roster_id": 9,
+     "team": "Girthenheimer",
+     "bid": 0,
+     "reason": "This player was claimed by another owner."
+    }
+   ],
+   "n_bidders": 2
+  },
+  {
    "run": 29847301,
    "processed_utc": "2026-10-01T07:01:00Z",
    "processed": "Thu Oct 1 2:01 AM",
@@ -878,19 +938,19 @@
     "max_contested": 65
    },
    "RB": {
-    "n_wins": 7,
-    "median_win": 6,
+    "n_wins": 8,
+    "median_win": 5.5,
     "max_win": 53,
-    "n_contested": 3,
-    "median_contested": 47,
+    "n_contested": 4,
+    "median_contested": 25.0,
     "max_contested": 53
    },
    "WR": {
-    "n_wins": 7,
-    "median_win": 11,
+    "n_wins": 8,
+    "median_win": 9.0,
     "max_win": 26,
-    "n_contested": 4,
-    "median_contested": 17.5,
+    "n_contested": 5,
+    "median_contested": 12,
     "max_contested": 26
    },
    "TE": {
@@ -902,8 +962,8 @@
     "max_contested": 31
    },
    "DEF": {
-    "n_wins": 8,
-    "median_win": 6.5,
+    "n_wins": 9,
+    "median_win": 3,
     "max_win": 31,
     "n_contested": 4,
     "median_contested": 6.5,
@@ -911,6 +971,22 @@
    }
   },
   "most_contested": [
+   {
+    "processed": "Sat Oct 3 1:11 AM",
+    "name": "Emanuel Wilson",
+    "pos": "RB",
+    "winner": "Girthenheimer",
+    "winning_bid": 3,
+    "n_bidders": 2
+   },
+   {
+    "processed": "Fri Oct 2 8:11 PM",
+    "name": "Tyreek Hill",
+    "pos": "WR",
+    "winner": "ScampDaddy",
+    "winning_bid": 1,
+    "n_bidders": 2
+   },
    {
     "processed": "Thu Oct 1 2:01 AM",
     "name": "Ollie Gordon",
@@ -944,7 +1020,7 @@
     "n_bidders": 5
    }
   ],
-  "most_contested_median": 29.5
+  "most_contested_median": 9.0
  },
  "teams": [
   {
@@ -1010,8 +1086,8 @@
    "spent_in_log": 60,
    "log_matches": true,
    "remaining": 140,
-   "n_claims": 16,
-   "n_wins": 5,
+   "n_claims": 17,
+   "n_wins": 6,
    "biggest_win": {
     "name": "SF DEF",
     "bid": 28
@@ -1026,12 +1102,12 @@
   {
    "roster_id": 6,
    "team": "ScampDaddy",
-   "spent": 48,
-   "spent_in_log": 48,
+   "spent": 49,
+   "spent_in_log": 49,
    "log_matches": true,
-   "remaining": 152,
-   "n_claims": 7,
-   "n_wins": 4,
+   "remaining": 151,
+   "n_claims": 9,
+   "n_wins": 5,
    "biggest_win": {
     "name": "Keenan Allen",
     "bid": 23
@@ -1063,18 +1139,18 @@
   {
    "roster_id": 9,
    "team": "Girthenheimer",
-   "spent": 33,
-   "spent_in_log": 33,
+   "spent": 36,
+   "spent_in_log": 36,
    "log_matches": true,
-   "remaining": 167,
-   "n_claims": 12,
-   "n_wins": 6,
+   "remaining": 164,
+   "n_claims": 14,
+   "n_wins": 7,
    "biggest_win": {
     "name": "Emanuel Wilson",
     "bid": 15
    },
    "usual_bid": 3,
-   "usual_how": "bid $3 3 times",
+   "usual_how": "bid $3 4 times",
    "repeated": [
     15,
     3
@@ -1214,36 +1290,11 @@
   }
  ],
  "latest": {
-  "run": 29847301,
-  "processed": "Thu Oct 1 2:01 AM",
-  "processed_utc": "2026-10-01T07:01:00Z",
-  "n_claims_league": 24,
-  "bids": [
-   {
-    "processed": "Thu Oct 1 2:01 AM",
-    "run": 29847301,
-    "name": "Ollie Gordon",
-    "pos": "RB",
-    "result": "won",
-    "my_bid": 47,
-    "winning_bid": 47,
-    "winner": "ValKilmersComeback",
-    "n_bidders": 4,
-    "next_best": 21
-   },
-   {
-    "processed": "Thu Oct 1 2:01 AM",
-    "run": 29847301,
-    "name": "Keenan Allen",
-    "pos": "WR",
-    "result": "lost",
-    "my_bid": 17,
-    "winning_bid": 23,
-    "winner": "ScampDaddy",
-    "n_bidders": 3,
-    "reason": "This player was claimed by another owner."
-   }
-  ]
+  "run": 29850131,
+  "processed": "Sat Oct 3 1:11 AM",
+  "processed_utc": "2026-10-03T06:11:00Z",
+  "n_claims_league": 3,
+  "bids": []
  },
  "latest_mine": {
   "run": 29847301,
@@ -1276,8 +1327,8 @@
   ]
  },
  "budget_total": 200,
- "n_runs": 5,
- "ids_total": 71,
+ "n_runs": 7,
+ "ids_total": 73,
  "ids_unresolved": [],
  "note": "Losing bids come from Sleeper's failed-claim records. A failed claim above the winning bid failed for another reason (roster limit, budget, an earlier claim), so it is not read as an outbid. Failure reasons are only recorded from October 2026 on."
 }
