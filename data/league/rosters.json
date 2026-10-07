@@ -1,5 +1,5 @@
 {
- "pulled_at_utc": "2026-10-06T11:11:29Z",
+ "pulled_at_utc": "2026-10-07T11:11:33Z",
  "rosters": [
   {
    "co_owners": [
@@ -81,7 +81,7 @@
     "p_nick_8172": "I'm Old Greggg",
     "p_nick_10219": "Chris",
     "restrict_pn_scoring_starters_only": "on",
-    "p_nick_12512": "Leroyyyyy JUDKINS",
+    "p_nick_12512": "Junkin Jonuts",
     "p_nick_5859": "The Brown Note",
     "p_nick_1067": "Starvin' Marvin",
     "p_nick_695": "Ginn & Juice",
@@ -132,7 +132,7 @@
     "p_nick_4171": "Dennis Reynolds",
     "p_nick_2749": "Raheem Abdul-Jabbar",
     "p_nick_BAL": "Conspiracy",
-    "p_nick_12504": "Own thr Leberals",
+    "p_nick_12504": "i have no o-line",
     "allow_pn_news": "on",
     "p_nick_9509": "Bijan-Claude Van Damme",
     "p_nick_2463": "The Pop Star?",
@@ -174,7 +174,7 @@
     "p_nick_8167": "IBM Watson",
     "p_nick_PHI": "Philadelphia Smeagols",
     "p_nick_8230": "Ty Dolla $ign",
-    "p_nick_9221": "Own the Gibberals",
+    "p_nick_9221": "Jahmyroquai",
     "p_nick_2320": "Smellvin",
     "p_nick_6659": "Dennis Reynolds, the Golden God",
     "p_nick_5937": "Celine Diontae",
@@ -656,13 +656,13 @@
     "wins": 6
    },
    "starters": [
-    "4881",
+    "4943",
     "4199",
-    "4034",
+    "12527",
     "9488",
     "8144",
     "8130",
-    "12527",
+    "4034",
     "HOU"
    ],
    "taxi": null
@@ -964,7 +964,7 @@
    "settings": {
     "fpts": 390,
     "fpts_against": 395,
-    "fpts_against_decimal": 20,
+    "fpts_against_decimal": 70,
     "fpts_decimal": 90,
     "losses": 4,
     "ppts": 456,
@@ -1155,9 +1155,9 @@
     "6790",
     "7611",
     "6786",
-    "9493",
-    "12529",
     "11632",
+    "10859",
+    "9493",
     "LAR"
    ],
    "taxi": null
@@ -1207,7 +1207,6 @@
    "owner_id": "305451719549001728",
    "player_map": null,
    "players": [
-    "12048",
     "12474",
     "12495",
     "12506",
@@ -1420,12 +1419,12 @@
    },
    "starters": [
     "2307",
-    "12533",
     "12507",
-    "9997",
-    "4983",
-    "2449",
+    "9511",
+    "9486",
     "10232",
+    "11435",
+    "9997",
     "JAX"
    ],
    "taxi": null
@@ -1749,10 +1748,10 @@
     "fpts": 478,
     "fpts_against": 326,
     "fpts_against_decimal": 85,
-    "fpts_decimal": 20,
+    "fpts_decimal": 70,
     "losses": 1,
     "ppts": 526,
-    "ppts_decimal": 39,
+    "ppts_decimal": 89,
     "ties": 0,
     "total_moves": 0,
     "waiver_budget_used": 0,

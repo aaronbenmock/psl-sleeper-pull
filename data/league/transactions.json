@@ -1,5 +1,5 @@
 {
- "pulled_at_utc": "2026-10-06T11:11:29Z",
+ "pulled_at_utc": "2026-10-07T11:11:33Z",
  "by_week": {
   "1": [
    {
@@ -2348,6 +2348,24 @@
     "status_updated": 1791114063859,
     "leg": 4,
     "creator": "858422436264280064",
+    "metadata": null
+   },
+   {
+    "transaction_id": "1413168513887080448",
+    "type": "free_agent",
+    "status": "complete",
+    "roster_ids": [
+     8
+    ],
+    "adds": null,
+    "drops": {
+     "12048": 8
+    },
+    "settings": null,
+    "created": 1791288138413,
+    "status_updated": 1791288138413,
+    "leg": 4,
+    "creator": "305451719549001728",
     "metadata": null
    }
   ],

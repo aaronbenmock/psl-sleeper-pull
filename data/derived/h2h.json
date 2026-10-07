@@ -15,14 +15,14 @@
   {
    "name": "Saquon Barkley",
    "pos": "RB",
-   "status": "Out",
+   "status": "Questionable",
    "expected": 0.0,
    "body": "Hamstring"
   },
   {
    "name": "Justin Jefferson",
    "pos": "WR",
-   "status": "Out",
+   "status": "Questionable",
    "expected": 0.0,
    "body": "Ankle"
   }
@@ -40,7 +40,7 @@
    "name": "Saquon Barkley",
    "pos": "RB",
    "expected": 0.0,
-   "injury_status": "Out",
+   "injury_status": "Questionable",
    "baseline_only": false
   },
   {
@@ -54,7 +54,7 @@
    "name": "Justin Jefferson",
    "pos": "WR",
    "expected": 0.0,
-   "injury_status": "Out",
+   "injury_status": "Questionable",
    "baseline_only": false
   },
   {

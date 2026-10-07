@@ -40,16 +40,9 @@
     13.12
    ],
    "efficiency": 0.96,
-   "injured_starters": [
-    {
-     "name": "Lamar Jackson",
-     "pos": "QB",
-     "status": "Questionable",
-     "body": "Ankle"
-    }
-   ],
+   "injured_starters": [],
    "byes_next": [],
-   "proj_next": 123.59,
+   "proj_next": 118.77,
    "future_opps": [
     2,
     11,
@@ -70,7 +63,7 @@
    "faab_used": 26,
    "starters_now": [
     {
-     "name": "Lamar Jackson",
+     "name": "Sam Darnold",
      "pos": "QB"
     },
     {
@@ -78,7 +71,7 @@
      "pos": "RB"
     },
     {
-     "name": "Christian McCaffrey",
+     "name": "Ashton Jeanty",
      "pos": "RB"
     },
     {
@@ -94,7 +87,7 @@
      "pos": "TE"
     },
     {
-     "name": "Ashton Jeanty",
+     "name": "Christian McCaffrey",
      "pos": "RB"
     },
     {
@@ -105,7 +98,7 @@
    "trend": -3.5,
    "trend_label": "flat",
    "sos_remaining": 95.5,
-   "power": 136.1,
+   "power": 134.2,
    "power_rank": 1,
    "pf_rank": 1
   },
@@ -627,7 +620,7 @@
    "efficiency": 0.87,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 107.83,
+   "proj_next": 108.24,
    "future_opps": [
     1,
     12,
@@ -664,15 +657,15 @@
      "pos": "WR"
     },
     {
-     "name": "Puka Nacua",
+     "name": "Malik Nabers",
      "pos": "WR"
     },
     {
-     "name": "TreVeyon Henderson",
-     "pos": "RB"
+     "name": "Sam LaPorta",
+     "pos": "TE"
     },
     {
-     "name": "Malik Nabers",
+     "name": "Puka Nacua",
      "pos": "WR"
     },
     {
@@ -683,7 +676,7 @@
    "trend": -11.7,
    "trend_label": "falling",
    "sos_remaining": 101.2,
-   "power": 98.0,
+   "power": 98.2,
    "power_rank": 7,
    "pf_rank": 9
   },
@@ -824,7 +817,7 @@
     {
      "name": "Ja'Marr Chase",
      "pos": "WR",
-     "status": "Out",
+     "status": "Questionable",
      "body": "Concussion"
     }
    ],
@@ -925,18 +918,12 @@
     {
      "name": "Marcus Mariota",
      "pos": "QB",
-     "status": "Out",
-     "body": "Knee"
-    },
-    {
-     "name": "DJ Moore",
-     "pos": "WR",
-     "status": "Questionable",
-     "body": "Undisclosed"
+     "status": "Doubtful",
+     "body": "Knee - MCL"
     }
    ],
    "byes_next": [],
-   "proj_next": 76.33,
+   "proj_next": 65.25,
    "future_opps": [
     4,
     8,
@@ -961,27 +948,27 @@
      "pos": "QB"
     },
     {
-     "name": "Jacory Croskey-Merritt",
-     "pos": "RB"
-    },
-    {
      "name": "Omarion Hampton",
      "pos": "RB"
     },
     {
-     "name": "Zay Flowers",
-     "pos": "WR"
+     "name": "Keaton Mitchell",
+     "pos": "RB"
     },
     {
-     "name": "DJ Moore",
-     "pos": "WR"
-    },
-    {
-     "name": "Stefon Diggs",
+     "name": "Dontayvion Wicks",
      "pos": "WR"
     },
     {
      "name": "Michael Wilson",
+     "pos": "WR"
+    },
+    {
+     "name": "Emanuel Wilson",
+     "pos": "RB"
+    },
+    {
+     "name": "Zay Flowers",
      "pos": "WR"
     },
     {
@@ -992,7 +979,7 @@
    "trend": -28.8,
    "trend_label": "falling",
    "sos_remaining": 106.56,
-   "power": 90.6,
+   "power": 86.2,
    "power_rank": 10,
    "pf_rank": 7
   },
@@ -1032,13 +1019,13 @@
     {
      "name": "Saquon Barkley",
      "pos": "RB",
-     "status": "Out",
+     "status": "Questionable",
      "body": "Hamstring"
     },
     {
      "name": "Justin Jefferson",
      "pos": "WR",
-     "status": "Out",
+     "status": "Questionable",
      "body": "Ankle"
     }
    ],
@@ -1137,12 +1124,6 @@
    "efficiency": 0.79,
    "injured_starters": [
     {
-     "name": "Alvin Kamara",
-     "pos": "RB",
-     "status": "Questionable",
-     "body": "Knee"
-    },
-    {
      "name": "Mack Hollins",
      "pos": "WR",
      "status": "Questionable",
@@ -1213,22 +1194,10 @@
  ],
  "signals": [
   {
-   "team": "Amateur Hour",
-   "kind": "injured_starters",
-   "severity": "medium",
-   "text": "Amateur Hour has 2 of 8 starters carrying injury tags: Alvin Kamara Questionable (Knee), Mack Hollins Questionable (Calf)."
-  },
-  {
    "team": "Eazy E Squad",
    "kind": "injured_starters",
    "severity": "medium",
-   "text": "Eazy E Squad has 2 of 8 starters carrying injury tags: Saquon Barkley Out (Hamstring), Justin Jefferson Out (Ankle)."
-  },
-  {
-   "team": "Girthenheimer",
-   "kind": "injured_starters",
-   "severity": "medium",
-   "text": "Girthenheimer has 2 of 8 starters carrying injury tags: Marcus Mariota Out (Knee), DJ Moore Questionable (Undisclosed)."
+   "text": "Eazy E Squad has 2 of 8 starters carrying injury tags: Saquon Barkley Questionable (Hamstring), Justin Jefferson Questionable (Ankle)."
   },
   {
    "team": "ValKilmersComeback",
@@ -1274,12 +1243,6 @@
   },
   {
    "team": "Be Safe, Get Jaxcinated",
-   "kind": "injured_starter",
-   "severity": "low",
-   "text": "Be Safe, Get Jaxcinated (#1 scorer) has Lamar Jackson listed Questionable."
-  },
-  {
-   "team": "Be Safe, Get Jaxcinated",
    "kind": "unlucky",
    "severity": "low",
    "text": "Be Safe, Get Jaxcinated is 6-2 but would be about 7.8-0.2 against the whole league (all-play 32-1). Better than the record."
@@ -1307,6 +1270,24 @@
    "kind": "vs_projection",
    "severity": "low",
    "text": "Derrelick my Balls has beaten Sleeper's starter projections by 20 points a week over 3 weeks."
+  },
+  {
+   "team": "Derrelick my Balls",
+   "kind": "bench_points",
+   "severity": "low",
+   "text": "Derrelick my Balls left 39 points on the bench in week 3 (lineup efficiency 82%)."
+  },
+  {
+   "team": "Eazy E Squad",
+   "kind": "vs_projection",
+   "severity": "low",
+   "text": "Eazy E Squad has missed Sleeper's starter projections by 27 points a week over 3 weeks."
+  },
+  {
+   "team": "Girthenheimer",
+   "kind": "unlucky",
+   "severity": "low",
+   "text": "Girthenheimer is 2-6 but would be about 3.6-4.4 against the whole league (all-play 15-18). Better than the record."
   }
  ],
  "notes": [

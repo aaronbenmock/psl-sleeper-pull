@@ -1,6 +1,6 @@
 {
  "week": 4,
- "generated_at_utc": "2026-10-06T12:04:27Z",
+ "generated_at_utc": "2026-10-07T11:11:33Z",
  "source": {
   "kind": "pre-kickoff snapshot",
   "taken_at_utc": "2026-10-05T23:13:57Z",
@@ -63,19 +63,12 @@
     "pos": "RB",
     "team": "IND",
     "estimator": "historical",
-    "n_out": 1,
-    "out": [
-     {
-      "player_id": "00-0040179",
-      "name": "DJ Giddens",
-      "car": 0.1253,
-      "tgt": 0.008
-     }
-    ],
-    "vacated_tgt": 0.013,
-    "vacated_car": 0.164,
-    "absorbed_tgt": 0.008,
-    "absorbed_car": 0.125,
+    "n_out": 0,
+    "out": [],
+    "vacated_tgt": 0.0,
+    "vacated_car": 0.0,
+    "absorbed_tgt": 0.0,
+    "absorbed_car": 0.0,
     "own_tgt_share": 0.113,
     "own_car_share": 0.771,
     "ppt": 1.178,
@@ -84,12 +77,12 @@
     "team_car_pg": 26.88,
     "hist_pairs_used": 0,
     "hist_min_games": null,
-    "points": 2.89,
+    "points": 0.0,
     "n_games": 3,
     "name": "Jonathan Taylor",
-    "why": "DJ Giddens out, vacating 1% of the targets and 16% of the carries. The proportional split gives him 1% of targets and 12% of carries, worth about 2.9 points. Display only: it does not change the expected number."
+    "why": "No teammate at his position is ruled out, so nothing is vacated."
    },
-   "vacated_pts": 2.89
+   "vacated_pts": 0.0
   },
   {
    "player_id": "12474",
@@ -349,17 +342,11 @@
     "pos": "WR",
     "team": "CLE",
     "estimator": "historical",
-    "n_out": 1,
-    "out": [
-     {
-      "player_id": "00-0036630",
-      "name": "Tylan Wallace",
-      "tgt": 0.0045
-     }
-    ],
-    "vacated_tgt": 0.022,
+    "n_out": 0,
+    "out": [],
+    "vacated_tgt": 0.0,
     "vacated_car": null,
-    "absorbed_tgt": 0.005,
+    "absorbed_tgt": 0.0,
     "absorbed_car": null,
     "own_tgt_share": 0.181,
     "own_car_share": 0.0,
@@ -369,12 +356,12 @@
     "team_car_pg": 24.98,
     "hist_pairs_used": 0,
     "hist_min_games": null,
-    "points": 0.27,
+    "points": 0.0,
     "n_games": 3,
     "name": "Denzel Boston",
-    "why": "Tylan Wallace out, vacating 2% of the targets. The proportional split gives him 0% of targets, worth about 0.3 points. Display only: it does not change the expected number."
+    "why": "No teammate at his position is ruled out, so nothing is vacated."
    },
-   "vacated_pts": 0.27
+   "vacated_pts": 0.0
   },
   {
    "player_id": "SEA",
@@ -574,11 +561,17 @@
     "pos": "WR",
     "team": "DEN",
     "estimator": "historical",
-    "n_out": 0,
-    "out": [],
-    "vacated_tgt": 0.0,
+    "n_out": 1,
+    "out": [
+     {
+      "player_id": "00-0040134",
+      "name": "Pat Bryant",
+      "tgt": 0.0327
+     }
+    ],
+    "vacated_tgt": 0.106,
     "vacated_car": null,
-    "absorbed_tgt": 0.0,
+    "absorbed_tgt": 0.033,
     "absorbed_car": null,
     "own_tgt_share": 0.199,
     "own_car_share": 0.0,
@@ -586,14 +579,14 @@
     "ppc": 0.746,
     "team_tgt_pg": 32.12,
     "team_car_pg": 25.19,
-    "hist_pairs_used": 0,
-    "hist_min_games": null,
-    "points": 0.0,
+    "hist_pairs_used": 1,
+    "hist_min_games": 4,
+    "points": 1.13,
     "n_games": 3,
     "name": "Courtland Sutton",
-    "why": "No teammate at his position is ruled out, so nothing is vacated."
+    "why": "Pat Bryant out, vacating 11% of the targets. The historical split gives him 3% of targets, worth about 1.1 points. Display only: it does not change the expected number."
    },
-   "vacated_pts": 0.0
+   "vacated_pts": 1.13
   },
   {
    "player_id": "12495",
@@ -652,76 +645,6 @@
     "why": "De'Von Achane out, vacating 17% of the targets and 54% of the carries. The proportional split gives him 3% of targets and 29% of carries, worth about 5.2 points. Display only: it does not change the expected number."
    },
    "vacated_pts": 5.17
-  },
-  {
-   "player_id": "12048",
-   "name": "George Holani",
-   "pos": "RB",
-   "team": "SEA",
-   "opp": "LAC",
-   "sleeper": 6.54,
-   "preseason": 5.85,
-   "season_avg": 4.4,
-   "n_games": 3,
-   "baseline": 5.23,
-   "expected": 6.08,
-   "injury_status": null,
-   "injury_body_part": null,
-   "practice": null,
-   "bye": false,
-   "playing": true,
-   "inj_mult": 1.0,
-   "boom_rate": 0.0,
-   "sd_wk": 3.283,
-   "vor": -82.8,
-   "started": true,
-   "actual_so_far": 2.5,
-   "slot": "BN",
-   "why": "Sleeper projects 6.5, season average 4.4 over 3 games, preseason model 5.8. Blended expectation 6.1 vs LAC.",
-   "vacated": {
-    "player_id": "00-0039299",
-    "pos": "RB",
-    "team": "SEA",
-    "estimator": "historical",
-    "n_out": 3,
-    "out": [
-     {
-      "player_id": "00-0039165",
-      "name": "Zach Charbonnet",
-      "car": 0.0378,
-      "tgt": 0.0082
-     },
-     {
-      "player_id": "00-0040649",
-      "name": "Robbie Ouzts",
-      "car": 0.0,
-      "tgt": 0.0
-     },
-     {
-      "player_id": "00-0041512",
-      "name": "Jadarian Price",
-      "car": 0.0337,
-      "tgt": 0.0119
-     }
-    ],
-    "vacated_tgt": 0.127,
-    "vacated_car": 0.735,
-    "absorbed_tgt": 0.02,
-    "absorbed_car": 0.071,
-    "own_tgt_share": 0.034,
-    "own_car_share": 0.124,
-    "ppt": 1.211,
-    "ppc": 0.461,
-    "team_tgt_pg": 29.18,
-    "team_car_pg": 28.4,
-    "hist_pairs_used": 0,
-    "hist_min_games": null,
-    "points": 1.65,
-    "n_games": 3,
-    "name": "George Holani",
-    "why": "Zach Charbonnet, Robbie Ouzts, Jadarian Price out, vacating 13% of the targets and 74% of the carries. The proportional split gives him 2% of targets and 7% of carries, worth about 1.6 points. Display only: it does not change the expected number."
-   },
-   "vacated_pts": 1.65
   }
  ],
  "ir": [
@@ -737,12 +660,12 @@
    "n_games": 2,
    "baseline": 8.38,
    "expected": 0.0,
-   "injury_status": "Out",
+   "injury_status": "Questionable",
    "injury_body_part": "Toe",
    "practice": null,
    "bye": false,
    "playing": false,
-   "inj_mult": 0.0,
+   "inj_mult": 0.9,
    "boom_rate": 0.242,
    "sd_wk": 7.725,
    "vor": 39.2,
@@ -829,8 +752,8 @@
    "bench": "Courtland Sutton",
    "gap": 1.2,
    "vacated_starter": 0.0,
-   "vacated_bench": 0.0,
-   "vacated_note": "Vacated share (display only, not in the numbers above): Deebo Samuel 0.0, Courtland Sutton 0.0 points of absorbed usage. Demarcus Robinson, Ricky Pearsall out, vacating 27% of the targets. The proportional split gives him none of it, worth about 0.0 points. Display only: it does not change the expected number.",
+   "vacated_bench": 1.13,
+   "vacated_note": "Vacated share (display only, not in the numbers above): Deebo Samuel 0.0, Courtland Sutton 1.1 points of absorbed usage. Pat Bryant out, vacating 11% of the targets. The historical split gives him 3% of targets, worth about 1.1 points. Display only: it does not change the expected number.",
    "why": "Deebo Samuel 9.3 vs Courtland Sutton 8.2, only 1.2 apart. Tiebreak: Courtland Sutton has the higher ceiling (boom rate 24% vs 16%)."
   },
   {
@@ -859,8 +782,8 @@
    "bench": "Courtland Sutton",
    "gap": 1.2,
    "vacated_starter": 2.47,
-   "vacated_bench": 0.0,
-   "vacated_note": "Vacated share (display only, not in the numbers above): Harold Fannin 2.5, Courtland Sutton 0.0 points of absorbed usage. David Njoku out, vacating 13% of the targets. The historical split gives him 5% of targets, worth about 2.5 points. Display only: it does not change the expected number.",
+   "vacated_bench": 1.13,
+   "vacated_note": "Vacated share (display only, not in the numbers above): Harold Fannin 2.5, Courtland Sutton 1.1 points of absorbed usage. David Njoku out, vacating 13% of the targets. The historical split gives him 5% of targets, worth about 2.5 points. Display only: it does not change the expected number.",
    "why": "Harold Fannin 9.3 vs Courtland Sutton 8.2, only 1.2 apart. Tiebreak: Courtland Sutton has the higher ceiling (boom rate 24% vs 19%)."
   },
   {
@@ -868,9 +791,9 @@
    "starter": "Denzel Boston",
    "bench": "Jakobi Meyers",
    "gap": 0.6,
-   "vacated_starter": 0.27,
+   "vacated_starter": 0.0,
    "vacated_bench": 0.0,
-   "vacated_note": "Vacated share (display only, not in the numbers above): Denzel Boston 0.3, Jakobi Meyers 0.0 points of absorbed usage. Tylan Wallace out, vacating 2% of the targets. The proportional split gives him 0% of targets, worth about 0.3 points. Display only: it does not change the expected number.",
+   "vacated_note": "Vacated share (display only, not in the numbers above): Denzel Boston 0.0, Jakobi Meyers 0.0 points of absorbed usage. Tim Patrick out, vacating 6% of the targets. The proportional split gives him none of it, worth about 0.0 points. Display only: it does not change the expected number.",
    "why": "Denzel Boston 9.2 vs Jakobi Meyers 8.6, only 0.6 apart."
   },
   {
@@ -878,9 +801,9 @@
    "starter": "Denzel Boston",
    "bench": "DK Metcalf",
    "gap": 0.9,
-   "vacated_starter": 0.27,
+   "vacated_starter": 0.0,
    "vacated_bench": 0.0,
-   "vacated_note": "Vacated share (display only, not in the numbers above): Denzel Boston 0.3, DK Metcalf 0.0 points of absorbed usage. Tylan Wallace out, vacating 2% of the targets. The proportional split gives him 0% of targets, worth about 0.3 points. Display only: it does not change the expected number.",
+   "vacated_note": "Vacated share (display only, not in the numbers above): Denzel Boston 0.0, DK Metcalf 0.0 points of absorbed usage. Calvin Austin III out, vacating 13% of the targets. The proportional split gives him none of it, worth about 0.0 points. Display only: it does not change the expected number.",
    "why": "Denzel Boston 9.2 vs DK Metcalf 8.3, only 0.9 apart."
   },
   {
@@ -888,16 +811,16 @@
    "starter": "Denzel Boston",
    "bench": "Courtland Sutton",
    "gap": 1.0,
-   "vacated_starter": 0.27,
-   "vacated_bench": 0.0,
-   "vacated_note": "Vacated share (display only, not in the numbers above): Denzel Boston 0.3, Courtland Sutton 0.0 points of absorbed usage. Tylan Wallace out, vacating 2% of the targets. The proportional split gives him 0% of targets, worth about 0.3 points. Display only: it does not change the expected number.",
+   "vacated_starter": 0.0,
+   "vacated_bench": 1.13,
+   "vacated_note": "Vacated share (display only, not in the numbers above): Denzel Boston 0.0, Courtland Sutton 1.1 points of absorbed usage. Pat Bryant out, vacating 11% of the targets. The historical split gives him 3% of targets, worth about 1.1 points. Display only: it does not change the expected number.",
    "why": "Denzel Boston 9.2 vs Courtland Sutton 8.2, only 1.0 apart."
   }
  ],
  "expected_total": 105.2,
  "notes": [
   "Projections are from the mon_pm snapshot taken Mon Oct 05 06:13 PM Central.",
-  "14 of your players have already kicked off this week; their rows show points so far."
+  "13 of your players have already kicked off this week; their rows show points so far."
  ],
  "vacated_meta": {
   "available": true,
@@ -909,7 +832,7 @@
    3
   ],
   "pulled_at_utc": "2026-10-01T01:14:23Z",
-  "n_players": 11,
+  "n_players": 10,
   "n_unmapped": 0,
   "note": "Vacated share is display only. It is not part of expected points, and it does not change the close-call tiebreak: the 2015-2024 backtest could not tell it apart from the current rule on held-out 2025 (see the Backtest tab)."
  },
