@@ -59,6 +59,23 @@ class RecordTests(unittest.TestCase):
         self.assertEqual(second["start_sit"][0]["name"], "Denzel Boston")
         self.assertEqual(second["lineup"][0]["player_id"], "boston")
 
+    def test_freeze_keeps_the_last_pre_kickoff_call(self):
+        # Wednesday: Boston over Metcalf, nobody has played. Friday (after Thursday night): the engine
+        # re-ranks and now prefers Metcalf. The graded call must be Wednesday's, frozen at Wednesday's build.
+        first = calls.merge({}, 4, WED, lineup_rec(), WAIVERS, None)
+        later = lineup_rec(started=True)
+        later["lineup"][0] = dict(later["lineup"][0], player_id="metcalf", name="DK Metcalf")
+        later["bench"] = [{"slot": "BN", "player_id": "boston", "name": "Denzel Boston", "expected": 9.4, "started": True}]
+        later["close_calls"] = [{"slot": "WR", "starter": "DK Metcalf", "bench": "Denzel Boston"}]
+        second = calls.merge(first, 4, WED + dt.timedelta(hours=40), later, WAIVERS, None)
+        self.assertEqual([c["name"] for c in second["start_sit"]], ["Denzel Boston"])
+        self.assertEqual(second["start_sit"][0]["frozen_at_utc"], first["updated_utc"])
+        self.assertEqual(second["lineup"][0]["player_id"], "boston")
+        self.assertTrue(second["lineup"][0]["frozen"])
+        self.assertFalse(second["lineup"][1]["frozen"])         # Allen has not played yet
+        g = calls.grade_start_sit(second["start_sit"][0], SCORED, set(), second["start_sit"][0]["frozen_at_utc"])
+        self.assertTrue(g["graded"])
+
     def test_live_rows_are_replaced_until_kickoff(self):
         first = calls.merge({}, 4, WED, lineup_rec(), WAIVERS, None)
         later = lineup_rec()

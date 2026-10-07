@@ -8,6 +8,7 @@ Writes:
   PSL-Dashboard.url                   Windows shortcut to the live page
 """
 import os
+import re
 import traceback
 
 from . import config, store, render
@@ -23,6 +24,14 @@ def _safe(name, fn, errors, default):
         errors.append(f"{name}: {e}")
         print(f"build: {name} failed\n{traceback.format_exc()}")
         return default
+
+
+def accuracy_notes(data_dir):
+    """data/synthesis/accuracy_learned.md, the weekly plain-English 'what we learned' paragraph.
+    First line: <!-- generated <UTC ISO> week <N> by ... -->"""
+    md = store.read_text(os.path.join(data_dir, "synthesis", "accuracy_learned.md"), "") or ""
+    m = re.search(r"<!--\s*generated\s+(\S+)(?:\s+week\s+(\d+))?", md)
+    return {"markdown": md, "written_at": m.group(1) if m else None, "week": int(m.group(2)) if m and m.group(2) else None}
 
 
 def run(data_dir=None):
@@ -91,6 +100,7 @@ def run(data_dir=None):
     # historical backtest (python engine.py histbacktest) is optional and written by a separate command
     hist = store.read_json(os.path.join(config.DATA_DIR, "derived", "hist_backtest.json"), None)
     page = {"ctx": ctx, "built_at_utc": built, "lineup": lineup, "waivers": waivers, "league": lv, "accuracy": acc,
+            "accuracy_notes": accuracy_notes(config.DATA_DIR),
             "market": mkt, "h2h": hh, "calls": sc,
             "news": nz, "validation": checks, "payload": payload, "archives": archives, "keepers": kp, "backtest": bt,
             "hist_backtest": hist if isinstance(hist, dict) and hist else None}

@@ -109,11 +109,41 @@ code{background:var(--head);padding:1px 4px;border-radius:3px;font-size:12.5px}
 .tabs-on .panel{display:none}.tabs-on .panel.on{display:block}
 .thr{min-width:260px}td.why{min-width:280px}
 .foot{font-size:12.5px;color:var(--muted);margin-top:10px}.foot a{margin-right:10px}
+th[data-tip]{cursor:help;text-decoration:underline dotted var(--muted);text-underline-offset:3px}
+#tip{position:absolute;z-index:20;max-width:320px;background:var(--ink);color:var(--bg);padding:8px 10px;border-radius:6px;font-size:12.5px;line-height:1.4;box-shadow:0 4px 14px rgba(0,0,0,.25);display:none;white-space:normal;font-weight:400}
+#tip.show{display:block}
+.learned{border-left:5px solid var(--ok)}.learned p{margin:6px 0}
 @media (max-width:760px){.grid{grid-template-columns:1fr}.wrap{padding:10px 12px 40px}h1{font-size:19px}.kpi b{font-size:16px}.card{padding:12px 12px}th,td{padding:6px 6px}}
 @media print{.tabs-on .panel{display:block!important}.tabbar{display:none}.age{display:none}}
 """
 
 JS = """
+// Column definitions: hover (mouse), focus (keyboard) or tap (phone) a dotted header to see what it means.
+(function(){
+  var heads = document.querySelectorAll('th[data-tip]');
+  if (!heads.length) return;
+  var tip = document.createElement('div'); tip.id = 'tip'; tip.setAttribute('role', 'tooltip'); document.body.appendChild(tip);
+  var pinned = null;
+  function show(th){
+    tip.textContent = th.getAttribute('data-tip'); tip.classList.add('show');
+    var r = th.getBoundingClientRect(), w = Math.min(320, window.innerWidth - 24);
+    tip.style.maxWidth = w + 'px';
+    var left = Math.max(12, Math.min(r.left + window.scrollX, window.scrollX + window.innerWidth - w - 12));
+    tip.style.left = left + 'px'; tip.style.top = (r.bottom + window.scrollY + 6) + 'px';
+  }
+  function hide(){ tip.classList.remove('show'); pinned = null; }
+  Array.prototype.forEach.call(heads, function(th){
+    th.addEventListener('mouseenter', function(){ if (!pinned) show(th); });
+    th.addEventListener('mouseleave', function(){ if (!pinned) hide(); });
+    th.addEventListener('focus', function(){ show(th); });
+    th.addEventListener('blur', function(){ if (!pinned) hide(); });
+    th.addEventListener('click', function(ev){ ev.stopPropagation(); if (pinned === th) { hide(); } else { pinned = th; show(th); } });
+  });
+  document.addEventListener('click', hide);
+  document.addEventListener('keydown', function(ev){ if (ev.key === 'Escape') hide(); });
+  window.addEventListener('resize', hide);
+  document.addEventListener('scroll', hide, true);     // page or a wide table scrolled: the tip would be misplaced
+})();
 (function(){
   var built = new Date(document.body.getAttribute('data-built'));
   var stale = parseFloat(document.body.getAttribute('data-stale-hours'));
@@ -232,6 +262,8 @@ def section_lineup(rec, ctx_completed_block):
     L.append("<div class=kpi>" + f"<div><b>{num(rec['expected_total'])}</b>expected points, recommended lineup</div>"
              + f"<div><b>{len(rec['changes'])}</b>change{'s' if len(rec['changes']) != 1 else ''} vs your current Sleeper lineup</div>"
              + f"<div><b>{esc(rec['source'].get('kind'))}</b>projection source, {central(rec['source'].get('taken_at_utc'))}</div></div>")
+    for wn in rec.get("warnings") or []:
+        L.append(f"<p class=small><span class='tag warn'>CHECK</span> <b>{esc(wn)}</b></p>")
     if rec["changes"]:
         L.append("<h3>Changes to make</h3><ul class=tight>")
         for c in rec["changes"]:
@@ -751,11 +783,117 @@ def section_validation(checks):
     return "".join(L)
 
 
-def jobs_strip(status, ctx_now):
+# Plain-English definitions for the Accuracy tab's column headers (shown on hover or tap).
+# Keyed by the header text exactly as rendered.
+_PRE = "the preseason model (the draft-season rankings, never updated during the season)"
+_NAIVE = "the simplest possible guess: each player's average so far this season"
+COLUMN_TIPS = {
+    "Call type": "What kind of advice it was. start/sit = who to play. claim = a waiver pickup. def/stream = swapping defenses for one week. "
+                 "speculative = a cheap stash on a backup who could inherit a job. skip = advice not to add someone.",
+    "Type": "What kind of advice it was: start/sit, claim, def/stream (one-week defense swap), speculative (cheap stash) or skip.",
+    "Source": "Who made the call. engine = the automatic numbers model. synthesis = the weekly Claude news write-up.",
+    "Graded": "How many of these calls could be checked against real results. A call is left out if one of its players had already "
+              "played when the call was made, because that would be grading with hindsight.",
+    "Hits": "How many of the graded calls turned out right.",
+    "Hit rate": "Hits divided by graded calls. 50% is a coin flip. With only a handful of calls, one result moves this a lot, "
+                "so treat it as a rough signal until there are 20 or more.",
+    "You followed (start/sit) or bid (claims)": "How often you actually took the advice. For start/sit: you started the recommended "
+                                                "player. For claims: you put in a bid.",
+    "Call": "The advice itself. 'A over B' means start A instead of B. '(drop X)' names the player a claim would have replaced. "
+            "A dollar amount is the suggested bid.",
+    "Actual": "Points the recommended player actually scored. For a claim, added up over every week since the claim.",
+    "Alternative": "Points the other option scored: the player left on the bench for start/sit, or the player you would have "
+                   "dropped for a claim.",
+    "Result": "hit = the advice beat the alternative. miss = it did not. not graded = it could not be checked fairly "
+              "(usually because a game had already started).",
+    "What you did": "Whether you followed the advice, read from your Sleeper lineup and waiver history.",
+    "Week": "The NFL week.",
+    "n": "How many players were measured. More players means the averages in this row are more trustworthy.",
+    "Sleeper MAE": "Average miss of Sleeper's projections, in fantasy points, ignoring whether they were too high or too low. "
+                   "Lower is better. 6 means a typical player finished about 6 points away from his projection.",
+    "Sleeper bias": "Whether Sleeper's projections ran high or low overall. Positive = players scored more than projected "
+                    "(projections too low). Negative = projections too high. Close to 0 is good.",
+    "Sleeper rank corr": "How well Sleeper put players in the right order, from -1 to 1. 1 = its ranking matched the real "
+                         "finishing order perfectly; 0 = no better than random. This matters most for start/sit, where you only "
+                         "need to pick the better of two players.",
+    "Preseason MAE": f"Average miss in points for {_PRE}. Lower is better.",
+    "Preseason bias": f"Whether {_PRE} ran high or low. Positive = players scored more than it said.",
+    "Preseason rank corr": f"How well {_PRE} put players in the right order (1 = perfect, 0 = random).",
+    "Naive MAE": f"Average miss in points for {_NAIVE}. This is the bar any real projection should clear.",
+    "Naive bias": f"Whether {_NAIVE} ran high or low. Positive = players scored more than their average.",
+    "Naive rank corr": f"How well {_NAIVE} put players in the right order (1 = perfect, 0 = random).",
+    "Sleeper from snapshot": "How many of the Sleeper projections were saved before kickoff, so they are fair. "
+                             "The rest were read after the games. Ideally this equals n.",
+    "Managers actually scored": "Average points the 12 managers' real lineups scored that week.",
+    "% of optimal": "Points scored as a share of the best possible lineup from the same roster, picked with hindsight. "
+                    "100% would mean never leaving a point on the bench; 85 to 90% is normal.",
+    "Sleeper lineup": "Average points per team if every manager had simply started whoever Sleeper projected highest.",
+    "Preseason lineup": f"Average points per team if every manager had started whoever {_PRE} ranked highest.",
+    "Naive lineup": "Average points per team if every manager had started their highest season-average players.",
+    "% opt": "The lineup to the left as a share of the best possible lineup (picked with hindsight).",
+    "vs manager": "The lineup to the left minus what managers actually scored. Positive = blindly following that method would "
+                  "have beaten the managers' own choices that week.",
+    "Your lineup / Sleeper / Preseason / Optimal": "Your team that week: what you actually scored / what Sleeper's top picks from "
+                                                   "your roster would have scored / the same for the preseason model / the best "
+                                                   "possible lineup in hindsight.",
+    "Pool": "Which players are measured. started = players in someone's starting lineup. rostered = everyone on a roster, bench "
+            "included. waiver = free agents Sleeper projected for 5+ points (the players your bids are priced on).",
+    "Baseline": f"Which projection is being graded. sleeper = Sleeper's projection. preseason = {_PRE}. naive = {_NAIVE}.",
+    "Weeks": "How many weeks are included.",
+    "MAE": "Average miss in fantasy points, ignoring direction. Lower is better.",
+    "Bias": "Average of (actual minus projected). Positive = projections ran low; negative = they ran high; near 0 is good.",
+    "Lineup avg": "Average points per team per week if every manager had started that method's top picks.",
+    "Taken (Central)": "When this copy of Sleeper's projections was saved, in Central time.",
+    "Label": "The name of the scheduled save, for example thu_pm = Thursday evening.",
+    "Players": "How many players' projections are in the save.",
+    "NFL teams already started": "NFL teams whose game had begun when the save was taken. Their players' numbers from this save "
+                                 "are never used, so nothing is graded with hindsight.",
+    "Still pre-kickoff": "Players whose game had not started yet when the save was taken, so their projection counts as a fair "
+                         "before-the-game number.",
+    "Status": "OK = the check passed. NOTE = for information only. WARN or FAIL = something worth a look.",
+    "Check": "What was checked.",
+    "Finding": "What the check found.",
+}
+
+
+def add_tips(html_s, tips=COLUMN_TIPS):
+    """Give every <th> whose text has a definition a data-tip attribute (hover or tap shows it)."""
+    def sub(m):
+        attrs, text = m.group(1) or "", m.group(2)
+        tip = tips.get(html.unescape(text))
+        if not tip or "data-tip" in attrs:
+            return m.group(0)
+        return f"<th{attrs} tabindex=0 data-tip=\"{esc(tip)}\">{text}</th>"
+    return re.sub(r"<th((?:\s[^>]*)?)>([^<]+)</th>", sub, html_s)
+
+
+def section_learned(note):
+    """'What we learned this week': a short plain-English paragraph the weekly Claude task rewrites."""
+    L = ["<div class='card learned' id=learned><h2>What we learned this week</h2>"]
+    if note and note.get("markdown", "").strip():
+        L.append(f"<p class='small muted'>Written {central(note.get('written_at'))}"
+                 + (f" for week {esc(note.get('week'))}" if note.get("week") else "")
+                 + " by the weekly Claude news pass. Tap or hover a dotted column header below for what it means.</p>")
+        L.append(md_to_html(note["markdown"]))
+    else:
+        L.append("<p class=muted>Not written yet. The weekly Claude task adds a short plain-English summary here each Wednesday.</p>")
+    L.append("</div>")
+    return "".join(L)
+
+
+def jobs_strip(status, ctx_now, synth=None):
     labels = [("pull", "Weekly pull (Wed 10 AM)"), ("injuries", "Injury tracker (daily 6 AM)"), ("snapshot", "Pre-kickoff snapshot"),
               ("build", "Dashboard build"), ("synthesis", "News synthesis (weekly)")]
     L = ["<div class=jobs>"]
-    tasks = status.get("tasks") or {}
+    tasks = dict(status.get("tasks") or {})
+    # The desktop scheduled task writes data/synthesis/ directly and never touches status.json, so use the file's
+    # own timestamp when it is newer than (or there is no) recorded run.
+    written = (synth or {}).get("synthesis_written_at") if (synth or {}).get("present") else None
+    if written:
+        rec = tasks.get("synthesis")
+        if not rec or not rec.get("ok") or (rec.get("finished_utc") or "") < written or "skipped" in (rec.get("summary") or ""):
+            tasks["synthesis"] = {"task": "synthesis", "ok": True, "finished_utc": written,
+                                  "summary": f"week {synth.get('week')}: {synth.get('source') or 'scheduled Claude task'}"}
     for key, label in labels:
         rec = tasks.get(key)
         if not rec:
@@ -773,7 +911,7 @@ def render(page, archive=False):
     ctx = page["ctx"]
     built = page["built_at_utc"]
     title = f"PSL Engine, week {ctx.upcoming_week}" + (" archive" if archive else "")
-    jobs_html, failed = jobs_strip(ctx.status, ctx.now)
+    jobs_html, failed = jobs_strip(ctx.status, ctx.now, (page.get("news") or {}).get("synthesis"))
     banner = ""
     if failed and not archive:
         names = ", ".join(f"{t['task']} ({central(t.get('finished_utc'))})" for t in failed)
@@ -787,7 +925,8 @@ def render(page, archive=False):
         ("tab-waivers", "Waivers", section_results(page.get("market") or {}) + section_waivers(page["waivers"]) + section_market(page.get("market") or {})),
         ("tab-league", "League", section_league(page["league"]) + section_keepers(page.get("keepers") or {}, page.get("backtest") or {})),
         ("tab-news", "News and injuries", section_news(page["news"])),
-        ("tab-accuracy", "Accuracy", section_calls(page.get("calls") or {}) + section_accuracy(page["accuracy"]) + section_snapshots(ctx.snap_index, ctx.upcoming_week) + section_validation(page["validation"])),
+        ("tab-accuracy", "Accuracy", section_learned(page.get("accuracy_notes")) + add_tips(
+            section_calls(page.get("calls") or {}) + section_accuracy(page["accuracy"]) + section_snapshots(ctx.snap_index, ctx.upcoming_week) + section_validation(page["validation"]))),
         ("tab-backtest", "Backtest", section_backtest(page.get("backtest") or {}, page.get("hist_backtest"))),
     ]
     tabbar = ["<nav class=tabbar role=tablist aria-label='Dashboard sections'>"]
