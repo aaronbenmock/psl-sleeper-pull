@@ -4,8 +4,8 @@
    "task": "build",
    "ok": true,
    "summary": "index.html + reports/2026/week05.html; lineup changes 2, claims 2, signals 16, accuracy weeks 4",
-   "started_utc": "2026-10-07T16:06:40Z",
-   "finished_utc": "2026-10-07T16:06:41Z",
+   "started_utc": "2026-10-07T21:04:05Z",
+   "finished_utc": "2026-10-07T21:04:07Z",
    "error": null
   },
   "pull": {
@@ -54,14 +54,6 @@
   }
  },
  "runs": [
-  {
-   "task": "usage",
-   "ok": true,
-   "summary": "2 weeks of 2026 usage, 391 players with a stat row, 651 Sleeper ids mapped (0 from Sleeper, 563 from the rankings file, 88 by name), 430,415 bytes",
-   "started_utc": "2026-09-20T21:40:18Z",
-   "finished_utc": "2026-09-20T21:40:19Z",
-   "error": null
-  },
   {
    "task": "build",
    "ok": true,
@@ -1733,14 +1725,22 @@
    "started_utc": "2026-10-07T16:06:40Z",
    "finished_utc": "2026-10-07T16:06:41Z",
    "error": null
+  },
+  {
+   "task": "build",
+   "ok": true,
+   "summary": "index.html + reports/2026/week05.html; lineup changes 2, claims 2, signals 16, accuracy weeks 4",
+   "started_utc": "2026-10-07T21:04:05Z",
+   "finished_utc": "2026-10-07T21:04:07Z",
+   "error": null
   }
  ],
  "last_run": {
   "task": "build",
   "ok": true,
   "summary": "index.html + reports/2026/week05.html; lineup changes 2, claims 2, signals 16, accuracy weeks 4",
-  "started_utc": "2026-10-07T16:06:40Z",
-  "finished_utc": "2026-10-07T16:06:41Z",
+  "started_utc": "2026-10-07T21:04:05Z",
+  "finished_utc": "2026-10-07T21:04:07Z",
   "error": null
  }
 }
