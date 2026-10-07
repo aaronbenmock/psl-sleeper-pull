@@ -306,18 +306,18 @@
    "run": 29847301,
    "processed_utc": "2026-10-01T07:01:00Z",
    "processed": "Thu Oct 1 2:01 AM",
-   "player_id": "LV",
-   "name": "LV DEF",
-   "pos": "DEF",
+   "player_id": "4017",
+   "name": "Deshaun Watson",
+   "pos": "QB",
    "winner_rid": null,
    "winner": null,
    "winning_bid": null,
    "dropped": [],
    "losing": [
     {
-     "roster_id": 9,
-     "team": "Girthenheimer",
-     "bid": 3,
+     "roster_id": 6,
+     "team": "ScampDaddy",
+     "bid": 6,
      "reason": "Unfortunately, your roster will have too many players after this transaction."
     }
    ],
@@ -348,18 +348,18 @@
    "run": 29847301,
    "processed_utc": "2026-10-01T07:01:00Z",
    "processed": "Thu Oct 1 2:01 AM",
-   "player_id": "4017",
-   "name": "Deshaun Watson",
-   "pos": "QB",
+   "player_id": "LV",
+   "name": "LV DEF",
+   "pos": "DEF",
    "winner_rid": null,
    "winner": null,
    "winning_bid": null,
    "dropped": [],
    "losing": [
     {
-     "roster_id": 6,
-     "team": "ScampDaddy",
-     "bid": 6,
+     "roster_id": 9,
+     "team": "Girthenheimer",
+     "bid": 3,
      "reason": "Unfortunately, your roster will have too many players after this transaction."
     }
    ],

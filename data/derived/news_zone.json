@@ -1,7 +1,7 @@
 {
  "machine": {
   "date_central": "2026-10-07",
-  "age_hours": 0.9,
+  "age_hours": 4.9,
   "my_roster": [
    {
     "player_id": "7021",
@@ -50,6 +50,26 @@
     ]
    },
    {
+    "player_id": "5846",
+    "name": "DK Metcalf",
+    "pos": "WR",
+    "team": "PIT",
+    "slot": "WR",
+    "injury_status": null,
+    "injury_body_part": null,
+    "injury_start_date": null,
+    "injury_notes": null,
+    "practice_participation": null,
+    "practice_description": null,
+    "news_updated": "2026-10-02",
+    "depth_chart_order": 1,
+    "history": [
+     "2026-10-01: news updated 1790558158006 to 1790817930271",
+     "2026-10-02: news updated 1790817930271 to 1790916318400",
+     "2026-10-05: news updated 1790916318400 to 1790953223673"
+    ]
+   },
+   {
     "player_id": "2133",
     "name": "Davante Adams",
     "pos": "WR",
@@ -75,7 +95,7 @@
     "name": "Deebo Samuel",
     "pos": "WR",
     "team": "SF",
-    "slot": "WR",
+    "slot": "FLEX",
     "injury_status": null,
     "injury_body_part": null,
     "injury_start_date": null,
@@ -109,24 +129,6 @@
      "2026-10-01: news updated 1790642109059 to 1790801419590",
      "2026-10-02: news updated 1790801419590 to 1790917818511",
      "2026-10-05: news updated 1790917818511 to 1790949924408"
-    ]
-   },
-   {
-    "player_id": "12506",
-    "name": "Harold Fannin",
-    "pos": "TE",
-    "team": "CLE",
-    "slot": "FLEX",
-    "injury_status": null,
-    "injury_body_part": null,
-    "injury_start_date": null,
-    "injury_notes": null,
-    "practice_participation": null,
-    "practice_description": null,
-    "news_updated": "2026-10-02",
-    "depth_chart_order": 1,
-    "history": [
-     "2026-10-05: news updated 1790917518646 to 1790950823163"
     ]
    },
    {
@@ -171,6 +173,27 @@
     ]
    },
    {
+    "player_id": "12495",
+    "name": "Ollie Gordon",
+    "pos": "RB",
+    "team": "MIA",
+    "slot": "RB",
+    "injury_status": null,
+    "injury_body_part": null,
+    "injury_start_date": null,
+    "injury_notes": null,
+    "practice_participation": null,
+    "practice_description": null,
+    "news_updated": "2026-10-05",
+    "depth_chart_order": 1,
+    "history": [
+     "2026-10-05: news updated 1790633108887 to 1791166214181",
+     "2026-10-05: depth chart order 1 to 2",
+     "2026-10-06: news updated 1791166214181 to 1791208820656",
+     "2026-10-07: depth chart order 2 to 1"
+    ]
+   },
+   {
     "player_id": "SEA",
     "name": "SEA DEF",
     "pos": "DEF",
@@ -185,27 +208,6 @@
     "news_updated": null,
     "depth_chart_order": null,
     "history": []
-   },
-   {
-    "player_id": "12474",
-    "name": "Woody Marks",
-    "pos": "RB",
-    "team": "HOU",
-    "slot": "RB",
-    "injury_status": null,
-    "injury_body_part": null,
-    "injury_start_date": null,
-    "injury_notes": null,
-    "practice_participation": null,
-    "practice_description": null,
-    "news_updated": "2026-10-06",
-    "depth_chart_order": 2,
-    "history": [
-     "2026-09-29: news updated 1790559358745 to 1790645410400",
-     "2026-10-01: news updated 1790645410400 to 1790782817170",
-     "2026-10-05: news updated 1790782817170 to 1791178816986",
-     "2026-10-06: news updated 1791178816986 to 1791248139862"
-    ]
    },
    {
     "player_id": "5045",
@@ -228,10 +230,10 @@
     ]
    },
    {
-    "player_id": "5846",
-    "name": "DK Metcalf",
-    "pos": "WR",
-    "team": "PIT",
+    "player_id": "12506",
+    "name": "Harold Fannin",
+    "pos": "TE",
+    "team": "CLE",
     "slot": "BN",
     "injury_status": null,
     "injury_body_part": null,
@@ -242,9 +244,7 @@
     "news_updated": "2026-10-02",
     "depth_chart_order": 1,
     "history": [
-     "2026-10-01: news updated 1790558158006 to 1790817930271",
-     "2026-10-02: news updated 1790817930271 to 1790916318400",
-     "2026-10-05: news updated 1790916318400 to 1790953223673"
+     "2026-10-05: news updated 1790917518646 to 1790950823163"
     ]
    },
    {
@@ -292,10 +292,10 @@
     ]
    },
    {
-    "player_id": "12495",
-    "name": "Ollie Gordon",
+    "player_id": "12474",
+    "name": "Woody Marks",
     "pos": "RB",
-    "team": "MIA",
+    "team": "HOU",
     "slot": "BN",
     "injury_status": null,
     "injury_body_part": null,
@@ -303,13 +303,13 @@
     "injury_notes": null,
     "practice_participation": null,
     "practice_description": null,
-    "news_updated": "2026-10-05",
-    "depth_chart_order": 1,
+    "news_updated": "2026-10-06",
+    "depth_chart_order": 2,
     "history": [
-     "2026-10-05: news updated 1790633108887 to 1791166214181",
-     "2026-10-05: depth chart order 1 to 2",
-     "2026-10-06: news updated 1791166214181 to 1791208820656",
-     "2026-10-07: depth chart order 2 to 1"
+     "2026-09-29: news updated 1790559358745 to 1790645410400",
+     "2026-10-01: news updated 1790645410400 to 1790782817170",
+     "2026-10-05: news updated 1790782817170 to 1791178816986",
+     "2026-10-06: news updated 1791178816986 to 1791248139862"
     ]
    }
   ],
@@ -818,6 +818,6 @@
   "source_key": "desktop-scheduled-task",
   "n_calls": 0,
   "stale": false,
-  "age_days": 6.6
+  "age_days": 6.8
  }
 }

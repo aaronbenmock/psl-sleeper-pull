@@ -3,13 +3,13 @@
   "id": "record",
   "status": "ok",
   "title": "Record field (the 2-0 after one week)",
-  "finding": "median game ON: each team plays its opponent and the league median every week. League setting league_average_match = 1; wins across all rosters = 36 after 3 week(s) (head-to-head only would give 18, with a median game 36)."
+  "finding": "median game ON: each team plays its opponent and the league median every week. League setting league_average_match = 1; wins across all rosters = 48 after 4 week(s) (head-to-head only would give 24, with a median game 48)."
  },
  {
   "id": "def_bias",
   "status": "info",
   "title": "DEF projection bias (Sleeper omits 3-and-outs and 4th-down stops)",
-  "finding": "Week 3: across 32 defenses, actual minus projected averaged +0.38 (MAE 4.78). Points from the two unprojected categories averaged 1.83 per defense, which is the structural part of the bias. Among the 12 defenses actually started, bias was -1.31."
+  "finding": "Week 4: across 32 defenses, actual minus projected averaged -0.51 (MAE 2.84). Points from the two unprojected categories averaged 1.72 per defense, which is the structural part of the bias. Among the 12 defenses actually started, bias was -0.1."
  },
  {
   "id": "coach_continuity",
@@ -21,13 +21,13 @@
   "id": "rankings_join",
   "status": "ok",
   "title": "Rankings CSV joins to Sleeper on sleeper_id",
-  "finding": "13 of 13 of your skill players found in player_rankings_v2.0 by sleeper_id."
+  "finding": "12 of 12 of your skill players found in player_rankings_v2.0 by sleeper_id."
  },
  {
   "id": "week_detection",
   "status": "info",
   "title": "Completed-week detection",
-  "finding": "Method: projection game dates. Completed 3, upcoming 4. v1.2 uses game dates from the projection rows, which stays correct on Friday through Monday when the v1.1 rule would flip early."
+  "finding": "Method: projection game dates. Completed 4, upcoming 5. v1.2 uses game dates from the projection rows, which stays correct on Friday through Monday when the v1.1 rule would flip early."
  },
  {
   "id": "proj_exclude",
@@ -39,7 +39,7 @@
   "id": "ages",
   "status": "info",
   "title": "Input ages at build time",
-  "finding": "weekly pull 154.9h, injury table 0.9h, players cache 0.9h, newest snapshot 36.9h (week 4)"
+  "finding": "weekly pull 0.0h, injury table 4.9h, players cache 4.9h, newest snapshot 40.9h (week 4)"
  },
  {
   "id": "names_cache",

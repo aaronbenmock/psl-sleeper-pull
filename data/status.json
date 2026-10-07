@@ -3,20 +3,20 @@
   "build": {
    "task": "build",
    "ok": true,
-   "summary": "index.html + reports/2026/week04.html; lineup changes 2, claims 8, signals 16, accuracy weeks 3",
-   "started_utc": "2026-10-07T12:05:31Z",
-   "finished_utc": "2026-10-07T12:05:32Z",
+   "summary": "index.html + reports/2026/week05.html; lineup changes 2, claims 2, signals 16, accuracy weeks 4",
+   "started_utc": "2026-10-07T16:06:40Z",
+   "finished_utc": "2026-10-07T16:06:41Z",
    "error": null
   },
   "pull": {
    "task": "pull",
    "ok": true,
-   "summary": "completed wk 3, upcoming wk 4, waiver pool 676, matchup weeks 18, scored files 1, record check: median game ON: each team plays its opponent and the league median every week",
-   "started_utc": "2026-10-01T01:14:18Z",
-   "finished_utc": "2026-10-01T01:14:21Z",
+   "summary": "completed wk 4, upcoming wk 5, waiver pool 679, matchup weeks 18, scored files 1, record check: median game ON: each team plays its opponent and the league median every week",
+   "started_utc": "2026-10-07T16:06:35Z",
+   "finished_utc": "2026-10-07T16:06:39Z",
    "error": null,
-   "completed_week": 3,
-   "upcoming_week": 4
+   "completed_week": 4,
+   "upcoming_week": 5
   },
   "injuries": {
    "task": "injuries",
@@ -47,37 +47,13 @@
   "usage": {
    "task": "usage",
    "ok": true,
-   "summary": "3 weeks of 2026 usage, 461 players with a stat row, 707 Sleeper ids mapped (162 from Sleeper, 461 from the rankings file, 84 by name), 494,952 bytes",
-   "started_utc": "2026-10-01T01:14:22Z",
-   "finished_utc": "2026-10-01T01:14:23Z",
+   "summary": "4 weeks of 2026 usage, 481 players with a stat row, 709 Sleeper ids mapped (162 from Sleeper, 462 from the rankings file, 85 by name), 526,744 bytes",
+   "started_utc": "2026-10-07T16:06:39Z",
+   "finished_utc": "2026-10-07T16:06:40Z",
    "error": null
   }
  },
  "runs": [
-  {
-   "task": "build",
-   "ok": true,
-   "summary": "index.html + reports/2026/week02.html; lineup changes 0, claims 8, signals 5, accuracy weeks 1",
-   "started_utc": "2026-09-20T15:34:04Z",
-   "finished_utc": "2026-09-20T15:34:04Z",
-   "error": null
-  },
-  {
-   "task": "auto-skip",
-   "ok": true,
-   "summary": "skipped at 2026-09-20T11:37:35-05:00",
-   "started_utc": "2026-09-20T16:37:35Z",
-   "finished_utc": "2026-09-20T16:37:35Z",
-   "error": null
-  },
-  {
-   "task": "build",
-   "ok": true,
-   "summary": "index.html + reports/2026/week02.html; lineup changes 0, claims 8, signals 5, accuracy weeks 1",
-   "started_utc": "2026-09-20T16:37:35Z",
-   "finished_utc": "2026-09-20T16:37:35Z",
-   "error": null
-  },
   {
    "task": "usage",
    "ok": true,
@@ -1731,14 +1707,40 @@
    "started_utc": "2026-10-07T12:05:31Z",
    "finished_utc": "2026-10-07T12:05:32Z",
    "error": null
+  },
+  {
+   "task": "pull",
+   "ok": true,
+   "summary": "completed wk 4, upcoming wk 5, waiver pool 679, matchup weeks 18, scored files 1, record check: median game ON: each team plays its opponent and the league median every week",
+   "started_utc": "2026-10-07T16:06:35Z",
+   "finished_utc": "2026-10-07T16:06:39Z",
+   "error": null,
+   "completed_week": 4,
+   "upcoming_week": 5
+  },
+  {
+   "task": "usage",
+   "ok": true,
+   "summary": "4 weeks of 2026 usage, 481 players with a stat row, 709 Sleeper ids mapped (162 from Sleeper, 462 from the rankings file, 85 by name), 526,744 bytes",
+   "started_utc": "2026-10-07T16:06:39Z",
+   "finished_utc": "2026-10-07T16:06:40Z",
+   "error": null
+  },
+  {
+   "task": "build",
+   "ok": true,
+   "summary": "index.html + reports/2026/week05.html; lineup changes 2, claims 2, signals 16, accuracy weeks 4",
+   "started_utc": "2026-10-07T16:06:40Z",
+   "finished_utc": "2026-10-07T16:06:41Z",
+   "error": null
   }
  ],
  "last_run": {
   "task": "build",
   "ok": true,
-  "summary": "index.html + reports/2026/week04.html; lineup changes 2, claims 8, signals 16, accuracy weeks 3",
-  "started_utc": "2026-10-07T12:05:31Z",
-  "finished_utc": "2026-10-07T12:05:32Z",
+  "summary": "index.html + reports/2026/week05.html; lineup changes 2, claims 2, signals 16, accuracy weeks 4",
+  "started_utc": "2026-10-07T16:06:40Z",
+  "finished_utc": "2026-10-07T16:06:41Z",
   "error": null
  }
 }
