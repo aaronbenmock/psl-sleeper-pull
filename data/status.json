@@ -4,8 +4,8 @@
    "task": "build",
    "ok": true,
    "summary": "index.html + reports/2026/week05.html; lineup changes 2, claims 2, signals 16, accuracy weeks 4",
-   "started_utc": "2026-10-07T21:04:05Z",
-   "finished_utc": "2026-10-07T21:04:07Z",
+   "started_utc": "2026-10-07T21:50:17Z",
+   "finished_utc": "2026-10-07T21:50:19Z",
    "error": null
   },
   "pull": {
@@ -54,14 +54,6 @@
   }
  },
  "runs": [
-  {
-   "task": "build",
-   "ok": true,
-   "summary": "index.html + reports/2026/week02.html; lineup changes 0, claims 8, signals 5, accuracy weeks 1",
-   "started_utc": "2026-09-20T21:40:19Z",
-   "finished_utc": "2026-09-20T21:40:19Z",
-   "error": null
-  },
   {
    "task": "build",
    "ok": true,
@@ -1733,14 +1725,22 @@
    "started_utc": "2026-10-07T21:04:05Z",
    "finished_utc": "2026-10-07T21:04:07Z",
    "error": null
+  },
+  {
+   "task": "build",
+   "ok": true,
+   "summary": "index.html + reports/2026/week05.html; lineup changes 2, claims 2, signals 16, accuracy weeks 4",
+   "started_utc": "2026-10-07T21:50:17Z",
+   "finished_utc": "2026-10-07T21:50:19Z",
+   "error": null
   }
  ],
  "last_run": {
   "task": "build",
   "ok": true,
   "summary": "index.html + reports/2026/week05.html; lineup changes 2, claims 2, signals 16, accuracy weeks 4",
-  "started_utc": "2026-10-07T21:04:05Z",
-  "finished_utc": "2026-10-07T21:04:07Z",
+  "started_utc": "2026-10-07T21:50:17Z",
+  "finished_utc": "2026-10-07T21:50:19Z",
   "error": null
  }
 }

@@ -2,7 +2,7 @@
  "week": 5,
  "first_recorded_utc": "2026-10-07T16:06:40Z",
  "source": "live build",
- "updated_utc": "2026-10-07T21:04:05Z",
+ "updated_utc": "2026-10-07T21:50:17Z",
  "start_sit": [
   {
    "type": "start_sit",
@@ -221,7 +221,7 @@
    "alt_name": "Ollie Gordon"
   }
  ],
- "claims_rec_utc": "2026-10-07T21:04:05Z",
+ "claims_rec_utc": "2026-10-07T21:50:17Z",
  "synthesis": [
   {
    "type": "start",
@@ -229,7 +229,7 @@
    "player_id": "12495",
    "alt_name": "Woody Marks",
    "alt_id": "12474",
-   "text": "Start Gordon over Marks; Gordon is Miami's lead back with Achane out for the year",
+   "text": "Start Gordon over Marks; Miami's lead back with Achane out",
    "source": "synthesis"
   },
   {
@@ -243,15 +243,6 @@
   },
   {
    "type": "skip",
-   "name": "Tre Tucker",
-   "player_id": "10213",
-   "alt_name": "Ollie Gordon",
-   "alt_id": "12495",
-   "text": "Skip Tucker; paired drop is Gordon, a starting RB",
-   "source": "synthesis"
-  },
-  {
-   "type": "skip",
    "name": "Jaylin Noel",
    "player_id": "12536",
    "alt_name": "Ollie Gordon",
@@ -261,11 +252,20 @@
   },
   {
    "type": "skip",
+   "name": "Keon Coleman",
+   "player_id": "11637",
+   "alt_name": "Courtland Sutton",
+   "alt_id": "5045",
+   "text": "Skip Coleman; WR3 snaps, deep-league flyer",
+   "source": "synthesis"
+  },
+  {
+   "type": "skip",
    "name": "George Holani",
    "player_id": "12048",
    "alt_name": "Ollie Gordon",
    "alt_id": "12495",
-   "text": "Skip Holani; Charbonnet return will take his snaps",
+   "text": "Skip Holani; Wilson leads, Charbonnet returning",
    "source": "synthesis"
   }
  ]
