@@ -46,7 +46,7 @@
    "efficiency": 0.96,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 118.03,
+   "proj_next": 118.46,
    "future_opps": [
     11,
     5,
@@ -101,7 +101,7 @@
    "trend": -12.9,
    "trend_label": "falling",
    "sos_remaining": 99.25,
-   "power": 128.2,
+   "power": 128.3,
    "power_rank": 1,
    "pf_rank": 1
   },
@@ -149,7 +149,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 102.66,
+   "proj_next": 102.67,
    "future_opps": [
     5,
     9,
@@ -252,7 +252,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 93.34,
+   "proj_next": 93.45,
    "future_opps": [
     7,
     4,
@@ -307,9 +307,112 @@
    "trend": -5.9,
    "trend_label": "falling",
    "sos_remaining": 102.09,
-   "power": 109.1,
+   "power": 109.2,
    "power_rank": 3,
    "pf_rank": 2
+  },
+  {
+   "roster_id": 8,
+   "team": "ValKilmersComeback",
+   "manager": "Mockstar",
+   "is_mine": true,
+   "wins": 5,
+   "losses": 3,
+   "ties": 0,
+   "h2h": "3-1",
+   "median": "2-2",
+   "allplay": "26-18",
+   "allplay_pct": 0.591,
+   "scores": [
+    111.26,
+    138.87,
+    96.91,
+    98.12
+   ],
+   "avg": 111.29,
+   "last": 98.12,
+   "pf": 445.16,
+   "proj_totals": [
+    95.5,
+    101.61,
+    100.01,
+    100.98
+   ],
+   "vs_proj": 47.06,
+   "bench_left": [
+    24.2,
+    18.3,
+    8.9,
+    30.85
+   ],
+   "efficiency": 0.85,
+   "injured_starters": [
+    {
+     "name": "Rico Dowdle",
+     "pos": "RB",
+     "status": "Questionable",
+     "body": "Toe"
+    }
+   ],
+   "byes_next": [],
+   "proj_next": 102.35,
+   "future_opps": [
+    9,
+    6,
+    12,
+    4,
+    7,
+    10,
+    3,
+    1,
+    2,
+    11,
+    5,
+    9,
+    6,
+    12
+   ],
+   "faab_used": 47,
+   "starters_now": [
+    {
+     "name": "Josh Allen",
+     "pos": "QB"
+    },
+    {
+     "name": "Jonathan Taylor",
+     "pos": "RB"
+    },
+    {
+     "name": "Ollie Gordon",
+     "pos": "RB"
+    },
+    {
+     "name": "Denzel Boston",
+     "pos": "WR"
+    },
+    {
+     "name": "DK Metcalf",
+     "pos": "WR"
+    },
+    {
+     "name": "Davante Adams",
+     "pos": "WR"
+    },
+    {
+     "name": "Rico Dowdle",
+     "pos": "RB"
+    },
+    {
+     "name": "SEA DEF",
+     "pos": "DEF"
+    }
+   ],
+   "trend": -8.1,
+   "trend_label": "falling",
+   "sos_remaining": 102.84,
+   "power": 107.7,
+   "power_rank": 4,
+   "pf_rank": 5
   },
   {
    "roster_id": 7,
@@ -348,7 +451,7 @@
    "efficiency": 0.88,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 108.83,
+   "proj_next": 108.82,
    "future_opps": [
     12,
     2,
@@ -404,7 +507,7 @@
    "trend_label": "rising",
    "sos_remaining": 101.09,
    "power": 106.4,
-   "power_rank": 4,
+   "power_rank": 5,
    "pf_rank": 7
   },
   {
@@ -444,7 +547,7 @@
    "efficiency": 0.93,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 99.6,
+   "proj_next": 99.72,
    "future_opps": [
     2,
     11,
@@ -500,104 +603,8 @@
    "trend_label": "flat",
    "sos_remaining": 99.08,
    "power": 106.2,
-   "power_rank": 5,
-   "pf_rank": 6
-  },
-  {
-   "roster_id": 8,
-   "team": "ValKilmersComeback",
-   "manager": "Mockstar",
-   "is_mine": true,
-   "wins": 5,
-   "losses": 3,
-   "ties": 0,
-   "h2h": "3-1",
-   "median": "2-2",
-   "allplay": "26-18",
-   "allplay_pct": 0.591,
-   "scores": [
-    111.26,
-    138.87,
-    96.91,
-    98.12
-   ],
-   "avg": 111.29,
-   "last": 98.12,
-   "pf": 445.16,
-   "proj_totals": [
-    95.5,
-    101.61,
-    100.01,
-    100.98
-   ],
-   "vs_proj": 47.06,
-   "bench_left": [
-    24.2,
-    18.3,
-    8.9,
-    30.85
-   ],
-   "efficiency": 0.85,
-   "injured_starters": [],
-   "byes_next": [],
-   "proj_next": 96.9,
-   "future_opps": [
-    9,
-    6,
-    12,
-    4,
-    7,
-    10,
-    3,
-    1,
-    2,
-    11,
-    5,
-    9,
-    6,
-    12
-   ],
-   "faab_used": 47,
-   "starters_now": [
-    {
-     "name": "Josh Allen",
-     "pos": "QB"
-    },
-    {
-     "name": "Jonathan Taylor",
-     "pos": "RB"
-    },
-    {
-     "name": "Woody Marks",
-     "pos": "RB"
-    },
-    {
-     "name": "Denzel Boston",
-     "pos": "WR"
-    },
-    {
-     "name": "DK Metcalf",
-     "pos": "WR"
-    },
-    {
-     "name": "Davante Adams",
-     "pos": "WR"
-    },
-    {
-     "name": "Courtland Sutton",
-     "pos": "WR"
-    },
-    {
-     "name": "SEA DEF",
-     "pos": "DEF"
-    }
-   ],
-   "trend": -8.1,
-   "trend_label": "falling",
-   "sos_remaining": 102.84,
-   "power": 105.5,
    "power_rank": 6,
-   "pf_rank": 5
+   "pf_rank": 6
   },
   {
    "roster_id": 6,
@@ -845,7 +852,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 95.28,
+   "proj_next": 95.29,
    "future_opps": [
     6,
     12,
@@ -948,7 +955,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 91.21,
+   "proj_next": 91.34,
    "future_opps": [
     8,
     10,
@@ -1003,7 +1010,7 @@
    "trend": -18.6,
    "trend_label": "falling",
    "sos_remaining": 107.57,
-   "power": 93.0,
+   "power": 93.1,
    "power_rank": 10,
    "pf_rank": 9
   },
@@ -1059,7 +1066,7 @@
    "byes_next": [
     "KC DEF"
    ],
-   "proj_next": 77.65,
+   "proj_next": 77.66,
    "future_opps": [
     10,
     3,
@@ -1162,7 +1169,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 73.4,
+   "proj_next": 73.43,
    "future_opps": [
     1,
     7,
@@ -1325,7 +1332,7 @@
  ],
  "projection_source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-10-08T00:14:23Z",
+  "taken_at_utc": "2026-10-08T01:34:45Z",
   "label": "wed_pm"
  }
 }

@@ -1,6 +1,6 @@
 {
  "date_central": "2026-10-07",
- "pulled_at_utc": "2026-10-08T00:14:22Z",
+ "pulled_at_utc": "2026-10-08T01:34:44Z",
  "compared_to": "2026-10-06",
  "n_changes": 55,
  "n_mine": 6,
@@ -59,7 +59,7 @@
    "roster_id": 8,
    "team_name": "ValKilmersComeback",
    "is_mine": true,
-   "slot": "BN",
+   "slot": "RB",
    "kind": "changed",
    "fields": {
     "depth_chart_order": {
@@ -76,7 +76,7 @@
    "roster_id": 8,
    "team_name": "ValKilmersComeback",
    "is_mine": true,
-   "slot": "BN",
+   "slot": "FLEX",
    "kind": "changed",
    "fields": {
     "injury_status": {

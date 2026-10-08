@@ -2,28 +2,17 @@
  "week": 5,
  "first_recorded_utc": "2026-10-07T16:06:40Z",
  "source": "live build",
- "updated_utc": "2026-10-08T00:14:24Z",
+ "updated_utc": "2026-10-08T01:34:47Z",
  "start_sit": [
   {
    "type": "start_sit",
    "kind": "change",
-   "player_id": "12495",
-   "name": "Ollie Gordon",
-   "alt_id": "12474",
-   "alt_name": "Woody Marks",
-   "expected": 9.62,
-   "alt_expected": 8.24,
-   "started": false
-  },
-  {
-   "type": "start_sit",
-   "kind": "change",
    "player_id": "5872",
    "name": "Deebo Samuel",
-   "alt_id": "5045",
-   "alt_name": "Courtland Sutton",
-   "expected": 9.81,
-   "alt_expected": 7.15,
+   "alt_id": "7021",
+   "alt_name": "Rico Dowdle",
+   "expected": 9.82,
+   "alt_expected": 8.12,
    "started": false
   },
   {
@@ -44,7 +33,7 @@
    "name": "Deebo Samuel",
    "alt_id": "12506",
    "alt_name": "Harold Fannin",
-   "expected": 9.81,
+   "expected": 9.82,
    "alt_expected": 9.09,
    "started": false
   },
@@ -55,7 +44,7 @@
    "name": "Denzel Boston",
    "alt_id": "12506",
    "alt_name": "Harold Fannin",
-   "expected": 9.31,
+   "expected": 9.32,
    "alt_expected": 9.09,
    "started": false
   },
@@ -66,7 +55,7 @@
    "name": "Denzel Boston",
    "alt_id": "12474",
    "alt_name": "Woody Marks",
-   "expected": 9.31,
+   "expected": 9.32,
    "alt_expected": 8.24,
    "started": false
   },
@@ -77,8 +66,8 @@
    "name": "Denzel Boston",
    "alt_id": "7021",
    "alt_name": "Rico Dowdle",
-   "expected": 9.31,
-   "alt_expected": 8.07,
+   "expected": 9.32,
+   "alt_expected": 8.12,
    "started": false
   }
  ],
@@ -95,7 +84,7 @@
    "slot": "RB",
    "player_id": "6813",
    "name": "Jonathan Taylor",
-   "expected": 17.81,
+   "expected": 17.88,
    "started": false,
    "frozen": false
   },
@@ -119,7 +108,7 @@
    "slot": "WR",
    "player_id": "5846",
    "name": "DK Metcalf",
-   "expected": 10.6,
+   "expected": 10.57,
    "started": false,
    "frozen": false
   },
@@ -127,7 +116,7 @@
    "slot": "FLEX",
    "player_id": "5872",
    "name": "Deebo Samuel",
-   "expected": 9.81,
+   "expected": 9.82,
    "started": false,
    "frozen": false
   },
@@ -135,7 +124,7 @@
    "slot": "FLEX",
    "player_id": "13346",
    "name": "Denzel Boston",
-   "expected": 9.31,
+   "expected": 9.32,
    "started": false,
    "frozen": false
   },
@@ -243,7 +232,7 @@
    "alt_name": "Ollie Gordon"
   }
  ],
- "claims_rec_utc": "2026-10-08T00:14:24Z",
+ "claims_rec_utc": "2026-10-08T01:34:47Z",
  "synthesis": [
   {
    "type": "start",

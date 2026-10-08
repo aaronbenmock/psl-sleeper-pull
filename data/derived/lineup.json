@@ -1,9 +1,9 @@
 {
  "week": 5,
- "generated_at_utc": "2026-10-08T00:14:24Z",
+ "generated_at_utc": "2026-10-08T01:34:47Z",
  "source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-10-08T00:14:23Z",
+  "taken_at_utc": "2026-10-08T01:34:45Z",
   "label": "wed_pm"
  },
  "lineup": [
@@ -39,12 +39,12 @@
    "pos": "RB",
    "team": "IND",
    "opp": "PIT",
-   "sleeper": 17.51,
+   "sleeper": 17.61,
    "preseason": 16.44,
    "season_avg": 20.3,
    "n_games": 4,
    "baseline": 18.37,
-   "expected": 17.81,
+   "expected": 17.88,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -57,7 +57,7 @@
    "started": false,
    "actual_so_far": null,
    "slot": "RB",
-   "why": "Sleeper projects 17.5, season average 20.3 over 4 games, preseason model 16.4. Blended expectation 17.8 vs PIT.",
+   "why": "Sleeper projects 17.6, season average 20.3 over 4 games, preseason model 16.4. Blended expectation 17.9 vs PIT.",
    "vacated": {
     "player_id": "00-0036223",
     "pos": "RB",
@@ -199,12 +199,12 @@
    "pos": "WR",
    "team": "PIT",
    "opp": "IND",
-   "sleeper": 11.17,
+   "sleeper": 11.12,
    "preseason": 10.03,
    "season_avg": 9.07,
    "n_games": 4,
    "baseline": 9.55,
-   "expected": 10.6,
+   "expected": 10.57,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -217,7 +217,7 @@
    "started": false,
    "actual_so_far": null,
    "slot": "WR",
-   "why": "Sleeper projects 11.2, season average 9.1 over 4 games, preseason model 10.0. Blended expectation 10.6 vs IND.",
+   "why": "Sleeper projects 11.1, season average 9.1 over 4 games, preseason model 10.0. Blended expectation 10.6 vs IND.",
    "vacated": {
     "player_id": " 00-0035640",
     "pos": "WR",
@@ -250,12 +250,12 @@
    "pos": "WR",
    "team": "SF",
    "opp": "SEA",
-   "sleeper": 8.15,
+   "sleeper": 8.16,
    "preseason": 10.2,
    "season_avg": 15.61,
    "n_games": 4,
    "baseline": 12.91,
-   "expected": 9.81,
+   "expected": 9.82,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -312,12 +312,12 @@
    "pos": "WR",
    "team": "CLE",
    "opp": "NYJ",
-   "sleeper": 9.13,
+   "sleeper": 9.14,
    "preseason": 6.59,
    "season_avg": 12.72,
    "n_games": 4,
    "baseline": 9.66,
-   "expected": 9.31,
+   "expected": 9.32,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -363,7 +363,7 @@
    "pos": "DEF",
    "team": "SEA",
    "opp": "SF",
-   "sleeper": 6.87,
+   "sleeper": 6.86,
    "preseason": 13.1,
    "season_avg": 10.32,
    "n_games": 4,
@@ -526,12 +526,12 @@
    "pos": "RB",
    "team": "PIT",
    "opp": "IND",
-   "sleeper": 9.29,
+   "sleeper": 9.37,
    "preseason": 10.44,
    "season_avg": 4.25,
    "n_games": 2,
    "baseline": 8.38,
-   "expected": 8.07,
+   "expected": 8.12,
    "injury_status": "Questionable",
    "injury_body_part": "Toe",
    "practice": null,
@@ -544,7 +544,7 @@
    "started": false,
    "actual_so_far": null,
    "slot": "BN",
-   "why": "Sleeper projects 9.3, season average 4.2 over 2 games, preseason model 10.4, Questionable (Toe) cuts it by 9%. Blended expectation 8.1 vs IND.",
+   "why": "Sleeper projects 9.4, season average 4.2 over 2 games, preseason model 10.4, Questionable (Toe) cuts it by 9%. Blended expectation 8.1 vs IND.",
    "vacated": {
     "player_id": "00-0036139",
     "pos": "RB",
@@ -577,12 +577,12 @@
    "pos": "WR",
    "team": "JAX",
    "opp": "PHI",
-   "sleeper": 7.07,
+   "sleeper": 7.06,
    "preseason": 9.21,
    "season_avg": 8.8,
    "n_games": 4,
    "baseline": 9.01,
-   "expected": 7.75,
+   "expected": 7.74,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -595,7 +595,7 @@
    "started": false,
    "actual_so_far": null,
    "slot": "BN",
-   "why": "Sleeper projects 7.1, season average 8.8 over 4 games, preseason model 9.2. Blended expectation 7.8 vs PHI.",
+   "why": "Sleeper projects 7.1, season average 8.8 over 4 games, preseason model 9.2. Blended expectation 7.7 vs PHI.",
    "vacated": {
     "player_id": " 00-0034960",
     "pos": "WR",
@@ -710,27 +710,20 @@
  "current_starters": [
   "Josh Allen",
   "Jonathan Taylor",
-  "Woody Marks",
+  "Ollie Gordon",
   "Denzel Boston",
   "DK Metcalf",
   "Davante Adams",
-  "Courtland Sutton",
+  "Rico Dowdle",
   "SEA DEF"
  ],
  "changes": [
   {
-   "out": "Woody Marks",
-   "in": "Ollie Gordon",
-   "out_expected": 8.24,
-   "in_expected": 9.62,
-   "why": "Ollie Gordon 9.6 vs Woody Marks 8.2 expected (+1.4). "
-  },
-  {
-   "out": "Courtland Sutton",
+   "out": "Rico Dowdle",
    "in": "Deebo Samuel",
-   "out_expected": 7.15,
-   "in_expected": 9.81,
-   "why": "Deebo Samuel 9.8 vs Courtland Sutton 7.2 expected (+2.7). "
+   "out_expected": 8.12,
+   "in_expected": 9.82,
+   "why": "Deebo Samuel 9.8 vs Rico Dowdle 8.1 expected (+1.7). "
   }
  ],
  "close_calls": [
@@ -785,9 +778,9 @@
    "why": "Denzel Boston 9.3 vs Rico Dowdle 8.1, only 1.2 apart."
   }
  ],
- "expected_total": 104.0,
+ "expected_total": 104.1,
  "notes": [
-  "Projections are from the wed_pm snapshot taken Wed Oct 07 07:14 PM Central."
+  "Projections are from the wed_pm snapshot taken Wed Oct 07 08:34 PM Central."
  ],
  "warnings": [],
  "vacated_meta": {
@@ -800,7 +793,7 @@
    3,
    4
   ],
-  "pulled_at_utc": "2026-10-08T00:14:24Z",
+  "pulled_at_utc": "2026-10-08T01:34:46Z",
   "n_players": 11,
   "n_unmapped": 0,
   "note": "Vacated share is display only. It is not part of expected points, and it does not change the close-call tiebreak: the 2015-2024 backtest could not tell it apart from the current rule on held-out 2025 (see the Backtest tab)."

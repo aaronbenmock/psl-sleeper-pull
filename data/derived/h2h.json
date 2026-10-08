@@ -5,11 +5,11 @@
  "opponent": "Girthenheimer",
  "manager": "Breadsticks310",
  "roster_id": 9,
- "my_total": 104.0,
+ "my_total": 104.1,
  "opp_set_total": 87.3,
  "opp_best_total": 89.8,
  "verdict": "favored",
- "margin": 16.7,
+ "margin": 16.8,
  "verdict_vs_best": "favored",
  "opp_injured": [
   {
@@ -60,7 +60,7 @@
   {
    "name": "Emanuel Wilson",
    "pos": "RB",
-   "expected": 9.84,
+   "expected": 9.92,
    "injury_status": null,
    "baseline_only": false
   },
@@ -79,15 +79,15 @@
    "baseline_only": false
   }
  ],
- "median_total": 93.2,
+ "median_total": 93.3,
  "median_verdict": "favored",
  "median_margin": 10.8,
  "source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-10-08T00:14:23Z",
+  "taken_at_utc": "2026-10-08T01:34:45Z",
   "label": "wed_pm"
  },
  "opp_baseline_only": 0,
- "why": "Your recommended lineup projects 104.0; Girthenheimer's set lineup 87.3 (best possible from their roster 89.8). Margin +16.7: favored.",
+ "why": "Your recommended lineup projects 104.1; Girthenheimer's set lineup 87.3 (best possible from their roster 89.8). Margin +16.8: favored.",
  "note": "Both sides use the engine blend (0.65 x Sleeper + 0.35 x baseline, injury multipliers), so the totals are comparable. Inside +/-5 points the game is called a toss-up [Guessing]. Your own lineup still follows max expected points; the matchup does not change who you start."
 }
