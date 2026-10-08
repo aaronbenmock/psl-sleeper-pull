@@ -102,6 +102,8 @@ class Book:
             self.reason = self.reason or "no data/usage file yet"
             return
         self.s2g = raw.get("sleeper_to_gsis") or {}
+        from .recommend import set_current_teams
+        set_current_teams(self.u, ctx, self.s2g)
         self.g2s = {g: s for s, g in self.s2g.items()}
         self.ctx = ctx
         self._absent = {}

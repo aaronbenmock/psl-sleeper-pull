@@ -6,81 +6,16 @@
  "start_sit": [
   {
    "type": "start_sit",
-   "kind": "change",
-   "player_id": "5872",
-   "name": "Deebo Samuel",
-   "alt_id": "5846",
-   "alt_name": "DK Metcalf",
-   "expected": 9.24,
-   "alt_expected": 8.31,
-   "started": true,
-   "frozen": true,
-   "frozen_at_utc": "2026-10-02T12:03:38Z"
-  },
-  {
-   "type": "start_sit",
-   "kind": "change",
-   "player_id": "12506",
-   "name": "Harold Fannin",
-   "alt_id": "5045",
-   "alt_name": "Courtland Sutton",
-   "expected": 9.34,
-   "alt_expected": 8.12,
-   "started": true,
-   "frozen": true,
-   "frozen_at_utc": "2026-10-02T12:03:38Z"
-  },
-  {
-   "type": "start_sit",
    "kind": "close_call",
    "player_id": "5872",
    "name": "Deebo Samuel",
-   "alt_id": "5846",
-   "alt_name": "DK Metcalf",
-   "expected": 9.24,
-   "alt_expected": 8.31,
-   "started": true,
-   "frozen": true,
-   "frozen_at_utc": "2026-10-02T12:03:38Z"
-  },
-  {
-   "type": "start_sit",
-   "kind": "close_call",
-   "player_id": "12506",
-   "name": "Harold Fannin",
-   "alt_id": "5846",
-   "alt_name": "DK Metcalf",
-   "expected": 9.34,
-   "alt_expected": 8.31,
-   "started": true,
-   "frozen": true,
-   "frozen_at_utc": "2026-10-02T12:03:38Z"
-  },
-  {
-   "type": "start_sit",
-   "kind": "close_call",
-   "player_id": "12506",
-   "name": "Harold Fannin",
    "alt_id": "5045",
    "alt_name": "Courtland Sutton",
-   "expected": 9.34,
+   "expected": 9.24,
    "alt_expected": 8.12,
    "started": true,
    "frozen": true,
-   "frozen_at_utc": "2026-10-02T12:03:38Z"
-  },
-  {
-   "type": "start_sit",
-   "kind": "close_call",
-   "player_id": "13346",
-   "name": "Denzel Boston",
-   "alt_id": "5846",
-   "alt_name": "DK Metcalf",
-   "expected": 9.17,
-   "alt_expected": 8.31,
-   "started": true,
-   "frozen": true,
-   "frozen_at_utc": "2026-10-02T12:03:38Z"
+   "frozen_at_utc": "2026-10-02T00:10:53Z"
   },
   {
    "type": "start_sit",
@@ -89,11 +24,11 @@
    "name": "Denzel Boston",
    "alt_id": "5045",
    "alt_name": "Courtland Sutton",
-   "expected": 9.17,
+   "expected": 9.16,
    "alt_expected": 8.12,
    "started": true,
    "frozen": true,
-   "frozen_at_utc": "2026-10-02T12:03:38Z"
+   "frozen_at_utc": "2026-10-02T00:10:53Z"
   },
   {
    "type": "start_sit",
@@ -102,50 +37,37 @@
    "name": "Denzel Boston",
    "alt_id": "5947",
    "alt_name": "Jakobi Meyers",
-   "expected": 9.17,
+   "expected": 9.16,
    "alt_expected": 7.73,
    "started": true,
    "frozen": true,
-   "frozen_at_utc": "2026-10-02T12:03:38Z"
+   "frozen_at_utc": "2026-10-02T00:10:53Z"
   },
   {
    "type": "start_sit",
    "kind": "close_call",
-   "player_id": "5872",
-   "name": "Deebo Samuel",
+   "player_id": "5846",
+   "name": "DK Metcalf",
    "alt_id": "5045",
    "alt_name": "Courtland Sutton",
-   "expected": 9.32,
-   "alt_expected": 8.17,
+   "expected": 8.26,
+   "alt_expected": 8.12,
    "started": true,
    "frozen": true,
-   "frozen_at_utc": "2026-10-04T23:13:42Z"
+   "frozen_at_utc": "2026-10-02T00:10:53Z"
   },
   {
    "type": "start_sit",
    "kind": "close_call",
-   "player_id": "5872",
-   "name": "Deebo Samuel",
+   "player_id": "5846",
+   "name": "DK Metcalf",
    "alt_id": "5947",
    "alt_name": "Jakobi Meyers",
-   "expected": 9.32,
-   "alt_expected": 8.6,
+   "expected": 8.26,
+   "alt_expected": 7.73,
    "started": true,
    "frozen": true,
-   "frozen_at_utc": "2026-10-05T11:12:24Z"
-  },
-  {
-   "type": "start_sit",
-   "kind": "close_call",
-   "player_id": "12506",
-   "name": "Harold Fannin",
-   "alt_id": "5947",
-   "alt_name": "Jakobi Meyers",
-   "expected": 9.34,
-   "alt_expected": 8.6,
-   "started": true,
-   "frozen": true,
-   "frozen_at_utc": "2026-10-05T11:12:24Z"
+   "frozen_at_utc": "2026-10-02T00:10:53Z"
   }
  ],
  "lineup": [
@@ -153,57 +75,64 @@
    "slot": "QB",
    "player_id": "4984",
    "name": "Josh Allen",
-   "expected": 26.04,
+   "expected": 25.95,
    "started": true,
-   "frozen": true
+   "frozen": true,
+   "frozen_at_utc": "2026-10-02T00:10:53Z"
   },
   {
    "slot": "RB",
    "player_id": "6813",
    "name": "Jonathan Taylor",
-   "expected": 19.42,
+   "expected": 19.48,
    "started": true,
-   "frozen": true
+   "frozen": true,
+   "frozen_at_utc": "2026-10-02T00:10:53Z"
   },
   {
    "slot": "RB",
    "player_id": "12474",
    "name": "Woody Marks",
-   "expected": 8.15,
+   "expected": 8.13,
    "started": true,
-   "frozen": true
+   "frozen": true,
+   "frozen_at_utc": "2026-10-02T00:10:53Z"
   },
   {
    "slot": "WR",
    "player_id": "2133",
    "name": "Davante Adams",
-   "expected": 13.84,
+   "expected": 13.56,
    "started": true,
-   "frozen": true
+   "frozen": true,
+   "frozen_at_utc": "2026-10-02T00:10:53Z"
   },
   {
    "slot": "WR",
    "player_id": "5872",
    "name": "Deebo Samuel",
-   "expected": 9.32,
+   "expected": 9.24,
    "started": true,
-   "frozen": true
-  },
-  {
-   "slot": "FLEX",
-   "player_id": "12506",
-   "name": "Harold Fannin",
-   "expected": 9.34,
-   "started": true,
-   "frozen": true
+   "frozen": true,
+   "frozen_at_utc": "2026-10-02T00:10:53Z"
   },
   {
    "slot": "FLEX",
    "player_id": "13346",
    "name": "Denzel Boston",
-   "expected": 9.17,
+   "expected": 9.16,
    "started": true,
-   "frozen": true
+   "frozen": true,
+   "frozen_at_utc": "2026-10-02T00:10:53Z"
+  },
+  {
+   "slot": "FLEX",
+   "player_id": "5846",
+   "name": "DK Metcalf",
+   "expected": 8.26,
+   "started": true,
+   "frozen": true,
+   "frozen_at_utc": "2026-10-02T00:10:53Z"
   },
   {
    "slot": "DEF",
@@ -211,7 +140,8 @@
    "name": "SEA DEF",
    "expected": 9.89,
    "started": true,
-   "frozen": true
+   "frozen": true,
+   "frozen_at_utc": "2026-10-02T00:10:53Z"
   }
  ],
  "claims_freeze_utc": "2026-10-01T07:00:00Z",
@@ -376,5 +306,6 @@
    "file": "week04_synthesis_2026-09-30.md",
    "alt_id": "SEA"
   }
- ]
+ ],
+ "repair_note": "2026-10-07: start/sit and lineup rows replaced with the last build before the Thursday Oct 1 kickoff (git 6928565, 2026-10-02T00:10:53Z). The original freeze captured the first build after kickoff, which had re-ranked Thursday players."
 }

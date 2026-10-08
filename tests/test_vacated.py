@@ -42,6 +42,21 @@ def toy_usage():
                     prior_pos={"WR": {"ppt": 1.0, "ppc": 0.5}}, season=2025)
 
 
+class DepartedTeammateTests(unittest.TestCase):
+    def test_last_seasons_teammate_who_left_is_not_a_teammate(self):
+        # D was on XXX last season and has no usage this season. He counts as a teammate (and so can be
+        # "out") only while Sleeper still lists him on XXX.
+        prior = {"D": {"name": "D", "pos": "TE", "team": "XXX", "g": 17, "tgt_share": 0.13, "car_share": 0.0, "ppt": 1.0}}
+        u = vc.Usage([], {}, prior=prior, season=2026)
+        self.assertIn("D", u.teammates("XXX", "TE", 2026, 5))
+        u.current_team["D"] = "LAC"
+        self.assertNotIn("D", u.teammates("XXX", "TE", 2026, 5))
+        u.current_team["D"] = None          # unsigned
+        self.assertNotIn("D", u.teammates("XXX", "TE", 2026, 5))
+        u.current_team["D"] = "XXX"
+        self.assertIn("D", u.teammates("XXX", "TE", 2026, 5))
+
+
 class ArithmeticTests(unittest.TestCase):
     def setUp(self):
         self.u = toy_usage()

@@ -5,7 +5,7 @@
 - **Zach Charbonnet stays on IR, out for week 5.** Coach Mike Macdonald confirmed it (NBC Sports, Oct 5). Week 6 vs DEN is possible; Seattle must activate him by about Oct 22. Jadarian Price is now on IR (Sleeper), so his role may be bigger [Likely].
 - **Keep Kyler Murray.** He is your only cover for Josh Allen's week 7 bye.
 - **No Thursday lock this week:** the Thursday game is TB at DAL (fbschedules), and you have no players in it.
-- Harold Fannin: the engine's "Njoku out" boost is stale; Cleveland did not keep Njoku (Fantasy Nerds) [Likely]. Boston stays in FLEX (0.2 apart).
+- Harold Fannin: the engine's "Njoku out" note was a bug (Njoku is a Charger now); fixed. Boston stays in FLEX (0.2 apart).
 
 ## Waiver targets: news check
 - **The engine pairs every claim with dropping Ollie Gordon, but that drop is out of date.** The real weakest player is Courtland Sutton (rest-of-season value 6.9, 3.3 points a game this year).

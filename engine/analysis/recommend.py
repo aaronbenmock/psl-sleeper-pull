@@ -22,6 +22,16 @@ FLEX_ELIGIBLE = {"RB", "WR", "TE"}
 SLEEPER_TO_NFLVERSE = {"LAR": "LA"}      # Sleeper's team code -> the nflverse code used by the usage file
 
 
+def set_current_teams(u, ctx, s2g):
+    """Tell the usage index which team each player is on today, so last season's teammates who have
+    left (David Njoku off the 2025 Browns, for one) are not counted as 'out' for their old team."""
+    for sid, g in s2g.items():
+        p = ctx.players.get(sid)
+        if p is not None:
+            t = p.get("team")
+            u.current_team[g] = SLEEPER_TO_NFLVERSE.get(t, t) if t else None
+
+
 def _r(v, n=1):
     return None if v is None else round(v, n)
 
@@ -111,6 +121,7 @@ def vacated_column(ctx, week, values):
     season = int(ctx.season)
     s2g = raw.get("sleeper_to_gsis") or {}
     g2s = {g: s for s, g in s2g.items()}
+    set_current_teams(u, ctx, s2g)
     mine = [v for v in values if v.get("pos") in vc.POS_OK and v.get("team")]
     teams = {SLEEPER_TO_NFLVERSE.get(v["team"], v["team"]) for v in mine}
     # who on those teams is out this week, from the daily Sleeper injury table
@@ -264,15 +275,40 @@ def lineup_recommendation(ctx):
     else:
         t = parse_iso(src["taken_at_utc"])
         notes.append(f"Projections are from the {src.get('label', '')} snapshot taken {to_central(t).strftime('%a %b %d %I:%M %p')} Central.")
+    warnings = []
+    bad_ir = ir_ineligible(ctx, ir_rows)
+    if bad_ir:
+        open_bn = sum(1 for s in ctx.league.get("roster_positions") or [] if s == "BN") - len(bench)
+        warnings.append("IR slot problem: " + "; ".join(f"{r['name']} is listed {r['injury_status'] or 'healthy'}" for r in bad_ir)
+                     + f". This league's IR slot only takes {', '.join(ir_allowed(ctx))}, and Sleeper blocks adds and waiver claims "
+                     + "until an ineligible player leaves IR [Likely]. "
+                     + (f"You have {open_bn} open bench spot{'s' if open_bn != 1 else ''}, so moving him to the bench costs nothing."
+                        if open_bn >= len(bad_ir) else "Your bench is full, so moving him off IR needs a drop."))
     played = [r for r in lineup + bench if r.get("started")]
     if played:
         notes.append(f"{len(played)} of your players have already kicked off this week; their rows show points so far.")
     return {"week": week, "generated_at_utc": iso(ctx.now), "source": src, "lineup": lineup, "bench": bench, "ir": ir_rows,
             "current_starters": [by_id.get(p, {}).get("name") or ctx.name(p) for p in cur_set],
-            "changes": changes, "close_calls": close, "expected_total": total, "notes": notes,
+            "changes": changes, "close_calls": close, "expected_total": total, "notes": notes, "warnings": warnings,
             "vacated_meta": vac_meta,
             "method": f"expected = {W_SLEEPER:.2f} x Sleeper + {1 - W_SLEEPER:.2f} x baseline; baseline = "
                       f"(n x season avg + {PRIOR_GAMES} x preseason) / (n + {PRIOR_GAMES}); injury multipliers Q 0.90, D 0.40, Out 0."}
+
+
+def ir_allowed(ctx):
+    """Injury statuses this league's IR slot accepts. IR and PUP always; the rest follow the reserve_allow_* settings."""
+    s = ctx.settings or {}
+    allowed = ["IR", "PUP"]
+    for key, status in (("reserve_allow_out", "Out"), ("reserve_allow_doubtful", "Doubtful"), ("reserve_allow_sus", "Sus"),
+                        ("reserve_allow_cov", "COV"), ("reserve_allow_dnr", "DNR"), ("reserve_allow_na", "NA")):
+        if s.get(key):
+            allowed.append(status)
+    return allowed
+
+
+def ir_ineligible(ctx, ir_rows):
+    ok = set(ir_allowed(ctx))
+    return [r for r in ir_rows if (r.get("injury_status") or "") not in ok]
 
 
 # ---------------------------------------------------------------- waivers

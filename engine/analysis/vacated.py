@@ -116,6 +116,7 @@ class Usage:
         for (s, w, t), v in sorted(team_tot.items()):
             self.team_games[(s, t)].append((w, v))
         self._cache = {}
+        self.current_team = {}       # pid -> team now (from Sleeper); set by the live build, empty in backtests
 
     # ---- slicing
     def history(self, pid, season, week):
@@ -127,10 +128,11 @@ class Usage:
 
     def teammates(self, team, pos, season, week):
         """Everyone at `pos` with usage on `team` before `week` this season, plus anyone the previous
-        season listed there (a starter who has been out since week 1 still vacates his prior share)."""
+        season listed there (a starter who has been out since week 1 still vacates his prior share), unless
+        `current_team` says he has since moved to another team or is unsigned."""
         out = {pid for pid in self.by_team.get((season, team, pos), set()) if self.history(pid, season, week)}
         for pid, pr in self.prior.items():
-            if pr.get("team") == team and pr.get("pos") == pos:
+            if pr.get("team") == team and pr.get("pos") == pos and self.current_team.get(pid, team) == team:
                 out.add(pid)
         return out
 

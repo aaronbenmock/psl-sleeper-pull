@@ -3,8 +3,9 @@ actually did. Kept separate from projection accuracy (accuracy.py): this grades 
 
 Freeze. Every build writes data/derived/calls/<season>/weekNN.json for the upcoming week:
   start/sit  the recommended lineup and every change / close call; a row freezes once either player's
-             game has kicked off (the snapshot's `started` flag), so a call is never rewritten after
-             the fact
+             game has kicked off (the snapshot's `started` flag), as it stood at the last build before
+             that kickoff, so a call is never rewritten after the fact. A call that first appears after
+             one of its players kicked off is a hindsight call and is not recorded.
   claims     the claims, the DEF streams and the speculative claims; frozen at the first waiver run
              after they were first recorded (Thursday 2:00 AM Central)
   synthesis  the structured calls the weekly news synthesis wrote into data/synthesis/latest.json
@@ -100,15 +101,25 @@ def merge(existing, week, now, lineup, waivers, synth_meta, rec_source="live bui
     out.setdefault("week", int(week))
     out.setdefault("first_recorded_utc", iso(now))
     out.setdefault("source", rec_source)
+    prev_build = out.get("updated_utc")          # the last build before this one
     out["updated_utc"] = iso(now)
-    # start/sit: frozen rows stay, live rows are replaced
+    started_now = {r["player_id"] for r in (lineup.get("lineup") or []) + (lineup.get("bench") or [])
+                   if r.get("player_id") and r.get("started")}
+    # start/sit: frozen rows stay. A live row whose player has now kicked off freezes as it stood at the
+    # last build before kickoff (not as this build re-ranks it with the game under way). Other live rows
+    # are replaced by the current recommendation.
     old_ss = [c for c in out.get("start_sit") or [] if c.get("frozen")]
+    for c in out.get("start_sit") or []:
+        if not c.get("frozen") and (c["player_id"] in started_now or c.get("alt_id") in started_now):
+            old_ss.append(dict(c, started=True, frozen=True, frozen_at_utc=prev_build or iso(now)))
     keys = {_ss_key(c) for c in old_ss}
     new_ss = []
     for c in ss:
         if _ss_key(c) in keys:
             continue
         if c["started"]:
+            if prev_build:
+                continue        # first appeared after kickoff: a hindsight call, not recorded
             c = dict(c, frozen=True, frozen_at_utc=iso(now))
         new_ss.append(c)
     out["start_sit"] = old_ss + new_ss
@@ -118,6 +129,8 @@ def merge(existing, week, now, lineup, waivers, synth_meta, rec_source="live bui
         prev = old_lu.get(r["slot"] + str(i))
         if prev and prev.get("frozen"):
             merged_lu.append(prev)
+        elif prev and (prev.get("player_id") in started_now or r["started"]):
+            merged_lu.append(dict(prev, started=True, frozen=True, frozen_at_utc=prev_build or iso(now)))
         else:
             merged_lu.append(dict(r, frozen=r["started"]))
     out["lineup"] = merged_lu
