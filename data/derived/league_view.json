@@ -46,7 +46,7 @@
    "efficiency": 0.96,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 117.92,
+   "proj_next": 118.52,
    "future_opps": [
     11,
     5,
@@ -101,7 +101,7 @@
    "trend": -12.9,
    "trend_label": "falling",
    "sos_remaining": 99.25,
-   "power": 128.1,
+   "power": 128.4,
    "power_rank": 1,
    "pf_rank": 1
   },
@@ -155,7 +155,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 102.61,
+   "proj_next": 102.92,
    "future_opps": [
     5,
     9,
@@ -210,7 +210,7 @@
    "trend": 0.4,
    "trend_label": "flat",
    "sos_remaining": 99.5,
-   "power": 109.8,
+   "power": 109.9,
    "power_rank": 2,
    "pf_rank": 4
   },
@@ -270,7 +270,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 94.13,
+   "proj_next": 94.57,
    "future_opps": [
     7,
     4,
@@ -325,7 +325,7 @@
    "trend": -5.9,
    "trend_label": "falling",
    "sos_remaining": 102.09,
-   "power": 109.5,
+   "power": 109.6,
    "power_rank": 3,
    "pf_rank": 2
   },
@@ -366,7 +366,7 @@
    "efficiency": 0.85,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 101.1,
+   "proj_next": 101.08,
    "future_opps": [
     9,
     6,
@@ -481,7 +481,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 109.01,
+   "proj_next": 109.29,
    "future_opps": [
     12,
     2,
@@ -536,7 +536,7 @@
    "trend": 11.2,
    "trend_label": "rising",
    "sos_remaining": 101.09,
-   "power": 106.4,
+   "power": 106.6,
    "power_rank": 5,
    "pf_rank": 7
   },
@@ -577,7 +577,7 @@
    "efficiency": 0.93,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 99.5,
+   "proj_next": 99.7,
    "future_opps": [
     2,
     11,
@@ -692,7 +692,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 107.88,
+   "proj_next": 108.07,
    "future_opps": [
     4,
     8,
@@ -747,7 +747,7 @@
    "trend": 4.0,
    "trend_label": "rising",
    "sos_remaining": 104.36,
-   "power": 101.8,
+   "power": 101.9,
    "power_rank": 7,
    "pf_rank": 8
   },
@@ -791,7 +791,7 @@
     "Bryce Young",
     "Chuba Hubbard"
    ],
-   "proj_next": 74.72,
+   "proj_next": 74.71,
    "future_opps": [
     3,
     1,
@@ -900,7 +900,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 95.26,
+   "proj_next": 95.39,
    "future_opps": [
     6,
     12,
@@ -955,7 +955,7 @@
    "trend": 11.2,
    "trend_label": "rising",
    "sos_remaining": 104.86,
-   "power": 94.2,
+   "power": 94.3,
    "power_rank": 9,
    "pf_rank": 10
   },
@@ -1003,7 +1003,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 91.14,
+   "proj_next": 91.13,
    "future_opps": [
     8,
     10,
@@ -1114,7 +1114,7 @@
    "byes_next": [
     "KC DEF"
    ],
-   "proj_next": 77.96,
+   "proj_next": 78.04,
    "future_opps": [
     10,
     3,
@@ -1223,7 +1223,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 71.7,
+   "proj_next": 72.72,
    "future_opps": [
     1,
     7,
@@ -1278,7 +1278,7 @@
    "trend": 14.4,
    "trend_label": "rising",
    "sos_remaining": 107.28,
-   "power": 69.1,
+   "power": 69.6,
    "power_rank": 12,
    "pf_rank": 12
   }
@@ -1386,7 +1386,7 @@
  ],
  "projection_source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-10-08T12:05:21Z",
-  "label": "thu_early"
+  "taken_at_utc": "2026-10-08T15:42:07Z",
+  "label": "thu_late_am"
  }
 }

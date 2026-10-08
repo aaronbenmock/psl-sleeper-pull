@@ -25,7 +25,7 @@
   {
    "name": "Jayden Daniels",
    "pos": "QB",
-   "expected": 18.38,
+   "expected": 18.34,
    "injury_status": null,
    "baseline_only": false
   },
@@ -46,7 +46,7 @@
   {
    "name": "Dontayvion Wicks",
    "pos": "WR",
-   "expected": 7.2,
+   "expected": 7.19,
    "injury_status": null,
    "baseline_only": false
   },
@@ -60,7 +60,7 @@
   {
    "name": "Emanuel Wilson",
    "pos": "RB",
-   "expected": 9.91,
+   "expected": 9.95,
    "injury_status": null,
    "baseline_only": false
   },
@@ -79,13 +79,13 @@
    "baseline_only": false
   }
  ],
- "median_total": 92.1,
+ "median_total": 92.4,
  "median_verdict": "favored",
- "median_margin": 11.9,
+ "median_margin": 11.6,
  "source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-10-08T12:05:21Z",
-  "label": "thu_early"
+  "taken_at_utc": "2026-10-08T15:42:07Z",
+  "label": "thu_late_am"
  },
  "opp_baseline_only": 0,
  "why": "Your recommended lineup projects 104.0; Girthenheimer's set lineup 87.6 (best possible from their roster 89.1). Margin +16.4: favored.",
