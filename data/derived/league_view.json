@@ -149,7 +149,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 102.16,
+   "proj_next": 102.66,
    "future_opps": [
     5,
     9,
@@ -177,7 +177,7 @@
      "pos": "RB"
     },
     {
-     "name": "RJ Harvey",
+     "name": "Kyle Monangai",
      "pos": "RB"
     },
     {
@@ -193,7 +193,7 @@
      "pos": "TE"
     },
     {
-     "name": "Kyle Monangai",
+     "name": "RJ Harvey",
      "pos": "RB"
     },
     {
@@ -204,7 +204,7 @@
    "trend": 0.4,
    "trend_label": "flat",
    "sos_remaining": 99.5,
-   "power": 109.6,
+   "power": 109.8,
    "power_rank": 2,
    "pf_rank": 4
   },
@@ -251,10 +251,8 @@
      "body": "Groin"
     }
    ],
-   "byes_next": [
-    "Kenneth Walker"
-   ],
-   "proj_next": 87.42,
+   "byes_next": [],
+   "proj_next": 93.34,
    "future_opps": [
     7,
     4,
@@ -278,7 +276,7 @@
      "pos": "QB"
     },
     {
-     "name": "Kenneth Walker",
+     "name": "Tony Pollard",
      "pos": "RB"
     },
     {
@@ -298,8 +296,8 @@
      "pos": "WR"
     },
     {
-     "name": "Tony Pollard",
-     "pos": "RB"
+     "name": "Rashid Shaheed",
+     "pos": "WR"
     },
     {
      "name": "GB DEF",
@@ -309,7 +307,7 @@
    "trend": -5.9,
    "trend_label": "falling",
    "sos_remaining": 102.09,
-   "power": 106.8,
+   "power": 109.1,
    "power_rank": 3,
    "pf_rank": 2
   },
@@ -350,7 +348,7 @@
    "efficiency": 0.88,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 109.31,
+   "proj_next": 108.83,
    "future_opps": [
     12,
     2,
@@ -405,7 +403,7 @@
    "trend": 11.2,
    "trend_label": "rising",
    "sos_remaining": 101.09,
-   "power": 106.6,
+   "power": 106.4,
    "power_rank": 4,
    "pf_rank": 7
   },
@@ -446,7 +444,7 @@
    "efficiency": 0.93,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 99.61,
+   "proj_next": 99.6,
    "future_opps": [
     2,
     11,
@@ -542,7 +540,7 @@
    "efficiency": 0.85,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 96.94,
+   "proj_next": 96.9,
    "future_opps": [
     9,
     6,
@@ -597,7 +595,7 @@
    "trend": -8.1,
    "trend_label": "falling",
    "sos_remaining": 102.84,
-   "power": 105.6,
+   "power": 105.5,
    "power_rank": 6,
    "pf_rank": 5
   },
@@ -645,7 +643,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 108.09,
+   "proj_next": 107.74,
    "future_opps": [
     4,
     8,
@@ -700,7 +698,7 @@
    "trend": 4.0,
    "trend_label": "rising",
    "sos_remaining": 104.36,
-   "power": 101.9,
+   "power": 101.7,
    "power_rank": 7,
    "pf_rank": 8
   },
@@ -744,7 +742,7 @@
     "Bryce Young",
     "Chuba Hubbard"
    ],
-   "proj_next": 74.33,
+   "proj_next": 74.57,
    "future_opps": [
     3,
     1,
@@ -799,7 +797,7 @@
    "trend": 9.3,
    "trend_label": "rising",
    "sos_remaining": 102.7,
-   "power": 98.5,
+   "power": 98.6,
    "power_rank": 8,
    "pf_rank": 3
   },
@@ -847,7 +845,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 89.85,
+   "proj_next": 95.28,
    "future_opps": [
     6,
     12,
@@ -902,7 +900,7 @@
    "trend": 11.2,
    "trend_label": "rising",
    "sos_remaining": 104.86,
-   "power": 92.0,
+   "power": 94.2,
    "power_rank": 9,
    "pf_rank": 10
   },
@@ -943,14 +941,14 @@
    "efficiency": 0.79,
    "injured_starters": [
     {
-     "name": "Marcus Mariota",
+     "name": "Jayden Daniels",
      "pos": "QB",
-     "status": "Doubtful",
-     "body": "Knee - MCL"
+     "status": "Questionable",
+     "body": "Elbow"
     }
    ],
    "byes_next": [],
-   "proj_next": 71.58,
+   "proj_next": 91.21,
    "future_opps": [
     8,
     10,
@@ -970,7 +968,7 @@
    "faab_used": 36,
    "starters_now": [
     {
-     "name": "Marcus Mariota",
+     "name": "Jayden Daniels",
      "pos": "QB"
     },
     {
@@ -1005,7 +1003,7 @@
    "trend": -18.6,
    "trend_label": "falling",
    "sos_remaining": 107.57,
-   "power": 85.2,
+   "power": 93.0,
    "power_rank": 10,
    "pf_rank": 9
   },
@@ -1061,7 +1059,7 @@
    "byes_next": [
     "KC DEF"
    ],
-   "proj_next": 77.71,
+   "proj_next": 77.65,
    "future_opps": [
     10,
     3,
@@ -1164,7 +1162,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 72.73,
+   "proj_next": 73.4,
    "future_opps": [
     1,
     7,
@@ -1219,7 +1217,7 @@
    "trend": 14.4,
    "trend_label": "rising",
    "sos_remaining": 107.28,
-   "power": 69.6,
+   "power": 69.8,
    "power_rank": 12,
    "pf_rank": 12
   }
@@ -1326,7 +1324,8 @@
   "This league plays a second game against the league median every week, which is why records add up to two games per week (your 2-0 after week 1)."
  ],
  "projection_source": {
-  "kind": "latest.json",
-  "taken_at_utc": "2026-10-07T16:06:39+00:00"
+  "kind": "pre-kickoff snapshot",
+  "taken_at_utc": "2026-10-08T00:14:23Z",
+  "label": "wed_pm"
  }
 }

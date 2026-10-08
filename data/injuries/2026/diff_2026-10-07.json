@@ -1,8 +1,8 @@
 {
  "date_central": "2026-10-07",
- "pulled_at_utc": "2026-10-07T11:11:33Z",
+ "pulled_at_utc": "2026-10-08T00:14:22Z",
  "compared_to": "2026-10-06",
- "n_changes": 56,
+ "n_changes": 55,
  "n_mine": 6,
  "changes": [
   {
@@ -76,7 +76,7 @@
    "roster_id": 8,
    "team_name": "ValKilmersComeback",
    "is_mine": true,
-   "slot": "IR",
+   "slot": "BN",
    "kind": "changed",
    "fields": {
     "injury_status": {
@@ -682,7 +682,7 @@
    "roster_id": 9,
    "team_name": "Girthenheimer",
    "is_mine": false,
-   "slot": "IR",
+   "slot": "QB",
    "kind": "changed",
    "fields": {
     "injury_status": {
@@ -692,31 +692,6 @@
     "news_updated": {
      "from": 1791243340234,
      "to": 1791357605909
-    }
-   }
-  },
-  {
-   "player_id": "2307",
-   "name": "Marcus Mariota",
-   "pos": "QB",
-   "team": "WAS",
-   "roster_id": 9,
-   "team_name": "Girthenheimer",
-   "is_mine": false,
-   "slot": "QB",
-   "kind": "changed",
-   "fields": {
-    "injury_status": {
-     "from": "Out",
-     "to": "Doubtful"
-    },
-    "injury_body_part": {
-     "from": "Knee",
-     "to": "Knee - MCL"
-    },
-    "injury_notes": {
-     "from": null,
-     "to": "Sprain"
     }
    }
   },

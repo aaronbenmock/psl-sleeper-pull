@@ -2,7 +2,7 @@
  "week": 5,
  "first_recorded_utc": "2026-10-07T16:06:40Z",
  "source": "live build",
- "updated_utc": "2026-10-07T21:50:17Z",
+ "updated_utc": "2026-10-08T00:14:24Z",
  "start_sit": [
   {
    "type": "start_sit",
@@ -11,7 +11,7 @@
    "name": "Ollie Gordon",
    "alt_id": "12474",
    "alt_name": "Woody Marks",
-   "expected": 9.99,
+   "expected": 9.62,
    "alt_expected": 8.24,
    "started": false
   },
@@ -23,7 +23,18 @@
    "alt_id": "5045",
    "alt_name": "Courtland Sutton",
    "expected": 9.81,
-   "alt_expected": 7.16,
+   "alt_expected": 7.15,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "12495",
+   "name": "Ollie Gordon",
+   "alt_id": "12474",
+   "alt_name": "Woody Marks",
+   "expected": 9.62,
+   "alt_expected": 8.24,
    "started": false
   },
   {
@@ -34,7 +45,7 @@
    "alt_id": "12506",
    "alt_name": "Harold Fannin",
    "expected": 9.81,
-   "alt_expected": 9.06,
+   "alt_expected": 9.09,
    "started": false
   },
   {
@@ -44,8 +55,8 @@
    "name": "Denzel Boston",
    "alt_id": "12506",
    "alt_name": "Harold Fannin",
-   "expected": 9.29,
-   "alt_expected": 9.06,
+   "expected": 9.31,
+   "alt_expected": 9.09,
    "started": false
   },
   {
@@ -55,8 +66,19 @@
    "name": "Denzel Boston",
    "alt_id": "12474",
    "alt_name": "Woody Marks",
-   "expected": 9.29,
+   "expected": 9.31,
    "alt_expected": 8.24,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "13346",
+   "name": "Denzel Boston",
+   "alt_id": "7021",
+   "alt_name": "Rico Dowdle",
+   "expected": 9.31,
+   "alt_expected": 8.07,
    "started": false
   }
  ],
@@ -65,7 +87,7 @@
    "slot": "QB",
    "player_id": "4984",
    "name": "Josh Allen",
-   "expected": 24.56,
+   "expected": 24.52,
    "started": false,
    "frozen": false
   },
@@ -73,7 +95,7 @@
    "slot": "RB",
    "player_id": "6813",
    "name": "Jonathan Taylor",
-   "expected": 17.82,
+   "expected": 17.81,
    "started": false,
    "frozen": false
   },
@@ -81,7 +103,7 @@
    "slot": "RB",
    "player_id": "12495",
    "name": "Ollie Gordon",
-   "expected": 9.99,
+   "expected": 9.62,
    "started": false,
    "frozen": false
   },
@@ -113,7 +135,7 @@
    "slot": "FLEX",
    "player_id": "13346",
    "name": "Denzel Boston",
-   "expected": 9.29,
+   "expected": 9.31,
    "started": false,
    "frozen": false
   },
@@ -153,7 +175,43 @@
    "player_id": "12048",
    "name": "George Holani",
    "pos": "RB",
-   "bid": 6,
+   "bid": 8,
+   "alt_id": "12495",
+   "alt_name": "Ollie Gordon"
+  },
+  {
+   "type": "speculative",
+   "player_id": "9757",
+   "name": "Kendre Miller",
+   "pos": "RB",
+   "bid": 8,
+   "alt_id": "12495",
+   "alt_name": "Ollie Gordon"
+  },
+  {
+   "type": "speculative",
+   "player_id": "13347",
+   "name": "Demond Claiborne",
+   "pos": "RB",
+   "bid": 8,
+   "alt_id": "12495",
+   "alt_name": "Ollie Gordon"
+  },
+  {
+   "type": "speculative",
+   "player_id": "11571",
+   "name": "Isaiah Davis",
+   "pos": "RB",
+   "bid": 8,
+   "alt_id": "12495",
+   "alt_name": "Ollie Gordon"
+  },
+  {
+   "type": "speculative",
+   "player_id": "11577",
+   "name": "Will Shipley",
+   "pos": "RB",
+   "bid": 8,
    "alt_id": "12495",
    "alt_name": "Ollie Gordon"
   },
@@ -183,45 +241,9 @@
    "bid": 7,
    "alt_id": "12495",
    "alt_name": "Ollie Gordon"
-  },
-  {
-   "type": "speculative",
-   "player_id": "4039",
-   "name": "Cooper Kupp",
-   "pos": "WR",
-   "bid": 5,
-   "alt_id": "12495",
-   "alt_name": "Ollie Gordon"
-  },
-  {
-   "type": "speculative",
-   "player_id": "9757",
-   "name": "Kendre Miller",
-   "pos": "RB",
-   "bid": 3,
-   "alt_id": "12495",
-   "alt_name": "Ollie Gordon"
-  },
-  {
-   "type": "speculative",
-   "player_id": "7571",
-   "name": "Rashod Bateman",
-   "pos": "WR",
-   "bid": 3,
-   "alt_id": "12495",
-   "alt_name": "Ollie Gordon"
-  },
-  {
-   "type": "speculative",
-   "player_id": "7039",
-   "name": "Cody White",
-   "pos": "WR",
-   "bid": 3,
-   "alt_id": "12495",
-   "alt_name": "Ollie Gordon"
   }
  ],
- "claims_rec_utc": "2026-10-07T21:50:17Z",
+ "claims_rec_utc": "2026-10-08T00:14:24Z",
  "synthesis": [
   {
    "type": "start",

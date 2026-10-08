@@ -4,16 +4,16 @@
    "task": "build",
    "ok": true,
    "summary": "index.html + reports/2026/week05.html; lineup changes 2, claims 2, signals 16, accuracy weeks 4",
-   "started_utc": "2026-10-07T21:50:17Z",
-   "finished_utc": "2026-10-07T21:50:19Z",
+   "started_utc": "2026-10-08T00:14:24Z",
+   "finished_utc": "2026-10-08T00:14:25Z",
    "error": null
   },
   "pull": {
    "task": "pull",
    "ok": true,
-   "summary": "completed wk 4, upcoming wk 5, waiver pool 679, matchup weeks 18, scored files 1, record check: median game ON: each team plays its opponent and the league median every week",
-   "started_utc": "2026-10-07T16:06:35Z",
-   "finished_utc": "2026-10-07T16:06:39Z",
+   "summary": "completed wk 4, upcoming wk 5, waiver pool 680, matchup weeks 18, scored files 1, record check: median game ON: each team plays its opponent and the league median every week",
+   "started_utc": "2026-10-08T00:14:19Z",
+   "finished_utc": "2026-10-08T00:14:22Z",
    "error": null,
    "completed_week": 4,
    "upcoming_week": 5
@@ -21,20 +21,20 @@
   "injuries": {
    "task": "injuries",
    "ok": true,
-   "summary": "181 rostered players tracked, 56 changes since 2026-10-06, 2 of mine carry an injury tag, 10 transactions refreshed, players cache pulled",
-   "started_utc": "2026-10-07T11:11:33Z",
-   "finished_utc": "2026-10-07T11:11:33Z",
+   "summary": "180 rostered players tracked, 55 changes since 2026-10-06, 2 of mine carry an injury tag, 11 transactions refreshed, players cache reused",
+   "started_utc": "2026-10-08T00:14:22Z",
+   "finished_utc": "2026-10-08T00:14:22Z",
    "error": null
   },
   "snapshot": {
    "task": "snapshot",
    "ok": true,
-   "summary": "week 4 mon_pm: 3149 projections, 30 NFL teams already started, 2341 players still pre-kickoff",
-   "started_utc": "2026-10-05T23:13:55Z",
-   "finished_utc": "2026-10-05T23:13:57Z",
+   "summary": "week 5 wed_pm: 3147 projections, 0 NFL teams already started, 3147 players still pre-kickoff",
+   "started_utc": "2026-10-08T00:14:22Z",
+   "finished_utc": "2026-10-08T00:14:23Z",
    "error": null,
-   "week": 4,
-   "label": "mon_pm"
+   "week": 5,
+   "label": "wed_pm"
   },
   "auto-skip": {
    "task": "auto-skip",
@@ -48,56 +48,12 @@
    "task": "usage",
    "ok": true,
    "summary": "4 weeks of 2026 usage, 481 players with a stat row, 709 Sleeper ids mapped (162 from Sleeper, 462 from the rankings file, 85 by name), 526,744 bytes",
-   "started_utc": "2026-10-07T16:06:39Z",
-   "finished_utc": "2026-10-07T16:06:40Z",
+   "started_utc": "2026-10-08T00:14:23Z",
+   "finished_utc": "2026-10-08T00:14:24Z",
    "error": null
   }
  },
  "runs": [
-  {
-   "task": "build",
-   "ok": true,
-   "summary": "index.html + reports/2026/week02.html; lineup changes 0, claims 8, signals 5, accuracy weeks 1",
-   "started_utc": "2026-09-20T21:40:35Z",
-   "finished_utc": "2026-09-20T21:40:35Z",
-   "error": null
-  },
-  {
-   "task": "pull",
-   "ok": true,
-   "summary": "completed wk 1, upcoming wk 2, waiver pool 664, matchup weeks 18, scored files 1, record check: median game ON: each team plays its opponent and the league median every week",
-   "started_utc": "2026-09-20T21:41:10Z",
-   "finished_utc": "2026-09-20T21:41:14Z",
-   "error": null,
-   "completed_week": 1,
-   "upcoming_week": 2
-  },
-  {
-   "task": "injuries",
-   "ok": true,
-   "summary": "177 rostered players tracked, 70 changes since 2026-09-19, 4 of mine carry an injury tag, players cache reused",
-   "started_utc": "2026-09-20T21:41:14Z",
-   "finished_utc": "2026-09-20T21:41:14Z",
-   "error": null
-  },
-  {
-   "task": "snapshot",
-   "ok": true,
-   "summary": "week 2 sun_pm: 3148 projections, 28 NFL teams already started, 2404 players still pre-kickoff",
-   "started_utc": "2026-09-20T21:41:14Z",
-   "finished_utc": "2026-09-20T21:41:15Z",
-   "error": null,
-   "week": 2,
-   "label": "sun_pm"
-  },
-  {
-   "task": "usage",
-   "ok": true,
-   "summary": "2 weeks of 2026 usage, 391 players with a stat row, 689 Sleeper ids mapped (155 from Sleeper, 462 from the rankings file, 72 by name), 431,224 bytes",
-   "started_utc": "2026-09-20T21:41:15Z",
-   "finished_utc": "2026-09-20T21:41:16Z",
-   "error": null
-  },
   {
    "task": "build",
    "ok": true,
@@ -1733,14 +1689,58 @@
    "started_utc": "2026-10-07T21:50:17Z",
    "finished_utc": "2026-10-07T21:50:19Z",
    "error": null
+  },
+  {
+   "task": "pull",
+   "ok": true,
+   "summary": "completed wk 4, upcoming wk 5, waiver pool 680, matchup weeks 18, scored files 1, record check: median game ON: each team plays its opponent and the league median every week",
+   "started_utc": "2026-10-08T00:14:19Z",
+   "finished_utc": "2026-10-08T00:14:22Z",
+   "error": null,
+   "completed_week": 4,
+   "upcoming_week": 5
+  },
+  {
+   "task": "injuries",
+   "ok": true,
+   "summary": "180 rostered players tracked, 55 changes since 2026-10-06, 2 of mine carry an injury tag, 11 transactions refreshed, players cache reused",
+   "started_utc": "2026-10-08T00:14:22Z",
+   "finished_utc": "2026-10-08T00:14:22Z",
+   "error": null
+  },
+  {
+   "task": "snapshot",
+   "ok": true,
+   "summary": "week 5 wed_pm: 3147 projections, 0 NFL teams already started, 3147 players still pre-kickoff",
+   "started_utc": "2026-10-08T00:14:22Z",
+   "finished_utc": "2026-10-08T00:14:23Z",
+   "error": null,
+   "week": 5,
+   "label": "wed_pm"
+  },
+  {
+   "task": "usage",
+   "ok": true,
+   "summary": "4 weeks of 2026 usage, 481 players with a stat row, 709 Sleeper ids mapped (162 from Sleeper, 462 from the rankings file, 85 by name), 526,744 bytes",
+   "started_utc": "2026-10-08T00:14:23Z",
+   "finished_utc": "2026-10-08T00:14:24Z",
+   "error": null
+  },
+  {
+   "task": "build",
+   "ok": true,
+   "summary": "index.html + reports/2026/week05.html; lineup changes 2, claims 2, signals 16, accuracy weeks 4",
+   "started_utc": "2026-10-08T00:14:24Z",
+   "finished_utc": "2026-10-08T00:14:25Z",
+   "error": null
   }
  ],
  "last_run": {
   "task": "build",
   "ok": true,
   "summary": "index.html + reports/2026/week05.html; lineup changes 2, claims 2, signals 16, accuracy weeks 4",
-  "started_utc": "2026-10-07T21:50:17Z",
-  "finished_utc": "2026-10-07T21:50:19Z",
+  "started_utc": "2026-10-08T00:14:24Z",
+  "finished_utc": "2026-10-08T00:14:25Z",
   "error": null
  }
 }

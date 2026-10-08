@@ -21,7 +21,7 @@
   "id": "rankings_join",
   "status": "ok",
   "title": "Rankings CSV joins to Sleeper on sleeper_id",
-  "finding": "12 of 12 of your skill players found in player_rankings_v2.0 by sleeper_id."
+  "finding": "13 of 13 of your skill players found in player_rankings_v2.0 by sleeper_id."
  },
  {
   "id": "week_detection",
@@ -39,7 +39,7 @@
   "id": "ages",
   "status": "info",
   "title": "Input ages at build time",
-  "finding": "weekly pull 5.7h, injury table 10.6h, players cache 10.6h, newest snapshot 46.6h (week 4)"
+  "finding": "weekly pull 0.0h, injury table 0.0h, players cache 13.0h, newest snapshot 0.0h (week 5)"
  },
  {
   "id": "names_cache",

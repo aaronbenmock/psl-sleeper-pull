@@ -1,14 +1,14 @@
 {
  "machine": {
   "date_central": "2026-10-07",
-  "age_hours": 10.6,
+  "age_hours": 0.0,
   "my_roster": [
    {
     "player_id": "7021",
     "name": "Rico Dowdle",
     "pos": "RB",
     "team": "PIT",
-    "slot": "IR",
+    "slot": "BN",
     "injury_status": "Questionable",
     "injury_body_part": "Toe",
     "injury_start_date": null,
@@ -652,7 +652,7 @@
     "roster_id": 9,
     "team_name": "Girthenheimer",
     "is_mine": false,
-    "slot": "IR",
+    "slot": "QB",
     "kind": "changed",
     "fields": {
      "injury_status": {
@@ -662,32 +662,6 @@
      "news_updated": {
       "from": 1791243340234,
       "to": 1791357605909
-     }
-    },
-    "date": "2026-10-07"
-   },
-   {
-    "player_id": "2307",
-    "name": "Marcus Mariota",
-    "pos": "QB",
-    "team": "WAS",
-    "roster_id": 9,
-    "team_name": "Girthenheimer",
-    "is_mine": false,
-    "slot": "QB",
-    "kind": "changed",
-    "fields": {
-     "injury_status": {
-      "from": "Out",
-      "to": "Doubtful"
-     },
-     "injury_body_part": {
-      "from": "Knee",
-      "to": "Knee - MCL"
-     },
-     "injury_notes": {
-      "from": null,
-      "to": "Sprain"
      }
     },
     "date": "2026-10-07"
@@ -803,14 +777,32 @@
      }
     },
     "date": "2026-10-07"
+   },
+   {
+    "player_id": "9502",
+    "name": "Tank Dell",
+    "pos": "WR",
+    "team": "HOU",
+    "roster_id": 10,
+    "team_name": "Derrelick my Balls",
+    "is_mine": false,
+    "slot": "IR",
+    "kind": "changed",
+    "fields": {
+     "news_updated": {
+      "from": 1791223528759,
+      "to": 1791294044028
+     }
+    },
+    "date": "2026-10-07"
    }
   ],
-  "n_tracked": 181,
+  "n_tracked": 180,
   "source": "Sleeper /v1/players/nfl injury fields, pulled once daily, diffed against the prior day"
  },
  "synthesis": {
   "present": true,
-  "markdown": "<!-- generated 2026-10-07T21:50:16Z by scheduled Claude task (rechecked and corrected) -->\n## Your roster: what changed this week\n- **Ollie Gordon is Miami's lead back. Start him, do not drop him.** De'Von Achane tore his ACL in week 3 and is out for the season (NFL.com / NBC Sports, Sept 28). In week 4 Gordon out-snapped Jaylen Wright 22 to 12 and ran 9 times for 100 yards and a TD; NBC expects him to start vs CIN (NBC Sports, Oct 4). Caution: SI lists him as a week 5 sit because most of his points came on two plays and CIN is solid against RBs (SI, Oct 2026).\n- **Rico Dowdle has to come off IR, and that costs nothing.** Your league's IR slot only accepts Out, Doubtful or COVID (league settings), and Sleeper now lists him Questionable. You have one open bench spot (13 active players, 14 spots), so move him to the bench; no drop needed. He practiced limited Wednesday (Rotowire, Oct 7); Jaylen Warren leads that backfield, so Dowdle is bench only.\n- **Zach Charbonnet stays on IR, out for week 5.** Coach Mike Macdonald confirmed it (NBC Sports, Oct 5). Week 6 vs DEN is possible; Seattle must activate him by about Oct 22. Jadarian Price is now on IR (Sleeper), so his role may be bigger [Likely].\n- **Keep Kyler Murray.** He is your only cover for Josh Allen's week 7 bye.\n- **No Thursday lock this week:** the Thursday game is TB at DAL (fbschedules), and you have no players in it.\n- Harold Fannin: the engine's \"Njoku out\" boost is stale; Cleveland did not keep Njoku (Fantasy Nerds) [Likely]. Boston stays in FLEX (0.2 apart).\n\n## Waiver targets: news check\n- **The engine pairs every claim with dropping Ollie Gordon, but that drop is out of date.** The real weakest player is Courtland Sutton (rest-of-season value 6.9, 3.3 points a game this year).\n- **Tre Tucker (LV): optional, small bid only.** Sutton for Tucker adds about 1.6 points a week, but only in weeks he starts for you. Tucker is a boom-or-bust WR4 behind Brock Bowers (PFN; RotoBaller week 5 ranks him 42nd). The to-beat price is $25, and he is not worth that. A $3 to $5 bid with Sutton as the drop is fine if you want him.\n- **Keon Coleman (BUF): skip.** His 116-yard week 4 came on 32 of 66 snaps as the WR3 (NBC Sports, Oct 4).\n- **Jaylin Noel (HOU): skip.** Tank Dell was designated to return from IR on Oct 7 (Rolling Out, Oct 7), and Noel is already 4th on the depth chart.\n- **George Holani (SEA): skip.** Emanuel Wilson leads the backfield (NBC Sports, Oct 5), and Charbonnet returns soon.\n\n## League: notable situations\n- **Opponent Girthenheimer:** you are favored by 34.6; their QB Marcus Mariota is Doubtful (knee).\n- **Eazy E Squad:** Saquon Barkley (hamstring) and Justin Jefferson (ankle) are both Questionable. A possible trade partner for your WR depth [Guessing].\n- **ScampDaddy:** Ja'Marr Chase moved from Out to Questionable on Sleeper today. No dated news confirms it yet.\n- **RafiBomb:** Bryce Young and Chuba Hubbard are on bye. The team is 6-2, better than the roster has played.\n\n## Bottom line (3 bullets max)\n- Start the engine lineup: Ollie Gordon over Woody Marks, Deebo Samuel over Courtland Sutton.\n- Before Thursday 2:00 AM, move Rico Dowdle from IR to your open bench spot. If he stays on IR, Sleeper can block your moves [Likely].\n- No claim is needed. If you add anyone, make it Tre Tucker for $3 to $5 and drop Sutton; never drop Gordon or Murray.\n",
+  "markdown": "<!-- generated 2026-10-07T21:50:16Z by scheduled Claude task (rechecked and corrected) -->\n## Your roster: what changed this week\n- **Ollie Gordon is Miami's lead back. Start him, do not drop him.** De'Von Achane tore his ACL in week 3 and is out for the season (NFL.com / NBC Sports, Sept 28). In week 4 Gordon out-snapped Jaylen Wright 22 to 12 and ran 9 times for 100 yards and a TD; NBC expects him to start vs CIN (NBC Sports, Oct 4). Caution: SI lists him as a week 5 sit because most of his points came on two plays and CIN is solid against RBs (SI, Oct 2026).\n- **Rico Dowdle has to come off IR, and that costs nothing.** Your league's IR slot only accepts Out, Doubtful or COVID (league settings), and Sleeper now lists him Questionable. You have one open bench spot (13 active players, 14 spots), so move him to the bench; no drop needed. He practiced limited Wednesday (Rotowire, Oct 7); Jaylen Warren leads that backfield, so Dowdle is bench only.\n- **Zach Charbonnet stays on IR, out for week 5.** Coach Mike Macdonald confirmed it (NBC Sports, Oct 5). Week 6 vs DEN is possible; Seattle must activate him by about Oct 22. Jadarian Price is now on IR (Sleeper), so his role may be bigger [Likely].\n- **Keep Kyler Murray.** He is your only cover for Josh Allen's week 7 bye.\n- **No Thursday lock this week:** the Thursday game is TB at DAL (fbschedules), and you have no players in it.\n- Harold Fannin: the engine's \"Njoku out\" note was a bug (Njoku is a Charger now); fixed. Boston stays in FLEX (0.2 apart).\n\n## Waiver targets: news check\n- **The engine pairs every claim with dropping Ollie Gordon, but that drop is out of date.** The real weakest player is Courtland Sutton (rest-of-season value 6.9, 3.3 points a game this year).\n- **Tre Tucker (LV): optional, small bid only.** Sutton for Tucker adds about 1.6 points a week, but only in weeks he starts for you. Tucker is a boom-or-bust WR4 behind Brock Bowers (PFN; RotoBaller week 5 ranks him 42nd). The to-beat price is $25, and he is not worth that. A $3 to $5 bid with Sutton as the drop is fine if you want him.\n- **Keon Coleman (BUF): skip.** His 116-yard week 4 came on 32 of 66 snaps as the WR3 (NBC Sports, Oct 4).\n- **Jaylin Noel (HOU): skip.** Tank Dell was designated to return from IR on Oct 7 (Rolling Out, Oct 7), and Noel is already 4th on the depth chart.\n- **George Holani (SEA): skip.** Emanuel Wilson leads the backfield (NBC Sports, Oct 5), and Charbonnet returns soon.\n\n## League: notable situations\n- **Opponent Girthenheimer:** you are favored by 34.6; their QB Marcus Mariota is Doubtful (knee).\n- **Eazy E Squad:** Saquon Barkley (hamstring) and Justin Jefferson (ankle) are both Questionable. A possible trade partner for your WR depth [Guessing].\n- **ScampDaddy:** Ja'Marr Chase moved from Out to Questionable on Sleeper today. No dated news confirms it yet.\n- **RafiBomb:** Bryce Young and Chuba Hubbard are on bye. The team is 6-2, better than the roster has played.\n\n## Bottom line (3 bullets max)\n- Start the engine lineup: Ollie Gordon over Woody Marks, Deebo Samuel over Courtland Sutton.\n- Before Thursday 2:00 AM, move Rico Dowdle from IR to your open bench spot. If he stays on IR, Sleeper can block your moves [Likely].\n- No claim is needed. If you add anyone, make it Tre Tucker for $3 to $5 and drop Sutton; never drop Gordon or Murray.\n",
   "generated_at_utc": "2026-10-07T21:50:16Z",
   "synthesis_written_at": "2026-10-07T21:50:16Z",
   "week": 5,
@@ -818,6 +810,6 @@
   "source_key": "desktop-scheduled-task",
   "n_calls": 5,
   "stale": false,
-  "age_days": 0.0
+  "age_days": 0.1
  }
 }
