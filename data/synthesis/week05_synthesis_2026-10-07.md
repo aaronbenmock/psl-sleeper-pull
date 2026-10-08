@@ -1,7 +1,7 @@
-<!-- generated 2026-10-07T21:50:16Z by scheduled Claude task (rechecked and corrected) -->
+<!-- generated 2026-10-08T01:35:16Z by scheduled Claude task (refreshed after lineup change) -->
 ## Your roster: what changed this week
 - **Ollie Gordon is Miami's lead back. Start him, do not drop him.** De'Von Achane tore his ACL in week 3 and is out for the season (NFL.com / NBC Sports, Sept 28). In week 4 Gordon out-snapped Jaylen Wright 22 to 12 and ran 9 times for 100 yards and a TD; NBC expects him to start vs CIN (NBC Sports, Oct 4). Caution: SI lists him as a week 5 sit because most of his points came on two plays and CIN is solid against RBs (SI, Oct 2026).
-- **Rico Dowdle has to come off IR, and that costs nothing.** Your league's IR slot only accepts Out, Doubtful or COVID (league settings), and Sleeper now lists him Questionable. You have one open bench spot (13 active players, 14 spots), so move him to the bench; no drop needed. He practiced limited Wednesday (Rotowire, Oct 7); Jaylen Warren leads that backfield, so Dowdle is bench only.
+- **Rico Dowdle is off IR (done), but bench him: start Deebo Samuel in his FLEX spot.** Your current Sleeper lineup has Dowdle in a FLEX. He is Questionable, practiced only limited Wednesday (Rotowire, Oct 7), and Jaylen Warren leads that backfield, so the engine has him at 8.1 vs Deebo's 9.8.
 - **Zach Charbonnet stays on IR, out for week 5.** Coach Mike Macdonald confirmed it (NBC Sports, Oct 5). Week 6 vs DEN is possible; Seattle must activate him by about Oct 22. Jadarian Price is now on IR (Sleeper), so his role may be bigger [Likely].
 - **Keep Kyler Murray.** He is your only cover for Josh Allen's week 7 bye.
 - **No Thursday lock this week:** the Thursday game is TB at DAL (fbschedules), and you have no players in it.
@@ -15,12 +15,12 @@
 - **George Holani (SEA): skip.** Emanuel Wilson leads the backfield (NBC Sports, Oct 5), and Charbonnet returns soon.
 
 ## League: notable situations
-- **Opponent Girthenheimer:** you are favored by 34.6; their QB Marcus Mariota is Doubtful (knee).
+- **Opponent Girthenheimer:** they added Jayden Daniels at QB (Sleeper lists him Questionable, elbow), so the margin shrank to +16.8 (engine). Still favored.
 - **Eazy E Squad:** Saquon Barkley (hamstring) and Justin Jefferson (ankle) are both Questionable. A possible trade partner for your WR depth [Guessing].
 - **ScampDaddy:** Ja'Marr Chase moved from Out to Questionable on Sleeper today. No dated news confirms it yet.
 - **RafiBomb:** Bryce Young and Chuba Hubbard are on bye. The team is 6-2, better than the roster has played.
 
 ## Bottom line (3 bullets max)
 - Start the engine lineup: Ollie Gordon over Woody Marks, Deebo Samuel over Courtland Sutton.
-- Before Thursday 2:00 AM, move Rico Dowdle from IR to your open bench spot. If he stays on IR, Sleeper can block your moves [Likely].
-- No claim is needed. If you add anyone, make it Tre Tucker for $3 to $5 and drop Sutton; never drop Gordon or Murray.
+- Swap Deebo Samuel in for Rico Dowdle at FLEX before Sunday's 1 PM games.
+- No claim is needed (your bench is now full, so any add needs a drop). If you add anyone, make it Tre Tucker for $3 to $5 and drop Sutton; never drop Gordon or Murray.

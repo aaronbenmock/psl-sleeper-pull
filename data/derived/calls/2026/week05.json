@@ -2,7 +2,7 @@
  "week": 5,
  "first_recorded_utc": "2026-10-07T16:06:40Z",
  "source": "live build",
- "updated_utc": "2026-10-08T01:34:47Z",
+ "updated_utc": "2026-10-08T01:35:16Z",
  "start_sit": [
   {
    "type": "start_sit",
@@ -232,8 +232,17 @@
    "alt_name": "Ollie Gordon"
   }
  ],
- "claims_rec_utc": "2026-10-08T01:34:47Z",
+ "claims_rec_utc": "2026-10-08T01:35:16Z",
  "synthesis": [
+  {
+   "type": "start",
+   "name": "Deebo Samuel",
+   "player_id": "5872",
+   "alt_name": "Rico Dowdle",
+   "alt_id": "7021",
+   "text": "Start Deebo over Dowdle at FLEX",
+   "source": "synthesis"
+  },
   {
    "type": "start",
    "name": "Ollie Gordon",
@@ -241,15 +250,6 @@
    "alt_name": "Woody Marks",
    "alt_id": "12474",
    "text": "Start Gordon over Marks; Miami's lead back with Achane out",
-   "source": "synthesis"
-  },
-  {
-   "type": "start",
-   "name": "Deebo Samuel",
-   "player_id": "5872",
-   "alt_name": "Courtland Sutton",
-   "alt_id": "5045",
-   "text": "Start Deebo over Sutton per engine",
    "source": "synthesis"
   },
   {

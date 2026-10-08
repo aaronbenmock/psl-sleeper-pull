@@ -4,8 +4,8 @@
    "task": "build",
    "ok": true,
    "summary": "index.html + reports/2026/week05.html; lineup changes 1, claims 2, signals 16, accuracy weeks 4",
-   "started_utc": "2026-10-08T01:34:47Z",
-   "finished_utc": "2026-10-08T01:34:47Z",
+   "started_utc": "2026-10-08T01:35:16Z",
+   "finished_utc": "2026-10-08T01:35:17Z",
    "error": null
   },
   "pull": {
@@ -54,14 +54,6 @@
   }
  },
  "runs": [
-  {
-   "task": "injuries",
-   "ok": true,
-   "summary": "177 rostered players tracked, 0 changes since 2026-09-20, 4 of mine carry an injury tag, players cache reused",
-   "started_utc": "2026-09-21T11:10:26Z",
-   "finished_utc": "2026-09-21T11:10:27Z",
-   "error": null
-  },
   {
    "task": "build",
    "ok": true,
@@ -1735,14 +1727,22 @@
    "started_utc": "2026-10-08T01:34:47Z",
    "finished_utc": "2026-10-08T01:34:47Z",
    "error": null
+  },
+  {
+   "task": "build",
+   "ok": true,
+   "summary": "index.html + reports/2026/week05.html; lineup changes 1, claims 2, signals 16, accuracy weeks 4",
+   "started_utc": "2026-10-08T01:35:16Z",
+   "finished_utc": "2026-10-08T01:35:17Z",
+   "error": null
   }
  ],
  "last_run": {
   "task": "build",
   "ok": true,
   "summary": "index.html + reports/2026/week05.html; lineup changes 1, claims 2, signals 16, accuracy weeks 4",
-  "started_utc": "2026-10-08T01:34:47Z",
-  "finished_utc": "2026-10-08T01:34:47Z",
+  "started_utc": "2026-10-08T01:35:16Z",
+  "finished_utc": "2026-10-08T01:35:17Z",
   "error": null
  }
 }

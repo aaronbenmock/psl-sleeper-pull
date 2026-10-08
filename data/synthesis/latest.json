@@ -1,9 +1,49 @@
-{"synthesis_written_at": "2026-10-07T21:50:16Z", "generated_at_utc": "2026-10-07T21:50:16Z", "week": 5,
- "source": "desktop-scheduled-task", "source_label": "Wednesday 12:30 PM scheduled task on Aaron's PC",
+{
+ "synthesis_written_at": "2026-10-08T01:35:16Z",
+ "generated_at_utc": "2026-10-08T01:35:16Z",
+ "week": 5,
+ "source": "desktop-scheduled-task",
+ "source_label": "Wednesday 12:30 PM scheduled task on Aaron's PC",
  "calls": [
-  {"type": "start", "name": "Ollie Gordon", "player_id": "12495", "alt_name": "Woody Marks", "alt_id": "12474", "text": "Start Gordon over Marks; Miami's lead back with Achane out"},
-  {"type": "start", "name": "Deebo Samuel", "player_id": "5872", "alt_name": "Courtland Sutton", "alt_id": "5045", "text": "Start Deebo over Sutton per engine"},
-  {"type": "skip", "name": "Jaylin Noel", "player_id": "12536", "alt_name": "Ollie Gordon", "alt_id": "12495", "text": "Skip Noel; Tank Dell designated to return Oct 7"},
-  {"type": "skip", "name": "Keon Coleman", "player_id": "11637", "alt_name": "Courtland Sutton", "alt_id": "5045", "text": "Skip Coleman; WR3 snaps, deep-league flyer"},
-  {"type": "skip", "name": "George Holani", "player_id": "12048", "alt_name": "Ollie Gordon", "alt_id": "12495", "text": "Skip Holani; Wilson leads, Charbonnet returning"}
- ]}
+  {
+   "type": "start",
+   "name": "Deebo Samuel",
+   "player_id": "5872",
+   "alt_name": "Rico Dowdle",
+   "alt_id": "7021",
+   "text": "Start Deebo over Dowdle at FLEX"
+  },
+  {
+   "type": "start",
+   "name": "Ollie Gordon",
+   "player_id": "12495",
+   "alt_name": "Woody Marks",
+   "alt_id": "12474",
+   "text": "Start Gordon over Marks; Miami's lead back with Achane out"
+  },
+  {
+   "type": "skip",
+   "name": "Jaylin Noel",
+   "player_id": "12536",
+   "alt_name": "Ollie Gordon",
+   "alt_id": "12495",
+   "text": "Skip Noel; Tank Dell designated to return Oct 7"
+  },
+  {
+   "type": "skip",
+   "name": "Keon Coleman",
+   "player_id": "11637",
+   "alt_name": "Courtland Sutton",
+   "alt_id": "5045",
+   "text": "Skip Coleman; WR3 snaps, deep-league flyer"
+  },
+  {
+   "type": "skip",
+   "name": "George Holani",
+   "player_id": "12048",
+   "alt_name": "Ollie Gordon",
+   "alt_id": "12495",
+   "text": "Skip Holani; Wilson leads, Charbonnet returning"
+  }
+ ]
+}
