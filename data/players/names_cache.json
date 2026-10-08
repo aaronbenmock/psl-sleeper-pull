@@ -1,5 +1,5 @@
 {
-"n": 875,
+"n": 876,
 "players": {
 "10210": {
 "first_seen": "2026-09-18",
@@ -542,7 +542,7 @@
 },
 "11577": {
 "first_seen": "2026-09-18",
-"last_seen": "2026-09-30",
+"last_seen": "2026-10-08",
 "name": "Will Shipley",
 "pos": "RB",
 "team": "PHI"
@@ -759,7 +759,7 @@
 },
 "11630": {
 "first_seen": "2026-09-18",
-"last_seen": "2026-09-30",
+"last_seen": "2026-10-08",
 "name": "Roman Wilson",
 "pos": "WR",
 "team": "PIT"
@@ -1361,7 +1361,7 @@
 },
 "12509": {
 "first_seen": "2026-09-18",
-"last_seen": "2026-09-30",
+"last_seen": "2026-10-08",
 "name": "Tre' Harris",
 "pos": "WR",
 "team": "LAC"
@@ -2033,7 +2033,7 @@
 },
 "13264": {
 "first_seen": "2026-09-18",
-"last_seen": "2026-09-30",
+"last_seen": "2026-10-08",
 "name": "Dohnte Meyers",
 "pos": "WR",
 "team": "CIN"
@@ -3230,7 +3230,7 @@
 },
 "2306": {
 "first_seen": "2026-09-18",
-"last_seen": "2026-09-30",
+"last_seen": "2026-10-08",
 "name": "Jameis Winston",
 "pos": "QB",
 "team": "NYG"
@@ -3459,6 +3459,13 @@
 "pos": "QB",
 "team": "CLE"
 },
+"4018": {
+"first_seen": "2026-10-08",
+"last_seen": "2026-10-08",
+"name": "Joe Mixon",
+"pos": "RB",
+"team": null
+},
 "4033": {
 "first_seen": "2026-09-18",
 "last_seen": "2026-09-30",
@@ -3671,7 +3678,7 @@
 },
 "4663": {
 "first_seen": "2026-09-30",
-"last_seen": "2026-09-30",
+"last_seen": "2026-10-08",
 "name": "Austin Ekeler",
 "pos": "RB",
 "team": "WAS"
@@ -5960,7 +5967,7 @@
 },
 "DAL": {
 "first_seen": "2026-09-18",
-"last_seen": "2026-09-30",
+"last_seen": "2026-10-08",
 "name": "DAL DEF",
 "pos": "DEF",
 "team": "DAL"
@@ -6127,5 +6134,5 @@
 "team": "WAS"
 }
 },
-"updated_utc": "2026-10-08T01:34:44Z"
+"updated_utc": "2026-10-08T11:11:55Z"
 }

@@ -2,19 +2,8 @@
  "week": 5,
  "first_recorded_utc": "2026-10-07T16:06:40Z",
  "source": "live build",
- "updated_utc": "2026-10-08T01:35:16Z",
+ "updated_utc": "2026-10-08T11:11:55Z",
  "start_sit": [
-  {
-   "type": "start_sit",
-   "kind": "change",
-   "player_id": "5872",
-   "name": "Deebo Samuel",
-   "alt_id": "7021",
-   "alt_name": "Rico Dowdle",
-   "expected": 9.82,
-   "alt_expected": 8.12,
-   "started": false
-  },
   {
    "type": "start_sit",
    "kind": "close_call",
@@ -279,5 +268,6 @@
    "text": "Skip Holani; Wilson leads, Charbonnet returning",
    "source": "synthesis"
   }
- ]
+ ],
+ "claims_frozen": true
 }

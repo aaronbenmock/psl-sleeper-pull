@@ -1,6 +1,6 @@
 {
  "week": 5,
- "generated_at_utc": "2026-10-08T01:35:16Z",
+ "generated_at_utc": "2026-10-08T11:11:55Z",
  "source": {
   "kind": "pre-kickoff snapshot",
   "taken_at_utc": "2026-10-08T01:34:45Z",
@@ -714,18 +714,10 @@
   "Denzel Boston",
   "DK Metcalf",
   "Davante Adams",
-  "Rico Dowdle",
+  "Deebo Samuel",
   "SEA DEF"
  ],
- "changes": [
-  {
-   "out": "Rico Dowdle",
-   "in": "Deebo Samuel",
-   "out_expected": 8.12,
-   "in_expected": 9.82,
-   "why": "Deebo Samuel 9.8 vs Rico Dowdle 8.1 expected (+1.7). "
-  }
- ],
+ "changes": [],
  "close_calls": [
   {
    "slot": "RB",

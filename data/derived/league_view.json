@@ -146,6 +146,12 @@
      "pos": "RB",
      "status": "Questionable",
      "body": "Thumb"
+    },
+    {
+     "name": "Brock Bowers",
+     "pos": "TE",
+     "status": "Questionable",
+     "body": "Knee"
     }
    ],
    "byes_next": [],
@@ -245,10 +251,22 @@
    "efficiency": 0.91,
    "injured_starters": [
     {
+     "name": "Tony Pollard",
+     "pos": "RB",
+     "status": "Questionable",
+     "body": "Foot"
+    },
+    {
      "name": "Tee Higgins",
      "pos": "WR",
      "status": "Questionable",
      "body": "Groin"
+    },
+    {
+     "name": "Jordan Addison",
+     "pos": "WR",
+     "status": "Questionable",
+     "body": "Hamstring"
     }
    ],
    "byes_next": [],
@@ -346,16 +364,9 @@
     30.85
    ],
    "efficiency": 0.85,
-   "injured_starters": [
-    {
-     "name": "Rico Dowdle",
-     "pos": "RB",
-     "status": "Questionable",
-     "body": "Toe"
-    }
-   ],
+   "injured_starters": [],
    "byes_next": [],
-   "proj_next": 102.35,
+   "proj_next": 101.14,
    "future_opps": [
     9,
     6,
@@ -399,8 +410,8 @@
      "pos": "WR"
     },
     {
-     "name": "Rico Dowdle",
-     "pos": "RB"
+     "name": "Deebo Samuel",
+     "pos": "WR"
     },
     {
      "name": "SEA DEF",
@@ -410,7 +421,7 @@
    "trend": -8.1,
    "trend_label": "falling",
    "sos_remaining": 102.84,
-   "power": 107.7,
+   "power": 107.2,
    "power_rank": 4,
    "pf_rank": 5
   },
@@ -449,7 +460,26 @@
     14.2
    ],
    "efficiency": 0.88,
-   "injured_starters": [],
+   "injured_starters": [
+    {
+     "name": "D'Andre Swift",
+     "pos": "RB",
+     "status": "Questionable",
+     "body": "Hip"
+    },
+    {
+     "name": "Rhamondre Stevenson",
+     "pos": "RB",
+     "status": "Questionable",
+     "body": "Undisclosed"
+    },
+    {
+     "name": "Malik Nabers",
+     "pos": "WR",
+     "status": "Questionable",
+     "body": "Undisclosed"
+    }
+   ],
    "byes_next": [],
    "proj_next": 108.82,
    "future_opps": [
@@ -468,7 +498,7 @@
     2,
     4
    ],
-   "faab_used": 14,
+   "faab_used": 19,
    "starters_now": [
     {
      "name": "Joe Burrow",
@@ -564,7 +594,7 @@
     11,
     5
    ],
-   "faab_used": 60,
+   "faab_used": 96,
    "starters_now": [
     {
      "name": "Brock Purdy",
@@ -647,6 +677,18 @@
      "pos": "WR",
      "status": "Questionable",
      "body": "Concussion"
+    },
+    {
+     "name": "Cam Skattebo",
+     "pos": "RB",
+     "status": "Questionable",
+     "body": "Shoulder"
+    },
+    {
+     "name": "Isaiah Likely",
+     "pos": "TE",
+     "status": "Questionable",
+     "body": "Knee"
     }
    ],
    "byes_next": [],
@@ -667,7 +709,7 @@
     8,
     10
    ],
-   "faab_used": 49,
+   "faab_used": 55,
    "starters_now": [
     {
      "name": "Kirk Cousins",
@@ -766,7 +808,7 @@
     1,
     2
    ],
-   "faab_used": 0,
+   "faab_used": 10,
    "starters_now": [
     {
      "name": "Bryce Young",
@@ -845,6 +887,12 @@
    "efficiency": 0.89,
    "injured_starters": [
     {
+     "name": "Tyler Shough",
+     "pos": "QB",
+     "status": "Questionable",
+     "body": "Hand"
+    },
+    {
      "name": "Jeremiyah Love",
      "pos": "RB",
      "status": "Questionable",
@@ -869,7 +917,7 @@
     12,
     7
    ],
-   "faab_used": 65,
+   "faab_used": 91,
    "starters_now": [
     {
      "name": "Tyler Shough",
@@ -948,10 +996,10 @@
    "efficiency": 0.79,
    "injured_starters": [
     {
-     "name": "Jayden Daniels",
-     "pos": "QB",
+     "name": "Zay Flowers",
+     "pos": "WR",
      "status": "Questionable",
-     "body": "Elbow"
+     "body": "Hamstring"
     }
    ],
    "byes_next": [],
@@ -972,7 +1020,7 @@
     10,
     3
    ],
-   "faab_used": 36,
+   "faab_used": 62,
    "starters_now": [
     {
      "name": "Jayden Daniels",
@@ -1162,6 +1210,12 @@
    "efficiency": 0.79,
    "injured_starters": [
     {
+     "name": "Alvin Kamara",
+     "pos": "RB",
+     "status": "Questionable",
+     "body": "Back"
+    },
+    {
      "name": "Mack Hollins",
      "pos": "WR",
      "status": "Questionable",
@@ -1169,7 +1223,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 73.43,
+   "proj_next": 71.63,
    "future_opps": [
     1,
     7,
@@ -1213,23 +1267,53 @@
      "pos": "WR"
     },
     {
-     "name": "Kenyon Sadiq",
-     "pos": "TE"
+     "name": "Jaylen Wright",
+     "pos": "RB"
     },
     {
-     "name": "ARI DEF",
+     "name": "LV DEF",
      "pos": "DEF"
     }
    ],
    "trend": 14.4,
    "trend_label": "rising",
    "sos_remaining": 107.28,
-   "power": 69.8,
+   "power": 69.1,
    "power_rank": 12,
    "pf_rank": 12
   }
  ],
  "signals": [
+  {
+   "team": "Baker\u2019s Dozen",
+   "kind": "injured_starters",
+   "severity": "high",
+   "text": "Baker\u2019s Dozen is the #2 scorer at 119.67 a week but has 3 of 8 starters carrying injury tags: Tony Pollard Questionable (Foot), Tee Higgins Questionable (Groin), Jordan Addison Questionable (Hamstring)."
+  },
+  {
+   "team": "Derrelick my Balls",
+   "kind": "injured_starters",
+   "severity": "high",
+   "text": "Derrelick my Balls is the #4 scorer at 114.58 a week but has 2 of 8 starters carrying injury tags: Kyle Monangai Questionable (Thumb), Brock Bowers Questionable (Knee)."
+  },
+  {
+   "team": "Amateur Hour",
+   "kind": "injured_starters",
+   "severity": "medium",
+   "text": "Amateur Hour has 2 of 8 starters carrying injury tags: Alvin Kamara Questionable (Back), Mack Hollins Questionable (Calf)."
+  },
+  {
+   "team": "Cheeky Nando\u2019s",
+   "kind": "injured_starters",
+   "severity": "medium",
+   "text": "Cheeky Nando\u2019s has 3 of 8 starters carrying injury tags: D'Andre Swift Questionable (Hip), Rhamondre Stevenson Questionable (Undisclosed), Malik Nabers Questionable (Undisclosed)."
+  },
+  {
+   "team": "City of Champyinz",
+   "kind": "injured_starters",
+   "severity": "medium",
+   "text": "City of Champyinz has 2 of 8 starters carrying injury tags: Tyler Shough Questionable (Hand), Jeremiyah Love Questionable (Ankle)."
+  },
   {
    "team": "Eazy E Squad",
    "kind": "injured_starters",
@@ -1241,6 +1325,12 @@
    "kind": "bye_crunch",
    "severity": "medium",
    "text": "RafiBomb has 2 current starters on bye in week 5: Bryce Young, Chuba Hubbard."
+  },
+  {
+   "team": "ScampDaddy",
+   "kind": "injured_starters",
+   "severity": "medium",
+   "text": "ScampDaddy has 3 of 8 starters carrying injury tags: Ja'Marr Chase Questionable (Concussion), Cam Skattebo Questionable (Shoulder), Isaiah Likely Questionable (Knee)."
   },
   {
    "team": "ValKilmersComeback",
@@ -1259,12 +1349,6 @@
    "kind": "vs_projection",
    "severity": "low",
    "text": "Amateur Hour has missed Sleeper's starter projections by 25 points a week over 4 weeks."
-  },
-  {
-   "team": "Baker\u2019s Dozen",
-   "kind": "injured_starter",
-   "severity": "low",
-   "text": "Baker\u2019s Dozen (#2 scorer) has Tee Higgins listed Questionable."
   },
   {
    "team": "Baker\u2019s Dozen",
@@ -1295,36 +1379,6 @@
    "kind": "unlucky",
    "severity": "low",
    "text": "Cheeky Nando\u2019s is 3-5 but would be about 4.0-4.0 against the whole league (all-play 22-22). Better than the record."
-  },
-  {
-   "team": "City of Champyinz",
-   "kind": "lucky",
-   "severity": "low",
-   "text": "City of Champyinz is 4-4 but would be about 2.9-5.1 against the whole league each week (all-play 16-28). Record flatters the roster."
-  },
-  {
-   "team": "Derrelick my Balls",
-   "kind": "bench_points",
-   "severity": "low",
-   "text": "Derrelick my Balls left 39 points on the bench in week 4 (lineup efficiency 82%)."
-  },
-  {
-   "team": "Eazy E Squad",
-   "kind": "vs_projection",
-   "severity": "low",
-   "text": "Eazy E Squad has missed Sleeper's starter projections by 27 points a week over 4 weeks."
-  },
-  {
-   "team": "RafiBomb",
-   "kind": "lucky",
-   "severity": "low",
-   "text": "RafiBomb is 6-2 but would be about 4.7-3.3 against the whole league each week (all-play 26-18). Record flatters the roster."
-  },
-  {
-   "team": "RafiBomb",
-   "kind": "bench_points",
-   "severity": "low",
-   "text": "RafiBomb left 28 points on the bench in week 4 (lineup efficiency 83%)."
   }
  ],
  "notes": [
