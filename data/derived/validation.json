@@ -39,7 +39,7 @@
   "id": "ages",
   "status": "info",
   "title": "Input ages at build time",
-  "finding": "weekly pull 39.1h, injury table 5.5h, players cache 5.5h, newest snapshot 1.0h (week 5)"
+  "finding": "weekly pull 45.7h, injury table 12.1h, players cache 12.1h, newest snapshot 0.0h (week 5)"
  },
  {
   "id": "names_cache",

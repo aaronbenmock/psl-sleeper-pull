@@ -2,7 +2,7 @@
  "week": 5,
  "first_recorded_utc": "2026-10-07T16:06:40Z",
  "source": "live build",
- "updated_utc": "2026-10-09T16:43:10Z",
+ "updated_utc": "2026-10-09T23:14:49Z",
  "start_sit": [
   {
    "type": "start_sit",
@@ -11,8 +11,8 @@
    "name": "Ollie Gordon",
    "alt_id": "12474",
    "alt_name": "Woody Marks",
-   "expected": 9.61,
-   "alt_expected": 8.22,
+   "expected": 9.64,
+   "alt_expected": 8.25,
    "started": false
   },
   {
@@ -23,7 +23,7 @@
    "alt_id": "12506",
    "alt_name": "Harold Fannin",
    "expected": 9.8,
-   "alt_expected": 8.91,
+   "alt_expected": 8.93,
    "started": false
   },
   {
@@ -33,8 +33,8 @@
    "name": "Denzel Boston",
    "alt_id": "12506",
    "alt_name": "Harold Fannin",
-   "expected": 9.17,
-   "alt_expected": 8.91,
+   "expected": 9.19,
+   "alt_expected": 8.93,
    "started": false
   },
   {
@@ -44,8 +44,8 @@
    "name": "Denzel Boston",
    "alt_id": "12474",
    "alt_name": "Woody Marks",
-   "expected": 9.17,
-   "alt_expected": 8.22,
+   "expected": 9.19,
+   "alt_expected": 8.25,
    "started": false
   },
   {
@@ -55,7 +55,7 @@
    "name": "Denzel Boston",
    "alt_id": "7021",
    "alt_name": "Rico Dowdle",
-   "expected": 9.17,
+   "expected": 9.19,
    "alt_expected": 7.83,
    "started": false
   },
@@ -66,7 +66,7 @@
    "name": "Denzel Boston",
    "alt_id": "5947",
    "alt_name": "Jakobi Meyers",
-   "expected": 9.17,
+   "expected": 9.19,
    "alt_expected": 7.74,
    "started": false
   }
@@ -84,7 +84,7 @@
    "slot": "RB",
    "player_id": "6813",
    "name": "Jonathan Taylor",
-   "expected": 17.8,
+   "expected": 17.82,
    "started": false,
    "frozen": false
   },
@@ -92,7 +92,7 @@
    "slot": "RB",
    "player_id": "12495",
    "name": "Ollie Gordon",
-   "expected": 9.61,
+   "expected": 9.64,
    "started": false,
    "frozen": false
   },
@@ -108,7 +108,7 @@
    "slot": "WR",
    "player_id": "5846",
    "name": "DK Metcalf",
-   "expected": 10.51,
+   "expected": 10.5,
    "started": false,
    "frozen": false
   },
@@ -124,7 +124,7 @@
    "slot": "FLEX",
    "player_id": "13346",
    "name": "Denzel Boston",
-   "expected": 9.17,
+   "expected": 9.19,
    "started": false,
    "frozen": false
   },

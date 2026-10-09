@@ -59,7 +59,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 118.52,
+   "proj_next": 115.95,
    "future_opps": [
     11,
     5,
@@ -114,7 +114,7 @@
    "trend": -12.9,
    "trend_label": "falling",
    "sos_remaining": 99.25,
-   "power": 128.4,
+   "power": 127.3,
    "power_rank": 1,
    "pf_rank": 1
   },
@@ -168,7 +168,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 99.01,
+   "proj_next": 97.97,
    "future_opps": [
     7,
     4,
@@ -223,112 +223,9 @@
    "trend": -5.9,
    "trend_label": "falling",
    "sos_remaining": 102.09,
-   "power": 111.4,
+   "power": 111.0,
    "power_rank": 2,
    "pf_rank": 2
-  },
-  {
-   "roster_id": 10,
-   "team": "Derrelick my Balls",
-   "manager": "dlamas",
-   "is_mine": false,
-   "wins": 5,
-   "losses": 3,
-   "ties": 0,
-   "h2h": "2-2",
-   "median": "3-1",
-   "allplay": "28-16",
-   "allplay_pct": 0.636,
-   "scores": [
-    106.59,
-    124.18,
-    117.54,
-    110.0
-   ],
-   "avg": 114.58,
-   "last": 110.0,
-   "pf": 458.31,
-   "proj_totals": [
-    96.09,
-    92.16,
-    101.35,
-    118.53
-   ],
-   "vs_proj": 50.18,
-   "bench_left": [
-    39.22,
-    1.6,
-    38.0,
-    28.8
-   ],
-   "efficiency": 0.82,
-   "injured_starters": [
-    {
-     "name": "Kyle Monangai",
-     "pos": "RB",
-     "status": "Questionable",
-     "body": "Thumb"
-    }
-   ],
-   "byes_next": [],
-   "proj_next": 102.88,
-   "future_opps": [
-    5,
-    9,
-    6,
-    12,
-    4,
-    8,
-    7,
-    3,
-    1,
-    2,
-    11,
-    5,
-    9,
-    6
-   ],
-   "faab_used": 89,
-   "starters_now": [
-    {
-     "name": "Bo Nix",
-     "pos": "QB"
-    },
-    {
-     "name": "Derrick Henry",
-     "pos": "RB"
-    },
-    {
-     "name": "Kyle Monangai",
-     "pos": "RB"
-    },
-    {
-     "name": "Nico Collins",
-     "pos": "WR"
-    },
-    {
-     "name": "Garrett Wilson",
-     "pos": "WR"
-    },
-    {
-     "name": "Brock Bowers",
-     "pos": "TE"
-    },
-    {
-     "name": "RJ Harvey",
-     "pos": "RB"
-    },
-    {
-     "name": "MIN DEF",
-     "pos": "DEF"
-    }
-   ],
-   "trend": 0.4,
-   "trend_label": "flat",
-   "sos_remaining": 99.5,
-   "power": 109.9,
-   "power_rank": 3,
-   "pf_rank": 4
   },
   {
    "roster_id": 7,
@@ -392,7 +289,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 112.57,
+   "proj_next": 116.71,
    "future_opps": [
     12,
     2,
@@ -447,8 +344,8 @@
    "trend": 11.2,
    "trend_label": "rising",
    "sos_remaining": 101.09,
-   "power": 107.9,
-   "power_rank": 4,
+   "power": 109.5,
+   "power_rank": 3,
    "pf_rank": 7
   },
   {
@@ -488,7 +385,7 @@
    "efficiency": 0.85,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 100.41,
+   "proj_next": 100.49,
    "future_opps": [
     9,
     6,
@@ -543,8 +440,8 @@
    "trend": -8.1,
    "trend_label": "falling",
    "sos_remaining": 102.84,
-   "power": 106.9,
-   "power_rank": 5,
+   "power": 107.0,
+   "power_rank": 4,
    "pf_rank": 5
   },
   {
@@ -584,7 +481,7 @@
    "efficiency": 0.93,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 99.94,
+   "proj_next": 100.25,
    "future_opps": [
     2,
     11,
@@ -639,9 +536,112 @@
    "trend": 2.3,
    "trend_label": "flat",
    "sos_remaining": 99.08,
+   "power": 106.5,
+   "power_rank": 5,
+   "pf_rank": 6
+  },
+  {
+   "roster_id": 10,
+   "team": "Derrelick my Balls",
+   "manager": "dlamas",
+   "is_mine": false,
+   "wins": 5,
+   "losses": 3,
+   "ties": 0,
+   "h2h": "2-2",
+   "median": "3-1",
+   "allplay": "28-16",
+   "allplay_pct": 0.636,
+   "scores": [
+    106.59,
+    124.18,
+    117.54,
+    110.0
+   ],
+   "avg": 114.58,
+   "last": 110.0,
+   "pf": 458.31,
+   "proj_totals": [
+    96.09,
+    92.16,
+    101.35,
+    118.53
+   ],
+   "vs_proj": 50.18,
+   "bench_left": [
+    39.22,
+    1.6,
+    38.0,
+    28.8
+   ],
+   "efficiency": 0.82,
+   "injured_starters": [
+    {
+     "name": "Kyle Monangai",
+     "pos": "RB",
+     "status": "Questionable",
+     "body": "Thumb"
+    }
+   ],
+   "byes_next": [],
+   "proj_next": 93.88,
+   "future_opps": [
+    5,
+    9,
+    6,
+    12,
+    4,
+    8,
+    7,
+    3,
+    1,
+    2,
+    11,
+    5,
+    9,
+    6
+   ],
+   "faab_used": 89,
+   "starters_now": [
+    {
+     "name": "Bo Nix",
+     "pos": "QB"
+    },
+    {
+     "name": "Derrick Henry",
+     "pos": "RB"
+    },
+    {
+     "name": "Kyle Monangai",
+     "pos": "RB"
+    },
+    {
+     "name": "Nico Collins",
+     "pos": "WR"
+    },
+    {
+     "name": "Garrett Wilson",
+     "pos": "WR"
+    },
+    {
+     "name": "Brock Bowers",
+     "pos": "TE"
+    },
+    {
+     "name": "RJ Harvey",
+     "pos": "RB"
+    },
+    {
+     "name": "MIN DEF",
+     "pos": "DEF"
+    }
+   ],
+   "trend": 0.4,
+   "trend_label": "flat",
+   "sos_remaining": 99.5,
    "power": 106.3,
    "power_rank": 6,
-   "pf_rank": 6
+   "pf_rank": 4
   },
   {
    "roster_id": 6,
@@ -699,7 +699,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 109.93,
+   "proj_next": 110.57,
    "future_opps": [
     4,
     8,
@@ -754,7 +754,7 @@
    "trend": 4.0,
    "trend_label": "rising",
    "sos_remaining": 104.36,
-   "power": 102.6,
+   "power": 102.9,
    "power_rank": 7,
    "pf_rank": 8
   },
@@ -798,7 +798,7 @@
     "Bryce Young",
     "Chuba Hubbard"
    ],
-   "proj_next": 74.71,
+   "proj_next": 74.62,
    "future_opps": [
     3,
     1,
@@ -853,7 +853,7 @@
    "trend": 9.3,
    "trend_label": "rising",
    "sos_remaining": 102.7,
-   "power": 98.7,
+   "power": 98.6,
    "power_rank": 8,
    "pf_rank": 3
   },
@@ -901,7 +901,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 97.01,
+   "proj_next": 99.02,
    "future_opps": [
     6,
     12,
@@ -956,7 +956,7 @@
    "trend": 11.2,
    "trend_label": "rising",
    "sos_remaining": 104.86,
-   "power": 94.9,
+   "power": 95.7,
    "power_rank": 9,
    "pf_rank": 10
   },
@@ -1010,7 +1010,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 91.6,
+   "proj_next": 89.31,
    "future_opps": [
     8,
     10,
@@ -1065,7 +1065,7 @@
    "trend": -18.6,
    "trend_label": "falling",
    "sos_remaining": 107.57,
-   "power": 93.2,
+   "power": 92.3,
    "power_rank": 10,
    "pf_rank": 9
   },
@@ -1113,7 +1113,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 95.88,
+   "proj_next": 95.94,
    "future_opps": [
     10,
     3,
@@ -1234,7 +1234,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 72.96,
+   "proj_next": 65.86,
    "future_opps": [
     1,
     7,
@@ -1289,7 +1289,7 @@
    "trend": 14.4,
    "trend_label": "rising",
    "sos_remaining": 107.28,
-   "power": 69.6,
+   "power": 66.8,
    "power_rank": 12,
    "pf_rank": 12
   }
@@ -1397,7 +1397,7 @@
  ],
  "projection_source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-10-09T15:40:48Z",
-  "label": "fri_late_am"
+  "taken_at_utc": "2026-10-09T23:14:48Z",
+  "label": "fri_pm"
  }
 }
