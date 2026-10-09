@@ -91,8 +91,8 @@
  "median_margin": 7.0,
  "source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-10-09T12:04:53Z",
-  "label": "fri_early"
+  "taken_at_utc": "2026-10-09T15:40:48Z",
+  "label": "fri_late_am"
  },
  "opp_baseline_only": 0,
  "why": "Your recommended lineup projects 103.6; Girthenheimer's set lineup 87.2 (best possible from their roster 89.5). Margin +16.4: favored.",

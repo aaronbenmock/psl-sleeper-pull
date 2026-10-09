@@ -1,10 +1,10 @@
 {
  "week": 5,
- "generated_at_utc": "2026-10-09T12:04:54Z",
+ "generated_at_utc": "2026-10-09T15:40:48Z",
  "source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-10-09T12:04:53Z",
-  "label": "fri_early"
+  "taken_at_utc": "2026-10-09T15:40:48Z",
+  "label": "fri_late_am"
  },
  "lineup": [
   {
@@ -318,12 +318,12 @@
    "pos": "WR",
    "team": "CLE",
    "opp": "NYJ",
-   "sleeper": 8.9,
+   "sleeper": 8.91,
    "preseason": 6.59,
    "season_avg": 12.72,
    "n_games": 4,
    "baseline": 9.66,
-   "expected": 9.16,
+   "expected": 9.17,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -423,7 +423,7 @@
    "pos": "TE",
    "team": "CLE",
    "opp": "NYJ",
-   "sleeper": 8.71,
+   "sleeper": 8.72,
    "preseason": 8.09,
    "season_avg": 10.45,
    "n_games": 4,
@@ -749,11 +749,11 @@
    "slot": "FLEX",
    "starter": "Denzel Boston",
    "bench": "Harold Fannin",
-   "gap": 0.2,
+   "gap": 0.3,
    "vacated_starter": 0.0,
    "vacated_bench": 0.0,
    "vacated_note": null,
-   "why": "Denzel Boston 9.2 vs Harold Fannin 8.9, only 0.2 apart."
+   "why": "Denzel Boston 9.2 vs Harold Fannin 8.9, only 0.3 apart."
   },
   {
    "slot": "FLEX",
@@ -788,7 +788,7 @@
  ],
  "expected_total": 103.6,
  "notes": [
-  "Projections are from the fri_early snapshot taken Fri Oct 09 07:04 AM Central."
+  "Projections are from the fri_late_am snapshot taken Fri Oct 09 10:40 AM Central."
  ],
  "warnings": [],
  "vacated_meta": {
