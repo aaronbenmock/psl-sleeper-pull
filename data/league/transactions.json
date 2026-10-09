@@ -1,5 +1,5 @@
 {
- "pulled_at_utc": "2026-10-08T11:11:55Z",
+ "pulled_at_utc": "2026-10-09T11:11:37Z",
  "by_week": {
   "1": [
    {
@@ -2812,6 +2812,86 @@
     "status_updated": 1791449296286,
     "leg": 5,
     "creator": "88304434777833472",
+    "metadata": null
+   },
+   {
+    "transaction_id": "1413913849815486464",
+    "type": "free_agent",
+    "status": "complete",
+    "roster_ids": [
+     1
+    ],
+    "adds": {
+     "NE": 1
+    },
+    "drops": {
+     "8161": 1
+    },
+    "settings": null,
+    "created": 1791465840347,
+    "status_updated": 1791465840347,
+    "leg": 5,
+    "creator": "89150347926716416",
+    "metadata": null
+   },
+   {
+    "transaction_id": "1413938071988088832",
+    "type": "free_agent",
+    "status": "complete",
+    "roster_ids": [
+     11
+    ],
+    "adds": {
+     "5844": 11
+    },
+    "drops": {
+     "4018": 11
+    },
+    "settings": null,
+    "created": 1791471615363,
+    "status_updated": 1791471615363,
+    "leg": 5,
+    "creator": "303229885625696256",
+    "metadata": null
+   },
+   {
+    "transaction_id": "1413941678108069888",
+    "type": "free_agent",
+    "status": "complete",
+    "roster_ids": [
+     12
+    ],
+    "adds": {
+     "NYJ": 12
+    },
+    "drops": {
+     "GB": 12
+    },
+    "settings": null,
+    "created": 1791472475128,
+    "status_updated": 1791472475128,
+    "leg": 5,
+    "creator": "845806173256011776",
+    "metadata": null
+   },
+   {
+    "transaction_id": "1414044539877863424",
+    "type": "free_agent",
+    "status": "complete",
+    "roster_ids": [
+     5
+    ],
+    "adds": {
+     "DAL": 5
+    },
+    "drops": {
+     "KC": 5
+    },
+    "settings": null,
+    "created": 1791496999285,
+    "status_updated": 1791496999285,
+    "leg": 5,
+    "creator": "1261888423686328320",
     "metadata": null
    }
   ],

@@ -39,13 +39,13 @@
   "id": "ages",
   "status": "info",
   "title": "Input ages at build time",
-  "finding": "weekly pull 22.6h, injury table 13.0h, players cache 13.0h, newest snapshot 1.0h (week 5)"
+  "finding": "weekly pull 33.6h, injury table 0.0h, players cache 0.0h, newest snapshot 11.9h (week 5)"
  },
  {
   "id": "names_cache",
   "status": "ok",
   "title": "Transaction player names",
-  "finding": "All 83 player ids in the transaction log resolve to a name (876 in data/players/names_cache.json)."
+  "finding": "All 87 player ids in the transaction log resolve to a name (876 in data/players/names_cache.json)."
  },
  {
   "id": "preferences",
