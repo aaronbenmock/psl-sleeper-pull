@@ -4,8 +4,8 @@
    "task": "build",
    "ok": true,
    "summary": "index.html + reports/2026/week05.html; lineup changes 0, claims 2, signals 16, accuracy weeks 4",
-   "started_utc": "2026-10-09T23:14:49Z",
-   "finished_utc": "2026-10-09T23:14:49Z",
+   "started_utc": "2026-10-10T00:12:32Z",
+   "finished_utc": "2026-10-10T00:12:32Z",
    "error": null
   },
   "pull": {
@@ -39,9 +39,9 @@
   "auto-skip": {
    "task": "auto-skip",
    "ok": true,
-   "summary": "skipped at 2026-10-09T11:43:10-05:00",
-   "started_utc": "2026-10-09T16:43:10Z",
-   "finished_utc": "2026-10-09T16:43:10Z",
+   "summary": "skipped at 2026-10-09T19:12:32-05:00",
+   "started_utc": "2026-10-10T00:12:32Z",
+   "finished_utc": "2026-10-10T00:12:32Z",
    "error": null
   },
   "usage": {
@@ -54,24 +54,6 @@
   }
  },
  "runs": [
-  {
-   "task": "pull",
-   "ok": true,
-   "summary": "completed wk 2, upcoming wk 3, waiver pool 674, matchup weeks 18, scored files 1, record check: median game ON: each team plays its opponent and the league median every week",
-   "started_utc": "2026-09-23T16:01:36Z",
-   "finished_utc": "2026-09-23T16:01:44Z",
-   "error": null,
-   "completed_week": 2,
-   "upcoming_week": 3
-  },
-  {
-   "task": "usage",
-   "ok": true,
-   "summary": "2 weeks of 2026 usage, 420 players with a stat row, 696 Sleeper ids mapped (158 from Sleeper, 461 from the rankings file, 77 by name), 458,764 bytes",
-   "started_utc": "2026-09-23T16:01:44Z",
-   "finished_utc": "2026-09-23T16:01:46Z",
-   "error": null
-  },
   {
    "task": "build",
    "ok": true,
@@ -1739,14 +1721,30 @@
    "started_utc": "2026-10-09T23:14:49Z",
    "finished_utc": "2026-10-09T23:14:49Z",
    "error": null
+  },
+  {
+   "task": "auto-skip",
+   "ok": true,
+   "summary": "skipped at 2026-10-09T19:12:32-05:00",
+   "started_utc": "2026-10-10T00:12:32Z",
+   "finished_utc": "2026-10-10T00:12:32Z",
+   "error": null
+  },
+  {
+   "task": "build",
+   "ok": true,
+   "summary": "index.html + reports/2026/week05.html; lineup changes 0, claims 2, signals 16, accuracy weeks 4",
+   "started_utc": "2026-10-10T00:12:32Z",
+   "finished_utc": "2026-10-10T00:12:32Z",
+   "error": null
   }
  ],
  "last_run": {
   "task": "build",
   "ok": true,
   "summary": "index.html + reports/2026/week05.html; lineup changes 0, claims 2, signals 16, accuracy weeks 4",
-  "started_utc": "2026-10-09T23:14:49Z",
-  "finished_utc": "2026-10-09T23:14:49Z",
+  "started_utc": "2026-10-10T00:12:32Z",
+  "finished_utc": "2026-10-10T00:12:32Z",
   "error": null
  }
 }
