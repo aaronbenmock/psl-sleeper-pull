@@ -44,22 +44,9 @@
     3.5
    ],
    "efficiency": 0.96,
-   "injured_starters": [
-    {
-     "name": "Ashton Jeanty",
-     "pos": "RB",
-     "status": "Questionable",
-     "body": "Ankle"
-    },
-    {
-     "name": "Chris Olave",
-     "pos": "WR",
-     "status": "Questionable",
-     "body": "Foot"
-    }
-   ],
+   "injured_starters": [],
    "byes_next": [],
-   "proj_next": 115.95,
+   "proj_next": 116.29,
    "future_opps": [
     11,
     5,
@@ -87,7 +74,7 @@
      "pos": "RB"
     },
     {
-     "name": "Ashton Jeanty",
+     "name": "Bhayshul Tuten",
      "pos": "RB"
     },
     {
@@ -114,7 +101,7 @@
    "trend": -12.9,
    "trend_label": "falling",
    "sos_remaining": 99.25,
-   "power": 127.3,
+   "power": 127.5,
    "power_rank": 1,
    "pf_rank": 1
   },
@@ -228,6 +215,109 @@
    "pf_rank": 2
   },
   {
+   "roster_id": 10,
+   "team": "Derrelick my Balls",
+   "manager": "dlamas",
+   "is_mine": false,
+   "wins": 5,
+   "losses": 3,
+   "ties": 0,
+   "h2h": "2-2",
+   "median": "3-1",
+   "allplay": "28-16",
+   "allplay_pct": 0.636,
+   "scores": [
+    106.59,
+    124.18,
+    117.54,
+    110.0
+   ],
+   "avg": 114.58,
+   "last": 110.0,
+   "pf": 458.31,
+   "proj_totals": [
+    96.09,
+    92.16,
+    101.35,
+    118.53
+   ],
+   "vs_proj": 50.18,
+   "bench_left": [
+    39.22,
+    1.6,
+    38.0,
+    28.8
+   ],
+   "efficiency": 0.82,
+   "injured_starters": [
+    {
+     "name": "Terry McLaurin",
+     "pos": "WR",
+     "status": "Questionable",
+     "body": "Hamstring"
+    }
+   ],
+   "byes_next": [],
+   "proj_next": 103.66,
+   "future_opps": [
+    5,
+    9,
+    6,
+    12,
+    4,
+    8,
+    7,
+    3,
+    1,
+    2,
+    11,
+    5,
+    9,
+    6
+   ],
+   "faab_used": 89,
+   "starters_now": [
+    {
+     "name": "Bo Nix",
+     "pos": "QB"
+    },
+    {
+     "name": "Derrick Henry",
+     "pos": "RB"
+    },
+    {
+     "name": "RJ Harvey",
+     "pos": "RB"
+    },
+    {
+     "name": "Nico Collins",
+     "pos": "WR"
+    },
+    {
+     "name": "Garrett Wilson",
+     "pos": "WR"
+    },
+    {
+     "name": "Brock Bowers",
+     "pos": "TE"
+    },
+    {
+     "name": "Terry McLaurin",
+     "pos": "WR"
+    },
+    {
+     "name": "MIN DEF",
+     "pos": "DEF"
+    }
+   ],
+   "trend": 0.4,
+   "trend_label": "flat",
+   "sos_remaining": 99.5,
+   "power": 110.2,
+   "power_rank": 3,
+   "pf_rank": 4
+  },
+  {
    "roster_id": 7,
    "team": "Cheeky Nando\u2019s",
    "manager": "aCaps",
@@ -264,12 +354,6 @@
    "efficiency": 0.88,
    "injured_starters": [
     {
-     "name": "D'Andre Swift",
-     "pos": "RB",
-     "status": "Questionable",
-     "body": "Hip"
-    },
-    {
      "name": "Rhamondre Stevenson",
      "pos": "RB",
      "status": "Questionable",
@@ -280,12 +364,6 @@
      "pos": "WR",
      "status": "Questionable",
      "body": "Quadriceps"
-    },
-    {
-     "name": "Malik Nabers",
-     "pos": "WR",
-     "status": "Questionable",
-     "body": "Undisclosed"
     }
    ],
    "byes_next": [],
@@ -345,7 +423,7 @@
    "trend_label": "rising",
    "sos_remaining": 101.09,
    "power": 109.5,
-   "power_rank": 3,
+   "power_rank": 4,
    "pf_rank": 7
   },
   {
@@ -441,7 +519,7 @@
    "trend_label": "falling",
    "sos_remaining": 102.84,
    "power": 107.0,
-   "power_rank": 4,
+   "power_rank": 5,
    "pf_rank": 5
   },
   {
@@ -509,7 +587,7 @@
      "pos": "RB"
     },
     {
-     "name": "Quinshon Judkins",
+     "name": "Will Shipley",
      "pos": "RB"
     },
     {
@@ -521,7 +599,7 @@
      "pos": "WR"
     },
     {
-     "name": "Will Shipley",
+     "name": "Quinshon Judkins",
      "pos": "RB"
     },
     {
@@ -537,111 +615,8 @@
    "trend_label": "flat",
    "sos_remaining": 99.08,
    "power": 106.5,
-   "power_rank": 5,
-   "pf_rank": 6
-  },
-  {
-   "roster_id": 10,
-   "team": "Derrelick my Balls",
-   "manager": "dlamas",
-   "is_mine": false,
-   "wins": 5,
-   "losses": 3,
-   "ties": 0,
-   "h2h": "2-2",
-   "median": "3-1",
-   "allplay": "28-16",
-   "allplay_pct": 0.636,
-   "scores": [
-    106.59,
-    124.18,
-    117.54,
-    110.0
-   ],
-   "avg": 114.58,
-   "last": 110.0,
-   "pf": 458.31,
-   "proj_totals": [
-    96.09,
-    92.16,
-    101.35,
-    118.53
-   ],
-   "vs_proj": 50.18,
-   "bench_left": [
-    39.22,
-    1.6,
-    38.0,
-    28.8
-   ],
-   "efficiency": 0.82,
-   "injured_starters": [
-    {
-     "name": "Kyle Monangai",
-     "pos": "RB",
-     "status": "Questionable",
-     "body": "Thumb"
-    }
-   ],
-   "byes_next": [],
-   "proj_next": 93.88,
-   "future_opps": [
-    5,
-    9,
-    6,
-    12,
-    4,
-    8,
-    7,
-    3,
-    1,
-    2,
-    11,
-    5,
-    9,
-    6
-   ],
-   "faab_used": 89,
-   "starters_now": [
-    {
-     "name": "Bo Nix",
-     "pos": "QB"
-    },
-    {
-     "name": "Derrick Henry",
-     "pos": "RB"
-    },
-    {
-     "name": "Kyle Monangai",
-     "pos": "RB"
-    },
-    {
-     "name": "Nico Collins",
-     "pos": "WR"
-    },
-    {
-     "name": "Garrett Wilson",
-     "pos": "WR"
-    },
-    {
-     "name": "Brock Bowers",
-     "pos": "TE"
-    },
-    {
-     "name": "RJ Harvey",
-     "pos": "RB"
-    },
-    {
-     "name": "MIN DEF",
-     "pos": "DEF"
-    }
-   ],
-   "trend": 0.4,
-   "trend_label": "flat",
-   "sos_remaining": 99.5,
-   "power": 106.3,
    "power_rank": 6,
-   "pf_rank": 4
+   "pf_rank": 6
   },
   {
    "roster_id": 6,
@@ -684,18 +659,6 @@
      "pos": "WR",
      "status": "Questionable",
      "body": "Concussion"
-    },
-    {
-     "name": "Cam Skattebo",
-     "pos": "RB",
-     "status": "Questionable",
-     "body": "Shoulder"
-    },
-    {
-     "name": "Isaiah Likely",
-     "pos": "TE",
-     "status": "Questionable",
-     "body": "Knee"
     }
    ],
    "byes_next": [],
@@ -892,14 +855,7 @@
     9.7
    ],
    "efficiency": 0.89,
-   "injured_starters": [
-    {
-     "name": "Jeremiyah Love",
-     "pos": "RB",
-     "status": "Questionable",
-     "body": "Ankle"
-    }
-   ],
+   "injured_starters": [],
    "byes_next": [],
    "proj_next": 99.02,
    "future_opps": [
@@ -996,12 +952,6 @@
    ],
    "efficiency": 0.79,
    "injured_starters": [
-    {
-     "name": "Dontayvion Wicks",
-     "pos": "WR",
-     "status": "Questionable",
-     "body": "Hamstring"
-    },
     {
      "name": "Zay Flowers",
      "pos": "WR",
@@ -1221,12 +1171,6 @@
      "body": "Back"
     },
     {
-     "name": "Mack Hollins",
-     "pos": "WR",
-     "status": "Questionable",
-     "body": "Calf"
-    },
-    {
      "name": "Jaylen Wright",
      "pos": "RB",
      "status": "Questionable",
@@ -1234,7 +1178,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 65.86,
+   "proj_next": 72.98,
    "future_opps": [
     1,
     7,
@@ -1274,8 +1218,8 @@
      "pos": "WR"
     },
     {
-     "name": "Mack Hollins",
-     "pos": "WR"
+     "name": "Kenyon Sadiq",
+     "pos": "TE"
     },
     {
      "name": "Jaylen Wright",
@@ -1289,7 +1233,7 @@
    "trend": 14.4,
    "trend_label": "rising",
    "sos_remaining": 107.28,
-   "power": 66.8,
+   "power": 69.7,
    "power_rank": 12,
    "pf_rank": 12
   }
@@ -1302,40 +1246,22 @@
    "text": "Baker\u2019s Dozen is the #2 scorer at 119.67 a week but has 2 of 8 starters carrying injury tags: Tee Higgins Questionable (Groin), Jordan Addison Questionable (Hamstring)."
   },
   {
-   "team": "Be Safe, Get Jaxcinated",
-   "kind": "injured_starters",
-   "severity": "high",
-   "text": "Be Safe, Get Jaxcinated is the #1 scorer at 134.91 a week but has 2 of 8 starters carrying injury tags: Ashton Jeanty Questionable (Ankle), Chris Olave Questionable (Foot)."
-  },
-  {
    "team": "Amateur Hour",
    "kind": "injured_starters",
    "severity": "medium",
-   "text": "Amateur Hour has 4 of 8 starters carrying injury tags: Alvin Kamara Questionable (Back), Carnell Tate Questionable (Back), Mack Hollins Questionable (Calf), Jaylen Wright Questionable (Foot)."
+   "text": "Amateur Hour has 3 of 8 starters carrying injury tags: Alvin Kamara Questionable (Back), Carnell Tate Questionable (Back), Jaylen Wright Questionable (Foot)."
   },
   {
    "team": "Cheeky Nando\u2019s",
    "kind": "injured_starters",
    "severity": "medium",
-   "text": "Cheeky Nando\u2019s has 4 of 8 starters carrying injury tags: D'Andre Swift Questionable (Hip), Rhamondre Stevenson Questionable (Undisclosed), CeeDee Lamb Questionable (Quadriceps), Malik Nabers Questionable (Undisclosed)."
-  },
-  {
-   "team": "Girthenheimer",
-   "kind": "injured_starters",
-   "severity": "medium",
-   "text": "Girthenheimer has 2 of 8 starters carrying injury tags: Dontayvion Wicks Questionable (Hamstring), Zay Flowers Questionable (Hamstring)."
+   "text": "Cheeky Nando\u2019s has 2 of 8 starters carrying injury tags: Rhamondre Stevenson Questionable (Undisclosed), CeeDee Lamb Questionable (Quadriceps)."
   },
   {
    "team": "RafiBomb",
    "kind": "bye_crunch",
    "severity": "medium",
    "text": "RafiBomb has 2 current starters on bye in week 5: Bryce Young, Chuba Hubbard."
-  },
-  {
-   "team": "ScampDaddy",
-   "kind": "injured_starters",
-   "severity": "medium",
-   "text": "ScampDaddy has 3 of 8 starters carrying injury tags: Ja'Marr Chase Questionable (Concussion), Cam Skattebo Questionable (Shoulder), Isaiah Likely Questionable (Knee)."
   },
   {
    "team": "ValKilmersComeback",
@@ -1390,6 +1316,24 @@
    "kind": "lucky",
    "severity": "low",
    "text": "City of Champyinz is 4-4 but would be about 2.9-5.1 against the whole league each week (all-play 16-28). Record flatters the roster."
+  },
+  {
+   "team": "Derrelick my Balls",
+   "kind": "bench_points",
+   "severity": "low",
+   "text": "Derrelick my Balls left 39 points on the bench in week 4 (lineup efficiency 82%)."
+  },
+  {
+   "team": "Eazy E Squad",
+   "kind": "vs_projection",
+   "severity": "low",
+   "text": "Eazy E Squad has missed Sleeper's starter projections by 27 points a week over 4 weeks."
+  },
+  {
+   "team": "RafiBomb",
+   "kind": "lucky",
+   "severity": "low",
+   "text": "RafiBomb is 6-2 but would be about 4.7-3.3 against the whole league each week (all-play 26-18). Record flatters the roster."
   }
  ],
  "notes": [
