@@ -1,10 +1,10 @@
 {
  "week": 5,
- "generated_at_utc": "2026-10-10T12:02:52Z",
+ "generated_at_utc": "2026-10-10T15:38:13Z",
  "source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-10-10T12:02:52Z",
-  "label": "sat_early"
+  "taken_at_utc": "2026-10-10T15:38:13Z",
+  "label": "sat_late_am"
  },
  "lineup": [
   {
@@ -90,7 +90,7 @@
    "pos": "RB",
    "team": "MIA",
    "opp": "CIN",
-   "sleeper": 11.39,
+   "sleeper": 11.4,
    "preseason": 4.48,
    "season_avg": 8.18,
    "n_games": 4,
@@ -318,12 +318,12 @@
    "pos": "WR",
    "team": "CLE",
    "opp": "NYJ",
-   "sleeper": 8.91,
+   "sleeper": 8.9,
    "preseason": 6.59,
    "season_avg": 12.72,
    "n_games": 4,
    "baseline": 9.66,
-   "expected": 9.17,
+   "expected": 9.16,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -429,7 +429,7 @@
    "pos": "TE",
    "team": "CLE",
    "opp": "NYJ",
-   "sleeper": 8.72,
+   "sleeper": 8.71,
    "preseason": 8.09,
    "season_avg": 10.45,
    "n_games": 4,
@@ -486,12 +486,12 @@
    "pos": "RB",
    "team": "HOU",
    "opp": "TEN",
-   "sleeper": 8.06,
+   "sleeper": 8.07,
    "preseason": 8.26,
    "season_avg": 8.95,
    "n_games": 4,
    "baseline": 8.6,
-   "expected": 8.25,
+   "expected": 8.26,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -504,7 +504,7 @@
    "started": false,
    "actual_so_far": null,
    "slot": "BN",
-   "why": "Sleeper projects 8.1, season average 8.9 over 4 games, preseason model 8.3. Blended expectation 8.2 vs TEN.",
+   "why": "Sleeper projects 8.1, season average 8.9 over 4 games, preseason model 8.3. Blended expectation 8.3 vs TEN.",
    "vacated": {
     "player_id": "00-0040583",
     "pos": "RB",
@@ -745,7 +745,7 @@
    "vacated_starter": 7.64,
    "vacated_bench": 0.22,
    "vacated_note": "Vacated share (display only, not in the numbers above): Ollie Gordon 7.6, Woody Marks 0.2 points of absorbed usage. De'Von Achane out, vacating 17% of the targets and 54% of the carries. The proportional split gives him 4% of targets and 30% of carries, worth about 7.6 points. Display only: it does not change the expected number.",
-   "why": "Ollie Gordon 9.6 vs Woody Marks 8.2, only 1.4 apart. Tiebreak: Woody Marks has the higher ceiling (boom rate 12% vs 0%)."
+   "why": "Ollie Gordon 9.6 vs Woody Marks 8.3, only 1.4 apart. Tiebreak: Woody Marks has the higher ceiling (boom rate 12% vs 0%)."
   },
   {
    "slot": "FLEX",
@@ -761,11 +761,11 @@
    "slot": "FLEX",
    "starter": "Denzel Boston",
    "bench": "Harold Fannin",
-   "gap": 0.3,
+   "gap": 0.2,
    "vacated_starter": 0.33,
    "vacated_bench": 0.0,
    "vacated_note": "Vacated share (display only, not in the numbers above): Denzel Boston 0.3, Harold Fannin 0.0 points of absorbed usage. Tylan Wallace out, vacating 2% of the targets. The proportional split gives him 1% of targets, worth about 0.3 points. Display only: it does not change the expected number.",
-   "why": "Denzel Boston 9.2 vs Harold Fannin 8.9, only 0.3 apart."
+   "why": "Denzel Boston 9.2 vs Harold Fannin 8.9, only 0.2 apart."
   },
   {
    "slot": "FLEX",
@@ -775,7 +775,7 @@
    "vacated_starter": 0.33,
    "vacated_bench": 0.22,
    "vacated_note": "Vacated share (display only, not in the numbers above): Denzel Boston 0.3, Woody Marks 0.2 points of absorbed usage. Tylan Wallace out, vacating 2% of the targets. The proportional split gives him 1% of targets, worth about 0.3 points. Display only: it does not change the expected number.",
-   "why": "Denzel Boston 9.2 vs Woody Marks 8.2, only 0.9 apart."
+   "why": "Denzel Boston 9.2 vs Woody Marks 8.3, only 0.9 apart."
   },
   {
    "slot": "FLEX",
@@ -798,9 +798,9 @@
    "why": "Denzel Boston 9.2 vs Jakobi Meyers 7.8, only 1.4 apart."
   }
  ],
- "expected_total": 103.5,
+ "expected_total": 103.4,
  "notes": [
-  "Projections are from the sat_early snapshot taken Sat Oct 10 07:02 AM Central."
+  "Projections are from the sat_late_am snapshot taken Sat Oct 10 10:38 AM Central."
  ],
  "warnings": [],
  "vacated_meta": {
