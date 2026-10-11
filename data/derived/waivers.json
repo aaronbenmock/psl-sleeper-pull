@@ -159,8 +159,8 @@
      "remaining": 111,
      "score": 6.5,
      "why": [
-      "owns Nico Collins, the HOU WR1 (handcuff interest)",
       "owns Tank Dell (IR), the HOU WR he would replace",
+      "owns Nico Collins, the HOU WR1 (handcuff interest)",
       "starter Terry McLaurin Questionable",
       "has bid on a WR before"
      ],
@@ -290,22 +290,24 @@
    },
    "bid": 0,
    "bid_why": "gain under 0.5 points per week, not worth a claim",
-   "ceiling": 11.72,
-   "ceiling_gap": 3.71,
-   "ceiling_gain": 2.17,
+   "ceiling": 12.44,
+   "ceiling_gap": 4.43,
+   "ceiling_gain": 2.89,
    "ceiling_sig": {
-    "bump_now": 0.76,
-    "bump_if_lead": 3.71,
+    "bump_now": 0.87,
+    "bump_if_lead": 4.43,
     "lead": "00-0037261",
     "lead_name": "Khalil Shakir",
-    "bump": 3.71,
+    "bump": 4.43,
     "out_now": [
+     "Josh Palmer",
      "Tyrell Shavers"
     ],
     "lead_sleeper_id": "8134"
    },
-   "ceiling_why": "Tyrell Shavers out now: about +0.8 a week of vacated usage; if Khalil Shakir misses time: about +3.7 a week. Ceiling 11.7 a week vs 8.0 expected.",
-   "why": "Rest-of-season value about 8.0 a week (model+season; next week 7.45). He would not start over anyone you have, so the gain is depth only: +0.4 a week (a quarter of his edge over Ollie Gordon)."
+   "ceiling_why": "Josh Palmer, Tyrell Shavers out now: about +0.9 a week of vacated usage; if Khalil Shakir misses time: about +4.4 a week. Ceiling 12.4 a week vs 8.0 expected.",
+   "why": "Rest-of-season value about 8.0 a week (model+season; next week 7.45). He would not start over anyone you have, so the gain is depth only: +0.4 a week (a quarter of his edge over Ollie Gordon).",
+   "role_open_now": false
   },
   {
    "player_id": "9758",
@@ -1241,7 +1243,9 @@
   "Raheim Sanders (RB, +5.2)",
   "Seth McGowan (RB, +6.8)",
   "Cooper Kupp (WR, +6.4)",
+  "Keon Coleman (WR, +4.4)",
   "Rashod Bateman (WR, +4.8)",
+  "Kendrick Bourne (WR, +6.2)",
   "Isaac TeSlaa (WR, +5.2)",
   "Jaleel McLaughlin (RB, +7.6)",
   "Efton Chism (WR, +4.9)",
@@ -1261,7 +1265,7 @@
   "projected_leftover": 0,
   "summary": "At your pace ($47 spent in 4 weeks) you would finish with about $0 unspent."
  },
- "all_evaluated": 118,
+ "all_evaluated": 117,
  "drop_candidates": [
   {
    "player_id": "12495",
