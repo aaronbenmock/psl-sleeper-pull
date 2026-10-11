@@ -46,7 +46,7 @@
    "efficiency": 0.96,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 116.37,
+   "proj_next": 117.24,
    "future_opps": [
     11,
     5,
@@ -101,118 +101,9 @@
    "trend": -12.9,
    "trend_label": "falling",
    "sos_remaining": 99.25,
-   "power": 127.5,
+   "power": 127.8,
    "power_rank": 1,
    "pf_rank": 1
-  },
-  {
-   "roster_id": 12,
-   "team": "Baker\u2019s Dozen",
-   "manager": "juicyjuicy100",
-   "is_mine": false,
-   "wins": 7,
-   "losses": 1,
-   "ties": 0,
-   "h2h": "4-0",
-   "median": "3-1",
-   "allplay": "31-13",
-   "allplay_pct": 0.705,
-   "scores": [
-    128.5,
-    133.16,
-    95.54,
-    121.5
-   ],
-   "avg": 119.67,
-   "last": 121.5,
-   "pf": 478.7,
-   "proj_totals": [
-    105.33,
-    102.62,
-    109.61,
-    110.07
-   ],
-   "vs_proj": 51.07,
-   "bench_left": [
-    14.54,
-    5.1,
-    14.12,
-    14.43
-   ],
-   "efficiency": 0.91,
-   "injured_starters": [
-    {
-     "name": "Tee Higgins",
-     "pos": "WR",
-     "status": "Questionable",
-     "body": "Groin"
-    },
-    {
-     "name": "Jordan Addison",
-     "pos": "WR",
-     "status": "Questionable",
-     "body": "Hamstring"
-    }
-   ],
-   "byes_next": [],
-   "proj_next": 100.25,
-   "future_opps": [
-    7,
-    4,
-    8,
-    10,
-    3,
-    1,
-    2,
-    11,
-    5,
-    9,
-    6,
-    7,
-    4,
-    8
-   ],
-   "faab_used": 0,
-   "starters_now": [
-    {
-     "name": "Jared Goff",
-     "pos": "QB"
-    },
-    {
-     "name": "Tony Pollard",
-     "pos": "RB"
-    },
-    {
-     "name": "Bucky Irving",
-     "pos": "RB"
-    },
-    {
-     "name": "Amon-Ra St. Brown",
-     "pos": "WR"
-    },
-    {
-     "name": "Tee Higgins",
-     "pos": "WR"
-    },
-    {
-     "name": "Jordan Addison",
-     "pos": "WR"
-    },
-    {
-     "name": "Rashid Shaheed",
-     "pos": "WR"
-    },
-    {
-     "name": "NYJ DEF",
-     "pos": "DEF"
-    }
-   ],
-   "trend": -5.9,
-   "trend_label": "falling",
-   "sos_remaining": 102.09,
-   "power": 111.9,
-   "power_rank": 2,
-   "pf_rank": 2
   },
   {
    "roster_id": 10,
@@ -258,7 +149,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 102.97,
+   "proj_next": 102.94,
    "future_opps": [
     5,
     9,
@@ -314,7 +205,7 @@
    "trend_label": "flat",
    "sos_remaining": 99.5,
    "power": 109.9,
-   "power_rank": 3,
+   "power_rank": 2,
    "pf_rank": 4
   },
   {
@@ -367,7 +258,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 116.58,
+   "proj_next": 116.94,
    "future_opps": [
     12,
     2,
@@ -422,9 +313,118 @@
    "trend": 11.2,
    "trend_label": "rising",
    "sos_remaining": 101.09,
-   "power": 109.5,
-   "power_rank": 4,
+   "power": 109.6,
+   "power_rank": 3,
    "pf_rank": 7
+  },
+  {
+   "roster_id": 12,
+   "team": "Baker\u2019s Dozen",
+   "manager": "juicyjuicy100",
+   "is_mine": false,
+   "wins": 7,
+   "losses": 1,
+   "ties": 0,
+   "h2h": "4-0",
+   "median": "3-1",
+   "allplay": "31-13",
+   "allplay_pct": 0.705,
+   "scores": [
+    128.5,
+    133.16,
+    95.54,
+    121.5
+   ],
+   "avg": 119.67,
+   "last": 121.5,
+   "pf": 478.7,
+   "proj_totals": [
+    105.33,
+    102.62,
+    109.61,
+    110.07
+   ],
+   "vs_proj": 51.07,
+   "bench_left": [
+    14.54,
+    5.1,
+    14.12,
+    14.43
+   ],
+   "efficiency": 0.91,
+   "injured_starters": [
+    {
+     "name": "Tee Higgins",
+     "pos": "WR",
+     "status": "Questionable",
+     "body": "Groin"
+    },
+    {
+     "name": "Jordan Addison",
+     "pos": "WR",
+     "status": "Questionable",
+     "body": "Hamstring"
+    }
+   ],
+   "byes_next": [],
+   "proj_next": 93.22,
+   "future_opps": [
+    7,
+    4,
+    8,
+    10,
+    3,
+    1,
+    2,
+    11,
+    5,
+    9,
+    6,
+    7,
+    4,
+    8
+   ],
+   "faab_used": 0,
+   "starters_now": [
+    {
+     "name": "Jared Goff",
+     "pos": "QB"
+    },
+    {
+     "name": "Tony Pollard",
+     "pos": "RB"
+    },
+    {
+     "name": "Bucky Irving",
+     "pos": "RB"
+    },
+    {
+     "name": "Amon-Ra St. Brown",
+     "pos": "WR"
+    },
+    {
+     "name": "Tee Higgins",
+     "pos": "WR"
+    },
+    {
+     "name": "Jordan Addison",
+     "pos": "WR"
+    },
+    {
+     "name": "Rashid Shaheed",
+     "pos": "WR"
+    },
+    {
+     "name": "NYJ DEF",
+     "pos": "DEF"
+    }
+   ],
+   "trend": -5.9,
+   "trend_label": "falling",
+   "sos_remaining": 102.09,
+   "power": 109.1,
+   "power_rank": 4,
+   "pf_rank": 2
   },
   {
    "roster_id": 8,
@@ -463,7 +463,7 @@
    "efficiency": 0.85,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 100.17,
+   "proj_next": 100.28,
    "future_opps": [
     9,
     6,
@@ -518,7 +518,7 @@
    "trend": -8.1,
    "trend_label": "falling",
    "sos_remaining": 102.84,
-   "power": 106.8,
+   "power": 106.9,
    "power_rank": 5,
    "pf_rank": 5
   },
@@ -559,7 +559,7 @@
    "efficiency": 0.93,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 100.33,
+   "proj_next": 100.34,
    "future_opps": [
     2,
     11,
@@ -662,7 +662,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 110.58,
+   "proj_next": 111.0,
    "future_opps": [
     4,
     8,
@@ -717,7 +717,7 @@
    "trend": 4.0,
    "trend_label": "rising",
    "sos_remaining": 104.36,
-   "power": 102.9,
+   "power": 103.0,
    "power_rank": 7,
    "pf_rank": 8
   },
@@ -857,7 +857,7 @@
    "efficiency": 0.89,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 99.53,
+   "proj_next": 99.69,
    "future_opps": [
     6,
     12,
@@ -912,7 +912,7 @@
    "trend": 11.2,
    "trend_label": "rising",
    "sos_remaining": 104.86,
-   "power": 95.9,
+   "power": 96.0,
    "power_rank": 9,
    "pf_rank": 10
   },
@@ -960,7 +960,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 89.16,
+   "proj_next": 90.01,
    "future_opps": [
     8,
     10,
@@ -1015,7 +1015,7 @@
    "trend": -18.6,
    "trend_label": "falling",
    "sos_remaining": 107.57,
-   "power": 92.2,
+   "power": 92.5,
    "power_rank": 10,
    "pf_rank": 9
   },
@@ -1063,7 +1063,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 96.02,
+   "proj_next": 100.44,
    "future_opps": [
     10,
     3,
@@ -1118,7 +1118,7 @@
    "trend": -14.6,
    "trend_label": "falling",
    "sos_remaining": 108.81,
-   "power": 84.1,
+   "power": 85.9,
    "power_rank": 11,
    "pf_rank": 11
   },
@@ -1178,7 +1178,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 72.94,
+   "proj_next": 73.27,
    "future_opps": [
     1,
     7,
@@ -1233,7 +1233,7 @@
    "trend": 14.4,
    "trend_label": "rising",
    "sos_remaining": 107.28,
-   "power": 69.6,
+   "power": 69.8,
    "power_rank": 12,
    "pf_rank": 12
   }
@@ -1341,7 +1341,7 @@
  ],
  "projection_source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-10-11T12:46:03Z",
-  "label": "sun_early"
+  "taken_at_utc": "2026-10-11T15:38:36Z",
+  "label": "sun_late_am"
  }
 }

@@ -2,63 +2,8 @@
  "week": 5,
  "first_recorded_utc": "2026-10-07T16:06:40Z",
  "source": "live build",
- "updated_utc": "2026-10-11T13:43:58Z",
+ "updated_utc": "2026-10-11T15:38:36Z",
  "start_sit": [
-  {
-   "type": "start_sit",
-   "kind": "close_call",
-   "player_id": "12495",
-   "name": "Ollie Gordon",
-   "alt_id": "12474",
-   "alt_name": "Woody Marks",
-   "expected": 9.64,
-   "alt_expected": 8.26,
-   "started": false
-  },
-  {
-   "type": "start_sit",
-   "kind": "close_call",
-   "player_id": "5872",
-   "name": "Deebo Samuel",
-   "alt_id": "12506",
-   "alt_name": "Harold Fannin",
-   "expected": 9.8,
-   "alt_expected": 8.88,
-   "started": false
-  },
-  {
-   "type": "start_sit",
-   "kind": "close_call",
-   "player_id": "13346",
-   "name": "Denzel Boston",
-   "alt_id": "12506",
-   "alt_name": "Harold Fannin",
-   "expected": 9.14,
-   "alt_expected": 8.88,
-   "started": false
-  },
-  {
-   "type": "start_sit",
-   "kind": "close_call",
-   "player_id": "13346",
-   "name": "Denzel Boston",
-   "alt_id": "12474",
-   "alt_name": "Woody Marks",
-   "expected": 9.14,
-   "alt_expected": 8.26,
-   "started": false
-  },
-  {
-   "type": "start_sit",
-   "kind": "close_call",
-   "player_id": "13346",
-   "name": "Denzel Boston",
-   "alt_id": "7021",
-   "alt_name": "Rico Dowdle",
-   "expected": 9.14,
-   "alt_expected": 7.84,
-   "started": false
-  },
   {
    "type": "start_sit",
    "kind": "close_call",
@@ -68,6 +13,41 @@
    "alt_name": "Jakobi Meyers",
    "expected": 9.14,
    "alt_expected": 7.74,
+   "started": true,
+   "frozen": true,
+   "frozen_at_utc": "2026-10-11T13:43:58Z"
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "5872",
+   "name": "Deebo Samuel",
+   "alt_id": "12506",
+   "alt_name": "Harold Fannin",
+   "expected": 9.8,
+   "alt_expected": 8.78,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "13346",
+   "name": "Denzel Boston",
+   "alt_id": "12506",
+   "alt_name": "Harold Fannin",
+   "expected": 9.04,
+   "alt_expected": 8.78,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "13346",
+   "name": "Denzel Boston",
+   "alt_id": "12474",
+   "alt_name": "Woody Marks",
+   "expected": 9.04,
+   "alt_expected": 8.21,
    "started": false
   }
  ],
@@ -84,7 +64,7 @@
    "slot": "RB",
    "player_id": "6813",
    "name": "Jonathan Taylor",
-   "expected": 17.73,
+   "expected": 17.93,
    "started": false,
    "frozen": false
   },
@@ -92,7 +72,7 @@
    "slot": "RB",
    "player_id": "12495",
    "name": "Ollie Gordon",
-   "expected": 9.64,
+   "expected": 9.75,
    "started": false,
    "frozen": false
   },
@@ -108,7 +88,7 @@
    "slot": "WR",
    "player_id": "5846",
    "name": "DK Metcalf",
-   "expected": 10.48,
+   "expected": 10.34,
    "started": false,
    "frozen": false
   },
@@ -124,7 +104,7 @@
    "slot": "FLEX",
    "player_id": "13346",
    "name": "Denzel Boston",
-   "expected": 9.14,
+   "expected": 9.04,
    "started": false,
    "frozen": false
   },
