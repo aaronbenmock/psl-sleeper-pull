@@ -4,8 +4,8 @@
    "task": "build",
    "ok": true,
    "summary": "index.html + reports/2026/week05.html; lineup changes 0, claims 2, signals 16, accuracy weeks 4",
-   "started_utc": "2026-10-11T15:38:36Z",
-   "finished_utc": "2026-10-11T15:38:37Z",
+   "started_utc": "2026-10-11T16:42:34Z",
+   "finished_utc": "2026-10-11T16:42:35Z",
    "error": null
   },
   "pull": {
@@ -39,9 +39,9 @@
   "auto-skip": {
    "task": "auto-skip",
    "ok": true,
-   "summary": "skipped at 2026-10-11T08:43:57-05:00",
-   "started_utc": "2026-10-11T13:43:57Z",
-   "finished_utc": "2026-10-11T13:43:57Z",
+   "summary": "skipped at 2026-10-11T11:42:34-05:00",
+   "started_utc": "2026-10-11T16:42:34Z",
+   "finished_utc": "2026-10-11T16:42:34Z",
    "error": null
   },
   "usage": {
@@ -54,24 +54,6 @@
   }
  },
  "runs": [
-  {
-   "task": "snapshot",
-   "ok": true,
-   "summary": "week 3 fri_pm: 3148 projections, 2 NFL teams already started, 3091 players still pre-kickoff",
-   "started_utc": "2026-09-25T23:13:40Z",
-   "finished_utc": "2026-09-25T23:13:41Z",
-   "error": null,
-   "week": 3,
-   "label": "fri_pm"
-  },
-  {
-   "task": "build",
-   "ok": false,
-   "summary": "index.html + reports/2026/week03.html; lineup changes 0, claims 0, signals 14, accuracy weeks 2; ERRORS: [\"lineup: 'why'\"]",
-   "started_utc": "2026-09-25T23:13:41Z",
-   "finished_utc": "2026-09-25T23:13:41Z",
-   "error": "lineup: 'why'"
-  },
   {
    "task": "build",
    "ok": false,
@@ -1739,14 +1721,30 @@
    "started_utc": "2026-10-11T15:38:36Z",
    "finished_utc": "2026-10-11T15:38:37Z",
    "error": null
+  },
+  {
+   "task": "auto-skip",
+   "ok": true,
+   "summary": "skipped at 2026-10-11T11:42:34-05:00",
+   "started_utc": "2026-10-11T16:42:34Z",
+   "finished_utc": "2026-10-11T16:42:34Z",
+   "error": null
+  },
+  {
+   "task": "build",
+   "ok": true,
+   "summary": "index.html + reports/2026/week05.html; lineup changes 0, claims 2, signals 16, accuracy weeks 4",
+   "started_utc": "2026-10-11T16:42:34Z",
+   "finished_utc": "2026-10-11T16:42:35Z",
+   "error": null
   }
  ],
  "last_run": {
   "task": "build",
   "ok": true,
   "summary": "index.html + reports/2026/week05.html; lineup changes 0, claims 2, signals 16, accuracy weeks 4",
-  "started_utc": "2026-10-11T15:38:36Z",
-  "finished_utc": "2026-10-11T15:38:37Z",
+  "started_utc": "2026-10-11T16:42:34Z",
+  "finished_utc": "2026-10-11T16:42:35Z",
   "error": null
  }
 }
