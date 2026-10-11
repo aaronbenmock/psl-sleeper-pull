@@ -5,9 +5,9 @@
  "opponent": "Girthenheimer",
  "manager": "Breadsticks310",
  "roster_id": 9,
- "my_total": 103.6,
- "opp_set_total": 86.8,
- "opp_best_total": 87.7,
+ "my_total": 103.4,
+ "opp_set_total": 86.6,
+ "opp_best_total": 87.9,
  "verdict": "favored",
  "margin": 16.8,
  "verdict_vs_best": "favored",
@@ -25,7 +25,7 @@
   {
    "name": "Jayden Daniels",
    "pos": "QB",
-   "expected": 18.6,
+   "expected": 18.49,
    "injury_status": null,
    "baseline_only": false
   },
@@ -46,14 +46,14 @@
   {
    "name": "Dontayvion Wicks",
    "pos": "WR",
-   "expected": 7.2,
+   "expected": 7.16,
    "injury_status": null,
    "baseline_only": false
   },
   {
    "name": "Michael Wilson",
    "pos": "WR",
-   "expected": 12.36,
+   "expected": 12.24,
    "injury_status": null,
    "baseline_only": false
   },
@@ -74,20 +74,20 @@
   {
    "name": "JAX DEF",
    "pos": "DEF",
-   "expected": 9.47,
+   "expected": 9.54,
    "injury_status": null,
    "baseline_only": false
   }
  ],
- "median_total": 97.3,
+ "median_total": 97.4,
  "median_verdict": "favored",
- "median_margin": 6.3,
+ "median_margin": 6.0,
  "source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-10-10T23:13:49Z",
-  "label": "sat_pm"
+  "taken_at_utc": "2026-10-11T12:03:32Z",
+  "label": "sun_early"
  },
  "opp_baseline_only": 0,
- "why": "Your recommended lineup projects 103.6; Girthenheimer's set lineup 86.8 (best possible from their roster 87.7). Margin +16.8: favored.",
+ "why": "Your recommended lineup projects 103.4; Girthenheimer's set lineup 86.6 (best possible from their roster 87.9). Margin +16.8: favored.",
  "note": "Both sides use the engine blend (0.65 x Sleeper + 0.35 x baseline, injury multipliers), so the totals are comparable. Inside +/-5 points the game is called a toss-up [Guessing]. Your own lineup still follows max expected points; the matchup does not change who you start."
 }

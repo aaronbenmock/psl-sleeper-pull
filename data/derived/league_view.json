@@ -46,7 +46,7 @@
    "efficiency": 0.96,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 116.54,
+   "proj_next": 116.37,
    "future_opps": [
     11,
     5,
@@ -101,7 +101,7 @@
    "trend": -12.9,
    "trend_label": "falling",
    "sos_remaining": 99.25,
-   "power": 127.6,
+   "power": 127.5,
    "power_rank": 1,
    "pf_rank": 1
   },
@@ -155,7 +155,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 100.09,
+   "proj_next": 100.25,
    "future_opps": [
     7,
     4,
@@ -210,7 +210,7 @@
    "trend": -5.9,
    "trend_label": "falling",
    "sos_remaining": 102.09,
-   "power": 111.8,
+   "power": 111.9,
    "power_rank": 2,
    "pf_rank": 2
   },
@@ -258,7 +258,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 103.57,
+   "proj_next": 103.1,
    "future_opps": [
     5,
     9,
@@ -313,7 +313,7 @@
    "trend": 0.4,
    "trend_label": "flat",
    "sos_remaining": 99.5,
-   "power": 110.2,
+   "power": 110.0,
    "power_rank": 3,
    "pf_rank": 4
   },
@@ -367,7 +367,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 117.07,
+   "proj_next": 116.58,
    "future_opps": [
     12,
     2,
@@ -422,7 +422,7 @@
    "trend": 11.2,
    "trend_label": "rising",
    "sos_remaining": 101.09,
-   "power": 109.7,
+   "power": 109.5,
    "power_rank": 4,
    "pf_rank": 7
   },
@@ -463,7 +463,7 @@
    "efficiency": 0.85,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 100.44,
+   "proj_next": 100.19,
    "future_opps": [
     9,
     6,
@@ -518,7 +518,7 @@
    "trend": -8.1,
    "trend_label": "falling",
    "sos_remaining": 102.84,
-   "power": 107.0,
+   "power": 106.8,
    "power_rank": 5,
    "pf_rank": 5
   },
@@ -559,7 +559,7 @@
    "efficiency": 0.93,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 100.27,
+   "proj_next": 100.34,
    "future_opps": [
     2,
     11,
@@ -662,7 +662,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 110.86,
+   "proj_next": 110.62,
    "future_opps": [
     4,
     8,
@@ -717,7 +717,7 @@
    "trend": 4.0,
    "trend_label": "rising",
    "sos_remaining": 104.36,
-   "power": 103.0,
+   "power": 102.9,
    "power_rank": 7,
    "pf_rank": 8
   },
@@ -761,7 +761,7 @@
     "Bryce Young",
     "Chuba Hubbard"
    ],
-   "proj_next": 74.74,
+   "proj_next": 74.75,
    "future_opps": [
     3,
     1,
@@ -857,7 +857,7 @@
    "efficiency": 0.89,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 99.18,
+   "proj_next": 99.53,
    "future_opps": [
     6,
     12,
@@ -912,7 +912,7 @@
    "trend": 11.2,
    "trend_label": "rising",
    "sos_remaining": 104.86,
-   "power": 95.8,
+   "power": 95.9,
    "power_rank": 9,
    "pf_rank": 10
   },
@@ -960,7 +960,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 89.58,
+   "proj_next": 89.26,
    "future_opps": [
     8,
     10,
@@ -1015,7 +1015,7 @@
    "trend": -18.6,
    "trend_label": "falling",
    "sos_remaining": 107.57,
-   "power": 92.4,
+   "power": 92.2,
    "power_rank": 10,
    "pf_rank": 9
   },
@@ -1063,7 +1063,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 95.79,
+   "proj_next": 95.95,
    "future_opps": [
     10,
     3,
@@ -1118,7 +1118,7 @@
    "trend": -14.6,
    "trend_label": "falling",
    "sos_remaining": 108.81,
-   "power": 84.0,
+   "power": 84.1,
    "power_rank": 11,
    "pf_rank": 11
   },
@@ -1341,7 +1341,7 @@
  ],
  "projection_source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-10-10T23:13:49Z",
-  "label": "sat_pm"
+  "taken_at_utc": "2026-10-11T12:03:32Z",
+  "label": "sun_early"
  }
 }
