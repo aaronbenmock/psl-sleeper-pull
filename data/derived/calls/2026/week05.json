@@ -2,7 +2,7 @@
  "week": 5,
  "first_recorded_utc": "2026-10-07T16:06:40Z",
  "source": "live build",
- "updated_utc": "2026-10-11T16:42:34Z",
+ "updated_utc": "2026-10-11T23:14:52Z",
  "start_sit": [
   {
    "type": "start_sit",
@@ -26,7 +26,9 @@
    "alt_name": "Harold Fannin",
    "expected": 9.8,
    "alt_expected": 8.78,
-   "started": false
+   "started": true,
+   "frozen": true,
+   "frozen_at_utc": "2026-10-11T16:42:34Z"
   },
   {
    "type": "start_sit",
@@ -37,7 +39,9 @@
    "alt_name": "Harold Fannin",
    "expected": 9.04,
    "alt_expected": 8.78,
-   "started": false
+   "started": true,
+   "frozen": true,
+   "frozen_at_utc": "2026-10-11T16:42:34Z"
   },
   {
    "type": "start_sit",
@@ -48,7 +52,9 @@
    "alt_name": "Woody Marks",
    "expected": 9.04,
    "alt_expected": 8.21,
-   "started": false
+   "started": true,
+   "frozen": true,
+   "frozen_at_utc": "2026-10-11T16:42:34Z"
   }
  ],
  "lineup": [
@@ -65,16 +71,18 @@
    "player_id": "6813",
    "name": "Jonathan Taylor",
    "expected": 17.93,
-   "started": false,
-   "frozen": false
+   "started": true,
+   "frozen": true,
+   "frozen_at_utc": "2026-10-11T16:42:34Z"
   },
   {
    "slot": "RB",
    "player_id": "12495",
    "name": "Ollie Gordon",
    "expected": 9.75,
-   "started": false,
-   "frozen": false
+   "started": true,
+   "frozen": true,
+   "frozen_at_utc": "2026-10-11T16:42:34Z"
   },
   {
    "slot": "WR",
@@ -89,32 +97,36 @@
    "player_id": "5846",
    "name": "DK Metcalf",
    "expected": 10.34,
-   "started": false,
-   "frozen": false
+   "started": true,
+   "frozen": true,
+   "frozen_at_utc": "2026-10-11T16:42:34Z"
   },
   {
    "slot": "FLEX",
    "player_id": "5872",
    "name": "Deebo Samuel",
    "expected": 9.8,
-   "started": false,
-   "frozen": false
+   "started": true,
+   "frozen": true,
+   "frozen_at_utc": "2026-10-11T16:42:34Z"
   },
   {
    "slot": "FLEX",
    "player_id": "13346",
    "name": "Denzel Boston",
    "expected": 9.04,
-   "started": false,
-   "frozen": false
+   "started": true,
+   "frozen": true,
+   "frozen_at_utc": "2026-10-11T16:42:34Z"
   },
   {
    "slot": "DEF",
    "player_id": "SEA",
    "name": "SEA DEF",
    "expected": 8.56,
-   "started": false,
-   "frozen": false
+   "started": true,
+   "frozen": true,
+   "frozen_at_utc": "2026-10-11T16:42:34Z"
   }
  ],
  "claims_freeze_utc": "2026-10-08T07:00:00Z",

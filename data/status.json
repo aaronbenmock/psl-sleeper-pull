@@ -3,9 +3,9 @@
   "build": {
    "task": "build",
    "ok": true,
-   "summary": "index.html + reports/2026/week05.html; lineup changes 0, claims 2, signals 16, accuracy weeks 4",
-   "started_utc": "2026-10-11T16:42:34Z",
-   "finished_utc": "2026-10-11T16:42:35Z",
+   "summary": "index.html + reports/2026/week05.html; lineup changes 1, claims 2, signals 16, accuracy weeks 4",
+   "started_utc": "2026-10-11T23:14:52Z",
+   "finished_utc": "2026-10-11T23:14:53Z",
    "error": null
   },
   "pull": {
@@ -29,12 +29,12 @@
   "snapshot": {
    "task": "snapshot",
    "ok": true,
-   "summary": "week 5 sun_late_am: 3147 projections, 4 NFL teams already started, 3044 players still pre-kickoff",
-   "started_utc": "2026-10-11T15:38:35Z",
-   "finished_utc": "2026-10-11T15:38:36Z",
+   "summary": "week 5 sun_pm: 3147 projections, 26 NFL teams already started, 2432 players still pre-kickoff",
+   "started_utc": "2026-10-11T23:14:51Z",
+   "finished_utc": "2026-10-11T23:14:52Z",
    "error": null,
    "week": 5,
-   "label": "sun_late_am"
+   "label": "sun_pm"
   },
   "auto-skip": {
    "task": "auto-skip",
@@ -54,22 +54,6 @@
   }
  },
  "runs": [
-  {
-   "task": "build",
-   "ok": false,
-   "summary": "failed: build completed with section errors: lineup: 'why'",
-   "started_utc": "2026-09-25T23:13:41Z",
-   "finished_utc": "2026-09-25T23:13:41Z",
-   "error": "Traceback (most recent call last):\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine.py\", line 36, in _run_task\n    fn(**kw)\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine/build.py\", line 87, in run\n    raise RuntimeError(\"build completed with section errors: \" + \"; \".join(errors))\nRuntimeError: build completed with section errors: lineup: 'why'\n"
-  },
-  {
-   "task": "auto-skip",
-   "ok": true,
-   "summary": "skipped at 2026-09-25T19:09:50-05:00",
-   "started_utc": "2026-09-26T00:09:50Z",
-   "finished_utc": "2026-09-26T00:09:50Z",
-   "error": null
-  },
   {
    "task": "build",
    "ok": false,
@@ -1737,14 +1721,32 @@
    "started_utc": "2026-10-11T16:42:34Z",
    "finished_utc": "2026-10-11T16:42:35Z",
    "error": null
+  },
+  {
+   "task": "snapshot",
+   "ok": true,
+   "summary": "week 5 sun_pm: 3147 projections, 26 NFL teams already started, 2432 players still pre-kickoff",
+   "started_utc": "2026-10-11T23:14:51Z",
+   "finished_utc": "2026-10-11T23:14:52Z",
+   "error": null,
+   "week": 5,
+   "label": "sun_pm"
+  },
+  {
+   "task": "build",
+   "ok": true,
+   "summary": "index.html + reports/2026/week05.html; lineup changes 1, claims 2, signals 16, accuracy weeks 4",
+   "started_utc": "2026-10-11T23:14:52Z",
+   "finished_utc": "2026-10-11T23:14:53Z",
+   "error": null
   }
  ],
  "last_run": {
   "task": "build",
   "ok": true,
-  "summary": "index.html + reports/2026/week05.html; lineup changes 0, claims 2, signals 16, accuracy weeks 4",
-  "started_utc": "2026-10-11T16:42:34Z",
-  "finished_utc": "2026-10-11T16:42:35Z",
+  "summary": "index.html + reports/2026/week05.html; lineup changes 1, claims 2, signals 16, accuracy weeks 4",
+  "started_utc": "2026-10-11T23:14:52Z",
+  "finished_utc": "2026-10-11T23:14:53Z",
   "error": null
  }
 }
