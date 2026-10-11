@@ -2,7 +2,7 @@
  "week": 5,
  "first_recorded_utc": "2026-10-07T16:06:40Z",
  "source": "live build",
- "updated_utc": "2026-10-11T12:03:32Z",
+ "updated_utc": "2026-10-11T12:46:03Z",
  "start_sit": [
   {
    "type": "start_sit",
@@ -56,7 +56,7 @@
    "alt_id": "7021",
    "alt_name": "Rico Dowdle",
    "expected": 9.14,
-   "alt_expected": 7.8,
+   "alt_expected": 7.84,
    "started": false
   },
   {
@@ -84,7 +84,7 @@
    "slot": "RB",
    "player_id": "6813",
    "name": "Jonathan Taylor",
-   "expected": 17.78,
+   "expected": 17.73,
    "started": false,
    "frozen": false
   },
@@ -108,7 +108,7 @@
    "slot": "WR",
    "player_id": "5846",
    "name": "DK Metcalf",
-   "expected": 10.45,
+   "expected": 10.48,
    "started": false,
    "frozen": false
   },
