@@ -4,8 +4,8 @@
    "task": "build",
    "ok": true,
    "summary": "index.html + reports/2026/week05.html; lineup changes 1, claims 2, signals 16, accuracy weeks 4",
-   "started_utc": "2026-10-11T23:14:52Z",
-   "finished_utc": "2026-10-11T23:14:53Z",
+   "started_utc": "2026-10-12T00:12:58Z",
+   "finished_utc": "2026-10-12T00:12:59Z",
    "error": null
   },
   "pull": {
@@ -39,9 +39,9 @@
   "auto-skip": {
    "task": "auto-skip",
    "ok": true,
-   "summary": "skipped at 2026-10-11T11:42:34-05:00",
-   "started_utc": "2026-10-11T16:42:34Z",
-   "finished_utc": "2026-10-11T16:42:34Z",
+   "summary": "skipped at 2026-10-11T19:12:58-05:00",
+   "started_utc": "2026-10-12T00:12:58Z",
+   "finished_utc": "2026-10-12T00:12:58Z",
    "error": null
   },
   "usage": {
@@ -54,22 +54,6 @@
   }
  },
  "runs": [
-  {
-   "task": "build",
-   "ok": false,
-   "summary": "index.html + reports/2026/week03.html; lineup changes 0, claims 0, signals 14, accuracy weeks 2; ERRORS: [\"lineup: 'why'\"]",
-   "started_utc": "2026-09-26T00:09:50Z",
-   "finished_utc": "2026-09-26T00:09:50Z",
-   "error": "lineup: 'why'"
-  },
-  {
-   "task": "build",
-   "ok": false,
-   "summary": "failed: build completed with section errors: lineup: 'why'",
-   "started_utc": "2026-09-26T00:09:50Z",
-   "finished_utc": "2026-09-26T00:09:50Z",
-   "error": "Traceback (most recent call last):\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine.py\", line 36, in _run_task\n    fn(**kw)\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine/build.py\", line 87, in run\n    raise RuntimeError(\"build completed with section errors: \" + \"; \".join(errors))\nRuntimeError: build completed with section errors: lineup: 'why'\n"
-  },
   {
    "task": "injuries",
    "ok": true,
@@ -1739,14 +1723,30 @@
    "started_utc": "2026-10-11T23:14:52Z",
    "finished_utc": "2026-10-11T23:14:53Z",
    "error": null
+  },
+  {
+   "task": "auto-skip",
+   "ok": true,
+   "summary": "skipped at 2026-10-11T19:12:58-05:00",
+   "started_utc": "2026-10-12T00:12:58Z",
+   "finished_utc": "2026-10-12T00:12:58Z",
+   "error": null
+  },
+  {
+   "task": "build",
+   "ok": true,
+   "summary": "index.html + reports/2026/week05.html; lineup changes 1, claims 2, signals 16, accuracy weeks 4",
+   "started_utc": "2026-10-12T00:12:58Z",
+   "finished_utc": "2026-10-12T00:12:59Z",
+   "error": null
   }
  ],
  "last_run": {
   "task": "build",
   "ok": true,
   "summary": "index.html + reports/2026/week05.html; lineup changes 1, claims 2, signals 16, accuracy weeks 4",
-  "started_utc": "2026-10-11T23:14:52Z",
-  "finished_utc": "2026-10-11T23:14:53Z",
+  "started_utc": "2026-10-12T00:12:58Z",
+  "finished_utc": "2026-10-12T00:12:59Z",
   "error": null
  }
 }
