@@ -355,7 +355,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 117.62,
+   "proj_next": 117.8,
    "future_opps": [
     12,
     2,
@@ -410,7 +410,7 @@
    "trend": 11.2,
    "trend_label": "rising",
    "sos_remaining": 101.09,
-   "power": 109.9,
+   "power": 110.0,
    "power_rank": 4,
    "pf_rank": 7
   },
@@ -464,7 +464,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 99.99,
+   "proj_next": 100.58,
    "future_opps": [
     9,
     6,
@@ -519,7 +519,7 @@
    "trend": -8.1,
    "trend_label": "falling",
    "sos_remaining": 102.84,
-   "power": 106.8,
+   "power": 107.0,
    "power_rank": 5,
    "pf_rank": 5
   },
@@ -762,7 +762,7 @@
     "Bryce Young",
     "Chuba Hubbard"
    ],
-   "proj_next": 74.75,
+   "proj_next": 75.34,
    "future_opps": [
     3,
     1,
@@ -817,7 +817,7 @@
    "trend": 9.3,
    "trend_label": "rising",
    "sos_remaining": 102.7,
-   "power": 98.7,
+   "power": 98.9,
    "power_rank": 8,
    "pf_rank": 3
   },
@@ -858,7 +858,7 @@
    "efficiency": 0.89,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 99.69,
+   "proj_next": 100.04,
    "future_opps": [
     6,
     12,
@@ -913,7 +913,7 @@
    "trend": 11.2,
    "trend_label": "rising",
    "sos_remaining": 104.86,
-   "power": 96.0,
+   "power": 96.1,
    "power_rank": 9,
    "pf_rank": 10
   },
@@ -1329,7 +1329,7 @@
  ],
  "projection_source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-10-12T15:43:18Z",
-  "label": "mon_late_am"
+  "taken_at_utc": "2026-10-12T23:16:06Z",
+  "label": "mon_pm"
  }
 }
