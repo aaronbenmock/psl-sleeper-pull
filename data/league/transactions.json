@@ -1,5 +1,5 @@
 {
- "pulled_at_utc": "2026-10-11T11:09:50Z",
+ "pulled_at_utc": "2026-10-12T11:13:46Z",
  "by_week": {
   "1": [
    {
@@ -2970,6 +2970,44 @@
     "status_updated": 1791577901369,
     "leg": 5,
     "creator": "305158753748004864",
+    "metadata": null
+   },
+   {
+    "transaction_id": "1414996098656833536",
+    "type": "free_agent",
+    "status": "complete",
+    "roster_ids": [
+     3
+    ],
+    "adds": {
+     "4454": 3
+    },
+    "drops": {
+     "8134": 3
+    },
+    "settings": null,
+    "created": 1791723868577,
+    "status_updated": 1791723868577,
+    "leg": 5,
+    "creator": "302953456358920192",
+    "metadata": null
+   },
+   {
+    "transaction_id": "1415042443384033280",
+    "type": "free_agent",
+    "status": "complete",
+    "roster_ids": [
+     12
+    ],
+    "adds": {
+     "12509": 12
+    },
+    "drops": null,
+    "settings": null,
+    "created": 1791734918021,
+    "status_updated": 1791734918021,
+    "leg": 5,
+    "creator": "845806173256011776",
     "metadata": null
    }
   ],

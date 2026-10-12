@@ -1,5 +1,5 @@
 {
- "pulled_at_utc": "2026-10-11T11:09:50Z",
+ "pulled_at_utc": "2026-10-12T11:13:46Z",
  "rosters": [
   {
    "co_owners": [
@@ -191,6 +191,7 @@
     "p_nick_6886": "Chevy Chase",
     "p_nick_4147": "Nicki Samaj",
     "p_nick_BUF": "B-Lo Average",
+    "p_nick_11577": "reaped",
     "p_nick_4988": "FULL CHUBB",
     "p_nick_7526": "Lightning in a Waddle",
     "p_nick_7561": "Smelijah 1",
@@ -630,10 +631,10 @@
     "4034",
     "4037",
     "4199",
+    "4454",
     "4881",
     "4943",
     "8130",
-    "8134",
     "8144",
     "9488",
     "HOU"
@@ -674,6 +675,7 @@
    "keepers": null,
    "league_id": "1318619274968829952",
    "metadata": {
+    "p_nick_12545": "Aww Shoughs",
     "record": "WLLLWWWL",
     "p_nick_6904": "Tush Pushin\u2019 \ud83d\udc51",
     "p_nick_12474": "Tuddy Marks",
@@ -1158,7 +1160,7 @@
     "7611",
     "6786",
     "11632",
-    "10859",
+    "2216",
     "9493",
     "CLE"
    ],
@@ -1731,6 +1733,7 @@
    "players": [
     "11584",
     "11631",
+    "12509",
     "13301",
     "13414",
     "3163",
@@ -1744,7 +1747,9 @@
     "9756",
     "NYJ"
    ],
-   "reserve": null,
+   "reserve": [
+    "9756"
+   ],
    "roster_id": 12,
    "settings": {
     "fpts": 478,
@@ -1766,8 +1771,8 @@
     "11584",
     "7547",
     "6801",
-    "9756",
-    "8676",
+    "13301",
+    "12509",
     "NYJ"
    ],
    "taxi": null

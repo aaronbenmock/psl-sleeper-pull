@@ -44,7 +44,14 @@
     3.5
    ],
    "efficiency": 0.96,
-   "injured_starters": [],
+   "injured_starters": [
+    {
+     "name": "Aaron Jones",
+     "pos": "RB",
+     "status": "Questionable",
+     "body": "Leg"
+    }
+   ],
    "byes_next": [],
    "proj_next": 118.21,
    "future_opps": [
@@ -106,6 +113,109 @@
    "pf_rank": 1
   },
   {
+   "roster_id": 12,
+   "team": "Baker\u2019s Dozen",
+   "manager": "juicyjuicy100",
+   "is_mine": false,
+   "wins": 7,
+   "losses": 1,
+   "ties": 0,
+   "h2h": "4-0",
+   "median": "3-1",
+   "allplay": "31-13",
+   "allplay_pct": 0.705,
+   "scores": [
+    128.5,
+    133.16,
+    95.54,
+    121.5
+   ],
+   "avg": 119.67,
+   "last": 121.5,
+   "pf": 478.7,
+   "proj_totals": [
+    105.33,
+    102.62,
+    109.61,
+    110.07
+   ],
+   "vs_proj": 51.07,
+   "bench_left": [
+    14.54,
+    5.1,
+    14.12,
+    14.43
+   ],
+   "efficiency": 0.91,
+   "injured_starters": [
+    {
+     "name": "Tre' Harris",
+     "pos": "WR",
+     "status": "Questionable",
+     "body": "Hamstring"
+    }
+   ],
+   "byes_next": [],
+   "proj_next": 103.11,
+   "future_opps": [
+    7,
+    4,
+    8,
+    10,
+    3,
+    1,
+    2,
+    11,
+    5,
+    9,
+    6,
+    7,
+    4,
+    8
+   ],
+   "faab_used": 0,
+   "starters_now": [
+    {
+     "name": "Jared Goff",
+     "pos": "QB"
+    },
+    {
+     "name": "Tony Pollard",
+     "pos": "RB"
+    },
+    {
+     "name": "Bucky Irving",
+     "pos": "RB"
+    },
+    {
+     "name": "Amon-Ra St. Brown",
+     "pos": "WR"
+    },
+    {
+     "name": "Tee Higgins",
+     "pos": "WR"
+    },
+    {
+     "name": "Antonio Williams",
+     "pos": "WR"
+    },
+    {
+     "name": "Tre' Harris",
+     "pos": "WR"
+    },
+    {
+     "name": "NYJ DEF",
+     "pos": "DEF"
+    }
+   ],
+   "trend": -5.9,
+   "trend_label": "falling",
+   "sos_remaining": 102.09,
+   "power": 113.0,
+   "power_rank": 2,
+   "pf_rank": 2
+  },
+  {
    "roster_id": 10,
    "team": "Derrelick my Balls",
    "manager": "dlamas",
@@ -140,14 +250,7 @@
     28.8
    ],
    "efficiency": 0.82,
-   "injured_starters": [
-    {
-     "name": "Terry McLaurin",
-     "pos": "WR",
-     "status": "Questionable",
-     "body": "Hamstring"
-    }
-   ],
+   "injured_starters": [],
    "byes_next": [],
    "proj_next": 104.38,
    "future_opps": [
@@ -205,7 +308,7 @@
    "trend_label": "flat",
    "sos_remaining": 99.5,
    "power": 110.5,
-   "power_rank": 2,
+   "power_rank": 3,
    "pf_rank": 4
   },
   {
@@ -245,12 +348,6 @@
    "efficiency": 0.88,
    "injured_starters": [
     {
-     "name": "Rhamondre Stevenson",
-     "pos": "RB",
-     "status": "Questionable",
-     "body": "Undisclosed"
-    },
-    {
      "name": "CeeDee Lamb",
      "pos": "WR",
      "status": "Questionable",
@@ -258,7 +355,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 116.93,
+   "proj_next": 117.62,
    "future_opps": [
     12,
     2,
@@ -298,8 +395,8 @@
      "pos": "WR"
     },
     {
-     "name": "Sam LaPorta",
-     "pos": "TE"
+     "name": "Mike Evans",
+     "pos": "WR"
     },
     {
      "name": "Puka Nacua",
@@ -313,118 +410,9 @@
    "trend": 11.2,
    "trend_label": "rising",
    "sos_remaining": 101.09,
-   "power": 109.6,
-   "power_rank": 3,
-   "pf_rank": 7
-  },
-  {
-   "roster_id": 12,
-   "team": "Baker\u2019s Dozen",
-   "manager": "juicyjuicy100",
-   "is_mine": false,
-   "wins": 7,
-   "losses": 1,
-   "ties": 0,
-   "h2h": "4-0",
-   "median": "3-1",
-   "allplay": "31-13",
-   "allplay_pct": 0.705,
-   "scores": [
-    128.5,
-    133.16,
-    95.54,
-    121.5
-   ],
-   "avg": 119.67,
-   "last": 121.5,
-   "pf": 478.7,
-   "proj_totals": [
-    105.33,
-    102.62,
-    109.61,
-    110.07
-   ],
-   "vs_proj": 51.07,
-   "bench_left": [
-    14.54,
-    5.1,
-    14.12,
-    14.43
-   ],
-   "efficiency": 0.91,
-   "injured_starters": [
-    {
-     "name": "Tee Higgins",
-     "pos": "WR",
-     "status": "Questionable",
-     "body": "Groin"
-    },
-    {
-     "name": "Jordan Addison",
-     "pos": "WR",
-     "status": "Questionable",
-     "body": "Hamstring"
-    }
-   ],
-   "byes_next": [],
-   "proj_next": 94.31,
-   "future_opps": [
-    7,
-    4,
-    8,
-    10,
-    3,
-    1,
-    2,
-    11,
-    5,
-    9,
-    6,
-    7,
-    4,
-    8
-   ],
-   "faab_used": 0,
-   "starters_now": [
-    {
-     "name": "Jared Goff",
-     "pos": "QB"
-    },
-    {
-     "name": "Tony Pollard",
-     "pos": "RB"
-    },
-    {
-     "name": "Bucky Irving",
-     "pos": "RB"
-    },
-    {
-     "name": "Amon-Ra St. Brown",
-     "pos": "WR"
-    },
-    {
-     "name": "Tee Higgins",
-     "pos": "WR"
-    },
-    {
-     "name": "Jordan Addison",
-     "pos": "WR"
-    },
-    {
-     "name": "Rashid Shaheed",
-     "pos": "WR"
-    },
-    {
-     "name": "NYJ DEF",
-     "pos": "DEF"
-    }
-   ],
-   "trend": -5.9,
-   "trend_label": "falling",
-   "sos_remaining": 102.09,
-   "power": 109.5,
+   "power": 109.9,
    "power_rank": 4,
-   "pf_rank": 2
+   "pf_rank": 7
   },
   {
    "roster_id": 8,
@@ -461,7 +449,20 @@
     30.85
    ],
    "efficiency": 0.85,
-   "injured_starters": [],
+   "injured_starters": [
+    {
+     "name": "Ollie Gordon",
+     "pos": "RB",
+     "status": "Questionable",
+     "body": "Undisclosed"
+    },
+    {
+     "name": "Deebo Samuel",
+     "pos": "WR",
+     "status": "Out",
+     "body": "Hamstring"
+    }
+   ],
    "byes_next": [],
    "proj_next": 99.99,
    "future_opps": [
@@ -557,7 +558,14 @@
     15.6
    ],
    "efficiency": 0.93,
-   "injured_starters": [],
+   "injured_starters": [
+    {
+     "name": "Quinshon Judkins",
+     "pos": "RB",
+     "status": "Questionable",
+     "body": "Lower Leg"
+    }
+   ],
    "byes_next": [],
    "proj_next": 100.65,
    "future_opps": [
@@ -653,14 +661,7 @@
     5.3
    ],
    "efficiency": 0.86,
-   "injured_starters": [
-    {
-     "name": "Ja'Marr Chase",
-     "pos": "WR",
-     "status": "Questionable",
-     "body": "Concussion"
-    }
-   ],
+   "injured_starters": [],
    "byes_next": [],
    "proj_next": 111.1,
    "future_opps": [
@@ -951,14 +952,7 @@
     26.5
    ],
    "efficiency": 0.79,
-   "injured_starters": [
-    {
-     "name": "Zay Flowers",
-     "pos": "WR",
-     "status": "Questionable",
-     "body": "Hamstring"
-    }
-   ],
+   "injured_starters": [],
    "byes_next": [],
    "proj_next": 90.38,
    "future_opps": [
@@ -1056,10 +1050,16 @@
    "efficiency": 0.79,
    "injured_starters": [
     {
-     "name": "Justin Jefferson",
+     "name": "David Montgomery",
+     "pos": "RB",
+     "status": "Out",
+     "body": "Groin"
+    },
+    {
+     "name": "KC Concepcion",
      "pos": "WR",
-     "status": "Questionable",
-     "body": "Ankle"
+     "status": "Out",
+     "body": "Concussion"
     }
    ],
    "byes_next": [],
@@ -1159,22 +1159,10 @@
    "efficiency": 0.79,
    "injured_starters": [
     {
-     "name": "Alvin Kamara",
-     "pos": "RB",
-     "status": "Questionable",
-     "body": "Back"
-    },
-    {
-     "name": "Carnell Tate",
-     "pos": "WR",
-     "status": "Questionable",
-     "body": "Back"
-    },
-    {
-     "name": "Jaylen Wright",
-     "pos": "RB",
-     "status": "Questionable",
-     "body": "Foot"
+     "name": "Kenyon Sadiq",
+     "pos": "TE",
+     "status": "Out",
+     "body": "Concussion"
     }
    ],
    "byes_next": [],
@@ -1240,22 +1228,16 @@
  ],
  "signals": [
   {
-   "team": "Baker\u2019s Dozen",
-   "kind": "injured_starters",
-   "severity": "high",
-   "text": "Baker\u2019s Dozen is the #2 scorer at 119.67 a week but has 2 of 8 starters carrying injury tags: Tee Higgins Questionable (Groin), Jordan Addison Questionable (Hamstring)."
-  },
-  {
-   "team": "Amateur Hour",
+   "team": "ValKilmersComeback",
    "kind": "injured_starters",
    "severity": "medium",
-   "text": "Amateur Hour has 3 of 8 starters carrying injury tags: Alvin Kamara Questionable (Back), Carnell Tate Questionable (Back), Jaylen Wright Questionable (Foot)."
+   "text": "ValKilmersComeback (you) has 2 of 8 starters carrying injury tags: Ollie Gordon Questionable (Undisclosed), Deebo Samuel Out (Hamstring)."
   },
   {
-   "team": "Cheeky Nando\u2019s",
+   "team": "Eazy E Squad",
    "kind": "injured_starters",
    "severity": "medium",
-   "text": "Cheeky Nando\u2019s has 2 of 8 starters carrying injury tags: Rhamondre Stevenson Questionable (Undisclosed), CeeDee Lamb Questionable (Quadriceps)."
+   "text": "Eazy E Squad has 2 of 8 starters carrying injury tags: David Montgomery Out (Groin), KC Concepcion Out (Concussion)."
   },
   {
    "team": "RafiBomb",
@@ -1283,9 +1265,21 @@
   },
   {
    "team": "Baker\u2019s Dozen",
+   "kind": "injured_starter",
+   "severity": "low",
+   "text": "Baker\u2019s Dozen (#2 scorer) has Tre' Harris listed Questionable."
+  },
+  {
+   "team": "Baker\u2019s Dozen",
    "kind": "lucky",
    "severity": "low",
    "text": "Baker\u2019s Dozen is 7-1 but would be about 5.6-2.4 against the whole league each week (all-play 31-13). Record flatters the roster."
+  },
+  {
+   "team": "Be Safe, Get Jaxcinated",
+   "kind": "injured_starter",
+   "severity": "low",
+   "text": "Be Safe, Get Jaxcinated (#1 scorer) has Aaron Jones listed Questionable."
   },
   {
    "team": "Be Safe, Get Jaxcinated",
@@ -1328,12 +1322,6 @@
    "kind": "vs_projection",
    "severity": "low",
    "text": "Eazy E Squad has missed Sleeper's starter projections by 27 points a week over 4 weeks."
-  },
-  {
-   "team": "RafiBomb",
-   "kind": "lucky",
-   "severity": "low",
-   "text": "RafiBomb is 6-2 but would be about 4.7-3.3 against the whole league each week (all-play 26-18). Record flatters the roster."
   }
  ],
  "notes": [
