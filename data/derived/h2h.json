@@ -6,10 +6,10 @@
  "manager": "Breadsticks310",
  "roster_id": 9,
  "my_total": 101.5,
- "opp_set_total": 88.6,
- "opp_best_total": 89.8,
+ "opp_set_total": 89.5,
+ "opp_best_total": 90.8,
  "verdict": "favored",
- "margin": 12.9,
+ "margin": 12.0,
  "verdict_vs_best": "favored",
  "opp_injured": [],
  "opp_byes": [],
@@ -59,7 +59,7 @@
   {
    "name": "Zay Flowers",
    "pos": "WR",
-   "expected": 12.79,
+   "expected": 13.77,
    "injury_status": null,
    "baseline_only": false
   },
@@ -76,10 +76,10 @@
  "median_margin": 3.0,
  "source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-10-11T23:14:52Z",
-  "label": "sun_pm"
+  "taken_at_utc": "2026-10-12T12:09:36Z",
+  "label": "mon_early"
  },
  "opp_baseline_only": 0,
- "why": "Your recommended lineup projects 101.5; Girthenheimer's set lineup 88.6 (best possible from their roster 89.8). Margin +12.9: favored.",
+ "why": "Your recommended lineup projects 101.5; Girthenheimer's set lineup 89.5 (best possible from their roster 90.8). Margin +12.0: favored.",
  "note": "Both sides use the engine blend (0.65 x Sleeper + 0.35 x baseline, injury multipliers), so the totals are comparable. Inside +/-5 points the game is called a toss-up [Guessing]. Your own lineup still follows max expected points; the matchup does not change who you start."
 }

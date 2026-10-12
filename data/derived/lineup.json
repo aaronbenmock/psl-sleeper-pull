@@ -1,10 +1,10 @@
 {
  "week": 5,
- "generated_at_utc": "2026-10-12T11:13:47Z",
+ "generated_at_utc": "2026-10-12T12:09:36Z",
  "source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-10-11T23:14:52Z",
-  "label": "sun_pm"
+  "taken_at_utc": "2026-10-12T12:09:36Z",
+  "label": "mon_early"
  },
  "lineup": [
   {
@@ -396,7 +396,7 @@
    "sd_wk": 10.357,
    "vor": null,
    "started": true,
-   "actual_so_far": 10.7,
+   "actual_so_far": 10.9,
    "slot": "DEF",
    "why": "Sleeper projects 6.9, season average 10.3 over 4 games, preseason model 13.1. Blended expectation 8.6 vs SF."
   }
@@ -815,7 +815,7 @@
  ],
  "expected_total": 101.5,
  "notes": [
-  "Projections are from the sun_pm snapshot taken Sun Oct 11 06:14 PM Central.",
+  "Projections are from the mon_early snapshot taken Mon Oct 12 07:09 AM Central.",
   "12 of your players have already kicked off this week; their rows show points so far."
  ],
  "warnings": [],
