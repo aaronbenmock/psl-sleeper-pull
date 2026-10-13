@@ -14,8 +14,8 @@
    "team": "Be Safe, Get Jaxcinated",
    "manager": "jnally8",
    "is_mine": false,
-   "wins": 6,
-   "losses": 2,
+   "wins": 7,
+   "losses": 3,
    "ties": 0,
    "h2h": "3-1",
    "median": "3-1",
@@ -50,6 +50,12 @@
      "pos": "RB",
      "status": "Questionable",
      "body": "Leg"
+    },
+    {
+     "name": "Jaxon Smith-Njigba",
+     "pos": "WR",
+     "status": "Questionable",
+     "body": "Ankle"
     }
    ],
    "byes_next": [],
@@ -117,8 +123,8 @@
    "team": "Baker\u2019s Dozen",
    "manager": "juicyjuicy100",
    "is_mine": false,
-   "wins": 7,
-   "losses": 1,
+   "wins": 8,
+   "losses": 2,
    "ties": 0,
    "h2h": "4-0",
    "median": "3-1",
@@ -221,7 +227,7 @@
    "manager": "dlamas",
    "is_mine": false,
    "wins": 5,
-   "losses": 3,
+   "losses": 5,
    "ties": 0,
    "h2h": "2-2",
    "median": "3-1",
@@ -316,7 +322,7 @@
    "team": "Cheeky Nando\u2019s",
    "manager": "aCaps",
    "is_mine": false,
-   "wins": 3,
+   "wins": 5,
    "losses": 5,
    "ties": 0,
    "h2h": "1-3",
@@ -419,8 +425,8 @@
    "team": "ValKilmersComeback",
    "manager": "Mockstar",
    "is_mine": true,
-   "wins": 5,
-   "losses": 3,
+   "wins": 6,
+   "losses": 4,
    "ties": 0,
    "h2h": "3-1",
    "median": "2-2",
@@ -528,8 +534,8 @@
    "team": "tacocats",
    "manager": "ben_g",
    "is_mine": false,
-   "wins": 2,
-   "losses": 6,
+   "wins": 3,
+   "losses": 7,
    "ties": 0,
    "h2h": "0-4",
    "median": "2-2",
@@ -631,7 +637,7 @@
    "team": "ScampDaddy",
    "manager": "marlos9",
    "is_mine": false,
-   "wins": 4,
+   "wins": 6,
    "losses": 4,
    "ties": 0,
    "h2h": "2-2",
@@ -727,7 +733,7 @@
    "team": "RafiBomb",
    "manager": "TheRafiBombb",
    "is_mine": false,
-   "wins": 6,
+   "wins": 8,
    "losses": 2,
    "ties": 0,
    "h2h": "3-1",
@@ -827,7 +833,7 @@
    "manager": "danglish9",
    "is_mine": false,
    "wins": 4,
-   "losses": 4,
+   "losses": 6,
    "ties": 0,
    "h2h": "3-1",
    "median": "1-3",
@@ -923,7 +929,7 @@
    "manager": "Breadsticks310",
    "is_mine": false,
    "wins": 2,
-   "losses": 6,
+   "losses": 8,
    "ties": 0,
    "h2h": "1-3",
    "median": "1-3",
@@ -1018,7 +1024,7 @@
    "team": "Eazy E Squad",
    "manager": "espad",
    "is_mine": false,
-   "wins": 2,
+   "wins": 4,
    "losses": 6,
    "ties": 0,
    "h2h": "1-3",
@@ -1128,7 +1134,7 @@
    "manager": "cjgordon819",
    "is_mine": false,
    "wins": 2,
-   "losses": 6,
+   "losses": 8,
    "ties": 0,
    "h2h": "1-3",
    "median": "1-3",
@@ -1228,6 +1234,12 @@
  ],
  "signals": [
   {
+   "team": "Be Safe, Get Jaxcinated",
+   "kind": "injured_starters",
+   "severity": "high",
+   "text": "Be Safe, Get Jaxcinated is the #1 scorer at 134.91 a week but has 2 of 8 starters carrying injury tags: Aaron Jones Questionable (Leg), Jaxon Smith-Njigba Questionable (Ankle)."
+  },
+  {
    "team": "ValKilmersComeback",
    "kind": "injured_starters",
    "severity": "medium",
@@ -1270,22 +1282,16 @@
    "text": "Baker\u2019s Dozen (#2 scorer) has Tre' Harris listed Questionable."
   },
   {
-   "team": "Baker\u2019s Dozen",
-   "kind": "lucky",
-   "severity": "low",
-   "text": "Baker\u2019s Dozen is 7-1 but would be about 5.6-2.4 against the whole league each week (all-play 31-13). Record flatters the roster."
-  },
-  {
-   "team": "Be Safe, Get Jaxcinated",
-   "kind": "injured_starter",
-   "severity": "low",
-   "text": "Be Safe, Get Jaxcinated (#1 scorer) has Aaron Jones listed Questionable."
-  },
-  {
    "team": "Be Safe, Get Jaxcinated",
    "kind": "cold",
    "severity": "low",
    "text": "Be Safe, Get Jaxcinated scored 106.18 last week, 29 below its average of 134.91."
+  },
+  {
+   "team": "Be Safe, Get Jaxcinated",
+   "kind": "unlucky",
+   "severity": "low",
+   "text": "Be Safe, Get Jaxcinated is 7-3 but would be about 8.4-1.6 against the whole league (all-play 37-7). Better than the record."
   },
   {
    "team": "Be Safe, Get Jaxcinated",
@@ -1300,22 +1306,22 @@
    "text": "Cheeky Nando\u2019s scored 144.42 last week, 40 above its average of 104.74."
   },
   {
-   "team": "Cheeky Nando\u2019s",
+   "team": "Derrelick my Balls",
    "kind": "unlucky",
    "severity": "low",
-   "text": "Cheeky Nando\u2019s is 3-5 but would be about 4.0-4.0 against the whole league (all-play 22-22). Better than the record."
-  },
-  {
-   "team": "City of Champyinz",
-   "kind": "lucky",
-   "severity": "low",
-   "text": "City of Champyinz is 4-4 but would be about 2.9-5.1 against the whole league each week (all-play 16-28). Record flatters the roster."
+   "text": "Derrelick my Balls is 5-5 but would be about 6.4-3.6 against the whole league (all-play 28-16). Better than the record."
   },
   {
    "team": "Derrelick my Balls",
    "kind": "bench_points",
    "severity": "low",
    "text": "Derrelick my Balls left 39 points on the bench in week 4 (lineup efficiency 82%)."
+  },
+  {
+   "team": "Eazy E Squad",
+   "kind": "lucky",
+   "severity": "low",
+   "text": "Eazy E Squad is 4-6 but would be about 2.5-7.5 against the whole league each week (all-play 11-33). Record flatters the roster."
   },
   {
    "team": "Eazy E Squad",

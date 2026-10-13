@@ -1,7 +1,7 @@
 {
  "machine": {
-  "date_central": "2026-10-12",
-  "age_hours": 13.0,
+  "date_central": "2026-10-13",
+  "age_hours": 0.0,
   "my_roster": [
    {
     "player_id": "12495",
@@ -18,12 +18,12 @@
     "news_updated": "2026-10-12",
     "depth_chart_order": 1,
     "history": [
-     "2026-10-07: depth chart order 2 to 1",
      "2026-10-09: news updated 1791208820656 to 1791509447105",
      "2026-10-11: news updated 1791509447105 to 1791639903654",
      "2026-10-12: injury status none to Questionable",
      "2026-10-12: injury body part none to Undisclosed",
-     "2026-10-12: news updated 1791639903654 to 1791765320620"
+     "2026-10-12: news updated 1791639903654 to 1791765320620",
+     "2026-10-13: news updated 1791765320620 to 1791816329623"
     ]
    },
    {
@@ -39,14 +39,14 @@
     "practice_participation": null,
     "practice_description": null,
     "news_updated": "2026-10-12",
-    "depth_chart_order": 2,
+    "depth_chart_order": 8,
     "history": [
-     "2026-10-06: news updated 1791163514713 to 1791228930058",
-     "2026-10-09: news updated 1791228930058 to 1791519948085",
      "2026-10-10: news updated 1791519948085 to 1791628202063",
      "2026-10-12: injury status none to Out",
      "2026-10-12: injury body part none to Hamstring",
-     "2026-10-12: news updated 1791628202063 to 1791783024659"
+     "2026-10-12: news updated 1791628202063 to 1791783024659",
+     "2026-10-13: news updated 1791783024659 to 1791835504733",
+     "2026-10-13: depth chart order 2 to 8"
     ]
    },
    {
@@ -61,15 +61,15 @@
     "injury_notes": "Dislocated",
     "practice_participation": null,
     "practice_description": null,
-    "news_updated": "2026-10-11",
-    "depth_chart_order": 5,
+    "news_updated": "2026-10-12",
+    "depth_chart_order": 4,
     "history": [
-     "2026-10-09: news updated 1791404761663 to 1791490845150",
-     "2026-10-10: news updated 1791490845150 to 1791576956030",
      "2026-10-11: news updated 1791576956030 to 1791639003193",
      "2026-10-12: injury status Questionable to Out",
      "2026-10-12: news updated 1791639003193 to 1791755419123",
-     "2026-10-12: depth chart order 2 to 5"
+     "2026-10-12: depth chart order 2 to 5",
+     "2026-10-13: news updated 1791755419123 to 1791837905002",
+     "2026-10-13: depth chart order 5 to 4"
     ]
    },
    {
@@ -87,12 +87,12 @@
     "news_updated": "2026-10-12",
     "depth_chart_order": 4,
     "history": [
-     "2026-10-07: depth chart order 6 to 5",
      "2026-10-08: news updated 1791225329614 to 1791435637568",
      "2026-10-08: depth chart order 5 to 4",
      "2026-10-09: news updated 1791435637568 to 1791519649794",
      "2026-10-10: news updated 1791519649794 to 1791608460828",
-     "2026-10-12: news updated 1791608460828 to 1791790225819"
+     "2026-10-12: news updated 1791608460828 to 1791790225819",
+     "2026-10-13: news updated 1791790225819 to 1791843304010"
     ]
    },
    {
@@ -127,12 +127,12 @@
     "injury_notes": null,
     "practice_participation": null,
     "practice_description": null,
-    "news_updated": "2026-10-11",
+    "news_updated": "2026-10-13",
     "depth_chart_order": 2,
     "history": [
-     "2026-10-06: news updated 1791148213225 to 1791214520782",
      "2026-10-09: news updated 1791214520782 to 1791519049552",
-     "2026-10-11: news updated 1791519049552 to 1791705011295"
+     "2026-10-11: news updated 1791519049552 to 1791705011295",
+     "2026-10-13: news updated 1791705011295 to 1791886209754"
     ]
    },
    {
@@ -205,10 +205,11 @@
     "injury_notes": null,
     "practice_participation": null,
     "practice_description": null,
-    "news_updated": "2026-10-10",
+    "news_updated": "2026-10-13",
     "depth_chart_order": 1,
     "history": [
-     "2026-10-11: news updated 1791153614390 to 1791662105910"
+     "2026-10-11: news updated 1791153614390 to 1791662105910",
+     "2026-10-13: news updated 1791662105910 to 1791883809452"
     ]
    },
    {
@@ -242,7 +243,6 @@
     "news_updated": "2026-10-12",
     "depth_chart_order": 2,
     "history": [
-     "2026-10-06: news updated 1791173116044 to 1791227129518",
      "2026-10-08: news updated 1791227129518 to 1791386706548",
      "2026-10-11: news updated 1791386706548 to 1791652805916",
      "2026-10-12: news updated 1791652805916 to 1791777324031"
@@ -260,12 +260,12 @@
     "injury_notes": null,
     "practice_participation": null,
     "practice_description": null,
-    "news_updated": "2026-10-12",
+    "news_updated": "2026-10-13",
     "depth_chart_order": 2,
     "history": [
-     "2026-10-06: news updated 1791175216070 to 1791204019865",
      "2026-10-07: news updated 1791204019865 to 1791295544391",
-     "2026-10-12: news updated 1791295544391 to 1791775223210"
+     "2026-10-12: news updated 1791295544391 to 1791775223210",
+     "2026-10-13: news updated 1791775223210 to 1791856205169"
     ]
    },
    {
@@ -283,7 +283,6 @@
     "news_updated": "2026-10-12",
     "depth_chart_order": 1,
     "history": [
-     "2026-10-06: news updated 1791165615535 to 1791206420422",
      "2026-10-07: news updated 1791206420422 to 1791318347091",
      "2026-10-10: news updated 1791318347091 to 1791581156107",
      "2026-10-12: news updated 1791581156107 to 1791765322221"
@@ -304,66 +303,30 @@
     "news_updated": "2026-10-12",
     "depth_chart_order": 2,
     "history": [
-     "2026-10-06: news updated 1791178816986 to 1791248139862",
      "2026-10-11: news updated 1791248139862 to 1791632402425",
-     "2026-10-12: news updated 1791632402425 to 1791779124481"
+     "2026-10-12: news updated 1791632402425 to 1791779124481",
+     "2026-10-13: news updated 1791779124481 to 1791822903604"
     ]
    }
   ],
   "league_changes": [
    {
-    "player_id": "8183",
-    "name": "Brock Purdy",
-    "pos": "QB",
-    "team": "SF",
+    "player_id": "13293",
+    "name": "Ja'Kobi Lane",
+    "pos": "WR",
+    "team": "BAL",
     "roster_id": 1,
     "team_name": "tacocats",
     "is_mine": false,
-    "slot": "QB",
+    "slot": "IR",
     "kind": "changed",
     "fields": {
      "news_updated": {
-      "from": 1791624301268,
-      "to": 1791782725068
+      "from": 1791589557005,
+      "to": 1791833703811
      }
     },
-    "date": "2026-10-12"
-   },
-   {
-    "player_id": "10219",
-    "name": "Chris Rodriguez",
-    "pos": "RB",
-    "team": "JAX",
-    "roster_id": 1,
-    "team_name": "tacocats",
-    "is_mine": false,
-    "slot": "BN",
-    "kind": "changed",
-    "fields": {
-     "news_updated": {
-      "from": 1791642903940,
-      "to": 1791774622854
-     }
-    },
-    "date": "2026-10-12"
-   },
-   {
-    "player_id": "4217",
-    "name": "George Kittle",
-    "pos": "TE",
-    "team": "SF",
-    "roster_id": 1,
-    "team_name": "tacocats",
-    "is_mine": false,
-    "slot": "FLEX",
-    "kind": "changed",
-    "fields": {
-     "news_updated": {
-      "from": 1791629701970,
-      "to": 1791783325233
-     }
-    },
-    "date": "2026-10-12"
+    "date": "2026-10-13"
    },
    {
     "player_id": "9221",
@@ -377,47 +340,29 @@
     "kind": "changed",
     "fields": {
      "news_updated": {
-      "from": 1791592557377,
-      "to": 1791771921697
+      "from": 1791771921697,
+      "to": 1791819029963
      }
     },
-    "date": "2026-10-12"
+    "date": "2026-10-13"
    },
    {
-    "player_id": "9500",
-    "name": "Josh Downs",
+    "player_id": "13281",
+    "name": "Jordyn Tyson",
     "pos": "WR",
-    "team": "IND",
+    "team": "NO",
     "roster_id": 1,
     "team_name": "tacocats",
     "is_mine": false,
-    "slot": "WR",
+    "slot": "IR",
     "kind": "changed",
     "fields": {
      "news_updated": {
-      "from": 1791646504549,
-      "to": 1791765322243
+      "from": 1791251139241,
+      "to": 1791833703118
      }
     },
-    "date": "2026-10-12"
-   },
-   {
-    "player_id": "12504",
-    "name": "Kaleb Johnson",
-    "pos": "RB",
-    "team": "GB",
-    "roster_id": 1,
-    "team_name": "tacocats",
-    "is_mine": false,
-    "slot": "BN",
-    "kind": "changed",
-    "fields": {
-     "news_updated": {
-      "from": 1791589256866,
-      "to": 1791753920744
-     }
-    },
-    "date": "2026-10-12"
+    "date": "2026-10-13"
    },
    {
     "player_id": "11635",
@@ -431,41 +376,19 @@
     "kind": "changed",
     "fields": {
      "injury_status": {
-      "from": "Questionable",
-      "to": null
+      "from": null,
+      "to": "Questionable"
      },
      "injury_body_part": {
-      "from": "Foot",
-      "to": null
+      "from": null,
+      "to": "Foot"
      },
      "news_updated": {
-      "from": 1791650104757,
-      "to": 1791764720625
-     },
-     "depth_chart_order": {
-      "from": 1,
-      "to": 3
+      "from": 1791764720625,
+      "to": 1791846605524
      }
     },
-    "date": "2026-10-12"
-   },
-   {
-    "player_id": "12519",
-    "name": "Luther Burden",
-    "pos": "WR",
-    "team": "CHI",
-    "roster_id": 1,
-    "team_name": "tacocats",
-    "is_mine": false,
-    "slot": "WR",
-    "kind": "changed",
-    "fields": {
-     "news_updated": {
-      "from": 1791612659762,
-      "to": 1791757820455
-     }
-    },
-    "date": "2026-10-12"
+    "date": "2026-10-13"
    },
    {
     "player_id": "12512",
@@ -478,56 +401,12 @@
     "slot": "RB",
     "kind": "changed",
     "fields": {
-     "injury_status": {
-      "from": null,
-      "to": "Questionable"
-     },
-     "injury_body_part": {
-      "from": null,
-      "to": "Lower Leg"
-     },
      "news_updated": {
-      "from": 1791645604194,
-      "to": 1791757820715
+      "from": 1791757820715,
+      "to": 1791830702941
      }
     },
-    "date": "2026-10-12"
-   },
-   {
-    "player_id": "10235",
-    "name": "Roschon Johnson",
-    "pos": "RB",
-    "team": "CHI",
-    "roster_id": 1,
-    "team_name": "tacocats",
-    "is_mine": false,
-    "slot": "BN",
-    "kind": "changed",
-    "fields": {
-     "news_updated": {
-      "from": 1791612059658,
-      "to": 1791756020616
-     }
-    },
-    "date": "2026-10-12"
-   },
-   {
-    "player_id": "9484",
-    "name": "Tucker Kraft",
-    "pos": "TE",
-    "team": "GB",
-    "roster_id": 1,
-    "team_name": "tacocats",
-    "is_mine": false,
-    "slot": "FLEX",
-    "kind": "changed",
-    "fields": {
-     "news_updated": {
-      "from": 1791585956954,
-      "to": 1791759020430
-     }
-    },
-    "date": "2026-10-12"
+    "date": "2026-10-13"
    },
    {
     "player_id": "11577",
@@ -540,38 +419,16 @@
     "slot": "BN",
     "kind": "changed",
     "fields": {
-     "injury_status": {
-      "from": null,
-      "to": "Out"
-     },
-     "injury_body_part": {
-      "from": null,
-      "to": "Foot"
-     },
      "news_updated": {
-      "from": 1791588357450,
-      "to": 1791735017908
+      "from": 1791735017908,
+      "to": 1791820228366
+     },
+     "depth_chart_order": {
+      "from": 1,
+      "to": 5
      }
     },
-    "date": "2026-10-12"
-   },
-   {
-    "player_id": "12481",
-    "name": "Cam Skattebo",
-    "pos": "RB",
-    "team": "NYG",
-    "roster_id": 6,
-    "team_name": "ScampDaddy",
-    "is_mine": false,
-    "slot": "FLEX",
-    "kind": "changed",
-    "fields": {
-     "news_updated": {
-      "from": 1791645904311,
-      "to": 1791771023245
-     }
-    },
-    "date": "2026-10-12"
+    "date": "2026-10-13"
    },
    {
     "player_id": "9224",
@@ -585,11 +442,29 @@
     "kind": "changed",
     "fields": {
      "news_updated": {
-      "from": 1791580556037,
-      "to": 1791759319661
+      "from": 1791759319661,
+      "to": 1791807328375
      }
     },
-    "date": "2026-10-12"
+    "date": "2026-10-13"
+   },
+   {
+    "player_id": "13264",
+    "name": "Dohnte Meyers",
+    "pos": "WR",
+    "team": "CIN",
+    "roster_id": 6,
+    "team_name": "ScampDaddy",
+    "is_mine": false,
+    "slot": "BN",
+    "kind": "changed",
+    "fields": {
+     "news_updated": {
+      "from": 1791583556286,
+      "to": 1791807928599
+     }
+    },
+    "date": "2026-10-13"
    },
    {
     "player_id": "8112",
@@ -603,29 +478,11 @@
     "kind": "changed",
     "fields": {
      "news_updated": {
-      "from": 1791645005463,
-      "to": 1791779123614
+      "from": 1791779123614,
+      "to": 1791814229215
      }
     },
-    "date": "2026-10-12"
-   },
-   {
-    "player_id": "8131",
-    "name": "Isaiah Likely",
-    "pos": "TE",
-    "team": "NYG",
-    "roster_id": 6,
-    "team_name": "ScampDaddy",
-    "is_mine": false,
-    "slot": "FLEX",
-    "kind": "changed",
-    "fields": {
-     "news_updated": {
-      "from": 1791649204472,
-      "to": 1791771023269
-     }
-    },
-    "date": "2026-10-12"
+    "date": "2026-10-13"
    },
    {
     "player_id": "7564",
@@ -638,38 +495,12 @@
     "slot": "WR",
     "kind": "changed",
     "fields": {
-     "injury_status": {
-      "from": "Questionable",
-      "to": null
-     },
-     "injury_body_part": {
-      "from": "Concussion",
-      "to": null
-     },
      "news_updated": {
-      "from": 1791580255915,
-      "to": 1791781223216
+      "from": 1791781223216,
+      "to": 1791807328361
      }
     },
-    "date": "2026-10-12"
-   },
-   {
-    "player_id": "6904",
-    "name": "Jalen Hurts",
-    "pos": "QB",
-    "team": "PHI",
-    "roster_id": 6,
-    "team_name": "ScampDaddy",
-    "is_mine": false,
-    "slot": "BN",
-    "kind": "changed",
-    "fields": {
-     "news_updated": {
-      "from": 1791579355902,
-      "to": 1791746718756
-     }
-    },
-    "date": "2026-10-12"
+    "date": "2026-10-13"
    },
    {
     "player_id": "1479",
@@ -682,20 +513,12 @@
     "slot": "BN",
     "kind": "changed",
     "fields": {
-     "injury_status": {
-      "from": "Questionable",
-      "to": null
-     },
-     "injury_body_part": {
-      "from": "Groin",
-      "to": null
-     },
      "news_updated": {
-      "from": 1791656105315,
-      "to": 1791769523573
+      "from": 1791769523573,
+      "to": 1791862506548
      }
     },
-    "date": "2026-10-12"
+    "date": "2026-10-13"
    },
    {
     "player_id": "1166",
@@ -709,11 +532,11 @@
     "kind": "changed",
     "fields": {
      "news_updated": {
-      "from": 1791583256253,
-      "to": 1791767121726
+      "from": 1791767121726,
+      "to": 1791856505110
      }
     },
-    "date": "2026-10-12"
+    "date": "2026-10-13"
    },
    {
     "player_id": "11630",
@@ -726,74 +549,66 @@
     "slot": "BN",
     "kind": "changed",
     "fields": {
-     "injury_status": {
-      "from": null,
-      "to": "Out"
-     },
-     "injury_body_part": {
-      "from": null,
-      "to": "Finger"
-     },
      "news_updated": {
-      "from": 1791587756819,
-      "to": 1791746117792
+      "from": 1791746117792,
+      "to": 1791834903246
      }
     },
-    "date": "2026-10-12"
+    "date": "2026-10-13"
    },
    {
-    "player_id": "8126",
-    "name": "Wan'Dale Robinson",
-    "pos": "WR",
-    "team": "TEN",
-    "roster_id": 6,
-    "team_name": "ScampDaddy",
+    "player_id": "8154",
+    "name": "Brian Robinson",
+    "pos": "RB",
+    "team": "ATL",
+    "roster_id": 11,
+    "team_name": "RafiBomb",
     "is_mine": false,
     "slot": "BN",
     "kind": "changed",
     "fields": {
      "news_updated": {
-      "from": 1791303345204,
-      "to": 1791780324619
+      "from": 1791648004467,
+      "to": 1791854407400
      }
     },
-    "date": "2026-10-12"
+    "date": "2026-10-13"
    },
    {
-    "player_id": "8167",
-    "name": "Christian Watson",
-    "pos": "WR",
-    "team": "GB",
+    "player_id": "8138",
+    "name": "James Cook",
+    "pos": "RB",
+    "team": "BUF",
     "roster_id": 11,
     "team_name": "RafiBomb",
     "is_mine": false,
-    "slot": "WR",
+    "slot": "RB",
     "kind": "changed",
     "fields": {
      "news_updated": {
-      "from": 1791585656514,
-      "to": 1791758719617
+      "from": 1791662406009,
+      "to": 1791883809434
      }
     },
-    "date": "2026-10-12"
+    "date": "2026-10-13"
    },
    {
-    "player_id": "7526",
-    "name": "Jaylen Waddle",
-    "pos": "WR",
-    "team": "DEN",
+    "player_id": "8150",
+    "name": "Kyren Williams",
+    "pos": "RB",
+    "team": "LAR",
     "roster_id": 11,
     "team_name": "RafiBomb",
     "is_mine": false,
-    "slot": "FLEX",
+    "slot": "RB",
     "kind": "changed",
     "fields": {
      "news_updated": {
-      "from": 1791640203527,
-      "to": 1791777923883
+      "from": 1791704411225,
+      "to": 1791885309399
      }
     },
-    "date": "2026-10-12"
+    "date": "2026-10-13"
    },
    {
     "player_id": "11610",
@@ -807,11 +622,171 @@
     "kind": "changed",
     "fields": {
      "news_updated": {
-      "from": 1791639003196,
-      "to": 1791762920928
+      "from": 1791762920928,
+      "to": 1791816329609
      }
     },
-    "date": "2026-10-12"
+    "date": "2026-10-13"
+   },
+   {
+    "player_id": "421",
+    "name": "Matthew Stafford",
+    "pos": "QB",
+    "team": "LAR",
+    "roster_id": 11,
+    "team_name": "RafiBomb",
+    "is_mine": false,
+    "slot": "BN",
+    "kind": "changed",
+    "fields": {
+     "news_updated": {
+      "from": 1791670207321,
+      "to": 1791885309413
+     }
+    },
+    "date": "2026-10-13"
+   },
+   {
+    "player_id": "5844",
+    "name": "T.J. Hockenson",
+    "pos": "TE",
+    "team": "MIN",
+    "roster_id": 11,
+    "team_name": "RafiBomb",
+    "is_mine": false,
+    "slot": "BN",
+    "kind": "changed",
+    "fields": {
+     "news_updated": {
+      "from": 1791740717460,
+      "to": 1791829803840
+     }
+    },
+    "date": "2026-10-13"
+   },
+   {
+    "player_id": "11560",
+    "name": "Caleb Williams",
+    "pos": "QB",
+    "team": "CHI",
+    "roster_id": 9,
+    "team_name": "Girthenheimer",
+    "is_mine": false,
+    "slot": "BN",
+    "kind": "changed",
+    "fields": {
+     "news_updated": {
+      "from": 1791753019477,
+      "to": 1791818429810
+     }
+    },
+    "date": "2026-10-13"
+   },
+   {
+    "player_id": "4983",
+    "name": "DJ Moore",
+    "pos": "WR",
+    "team": "BUF",
+    "roster_id": 9,
+    "team_name": "Girthenheimer",
+    "is_mine": false,
+    "slot": "BN",
+    "kind": "changed",
+    "fields": {
+     "injury_status": {
+      "from": "Questionable",
+      "to": "Out"
+     },
+     "injury_body_part": {
+      "from": "Undisclosed",
+      "to": "Shoulder - AC Joint"
+     },
+     "injury_notes": {
+      "from": null,
+      "to": "Sprain"
+     },
+     "news_updated": {
+      "from": 1791681909977,
+      "to": 1791846604209
+     },
+     "depth_chart_order": {
+      "from": 1,
+      "to": 5
+     }
+    },
+    "date": "2026-10-13"
+   },
+   {
+    "player_id": "9486",
+    "name": "Dontayvion Wicks",
+    "pos": "WR",
+    "team": "PHI",
+    "roster_id": 9,
+    "team_name": "Girthenheimer",
+    "is_mine": false,
+    "slot": "WR",
+    "kind": "changed",
+    "fields": {
+     "news_updated": {
+      "from": 1791775823233,
+      "to": 1791858605813
+     }
+    },
+    "date": "2026-10-13"
+   },
+   {
+    "player_id": "2306",
+    "name": "Jameis Winston",
+    "pos": "QB",
+    "team": "NYG",
+    "roster_id": 9,
+    "team_name": "Girthenheimer",
+    "is_mine": false,
+    "slot": "BN",
+    "kind": "changed",
+    "fields": {
+     "news_updated": {
+      "from": 1791771923132,
+      "to": 1791860105713
+     }
+    },
+    "date": "2026-10-13"
+   },
+   {
+    "player_id": "9511",
+    "name": "Keaton Mitchell",
+    "pos": "RB",
+    "team": "LAC",
+    "roster_id": 9,
+    "team_name": "Girthenheimer",
+    "is_mine": false,
+    "slot": "RB",
+    "kind": "changed",
+    "fields": {
+     "news_updated": {
+      "from": 1791649804544,
+      "to": 1791853805679
+     }
+    },
+    "date": "2026-10-13"
+   },
+   {
+    "player_id": "10232",
+    "name": "Michael Wilson",
+    "pos": "WR",
+    "team": "ARI",
+    "roster_id": 9,
+    "team_name": "Girthenheimer",
+    "is_mine": false,
+    "slot": "WR",
+    "kind": "changed",
+    "fields": {
+     "news_updated": {
+      "from": 1791768322032,
+      "to": 1791820229849
+     }
+    },
+    "date": "2026-10-13"
    }
   ],
   "n_tracked": 184,
@@ -827,6 +802,6 @@
   "source_key": "desktop-scheduled-task",
   "n_calls": 5,
   "stale": false,
-  "age_days": 4.9
+  "age_days": 5.4
  }
 }
