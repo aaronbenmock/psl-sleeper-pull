@@ -1,6 +1,6 @@
 {
  "week": 5,
- "generated_at_utc": "2026-10-13T12:07:57Z",
+ "generated_at_utc": "2026-10-14T11:24:15Z",
  "source": {
   "kind": "pre-kickoff snapshot",
   "taken_at_utc": "2026-10-12T23:16:06Z",
@@ -290,14 +290,8 @@
     "pos": "TE",
     "team": "CLE",
     "estimator": "historical",
-    "n_out": 1,
-    "out": [
-     {
-      "player_id": "00-0041131",
-      "name": "Carsen Ryan",
-      "tgt": 0.0
-     }
-    ],
+    "n_out": 0,
+    "out": [],
     "vacated_tgt": 0.0,
     "vacated_car": null,
     "absorbed_tgt": 0.0,
@@ -313,7 +307,7 @@
     "points": 0.0,
     "n_games": 4,
     "name": "Harold Fannin",
-    "why": "Carsen Ryan out, vacating no measured usage. The proportional split gives him none of it, worth about 0.0 points. Display only: it does not change the expected number."
+    "why": "No teammate at his position is ruled out, so nothing is vacated."
    },
    "vacated_pts": 0.0
   },
@@ -347,22 +341,11 @@
     "pos": "WR",
     "team": "CLE",
     "estimator": "historical",
-    "n_out": 2,
-    "out": [
-     {
-      "player_id": "00-0036630",
-      "name": "Tylan Wallace",
-      "tgt": 0.0096
-     },
-     {
-      "player_id": "00-0041547",
-      "name": "KC Concepcion",
-      "tgt": 0.1039
-     }
-    ],
-    "vacated_tgt": 0.267,
+    "n_out": 0,
+    "out": [],
+    "vacated_tgt": 0.0,
     "vacated_car": null,
-    "absorbed_tgt": 0.113,
+    "absorbed_tgt": 0.0,
     "absorbed_car": null,
     "own_tgt_share": 0.19,
     "own_car_share": 0.0,
@@ -372,12 +355,12 @@
     "team_car_pg": 25.27,
     "hist_pairs_used": 0,
     "hist_min_games": null,
-    "points": 6.58,
+    "points": 0.0,
     "n_games": 4,
     "name": "Denzel Boston",
-    "why": "Tylan Wallace, KC Concepcion out, vacating 27% of the targets. The proportional split gives him 11% of targets, worth about 6.6 points. Display only: it does not change the expected number."
+    "why": "No teammate at his position is ruled out, so nothing is vacated."
    },
-   "vacated_pts": 6.58
+   "vacated_pts": 0.0
   },
   {
    "player_id": "SEA",
@@ -673,33 +656,26 @@
    "n_games": 2,
    "baseline": 8.38,
    "expected": 0.0,
-   "injury_status": "Out",
+   "injury_status": "Questionable",
    "injury_body_part": "Toe",
    "practice": null,
    "bye": false,
    "playing": false,
-   "inj_mult": 0.0,
+   "inj_mult": 0.9,
    "boom_rate": 0.242,
    "sd_wk": 7.725,
    "vor": 39.2,
    "started": true,
    "actual_so_far": null,
    "slot": "BN",
-   "why": "Ruled Out, 0 points.",
+   "why": "No Sleeper projection this week (ruled out or not active), 0 points.",
    "vacated": {
     "player_id": "00-0036139",
     "pos": "RB",
     "team": "PIT",
     "estimator": "historical",
-    "n_out": 1,
-    "out": [
-     {
-      "player_id": "00-0041490",
-      "name": "Eli Heidenreich",
-      "car": 0.0,
-      "tgt": 0.0
-     }
-    ],
+    "n_out": 0,
+    "out": [],
     "vacated_tgt": 0.0,
     "vacated_car": 0.0,
     "absorbed_tgt": 0.0,
@@ -715,7 +691,7 @@
     "points": 0.0,
     "n_games": 2,
     "name": "Rico Dowdle",
-    "why": "Eli Heidenreich out, vacating no measured usage. The proportional split gives him none of it, worth about 0.0 points. Display only: it does not change the expected number."
+    "why": "No teammate at his position is ruled out, so nothing is vacated."
    },
    "vacated_pts": 0.0
   }
@@ -794,7 +770,7 @@
    "gap": 1.2,
    "vacated_starter": 0.0,
    "vacated_bench": 0.0,
-   "vacated_note": "Vacated share (display only, not in the numbers above): Harold Fannin 0.0, Jakobi Meyers 0.0 points of absorbed usage. Carsen Ryan out, vacating no measured usage. The proportional split gives him none of it, worth about 0.0 points. Display only: it does not change the expected number.",
+   "vacated_note": null,
    "why": "Harold Fannin 9.0 vs Jakobi Meyers 7.7, only 1.2 apart. Tiebreak: Harold Fannin has the higher ceiling (boom rate 19% vs 13%)."
   },
   {
@@ -802,9 +778,9 @@
    "starter": "Denzel Boston",
    "bench": "Woody Marks",
    "gap": 0.7,
-   "vacated_starter": 6.58,
+   "vacated_starter": 0.0,
    "vacated_bench": 0.22,
-   "vacated_note": "Vacated share (display only, not in the numbers above): Denzel Boston 6.6, Woody Marks 0.2 points of absorbed usage. Tylan Wallace, KC Concepcion out, vacating 27% of the targets. The proportional split gives him 11% of targets, worth about 6.6 points. Display only: it does not change the expected number.",
+   "vacated_note": "Vacated share (display only, not in the numbers above): Denzel Boston 0.0, Woody Marks 0.2 points of absorbed usage. British Brooks out, vacating 5% of the carries. The proportional split gives him 1% of carries, worth about 0.2 points. Display only: it does not change the expected number.",
    "why": "Denzel Boston 8.9 vs Woody Marks 8.2, only 0.7 apart."
   },
   {
@@ -812,9 +788,9 @@
    "starter": "Denzel Boston",
    "bench": "Jakobi Meyers",
    "gap": 1.2,
-   "vacated_starter": 6.58,
+   "vacated_starter": 0.0,
    "vacated_bench": 0.0,
-   "vacated_note": "Vacated share (display only, not in the numbers above): Denzel Boston 6.6, Jakobi Meyers 0.0 points of absorbed usage. Tylan Wallace, KC Concepcion out, vacating 27% of the targets. The proportional split gives him 11% of targets, worth about 6.6 points. Display only: it does not change the expected number.",
+   "vacated_note": null,
    "why": "Denzel Boston 8.9 vs Jakobi Meyers 7.7, only 1.2 apart."
   }
  ],

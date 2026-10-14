@@ -157,7 +157,7 @@
     {
      "name": "Tre' Harris",
      "pos": "WR",
-     "status": "Questionable",
+     "status": "Doubtful",
      "body": "Hamstring"
     }
    ],
@@ -222,100 +222,102 @@
    "pf_rank": 2
   },
   {
-   "roster_id": 10,
-   "team": "Derrelick my Balls",
-   "manager": "dlamas",
+   "roster_id": 11,
+   "team": "RafiBomb",
+   "manager": "TheRafiBombb",
    "is_mine": false,
-   "wins": 5,
-   "losses": 5,
+   "wins": 8,
+   "losses": 2,
    "ties": 0,
-   "h2h": "2-2",
+   "h2h": "3-1",
    "median": "3-1",
-   "allplay": "28-16",
-   "allplay_pct": 0.636,
+   "allplay": "26-18",
+   "allplay_pct": 0.591,
    "scores": [
-    106.59,
-    124.18,
-    117.54,
-    110.0
+    93.45,
+    123.88,
+    113.24,
+    127.91
    ],
-   "avg": 114.58,
-   "last": 110.0,
-   "pf": 458.31,
+   "avg": 114.62,
+   "last": 127.91,
+   "pf": 458.48,
    "proj_totals": [
-    96.09,
-    92.16,
-    101.35,
-    118.53
+    103.14,
+    106.09,
+    104.53,
+    115.01
    ],
-   "vs_proj": 50.18,
+   "vs_proj": 29.71,
    "bench_left": [
-    39.22,
-    1.6,
-    38.0,
-    28.8
+    26.6,
+    10.0,
+    27.56,
+    27.55
    ],
-   "efficiency": 0.82,
+   "efficiency": 0.83,
    "injured_starters": [],
-   "byes_next": [],
-   "proj_next": 104.35,
+   "byes_next": [
+    "Chuba Hubbard"
+   ],
+   "proj_next": 98.48,
    "future_opps": [
+    3,
+    1,
+    2,
+    7,
     5,
     9,
     6,
     12,
     4,
     8,
-    7,
+    10,
     3,
     1,
-    2,
-    11,
-    5,
-    9,
-    6
+    2
    ],
-   "faab_used": 89,
+   "faab_used": 10,
    "starters_now": [
     {
-     "name": "Bo Nix",
+     "name": "Matthew Stafford",
      "pos": "QB"
     },
     {
-     "name": "Derrick Henry",
+     "name": "Chuba Hubbard",
      "pos": "RB"
     },
     {
-     "name": "RJ Harvey",
+     "name": "Kyren Williams",
      "pos": "RB"
     },
     {
-     "name": "Nico Collins",
+     "name": "Parker Washington",
      "pos": "WR"
     },
     {
-     "name": "Garrett Wilson",
+     "name": "Christian Watson",
      "pos": "WR"
     },
     {
-     "name": "Brock Bowers",
-     "pos": "TE"
-    },
-    {
-     "name": "Terry McLaurin",
+     "name": "Matthew Golden",
      "pos": "WR"
     },
     {
-     "name": "MIN DEF",
+     "name": "James Cook",
+     "pos": "RB"
+    },
+    {
+     "name": "BAL DEF",
      "pos": "DEF"
     }
    ],
-   "trend": 0.4,
-   "trend_label": "flat",
-   "sos_remaining": 99.5,
-   "power": 110.5,
+   "trend": 9.3,
+   "trend_label": "rising",
+   "sos_remaining": 102.7,
+   "power": 108.2,
    "power_rank": 3,
-   "pf_rank": 4
+   "pf_rank": 3
   },
   {
    "roster_id": 7,
@@ -361,7 +363,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 117.8,
+   "proj_next": 110.91,
    "future_opps": [
     12,
     2,
@@ -381,7 +383,7 @@
    "faab_used": 19,
    "starters_now": [
     {
-     "name": "Joe Burrow",
+     "name": "Jordan Love",
      "pos": "QB"
     },
     {
@@ -393,7 +395,7 @@
      "pos": "RB"
     },
     {
-     "name": "CeeDee Lamb",
+     "name": "Puka Nacua",
      "pos": "WR"
     },
     {
@@ -405,18 +407,18 @@
      "pos": "WR"
     },
     {
-     "name": "Puka Nacua",
+     "name": "CeeDee Lamb",
      "pos": "WR"
     },
     {
-     "name": "CLE DEF",
+     "name": "LAR DEF",
      "pos": "DEF"
     }
    ],
    "trend": 11.2,
    "trend_label": "rising",
    "sos_remaining": 101.09,
-   "power": 110.0,
+   "power": 107.2,
    "power_rank": 4,
    "pf_rank": 7
   },
@@ -530,6 +532,112 @@
    "pf_rank": 5
   },
   {
+   "roster_id": 10,
+   "team": "Derrelick my Balls",
+   "manager": "dlamas",
+   "is_mine": false,
+   "wins": 5,
+   "losses": 5,
+   "ties": 0,
+   "h2h": "2-2",
+   "median": "3-1",
+   "allplay": "28-16",
+   "allplay_pct": 0.636,
+   "scores": [
+    106.59,
+    124.18,
+    117.54,
+    110.0
+   ],
+   "avg": 114.58,
+   "last": 110.0,
+   "pf": 458.31,
+   "proj_totals": [
+    96.09,
+    92.16,
+    101.35,
+    118.53
+   ],
+   "vs_proj": 50.18,
+   "bench_left": [
+    39.22,
+    1.6,
+    38.0,
+    28.8
+   ],
+   "efficiency": 0.82,
+   "injured_starters": [
+    {
+     "name": "Rashee Rice",
+     "pos": "WR",
+     "status": "Questionable",
+     "body": "Hamstring"
+    }
+   ],
+   "byes_next": [
+    "Patrick Mahomes",
+    "Rashee Rice"
+   ],
+   "proj_next": 75.26,
+   "future_opps": [
+    5,
+    9,
+    6,
+    12,
+    4,
+    8,
+    7,
+    3,
+    1,
+    2,
+    11,
+    5,
+    9,
+    6
+   ],
+   "faab_used": 89,
+   "starters_now": [
+    {
+     "name": "Patrick Mahomes",
+     "pos": "QB"
+    },
+    {
+     "name": "Derrick Henry",
+     "pos": "RB"
+    },
+    {
+     "name": "RJ Harvey",
+     "pos": "RB"
+    },
+    {
+     "name": "Nico Collins",
+     "pos": "WR"
+    },
+    {
+     "name": "Garrett Wilson",
+     "pos": "WR"
+    },
+    {
+     "name": "Brock Bowers",
+     "pos": "TE"
+    },
+    {
+     "name": "Rashee Rice",
+     "pos": "WR"
+    },
+    {
+     "name": "PIT DEF",
+     "pos": "DEF"
+    }
+   ],
+   "trend": 0.4,
+   "trend_label": "flat",
+   "sos_remaining": 99.5,
+   "power": 98.9,
+   "power_rank": 6,
+   "pf_rank": 4
+  },
+  {
    "roster_id": 1,
    "team": "tacocats",
    "manager": "ben_g",
@@ -573,7 +681,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 100.65,
+   "proj_next": 80.44,
    "future_opps": [
     2,
     11,
@@ -597,7 +705,7 @@
      "pos": "QB"
     },
     {
-     "name": "Jahmyr Gibbs",
+     "name": "Chris Rodriguez",
      "pos": "RB"
     },
     {
@@ -621,15 +729,15 @@
      "pos": "TE"
     },
     {
-     "name": "CIN DEF",
+     "name": "NE DEF",
      "pos": "DEF"
     }
    ],
    "trend": 2.3,
    "trend_label": "flat",
    "sos_remaining": 99.08,
-   "power": 106.6,
-   "power_rank": 6,
+   "power": 98.5,
+   "power_rank": 7,
    "pf_rank": 6
   },
   {
@@ -669,7 +777,7 @@
    "efficiency": 0.86,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 111.08,
+   "proj_next": 92.83,
    "future_opps": [
     4,
     8,
@@ -693,7 +801,7 @@
      "pos": "QB"
     },
     {
-     "name": "Chase Brown",
+     "name": "Cam Skattebo",
      "pos": "RB"
     },
     {
@@ -701,7 +809,7 @@
      "pos": "RB"
     },
     {
-     "name": "Ja'Marr Chase",
+     "name": "Wan'Dale Robinson",
      "pos": "WR"
     },
     {
@@ -709,8 +817,8 @@
      "pos": "WR"
     },
     {
-     "name": "Cam Skattebo",
-     "pos": "RB"
+     "name": "Keenan Allen",
+     "pos": "WR"
     },
     {
      "name": "Isaiah Likely",
@@ -724,108 +832,9 @@
    "trend": 4.0,
    "trend_label": "rising",
    "sos_remaining": 104.36,
-   "power": 103.1,
-   "power_rank": 7,
-   "pf_rank": 8
-  },
-  {
-   "roster_id": 11,
-   "team": "RafiBomb",
-   "manager": "TheRafiBombb",
-   "is_mine": false,
-   "wins": 8,
-   "losses": 2,
-   "ties": 0,
-   "h2h": "3-1",
-   "median": "3-1",
-   "allplay": "26-18",
-   "allplay_pct": 0.591,
-   "scores": [
-    93.45,
-    123.88,
-    113.24,
-    127.91
-   ],
-   "avg": 114.62,
-   "last": 127.91,
-   "pf": 458.48,
-   "proj_totals": [
-    103.14,
-    106.09,
-    104.53,
-    115.01
-   ],
-   "vs_proj": 29.71,
-   "bench_left": [
-    26.6,
-    10.0,
-    27.56,
-    27.55
-   ],
-   "efficiency": 0.83,
-   "injured_starters": [],
-   "byes_next": [
-    "Bryce Young",
-    "Chuba Hubbard"
-   ],
-   "proj_next": 75.34,
-   "future_opps": [
-    3,
-    1,
-    2,
-    7,
-    5,
-    9,
-    6,
-    12,
-    4,
-    8,
-    10,
-    3,
-    1,
-    2
-   ],
-   "faab_used": 10,
-   "starters_now": [
-    {
-     "name": "Bryce Young",
-     "pos": "QB"
-    },
-    {
-     "name": "James Cook",
-     "pos": "RB"
-    },
-    {
-     "name": "Kyren Williams",
-     "pos": "RB"
-    },
-    {
-     "name": "Parker Washington",
-     "pos": "WR"
-    },
-    {
-     "name": "Christian Watson",
-     "pos": "WR"
-    },
-    {
-     "name": "Jaylen Waddle",
-     "pos": "WR"
-    },
-    {
-     "name": "Chuba Hubbard",
-     "pos": "RB"
-    },
-    {
-     "name": "BAL DEF",
-     "pos": "DEF"
-    }
-   ],
-   "trend": 9.3,
-   "trend_label": "rising",
-   "sos_remaining": 102.7,
-   "power": 98.9,
+   "power": 95.8,
    "power_rank": 8,
-   "pf_rank": 3
+   "pf_rank": 8
   },
   {
    "roster_id": 4,
@@ -864,7 +873,7 @@
    "efficiency": 0.89,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 100.04,
+   "proj_next": 96.08,
    "future_opps": [
     6,
     12,
@@ -900,7 +909,7 @@
      "pos": "WR"
     },
     {
-     "name": "Jameson Williams",
+     "name": "Kalif Raymond",
      "pos": "WR"
     },
     {
@@ -919,7 +928,7 @@
    "trend": 11.2,
    "trend_label": "rising",
    "sos_remaining": 104.86,
-   "power": 96.1,
+   "power": 94.5,
    "power_rank": 9,
    "pf_rank": 10
   },
@@ -960,7 +969,7 @@
    "efficiency": 0.79,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 91.89,
+   "proj_next": 91.69,
    "future_opps": [
     8,
     10,
@@ -984,12 +993,16 @@
      "pos": "QB"
     },
     {
+     "name": "Emanuel Wilson",
+     "pos": "RB"
+    },
+    {
      "name": "Omarion Hampton",
      "pos": "RB"
     },
     {
-     "name": "Keaton Mitchell",
-     "pos": "RB"
+     "name": "Zay Flowers",
+     "pos": "WR"
     },
     {
      "name": "Dontayvion Wicks",
@@ -1000,12 +1013,8 @@
      "pos": "WR"
     },
     {
-     "name": "Emanuel Wilson",
+     "name": "Jacory Croskey-Merritt",
      "pos": "RB"
-    },
-    {
-     "name": "Zay Flowers",
-     "pos": "WR"
     },
     {
      "name": "JAX DEF",
@@ -1015,7 +1024,7 @@
    "trend": -18.6,
    "trend_label": "falling",
    "sos_remaining": 107.57,
-   "power": 93.3,
+   "power": 93.2,
    "power_rank": 10,
    "pf_rank": 9
   },
@@ -1058,13 +1067,13 @@
     {
      "name": "David Montgomery",
      "pos": "RB",
-     "status": "Out",
+     "status": "Doubtful",
      "body": "Groin"
     },
     {
      "name": "KC Concepcion",
      "pos": "WR",
-     "status": "Out",
+     "status": "Questionable",
      "body": "Concussion"
     }
    ],
@@ -1167,7 +1176,7 @@
     {
      "name": "Kenyon Sadiq",
      "pos": "TE",
-     "status": "Out",
+     "status": "Questionable",
      "body": "Concussion"
     }
    ],
@@ -1246,16 +1255,16 @@
    "text": "ValKilmersComeback (you) has 2 of 8 starters carrying injury tags: Ollie Gordon Questionable (Undisclosed), Deebo Samuel Out (Hamstring)."
   },
   {
+   "team": "Derrelick my Balls",
+   "kind": "bye_crunch",
+   "severity": "medium",
+   "text": "Derrelick my Balls has 2 current starters on bye in week 5: Patrick Mahomes, Rashee Rice."
+  },
+  {
    "team": "Eazy E Squad",
    "kind": "injured_starters",
    "severity": "medium",
-   "text": "Eazy E Squad has 2 of 8 starters carrying injury tags: David Montgomery Out (Groin), KC Concepcion Out (Concussion)."
-  },
-  {
-   "team": "RafiBomb",
-   "kind": "bye_crunch",
-   "severity": "medium",
-   "text": "RafiBomb has 2 current starters on bye in week 5: Bryce Young, Chuba Hubbard."
+   "text": "Eazy E Squad has 2 of 8 starters carrying injury tags: David Montgomery Doubtful (Groin), KC Concepcion Questionable (Concussion)."
   },
   {
    "team": "ValKilmersComeback",
@@ -1279,7 +1288,7 @@
    "team": "Baker\u2019s Dozen",
    "kind": "injured_starter",
    "severity": "low",
-   "text": "Baker\u2019s Dozen (#2 scorer) has Tre' Harris listed Questionable."
+   "text": "Baker\u2019s Dozen (#2 scorer) has Tre' Harris listed Doubtful."
   },
   {
    "team": "Be Safe, Get Jaxcinated",

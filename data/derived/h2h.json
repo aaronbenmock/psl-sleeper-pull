@@ -6,10 +6,10 @@
  "manager": "Breadsticks310",
  "roster_id": 9,
  "my_total": 101.9,
- "opp_set_total": 89.5,
+ "opp_set_total": 89.3,
  "opp_best_total": 90.6,
  "verdict": "favored",
- "margin": 12.4,
+ "margin": 12.6,
  "verdict_vs_best": "favored",
  "opp_injured": [],
  "opp_byes": [],
@@ -22,6 +22,13 @@
    "baseline_only": false
   },
   {
+   "name": "Emanuel Wilson",
+   "pos": "RB",
+   "expected": 10.16,
+   "injury_status": null,
+   "baseline_only": false
+  },
+  {
    "name": "Omarion Hampton",
    "pos": "RB",
    "expected": 9.68,
@@ -29,9 +36,9 @@
    "baseline_only": false
   },
   {
-   "name": "Keaton Mitchell",
-   "pos": "RB",
-   "expected": 8.46,
+   "name": "Zay Flowers",
+   "pos": "WR",
+   "expected": 13.77,
    "injury_status": null,
    "baseline_only": false
   },
@@ -50,16 +57,9 @@
    "baseline_only": false
   },
   {
-   "name": "Emanuel Wilson",
+   "name": "Jacory Croskey-Merritt",
    "pos": "RB",
-   "expected": 10.16,
-   "injury_status": null,
-   "baseline_only": false
-  },
-  {
-   "name": "Zay Flowers",
-   "pos": "WR",
-   "expected": 13.77,
+   "expected": 8.22,
    "injury_status": null,
    "baseline_only": false
   },
@@ -71,15 +71,15 @@
    "baseline_only": false
   }
  ],
- "median_total": 98.5,
- "median_verdict": "toss-up",
- "median_margin": 3.4,
+ "median_total": 92.2,
+ "median_verdict": "favored",
+ "median_margin": 9.7,
  "source": {
   "kind": "pre-kickoff snapshot",
   "taken_at_utc": "2026-10-12T23:16:06Z",
   "label": "mon_pm"
  },
  "opp_baseline_only": 0,
- "why": "Your recommended lineup projects 101.9; Girthenheimer's set lineup 89.5 (best possible from their roster 90.6). Margin +12.4: favored.",
+ "why": "Your recommended lineup projects 101.9; Girthenheimer's set lineup 89.3 (best possible from their roster 90.6). Margin +12.6: favored.",
  "note": "Both sides use the engine blend (0.65 x Sleeper + 0.35 x baseline, injury multipliers), so the totals are comparable. Inside +/-5 points the game is called a toss-up [Guessing]. Your own lineup still follows max expected points; the matchup does not change who you start."
 }
