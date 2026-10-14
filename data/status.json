@@ -4,16 +4,16 @@
    "task": "build",
    "ok": false,
    "summary": "failed: build completed with section errors: lineup: 'why'",
-   "started_utc": "2026-10-14T15:21:02Z",
-   "finished_utc": "2026-10-14T15:21:03Z",
+   "started_utc": "2026-10-14T16:20:44Z",
+   "finished_utc": "2026-10-14T16:20:45Z",
    "error": "Traceback (most recent call last):\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine.py\", line 36, in _run_task\n    fn(**kw)\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine/build.py\", line 119, in run\n    raise RuntimeError(\"build completed with section errors: \" + \"; \".join(errors))\nRuntimeError: build completed with section errors: lineup: 'why'\n"
   },
   "pull": {
    "task": "pull",
    "ok": true,
    "summary": "completed wk 5, upcoming wk 6, waiver pool 684, matchup weeks 18, scored files 1, record check: median game ON: each team plays its opponent and the league median every week",
-   "started_utc": "2026-10-14T15:20:55Z",
-   "finished_utc": "2026-10-14T15:21:00Z",
+   "started_utc": "2026-10-14T16:20:35Z",
+   "finished_utc": "2026-10-14T16:20:43Z",
    "error": null,
    "completed_week": 5,
    "upcoming_week": 6
@@ -48,46 +48,12 @@
    "task": "usage",
    "ok": true,
    "summary": "5 weeks of 2026 usage, 503 players with a stat row, 714 Sleeper ids mapped (163 from Sleeper, 462 from the rankings file, 89 by name), 555,436 bytes",
-   "started_utc": "2026-10-14T15:21:01Z",
-   "finished_utc": "2026-10-14T15:21:02Z",
+   "started_utc": "2026-10-14T16:20:43Z",
+   "finished_utc": "2026-10-14T16:20:44Z",
    "error": null
   }
  },
  "runs": [
-  {
-   "task": "snapshot",
-   "ok": true,
-   "summary": "week 3 sun_pm: 3148 projections, 28 NFL teams already started, 2397 players still pre-kickoff",
-   "started_utc": "2026-09-27T23:13:53Z",
-   "finished_utc": "2026-09-27T23:13:55Z",
-   "error": null,
-   "week": 3,
-   "label": "sun_pm"
-  },
-  {
-   "task": "build",
-   "ok": true,
-   "summary": "index.html + reports/2026/week03.html; lineup changes 0, claims 8, signals 14, accuracy weeks 2",
-   "started_utc": "2026-09-27T23:13:55Z",
-   "finished_utc": "2026-09-27T23:13:55Z",
-   "error": null
-  },
-  {
-   "task": "auto-skip",
-   "ok": true,
-   "summary": "skipped at 2026-09-27T19:11:32-05:00",
-   "started_utc": "2026-09-28T00:11:32Z",
-   "finished_utc": "2026-09-28T00:11:32Z",
-   "error": null
-  },
-  {
-   "task": "build",
-   "ok": true,
-   "summary": "index.html + reports/2026/week03.html; lineup changes 0, claims 8, signals 14, accuracy weeks 2",
-   "started_utc": "2026-09-28T00:11:32Z",
-   "finished_utc": "2026-09-28T00:11:32Z",
-   "error": null
-  },
   {
    "task": "injuries",
    "ok": true,
@@ -1735,14 +1701,48 @@
    "started_utc": "2026-10-14T15:21:02Z",
    "finished_utc": "2026-10-14T15:21:03Z",
    "error": "Traceback (most recent call last):\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine.py\", line 36, in _run_task\n    fn(**kw)\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine/build.py\", line 119, in run\n    raise RuntimeError(\"build completed with section errors: \" + \"; \".join(errors))\nRuntimeError: build completed with section errors: lineup: 'why'\n"
+  },
+  {
+   "task": "pull",
+   "ok": true,
+   "summary": "completed wk 5, upcoming wk 6, waiver pool 684, matchup weeks 18, scored files 1, record check: median game ON: each team plays its opponent and the league median every week",
+   "started_utc": "2026-10-14T16:20:35Z",
+   "finished_utc": "2026-10-14T16:20:43Z",
+   "error": null,
+   "completed_week": 5,
+   "upcoming_week": 6
+  },
+  {
+   "task": "usage",
+   "ok": true,
+   "summary": "5 weeks of 2026 usage, 503 players with a stat row, 714 Sleeper ids mapped (163 from Sleeper, 462 from the rankings file, 89 by name), 555,436 bytes",
+   "started_utc": "2026-10-14T16:20:43Z",
+   "finished_utc": "2026-10-14T16:20:44Z",
+   "error": null
+  },
+  {
+   "task": "build",
+   "ok": false,
+   "summary": "index.html + reports/2026/week06.html; lineup changes 0, claims 0, signals 16, accuracy weeks 5; ERRORS: [\"lineup: 'why'\"]",
+   "started_utc": "2026-10-14T16:20:44Z",
+   "finished_utc": "2026-10-14T16:20:45Z",
+   "error": "lineup: 'why'"
+  },
+  {
+   "task": "build",
+   "ok": false,
+   "summary": "failed: build completed with section errors: lineup: 'why'",
+   "started_utc": "2026-10-14T16:20:44Z",
+   "finished_utc": "2026-10-14T16:20:45Z",
+   "error": "Traceback (most recent call last):\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine.py\", line 36, in _run_task\n    fn(**kw)\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine/build.py\", line 119, in run\n    raise RuntimeError(\"build completed with section errors: \" + \"; \".join(errors))\nRuntimeError: build completed with section errors: lineup: 'why'\n"
   }
  ],
  "last_run": {
   "task": "build",
   "ok": false,
   "summary": "failed: build completed with section errors: lineup: 'why'",
-  "started_utc": "2026-10-14T15:21:02Z",
-  "finished_utc": "2026-10-14T15:21:03Z",
+  "started_utc": "2026-10-14T16:20:44Z",
+  "finished_utc": "2026-10-14T16:20:45Z",
   "error": "Traceback (most recent call last):\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine.py\", line 36, in _run_task\n    fn(**kw)\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine/build.py\", line 119, in run\n    raise RuntimeError(\"build completed with section errors: \" + \"; \".join(errors))\nRuntimeError: build completed with section errors: lineup: 'why'\n"
  }
 }

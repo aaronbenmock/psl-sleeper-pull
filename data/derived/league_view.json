@@ -50,7 +50,7 @@
    "efficiency": 0.85,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 128.48,
+   "proj_next": 128.54,
    "future_opps": [
     1,
     2,
@@ -373,7 +373,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 107.22,
+   "proj_next": 107.35,
    "future_opps": [
     9,
     6,
@@ -427,7 +427,7 @@
    "trend": -2.2,
    "trend_label": "flat",
    "sos_remaining": 102.93,
-   "power": 110.2,
+   "power": 110.3,
    "power_rank": 4,
    "pf_rank": 5
   },
@@ -486,7 +486,7 @@
    "byes_next": [
     "Ollie Gordon"
    ],
-   "proj_next": 90.24,
+   "proj_next": 90.18,
    "future_opps": [
     6,
     12,
@@ -591,7 +591,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 90.1,
+   "proj_next": 90.03,
    "future_opps": [
     11,
     5,
@@ -645,7 +645,7 @@
    "trend": -0.8,
    "trend_label": "flat",
    "sos_remaining": 104.19,
-   "power": 101.3,
+   "power": 101.2,
    "power_rank": 6,
    "pf_rank": 7
   },
@@ -787,7 +787,7 @@
    "efficiency": 0.8,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 84.37,
+   "proj_next": 84.36,
    "future_opps": [
     10,
     3,
@@ -1107,7 +1107,7 @@
    "byes_next": [
     "Justin Jefferson"
    ],
-   "proj_next": 66.54,
+   "proj_next": 66.47,
    "future_opps": [
     3,
     1,
@@ -1161,7 +1161,7 @@
    "trend": -0.5,
    "trend_label": "flat",
    "sos_remaining": 108.57,
-   "power": 76.4,
+   "power": 76.3,
    "power_rank": 11,
    "pf_rank": 11
   },
@@ -1376,6 +1376,6 @@
  ],
  "projection_source": {
   "kind": "latest.json",
-  "taken_at_utc": "2026-10-14T15:21:00+00:00"
+  "taken_at_utc": "2026-10-14T16:20:43+00:00"
  }
 }
