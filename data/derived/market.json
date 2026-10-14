@@ -151,8 +151,8 @@
    "run": 29857381,
    "processed_utc": "2026-10-08T07:01:00Z",
    "processed": "Thu Oct 8 2:01 AM",
-   "player_id": "13413",
-   "name": "Cyrus Allen",
+   "player_id": "13264",
+   "name": "Dohnte Meyers",
    "pos": "WR",
    "winner_rid": null,
    "winner": null,
@@ -160,12 +160,28 @@
    "dropped": [],
    "losing": [
     {
-     "roster_id": 9,
-     "team": "Girthenheimer",
-     "bid": 3,
+     "roster_id": 1,
+     "team": "tacocats",
+     "bid": 0,
      "reason": "Unfortunately, your roster will have too many players after this transaction."
     }
    ],
+   "n_bidders": 1
+  },
+  {
+   "run": 29857381,
+   "processed_utc": "2026-10-08T07:01:00Z",
+   "processed": "Thu Oct 8 2:01 AM",
+   "player_id": "12509",
+   "name": "Tre' Harris",
+   "pos": "WR",
+   "winner_rid": 1,
+   "winner": "tacocats",
+   "winning_bid": 0,
+   "dropped": [
+    "Makai Lemon"
+   ],
+   "losing": [],
    "n_bidders": 1
   },
   {
@@ -193,24 +209,8 @@
    "run": 29857381,
    "processed_utc": "2026-10-08T07:01:00Z",
    "processed": "Thu Oct 8 2:01 AM",
-   "player_id": "12509",
-   "name": "Tre' Harris",
-   "pos": "WR",
-   "winner_rid": 1,
-   "winner": "tacocats",
-   "winning_bid": 0,
-   "dropped": [
-    "Makai Lemon"
-   ],
-   "losing": [],
-   "n_bidders": 1
-  },
-  {
-   "run": 29857381,
-   "processed_utc": "2026-10-08T07:01:00Z",
-   "processed": "Thu Oct 8 2:01 AM",
-   "player_id": "13264",
-   "name": "Dohnte Meyers",
+   "player_id": "13413",
+   "name": "Cyrus Allen",
    "pos": "WR",
    "winner_rid": null,
    "winner": null,
@@ -218,9 +218,9 @@
    "dropped": [],
    "losing": [
     {
-     "roster_id": 1,
-     "team": "tacocats",
-     "bid": 0,
+     "roster_id": 9,
+     "team": "Girthenheimer",
+     "bid": 3,
      "reason": "Unfortunately, your roster will have too many players after this transaction."
     }
    ],

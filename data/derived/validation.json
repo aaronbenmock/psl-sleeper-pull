@@ -3,13 +3,13 @@
   "id": "record",
   "status": "ok",
   "title": "Record field (the 2-0 after one week)",
-  "finding": "median game ON: each team plays its opponent and the league median every week. League setting league_average_match = 1; wins across all rosters = 48 after 4 week(s) (head-to-head only would give 24, with a median game 48)."
+  "finding": "median game ON: each team plays its opponent and the league median every week. League setting league_average_match = 1; wins across all rosters = 60 after 5 week(s) (head-to-head only would give 30, with a median game 60)."
  },
  {
   "id": "def_bias",
   "status": "info",
   "title": "DEF projection bias (Sleeper omits 3-and-outs and 4th-down stops)",
-  "finding": "Week 4: across 32 defenses, actual minus projected averaged -0.51 (MAE 2.84). Points from the two unprojected categories averaged 1.72 per defense, which is the structural part of the bias. Among the 12 defenses actually started, bias was -0.1."
+  "finding": "Week 5: across 30 defenses, actual minus projected averaged +2.45 (MAE 5.15). Points from the two unprojected categories averaged 2.0 per defense, which is the structural part of the bias. Among the 12 defenses actually started, bias was 2.67."
  },
  {
   "id": "coach_continuity",
@@ -27,7 +27,7 @@
   "id": "week_detection",
   "status": "info",
   "title": "Completed-week detection",
-  "finding": "Method: projection game dates. Completed 4, upcoming 5. v1.2 uses game dates from the projection rows, which stays correct on Friday through Monday when the v1.1 rule would flip early."
+  "finding": "Method: projection game dates. Completed 5, upcoming 6. v1.2 uses game dates from the projection rows, which stays correct on Friday through Monday when the v1.1 rule would flip early."
  },
  {
   "id": "proj_exclude",
@@ -39,7 +39,7 @@
   "id": "ages",
   "status": "info",
   "title": "Input ages at build time",
-  "finding": "weekly pull 154.7h, injury table 0.9h, players cache 0.9h, newest snapshot 37.0h (week 5)"
+  "finding": "weekly pull 0.0h, injury table 3.9h, players cache 3.9h, newest snapshot 40.1h (week 5)"
  },
  {
   "id": "names_cache",
@@ -52,5 +52,11 @@
   "status": "ok",
   "title": "Preferences",
   "finding": "config/preferences.json: claims exclude TE; FAAB leftover tendency on."
+ },
+ {
+  "id": "build_errors",
+  "status": "fail",
+  "title": "Build errors",
+  "finding": "lineup: 'why'"
  }
 ]

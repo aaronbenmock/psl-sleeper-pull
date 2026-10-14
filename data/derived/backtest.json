@@ -1,392 +1,433 @@
 {
- "generated_at_utc": "2026-10-14T12:18:01Z",
+ "generated_at_utc": "2026-10-14T15:21:02Z",
  "weeks": [
   1,
   2,
   3,
-  4
+  4,
+  5
  ],
  "min_weeks": 4,
- "verdict": "4 weeks. Best lineup capture: blend w=0.65 k=8 +deffix (104.83); Sleeper alone: 104.24. Treat gaps under 1 point as noise until 8+ weeks.",
+ "verdict": "5 weeks. Best lineup capture: blend w=0.65 k=8 +deffix (106.02); Sleeper alone: 105.19. Treat gaps under 1 point as noise until 8+ weeks.",
  "table": [
   {
    "model": "blend w=0.65 k=8 +deffix",
-   "weeks": 4,
-   "n": 384,
-   "mae": 6.3,
-   "lineup_avg": 104.83,
+   "weeks": 5,
+   "n": 480,
+   "mae": 6.44,
+   "lineup_avg": 106.02,
    "by_week_mae": [
     7.14,
     6.43,
     5.59,
-    6.04
+    6.04,
+    7.02
    ],
    "by_week_lineup": [
     108.45,
     98.02,
     105.25,
-    107.6
+    107.6,
+    110.79
    ]
   },
   {
    "model": "blend w=0.8 k=8",
-   "weeks": 4,
-   "n": 384,
-   "mae": 6.29,
-   "lineup_avg": 104.68,
+   "weeks": 5,
+   "n": 480,
+   "mae": 6.43,
+   "lineup_avg": 105.93,
    "by_week_mae": [
     7.16,
     6.4,
     5.59,
-    6.03
+    6.03,
+    6.99
    ],
    "by_week_lineup": [
     108.69,
     98.02,
     104.54,
-    107.48
+    107.48,
+    110.94
    ]
   },
   {
    "model": "blend w=0.8 k=8 +deffix",
-   "weeks": 4,
-   "n": 384,
-   "mae": 6.33,
-   "lineup_avg": 104.68,
+   "weeks": 5,
+   "n": 480,
+   "mae": 6.45,
+   "lineup_avg": 105.93,
    "by_week_mae": [
     7.14,
     6.47,
     5.63,
-    6.07
+    6.07,
+    6.95
    ],
    "by_week_lineup": [
     108.69,
     98.02,
     104.54,
-    107.48
+    107.48,
+    110.94
    ]
   },
   {
    "model": "blend w=0.65 k=8",
-   "weeks": 4,
-   "n": 384,
-   "mae": 6.28,
-   "lineup_avg": 104.63,
+   "weeks": 5,
+   "n": 480,
+   "mae": 6.43,
+   "lineup_avg": 105.86,
    "by_week_mae": [
     7.16,
     6.37,
     5.56,
-    6.01
+    6.01,
+    7.05
    ],
    "by_week_lineup": [
     108.45,
     98.02,
     104.46,
-    107.6
+    107.6,
+    110.79
    ]
   },
   {
    "model": "blend w=0.8 k=4",
-   "weeks": 4,
-   "n": 384,
-   "mae": 6.3,
-   "lineup_avg": 104.63,
+   "weeks": 5,
+   "n": 480,
+   "mae": 6.44,
+   "lineup_avg": 105.6,
    "by_week_mae": [
     7.16,
     6.41,
     5.61,
-    6.04
+    6.04,
+    7.0
    ],
    "by_week_lineup": [
     108.69,
     97.8,
     103.68,
-    108.35
+    108.35,
+    109.46
    ]
   },
   {
    "model": "blend w=0.8 k=4 +deffix",
-   "weeks": 4,
-   "n": 384,
-   "mae": 6.33,
-   "lineup_avg": 104.63,
+   "weeks": 5,
+   "n": 480,
+   "mae": 6.46,
+   "lineup_avg": 105.6,
    "by_week_mae": [
     7.14,
     6.48,
     5.64,
-    6.08
+    6.08,
+    6.96
    ],
    "by_week_lineup": [
     108.69,
     97.8,
     103.68,
-    108.35
+    108.35,
+    109.46
    ]
   },
   {
    "model": "blend w=1.0 k=2",
-   "weeks": 4,
-   "n": 384,
-   "mae": 6.34,
-   "lineup_avg": 104.24,
+   "weeks": 5,
+   "n": 480,
+   "mae": 6.46,
+   "lineup_avg": 105.19,
    "by_week_mae": [
     7.18,
     6.48,
     5.64,
-    6.06
+    6.06,
+    6.92
    ],
    "by_week_lineup": [
     107.19,
     97.88,
     104.89,
-    107.01
+    107.01,
+    108.96
    ]
   },
   {
    "model": "blend w=1.0 k=2 +deffix",
-   "weeks": 4,
-   "n": 384,
-   "mae": 6.38,
-   "lineup_avg": 104.24,
+   "weeks": 5,
+   "n": 480,
+   "mae": 6.48,
+   "lineup_avg": 105.19,
    "by_week_mae": [
     7.16,
     6.56,
     5.69,
-    6.11
+    6.11,
+    6.87
    ],
    "by_week_lineup": [
     107.19,
     97.88,
     104.89,
-    107.01
+    107.01,
+    108.96
+   ]
+  },
+  {
+   "model": "blend w=0.8 k=2",
+   "weeks": 5,
+   "n": 480,
+   "mae": 6.46,
+   "lineup_avg": 104.75,
+   "by_week_mae": [
+    7.16,
+    6.44,
+    5.63,
+    6.06,
+    7.02
+   ],
+   "by_week_lineup": [
+    108.69,
+    95.12,
+    103.68,
+    106.89,
+    109.35
+   ]
+  },
+  {
+   "model": "blend w=0.8 k=2 +deffix",
+   "weeks": 5,
+   "n": 480,
+   "mae": 6.47,
+   "lineup_avg": 104.75,
+   "by_week_mae": [
+    7.14,
+    6.5,
+    5.67,
+    6.09,
+    6.97
+   ],
+   "by_week_lineup": [
+    108.69,
+    95.12,
+    103.68,
+    106.89,
+    109.35
    ]
   },
   {
    "model": "blend w=0.5 k=8",
-   "weeks": 4,
-   "n": 384,
-   "mae": 6.27,
-   "lineup_avg": 104.15,
+   "weeks": 5,
+   "n": 480,
+   "mae": 6.44,
+   "lineup_avg": 104.73,
    "by_week_mae": [
     7.16,
     6.36,
     5.55,
-    6.01
+    6.01,
+    7.13
    ],
    "by_week_lineup": [
     108.45,
     95.84,
     105.25,
-    107.04
+    107.04,
+    107.09
    ]
   },
   {
    "model": "blend w=0.5 k=8 +deffix",
-   "weeks": 4,
-   "n": 384,
-   "mae": 6.29,
-   "lineup_avg": 104.15,
+   "weeks": 5,
+   "n": 480,
+   "mae": 6.45,
+   "lineup_avg": 104.73,
    "by_week_mae": [
     7.15,
     6.4,
     5.57,
-    6.04
+    6.04,
+    7.11
    ],
    "by_week_lineup": [
     108.45,
     95.84,
     105.25,
-    107.04
+    107.04,
+    107.09
+   ]
+  },
+  {
+   "model": "blend w=0.65 k=4",
+   "weeks": 5,
+   "n": 480,
+   "mae": 6.45,
+   "lineup_avg": 104.61,
+   "by_week_mae": [
+    7.16,
+    6.39,
+    5.59,
+    6.03,
+    7.08
+   ],
+   "by_week_lineup": [
+    108.45,
+    95.12,
+    103.73,
+    106.29,
+    109.46
+   ]
+  },
+  {
+   "model": "blend w=0.65 k=4 +deffix",
+   "weeks": 5,
+   "n": 480,
+   "mae": 6.46,
+   "lineup_avg": 104.61,
+   "by_week_mae": [
+    7.14,
+    6.45,
+    5.62,
+    6.06,
+    7.04
+   ],
+   "by_week_lineup": [
+    108.45,
+    95.12,
+    103.73,
+    106.29,
+    109.46
    ]
   },
   {
    "model": "blend w=0.5 k=4 +deffix",
-   "weeks": 4,
-   "n": 384,
-   "mae": 6.31,
-   "lineup_avg": 103.59,
+   "weeks": 5,
+   "n": 480,
+   "mae": 6.48,
+   "lineup_avg": 104.51,
    "by_week_mae": [
     7.15,
     6.44,
     5.6,
-    6.06
+    6.06,
+    7.13
    ],
    "by_week_lineup": [
     108.45,
     95.12,
     104.52,
-    106.29
-   ]
-  },
-  {
-   "model": "blend w=0.8 k=2",
-   "weeks": 4,
-   "n": 384,
-   "mae": 6.32,
-   "lineup_avg": 103.59,
-   "by_week_mae": [
-    7.16,
-    6.44,
-    5.63,
-    6.06
-   ],
-   "by_week_lineup": [
-    108.69,
-    95.12,
-    103.68,
-    106.89
-   ]
-  },
-  {
-   "model": "blend w=0.8 k=2 +deffix",
-   "weeks": 4,
-   "n": 384,
-   "mae": 6.35,
-   "lineup_avg": 103.59,
-   "by_week_mae": [
-    7.14,
-    6.5,
-    5.67,
-    6.09
-   ],
-   "by_week_lineup": [
-    108.69,
-    95.12,
-    103.68,
-    106.89
-   ]
-  },
-  {
-   "model": "blend w=0.5 k=4",
-   "weeks": 4,
-   "n": 384,
-   "mae": 6.29,
-   "lineup_avg": 103.4,
-   "by_week_mae": [
-    7.16,
-    6.4,
-    5.58,
-    6.04
-   ],
-   "by_week_lineup": [
-    108.45,
-    95.12,
-    103.73,
-    106.29
-   ]
-  },
-  {
-   "model": "blend w=0.65 k=4",
-   "weeks": 4,
-   "n": 384,
-   "mae": 6.29,
-   "lineup_avg": 103.4,
-   "by_week_mae": [
-    7.16,
-    6.39,
-    5.59,
-    6.03
-   ],
-   "by_week_lineup": [
-    108.45,
-    95.12,
-    103.73,
-    106.29
-   ]
-  },
-  {
-   "model": "blend w=0.65 k=4 +deffix",
-   "weeks": 4,
-   "n": 384,
-   "mae": 6.32,
-   "lineup_avg": 103.4,
-   "by_week_mae": [
-    7.14,
-    6.45,
-    5.62,
-    6.06
-   ],
-   "by_week_lineup": [
-    108.45,
-    95.12,
-    103.73,
-    106.29
+    106.29,
+    108.19
    ]
   },
   {
    "model": "blend w=0.65 k=2",
-   "weeks": 4,
-   "n": 384,
-   "mae": 6.33,
-   "lineup_avg": 103.32,
+   "weeks": 5,
+   "n": 480,
+   "mae": 6.48,
+   "lineup_avg": 104.48,
    "by_week_mae": [
     7.16,
     6.45,
     5.63,
-    6.06
+    6.06,
+    7.11
    ],
    "by_week_lineup": [
     108.45,
     95.23,
     103.73,
-    105.87
+    105.87,
+    109.13
    ]
   },
   {
    "model": "blend w=0.65 k=2 +deffix",
-   "weeks": 4,
-   "n": 384,
-   "mae": 6.34,
-   "lineup_avg": 103.32,
+   "weeks": 5,
+   "n": 480,
+   "mae": 6.49,
+   "lineup_avg": 104.48,
    "by_week_mae": [
     7.14,
     6.49,
     5.66,
-    6.09
+    6.09,
+    7.07
    ],
    "by_week_lineup": [
     108.45,
     95.23,
     103.73,
-    105.87
+    105.87,
+    109.13
+   ]
+  },
+  {
+   "model": "blend w=0.5 k=4",
+   "weeks": 5,
+   "n": 480,
+   "mae": 6.47,
+   "lineup_avg": 104.36,
+   "by_week_mae": [
+    7.16,
+    6.4,
+    5.58,
+    6.04,
+    7.16
+   ],
+   "by_week_lineup": [
+    108.45,
+    95.12,
+    103.73,
+    106.29,
+    108.19
    ]
   },
   {
    "model": "blend w=0.5 k=2",
-   "weeks": 4,
-   "n": 384,
-   "mae": 6.34,
-   "lineup_avg": 102.87,
+   "weeks": 5,
+   "n": 480,
+   "mae": 6.51,
+   "lineup_avg": 104.08,
    "by_week_mae": [
     7.16,
     6.47,
     5.65,
-    6.09
+    6.09,
+    7.19
    ],
    "by_week_lineup": [
     108.45,
     95.16,
     102.0,
-    105.87
+    105.87,
+    108.93
    ]
   },
   {
    "model": "blend w=0.5 k=2 +deffix",
-   "weeks": 4,
-   "n": 384,
-   "mae": 6.36,
-   "lineup_avg": 102.87,
+   "weeks": 5,
+   "n": 480,
+   "mae": 6.52,
+   "lineup_avg": 104.08,
    "by_week_mae": [
     7.15,
     6.51,
     5.66,
-    6.11
+    6.11,
+    7.17
    ],
    "by_week_lineup": [
     108.45,
     95.16,
     102.0,
-    105.87
+    105.87,
+    108.93
    ]
   }
  ]
