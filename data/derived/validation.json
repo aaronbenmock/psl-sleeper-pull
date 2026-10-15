@@ -39,24 +39,18 @@
   "id": "ages",
   "status": "info",
   "title": "Input ages at build time",
-  "finding": "weekly pull 0.0h, injury table 4.9h, players cache 4.9h, newest snapshot 41.1h (week 5)"
+  "finding": "weekly pull 19.0h, injury table 0.0h, players cache 0.0h, newest snapshot 60.1h (week 5)"
  },
  {
   "id": "names_cache",
   "status": "ok",
   "title": "Transaction player names",
-  "finding": "All 92 player ids in the transaction log resolve to a name (876 in data/players/names_cache.json)."
+  "finding": "All 104 player ids in the transaction log resolve to a name (876 in data/players/names_cache.json)."
  },
  {
   "id": "preferences",
   "status": "ok",
   "title": "Preferences",
   "finding": "config/preferences.json: claims exclude TE; FAAB leftover tendency on."
- },
- {
-  "id": "build_errors",
-  "status": "fail",
-  "title": "Build errors",
-  "finding": "lineup: 'why'"
  }
 ]

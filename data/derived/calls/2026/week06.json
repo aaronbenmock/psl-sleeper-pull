@@ -1,0 +1,214 @@
+{
+ "week": 6,
+ "first_recorded_utc": "2026-10-15T11:23:01Z",
+ "source": "live build",
+ "updated_utc": "2026-10-15T11:23:01Z",
+ "start_sit": [
+  {
+   "type": "start_sit",
+   "kind": "change",
+   "player_id": "12506",
+   "name": "Harold Fannin",
+   "alt_id": "5947",
+   "alt_name": "Jakobi Meyers",
+   "expected": 8.37,
+   "alt_expected": 7.69,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "12506",
+   "name": "Harold Fannin",
+   "alt_id": "5947",
+   "alt_name": "Jakobi Meyers",
+   "expected": 8.37,
+   "alt_expected": 7.69,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "13346",
+   "name": "Denzel Boston",
+   "alt_id": "5947",
+   "alt_name": "Jakobi Meyers",
+   "expected": 8.21,
+   "alt_expected": 7.69,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "SEA",
+   "name": "SEA DEF",
+   "alt_id": "KC",
+   "alt_name": "KC DEF",
+   "expected": 9.63,
+   "alt_expected": 9.33,
+   "started": false
+  }
+ ],
+ "lineup": [
+  {
+   "slot": "QB",
+   "player_id": "4984",
+   "name": "Josh Allen",
+   "expected": 27.2,
+   "started": false,
+   "frozen": false
+  },
+  {
+   "slot": "RB",
+   "player_id": "6813",
+   "name": "Jonathan Taylor",
+   "expected": 19.85,
+   "started": false,
+   "frozen": false
+  },
+  {
+   "slot": "RB",
+   "player_id": "12474",
+   "name": "Woody Marks",
+   "expected": 11.22,
+   "started": false,
+   "frozen": false
+  },
+  {
+   "slot": "WR",
+   "player_id": "2133",
+   "name": "Davante Adams",
+   "expected": 14.8,
+   "started": false,
+   "frozen": false
+  },
+  {
+   "slot": "WR",
+   "player_id": "5846",
+   "name": "DK Metcalf",
+   "expected": 9.56,
+   "started": false,
+   "frozen": false
+  },
+  {
+   "slot": "FLEX",
+   "player_id": "12506",
+   "name": "Harold Fannin",
+   "expected": 8.37,
+   "started": false,
+   "frozen": false
+  },
+  {
+   "slot": "FLEX",
+   "player_id": "13346",
+   "name": "Denzel Boston",
+   "expected": 8.21,
+   "started": false,
+   "frozen": false
+  },
+  {
+   "slot": "DEF",
+   "player_id": "SEA",
+   "name": "SEA DEF",
+   "expected": 9.63,
+   "started": false,
+   "frozen": false
+  }
+ ],
+ "claims_freeze_utc": "2026-10-22T07:00:00Z",
+ "claims": [
+  {
+   "type": "claim",
+   "player_id": "12536",
+   "name": "Jaylin Noel",
+   "pos": "WR",
+   "bid": 4,
+   "league_bid": 5,
+   "alt_id": "5045",
+   "alt_name": "Courtland Sutton"
+  },
+  {
+   "type": "def_stream",
+   "player_id": "CIN",
+   "name": "CIN DEF",
+   "pos": "DEF",
+   "bid": 4,
+   "league_bid": 4,
+   "alt_id": "KC",
+   "alt_name": "KC DEF"
+  },
+  {
+   "type": "speculative",
+   "player_id": "12542",
+   "name": "Efton Chism",
+   "pos": "WR",
+   "bid": 8,
+   "alt_id": "5045",
+   "alt_name": "Courtland Sutton"
+  },
+  {
+   "type": "speculative",
+   "player_id": "12048",
+   "name": "George Holani",
+   "pos": "RB",
+   "bid": 8,
+   "alt_id": "5045",
+   "alt_name": "Courtland Sutton"
+  },
+  {
+   "type": "speculative",
+   "player_id": "13274",
+   "name": "Germie Bernard",
+   "pos": "WR",
+   "bid": 8,
+   "alt_id": "5045",
+   "alt_name": "Courtland Sutton"
+  },
+  {
+   "type": "speculative",
+   "player_id": "9757",
+   "name": "Kendre Miller",
+   "pos": "RB",
+   "bid": 8,
+   "alt_id": "5045",
+   "alt_name": "Courtland Sutton"
+  },
+  {
+   "type": "speculative",
+   "player_id": "12547",
+   "name": "Kyle Williams",
+   "pos": "WR",
+   "bid": 7,
+   "alt_id": "5045",
+   "alt_name": "Courtland Sutton"
+  },
+  {
+   "type": "speculative",
+   "player_id": "11439",
+   "name": "Jaleel McLaughlin",
+   "pos": "RB",
+   "bid": 8,
+   "alt_id": "5045",
+   "alt_name": "Courtland Sutton"
+  },
+  {
+   "type": "speculative",
+   "player_id": "4147",
+   "name": "Samaje Perine",
+   "pos": "RB",
+   "bid": 8,
+   "alt_id": "5045",
+   "alt_name": "Courtland Sutton"
+  },
+  {
+   "type": "speculative",
+   "player_id": "6828",
+   "name": "AJ Dillon",
+   "pos": "RB",
+   "bid": 8,
+   "alt_id": "5045",
+   "alt_name": "Courtland Sutton"
+  }
+ ],
+ "claims_rec_utc": "2026-10-15T11:23:01Z"
+}

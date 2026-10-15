@@ -2,11 +2,11 @@
  "tasks": {
   "build": {
    "task": "build",
-   "ok": false,
-   "summary": "failed: build completed with section errors: lineup: 'why'",
-   "started_utc": "2026-10-14T16:20:44Z",
-   "finished_utc": "2026-10-14T16:20:45Z",
-   "error": "Traceback (most recent call last):\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine.py\", line 36, in _run_task\n    fn(**kw)\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine/build.py\", line 119, in run\n    raise RuntimeError(\"build completed with section errors: \" + \"; \".join(errors))\nRuntimeError: build completed with section errors: lineup: 'why'\n"
+   "ok": true,
+   "summary": "index.html + reports/2026/week06.html; lineup changes 1, claims 2, signals 16, accuracy weeks 5",
+   "started_utc": "2026-10-15T11:23:01Z",
+   "finished_utc": "2026-10-15T11:23:02Z",
+   "error": null
   },
   "pull": {
    "task": "pull",
@@ -21,9 +21,9 @@
   "injuries": {
    "task": "injuries",
    "ok": true,
-   "summary": "182 rostered players tracked, 51 changes since 2026-10-13, 4 of mine carry an injury tag, 13 transactions refreshed, players cache pulled",
-   "started_utc": "2026-10-14T11:24:14Z",
-   "finished_utc": "2026-10-14T11:24:14Z",
+   "summary": "183 rostered players tracked, 77 changes since 2026-10-14, 5 of mine carry an injury tag, 47 transactions refreshed, players cache pulled",
+   "started_utc": "2026-10-15T11:22:59Z",
+   "finished_utc": "2026-10-15T11:23:00Z",
    "error": null
   },
   "snapshot": {
@@ -54,22 +54,6 @@
   }
  },
  "runs": [
-  {
-   "task": "injuries",
-   "ok": true,
-   "summary": "183 rostered players tracked, 127 changes since 2026-09-27, 2 of mine carry an injury tag, players cache pulled",
-   "started_utc": "2026-09-28T11:11:17Z",
-   "finished_utc": "2026-09-28T11:11:18Z",
-   "error": null
-  },
-  {
-   "task": "build",
-   "ok": true,
-   "summary": "index.html + reports/2026/week03.html; lineup changes 0, claims 8, signals 15, accuracy weeks 2",
-   "started_utc": "2026-09-28T11:11:18Z",
-   "finished_utc": "2026-09-28T11:11:18Z",
-   "error": null
-  },
   {
    "task": "snapshot",
    "ok": true,
@@ -1735,14 +1719,30 @@
    "started_utc": "2026-10-14T16:20:44Z",
    "finished_utc": "2026-10-14T16:20:45Z",
    "error": "Traceback (most recent call last):\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine.py\", line 36, in _run_task\n    fn(**kw)\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine/build.py\", line 119, in run\n    raise RuntimeError(\"build completed with section errors: \" + \"; \".join(errors))\nRuntimeError: build completed with section errors: lineup: 'why'\n"
+  },
+  {
+   "task": "injuries",
+   "ok": true,
+   "summary": "183 rostered players tracked, 77 changes since 2026-10-14, 5 of mine carry an injury tag, 47 transactions refreshed, players cache pulled",
+   "started_utc": "2026-10-15T11:22:59Z",
+   "finished_utc": "2026-10-15T11:23:00Z",
+   "error": null
+  },
+  {
+   "task": "build",
+   "ok": true,
+   "summary": "index.html + reports/2026/week06.html; lineup changes 1, claims 2, signals 16, accuracy weeks 5",
+   "started_utc": "2026-10-15T11:23:01Z",
+   "finished_utc": "2026-10-15T11:23:02Z",
+   "error": null
   }
  ],
  "last_run": {
   "task": "build",
-  "ok": false,
-  "summary": "failed: build completed with section errors: lineup: 'why'",
-  "started_utc": "2026-10-14T16:20:44Z",
-  "finished_utc": "2026-10-14T16:20:45Z",
-  "error": "Traceback (most recent call last):\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine.py\", line 36, in _run_task\n    fn(**kw)\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine/build.py\", line 119, in run\n    raise RuntimeError(\"build completed with section errors: \" + \"; \".join(errors))\nRuntimeError: build completed with section errors: lineup: 'why'\n"
+  "ok": true,
+  "summary": "index.html + reports/2026/week06.html; lineup changes 1, claims 2, signals 16, accuracy weeks 5",
+  "started_utc": "2026-10-15T11:23:01Z",
+  "finished_utc": "2026-10-15T11:23:02Z",
+  "error": null
  }
 }
