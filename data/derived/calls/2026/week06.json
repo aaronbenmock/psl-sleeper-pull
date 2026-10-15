@@ -2,7 +2,7 @@
  "week": 6,
  "first_recorded_utc": "2026-10-15T11:23:01Z",
  "source": "live build",
- "updated_utc": "2026-10-15T11:23:01Z",
+ "updated_utc": "2026-10-15T12:17:23Z",
  "start_sit": [
   {
    "type": "start_sit",
@@ -12,7 +12,7 @@
    "alt_id": "5947",
    "alt_name": "Jakobi Meyers",
    "expected": 8.37,
-   "alt_expected": 7.69,
+   "alt_expected": 7.68,
    "started": false
   },
   {
@@ -23,7 +23,7 @@
    "alt_id": "5947",
    "alt_name": "Jakobi Meyers",
    "expected": 8.37,
-   "alt_expected": 7.69,
+   "alt_expected": 7.68,
    "started": false
   },
   {
@@ -33,8 +33,8 @@
    "name": "Denzel Boston",
    "alt_id": "5947",
    "alt_name": "Jakobi Meyers",
-   "expected": 8.21,
-   "alt_expected": 7.69,
+   "expected": 8.25,
+   "alt_expected": 7.68,
    "started": false
   },
   {
@@ -62,7 +62,7 @@
    "slot": "RB",
    "player_id": "6813",
    "name": "Jonathan Taylor",
-   "expected": 19.85,
+   "expected": 19.99,
    "started": false,
    "frozen": false
   },
@@ -70,7 +70,7 @@
    "slot": "RB",
    "player_id": "12474",
    "name": "Woody Marks",
-   "expected": 11.22,
+   "expected": 11.21,
    "started": false,
    "frozen": false
   },
@@ -86,7 +86,7 @@
    "slot": "WR",
    "player_id": "5846",
    "name": "DK Metcalf",
-   "expected": 9.56,
+   "expected": 9.58,
    "started": false,
    "frozen": false
   },
@@ -102,7 +102,7 @@
    "slot": "FLEX",
    "player_id": "13346",
    "name": "Denzel Boston",
-   "expected": 8.21,
+   "expected": 8.25,
    "started": false,
    "frozen": false
   },
@@ -210,5 +210,5 @@
    "alt_name": "Courtland Sutton"
   }
  ],
- "claims_rec_utc": "2026-10-15T11:23:01Z"
+ "claims_rec_utc": "2026-10-15T12:17:23Z"
 }
