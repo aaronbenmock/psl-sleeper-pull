@@ -138,19 +138,6 @@
    "why": "Rest-of-season value about 9.6 a week (model+season; next week n/a). He would not start over anyone you have, so the gain is depth only: +0.5 a week (a quarter of his edge over KC DEF).",
    "threats": [
     {
-     "roster_id": 12,
-     "team": "Baker\u2019s Dozen",
-     "remaining": 189,
-     "score": 1.5,
-     "why": [
-      "just dropped GB DEF",
-      "has bid on a DEF before"
-     ],
-     "usual_bid": 11,
-     "repeated": [],
-     "pos_max": 1
-    },
-    {
      "roster_id": 4,
      "team": "City of Champyinz",
      "remaining": 97,
@@ -180,6 +167,18 @@
       1
      ],
      "pos_max": 28
+    },
+    {
+     "roster_id": 5,
+     "team": "Eazy E Squad",
+     "remaining": 200,
+     "score": 1.0,
+     "why": [
+      "just dropped KC DEF"
+     ],
+     "usual_bid": null,
+     "repeated": [],
+     "pos_max": null
     }
    ],
    "league_bid": 4,
@@ -417,8 +416,8 @@
      "remaining": 94,
      "score": 8.5,
      "why": [
-      "owns Mack Hollins (IR), the NE WR he would replace",
       "owns A.J. Brown (IR), the NE WR he would replace",
+      "owns Mack Hollins (IR), the NE WR he would replace",
       "has bid on a WR before"
      ],
      "usual_bid": 7,
@@ -740,8 +739,8 @@
      "remaining": 94,
      "score": 7.0,
      "why": [
-      "owns Travis Etienne (IR), the NO RB he would replace",
       "owns Alvin Kamara (Questionable), a NO RB he could replace",
+      "owns Travis Etienne (IR), the NO RB he would replace",
       "bye next week for Jaylen Wright",
       "has bid on a RB before"
      ],
@@ -765,17 +764,17 @@
      "pos_max": null
     },
     {
-     "roster_id": 11,
-     "team": "RafiBomb",
-     "remaining": 190,
+     "roster_id": 12,
+     "team": "Baker\u2019s Dozen",
+     "remaining": 189,
      "score": 1.5,
      "why": [
-      "just dropped Joe Mixon",
+      "starter Tyjae Spears Questionable",
       "has bid on a RB before"
      ],
-     "usual_bid": 0.0,
+     "usual_bid": 11,
      "repeated": [],
-     "pos_max": 10
+     "pos_max": 32
     }
    ],
    "league_bid": 21,
@@ -841,8 +840,8 @@
      "remaining": 94,
      "score": 8.5,
      "why": [
-      "owns Mack Hollins (IR), the NE WR he would replace",
       "owns A.J. Brown (IR), the NE WR he would replace",
+      "owns Mack Hollins (IR), the NE WR he would replace",
       "has bid on a WR before"
      ],
      "usual_bid": 7,
@@ -1151,20 +1150,6 @@
    "role_open_now": false,
    "threats": [
     {
-     "roster_id": 11,
-     "team": "RafiBomb",
-     "remaining": 190,
-     "score": 2.5,
-     "why": [
-      "owns Chuba Hubbard, the CAR RB1 (handcuff interest)",
-      "just dropped Joe Mixon",
-      "has bid on a RB before"
-     ],
-     "usual_bid": 0.0,
-     "repeated": [],
-     "pos_max": 10
-    },
-    {
      "roster_id": 2,
      "team": "Amateur Hour",
      "remaining": 94,
@@ -1192,6 +1177,19 @@
      "usual_bid": null,
      "repeated": [],
      "pos_max": null
+    },
+    {
+     "roster_id": 11,
+     "team": "RafiBomb",
+     "remaining": 190,
+     "score": 1.5,
+     "why": [
+      "owns Chuba Hubbard, the CAR RB1 (handcuff interest)",
+      "has bid on a RB before"
+     ],
+     "usual_bid": 0.0,
+     "repeated": [],
+     "pos_max": 10
     }
    ],
    "league_bid": 21,
@@ -1631,12 +1629,12 @@
    "pos": "WR",
    "team": "JAX",
    "opp": "HOU",
-   "sleeper": 7.23,
+   "sleeper": 7.21,
    "preseason": 9.21,
    "season_avg": 7.98,
    "n_games": 5,
    "baseline": 8.53,
-   "expected": 7.68,
+   "expected": 7.67,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -1988,12 +1986,12 @@
    "pos": "WR",
    "team": "JAX",
    "opp": "HOU",
-   "sleeper": 7.23,
+   "sleeper": 7.21,
    "preseason": 9.21,
    "season_avg": 7.98,
    "n_games": 5,
    "baseline": 8.53,
-   "expected": 7.68,
+   "expected": 7.67,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -2124,12 +2122,12 @@
    "pos": "RB",
    "team": "HOU",
    "opp": "JAX",
-   "sleeper": 12.5,
+   "sleeper": 12.52,
    "preseason": 8.26,
    "season_avg": 9.26,
    "n_games": 5,
    "baseline": 8.81,
-   "expected": 11.21,
+   "expected": 11.22,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -2687,12 +2685,12 @@
    "pos": "RB",
    "team": "HOU",
    "opp": "JAX",
-   "sleeper": 12.5,
+   "sleeper": 12.52,
    "preseason": 8.26,
    "season_avg": 9.26,
    "n_games": 5,
    "baseline": 8.81,
-   "expected": 11.21,
+   "expected": 11.22,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -2830,12 +2828,12 @@
    "pos": "WR",
    "team": "JAX",
    "opp": "HOU",
-   "sleeper": 7.23,
+   "sleeper": 7.21,
    "preseason": 9.21,
    "season_avg": 7.98,
    "n_games": 5,
    "baseline": 8.53,
-   "expected": 7.68,
+   "expected": 7.67,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
