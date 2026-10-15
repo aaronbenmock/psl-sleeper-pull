@@ -1,10 +1,10 @@
 {
  "week": 6,
- "generated_at_utc": "2026-10-15T17:01:11Z",
+ "generated_at_utc": "2026-10-15T23:21:25Z",
  "source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-10-15T15:57:35Z",
-  "label": "thu_late_am"
+  "taken_at_utc": "2026-10-15T23:21:25Z",
+  "label": "thu_pm"
  },
  "lineup": [
   {
@@ -39,12 +39,12 @@
    "pos": "RB",
    "team": "IND",
    "opp": "TEN",
-   "sleeper": 21.38,
+   "sleeper": 21.76,
    "preseason": 16.44,
    "season_avg": 18.18,
    "n_games": 5,
    "baseline": 17.4,
-   "expected": 19.99,
+   "expected": 20.24,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -57,7 +57,7 @@
    "started": false,
    "actual_so_far": null,
    "slot": "RB",
-   "why": "Sleeper projects 21.4, season average 18.2 over 5 games, preseason model 16.4. Blended expectation 20.0 vs TEN.",
+   "why": "Sleeper projects 21.8, season average 18.2 over 5 games, preseason model 16.4. Blended expectation 20.2 vs TEN.",
    "vacated": {
     "player_id": "00-0036223",
     "pos": "RB",
@@ -90,12 +90,12 @@
    "pos": "RB",
    "team": "HOU",
    "opp": "JAX",
-   "sleeper": 12.52,
+   "sleeper": 12.64,
    "preseason": 8.26,
    "season_avg": 9.26,
    "n_games": 5,
    "baseline": 8.81,
-   "expected": 11.22,
+   "expected": 11.3,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -108,7 +108,7 @@
    "started": false,
    "actual_so_far": null,
    "slot": "RB",
-   "why": "Sleeper projects 12.5, season average 9.3 over 5 games, preseason model 8.3. Blended expectation 11.2 vs JAX.",
+   "why": "Sleeper projects 12.6, season average 9.3 over 5 games, preseason model 8.3. Blended expectation 11.3 vs JAX.",
    "vacated": {
     "player_id": "00-0040583",
     "pos": "RB",
@@ -148,12 +148,12 @@
    "pos": "WR",
    "team": "LAR",
    "opp": "ARI",
-   "sleeper": 14.82,
+   "sleeper": 14.51,
    "preseason": 12.3,
    "season_avg": 16.72,
    "n_games": 5,
    "baseline": 14.76,
-   "expected": 14.8,
+   "expected": 14.6,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -166,7 +166,7 @@
    "started": false,
    "actual_so_far": null,
    "slot": "WR",
-   "why": "Sleeper projects 14.8, season average 16.7 over 5 games, preseason model 12.3. Blended expectation 14.8 vs ARI.",
+   "why": "Sleeper projects 14.5, season average 16.7 over 5 games, preseason model 12.3. Blended expectation 14.6 vs ARI.",
    "vacated": {
     "player_id": "00-0031381",
     "pos": "WR",
@@ -199,12 +199,12 @@
    "pos": "WR",
    "team": "PIT",
    "opp": "TB",
-   "sleeper": 10.0,
+   "sleeper": 10.07,
    "preseason": 10.03,
    "season_avg": 7.82,
    "n_games": 5,
    "baseline": 8.8,
-   "expected": 9.58,
+   "expected": 9.63,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -217,7 +217,7 @@
    "started": false,
    "actual_so_far": null,
    "slot": "WR",
-   "why": "Sleeper projects 10.0, season average 7.8 over 5 games, preseason model 10.0. Blended expectation 9.6 vs TB.",
+   "why": "Sleeper projects 10.1, season average 7.8 over 5 games, preseason model 10.0. Blended expectation 9.6 vs TB.",
    "vacated": {
     "player_id": " 00-0035640",
     "pos": "WR",
@@ -266,12 +266,12 @@
    "pos": "TE",
    "team": "CLE",
    "opp": "BAL",
-   "sleeper": 8.38,
+   "sleeper": 8.35,
    "preseason": 8.09,
    "season_avg": 8.54,
    "n_games": 5,
    "baseline": 8.34,
-   "expected": 8.37,
+   "expected": 8.35,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -284,7 +284,7 @@
    "started": false,
    "actual_so_far": null,
    "slot": "FLEX",
-   "why": "Sleeper projects 8.4, season average 8.5 over 5 games, preseason model 8.1. Blended expectation 8.4 vs BAL.",
+   "why": "Sleeper projects 8.3, season average 8.5 over 5 games, preseason model 8.1. Blended expectation 8.3 vs BAL.",
    "vacated": {
     "player_id": "00-0040663",
     "pos": "TE",
@@ -317,12 +317,12 @@
    "pos": "WR",
    "team": "CLE",
    "opp": "BAL",
-   "sleeper": 8.71,
+   "sleeper": 8.68,
    "preseason": 6.59,
    "season_avg": 12.73,
    "n_games": 5,
    "baseline": 10.0,
-   "expected": 8.25,
+   "expected": 8.23,
    "injury_status": "Questionable",
    "injury_body_part": "Foot",
    "practice": null,
@@ -396,12 +396,12 @@
    "pos": "DEF",
    "team": "KC",
    "opp": "LAC",
-   "sleeper": 10.35,
+   "sleeper": 10.37,
    "preseason": 7.55,
    "season_avg": 7.33,
    "n_games": 4,
    "baseline": 7.44,
-   "expected": 9.33,
+   "expected": 9.34,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -414,7 +414,7 @@
    "started": false,
    "actual_so_far": null,
    "slot": "BN",
-   "why": "Sleeper projects 10.3, season average 7.3 over 4 games, preseason model 7.5. Blended expectation 9.3 vs LAC."
+   "why": "Sleeper projects 10.4, season average 7.3 over 4 games, preseason model 7.5. Blended expectation 9.3 vs LAC."
   },
   {
    "player_id": "5947",
@@ -422,12 +422,12 @@
    "pos": "WR",
    "team": "JAX",
    "opp": "HOU",
-   "sleeper": 7.21,
+   "sleeper": 7.2,
    "preseason": 9.21,
    "season_avg": 7.98,
    "n_games": 5,
    "baseline": 8.53,
-   "expected": 7.67,
+   "expected": 7.66,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -530,12 +530,12 @@
    "pos": "RB",
    "team": "PIT",
    "opp": "TB",
-   "sleeper": 6.52,
+   "sleeper": 6.45,
    "preseason": 10.44,
    "season_avg": 4.25,
    "n_games": 2,
    "baseline": 8.38,
-   "expected": 6.45,
+   "expected": 6.41,
    "injury_status": "Questionable",
    "injury_body_part": "Toe",
    "practice": null,
@@ -548,7 +548,7 @@
    "started": false,
    "actual_so_far": null,
    "slot": "BN",
-   "why": "Sleeper projects 6.5, season average 4.2 over 2 games, preseason model 10.4, Questionable (Toe) cuts it by 9%. Blended expectation 6.5 vs TB.",
+   "why": "Sleeper projects 6.5, season average 4.2 over 2 games, preseason model 10.4, Questionable (Toe) cuts it by 9%. Blended expectation 6.4 vs TB.",
    "vacated": {
     "player_id": "00-0036139",
     "pos": "RB",
@@ -726,9 +726,9 @@
   {
    "out": "Jakobi Meyers",
    "in": "Harold Fannin",
-   "out_expected": 7.67,
-   "in_expected": 8.37,
-   "why": "Harold Fannin 8.4 vs Jakobi Meyers 7.7 expected (+0.7). "
+   "out_expected": 7.66,
+   "in_expected": 8.35,
+   "why": "Harold Fannin 8.3 vs Jakobi Meyers 7.7 expected (+0.7). "
   }
  ],
  "close_calls": [
@@ -740,7 +740,7 @@
    "vacated_starter": 0.0,
    "vacated_bench": 0.0,
    "vacated_note": null,
-   "why": "Harold Fannin 8.4 vs Jakobi Meyers 7.7, only 0.7 apart. Tiebreak: Harold Fannin has the higher ceiling (boom rate 19% vs 13%)."
+   "why": "Harold Fannin 8.3 vs Jakobi Meyers 7.7, only 0.7 apart. Tiebreak: Harold Fannin has the higher ceiling (boom rate 19% vs 13%)."
   },
   {
    "slot": "FLEX",
@@ -763,9 +763,9 @@
    "why": "SEA DEF 9.6 vs KC DEF 9.3, only 0.3 apart."
   }
  ],
- "expected_total": 109.0,
+ "expected_total": 109.2,
  "notes": [
-  "Projections are from the thu_late_am snapshot taken Thu Oct 15 10:57 AM Central."
+  "Projections are from the thu_pm snapshot taken Thu Oct 15 06:21 PM Central."
  ],
  "warnings": [],
  "vacated_meta": {

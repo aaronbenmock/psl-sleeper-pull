@@ -50,7 +50,7 @@
    "efficiency": 0.85,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 127.68,
+   "proj_next": 128.51,
    "future_opps": [
     1,
     2,
@@ -104,7 +104,7 @@
    "trend": 15.6,
    "trend_label": "rising",
    "sos_remaining": 100.32,
-   "power": 126.4,
+   "power": 126.7,
    "power_rank": 1,
    "pf_rank": 2
   },
@@ -155,7 +155,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 113.76,
+   "proj_next": 114.48,
    "future_opps": [
     5,
     9,
@@ -209,7 +209,7 @@
    "trend": -10.4,
    "trend_label": "falling",
    "sos_remaining": 99.97,
-   "power": 124.1,
+   "power": 124.4,
    "power_rank": 2,
    "pf_rank": 1
   },
@@ -253,7 +253,7 @@
    "efficiency": 0.89,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 122.98,
+   "proj_next": 121.28,
    "future_opps": [
     2,
     4,
@@ -307,7 +307,7 @@
    "trend": 17.0,
    "trend_label": "rising",
    "sos_remaining": 99.4,
-   "power": 118.9,
+   "power": 118.2,
    "power_rank": 3,
    "pf_rank": 4
   },
@@ -358,7 +358,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 110.21,
+   "proj_next": 110.43,
    "future_opps": [
     6,
     12,
@@ -412,7 +412,7 @@
    "trend": -4.7,
    "trend_label": "falling",
    "sos_remaining": 104.98,
-   "power": 110.5,
+   "power": 110.6,
    "power_rank": 4,
    "pf_rank": 6
   },
@@ -469,7 +469,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 106.99,
+   "proj_next": 105.53,
    "future_opps": [
     9,
     6,
@@ -523,7 +523,7 @@
    "trend": -2.2,
    "trend_label": "flat",
    "sos_remaining": 102.93,
-   "power": 110.1,
+   "power": 109.5,
    "power_rank": 5,
    "pf_rank": 5
   },
@@ -574,7 +574,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 86.26,
+   "proj_next": 86.77,
    "future_opps": [
     4,
     8,
@@ -628,7 +628,7 @@
    "trend": -4.4,
    "trend_label": "falling",
    "sos_remaining": 102.65,
-   "power": 105.4,
+   "power": 105.6,
    "power_rank": 6,
    "pf_rank": 3
   },
@@ -679,7 +679,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 97.24,
+   "proj_next": 97.33,
    "future_opps": [
     11,
     5,
@@ -777,7 +777,7 @@
    "efficiency": 0.88,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 98.36,
+   "proj_next": 97.23,
    "future_opps": [
     8,
     10,
@@ -831,7 +831,7 @@
    "trend": 6.9,
    "trend_label": "rising",
    "sos_remaining": 105.76,
-   "power": 100.9,
+   "power": 100.5,
    "power_rank": 8,
    "pf_rank": 8
   },
@@ -875,7 +875,7 @@
    "efficiency": 0.8,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 86.85,
+   "proj_next": 87.72,
    "future_opps": [
     10,
     3,
@@ -929,7 +929,7 @@
    "trend": -10.5,
    "trend_label": "falling",
    "sos_remaining": 108.06,
-   "power": 90.6,
+   "power": 90.9,
    "power_rank": 9,
    "pf_rank": 9
   },
@@ -986,7 +986,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 87.43,
+   "proj_next": 76.93,
    "future_opps": [
     12,
     7,
@@ -1036,7 +1036,7 @@
    "trend": -0.5,
    "trend_label": "flat",
    "sos_remaining": 107.81,
-   "power": 87.4,
+   "power": 83.2,
    "power_rank": 10,
    "pf_rank": 10
   },
@@ -1095,7 +1095,7 @@
    "byes_next": [
     "Justin Jefferson"
    ],
-   "proj_next": 66.31,
+   "proj_next": 65.88,
    "future_opps": [
     3,
     1,
@@ -1149,7 +1149,7 @@
    "trend": -0.5,
    "trend_label": "flat",
    "sos_remaining": 108.57,
-   "power": 76.3,
+   "power": 76.1,
    "power_rank": 11,
    "pf_rank": 11
   },
@@ -1208,7 +1208,7 @@
    "byes_next": [
     "Jaylen Wright"
    ],
-   "proj_next": 69.33,
+   "proj_next": 68.86,
    "future_opps": [
     7,
     11,
@@ -1262,7 +1262,7 @@
    "trend": 6.1,
    "trend_label": "rising",
    "sos_remaining": 110.0,
-   "power": 67.5,
+   "power": 67.4,
    "power_rank": 12,
    "pf_rank": 12
   }
@@ -1370,7 +1370,7 @@
  ],
  "projection_source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-10-15T15:57:35Z",
-  "label": "thu_late_am"
+  "taken_at_utc": "2026-10-15T23:21:25Z",
+  "label": "thu_pm"
  }
 }
