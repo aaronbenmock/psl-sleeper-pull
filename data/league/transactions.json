@@ -1,5 +1,5 @@
 {
- "pulled_at_utc": "2026-10-15T11:23:00Z",
+ "pulled_at_utc": "2026-10-16T11:22:44Z",
  "by_week": {
   "1": [
    {
@@ -3833,6 +3833,106 @@
     "status_updated": 1792057677942,
     "leg": 6,
     "creator": "302953456358920192",
+    "metadata": null
+   },
+   {
+    "transaction_id": "1416420629514665984",
+    "type": "free_agent",
+    "status": "complete",
+    "roster_ids": [
+     6
+    ],
+    "adds": {
+     "8134": 6
+    },
+    "drops": {
+     "13264": 6
+    },
+    "settings": null,
+    "created": 1792063503200,
+    "status_updated": 1792063503200,
+    "leg": 6,
+    "creator": "488431631342759936",
+    "metadata": null
+   },
+   {
+    "transaction_id": "1416458626649858048",
+    "type": "free_agent",
+    "status": "complete",
+    "roster_ids": [
+     12
+    ],
+    "adds": {
+     "IND": 12
+    },
+    "drops": {
+     "NYJ": 12
+    },
+    "settings": null,
+    "created": 1792072562424,
+    "status_updated": 1792072562424,
+    "leg": 6,
+    "creator": "845806173256011776",
+    "metadata": null
+   },
+   {
+    "transaction_id": "1416506672037269504",
+    "type": "free_agent",
+    "status": "complete",
+    "roster_ids": [
+     2
+    ],
+    "adds": {
+     "CAR": 2
+    },
+    "drops": {
+     "LV": 2
+    },
+    "settings": null,
+    "created": 1792084017337,
+    "status_updated": 1792084017337,
+    "leg": 6,
+    "creator": "88304434777833472",
+    "metadata": null
+   },
+   {
+    "transaction_id": "1416570041591250944",
+    "type": "free_agent",
+    "status": "complete",
+    "roster_ids": [
+     5
+    ],
+    "adds": {
+     "10213": 5
+    },
+    "drops": {
+     "12469": 5
+    },
+    "settings": null,
+    "created": 1792099125816,
+    "status_updated": 1792099125816,
+    "leg": 6,
+    "creator": "1261888423686328320",
+    "metadata": null
+   },
+   {
+    "transaction_id": "1416570485994459136",
+    "type": "free_agent",
+    "status": "complete",
+    "roster_ids": [
+     5
+    ],
+    "adds": {
+     "NYG": 5
+    },
+    "drops": {
+     "DAL": 5
+    },
+    "settings": null,
+    "created": 1792099231769,
+    "status_updated": 1792099231769,
+    "leg": 6,
+    "creator": "1261888423686328320",
     "metadata": null
    }
   ],

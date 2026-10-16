@@ -1,5 +1,5 @@
 {
- "pulled_at_utc": "2026-10-15T11:23:00Z",
+ "pulled_at_utc": "2026-10-16T11:22:44Z",
  "rosters": [
   {
    "co_owners": [
@@ -412,7 +412,7 @@
     "5859",
     "7543",
     "7567",
-    "LV"
+    "CAR"
    ],
    "reserve": [
     "13417",
@@ -437,11 +437,11 @@
     "11564",
     "7567",
     "4035",
+    "12526",
     "11620",
-    "13279",
     "13330",
-    "11643",
-    "LV"
+    "13279",
+    "CAR"
    ],
    "taxi": null
   },
@@ -800,12 +800,12 @@
     "p_nick_6790": "D\u2019andre the giant",
     "p_nick_6801": "Higgie Smalls",
     "p_nick_8137": "NFL Youngboy",
-    "p_nick_5890": "Harris wheel ",
+    "p_nick_5890": "Harris wheel",
     "p_nick_DAL": "Cowgirls",
     "p_nick_1339": "So Good It Ertz",
     "p_nick_2309": "Calamari Pooped",
     "p_nick_6130": "Singletary, double threat!",
-    "p_nick_1466": "Thicc Zaddy ",
+    "p_nick_1466": "Thicc Zaddy",
     "p_nick_5987": "This is a tough one.",
     "p_nick_1067": "Lewis",
     "p_nick_956": "Nipple neck",
@@ -816,35 +816,32 @@
     "p_nick_11631": "We tryin brian",
     "p_nick_1689": "I got a thielen",
     "p_nick_6794": "Griddler on the roof",
-    "p_nick_5927": "Scorin McLaurin ",
-    "p_nick_8148": "9 shots of jameson ",
+    "p_nick_5927": "Scorin McLaurin",
+    "p_nick_8148": "9 shots of jameson",
     "p_nick_8125": "Calvin",
     "p_nick_167": "Pillsbury throwboi",
     "p_nick_2378": "T Cole",
-    "p_nick_6813": "Taylor Trash ",
-    "p_nick_2749": "Most malone ",
+    "p_nick_6813": "Taylor Trash",
+    "p_nick_2749": "Most malone",
     "p_nick_9509": "Bijan and slommy sangweech",
     "p_nick_8119": "Jahan Solo",
-    "p_nick_3594": "",
     "p_nick_6828": "Quadzilla",
     "p_nick_289": "Brees Nutz",
     "p_nick_6770": "JoeBoCop",
     "p_nick_7021": "PAPI RICO",
-    "p_nick_2359": "",
     "p_nick_8155": "Better call Hall",
     "p_nick_4068": "Mike Will made it",
-    "p_nick_9229": "Tony ",
+    "p_nick_9229": "Tony",
     "p_nick_5086": "Marquez for Prez",
     "streak": "2W",
-    "p_nick_6804": "",
     "p_nick_4881": "Lights, camera, jackson",
     "p_nick_5947": "Trade davante so i can catch",
-    "p_nick_96": "My fantasy team is in jeapordy ",
+    "p_nick_96": "My fantasy team is in jeapordy",
     "p_nick_4098": "Kareems Pies",
     "p_nick_9221": "Gibbussy",
     "p_nick_1071": "Shamu",
     "p_nick_1234": "Sussy for russy",
-    "p_nick_CLE": "Cleveland Steamers ",
+    "p_nick_CLE": "Cleveland Steamers",
     "p_nick_3321": "Tyreek hill\u2019s daycare",
     "p_nick_7528": "Najee need foot massagee",
     "p_nick_BUF": "License to Bill",
@@ -854,7 +851,7 @@
     "p_nick_5052": "Keepin up with the joneses",
     "p_nick_830": "Green Machine",
     "p_nick_PIT": "Still kertan",
-    "p_nick_5872": "Deeb\u2019s nuts ",
+    "p_nick_5872": "Deeb\u2019s nuts",
     "p_nick_5850": "Corn on ja cob",
     "p_nick_5012": "Mandrew Magic",
     "p_nick_7496": "Westbrook-ikweenie",
@@ -864,8 +861,9 @@
     "p_nick_4111": "My foreman told me to do it!",
     "p_nick_5022": "Who names their son dallas..",
     "p_nick_7594": "Chubawamba",
+    "p_nick_8228": "Show me your WARRENt",
     "p_nick_4993": "Gesick to my stomach",
-    "p_nick_WAS": "I Chase Young kids ",
+    "p_nick_WAS": "I Chase Young kids",
     "p_nick_1426": "Beats by DeAndre",
     "p_nick_4038": "He So Fast",
     "p_nick_4950": "Cap\u2019n kirk",
@@ -879,9 +877,9 @@
    "owner_id": "1261888423686328320",
    "player_map": null,
    "players": [
+    "10213",
     "11628",
     "11646",
-    "12469",
     "12517",
     "13276",
     "13298",
@@ -892,7 +890,7 @@
     "7523",
     "8137",
     "8228",
-    "DAL"
+    "NYG"
    ],
    "reserve": [
     "13276"
@@ -915,12 +913,12 @@
    "starters": [
     "7523",
     "8228",
-    "5892",
-    "6794",
+    "4866",
+    "11646",
     "8137",
-    "12517",
+    "10213",
     "13298",
-    "DAL"
+    "NYG"
    ],
    "taxi": null
   },
@@ -944,7 +942,6 @@
     "1166",
     "12481",
     "12508",
-    "13264",
     "13286",
     "1479",
     "3321",
@@ -954,6 +951,7 @@
     "8112",
     "8126",
     "8131",
+    "8134",
     "9224",
     "DEN"
    ],
@@ -1134,7 +1132,6 @@
     "LAR"
    ],
    "reserve": [
-    "12529",
     "8408"
    ],
    "roster_id": 7,
@@ -1249,11 +1246,11 @@
     "4984",
     "6813",
     "12474",
-    "13346",
-    "5846",
     "2133",
+    "5846",
+    "13346",
     "5947",
-    "SEA"
+    "KC"
    ],
    "taxi": null
   },
@@ -1624,7 +1621,7 @@
     "7569",
     "8146",
     "11604",
-    "10229",
+    "5927",
     "PIT"
    ],
    "taxi": null
@@ -1745,9 +1742,10 @@
     "8676",
     "9508",
     "9756",
-    "NYJ"
+    "IND"
    ],
    "reserve": [
+    "12509",
     "9756"
    ],
    "roster_id": 12,
@@ -1771,9 +1769,9 @@
     "11584",
     "8676",
     "11631",
-    "9508",
+    "13414",
     "5967",
-    "NYJ"
+    "IND"
    ],
    "taxi": null
   }

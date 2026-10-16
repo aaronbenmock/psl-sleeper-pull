@@ -2,7 +2,7 @@
  "week": 6,
  "first_recorded_utc": "2026-10-15T11:23:01Z",
  "source": "live build",
- "updated_utc": "2026-10-16T00:16:41Z",
+ "updated_utc": "2026-10-16T11:22:45Z",
  "start_sit": [
   {
    "type": "start_sit",
@@ -17,6 +17,17 @@
   },
   {
    "type": "start_sit",
+   "kind": "change",
+   "player_id": "SEA",
+   "name": "SEA DEF",
+   "alt_id": "KC",
+   "alt_name": "KC DEF",
+   "expected": 9.63,
+   "alt_expected": 9.34,
+   "started": false
+  },
+  {
+   "type": "start_sit",
    "kind": "close_call",
    "player_id": "12506",
    "name": "Harold Fannin",
@@ -29,12 +40,34 @@
   {
    "type": "start_sit",
    "kind": "close_call",
+   "player_id": "12506",
+   "name": "Harold Fannin",
+   "alt_id": "7021",
+   "alt_name": "Rico Dowdle",
+   "expected": 8.35,
+   "alt_expected": 7.12,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
    "player_id": "13346",
    "name": "Denzel Boston",
    "alt_id": "5947",
    "alt_name": "Jakobi Meyers",
    "expected": 8.23,
    "alt_expected": 7.66,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "13346",
+   "name": "Denzel Boston",
+   "alt_id": "7021",
+   "alt_name": "Rico Dowdle",
+   "expected": 8.23,
+   "alt_expected": 7.12,
    "started": false
   },
   {
@@ -210,5 +243,5 @@
    "alt_name": "Courtland Sutton"
   }
  ],
- "claims_rec_utc": "2026-10-16T00:16:41Z"
+ "claims_rec_utc": "2026-10-16T11:22:45Z"
 }
