@@ -2,7 +2,7 @@
  "week": 6,
  "first_recorded_utc": "2026-10-15T11:23:01Z",
  "source": "live build",
- "updated_utc": "2026-10-16T12:16:14Z",
+ "updated_utc": "2026-10-16T15:55:48Z",
  "start_sit": [
   {
    "type": "start_sit",
@@ -37,8 +37,8 @@
    "name": "Harold Fannin",
    "alt_id": "5947",
    "alt_name": "Jakobi Meyers",
-   "expected": 8.42,
-   "alt_expected": 7.65,
+   "expected": 8.37,
+   "alt_expected": 7.64,
    "started": false
   },
   {
@@ -48,8 +48,8 @@
    "name": "Harold Fannin",
    "alt_id": "5947",
    "alt_name": "Jakobi Meyers",
-   "expected": 8.42,
-   "alt_expected": 7.65,
+   "expected": 8.37,
+   "alt_expected": 7.64,
    "started": false
   },
   {
@@ -59,8 +59,8 @@
    "name": "Denzel Boston",
    "alt_id": "5947",
    "alt_name": "Jakobi Meyers",
-   "expected": 8.26,
-   "alt_expected": 7.65,
+   "expected": 8.21,
+   "alt_expected": 7.64,
    "started": false
   },
   {
@@ -70,7 +70,7 @@
    "name": "Denzel Boston",
    "alt_id": "7021",
    "alt_name": "Rico Dowdle",
-   "expected": 8.26,
+   "expected": 8.21,
    "alt_expected": 6.82,
    "started": false
   }
@@ -88,7 +88,7 @@
    "slot": "RB",
    "player_id": "6813",
    "name": "Jonathan Taylor",
-   "expected": 20.2,
+   "expected": 20.27,
    "started": false,
    "frozen": false
   },
@@ -120,7 +120,7 @@
    "slot": "FLEX",
    "player_id": "12506",
    "name": "Harold Fannin",
-   "expected": 8.42,
+   "expected": 8.37,
    "started": false,
    "frozen": false
   },
@@ -128,7 +128,7 @@
    "slot": "FLEX",
    "player_id": "13346",
    "name": "Denzel Boston",
-   "expected": 8.26,
+   "expected": 8.21,
    "started": false,
    "frozen": false
   },
@@ -237,5 +237,5 @@
    "alt_name": "Courtland Sutton"
   }
  ],
- "claims_rec_utc": "2026-10-16T12:16:14Z"
+ "claims_rec_utc": "2026-10-16T15:55:48Z"
 }
