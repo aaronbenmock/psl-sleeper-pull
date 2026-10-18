@@ -1,10 +1,10 @@
 {
  "week": 6,
- "generated_at_utc": "2026-10-18T14:19:38Z",
+ "generated_at_utc": "2026-10-18T15:00:21Z",
  "source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-10-18T12:58:54Z",
-  "label": "sun_early"
+  "taken_at_utc": "2026-10-18T15:00:20Z",
+  "label": "sun_late_am"
  },
  "lineup": [
   {
@@ -39,12 +39,12 @@
    "pos": "RB",
    "team": "IND",
    "opp": "TEN",
-   "sleeper": 21.32,
+   "sleeper": 20.93,
    "preseason": 16.44,
    "season_avg": 18.18,
    "n_games": 5,
    "baseline": 17.4,
-   "expected": 19.95,
+   "expected": 19.7,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -57,7 +57,7 @@
    "started": false,
    "actual_so_far": null,
    "slot": "RB",
-   "why": "Sleeper projects 21.3, season average 18.2 over 5 games, preseason model 16.4. Blended expectation 19.9 vs TEN.",
+   "why": "Sleeper projects 20.9, season average 18.2 over 5 games, preseason model 16.4. Blended expectation 19.7 vs TEN.",
    "vacated": {
     "player_id": "00-0036223",
     "pos": "RB",
@@ -105,8 +105,8 @@
    "boom_rate": 0.125,
    "sd_wk": 6.336,
    "vor": -31.6,
-   "started": false,
-   "actual_so_far": null,
+   "started": true,
+   "actual_so_far": 2.0,
    "slot": "RB",
    "why": "Sleeper projects 12.2, season average 9.3 over 5 games, preseason model 8.3. Blended expectation 11.0 vs JAX.",
    "vacated": {
@@ -422,12 +422,12 @@
    "pos": "WR",
    "team": "JAX",
    "opp": "HOU",
-   "sleeper": 7.21,
+   "sleeper": 7.2,
    "preseason": 9.21,
    "season_avg": 7.98,
    "n_games": 5,
    "baseline": 8.53,
-   "expected": 7.67,
+   "expected": 7.66,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -437,8 +437,8 @@
    "boom_rate": 0.129,
    "sd_wk": 4.947,
    "vor": 13.1,
-   "started": false,
-   "actual_so_far": null,
+   "started": true,
+   "actual_so_far": 2.8,
    "slot": "BN",
    "why": "Sleeper projects 7.2, season average 8.0 over 5 games, preseason model 9.2. Blended expectation 7.7 vs HOU.",
    "vacated": {
@@ -726,7 +726,7 @@
   {
    "out": "Jakobi Meyers",
    "in": "Harold Fannin",
-   "out_expected": 7.67,
+   "out_expected": 7.66,
    "in_expected": 8.5,
    "why": "Harold Fannin 8.5 vs Jakobi Meyers 7.7 expected (+0.8). "
   },
@@ -770,10 +770,10 @@
    "why": "SEA DEF 9.6 vs KC DEF 9.2, only 0.4 apart."
   }
  ],
- "expected_total": 109.5,
+ "expected_total": 109.2,
  "notes": [
-  "Projections are from the sun_early snapshot taken Sun Oct 18 07:58 AM Central.",
-  "2 of your players have already kicked off this week; their rows show points so far."
+  "Projections are from the sun_late_am snapshot taken Sun Oct 18 10:00 AM Central.",
+  "4 of your players have already kicked off this week; their rows show points so far."
  ],
  "warnings": [],
  "vacated_meta": {
