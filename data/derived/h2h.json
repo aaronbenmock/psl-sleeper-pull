@@ -5,11 +5,11 @@
  "opponent": "ScampDaddy",
  "manager": "marlos9",
  "roster_id": 6,
- "my_total": 109.8,
- "opp_set_total": 96.2,
- "opp_best_total": 96.3,
+ "my_total": 109.5,
+ "opp_set_total": 97.0,
+ "opp_best_total": 97.0,
  "verdict": "favored",
- "margin": 13.6,
+ "margin": 12.5,
  "verdict_vs_best": "favored",
  "opp_injured": [],
  "opp_byes": [],
@@ -17,49 +17,49 @@
   {
    "name": "Kirk Cousins",
    "pos": "QB",
-   "expected": 20.52,
+   "expected": 20.48,
    "injury_status": null,
    "baseline_only": false
   },
   {
    "name": "Cam Skattebo",
    "pos": "RB",
-   "expected": 11.2,
+   "expected": 11.24,
    "injury_status": null,
    "baseline_only": false
   },
   {
    "name": "Javonte Williams",
    "pos": "RB",
-   "expected": 15.4,
+   "expected": 15.21,
    "injury_status": null,
    "baseline_only": false
   },
   {
    "name": "Wan'Dale Robinson",
    "pos": "WR",
-   "expected": 8.89,
+   "expected": 8.8,
    "injury_status": null,
    "baseline_only": false
   },
   {
    "name": "Drake London",
    "pos": "WR",
-   "expected": 14.1,
+   "expected": 14.24,
    "injury_status": null,
    "baseline_only": false
   },
   {
    "name": "Keenan Allen",
    "pos": "WR",
-   "expected": 7.27,
+   "expected": 7.75,
    "injury_status": null,
    "baseline_only": false
   },
   {
    "name": "Isaiah Likely",
    "pos": "TE",
-   "expected": 10.29,
+   "expected": 10.65,
    "injury_status": null,
    "baseline_only": false
   },
@@ -71,15 +71,15 @@
    "baseline_only": false
   }
  ],
- "median_total": 92.0,
+ "median_total": 92.7,
  "median_verdict": "favored",
- "median_margin": 17.8,
+ "median_margin": 16.8,
  "source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-10-16T15:55:48Z",
-  "label": "fri_late_am"
+  "taken_at_utc": "2026-10-18T12:58:54Z",
+  "label": "sun_early"
  },
  "opp_baseline_only": 0,
- "why": "Your recommended lineup projects 109.8; ScampDaddy's set lineup 96.2 (best possible from their roster 96.3). Margin +13.6: favored.",
+ "why": "Your recommended lineup projects 109.5; ScampDaddy's set lineup 97.0 (best possible from their roster 97.0). Margin +12.5: favored.",
  "note": "Both sides use the engine blend (0.65 x Sleeper + 0.35 x baseline, injury multipliers), so the totals are comparable. Inside +/-5 points the game is called a toss-up [Guessing]. Your own lineup still follows max expected points; the matchup does not change who you start."
 }

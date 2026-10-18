@@ -50,7 +50,7 @@
    "efficiency": 0.85,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 127.55,
+   "proj_next": 128.11,
    "future_opps": [
     1,
     2,
@@ -104,7 +104,7 @@
    "trend": 15.6,
    "trend_label": "rising",
    "sos_remaining": 100.32,
-   "power": 126.3,
+   "power": 126.6,
    "power_rank": 1,
    "pf_rank": 2
   },
@@ -155,7 +155,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 115.73,
+   "proj_next": 117.63,
    "future_opps": [
     5,
     9,
@@ -209,7 +209,7 @@
    "trend": -10.4,
    "trend_label": "falling",
    "sos_remaining": 99.97,
-   "power": 124.9,
+   "power": 125.6,
    "power_rank": 2,
    "pf_rank": 1
   },
@@ -260,7 +260,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 120.1,
+   "proj_next": 122.46,
    "future_opps": [
     2,
     4,
@@ -314,7 +314,7 @@
    "trend": 17.0,
    "trend_label": "rising",
    "sos_remaining": 99.4,
-   "power": 117.7,
+   "power": 118.7,
    "power_rank": 3,
    "pf_rank": 4
   },
@@ -365,7 +365,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 112.97,
+   "proj_next": 112.26,
    "future_opps": [
     6,
     12,
@@ -419,7 +419,7 @@
    "trend": -4.7,
    "trend_label": "falling",
    "sos_remaining": 104.98,
-   "power": 111.6,
+   "power": 111.3,
    "power_rank": 4,
    "pf_rank": 6
   },
@@ -470,7 +470,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 102.71,
+   "proj_next": 105.96,
    "future_opps": [
     9,
     6,
@@ -524,7 +524,7 @@
    "trend": -2.2,
    "trend_label": "flat",
    "sos_remaining": 102.93,
-   "power": 108.4,
+   "power": 109.7,
    "power_rank": 5,
    "pf_rank": 5
   },
@@ -568,7 +568,7 @@
    "efficiency": 0.91,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 89.46,
+   "proj_next": 91.04,
    "future_opps": [
     4,
     8,
@@ -622,7 +622,7 @@
    "trend": -4.4,
    "trend_label": "falling",
    "sos_remaining": 102.65,
-   "power": 106.7,
+   "power": 107.3,
    "power_rank": 6,
    "pf_rank": 3
   },
@@ -666,7 +666,7 @@
    "efficiency": 0.94,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 97.2,
+   "proj_next": 98.27,
    "future_opps": [
     11,
     5,
@@ -720,7 +720,7 @@
    "trend": -0.8,
    "trend_label": "flat",
    "sos_remaining": 104.19,
-   "power": 104.1,
+   "power": 104.5,
    "power_rank": 7,
    "pf_rank": 7
   },
@@ -764,7 +764,7 @@
    "efficiency": 0.88,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 97.65,
+   "proj_next": 98.73,
    "future_opps": [
     8,
     10,
@@ -818,7 +818,7 @@
    "trend": 6.9,
    "trend_label": "rising",
    "sos_remaining": 105.76,
-   "power": 100.6,
+   "power": 101.1,
    "power_rank": 8,
    "pf_rank": 8
   },
@@ -875,7 +875,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 87.86,
+   "proj_next": 81.06,
    "future_opps": [
     10,
     3,
@@ -929,120 +929,9 @@
    "trend": -10.5,
    "trend_label": "falling",
    "sos_remaining": 108.06,
-   "power": 91.0,
+   "power": 88.2,
    "power_rank": 9,
    "pf_rank": 9
-  },
-  {
-   "roster_id": 5,
-   "team": "Eazy E Squad",
-   "manager": "espad",
-   "is_mine": false,
-   "wins": 4,
-   "losses": 6,
-   "ties": 0,
-   "h2h": "2-3",
-   "median": "2-3",
-   "allplay": "17-38",
-   "allplay_pct": 0.309,
-   "scores": [
-    122.3,
-    37.56,
-    87.88,
-    56.98,
-    109.94
-   ],
-   "avg": 82.93,
-   "last": 109.94,
-   "pf": 414.66,
-   "proj_totals": [
-    108.72,
-    107.0,
-    112.83,
-    82.39,
-    100.12
-   ],
-   "vs_proj": -96.4,
-   "bench_left": [
-    33.8,
-    14.95,
-    9.9,
-    16.6,
-    0.5
-   ],
-   "efficiency": 0.83,
-   "injured_starters": [
-    {
-     "name": "Saquon Barkley",
-     "pos": "RB",
-     "status": "Questionable",
-     "body": "Hamstring"
-    },
-    {
-     "name": "KC Concepcion",
-     "pos": "WR",
-     "status": "Questionable",
-     "body": "Concussion"
-    }
-   ],
-   "byes_next": [],
-   "proj_next": 87.9,
-   "future_opps": [
-    3,
-    1,
-    2,
-    11,
-    7,
-    9,
-    6,
-    12,
-    4,
-    8,
-    10,
-    3,
-    1
-   ],
-   "faab_used": 0,
-   "starters_now": [
-    {
-     "name": "Trevor Lawrence",
-     "pos": "QB"
-    },
-    {
-     "name": "Jaylen Warren",
-     "pos": "RB"
-    },
-    {
-     "name": "Saquon Barkley",
-     "pos": "RB"
-    },
-    {
-     "name": "Jalen Coker",
-     "pos": "WR"
-    },
-    {
-     "name": "George Pickens",
-     "pos": "WR"
-    },
-    {
-     "name": "Tre Tucker",
-     "pos": "WR"
-    },
-    {
-     "name": "KC Concepcion",
-     "pos": "WR"
-    },
-    {
-     "name": "NYG DEF",
-     "pos": "DEF"
-    }
-   ],
-   "trend": -0.5,
-   "trend_label": "flat",
-   "sos_remaining": 108.57,
-   "power": 84.9,
-   "power_rank": 10,
-   "pf_rank": 11
   },
   {
    "roster_id": 4,
@@ -1097,7 +986,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 76.93,
+   "proj_next": 78.22,
    "future_opps": [
     12,
     7,
@@ -1147,9 +1036,120 @@
    "trend": -0.5,
    "trend_label": "flat",
    "sos_remaining": 107.81,
-   "power": 83.2,
-   "power_rank": 11,
+   "power": 83.7,
+   "power_rank": 10,
    "pf_rank": 10
+  },
+  {
+   "roster_id": 5,
+   "team": "Eazy E Squad",
+   "manager": "espad",
+   "is_mine": false,
+   "wins": 4,
+   "losses": 6,
+   "ties": 0,
+   "h2h": "2-3",
+   "median": "2-3",
+   "allplay": "17-38",
+   "allplay_pct": 0.309,
+   "scores": [
+    122.3,
+    37.56,
+    87.88,
+    56.98,
+    109.94
+   ],
+   "avg": 82.93,
+   "last": 109.94,
+   "pf": 414.66,
+   "proj_totals": [
+    108.72,
+    107.0,
+    112.83,
+    82.39,
+    100.12
+   ],
+   "vs_proj": -96.4,
+   "bench_left": [
+    33.8,
+    14.95,
+    9.9,
+    16.6,
+    0.5
+   ],
+   "efficiency": 0.83,
+   "injured_starters": [
+    {
+     "name": "Saquon Barkley",
+     "pos": "RB",
+     "status": "Questionable",
+     "body": "Hamstring"
+    },
+    {
+     "name": "KC Concepcion",
+     "pos": "WR",
+     "status": "Questionable",
+     "body": "Concussion"
+    }
+   ],
+   "byes_next": [],
+   "proj_next": 78.64,
+   "future_opps": [
+    3,
+    1,
+    2,
+    11,
+    7,
+    9,
+    6,
+    12,
+    4,
+    8,
+    10,
+    3,
+    1
+   ],
+   "faab_used": 0,
+   "starters_now": [
+    {
+     "name": "Trevor Lawrence",
+     "pos": "QB"
+    },
+    {
+     "name": "Jaylen Warren",
+     "pos": "RB"
+    },
+    {
+     "name": "Saquon Barkley",
+     "pos": "RB"
+    },
+    {
+     "name": "Jalen Coker",
+     "pos": "WR"
+    },
+    {
+     "name": "George Pickens",
+     "pos": "WR"
+    },
+    {
+     "name": "Tre Tucker",
+     "pos": "WR"
+    },
+    {
+     "name": "KC Concepcion",
+     "pos": "WR"
+    },
+    {
+     "name": "NYG DEF",
+     "pos": "DEF"
+    }
+   ],
+   "trend": -0.5,
+   "trend_label": "flat",
+   "sos_remaining": 108.57,
+   "power": 81.2,
+   "power_rank": 11,
+   "pf_rank": 11
   },
   {
    "roster_id": 2,
@@ -1204,7 +1204,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 83.12,
+   "proj_next": 82.24,
    "future_opps": [
     7,
     11,
@@ -1258,7 +1258,7 @@
    "trend": 6.1,
    "trend_label": "rising",
    "sos_remaining": 110.0,
-   "power": 73.1,
+   "power": 72.7,
    "power_rank": 12,
    "pf_rank": 12
   }
@@ -1366,7 +1366,7 @@
  ],
  "projection_source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-10-16T15:55:48Z",
-  "label": "fri_late_am"
+  "taken_at_utc": "2026-10-18T12:58:54Z",
+  "label": "sun_early"
  }
 }
