@@ -2,7 +2,7 @@
  "week": 7,
  "first_recorded_utc": "2026-10-21T15:20:24Z",
  "source": "live build",
- "updated_utc": "2026-10-21T16:13:49Z",
+ "updated_utc": "2026-10-21T16:19:35Z",
  "start_sit": [
   {
    "type": "start_sit",
@@ -232,5 +232,5 @@
    "alt_name": "Courtland Sutton"
   }
  ],
- "claims_rec_utc": "2026-10-21T16:13:49Z"
+ "claims_rec_utc": "2026-10-21T16:19:35Z"
 }
