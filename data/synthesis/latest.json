@@ -1,49 +1,55 @@
 {
- "synthesis_written_at": "2026-10-08T01:35:16Z",
- "generated_at_utc": "2026-10-08T01:35:16Z",
- "week": 5,
+ "synthesis_written_at": "2026-10-21T22:46:08Z",
+ "generated_at_utc": "2026-10-21T22:46:08Z",
+ "week": 7,
  "source": "desktop-scheduled-task",
  "source_label": "Wednesday 12:30 PM scheduled task on Aaron's PC",
  "calls": [
   {
-   "type": "start",
-   "name": "Deebo Samuel",
-   "player_id": "5872",
-   "alt_name": "Rico Dowdle",
-   "alt_id": "7021",
-   "text": "Start Deebo over Dowdle at FLEX"
-  },
-  {
-   "type": "start",
-   "name": "Ollie Gordon",
-   "player_id": "12495",
-   "alt_name": "Woody Marks",
-   "alt_id": "12474",
-   "text": "Start Gordon over Marks; Miami's lead back with Achane out"
-  },
-  {
-   "type": "skip",
+   "type": "claim",
    "name": "Jaylin Noel",
    "player_id": "12536",
-   "alt_name": "Ollie Gordon",
-   "alt_id": "12495",
-   "text": "Skip Noel; Tank Dell designated to return Oct 7"
+   "bid": 13,
+   "text": "Claim Noel at $13, drop Sutton; do not chase past about $15"
+  },
+  {
+   "type": "claim",
+   "name": "DeMario Douglas",
+   "player_id": "9501",
+   "bid": 6,
+   "text": "Backup claim Douglas at $6, same drop; Doubs on IR"
   },
   {
    "type": "skip",
-   "name": "Keon Coleman",
-   "player_id": "11637",
+   "name": "Efton Chism",
+   "player_id": "12542",
    "alt_name": "Courtland Sutton",
    "alt_id": "5045",
-   "text": "Skip Coleman; WR3 snaps, deep-league flyer"
+   "text": "Skip Chism; Douglas gets Doubs's work first"
   },
   {
    "type": "skip",
-   "name": "George Holani",
-   "player_id": "12048",
-   "alt_name": "Ollie Gordon",
-   "alt_id": "12495",
-   "text": "Skip Holani; Wilson leads, Charbonnet returning"
+   "name": "C.J. Stroud",
+   "player_id": "9758",
+   "alt_name": "Courtland Sutton",
+   "alt_id": "5045",
+   "text": "Skip Stroud; Murray covers Allen's bye"
+  },
+  {
+   "type": "start",
+   "name": "Rico Dowdle",
+   "player_id": "7021",
+   "alt_name": "Harold Fannin",
+   "alt_id": "12506",
+   "text": "Start Dowdle over Fannin at FLEX [Guessing]"
+  },
+  {
+   "type": "start",
+   "name": "SEA DEF",
+   "player_id": "SEA",
+   "alt_name": "KC DEF",
+   "alt_id": "KC",
+   "text": "Start SEA DEF over KC DEF"
   }
  ]
 }

@@ -1,10 +1,10 @@
-<!-- generated 2026-10-07T22:45:00Z week 5 by scheduled Claude task (covers weeks 1 to 4) -->
-**Sleeper's projections are the best guide we have, mainly because they get the order right.** Over four weeks, Sleeper and the preseason rankings missed by about the same amount on starters (6.3 points per player either way). But starting Sleeper's top picks would have scored 104 points per team per week, compared with 98 for the preseason rankings' picks. Across whole rosters, bench included, Sleeper missed by 5.2 points and the preseason rankings by 6.2. That is why the engine leans 65% on Sleeper. Sleeper also shows no lean in either direction, while the preseason rankings have run about 1 point too low.
+<!-- generated 2026-10-21T22:46:08Z week 07 by scheduled Claude task (covers weeks 1 to 6) -->
+**You beat the engine in week 6, and you are ahead for the season.** Your lineup scored 99.9; the engine's would have scored 79.9. The difference was Jakobi Meyers (10.8), whom you started where the engine had Harold Fannin (1.4) and Denzel Boston (2.0). Over the five graded weeks your lineups total 541.9 to the engine's 526.7.
 
-**Waiver-wire projections are rougher.** For free agents, Sleeper was no better than the preseason rankings (both missed by about 4.9 points). That is a reason to keep bids modest on anyone who has not yet shown a real role.
+**Start/sit calls are still mostly right, just not last week.** The engine is 13 for 16 on start/sit for the season, and this report's calls are 4 for 5. All three week 6 misses were close calls involving Meyers.
 
-**Your lineup:** in week 4 the engine's lineup would have scored 114, and yours scored 98. Almost all of the gap came from starting Courtland Sutton (0.9 points) over Deebo Samuel (17.0). Across weeks 2 to 4, it is the engine's lineups 339, yours 334: you won week 3 by 11 points, and the engine won week 4 by 16.
+**Waiver calls are mixed, and defense streaming is not working.** The engine's Jaylin Noel claim was a hit (23.1 points vs Sutton's 2.9). Engine claims are 9 for 15; this report's claims are 1 for 5. Streaming defenses is 0 for 3: CIN scored 0 while KC scored 15.4.
 
-**Fixed this week:** week 4's start/sit calls had been saved after Thursday night's game, so most went ungraded. They now use the last version from before kickoff. The engine is 9 for 9 on start/sit, but several of those were easy calls against Sutton.
+**Sleeper remains the best projection source.** After six weeks it missed starters by about 6.3 points a player, about the same as the preseason rankings (6.4) and better than season averages (7.3). Starting Sleeper's picks scored about 103 a team per week, versus 92 for preseason picks.
 
-**Still unproven:** swapping defenses is 0 for 2, since SEA beat the streamer both times. The engine's season-long values also lag behind sudden role changes. For example, it still values Ollie Gordon as a backup (6.3 a week) while Sleeper projects 12.0 for him this week. Four weeks is early, so treat every gap under about 1 point as noise.
+**The backtest hints at a small tweak, but it is too early.** The best blend tested captured 103.9 points; the current setting captured 102.5. That gap is about 1.4 points over only six weeks, so treat it as noise until week 8.

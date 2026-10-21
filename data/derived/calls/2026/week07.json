@@ -2,7 +2,7 @@
  "week": 7,
  "first_recorded_utc": "2026-10-21T15:20:24Z",
  "source": "live build",
- "updated_utc": "2026-10-21T16:19:35Z",
+ "updated_utc": "2026-10-21T22:47:50Z",
  "start_sit": [
   {
    "type": "start_sit",
@@ -232,5 +232,59 @@
    "alt_name": "Courtland Sutton"
   }
  ],
- "claims_rec_utc": "2026-10-21T16:19:35Z"
+ "claims_rec_utc": "2026-10-21T22:47:50Z",
+ "synthesis": [
+  {
+   "type": "claim",
+   "name": "Jaylin Noel",
+   "player_id": "12536",
+   "bid": 13,
+   "text": "Claim Noel at $13, drop Sutton; do not chase past about $15",
+   "source": "synthesis"
+  },
+  {
+   "type": "claim",
+   "name": "DeMario Douglas",
+   "player_id": "9501",
+   "bid": 6,
+   "text": "Backup claim Douglas at $6, same drop; Doubs on IR",
+   "source": "synthesis"
+  },
+  {
+   "type": "skip",
+   "name": "Efton Chism",
+   "player_id": "12542",
+   "alt_name": "Courtland Sutton",
+   "alt_id": "5045",
+   "text": "Skip Chism; Douglas gets Doubs's work first",
+   "source": "synthesis"
+  },
+  {
+   "type": "skip",
+   "name": "C.J. Stroud",
+   "player_id": "9758",
+   "alt_name": "Courtland Sutton",
+   "alt_id": "5045",
+   "text": "Skip Stroud; Murray covers Allen's bye",
+   "source": "synthesis"
+  },
+  {
+   "type": "start",
+   "name": "Rico Dowdle",
+   "player_id": "7021",
+   "alt_name": "Harold Fannin",
+   "alt_id": "12506",
+   "text": "Start Dowdle over Fannin at FLEX [Guessing]",
+   "source": "synthesis"
+  },
+  {
+   "type": "start",
+   "name": "SEA DEF",
+   "player_id": "SEA",
+   "alt_name": "KC DEF",
+   "alt_id": "KC",
+   "text": "Start SEA DEF over KC DEF",
+   "source": "synthesis"
+  }
+ ]
 }
