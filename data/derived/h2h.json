@@ -24,7 +24,7 @@
   {
    "name": "Kenneth Walker",
    "pos": "RB",
-   "expected": 17.72,
+   "expected": 17.77,
    "injury_status": null,
    "baseline_only": false
   },
@@ -76,7 +76,7 @@
  "median_margin": -6.2,
  "source": {
   "kind": "latest.json",
-  "taken_at_utc": "2026-10-21T15:20:22+00:00"
+  "taken_at_utc": "2026-10-21T15:50:12+00:00"
  },
  "opp_baseline_only": 0,
  "why": "Your recommended lineup projects 87.5; Baker\u2019s Dozen's set lineup 103.1 (best possible from their roster 107.0). Margin -15.6: underdog.",

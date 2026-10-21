@@ -1,5 +1,5 @@
 # Pretend Sportsball League '26 weekly pull
-Pulled 2026-10-21T15:20:22+00:00 UTC. Completed week 6, upcoming week 7.
+Pulled 2026-10-21T15:50:12+00:00 UTC. Completed week 6, upcoming week 7.
 
 ## Week 6 result: W
 ValKilmersComeback 99.9 (proj 98.3) vs ScampDaddy 97.6 (proj 96.2)
@@ -64,53 +64,53 @@ Record {'wins': 8, 'losses': 4, 'ties': 0}. FAAB used 53/200.
 ## Waivers: QB (top 25 by week 7 projection)
 | Player | Team | Opp | Proj wk7 | Actual wk6 | Adds 72h | Injury |
 |---|---|---|---|---|---|---|
-| Bo Nix | DEN | ARI | 22.5 | 4.5 | 318234 | - |
-| Aaron Rodgers | PIT | NO | 20.9 | 20.0 | 329760 | - |
-| C.J. Stroud | HOU | NYG | 19.8 | 30.0 | 1258649 | - |
-| Geno Smith | NYJ | MIA | 18.4 | 15.0 | 282928 | - |
-| Michael Penix | ATL | SF | 17.2 | 28.1 | 99042 | - |
-| Tanner McKee | PHI | DAL | 16.0 | 14.6 | 511744 | - |
-| Deshaun Watson | CLE | TEN | 15.9 | 9.5 | 194792 | - |
-| Malik Willis | MIA | NYJ | 15.6 | - | 96229 | - |
+| Bo Nix | DEN | ARI | 22.5 | 4.5 | 323358 | - |
+| Aaron Rodgers | PIT | NO | 20.9 | 20.0 | 325200 | - |
+| C.J. Stroud | HOU | NYG | 19.8 | 30.0 | 1262436 | - |
+| Geno Smith | NYJ | MIA | 18.4 | 15.0 | 287184 | - |
+| Michael Penix | ATL | SF | 17.2 | 28.1 | 97413 | - |
+| Tanner McKee | PHI | DAL | 16.0 | 14.6 | 501072 | - |
+| Deshaun Watson | CLE | TEN | 15.9 | 9.5 | 194296 | - |
+| Malik Willis | MIA | NYJ | 15.6 | - | 97398 | - |
 | Sam Darnold | SEA | KC | 15.6 | 11.0 | 0 | - |
 | Cam Ward | TEN | CLE | 14.8 | 8.8 | 0 | - |
 | Jalon Daniels | TB | CAR | 13.9 | 12.7 | 0 | - |
 | Jameis Winston | NYG | HOU | 12.3 | 8.5 | 0 | - |
 | Daniel Jones | IND | MIN | 10.5 | 15.8 | 0 | - |
-| J.J. McCarthy | NYG | HOU | 1.0 | 18.3 | 374589 | - |
-| Riley Leonard | IND | - | 0.0 | - | 0 | - |
-| DJ Uiagalelei | LAC | - | 0.0 | 0.0 | 0 | - |
-| Fernando Mendoza | LV | - | 0.0 | 0.0 | 0 | - |
-| Drew Lock | SEA | - | 0.0 | 0.0 | 0 | - |
-| Nick Mullens | JAX | - | 0.0 | 0.0 | 0 | - |
-| Will Howard | PIT | - | 0.0 | - | 0 | - |
-| Sam Ehlinger | DEN | - | 0.0 | - | 0 | - |
-| Jarrett Stidham | DEN | - | 0.0 | 0.0 | 0 | - |
-| Quinn Ewers | JAX | - | 0.0 | 0.0 | 0 | - |
+| J.J. McCarthy | NYG | HOU | 1.0 | 18.3 | 376167 | - |
 | Kyle McCord | MIA | - | 0.0 | - | 0 | - |
-| Joshua Dobbs | DET | - | 0.0 | - | 0 | - |
+| Joe Flacco | CIN | - | 0.0 | - | 0 | - |
+| Joe Fagnano | BAL | - | 0.0 | 0.0 | 0 | - |
+| Carson Wentz | MIN | - | 0.0 | - | 0 | - |
+| Justin Fields | KC | - | 0.0 | 0.0 | 0 | - |
+| Shane Buechele | BUF | - | 0.0 | 0.0 | 0 | - |
+| Haynes King | CAR | - | 0.0 | - | 0 | - |
+| Will Levis | NYJ | - | 0.0 | 0.0 | 0 | - |
+| Drew Allar | PIT | - | 0.0 | - | 0 | - |
+| Trey Lance | LAC | - | 0.0 | 0.0 | 0 | IR |
+| Clayton Thorson | NYG | - | 0.0 | - | 0 | - |
 
 ## Waivers: RB (top 25 by week 7 projection)
 | Player | Team | Opp | Proj wk7 | Actual wk6 | Adds 72h | Injury |
 |---|---|---|---|---|---|---|
-| Tyrone Tracy | NYG | HOU | 6.7 | 19.8 | 843810 | - |
-| Justice Hill | BAL | CIN | 5.7 | 2.4 | 86184 | - |
+| Tyrone Tracy | NYG | HOU | 6.7 | 19.8 | 851680 | - |
+| Justice Hill | BAL | CIN | 5.7 | 2.4 | 84699 | - |
 | George Holani | SEA | KC | 5.0 | 8.0 | 0 | - |
-| Devin Singletary | NYG | HOU | 5.0 | 3.8 | 177111 | - |
-| Samaje Perine | CIN | BAL | 4.8 | - | 245516 | - |
-| Dylan Sampson | CLE | TEN | 4.6 | 0.0 | 111425 | IR |
-| Corey Kiner | NE | CHI | 4.5 | 10.1 | 236760 | - |
+| Devin Singletary | NYG | HOU | 5.0 | 3.8 | 180099 | - |
+| Samaje Perine | CIN | BAL | 4.8 | - | 247680 | - |
+| Dylan Sampson | CLE | TEN | 4.6 | 0.0 | 112355 | IR |
+| Corey Kiner | NE | CHI | 4.5 | 10.1 | 238716 | - |
 | Sione Vaki | DET | GB | 3.8 | - | 0 | - |
-| Zonovan Knight | ARI | DEN | 3.5 | 9.8 | 115934 | - |
-| Pierre Strong | GB | DET | 3.1 | 9.2 | 429561 | - |
+| Zonovan Knight | ARI | DEN | 3.5 | 9.8 | 116170 | - |
+| Pierre Strong | GB | DET | 3.1 | 9.2 | 430632 | - |
 | Jawhar Jordan | HOU | NYG | 3.1 | 11.5 | 0 | - |
 | Trevor Etienne | CAR | TB | 3.0 | 4.1 | 0 | - |
 | Tyler Goodson | DAL | PHI | 2.8 | 7.5 | 0 | - |
 | Tyler Badie | DEN | ARI | 2.8 | 0.6 | 0 | Questionable |
 | CJ Donaldson | NO | PIT | 2.8 | 1.9 | 0 | - |
-| Seth McGowan | IND | MIN | 2.5 | 3.6 | 147864 | - |
-| Sean Tucker | TB | CAR | 1.4 | - | 0 | Questionable |
+| Seth McGowan | IND | MIN | 2.5 | 3.6 | 150496 | - |
 | DeeJay Dallas | MIN | IND | 1.4 | - | 0 | - |
+| Sean Tucker | TB | CAR | 1.4 | - | 0 | Questionable |
 | DJ Herman | MIA | NYJ | 0.9 | - | 0 | - |
 | Demond Claiborne | MIN | IND | 0.7 | - | 0 | - |
 | AJ Dillon | CAR | TB | 0.7 | - | 0 | Questionable |
@@ -123,12 +123,12 @@ Record {'wins': 8, 'losses': 4, 'ties': 0}. FAAB used 53/200.
 | Player | Team | Opp | Proj wk7 | Actual wk6 | Adds 72h | Injury |
 |---|---|---|---|---|---|---|
 | DeMario Douglas | NE | CHI | 7.0 | 16.1 | 0 | - |
-| Brandin Cooks | SF | ATL | 6.3 | 1.8 | 268240 | - |
-| Jordan Watkins | SF | ATL | 6.0 | 2.7 | 190676 | - |
+| Brandin Cooks | SF | ATL | 6.3 | 1.8 | 264140 | - |
+| Jordan Watkins | SF | ATL | 6.0 | 2.7 | 194036 | - |
 | Cooper Kupp | SEA | KC | 5.5 | 7.5 | 0 | - |
-| Jahan Dotson | ATL | SF | 5.0 | 16.2 | 103467 | - |
-| Caleb Douglas | MIA | NYJ | 5.0 | - | 313928 | Questionable |
-| Jaylin Noel | HOU | NYG | 5.0 | 23.1 | 143874 | - |
+| Jahan Dotson | ATL | SF | 5.0 | 16.2 | 104658 | - |
+| Caleb Douglas | MIA | NYJ | 5.0 | - | 319120 | Questionable |
+| Jaylin Noel | HOU | NYG | 5.0 | 23.1 | 143200 | - |
 | Elic Ayomanor | TEN | CLE | 4.9 | 0.8 | 0 | - |
 | Jauan Jennings | MIN | IND | 4.8 | - | 0 | - |
 | Marvin Mims | DEN | ARI | 4.8 | 4.0 | 0 | - |
@@ -138,9 +138,9 @@ Record {'wins': 8, 'losses': 4, 'ties': 0}. FAAB used 53/200.
 | Christian Kirk | SF | ATL | 4.5 | 0.0 | 0 | IR |
 | Efton Chism | NE | CHI | 4.3 | 0.0 | 0 | - |
 | Malachi Fields | NYG | HOU | 4.2 | 2.9 | 0 | - |
-| Konata Mumpfield | LAR | LV | 4.2 | 2.5 | 2061081 | - |
-| Kyle Williams | NE | CHI | 4.1 | 3.8 | 0 | - |
+| Konata Mumpfield | LAR | LV | 4.2 | 2.5 | 2077335 | - |
 | Troy Franklin | DEN | ARI | 4.1 | 0.7 | 0 | - |
+| Kyle Williams | NE | CHI | 4.1 | 3.8 | 0 | - |
 | Ted Hurst | TB | CAR | 4.0 | 5.5 | 0 | - |
 | Devontez Walker | BAL | CIN | 3.8 | 0.0 | 0 | - |
 | Isaac TeSlaa | DET | GB | 3.7 | - | 0 | - |
@@ -154,26 +154,26 @@ Record {'wins': 8, 'losses': 4, 'ties': 0}. FAAB used 53/200.
 | Dallas Goedert | PHI | DAL | 9.3 | 9.1 | 0 | - |
 | Juwan Johnson | NO | PIT | 8.3 | 0.0 | 0 | - |
 | Pat Freiermuth | PIT | NO | 7.8 | 2.1 | 0 | - |
-| Mark Andrews | BAL | CIN | 7.8 | 0.9 | 159561 | - |
-| Hunter Henry | NE | CHI | 7.7 | 12.8 | 221832 | - |
+| Mark Andrews | BAL | CIN | 7.8 | 0.9 | 159084 | - |
+| Hunter Henry | NE | CHI | 7.7 | 12.8 | 222210 | - |
 | T.J. Hockenson | MIN | IND | 7.6 | - | 0 | Questionable |
-| Kyle Pitts | ATL | SF | 7.3 | 20.5 | 833917 | - |
-| Mike Gesicki | CIN | BAL | 6.9 | - | 116780 | - |
+| Kyle Pitts | ATL | SF | 7.3 | 20.5 | 836934 | - |
+| Mike Gesicki | CIN | BAL | 6.9 | - | 118000 | - |
 | Dalton Schultz | HOU | NYG | 6.5 | 5.3 | 0 | - |
 | Jake Ferguson | DAL | PHI | 6.3 | 2.3 | 0 | - |
-| Darren Waller | CAR | TB | 6.2 | 0.0 | 227133 | - |
+| Darren Waller | CAR | TB | 6.2 | 0.0 | 219546 | - |
 | AJ Barner | SEA | KC | 5.9 | 3.1 | 0 | - |
 | Cade Otton | TB | CAR | 5.9 | 0.9 | 0 | - |
-| Michael Mayer | LV | LAR | 5.6 | 13.0 | 1272888 | - |
-| Colby Parkinson | LAR | LV | 5.4 | 11.6 | 165354 | - |
-| Darnell Washington | PIT | NO | 5.3 | 10.5 | 156145 | - |
+| Michael Mayer | LV | LAR | 5.6 | 13.0 | 1284048 | - |
+| Colby Parkinson | LAR | LV | 5.4 | 11.6 | 167298 | - |
+| Darnell Washington | PIT | NO | 5.3 | 10.5 | 152315 | - |
 | Greg Dulcich | MIA | NYJ | 5.2 | - | 0 | - |
 | Evan Engram | DEN | ARI | 4.7 | 2.3 | 0 | - |
 | Noah Fant | NO | PIT | 4.6 | 0.0 | 0 | - |
 | Eli Raridon | NE | CHI | 4.5 | 1.6 | 0 | - |
 | Mason Taylor | NYJ | MIA | 4.2 | 5.3 | 0 | - |
 | Gunnar Helm | TEN | CLE | 3.8 | 0.0 | 0 | - |
-| Tommy Tremble | CAR | TB | 3.5 | 18.6 | 113528 | - |
+| Tommy Tremble | CAR | TB | 3.5 | 18.6 | 114324 | - |
 | Cole Kmet | CHI | NE | 3.3 | 1.3 | 0 | - |
 | Noah Gray | KC | SEA | 2.8 | 6.8 | 0 | - |
 
@@ -193,43 +193,43 @@ Record {'wins': 8, 'losses': 4, 'ties': 0}. FAAB used 53/200.
 | ATL DEF | ATL | SF | 5.7 | 9.4 | 0 | - |
 | GB DEF | GB | DET | 5.7 | 7.7 | 0 | - |
 | LV DEF | LV | LAR | 5.4 | 1.2 | 0 | - |
-| WAS DEF | WAS | - | - | 6.7 | 0 | - |
 | LAC DEF | LAC | - | - | 4.3 | 0 | - |
 | BUF DEF | BUF | - | - | 2.5 | 0 | - |
+| WAS DEF | WAS | - | - | 6.7 | 0 | - |
 
 ## Trending adds (unrostered)
 | Player | Pos | Team | Adds 72h | Proj next |
 |---|---|---|---|---|
-| Konata Mumpfield | WR | LAR | 2061081 | 4.2 |
-| Michael Mayer | TE | LV | 1272888 | 5.6 |
-| C.J. Stroud | QB | HOU | 1258649 | 19.8 |
-| Tyrone Tracy | RB | NYG | 843810 | 6.7 |
-| Kyle Pitts | TE | ATL | 833917 | 7.3 |
-| Terrance Ferguson | TE | LAR | 759448 | 0.0 |
-| Treylon Burks | WR | WAS | 695478 | 0.0 |
-| Tanner McKee | QB | PHI | 511744 | 16.0 |
-| Pierre Strong | RB | GB | 429561 | 3.1 |
-| J.J. McCarthy | QB | NYG | 374589 | 1.0 |
-| Aaron Rodgers | QB | PIT | 329760 | 20.9 |
-| Bo Nix | QB | DEN | 318234 | 22.5 |
-| Caleb Douglas | WR | MIA | 313928 | 5.0 |
-| Geno Smith | QB | NYJ | 282928 | 18.4 |
-| Brandin Cooks | WR | SF | 268240 | 6.3 |
-| Samaje Perine | RB | CIN | 245516 | 4.8 |
-| Corey Kiner | RB | NE | 236760 | 4.5 |
-| Darren Waller | TE | CAR | 227133 | 6.2 |
-| Hunter Henry | TE | NE | 221832 | 7.7 |
-| Deshaun Watson | QB | CLE | 194792 | 15.9 |
-| Jordan Watkins | WR | SF | 190676 | 6.0 |
-| Austin Ekeler | RB | WAS | 179300 | 0.0 |
-| Devin Singletary | RB | NYG | 177111 | 5.0 |
-| Colby Parkinson | TE | LAR | 165354 | 5.4 |
-| Mark Andrews | TE | BAL | 159561 | 7.8 |
-| Darnell Washington | TE | PIT | 156145 | 5.3 |
-| Seth McGowan | RB | IND | 147864 | 2.5 |
-| Jaylin Noel | WR | HOU | 143874 | 5.0 |
-| Savion Williams | WR | GB | 119616 | 2.0 |
-| Mike Gesicki | TE | CIN | 116780 | 6.9 |
+| Konata Mumpfield | WR | LAR | 2077335 | 4.2 |
+| Michael Mayer | TE | LV | 1284048 | 5.6 |
+| C.J. Stroud | QB | HOU | 1262436 | 19.8 |
+| Tyrone Tracy | RB | NYG | 851680 | 6.7 |
+| Kyle Pitts | TE | ATL | 836934 | 7.3 |
+| Terrance Ferguson | TE | LAR | 763344 | 0.0 |
+| Treylon Burks | WR | WAS | 704186 | 0.0 |
+| Tanner McKee | QB | PHI | 501072 | 16.0 |
+| Pierre Strong | RB | GB | 430632 | 3.1 |
+| J.J. McCarthy | QB | NYG | 376167 | 1.0 |
+| Aaron Rodgers | QB | PIT | 325200 | 20.9 |
+| Bo Nix | QB | DEN | 323358 | 22.5 |
+| Caleb Douglas | WR | MIA | 319120 | 5.0 |
+| Geno Smith | QB | NYJ | 287184 | 18.4 |
+| Brandin Cooks | WR | SF | 264140 | 6.3 |
+| Samaje Perine | RB | CIN | 247680 | 4.8 |
+| Corey Kiner | RB | NE | 238716 | 4.5 |
+| Hunter Henry | TE | NE | 222210 | 7.7 |
+| Darren Waller | TE | CAR | 219546 | 6.2 |
+| Deshaun Watson | QB | CLE | 194296 | 15.9 |
+| Jordan Watkins | WR | SF | 194036 | 6.0 |
+| Devin Singletary | RB | NYG | 180099 | 5.0 |
+| Austin Ekeler | RB | WAS | 171988 | 0.0 |
+| Colby Parkinson | TE | LAR | 167298 | 5.4 |
+| Mark Andrews | TE | BAL | 159084 | 7.8 |
+| Darnell Washington | TE | PIT | 152315 | 5.3 |
+| Seth McGowan | RB | IND | 150496 | 2.5 |
+| Jaylin Noel | WR | HOU | 143200 | 5.0 |
+| Savion Williams | WR | GB | 120036 | 2.0 |
+| Mike Gesicki | TE | CIN | 118000 | 6.9 |
 
 ## Validation
 Record check: median game ON: each team plays its opponent and the league median every week (sum of wins 72, completed weeks 6).
