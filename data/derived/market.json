@@ -1,6 +1,22 @@
 {
  "claims": [
   {
+   "run": 29870701,
+   "processed_utc": "2026-10-17T13:01:00Z",
+   "processed": "Sat Oct 17 8:01 AM",
+   "player_id": "NYJ",
+   "name": "NYJ DEF",
+   "pos": "DEF",
+   "winner_rid": 1,
+   "winner": "tacocats",
+   "winning_bid": 2,
+   "dropped": [
+    "Pierre Strong"
+   ],
+   "losing": [],
+   "n_bidders": 1
+  },
+  {
    "run": 29867461,
    "processed_utc": "2026-10-15T07:01:00Z",
    "processed": "Thu Oct 15 2:01 AM",
@@ -229,45 +245,8 @@
    "run": 29867461,
    "processed_utc": "2026-10-15T07:01:00Z",
    "processed": "Thu Oct 15 2:01 AM",
-   "player_id": "CHI",
-   "name": "CHI DEF",
-   "pos": "DEF",
-   "winner_rid": null,
-   "winner": null,
-   "winning_bid": null,
-   "dropped": [],
-   "losing": [
-    {
-     "roster_id": 9,
-     "team": "Girthenheimer",
-     "bid": 0,
-     "reason": "Unfortunately, your roster will have too many players after this transaction."
-    }
-   ],
-   "n_bidders": 1
-  },
-  {
-   "run": 29867461,
-   "processed_utc": "2026-10-15T07:01:00Z",
-   "processed": "Thu Oct 15 2:01 AM",
-   "player_id": "8116",
-   "name": "Pierre Strong",
-   "pos": "RB",
-   "winner_rid": 1,
-   "winner": "tacocats",
-   "winning_bid": 0,
-   "dropped": [
-    "Kaleb Johnson"
-   ],
-   "losing": [],
-   "n_bidders": 1
-  },
-  {
-   "run": 29867461,
-   "processed_utc": "2026-10-15T07:01:00Z",
-   "processed": "Thu Oct 15 2:01 AM",
-   "player_id": "11439",
-   "name": "Jaleel McLaughlin",
+   "player_id": "5995",
+   "name": "Justice Hill",
    "pos": "RB",
    "winner_rid": null,
    "winner": null,
@@ -275,9 +254,9 @@
    "dropped": [],
    "losing": [
     {
-     "roster_id": 1,
-     "team": "tacocats",
-     "bid": 1,
+     "roster_id": 10,
+     "team": "Derrelick my Balls",
+     "bid": 7,
      "reason": "Unfortunately, your roster will have too many players after this transaction."
     }
    ],
@@ -308,8 +287,8 @@
    "run": 29867461,
    "processed_utc": "2026-10-15T07:01:00Z",
    "processed": "Thu Oct 15 2:01 AM",
-   "player_id": "5995",
-   "name": "Justice Hill",
+   "player_id": "11439",
+   "name": "Jaleel McLaughlin",
    "pos": "RB",
    "winner_rid": null,
    "winner": null,
@@ -317,9 +296,46 @@
    "dropped": [],
    "losing": [
     {
-     "roster_id": 10,
-     "team": "Derrelick my Balls",
-     "bid": 7,
+     "roster_id": 1,
+     "team": "tacocats",
+     "bid": 1,
+     "reason": "Unfortunately, your roster will have too many players after this transaction."
+    }
+   ],
+   "n_bidders": 1
+  },
+  {
+   "run": 29867461,
+   "processed_utc": "2026-10-15T07:01:00Z",
+   "processed": "Thu Oct 15 2:01 AM",
+   "player_id": "8116",
+   "name": "Pierre Strong",
+   "pos": "RB",
+   "winner_rid": 1,
+   "winner": "tacocats",
+   "winning_bid": 0,
+   "dropped": [
+    "Kaleb Johnson"
+   ],
+   "losing": [],
+   "n_bidders": 1
+  },
+  {
+   "run": 29867461,
+   "processed_utc": "2026-10-15T07:01:00Z",
+   "processed": "Thu Oct 15 2:01 AM",
+   "player_id": "CHI",
+   "name": "CHI DEF",
+   "pos": "DEF",
+   "winner_rid": null,
+   "winner": null,
+   "winning_bid": null,
+   "dropped": [],
+   "losing": [
+    {
+     "roster_id": 9,
+     "team": "Girthenheimer",
+     "bid": 0,
      "reason": "Unfortunately, your roster will have too many players after this transaction."
     }
    ],
@@ -1513,8 +1529,8 @@
     "max_contested": 31
    },
    "DEF": {
-    "n_wins": 12,
-    "median_win": 5.5,
+    "n_wins": 13,
+    "median_win": 5,
     "max_win": 31,
     "n_contested": 5,
     "median_contested": 6,
@@ -1593,12 +1609,12 @@
   {
    "roster_id": 1,
    "team": "tacocats",
-   "spent": 166,
-   "spent_in_log": 166,
+   "spent": 168,
+   "spent_in_log": 168,
    "log_matches": true,
-   "remaining": 34,
-   "n_claims": 29,
-   "n_wins": 11,
+   "remaining": 32,
+   "n_claims": 30,
+   "n_wins": 12,
    "biggest_win": {
     "name": "MarShawn Lloyd",
     "bid": 58
@@ -1891,36 +1907,11 @@
   }
  ],
  "latest": {
-  "run": 29867461,
-  "processed": "Thu Oct 15 2:01 AM",
-  "processed_utc": "2026-10-15T07:01:00Z",
-  "n_claims_league": 28,
-  "bids": [
-   {
-    "processed": "Thu Oct 15 2:01 AM",
-    "run": 29867461,
-    "name": "MarShawn Lloyd",
-    "pos": "RB",
-    "result": "lost",
-    "my_bid": 37,
-    "winning_bid": 58,
-    "winner": "tacocats",
-    "n_bidders": 5,
-    "reason": "This player was claimed by another owner."
-   },
-   {
-    "processed": "Thu Oct 15 2:01 AM",
-    "run": 29867461,
-    "name": "KC DEF",
-    "pos": "DEF",
-    "result": "won",
-    "my_bid": 6,
-    "winning_bid": 6,
-    "winner": "ValKilmersComeback",
-    "n_bidders": 3,
-    "next_best": 1
-   }
-  ]
+  "run": 29870701,
+  "processed": "Sat Oct 17 8:01 AM",
+  "processed_utc": "2026-10-17T13:01:00Z",
+  "n_claims_league": 1,
+  "bids": []
  },
  "latest_mine": {
   "run": 29867461,
@@ -1953,8 +1944,8 @@
   ]
  },
  "budget_total": 200,
- "n_runs": 9,
- "ids_total": 106,
+ "n_runs": 10,
+ "ids_total": 118,
  "ids_unresolved": [],
  "note": "Losing bids come from Sleeper's failed-claim records. A failed claim above the winning bid failed for another reason (roster limit, budget, an earlier claim), so it is not read as an outbid. Failure reasons are only recorded from October 2026 on."
 }

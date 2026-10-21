@@ -3,20 +3,20 @@
   "build": {
    "task": "build",
    "ok": true,
-   "summary": "index.html + reports/2026/week06.html; lineup changes 2, claims 2, signals 16, accuracy weeks 5",
-   "started_utc": "2026-10-20T15:56:56Z",
-   "finished_utc": "2026-10-20T15:56:57Z",
+   "summary": "index.html + reports/2026/week07.html; lineup changes 2, claims 2, signals 13, accuracy weeks 6",
+   "started_utc": "2026-10-21T15:20:24Z",
+   "finished_utc": "2026-10-21T15:20:25Z",
    "error": null
   },
   "pull": {
    "task": "pull",
    "ok": true,
-   "summary": "completed wk 5, upcoming wk 6, waiver pool 684, matchup weeks 18, scored files 1, record check: median game ON: each team plays its opponent and the league median every week",
-   "started_utc": "2026-10-14T16:20:35Z",
-   "finished_utc": "2026-10-14T16:20:43Z",
+   "summary": "completed wk 6, upcoming wk 7, waiver pool 682, matchup weeks 18, scored files 1, record check: median game ON: each team plays its opponent and the league median every week",
+   "started_utc": "2026-10-21T15:20:17Z",
+   "finished_utc": "2026-10-21T15:20:22Z",
    "error": null,
-   "completed_week": 5,
-   "upcoming_week": 6
+   "completed_week": 6,
+   "upcoming_week": 7
   },
   "injuries": {
    "task": "injuries",
@@ -47,37 +47,13 @@
   "usage": {
    "task": "usage",
    "ok": true,
-   "summary": "5 weeks of 2026 usage, 503 players with a stat row, 714 Sleeper ids mapped (163 from Sleeper, 462 from the rankings file, 89 by name), 555,436 bytes",
-   "started_utc": "2026-10-14T16:20:43Z",
-   "finished_utc": "2026-10-14T16:20:44Z",
+   "summary": "6 weeks of 2026 usage, 519 players with a stat row, 720 Sleeper ids mapped (164 from Sleeper, 463 from the rankings file, 93 by name), 584,303 bytes",
+   "started_utc": "2026-10-21T15:20:22Z",
+   "finished_utc": "2026-10-21T15:20:24Z",
    "error": null
   }
  },
  "runs": [
-  {
-   "task": "auto-skip",
-   "ok": true,
-   "summary": "skipped at 2026-10-04T12:35:57-05:00",
-   "started_utc": "2026-10-04T17:35:57Z",
-   "finished_utc": "2026-10-04T17:35:57Z",
-   "error": null
-  },
-  {
-   "task": "build",
-   "ok": true,
-   "summary": "index.html + reports/2026/week04.html; lineup changes 2, claims 8, signals 16, accuracy weeks 3",
-   "started_utc": "2026-10-04T17:35:57Z",
-   "finished_utc": "2026-10-04T17:35:58Z",
-   "error": null
-  },
-  {
-   "task": "auto-skip",
-   "ok": true,
-   "summary": "skipped at 2026-10-04T13:08:31-05:00",
-   "started_utc": "2026-10-04T18:08:31Z",
-   "finished_utc": "2026-10-04T18:08:31Z",
-   "error": null
-  },
   {
    "task": "build",
    "ok": true,
@@ -1721,14 +1697,40 @@
    "started_utc": "2026-10-20T15:56:56Z",
    "finished_utc": "2026-10-20T15:56:57Z",
    "error": null
+  },
+  {
+   "task": "pull",
+   "ok": true,
+   "summary": "completed wk 6, upcoming wk 7, waiver pool 682, matchup weeks 18, scored files 1, record check: median game ON: each team plays its opponent and the league median every week",
+   "started_utc": "2026-10-21T15:20:17Z",
+   "finished_utc": "2026-10-21T15:20:22Z",
+   "error": null,
+   "completed_week": 6,
+   "upcoming_week": 7
+  },
+  {
+   "task": "usage",
+   "ok": true,
+   "summary": "6 weeks of 2026 usage, 519 players with a stat row, 720 Sleeper ids mapped (164 from Sleeper, 463 from the rankings file, 93 by name), 584,303 bytes",
+   "started_utc": "2026-10-21T15:20:22Z",
+   "finished_utc": "2026-10-21T15:20:24Z",
+   "error": null
+  },
+  {
+   "task": "build",
+   "ok": true,
+   "summary": "index.html + reports/2026/week07.html; lineup changes 2, claims 2, signals 13, accuracy weeks 6",
+   "started_utc": "2026-10-21T15:20:24Z",
+   "finished_utc": "2026-10-21T15:20:25Z",
+   "error": null
   }
  ],
  "last_run": {
   "task": "build",
   "ok": true,
-  "summary": "index.html + reports/2026/week06.html; lineup changes 2, claims 2, signals 16, accuracy weeks 5",
-  "started_utc": "2026-10-20T15:56:56Z",
-  "finished_utc": "2026-10-20T15:56:57Z",
+  "summary": "index.html + reports/2026/week07.html; lineup changes 2, claims 2, signals 13, accuracy weeks 6",
+  "started_utc": "2026-10-21T15:20:24Z",
+  "finished_utc": "2026-10-21T15:20:25Z",
   "error": null
  }
 }

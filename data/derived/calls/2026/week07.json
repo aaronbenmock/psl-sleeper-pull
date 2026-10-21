@@ -1,0 +1,236 @@
+{
+ "week": 7,
+ "first_recorded_utc": "2026-10-21T15:20:24Z",
+ "source": "live build",
+ "updated_utc": "2026-10-21T15:20:24Z",
+ "start_sit": [
+  {
+   "type": "start_sit",
+   "kind": "change",
+   "player_id": "12506",
+   "name": "Harold Fannin",
+   "alt_id": "5045",
+   "alt_name": "Courtland Sutton",
+   "expected": 8.47,
+   "alt_expected": 7.23,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "change",
+   "player_id": "SEA",
+   "name": "SEA DEF",
+   "alt_id": "KC",
+   "alt_name": "KC DEF",
+   "expected": 8.18,
+   "alt_expected": 7.38,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "13346",
+   "name": "Denzel Boston",
+   "alt_id": "5045",
+   "alt_name": "Courtland Sutton",
+   "expected": 8.37,
+   "alt_expected": 7.23,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "12506",
+   "name": "Harold Fannin",
+   "alt_id": "7021",
+   "alt_name": "Rico Dowdle",
+   "expected": 8.47,
+   "alt_expected": 7.75,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "12506",
+   "name": "Harold Fannin",
+   "alt_id": "5045",
+   "alt_name": "Courtland Sutton",
+   "expected": 8.47,
+   "alt_expected": 7.23,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "SEA",
+   "name": "SEA DEF",
+   "alt_id": "KC",
+   "alt_name": "KC DEF",
+   "expected": 8.18,
+   "alt_expected": 7.38,
+   "started": false
+  }
+ ],
+ "lineup": [
+  {
+   "slot": "QB",
+   "player_id": "5849",
+   "name": "Kyler Murray",
+   "expected": 16.43,
+   "started": false,
+   "frozen": false
+  },
+  {
+   "slot": "RB",
+   "player_id": "6813",
+   "name": "Jonathan Taylor",
+   "expected": 16.87,
+   "started": false,
+   "frozen": false
+  },
+  {
+   "slot": "RB",
+   "player_id": "12474",
+   "name": "Woody Marks",
+   "expected": 9.75,
+   "started": false,
+   "frozen": false
+  },
+  {
+   "slot": "WR",
+   "player_id": "5846",
+   "name": "DK Metcalf",
+   "expected": 10.02,
+   "started": false,
+   "frozen": false
+  },
+  {
+   "slot": "WR",
+   "player_id": "13346",
+   "name": "Denzel Boston",
+   "expected": 8.37,
+   "started": false,
+   "frozen": false
+  },
+  {
+   "slot": "FLEX",
+   "player_id": "12495",
+   "name": "Ollie Gordon",
+   "expected": 9.44,
+   "started": false,
+   "frozen": false
+  },
+  {
+   "slot": "FLEX",
+   "player_id": "12506",
+   "name": "Harold Fannin",
+   "expected": 8.47,
+   "started": false,
+   "frozen": false
+  },
+  {
+   "slot": "DEF",
+   "player_id": "SEA",
+   "name": "SEA DEF",
+   "expected": 8.18,
+   "started": false,
+   "frozen": false
+  }
+ ],
+ "claims_freeze_utc": "2026-10-22T07:00:00Z",
+ "claims": [
+  {
+   "type": "claim",
+   "player_id": "12536",
+   "name": "Jaylin Noel",
+   "pos": "WR",
+   "bid": 13,
+   "league_bid": 13,
+   "alt_id": "5045",
+   "alt_name": "Courtland Sutton"
+  },
+  {
+   "type": "claim",
+   "player_id": "9758",
+   "name": "C.J. Stroud",
+   "pos": "QB",
+   "bid": 5,
+   "league_bid": 4,
+   "alt_id": "5045",
+   "alt_name": "Courtland Sutton"
+  },
+  {
+   "type": "speculative",
+   "player_id": "12542",
+   "name": "Efton Chism",
+   "pos": "WR",
+   "bid": 7,
+   "alt_id": "5045",
+   "alt_name": "Courtland Sutton"
+  },
+  {
+   "type": "speculative",
+   "player_id": "8122",
+   "name": "Zonovan Knight",
+   "pos": "RB",
+   "bid": 7,
+   "alt_id": "5045",
+   "alt_name": "Courtland Sutton"
+  },
+  {
+   "type": "speculative",
+   "player_id": "12048",
+   "name": "George Holani",
+   "pos": "RB",
+   "bid": 7,
+   "alt_id": "5045",
+   "alt_name": "Courtland Sutton"
+  },
+  {
+   "type": "speculative",
+   "player_id": "9501",
+   "name": "DeMario Douglas",
+   "pos": "WR",
+   "bid": 7,
+   "alt_id": "5045",
+   "alt_name": "Courtland Sutton"
+  },
+  {
+   "type": "speculative",
+   "player_id": "12547",
+   "name": "Kyle Williams",
+   "pos": "WR",
+   "bid": 7,
+   "alt_id": "5045",
+   "alt_name": "Courtland Sutton"
+  },
+  {
+   "type": "speculative",
+   "player_id": "11579",
+   "name": "Audric Estime",
+   "pos": "RB",
+   "bid": 7,
+   "alt_id": "5045",
+   "alt_name": "Courtland Sutton"
+  },
+  {
+   "type": "speculative",
+   "player_id": "4147",
+   "name": "Samaje Perine",
+   "pos": "RB",
+   "bid": 7,
+   "alt_id": "5045",
+   "alt_name": "Courtland Sutton"
+  },
+  {
+   "type": "speculative",
+   "player_id": "7049",
+   "name": "Jauan Jennings",
+   "pos": "WR",
+   "bid": 7,
+   "alt_id": "5045",
+   "alt_name": "Courtland Sutton"
+  }
+ ],
+ "claims_rec_utc": "2026-10-21T15:20:24Z"
+}

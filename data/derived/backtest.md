@@ -1,26 +1,26 @@
-# Backtest (5 completed weeks)
+# Backtest (6 completed weeks)
 
-5 weeks. Best lineup capture: blend w=0.65 k=8 +deffix (106.02); Sleeper alone: 105.19. Treat gaps under 1 point as noise until 8+ weeks.
+6 weeks. Best lineup capture: blend w=0.8 k=8 (103.89); Sleeper alone: 103.21. Treat gaps under 1 point as noise until 8+ weeks.
 
 | Model | Weeks | n | Player MAE | Lineup points captured (avg per team) |
 |---|---|---|---|---|
-| blend w=0.65 k=8 +deffix | 5 | 480 | 6.44 | 106.02 |
-| blend w=0.8 k=8 | 5 | 480 | 6.43 | 105.93 |
-| blend w=0.8 k=8 +deffix | 5 | 480 | 6.45 | 105.93 |
-| blend w=0.65 k=8 | 5 | 480 | 6.43 | 105.86 |
-| blend w=0.8 k=4 | 5 | 480 | 6.44 | 105.6 |
-| blend w=0.8 k=4 +deffix | 5 | 480 | 6.46 | 105.6 |
-| blend w=1.0 k=2 | 5 | 480 | 6.46 | 105.19 |
-| blend w=1.0 k=2 +deffix | 5 | 480 | 6.48 | 105.19 |
-| blend w=0.8 k=2 | 5 | 480 | 6.46 | 104.75 |
-| blend w=0.8 k=2 +deffix | 5 | 480 | 6.47 | 104.75 |
-| blend w=0.5 k=8 | 5 | 480 | 6.44 | 104.73 |
-| blend w=0.5 k=8 +deffix | 5 | 480 | 6.45 | 104.73 |
-| blend w=0.65 k=4 | 5 | 480 | 6.45 | 104.61 |
-| blend w=0.65 k=4 +deffix | 5 | 480 | 6.46 | 104.61 |
-| blend w=0.5 k=4 +deffix | 5 | 480 | 6.48 | 104.51 |
-| blend w=0.65 k=2 | 5 | 480 | 6.48 | 104.48 |
-| blend w=0.65 k=2 +deffix | 5 | 480 | 6.49 | 104.48 |
-| blend w=0.5 k=4 | 5 | 480 | 6.47 | 104.36 |
-| blend w=0.5 k=2 | 5 | 480 | 6.51 | 104.08 |
-| blend w=0.5 k=2 +deffix | 5 | 480 | 6.52 | 104.08 |
+| blend w=0.8 k=8 | 6 | 576 | 6.29 | 103.89 |
+| blend w=0.8 k=8 +deffix | 6 | 576 | 6.31 | 103.89 |
+| blend w=0.65 k=8 +deffix | 6 | 576 | 6.29 | 103.66 |
+| blend w=0.8 k=4 | 6 | 576 | 6.3 | 103.6 |
+| blend w=0.8 k=4 +deffix | 6 | 576 | 6.32 | 103.6 |
+| blend w=0.65 k=8 | 6 | 576 | 6.28 | 103.53 |
+| blend w=1.0 k=2 +deffix | 6 | 576 | 6.35 | 103.26 |
+| blend w=1.0 k=2 | 6 | 576 | 6.32 | 103.21 |
+| blend w=0.8 k=2 | 6 | 576 | 6.31 | 102.89 |
+| blend w=0.8 k=2 +deffix | 6 | 576 | 6.33 | 102.89 |
+| blend w=0.65 k=4 | 6 | 576 | 6.3 | 102.53 |
+| blend w=0.65 k=4 +deffix | 6 | 576 | 6.31 | 102.53 |
+| blend w=0.65 k=2 | 6 | 576 | 6.33 | 102.42 |
+| blend w=0.65 k=2 +deffix | 6 | 576 | 6.34 | 102.42 |
+| blend w=0.5 k=8 | 6 | 576 | 6.28 | 102.41 |
+| blend w=0.5 k=8 +deffix | 6 | 576 | 6.3 | 102.41 |
+| blend w=0.5 k=4 +deffix | 6 | 576 | 6.32 | 102.38 |
+| blend w=0.5 k=4 | 6 | 576 | 6.31 | 102.24 |
+| blend w=0.5 k=2 | 6 | 576 | 6.35 | 102.02 |
+| blend w=0.5 k=2 +deffix | 6 | 576 | 6.36 | 102.02 |

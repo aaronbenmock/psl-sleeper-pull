@@ -1,0 +1,3642 @@
+{
+ "meta": {
+  "script_version": "1.2",
+  "engine_version": "2.2",
+  "pulled_at_utc": "2026-10-21T15:20:22+00:00",
+  "league": "Pretend Sportsball League '26",
+  "league_id": "1318619274968829952",
+  "season": "2026",
+  "nfl_state": {
+   "week": 7,
+   "leg": 7,
+   "season": "2026",
+   "season_type": "regular",
+   "league_season": "2026",
+   "previous_season": "2025",
+   "season_start_date": "2026-09-09",
+   "display_week": 7,
+   "league_create_season": "2026",
+   "season_has_scores": true
+  },
+  "completed_week": 6,
+  "upcoming_week": 7,
+  "week_detection": "projection game dates",
+  "players_cache": {
+   "pulled_at_utc": "2026-10-21T15:20:18Z",
+   "raw_count": 12229,
+   "slim_count": 875,
+   "reused": false
+  },
+  "record_check": {
+   "completed_weeks": 6,
+   "league_average_match_setting": 1,
+   "sum_of_wins": 72,
+   "sum_of_losses": 72,
+   "expected_wins_h2h_only": 36,
+   "expected_wins_with_median_game": 72,
+   "verdict": "median game ON: each team plays its opponent and the league median every week"
+  },
+  "notes": [
+   "projected = Sleeper projected stat line x league scoring_settings",
+   "Sleeper DEF projections omit 3-and-outs and 4th-down stops; weekNN_scored.json isolates those points",
+   "waiver list = unrostered players on an NFL team; FAAB so all are claimable before Thu 2AM"
+  ]
+ },
+ "completed_week": {
+  "week": 6,
+  "my_team": "ValKilmersComeback",
+  "my_actual": 99.9,
+  "my_projected": 98.31,
+  "opponent": "ScampDaddy",
+  "opponent_actual": 97.62,
+  "opponent_projected": 96.15,
+  "result": "W",
+  "starters": [
+   {
+    "player_id": "4984",
+    "name": "Josh Allen",
+    "pos": "QB",
+    "team": "BUF",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "slot": "QB",
+    "projected": 27.5,
+    "actual": 22.3,
+    "diff": -5.2
+   },
+   {
+    "player_id": "6813",
+    "name": "Jonathan Taylor",
+    "pos": "RB",
+    "team": "IND",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "slot": "RB",
+    "projected": 21.2,
+    "actual": 20.1,
+    "diff": -1.1
+   },
+   {
+    "player_id": "12474",
+    "name": "Woody Marks",
+    "pos": "RB",
+    "team": "HOU",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "slot": "RB",
+    "projected": 12.2,
+    "actual": 9.1,
+    "diff": -3.1
+   },
+   {
+    "player_id": "2133",
+    "name": "Davante Adams",
+    "pos": "WR",
+    "team": "LAR",
+    "injury_status": "IR",
+    "injury_body_part": "Hamstring",
+    "depth_chart_order": 5,
+    "bye_or_status": "Inactive",
+    "slot": "WR",
+    "projected": 0.0,
+    "actual": 5.4,
+    "diff": 5.4
+   },
+   {
+    "player_id": "5846",
+    "name": "DK Metcalf",
+    "pos": "WR",
+    "team": "PIT",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "slot": "WR",
+    "projected": 10.8,
+    "actual": 14.8,
+    "diff": 4.0
+   },
+   {
+    "player_id": "13346",
+    "name": "Denzel Boston",
+    "pos": "WR",
+    "team": "CLE",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "slot": "FLEX",
+    "projected": 9.26,
+    "actual": 2.0,
+    "diff": -7.26
+   },
+   {
+    "player_id": "5947",
+    "name": "Jakobi Meyers",
+    "pos": "WR",
+    "team": "JAX",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 2,
+    "bye_or_status": "Active",
+    "slot": "FLEX",
+    "projected": 7.2,
+    "actual": 10.8,
+    "diff": 3.6
+   },
+   {
+    "player_id": "KC",
+    "name": "KC DEF",
+    "pos": "DEF",
+    "team": "KC",
+    "injury_status": null,
+    "depth_chart_order": null,
+    "slot": "DEF",
+    "projected": 10.15,
+    "actual": 15.4,
+    "diff": 5.25
+   }
+  ],
+  "bench": [
+   {
+    "player_id": "12495",
+    "name": "Ollie Gordon",
+    "pos": "RB",
+    "team": "MIA",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "slot": "BN",
+    "projected": 0.0,
+    "actual": 0.0,
+    "diff": 0.0
+   },
+   {
+    "player_id": "12506",
+    "name": "Harold Fannin",
+    "pos": "TE",
+    "team": "CLE",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "slot": "BN",
+    "projected": 8.92,
+    "actual": 1.4,
+    "diff": -7.52
+   },
+   {
+    "player_id": "5045",
+    "name": "Courtland Sutton",
+    "pos": "WR",
+    "team": "DEN",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 2,
+    "bye_or_status": "Active",
+    "slot": "BN",
+    "projected": 6.32,
+    "actual": 2.9,
+    "diff": -3.42
+   },
+   {
+    "player_id": "5849",
+    "name": "Kyler Murray",
+    "pos": "QB",
+    "team": "MIN",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "slot": "BN",
+    "projected": 0.0,
+    "actual": 0.0,
+    "diff": 0.0
+   },
+   {
+    "player_id": "5872",
+    "name": "Deebo Samuel",
+    "pos": "WR",
+    "team": "SF",
+    "injury_status": "Out",
+    "injury_body_part": "Hamstring",
+    "depth_chart_order": 8,
+    "bye_or_status": "Active",
+    "slot": "BN",
+    "projected": 0.0,
+    "actual": 0.0,
+    "diff": 0.0
+   },
+   {
+    "player_id": "7021",
+    "name": "Rico Dowdle",
+    "pos": "RB",
+    "team": "PIT",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 2,
+    "bye_or_status": "Active",
+    "slot": "BN",
+    "projected": 5.88,
+    "actual": 6.4,
+    "diff": 0.52
+   },
+   {
+    "player_id": "9753",
+    "name": "Zach Charbonnet",
+    "pos": "RB",
+    "team": "SEA",
+    "injury_status": "PUP",
+    "injury_body_part": "Knee - ACL",
+    "depth_chart_order": 4,
+    "bye_or_status": "Inactive",
+    "slot": "BN",
+    "projected": 0.0,
+    "actual": 0.0,
+    "diff": 0.0
+   },
+   {
+    "player_id": "SEA",
+    "name": "SEA DEF",
+    "pos": "DEF",
+    "team": "SEA",
+    "injury_status": null,
+    "depth_chart_order": null,
+    "slot": "BN",
+    "projected": 8.55,
+    "actual": 4.8,
+    "diff": -3.75
+   }
+  ],
+  "league_scoreboard": [
+   {
+    "roster_id": 11,
+    "team": "RafiBomb",
+    "matchup_id": 3,
+    "actual": 116.23,
+    "projected_starters_total": 127.9
+   },
+   {
+    "roster_id": 3,
+    "team": "Be Safe, Get Jaxcinated",
+    "matchup_id": 5,
+    "actual": 113.58,
+    "projected_starters_total": 112.3
+   },
+   {
+    "roster_id": 7,
+    "team": "Cheeky Nando\u2019s",
+    "matchup_id": 1,
+    "actual": 109.94,
+    "projected_starters_total": 122.22
+   },
+   {
+    "roster_id": 5,
+    "team": "Eazy E Squad",
+    "matchup_id": 5,
+    "actual": 107.99,
+    "projected_starters_total": 83.43
+   },
+   {
+    "roster_id": 8,
+    "team": "ValKilmersComeback",
+    "matchup_id": 4,
+    "actual": 99.9,
+    "projected_starters_total": 98.31
+   },
+   {
+    "roster_id": 1,
+    "team": "tacocats",
+    "matchup_id": 3,
+    "actual": 98.46,
+    "projected_starters_total": 98.55
+   },
+   {
+    "roster_id": 6,
+    "team": "ScampDaddy",
+    "matchup_id": 4,
+    "actual": 97.62,
+    "projected_starters_total": 96.15
+   },
+   {
+    "roster_id": 4,
+    "team": "City of Champyinz",
+    "matchup_id": 2,
+    "actual": 95.46,
+    "projected_starters_total": 98.95
+   },
+   {
+    "roster_id": 10,
+    "team": "Derrelick my Balls",
+    "matchup_id": 6,
+    "actual": 89.18,
+    "projected_starters_total": 104.28
+   },
+   {
+    "roster_id": 2,
+    "team": "Amateur Hour",
+    "matchup_id": 1,
+    "actual": 83.15,
+    "projected_starters_total": 90.71
+   },
+   {
+    "roster_id": 12,
+    "team": "Baker\u2019s Dozen",
+    "matchup_id": 2,
+    "actual": 71.12,
+    "projected_starters_total": 94.73
+   },
+   {
+    "roster_id": 9,
+    "team": "Girthenheimer",
+    "matchup_id": 6,
+    "actual": 69.5,
+    "projected_starters_total": 82.74
+   }
+  ]
+ },
+ "upcoming_week": {
+  "week": 7,
+  "record": {
+   "wins": 8,
+   "losses": 4,
+   "ties": 0
+  },
+  "waiver_budget_used": 53,
+  "waiver_budget_total": 200,
+  "starters": [
+   {
+    "player_id": "5849",
+    "name": "Kyler Murray",
+    "pos": "QB",
+    "team": "MIN",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "slot": "QB",
+    "projected": 17.56,
+    "opponent": "IND",
+    "on_bye": false
+   },
+   {
+    "player_id": "6813",
+    "name": "Jonathan Taylor",
+    "pos": "RB",
+    "team": "IND",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "slot": "RB",
+    "projected": 16.43,
+    "opponent": "MIN",
+    "on_bye": false
+   },
+   {
+    "player_id": "12474",
+    "name": "Woody Marks",
+    "pos": "RB",
+    "team": "HOU",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "slot": "RB",
+    "projected": 10.24,
+    "opponent": "NYG",
+    "on_bye": false
+   },
+   {
+    "player_id": "5045",
+    "name": "Courtland Sutton",
+    "pos": "WR",
+    "team": "DEN",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 2,
+    "bye_or_status": "Active",
+    "slot": "WR",
+    "projected": 7.55,
+    "opponent": "ARI",
+    "on_bye": false
+   },
+   {
+    "player_id": "5846",
+    "name": "DK Metcalf",
+    "pos": "WR",
+    "team": "PIT",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "slot": "WR",
+    "projected": 10.35,
+    "opponent": "NO",
+    "on_bye": false
+   },
+   {
+    "player_id": "13346",
+    "name": "Denzel Boston",
+    "pos": "WR",
+    "team": "CLE",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "slot": "FLEX",
+    "projected": 9.35,
+    "opponent": "TEN",
+    "on_bye": false
+   },
+   {
+    "player_id": "12495",
+    "name": "Ollie Gordon",
+    "pos": "RB",
+    "team": "MIA",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "slot": "FLEX",
+    "projected": 12.23,
+    "opponent": "NYJ",
+    "on_bye": false
+   },
+   {
+    "player_id": "KC",
+    "name": "KC DEF",
+    "pos": "DEF",
+    "team": "KC",
+    "injury_status": null,
+    "depth_chart_order": null,
+    "slot": "DEF",
+    "projected": 6.88,
+    "opponent": "SEA",
+    "on_bye": false
+   }
+  ],
+  "bench": [
+   {
+    "player_id": "12506",
+    "name": "Harold Fannin",
+    "pos": "TE",
+    "team": "CLE",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "slot": "BN",
+    "projected": 8.91,
+    "opponent": "TEN",
+    "on_bye": false
+   },
+   {
+    "player_id": "2133",
+    "name": "Davante Adams",
+    "pos": "WR",
+    "team": "LAR",
+    "injury_status": "IR",
+    "injury_body_part": "Hamstring",
+    "depth_chart_order": 5,
+    "bye_or_status": "Inactive",
+    "slot": "BN",
+    "projected": 0.0,
+    "opponent": null,
+    "on_bye": false
+   },
+   {
+    "player_id": "4984",
+    "name": "Josh Allen",
+    "pos": "QB",
+    "team": "BUF",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "slot": "BN",
+    "projected": 0.0,
+    "opponent": null,
+    "on_bye": false
+   },
+   {
+    "player_id": "5947",
+    "name": "Jakobi Meyers",
+    "pos": "WR",
+    "team": "JAX",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 2,
+    "bye_or_status": "Active",
+    "slot": "BN",
+    "projected": 0.0,
+    "opponent": null,
+    "on_bye": false
+   },
+   {
+    "player_id": "7021",
+    "name": "Rico Dowdle",
+    "pos": "RB",
+    "team": "PIT",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 2,
+    "bye_or_status": "Active",
+    "slot": "BN",
+    "projected": 7.57,
+    "opponent": "NO",
+    "on_bye": false
+   },
+   {
+    "player_id": "SEA",
+    "name": "SEA DEF",
+    "pos": "DEF",
+    "team": "SEA",
+    "injury_status": null,
+    "depth_chart_order": null,
+    "slot": "BN",
+    "projected": 6.7,
+    "opponent": "KC",
+    "on_bye": false
+   }
+  ],
+  "ir": [
+   {
+    "player_id": "5872",
+    "name": "Deebo Samuel",
+    "pos": "WR",
+    "team": "SF",
+    "injury_status": "Out",
+    "injury_body_part": "Hamstring",
+    "depth_chart_order": 8,
+    "bye_or_status": "Active",
+    "slot": "IR",
+    "projected": 0.0,
+    "opponent": null,
+    "on_bye": false
+   },
+   {
+    "player_id": "9753",
+    "name": "Zach Charbonnet",
+    "pos": "RB",
+    "team": "SEA",
+    "injury_status": "PUP",
+    "injury_body_part": "Knee - ACL",
+    "depth_chart_order": 4,
+    "bye_or_status": "Inactive",
+    "slot": "IR",
+    "projected": 4.98,
+    "opponent": "KC",
+    "on_bye": false
+   }
+  ]
+ },
+ "waivers_by_position": {
+  "QB": [
+   {
+    "player_id": "11563",
+    "name": "Bo Nix",
+    "pos": "QB",
+    "team": "DEN",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "proj_next_week": 22.54,
+    "opponent_next_week": "ARI",
+    "actual_week_6": 4.48,
+    "projected_week_6": 15.83,
+    "trending_adds_72h": 318234
+   },
+   {
+    "player_id": "96",
+    "name": "Aaron Rodgers",
+    "pos": "QB",
+    "team": "PIT",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "proj_next_week": 20.9,
+    "opponent_next_week": "NO",
+    "actual_week_6": 20.02,
+    "projected_week_6": 19.48,
+    "trending_adds_72h": 329760
+   },
+   {
+    "player_id": "9758",
+    "name": "C.J. Stroud",
+    "pos": "QB",
+    "team": "HOU",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "proj_next_week": 19.75,
+    "opponent_next_week": "NYG",
+    "actual_week_6": 29.98,
+    "projected_week_6": 16.5,
+    "trending_adds_72h": 1258649
+   },
+   {
+    "player_id": "1373",
+    "name": "Geno Smith",
+    "pos": "QB",
+    "team": "NYJ",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "proj_next_week": 18.42,
+    "opponent_next_week": "MIA",
+    "actual_week_6": 14.98,
+    "projected_week_6": 14.38,
+    "trending_adds_72h": 282928
+   },
+   {
+    "player_id": "11559",
+    "name": "Michael Penix",
+    "pos": "QB",
+    "team": "ATL",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "proj_next_week": 17.19,
+    "opponent_next_week": "SF",
+    "actual_week_6": 28.1,
+    "projected_week_6": 15.2,
+    "trending_adds_72h": 99042
+   },
+   {
+    "player_id": "9230",
+    "name": "Tanner McKee",
+    "pos": "QB",
+    "team": "PHI",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "proj_next_week": 16.02,
+    "opponent_next_week": "DAL",
+    "actual_week_6": 14.6,
+    "projected_week_6": 12.71,
+    "trending_adds_72h": 511744
+   },
+   {
+    "player_id": "4017",
+    "name": "Deshaun Watson",
+    "pos": "QB",
+    "team": "CLE",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "proj_next_week": 15.89,
+    "opponent_next_week": "TEN",
+    "actual_week_6": 9.46,
+    "projected_week_6": 15.7,
+    "trending_adds_72h": 194792
+   },
+   {
+    "player_id": "8161",
+    "name": "Malik Willis",
+    "pos": "QB",
+    "team": "MIA",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "proj_next_week": 15.63,
+    "opponent_next_week": "NYJ",
+    "actual_week_6": null,
+    "projected_week_6": 0.0,
+    "trending_adds_72h": 96229
+   },
+   {
+    "player_id": "4943",
+    "name": "Sam Darnold",
+    "pos": "QB",
+    "team": "SEA",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "proj_next_week": 15.56,
+    "opponent_next_week": "KC",
+    "actual_week_6": 11.02,
+    "projected_week_6": 15.49,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "12522",
+    "name": "Cam Ward",
+    "pos": "QB",
+    "team": "TEN",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "proj_next_week": 14.8,
+    "opponent_next_week": "CLE",
+    "actual_week_6": 8.78,
+    "projected_week_6": 16.11,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "13425",
+    "name": "Jalon Daniels",
+    "pos": "QB",
+    "team": "TB",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "proj_next_week": 13.9,
+    "opponent_next_week": "CAR",
+    "actual_week_6": 12.66,
+    "projected_week_6": 13.78,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "2306",
+    "name": "Jameis Winston",
+    "pos": "QB",
+    "team": "NYG",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "proj_next_week": 12.29,
+    "opponent_next_week": "HOU",
+    "actual_week_6": 8.48,
+    "projected_week_6": 14.94,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "5870",
+    "name": "Daniel Jones",
+    "pos": "QB",
+    "team": "IND",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "proj_next_week": 10.49,
+    "opponent_next_week": "MIN",
+    "actual_week_6": 15.76,
+    "projected_week_6": 15.24,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "11565",
+    "name": "J.J. McCarthy",
+    "pos": "QB",
+    "team": "NYG",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 3,
+    "bye_or_status": "Active",
+    "proj_next_week": 1.01,
+    "opponent_next_week": "HOU",
+    "actual_week_6": 18.32,
+    "projected_week_6": 0.87,
+    "trending_adds_72h": 374589
+   },
+   {
+    "player_id": "12470",
+    "name": "Riley Leonard",
+    "pos": "QB",
+    "team": "IND",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 3,
+    "bye_or_status": "Active",
+    "proj_next_week": 0.0,
+    "opponent_next_week": null,
+    "actual_week_6": null,
+    "projected_week_6": 0.0,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "12773",
+    "name": "DJ Uiagalelei",
+    "pos": "QB",
+    "team": "LAC",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 4,
+    "bye_or_status": "Active",
+    "proj_next_week": 0.0,
+    "opponent_next_week": null,
+    "actual_week_6": 0.0,
+    "projected_week_6": 0.0,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "13269",
+    "name": "Fernando Mendoza",
+    "pos": "QB",
+    "team": "LV",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 3,
+    "bye_or_status": "Active",
+    "proj_next_week": 0.0,
+    "opponent_next_week": null,
+    "actual_week_6": 0.0,
+    "projected_week_6": 0.0,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "5854",
+    "name": "Drew Lock",
+    "pos": "QB",
+    "team": "SEA",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 2,
+    "bye_or_status": "Active",
+    "proj_next_week": 0.0,
+    "opponent_next_week": null,
+    "actual_week_6": 0.0,
+    "projected_week_6": 0.0,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "4464",
+    "name": "Nick Mullens",
+    "pos": "QB",
+    "team": "JAX",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": null,
+    "bye_or_status": "Active",
+    "proj_next_week": 0.0,
+    "opponent_next_week": null,
+    "actual_week_6": 0.0,
+    "projected_week_6": 0.0,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "12511",
+    "name": "Will Howard",
+    "pos": "QB",
+    "team": "PIT",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 3,
+    "bye_or_status": "Active",
+    "proj_next_week": 0.0,
+    "opponent_next_week": null,
+    "actual_week_6": null,
+    "projected_week_6": 0.0,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "7583",
+    "name": "Sam Ehlinger",
+    "pos": "QB",
+    "team": "DEN",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 3,
+    "bye_or_status": "Active",
+    "proj_next_week": 0.0,
+    "opponent_next_week": null,
+    "actual_week_6": null,
+    "projected_week_6": 0.0,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "6136",
+    "name": "Jarrett Stidham",
+    "pos": "QB",
+    "team": "DEN",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 2,
+    "bye_or_status": "Active",
+    "proj_next_week": 0.0,
+    "opponent_next_week": null,
+    "actual_week_6": 0.0,
+    "projected_week_6": 0.0,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "12500",
+    "name": "Quinn Ewers",
+    "pos": "QB",
+    "team": "JAX",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 3,
+    "bye_or_status": "Active",
+    "proj_next_week": 0.0,
+    "opponent_next_week": null,
+    "actual_week_6": 0.0,
+    "projected_week_6": 0.0,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "12494",
+    "name": "Kyle McCord",
+    "pos": "QB",
+    "team": "MIA",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 3,
+    "bye_or_status": "Active",
+    "proj_next_week": 0.0,
+    "opponent_next_week": null,
+    "actual_week_6": null,
+    "projected_week_6": 0.0,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "4179",
+    "name": "Joshua Dobbs",
+    "pos": "QB",
+    "team": "DET",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 2,
+    "bye_or_status": "Active",
+    "proj_next_week": 0.0,
+    "opponent_next_week": null,
+    "actual_week_6": null,
+    "projected_week_6": 0.0,
+    "trending_adds_72h": 0
+   }
+  ],
+  "RB": [
+   {
+    "player_id": "11655",
+    "name": "Tyrone Tracy",
+    "pos": "RB",
+    "team": "NYG",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 2,
+    "bye_or_status": "Active",
+    "proj_next_week": 6.67,
+    "opponent_next_week": "HOU",
+    "actual_week_6": 19.75,
+    "projected_week_6": 3.37,
+    "trending_adds_72h": 843810
+   },
+   {
+    "player_id": "5995",
+    "name": "Justice Hill",
+    "pos": "RB",
+    "team": "BAL",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 2,
+    "bye_or_status": "Active",
+    "proj_next_week": 5.71,
+    "opponent_next_week": "CIN",
+    "actual_week_6": 2.4,
+    "projected_week_6": 5.68,
+    "trending_adds_72h": 86184
+   },
+   {
+    "player_id": "12048",
+    "name": "George Holani",
+    "pos": "RB",
+    "team": "SEA",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 2,
+    "bye_or_status": "Active",
+    "proj_next_week": 5.04,
+    "opponent_next_week": "KC",
+    "actual_week_6": 8.0,
+    "projected_week_6": 5.12,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "6130",
+    "name": "Devin Singletary",
+    "pos": "RB",
+    "team": "NYG",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 3,
+    "bye_or_status": "Active",
+    "proj_next_week": 4.97,
+    "opponent_next_week": "HOU",
+    "actual_week_6": 3.8,
+    "projected_week_6": 0.0,
+    "trending_adds_72h": 177111
+   },
+   {
+    "player_id": "4147",
+    "name": "Samaje Perine",
+    "pos": "RB",
+    "team": "CIN",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 2,
+    "bye_or_status": "Active",
+    "proj_next_week": 4.83,
+    "opponent_next_week": "BAL",
+    "actual_week_6": null,
+    "projected_week_6": 0.0,
+    "trending_adds_72h": 245516
+   },
+   {
+    "player_id": "12469",
+    "name": "Dylan Sampson",
+    "pos": "RB",
+    "team": "CLE",
+    "injury_status": "IR",
+    "injury_body_part": "Knee",
+    "depth_chart_order": 5,
+    "bye_or_status": "Inactive",
+    "proj_next_week": 4.56,
+    "opponent_next_week": "TEN",
+    "actual_week_6": 0.0,
+    "projected_week_6": 0.0,
+    "trending_adds_72h": 111425
+   },
+   {
+    "player_id": "12491",
+    "name": "Corey Kiner",
+    "pos": "RB",
+    "team": "NE",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 3,
+    "bye_or_status": "Active",
+    "proj_next_week": 4.52,
+    "opponent_next_week": "CHI",
+    "actual_week_6": 10.1,
+    "projected_week_6": 1.16,
+    "trending_adds_72h": 236760
+   },
+   {
+    "player_id": "11729",
+    "name": "Sione Vaki",
+    "pos": "RB",
+    "team": "DET",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 2,
+    "bye_or_status": "Active",
+    "proj_next_week": 3.79,
+    "opponent_next_week": "GB",
+    "actual_week_6": null,
+    "projected_week_6": 0.0,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "8122",
+    "name": "Zonovan Knight",
+    "pos": "RB",
+    "team": "ARI",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 2,
+    "bye_or_status": "Active",
+    "proj_next_week": 3.51,
+    "opponent_next_week": "DEN",
+    "actual_week_6": 9.8,
+    "projected_week_6": 4.15,
+    "trending_adds_72h": 115934
+   },
+   {
+    "player_id": "8116",
+    "name": "Pierre Strong",
+    "pos": "RB",
+    "team": "GB",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 2,
+    "bye_or_status": "Active",
+    "proj_next_week": 3.08,
+    "opponent_next_week": "DET",
+    "actual_week_6": 9.2,
+    "projected_week_6": 4.5,
+    "trending_adds_72h": 429561
+   },
+   {
+    "player_id": "11588",
+    "name": "Jawhar Jordan",
+    "pos": "RB",
+    "team": "HOU",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": null,
+    "bye_or_status": "Active",
+    "proj_next_week": 3.07,
+    "opponent_next_week": "NYG",
+    "actual_week_6": 11.5,
+    "projected_week_6": 2.13,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "12531",
+    "name": "Trevor Etienne",
+    "pos": "RB",
+    "team": "CAR",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 2,
+    "bye_or_status": "Active",
+    "proj_next_week": 2.99,
+    "opponent_next_week": "TB",
+    "actual_week_6": 4.1,
+    "projected_week_6": 3.68,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "8207",
+    "name": "Tyler Goodson",
+    "pos": "RB",
+    "team": "DAL",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 2,
+    "bye_or_status": "Active",
+    "proj_next_week": 2.84,
+    "opponent_next_week": "PHI",
+    "actual_week_6": 7.5,
+    "projected_week_6": 2.99,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "8208",
+    "name": "Tyler Badie",
+    "pos": "RB",
+    "team": "DEN",
+    "injury_status": "Questionable",
+    "injury_body_part": "Thumb",
+    "depth_chart_order": 3,
+    "bye_or_status": "Active",
+    "proj_next_week": 2.82,
+    "opponent_next_week": "ARI",
+    "actual_week_6": 0.6,
+    "projected_week_6": 2.43,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "13277",
+    "name": "CJ Donaldson",
+    "pos": "RB",
+    "team": "NO",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 3,
+    "bye_or_status": "Active",
+    "proj_next_week": 2.75,
+    "opponent_next_week": "PIT",
+    "actual_week_6": 1.9,
+    "projected_week_6": 3.06,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "13424",
+    "name": "Seth McGowan",
+    "pos": "RB",
+    "team": "IND",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 2,
+    "bye_or_status": "Active",
+    "proj_next_week": 2.55,
+    "opponent_next_week": "MIN",
+    "actual_week_6": 3.6,
+    "projected_week_6": 3.9,
+    "trending_adds_72h": 147864
+   },
+   {
+    "player_id": "9506",
+    "name": "Sean Tucker",
+    "pos": "RB",
+    "team": "TB",
+    "injury_status": "Questionable",
+    "injury_body_part": "Quadriceps",
+    "depth_chart_order": 3,
+    "bye_or_status": "Active",
+    "proj_next_week": 1.36,
+    "opponent_next_week": "CAR",
+    "actual_week_6": null,
+    "projected_week_6": 0.0,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "6931",
+    "name": "DeeJay Dallas",
+    "pos": "RB",
+    "team": "MIN",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 3,
+    "bye_or_status": "Active",
+    "proj_next_week": 1.36,
+    "opponent_next_week": "IND",
+    "actual_week_6": null,
+    "projected_week_6": 0.0,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "14026",
+    "name": "DJ Herman",
+    "pos": "RB",
+    "team": "MIA",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 3,
+    "bye_or_status": "Active",
+    "proj_next_week": 0.89,
+    "opponent_next_week": "NYJ",
+    "actual_week_6": null,
+    "projected_week_6": 0.0,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "13347",
+    "name": "Demond Claiborne",
+    "pos": "RB",
+    "team": "MIN",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 2,
+    "bye_or_status": "Active",
+    "proj_next_week": 0.66,
+    "opponent_next_week": "IND",
+    "actual_week_6": null,
+    "projected_week_6": 0.0,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "6828",
+    "name": "AJ Dillon",
+    "pos": "RB",
+    "team": "CAR",
+    "injury_status": "Questionable",
+    "injury_body_part": "Ankle",
+    "depth_chart_order": 3,
+    "bye_or_status": "Active",
+    "proj_next_week": 0.65,
+    "opponent_next_week": "TB",
+    "actual_week_6": null,
+    "projected_week_6": 0.0,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "11579",
+    "name": "Audric Estime",
+    "pos": "RB",
+    "team": "CLE",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 2,
+    "bye_or_status": "Active",
+    "proj_next_week": 0.61,
+    "opponent_next_week": "TEN",
+    "actual_week_6": 7.9,
+    "projected_week_6": 7.48,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "12467",
+    "name": "Jordan James",
+    "pos": "RB",
+    "team": "SF",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 4,
+    "bye_or_status": "Active",
+    "proj_next_week": 0.53,
+    "opponent_next_week": "ATL",
+    "actual_week_6": 2.9,
+    "projected_week_6": 0.58,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "8181",
+    "name": "Connor Heyward",
+    "pos": "RB",
+    "team": "LV",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 4,
+    "bye_or_status": "Active",
+    "proj_next_week": 0.52,
+    "opponent_next_week": "LAR",
+    "actual_week_6": 0.0,
+    "projected_week_6": 0.59,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "12543",
+    "name": "Tahj Brooks",
+    "pos": "RB",
+    "team": "CIN",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 3,
+    "bye_or_status": "Active",
+    "proj_next_week": 0.45,
+    "opponent_next_week": "BAL",
+    "actual_week_6": null,
+    "projected_week_6": 0.0,
+    "trending_adds_72h": 0
+   }
+  ],
+  "WR": [
+   {
+    "player_id": "9501",
+    "name": "DeMario Douglas",
+    "pos": "WR",
+    "team": "NE",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 2,
+    "bye_or_status": "Active",
+    "proj_next_week": 7.0,
+    "opponent_next_week": "CHI",
+    "actual_week_6": 16.1,
+    "projected_week_6": 3.49,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "2197",
+    "name": "Brandin Cooks",
+    "pos": "WR",
+    "team": "SF",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 3,
+    "bye_or_status": "Active",
+    "proj_next_week": 6.3,
+    "opponent_next_week": "ATL",
+    "actual_week_6": 1.8,
+    "projected_week_6": 4.54,
+    "trending_adds_72h": 268240
+   },
+   {
+    "player_id": "12634",
+    "name": "Jordan Watkins",
+    "pos": "WR",
+    "team": "SF",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 4,
+    "bye_or_status": "Active",
+    "proj_next_week": 6.02,
+    "opponent_next_week": "ATL",
+    "actual_week_6": 2.7,
+    "projected_week_6": 2.52,
+    "trending_adds_72h": 190676
+   },
+   {
+    "player_id": "4039",
+    "name": "Cooper Kupp",
+    "pos": "WR",
+    "team": "SEA",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 3,
+    "bye_or_status": "Active",
+    "proj_next_week": 5.54,
+    "opponent_next_week": "KC",
+    "actual_week_6": 7.5,
+    "projected_week_6": 5.44,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "8119",
+    "name": "Jahan Dotson",
+    "pos": "WR",
+    "team": "ATL",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 2,
+    "bye_or_status": "Active",
+    "proj_next_week": 5.04,
+    "opponent_next_week": "SF",
+    "actual_week_6": 16.2,
+    "projected_week_6": 3.39,
+    "trending_adds_72h": 103467
+   },
+   {
+    "player_id": "13296",
+    "name": "Caleb Douglas",
+    "pos": "WR",
+    "team": "MIA",
+    "injury_status": "Questionable",
+    "injury_body_part": "Ankle",
+    "depth_chart_order": 9,
+    "bye_or_status": "Active",
+    "proj_next_week": 5.02,
+    "opponent_next_week": "NYJ",
+    "actual_week_6": null,
+    "projected_week_6": 0.0,
+    "trending_adds_72h": 313928
+   },
+   {
+    "player_id": "12536",
+    "name": "Jaylin Noel",
+    "pos": "WR",
+    "team": "HOU",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 4,
+    "bye_or_status": "Active",
+    "proj_next_week": 4.99,
+    "opponent_next_week": "NYG",
+    "actual_week_6": 23.05,
+    "projected_week_6": 4.85,
+    "trending_adds_72h": 143874
+   },
+   {
+    "player_id": "12499",
+    "name": "Elic Ayomanor",
+    "pos": "WR",
+    "team": "TEN",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 3,
+    "bye_or_status": "Active",
+    "proj_next_week": 4.93,
+    "opponent_next_week": "CLE",
+    "actual_week_6": 0.8,
+    "projected_week_6": 5.23,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "7049",
+    "name": "Jauan Jennings",
+    "pos": "WR",
+    "team": "MIN",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 2,
+    "bye_or_status": "Active",
+    "proj_next_week": 4.77,
+    "opponent_next_week": "IND",
+    "actual_week_6": null,
+    "projected_week_6": 0.0,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "9494",
+    "name": "Marvin Mims",
+    "pos": "WR",
+    "team": "DEN",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 4,
+    "bye_or_status": "Active",
+    "proj_next_week": 4.76,
+    "opponent_next_week": "ARI",
+    "actual_week_6": 4.05,
+    "projected_week_6": 4.02,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "7039",
+    "name": "Cody White",
+    "pos": "WR",
+    "team": "LV",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 3,
+    "bye_or_status": "Active",
+    "proj_next_week": 4.71,
+    "opponent_next_week": "LAR",
+    "actual_week_6": 0.0,
+    "projected_week_6": 4.85,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "7571",
+    "name": "Rashod Bateman",
+    "pos": "WR",
+    "team": "BAL",
+    "injury_status": "Questionable",
+    "injury_body_part": "Shoulder",
+    "depth_chart_order": 2,
+    "bye_or_status": "Active",
+    "proj_next_week": 4.69,
+    "opponent_next_week": "CIN",
+    "actual_week_6": 0.0,
+    "projected_week_6": 5.09,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "13311",
+    "name": "Chris Bell",
+    "pos": "WR",
+    "team": "MIA",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 2,
+    "bye_or_status": "Active",
+    "proj_next_week": 4.67,
+    "opponent_next_week": "NYJ",
+    "actual_week_6": null,
+    "projected_week_6": 0.0,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "4950",
+    "name": "Christian Kirk",
+    "pos": "WR",
+    "team": "SF",
+    "injury_status": "IR",
+    "injury_body_part": "Calf",
+    "depth_chart_order": 6,
+    "bye_or_status": "Inactive",
+    "proj_next_week": 4.49,
+    "opponent_next_week": "ATL",
+    "actual_week_6": 0.0,
+    "projected_week_6": 0.04,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "12542",
+    "name": "Efton Chism",
+    "pos": "WR",
+    "team": "NE",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 3,
+    "bye_or_status": "Active",
+    "proj_next_week": 4.34,
+    "opponent_next_week": "CHI",
+    "actual_week_6": 0.0,
+    "projected_week_6": 3.69,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "13285",
+    "name": "Malachi Fields",
+    "pos": "WR",
+    "team": "NYG",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 2,
+    "bye_or_status": "Active",
+    "proj_next_week": 4.25,
+    "opponent_next_week": "HOU",
+    "actual_week_6": 2.9,
+    "projected_week_6": 4.54,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "12718",
+    "name": "Konata Mumpfield",
+    "pos": "WR",
+    "team": "LAR",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 2,
+    "bye_or_status": "Active",
+    "proj_next_week": 4.23,
+    "opponent_next_week": "LV",
+    "actual_week_6": 2.5,
+    "projected_week_6": 1.65,
+    "trending_adds_72h": 2061081
+   },
+   {
+    "player_id": "12547",
+    "name": "Kyle Williams",
+    "pos": "WR",
+    "team": "NE",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 4,
+    "bye_or_status": "Active",
+    "proj_next_week": 4.13,
+    "opponent_next_week": "CHI",
+    "actual_week_6": 3.75,
+    "projected_week_6": 1.9,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "11627",
+    "name": "Troy Franklin",
+    "pos": "WR",
+    "team": "DEN",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 3,
+    "bye_or_status": "Active",
+    "proj_next_week": 4.13,
+    "opponent_next_week": "ARI",
+    "actual_week_6": 0.7,
+    "projected_week_6": 3.92,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "13317",
+    "name": "Ted Hurst",
+    "pos": "WR",
+    "team": "TB",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 3,
+    "bye_or_status": "Active",
+    "proj_next_week": 3.96,
+    "opponent_next_week": "CAR",
+    "actual_week_6": 5.5,
+    "projected_week_6": 3.71,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "11629",
+    "name": "Devontez Walker",
+    "pos": "WR",
+    "team": "BAL",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 4,
+    "bye_or_status": "Active",
+    "proj_next_week": 3.76,
+    "opponent_next_week": "CIN",
+    "actual_week_6": 0.0,
+    "projected_week_6": 2.72,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "12535",
+    "name": "Isaac TeSlaa",
+    "pos": "WR",
+    "team": "DET",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 3,
+    "bye_or_status": "Active",
+    "proj_next_week": 3.69,
+    "opponent_next_week": "GB",
+    "actual_week_6": null,
+    "projected_week_6": 0.0,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "8180",
+    "name": "Jalen Nailor",
+    "pos": "WR",
+    "team": "LV",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 2,
+    "bye_or_status": "Active",
+    "proj_next_week": 3.66,
+    "opponent_next_week": "LAR",
+    "actual_week_6": 1.4,
+    "projected_week_6": 4.0,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "12497",
+    "name": "Tory Horton",
+    "pos": "WR",
+    "team": "SEA",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 4,
+    "bye_or_status": "Active",
+    "proj_next_week": 3.22,
+    "opponent_next_week": "KC",
+    "actual_week_6": 2.45,
+    "projected_week_6": 3.19,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "12485",
+    "name": "Tez Johnson",
+    "pos": "WR",
+    "team": "TB",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 4,
+    "bye_or_status": "Active",
+    "proj_next_week": 3.11,
+    "opponent_next_week": "CAR",
+    "actual_week_6": 3.6,
+    "projected_week_6": 2.42,
+    "trending_adds_72h": 0
+   }
+  ],
+  "TE": [
+   {
+    "player_id": "5022",
+    "name": "Dallas Goedert",
+    "pos": "TE",
+    "team": "PHI",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "proj_next_week": 9.28,
+    "opponent_next_week": "DAL",
+    "actual_week_6": 9.1,
+    "projected_week_6": 8.72,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "7002",
+    "name": "Juwan Johnson",
+    "pos": "TE",
+    "team": "NO",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "proj_next_week": 8.35,
+    "opponent_next_week": "PIT",
+    "actual_week_6": 0.0,
+    "projected_week_6": 8.85,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "7600",
+    "name": "Pat Freiermuth",
+    "pos": "TE",
+    "team": "PIT",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "proj_next_week": 7.81,
+    "opponent_next_week": "NO",
+    "actual_week_6": 2.1,
+    "projected_week_6": 7.11,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "5012",
+    "name": "Mark Andrews",
+    "pos": "TE",
+    "team": "BAL",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "proj_next_week": 7.79,
+    "opponent_next_week": "CIN",
+    "actual_week_6": 0.9,
+    "projected_week_6": 7.63,
+    "trending_adds_72h": 159561
+   },
+   {
+    "player_id": "3214",
+    "name": "Hunter Henry",
+    "pos": "TE",
+    "team": "NE",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "proj_next_week": 7.68,
+    "opponent_next_week": "CHI",
+    "actual_week_6": 12.8,
+    "projected_week_6": 7.15,
+    "trending_adds_72h": 221832
+   },
+   {
+    "player_id": "5844",
+    "name": "T.J. Hockenson",
+    "pos": "TE",
+    "team": "MIN",
+    "injury_status": "Questionable",
+    "injury_body_part": "Concussion",
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "proj_next_week": 7.56,
+    "opponent_next_week": "IND",
+    "actual_week_6": null,
+    "projected_week_6": 0.0,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "7553",
+    "name": "Kyle Pitts",
+    "pos": "TE",
+    "team": "ATL",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "proj_next_week": 7.32,
+    "opponent_next_week": "SF",
+    "actual_week_6": 20.5,
+    "projected_week_6": 6.24,
+    "trending_adds_72h": 833917
+   },
+   {
+    "player_id": "4993",
+    "name": "Mike Gesicki",
+    "pos": "TE",
+    "team": "CIN",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "proj_next_week": 6.86,
+    "opponent_next_week": "BAL",
+    "actual_week_6": null,
+    "projected_week_6": 0.0,
+    "trending_adds_72h": 116780
+   },
+   {
+    "player_id": "5001",
+    "name": "Dalton Schultz",
+    "pos": "TE",
+    "team": "HOU",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "proj_next_week": 6.54,
+    "opponent_next_week": "NYG",
+    "actual_week_6": 5.3,
+    "projected_week_6": 6.82,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "8110",
+    "name": "Jake Ferguson",
+    "pos": "TE",
+    "team": "DAL",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "proj_next_week": 6.35,
+    "opponent_next_week": "PHI",
+    "actual_week_6": 2.3,
+    "projected_week_6": 7.31,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "2505",
+    "name": "Darren Waller",
+    "pos": "TE",
+    "team": "CAR",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "proj_next_week": 6.21,
+    "opponent_next_week": "TB",
+    "actual_week_6": 0.0,
+    "projected_week_6": 6.66,
+    "trending_adds_72h": 227133
+   },
+   {
+    "player_id": "11603",
+    "name": "AJ Barner",
+    "pos": "TE",
+    "team": "SEA",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "proj_next_week": 5.92,
+    "opponent_next_week": "KC",
+    "actual_week_6": 3.1,
+    "projected_week_6": 6.02,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "8111",
+    "name": "Cade Otton",
+    "pos": "TE",
+    "team": "TB",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "proj_next_week": 5.87,
+    "opponent_next_week": "CAR",
+    "actual_week_6": 0.9,
+    "projected_week_6": 6.14,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "9482",
+    "name": "Michael Mayer",
+    "pos": "TE",
+    "team": "LV",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 2,
+    "bye_or_status": "Active",
+    "proj_next_week": 5.58,
+    "opponent_next_week": "LAR",
+    "actual_week_6": 13.0,
+    "projected_week_6": 5.72,
+    "trending_adds_72h": 1272888
+   },
+   {
+    "player_id": "6865",
+    "name": "Colby Parkinson",
+    "pos": "TE",
+    "team": "LAR",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 2,
+    "bye_or_status": "Active",
+    "proj_next_week": 5.42,
+    "opponent_next_week": "LV",
+    "actual_week_6": 11.6,
+    "projected_week_6": 3.46,
+    "trending_adds_72h": 165354
+   },
+   {
+    "player_id": "9479",
+    "name": "Darnell Washington",
+    "pos": "TE",
+    "team": "PIT",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 2,
+    "bye_or_status": "Active",
+    "proj_next_week": 5.3,
+    "opponent_next_week": "NO",
+    "actual_week_6": 10.5,
+    "projected_week_6": 6.08,
+    "trending_adds_72h": 156145
+   },
+   {
+    "player_id": "8172",
+    "name": "Greg Dulcich",
+    "pos": "TE",
+    "team": "MIA",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "proj_next_week": 5.18,
+    "opponent_next_week": "NYJ",
+    "actual_week_6": null,
+    "projected_week_6": 0.0,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "4066",
+    "name": "Evan Engram",
+    "pos": "TE",
+    "team": "DEN",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "proj_next_week": 4.71,
+    "opponent_next_week": "ARI",
+    "actual_week_6": 2.3,
+    "projected_week_6": 3.82,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "5857",
+    "name": "Noah Fant",
+    "pos": "TE",
+    "team": "NO",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 2,
+    "bye_or_status": "Active",
+    "proj_next_week": 4.58,
+    "opponent_next_week": "PIT",
+    "actual_week_6": 0.0,
+    "projected_week_6": 4.66,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "13421",
+    "name": "Eli Raridon",
+    "pos": "TE",
+    "team": "NE",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 2,
+    "bye_or_status": "Active",
+    "proj_next_week": 4.54,
+    "opponent_next_week": "CHI",
+    "actual_week_6": 1.6,
+    "projected_week_6": 4.43,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "12498",
+    "name": "Mason Taylor",
+    "pos": "TE",
+    "team": "NYJ",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 2,
+    "bye_or_status": "Active",
+    "proj_next_week": 4.21,
+    "opponent_next_week": "MIA",
+    "actual_week_6": 5.3,
+    "projected_week_6": 3.56,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "12502",
+    "name": "Gunnar Helm",
+    "pos": "TE",
+    "team": "TEN",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 1,
+    "bye_or_status": "Active",
+    "proj_next_week": 3.84,
+    "opponent_next_week": "CLE",
+    "actual_week_6": 0.0,
+    "projected_week_6": 4.19,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "7694",
+    "name": "Tommy Tremble",
+    "pos": "TE",
+    "team": "CAR",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 2,
+    "bye_or_status": "Active",
+    "proj_next_week": 3.49,
+    "opponent_next_week": "TB",
+    "actual_week_6": 18.6,
+    "projected_week_6": 2.6,
+    "trending_adds_72h": 113528
+   },
+   {
+    "player_id": "6826",
+    "name": "Cole Kmet",
+    "pos": "TE",
+    "team": "CHI",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 2,
+    "bye_or_status": "Active",
+    "proj_next_week": 3.26,
+    "opponent_next_week": "NE",
+    "actual_week_6": 1.3,
+    "projected_week_6": 3.05,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "7828",
+    "name": "Noah Gray",
+    "pos": "TE",
+    "team": "KC",
+    "injury_status": null,
+    "injury_body_part": null,
+    "depth_chart_order": 2,
+    "bye_or_status": "Active",
+    "proj_next_week": 2.78,
+    "opponent_next_week": "SEA",
+    "actual_week_6": 6.8,
+    "projected_week_6": 3.18,
+    "trending_adds_72h": 0
+   }
+  ],
+  "DEF": [
+   {
+    "player_id": "TEN",
+    "name": "TEN DEF",
+    "pos": "DEF",
+    "team": "TEN",
+    "injury_status": null,
+    "depth_chart_order": null,
+    "proj_next_week": 9.21,
+    "opponent_next_week": "CLE",
+    "actual_week_6": 25.5,
+    "projected_week_6": 5.56,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "DAL",
+    "name": "DAL DEF",
+    "pos": "DEF",
+    "team": "DAL",
+    "injury_status": null,
+    "depth_chart_order": null,
+    "proj_next_week": 7.82,
+    "opponent_next_week": "PHI",
+    "actual_week_6": 7.2,
+    "projected_week_6": 5.35,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "CHI",
+    "name": "CHI DEF",
+    "pos": "DEF",
+    "team": "CHI",
+    "injury_status": null,
+    "depth_chart_order": null,
+    "proj_next_week": 7.48,
+    "opponent_next_week": "NE",
+    "actual_week_6": 18.2,
+    "projected_week_6": 6.94,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "MIA",
+    "name": "MIA DEF",
+    "pos": "DEF",
+    "team": "MIA",
+    "injury_status": null,
+    "depth_chart_order": null,
+    "proj_next_week": 7.33,
+    "opponent_next_week": "NYJ",
+    "actual_week_6": null,
+    "projected_week_6": null,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "TB",
+    "name": "TB DEF",
+    "pos": "DEF",
+    "team": "TB",
+    "injury_status": null,
+    "depth_chart_order": null,
+    "proj_next_week": 6.68,
+    "opponent_next_week": "CAR",
+    "actual_week_6": 11.4,
+    "projected_week_6": 7.25,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "NO",
+    "name": "NO DEF",
+    "pos": "DEF",
+    "team": "NO",
+    "injury_status": null,
+    "depth_chart_order": null,
+    "proj_next_week": 6.58,
+    "opponent_next_week": "PIT",
+    "actual_week_6": 15.8,
+    "projected_week_6": 7.76,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "ARI",
+    "name": "ARI DEF",
+    "pos": "DEF",
+    "team": "ARI",
+    "injury_status": null,
+    "depth_chart_order": null,
+    "proj_next_week": 6.49,
+    "opponent_next_week": "DEN",
+    "actual_week_6": 10.4,
+    "projected_week_6": 3.47,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "PHI",
+    "name": "PHI DEF",
+    "pos": "DEF",
+    "team": "PHI",
+    "injury_status": null,
+    "depth_chart_order": null,
+    "proj_next_week": 6.21,
+    "opponent_next_week": "DAL",
+    "actual_week_6": 2.5,
+    "projected_week_6": 7.34,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "CIN",
+    "name": "CIN DEF",
+    "pos": "DEF",
+    "team": "CIN",
+    "injury_status": null,
+    "depth_chart_order": null,
+    "proj_next_week": 6.02,
+    "opponent_next_week": "BAL",
+    "actual_week_6": null,
+    "projected_week_6": null,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "DET",
+    "name": "DET DEF",
+    "pos": "DEF",
+    "team": "DET",
+    "injury_status": null,
+    "depth_chart_order": null,
+    "proj_next_week": 6.01,
+    "opponent_next_week": "GB",
+    "actual_week_6": null,
+    "projected_week_6": null,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "ATL",
+    "name": "ATL DEF",
+    "pos": "DEF",
+    "team": "ATL",
+    "injury_status": null,
+    "depth_chart_order": null,
+    "proj_next_week": 5.71,
+    "opponent_next_week": "SF",
+    "actual_week_6": 9.4,
+    "projected_week_6": 7.01,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "GB",
+    "name": "GB DEF",
+    "pos": "DEF",
+    "team": "GB",
+    "injury_status": null,
+    "depth_chart_order": null,
+    "proj_next_week": 5.67,
+    "opponent_next_week": "DET",
+    "actual_week_6": 7.7,
+    "projected_week_6": 6.14,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "LV",
+    "name": "LV DEF",
+    "pos": "DEF",
+    "team": "LV",
+    "injury_status": null,
+    "depth_chart_order": null,
+    "proj_next_week": 5.42,
+    "opponent_next_week": "LAR",
+    "actual_week_6": 1.2,
+    "projected_week_6": 5.53,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "WAS",
+    "name": "WAS DEF",
+    "pos": "DEF",
+    "team": "WAS",
+    "injury_status": null,
+    "depth_chart_order": null,
+    "proj_next_week": null,
+    "opponent_next_week": null,
+    "actual_week_6": 6.7,
+    "projected_week_6": 4.32,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "LAC",
+    "name": "LAC DEF",
+    "pos": "DEF",
+    "team": "LAC",
+    "injury_status": null,
+    "depth_chart_order": null,
+    "proj_next_week": null,
+    "opponent_next_week": null,
+    "actual_week_6": 4.3,
+    "projected_week_6": 4.0,
+    "trending_adds_72h": 0
+   },
+   {
+    "player_id": "BUF",
+    "name": "BUF DEF",
+    "pos": "DEF",
+    "team": "BUF",
+    "injury_status": null,
+    "depth_chart_order": null,
+    "proj_next_week": null,
+    "opponent_next_week": null,
+    "actual_week_6": 2.5,
+    "projected_week_6": 7.14,
+    "trending_adds_72h": 0
+   }
+  ]
+ },
+ "waivers_trending": [
+  {
+   "player_id": "12718",
+   "name": "Konata Mumpfield",
+   "pos": "WR",
+   "team": "LAR",
+   "injury_status": null,
+   "injury_body_part": null,
+   "depth_chart_order": 2,
+   "bye_or_status": "Active",
+   "proj_next_week": 4.23,
+   "opponent_next_week": "LV",
+   "actual_week_6": 2.5,
+   "projected_week_6": 1.65,
+   "trending_adds_72h": 2061081
+  },
+  {
+   "player_id": "9482",
+   "name": "Michael Mayer",
+   "pos": "TE",
+   "team": "LV",
+   "injury_status": null,
+   "injury_body_part": null,
+   "depth_chart_order": 2,
+   "bye_or_status": "Active",
+   "proj_next_week": 5.58,
+   "opponent_next_week": "LAR",
+   "actual_week_6": 13.0,
+   "projected_week_6": 5.72,
+   "trending_adds_72h": 1272888
+  },
+  {
+   "player_id": "9758",
+   "name": "C.J. Stroud",
+   "pos": "QB",
+   "team": "HOU",
+   "injury_status": null,
+   "injury_body_part": null,
+   "depth_chart_order": 1,
+   "bye_or_status": "Active",
+   "proj_next_week": 19.75,
+   "opponent_next_week": "NYG",
+   "actual_week_6": 29.98,
+   "projected_week_6": 16.5,
+   "trending_adds_72h": 1258649
+  },
+  {
+   "player_id": "11655",
+   "name": "Tyrone Tracy",
+   "pos": "RB",
+   "team": "NYG",
+   "injury_status": null,
+   "injury_body_part": null,
+   "depth_chart_order": 2,
+   "bye_or_status": "Active",
+   "proj_next_week": 6.67,
+   "opponent_next_week": "HOU",
+   "actual_week_6": 19.75,
+   "projected_week_6": 3.37,
+   "trending_adds_72h": 843810
+  },
+  {
+   "player_id": "7553",
+   "name": "Kyle Pitts",
+   "pos": "TE",
+   "team": "ATL",
+   "injury_status": null,
+   "injury_body_part": null,
+   "depth_chart_order": 1,
+   "bye_or_status": "Active",
+   "proj_next_week": 7.32,
+   "opponent_next_week": "SF",
+   "actual_week_6": 20.5,
+   "projected_week_6": 6.24,
+   "trending_adds_72h": 833917
+  },
+  {
+   "player_id": "12487",
+   "name": "Terrance Ferguson",
+   "pos": "TE",
+   "team": "LAR",
+   "injury_status": "IR",
+   "injury_body_part": "Ankle",
+   "depth_chart_order": 5,
+   "bye_or_status": "Inactive",
+   "proj_next_week": 0.0,
+   "opponent_next_week": null,
+   "actual_week_6": 0.0,
+   "projected_week_6": 0.0,
+   "trending_adds_72h": 759448
+  },
+  {
+   "player_id": "8135",
+   "name": "Treylon Burks",
+   "pos": "WR",
+   "team": "WAS",
+   "injury_status": null,
+   "injury_body_part": null,
+   "depth_chart_order": 4,
+   "bye_or_status": "Active",
+   "proj_next_week": 0.0,
+   "opponent_next_week": null,
+   "actual_week_6": 8.6,
+   "projected_week_6": 1.26,
+   "trending_adds_72h": 695478
+  },
+  {
+   "player_id": "9230",
+   "name": "Tanner McKee",
+   "pos": "QB",
+   "team": "PHI",
+   "injury_status": null,
+   "injury_body_part": null,
+   "depth_chart_order": 1,
+   "bye_or_status": "Active",
+   "proj_next_week": 16.02,
+   "opponent_next_week": "DAL",
+   "actual_week_6": 14.6,
+   "projected_week_6": 12.71,
+   "trending_adds_72h": 511744
+  },
+  {
+   "player_id": "8116",
+   "name": "Pierre Strong",
+   "pos": "RB",
+   "team": "GB",
+   "injury_status": null,
+   "injury_body_part": null,
+   "depth_chart_order": 2,
+   "bye_or_status": "Active",
+   "proj_next_week": 3.08,
+   "opponent_next_week": "DET",
+   "actual_week_6": 9.2,
+   "projected_week_6": 4.5,
+   "trending_adds_72h": 429561
+  },
+  {
+   "player_id": "11565",
+   "name": "J.J. McCarthy",
+   "pos": "QB",
+   "team": "NYG",
+   "injury_status": null,
+   "injury_body_part": null,
+   "depth_chart_order": 3,
+   "bye_or_status": "Active",
+   "proj_next_week": 1.01,
+   "opponent_next_week": "HOU",
+   "actual_week_6": 18.32,
+   "projected_week_6": 0.87,
+   "trending_adds_72h": 374589
+  },
+  {
+   "player_id": "96",
+   "name": "Aaron Rodgers",
+   "pos": "QB",
+   "team": "PIT",
+   "injury_status": null,
+   "injury_body_part": null,
+   "depth_chart_order": 1,
+   "bye_or_status": "Active",
+   "proj_next_week": 20.9,
+   "opponent_next_week": "NO",
+   "actual_week_6": 20.02,
+   "projected_week_6": 19.48,
+   "trending_adds_72h": 329760
+  },
+  {
+   "player_id": "11563",
+   "name": "Bo Nix",
+   "pos": "QB",
+   "team": "DEN",
+   "injury_status": null,
+   "injury_body_part": null,
+   "depth_chart_order": 1,
+   "bye_or_status": "Active",
+   "proj_next_week": 22.54,
+   "opponent_next_week": "ARI",
+   "actual_week_6": 4.48,
+   "projected_week_6": 15.83,
+   "trending_adds_72h": 318234
+  },
+  {
+   "player_id": "13296",
+   "name": "Caleb Douglas",
+   "pos": "WR",
+   "team": "MIA",
+   "injury_status": "Questionable",
+   "injury_body_part": "Ankle",
+   "depth_chart_order": 9,
+   "bye_or_status": "Active",
+   "proj_next_week": 5.02,
+   "opponent_next_week": "NYJ",
+   "actual_week_6": null,
+   "projected_week_6": 0.0,
+   "trending_adds_72h": 313928
+  },
+  {
+   "player_id": "1373",
+   "name": "Geno Smith",
+   "pos": "QB",
+   "team": "NYJ",
+   "injury_status": null,
+   "injury_body_part": null,
+   "depth_chart_order": 1,
+   "bye_or_status": "Active",
+   "proj_next_week": 18.42,
+   "opponent_next_week": "MIA",
+   "actual_week_6": 14.98,
+   "projected_week_6": 14.38,
+   "trending_adds_72h": 282928
+  },
+  {
+   "player_id": "2197",
+   "name": "Brandin Cooks",
+   "pos": "WR",
+   "team": "SF",
+   "injury_status": null,
+   "injury_body_part": null,
+   "depth_chart_order": 3,
+   "bye_or_status": "Active",
+   "proj_next_week": 6.3,
+   "opponent_next_week": "ATL",
+   "actual_week_6": 1.8,
+   "projected_week_6": 4.54,
+   "trending_adds_72h": 268240
+  },
+  {
+   "player_id": "4147",
+   "name": "Samaje Perine",
+   "pos": "RB",
+   "team": "CIN",
+   "injury_status": null,
+   "injury_body_part": null,
+   "depth_chart_order": 2,
+   "bye_or_status": "Active",
+   "proj_next_week": 4.83,
+   "opponent_next_week": "BAL",
+   "actual_week_6": null,
+   "projected_week_6": 0.0,
+   "trending_adds_72h": 245516
+  },
+  {
+   "player_id": "12491",
+   "name": "Corey Kiner",
+   "pos": "RB",
+   "team": "NE",
+   "injury_status": null,
+   "injury_body_part": null,
+   "depth_chart_order": 3,
+   "bye_or_status": "Active",
+   "proj_next_week": 4.52,
+   "opponent_next_week": "CHI",
+   "actual_week_6": 10.1,
+   "projected_week_6": 1.16,
+   "trending_adds_72h": 236760
+  },
+  {
+   "player_id": "2505",
+   "name": "Darren Waller",
+   "pos": "TE",
+   "team": "CAR",
+   "injury_status": null,
+   "injury_body_part": null,
+   "depth_chart_order": 1,
+   "bye_or_status": "Active",
+   "proj_next_week": 6.21,
+   "opponent_next_week": "TB",
+   "actual_week_6": 0.0,
+   "projected_week_6": 6.66,
+   "trending_adds_72h": 227133
+  },
+  {
+   "player_id": "3214",
+   "name": "Hunter Henry",
+   "pos": "TE",
+   "team": "NE",
+   "injury_status": null,
+   "injury_body_part": null,
+   "depth_chart_order": 1,
+   "bye_or_status": "Active",
+   "proj_next_week": 7.68,
+   "opponent_next_week": "CHI",
+   "actual_week_6": 12.8,
+   "projected_week_6": 7.15,
+   "trending_adds_72h": 221832
+  },
+  {
+   "player_id": "4017",
+   "name": "Deshaun Watson",
+   "pos": "QB",
+   "team": "CLE",
+   "injury_status": null,
+   "injury_body_part": null,
+   "depth_chart_order": 1,
+   "bye_or_status": "Active",
+   "proj_next_week": 15.89,
+   "opponent_next_week": "TEN",
+   "actual_week_6": 9.46,
+   "projected_week_6": 15.7,
+   "trending_adds_72h": 194792
+  },
+  {
+   "player_id": "12634",
+   "name": "Jordan Watkins",
+   "pos": "WR",
+   "team": "SF",
+   "injury_status": null,
+   "injury_body_part": null,
+   "depth_chart_order": 4,
+   "bye_or_status": "Active",
+   "proj_next_week": 6.02,
+   "opponent_next_week": "ATL",
+   "actual_week_6": 2.7,
+   "projected_week_6": 2.52,
+   "trending_adds_72h": 190676
+  },
+  {
+   "player_id": "4663",
+   "name": "Austin Ekeler",
+   "pos": "RB",
+   "team": "WAS",
+   "injury_status": null,
+   "injury_body_part": null,
+   "depth_chart_order": 2,
+   "bye_or_status": "Active",
+   "proj_next_week": 0.0,
+   "opponent_next_week": null,
+   "actual_week_6": 1.7,
+   "projected_week_6": 5.98,
+   "trending_adds_72h": 179300
+  },
+  {
+   "player_id": "6130",
+   "name": "Devin Singletary",
+   "pos": "RB",
+   "team": "NYG",
+   "injury_status": null,
+   "injury_body_part": null,
+   "depth_chart_order": 3,
+   "bye_or_status": "Active",
+   "proj_next_week": 4.97,
+   "opponent_next_week": "HOU",
+   "actual_week_6": 3.8,
+   "projected_week_6": 0.0,
+   "trending_adds_72h": 177111
+  },
+  {
+   "player_id": "6865",
+   "name": "Colby Parkinson",
+   "pos": "TE",
+   "team": "LAR",
+   "injury_status": null,
+   "injury_body_part": null,
+   "depth_chart_order": 2,
+   "bye_or_status": "Active",
+   "proj_next_week": 5.42,
+   "opponent_next_week": "LV",
+   "actual_week_6": 11.6,
+   "projected_week_6": 3.46,
+   "trending_adds_72h": 165354
+  },
+  {
+   "player_id": "5012",
+   "name": "Mark Andrews",
+   "pos": "TE",
+   "team": "BAL",
+   "injury_status": null,
+   "injury_body_part": null,
+   "depth_chart_order": 1,
+   "bye_or_status": "Active",
+   "proj_next_week": 7.79,
+   "opponent_next_week": "CIN",
+   "actual_week_6": 0.9,
+   "projected_week_6": 7.63,
+   "trending_adds_72h": 159561
+  },
+  {
+   "player_id": "9479",
+   "name": "Darnell Washington",
+   "pos": "TE",
+   "team": "PIT",
+   "injury_status": null,
+   "injury_body_part": null,
+   "depth_chart_order": 2,
+   "bye_or_status": "Active",
+   "proj_next_week": 5.3,
+   "opponent_next_week": "NO",
+   "actual_week_6": 10.5,
+   "projected_week_6": 6.08,
+   "trending_adds_72h": 156145
+  },
+  {
+   "player_id": "13424",
+   "name": "Seth McGowan",
+   "pos": "RB",
+   "team": "IND",
+   "injury_status": null,
+   "injury_body_part": null,
+   "depth_chart_order": 2,
+   "bye_or_status": "Active",
+   "proj_next_week": 2.55,
+   "opponent_next_week": "MIN",
+   "actual_week_6": 3.6,
+   "projected_week_6": 3.9,
+   "trending_adds_72h": 147864
+  },
+  {
+   "player_id": "12536",
+   "name": "Jaylin Noel",
+   "pos": "WR",
+   "team": "HOU",
+   "injury_status": null,
+   "injury_body_part": null,
+   "depth_chart_order": 4,
+   "bye_or_status": "Active",
+   "proj_next_week": 4.99,
+   "opponent_next_week": "NYG",
+   "actual_week_6": 23.05,
+   "projected_week_6": 4.85,
+   "trending_adds_72h": 143874
+  },
+  {
+   "player_id": "12482",
+   "name": "Savion Williams",
+   "pos": "WR",
+   "team": "GB",
+   "injury_status": null,
+   "injury_body_part": null,
+   "depth_chart_order": 4,
+   "bye_or_status": "Active",
+   "proj_next_week": 2.03,
+   "opponent_next_week": "DET",
+   "actual_week_6": 6.1,
+   "projected_week_6": 1.82,
+   "trending_adds_72h": 119616
+  },
+  {
+   "player_id": "4993",
+   "name": "Mike Gesicki",
+   "pos": "TE",
+   "team": "CIN",
+   "injury_status": null,
+   "injury_body_part": null,
+   "depth_chart_order": 1,
+   "bye_or_status": "Active",
+   "proj_next_week": 6.86,
+   "opponent_next_week": "BAL",
+   "actual_week_6": null,
+   "projected_week_6": 0.0,
+   "trending_adds_72h": 116780
+  },
+  {
+   "player_id": "8122",
+   "name": "Zonovan Knight",
+   "pos": "RB",
+   "team": "ARI",
+   "injury_status": null,
+   "injury_body_part": null,
+   "depth_chart_order": 2,
+   "bye_or_status": "Active",
+   "proj_next_week": 3.51,
+   "opponent_next_week": "DEN",
+   "actual_week_6": 9.8,
+   "projected_week_6": 4.15,
+   "trending_adds_72h": 115934
+  },
+  {
+   "player_id": "7694",
+   "name": "Tommy Tremble",
+   "pos": "TE",
+   "team": "CAR",
+   "injury_status": null,
+   "injury_body_part": null,
+   "depth_chart_order": 2,
+   "bye_or_status": "Active",
+   "proj_next_week": 3.49,
+   "opponent_next_week": "TB",
+   "actual_week_6": 18.6,
+   "projected_week_6": 2.6,
+   "trending_adds_72h": 113528
+  },
+  {
+   "player_id": "12469",
+   "name": "Dylan Sampson",
+   "pos": "RB",
+   "team": "CLE",
+   "injury_status": "IR",
+   "injury_body_part": "Knee",
+   "depth_chart_order": 5,
+   "bye_or_status": "Inactive",
+   "proj_next_week": 4.56,
+   "opponent_next_week": "TEN",
+   "actual_week_6": 0.0,
+   "projected_week_6": 0.0,
+   "trending_adds_72h": 111425
+  },
+  {
+   "player_id": "8119",
+   "name": "Jahan Dotson",
+   "pos": "WR",
+   "team": "ATL",
+   "injury_status": null,
+   "injury_body_part": null,
+   "depth_chart_order": 2,
+   "bye_or_status": "Active",
+   "proj_next_week": 5.04,
+   "opponent_next_week": "SF",
+   "actual_week_6": 16.2,
+   "projected_week_6": 3.39,
+   "trending_adds_72h": 103467
+  },
+  {
+   "player_id": "11616",
+   "name": "Jacob Cowing",
+   "pos": "WR",
+   "team": "SF",
+   "injury_status": null,
+   "injury_body_part": null,
+   "depth_chart_order": 2,
+   "bye_or_status": "Active",
+   "proj_next_week": 2.33,
+   "opponent_next_week": "ATL",
+   "actual_week_6": 0.3,
+   "projected_week_6": 4.71,
+   "trending_adds_72h": 99108
+  },
+  {
+   "player_id": "11559",
+   "name": "Michael Penix",
+   "pos": "QB",
+   "team": "ATL",
+   "injury_status": null,
+   "injury_body_part": null,
+   "depth_chart_order": 1,
+   "bye_or_status": "Active",
+   "proj_next_week": 17.19,
+   "opponent_next_week": "SF",
+   "actual_week_6": 28.1,
+   "projected_week_6": 15.2,
+   "trending_adds_72h": 99042
+  },
+  {
+   "player_id": "8161",
+   "name": "Malik Willis",
+   "pos": "QB",
+   "team": "MIA",
+   "injury_status": null,
+   "injury_body_part": null,
+   "depth_chart_order": 1,
+   "bye_or_status": "Active",
+   "proj_next_week": 15.63,
+   "opponent_next_week": "NYJ",
+   "actual_week_6": null,
+   "projected_week_6": 0.0,
+   "trending_adds_72h": 96229
+  },
+  {
+   "player_id": "13413",
+   "name": "Cyrus Allen",
+   "pos": "WR",
+   "team": "KC",
+   "injury_status": null,
+   "injury_body_part": null,
+   "depth_chart_order": 3,
+   "bye_or_status": "Active",
+   "proj_next_week": 0.71,
+   "opponent_next_week": "SEA",
+   "actual_week_6": 3.7,
+   "projected_week_6": 3.71,
+   "trending_adds_72h": 87096
+  },
+  {
+   "player_id": "5995",
+   "name": "Justice Hill",
+   "pos": "RB",
+   "team": "BAL",
+   "injury_status": null,
+   "injury_body_part": null,
+   "depth_chart_order": 2,
+   "bye_or_status": "Active",
+   "proj_next_week": 5.71,
+   "opponent_next_week": "CIN",
+   "actual_week_6": 2.4,
+   "projected_week_6": 5.68,
+   "trending_adds_72h": 86184
+  }
+ ],
+ "rostered_projections_next": {
+  "10213": {
+   "p": 8.02,
+   "opp": "LAR"
+  },
+  "10229": {
+   "p": 10.27,
+   "opp": "SEA"
+  },
+  "10232": {
+   "p": 10.41,
+   "opp": "DEN"
+  },
+  "10235": {
+   "p": 3.56,
+   "opp": "NE"
+  },
+  "10859": {
+   "p": 10.48,
+   "opp": "GB"
+  },
+  "11435": {
+   "p": 7.28,
+   "opp": "KC"
+  },
+  "11439": {
+   "p": 1.42,
+   "opp": "TEN"
+  },
+  "11560": {
+   "p": 19.37,
+   "opp": "NE"
+  },
+  "11564": {
+   "p": 23.28,
+   "opp": "CHI"
+  },
+  "11566": {
+   "p": 0.0,
+   "opp": null
+  },
+  "11576": {
+   "p": 6.54,
+   "opp": "MIA"
+  },
+  "11581": {
+   "p": 4.09,
+   "opp": "DET"
+  },
+  "11584": {
+   "p": 15.49,
+   "opp": "CAR"
+  },
+  "11586": {
+   "p": 7.23,
+   "opp": "LV"
+  },
+  "11604": {
+   "p": 13.5,
+   "opp": "LAR"
+  },
+  "11610": {
+   "p": 8.44,
+   "opp": "NYJ"
+  },
+  "11620": {
+   "p": 8.86,
+   "opp": "NE"
+  },
+  "11624": {
+   "p": 7.25,
+   "opp": "SEA"
+  },
+  "11625": {
+   "p": 2.06,
+   "opp": "MIA"
+  },
+  "11628": {
+   "p": 3.37,
+   "opp": "NYG"
+  },
+  "11630": {
+   "p": 0.0,
+   "opp": null
+  },
+  "11631": {
+   "p": 0.0,
+   "opp": null
+  },
+  "11632": {
+   "p": 11.71,
+   "opp": "HOU"
+  },
+  "11635": {
+   "p": 0.0,
+   "opp": null
+  },
+  "11637": {
+   "p": 0.0,
+   "opp": null
+  },
+  "11643": {
+   "p": 4.29,
+   "opp": "NYJ"
+  },
+  "11646": {
+   "p": 12.96,
+   "opp": "TB"
+  },
+  "11647": {
+   "p": 0.0,
+   "opp": null
+  },
+  "1166": {
+   "p": 18.55,
+   "opp": "LAR"
+  },
+  "11783": {
+   "p": 5.6,
+   "opp": "PHI"
+  },
+  "11834": {
+   "p": 8.28,
+   "opp": "PIT"
+  },
+  "12474": {
+   "p": 10.24,
+   "opp": "NYG"
+  },
+  "12481": {
+   "p": 4.64,
+   "opp": "HOU"
+  },
+  "12489": {
+   "p": 9.78,
+   "opp": "ARI"
+  },
+  "12490": {
+   "p": 0.0,
+   "opp": null
+  },
+  "12495": {
+   "p": 12.23,
+   "opp": "NYJ"
+  },
+  "12501": {
+   "p": 12.88,
+   "opp": "DET"
+  },
+  "12506": {
+   "p": 8.91,
+   "opp": "TEN"
+  },
+  "12507": {
+   "p": 0.0,
+   "opp": null
+  },
+  "12508": {
+   "p": 0.0,
+   "opp": null
+  },
+  "12509": {
+   "p": 0.0,
+   "opp": null
+  },
+  "12512": {
+   "p": 10.13,
+   "opp": "TEN"
+  },
+  "12514": {
+   "p": 8.75,
+   "opp": "CAR"
+  },
+  "12517": {
+   "p": 7.66,
+   "opp": "NE"
+  },
+  "12518": {
+   "p": 8.04,
+   "opp": "MIN"
+  },
+  "12519": {
+   "p": 10.15,
+   "opp": "NE"
+  },
+  "12526": {
+   "p": 11.69,
+   "opp": "TB"
+  },
+  "12527": {
+   "p": 13.02,
+   "opp": "LAR"
+  },
+  "12529": {
+   "p": 6.24,
+   "opp": "CHI"
+  },
+  "12533": {
+   "p": 0.0,
+   "opp": null
+  },
+  "12534": {
+   "p": 6.26,
+   "opp": "NE"
+  },
+  "12545": {
+   "p": 17.14,
+   "opp": "PIT"
+  },
+  "13150": {
+   "p": 2.42,
+   "opp": "DAL"
+  },
+  "13274": {
+   "p": 9.25,
+   "opp": "NO"
+  },
+  "13276": {
+   "p": 8.81,
+   "opp": "MIA"
+  },
+  "13279": {
+   "p": 9.94,
+   "opp": "CLE"
+  },
+  "13281": {
+   "p": 0.0,
+   "opp": null
+  },
+  "13286": {
+   "p": 0.0,
+   "opp": null
+  },
+  "13287": {
+   "p": 7.2,
+   "opp": "DEN"
+  },
+  "13293": {
+   "p": 5.44,
+   "opp": "CIN"
+  },
+  "13294": {
+   "p": 4.64,
+   "opp": "DAL"
+  },
+  "13298": {
+   "p": 8.41,
+   "opp": "TEN"
+  },
+  "13305": {
+   "p": 5.26,
+   "opp": "LAR"
+  },
+  "13330": {
+   "p": 5.44,
+   "opp": "MIA"
+  },
+  "13337": {
+   "p": 3.26,
+   "opp": "SEA"
+  },
+  "13345": {
+   "p": 0.0,
+   "opp": null
+  },
+  "13346": {
+   "p": 9.35,
+   "opp": "TEN"
+  },
+  "13414": {
+   "p": 5.01,
+   "opp": "ATL"
+  },
+  "13417": {
+   "p": 0.0,
+   "opp": null
+  },
+  "1466": {
+   "p": 9.29,
+   "opp": "SEA"
+  },
+  "1479": {
+   "p": 6.32,
+   "opp": "MIN"
+  },
+  "2133": {
+   "p": 0.0,
+   "opp": null
+  },
+  "2216": {
+   "p": 0.0,
+   "opp": null
+  },
+  "2449": {
+   "p": 0.0,
+   "opp": null
+  },
+  "3163": {
+   "p": 21.91,
+   "opp": "GB"
+  },
+  "3198": {
+   "p": 16.73,
+   "opp": "CIN"
+  },
+  "3257": {
+   "p": 16.32,
+   "opp": "DEN"
+  },
+  "3271": {
+   "p": 7.78,
+   "opp": "LV"
+  },
+  "3294": {
+   "p": 17.99,
+   "opp": "PHI"
+  },
+  "3321": {
+   "p": 0.0,
+   "opp": null
+  },
+  "3634": {
+   "p": 5.56,
+   "opp": "NE"
+  },
+  "4034": {
+   "p": 18.58,
+   "opp": "ATL"
+  },
+  "4035": {
+   "p": 6.5,
+   "opp": "PIT"
+  },
+  "4037": {
+   "p": 7.66,
+   "opp": "CAR"
+  },
+  "4046": {
+   "p": 17.64,
+   "opp": "SEA"
+  },
+  "4137": {
+   "p": 0.0,
+   "opp": null
+  },
+  "4177": {
+   "p": 0.0,
+   "opp": null
+  },
+  "4199": {
+   "p": 10.85,
+   "opp": "IND"
+  },
+  "421": {
+   "p": 20.14,
+   "opp": "LV"
+  },
+  "4217": {
+   "p": 13.9,
+   "opp": "ATL"
+  },
+  "4454": {
+   "p": 6.2,
+   "opp": "DEN"
+  },
+  "4866": {
+   "p": 12.69,
+   "opp": "DAL"
+  },
+  "4881": {
+   "p": 24.01,
+   "opp": "CIN"
+  },
+  "4983": {
+   "p": 0.0,
+   "opp": null
+  },
+  "4984": {
+   "p": 0.0,
+   "opp": null
+  },
+  "5045": {
+   "p": 7.55,
+   "opp": "ARI"
+  },
+  "5846": {
+   "p": 10.35,
+   "opp": "NO"
+  },
+  "5849": {
+   "p": 17.56,
+   "opp": "IND"
+  },
+  "5850": {
+   "p": 11.51,
+   "opp": "DET"
+  },
+  "5859": {
+   "p": 12.45,
+   "opp": "CHI"
+  },
+  "5872": {
+   "p": 0.0,
+   "opp": null
+  },
+  "5892": {
+   "p": 8.5,
+   "opp": "NYG"
+  },
+  "5947": {
+   "p": 0.0,
+   "opp": null
+  },
+  "5967": {
+   "p": 10.92,
+   "opp": "CLE"
+  },
+  "6770": {
+   "p": 22.78,
+   "opp": "BAL"
+  },
+  "6786": {
+   "p": 14.35,
+   "opp": "PHI"
+  },
+  "6790": {
+   "p": 14.67,
+   "opp": "NE"
+  },
+  "6794": {
+   "p": 14.02,
+   "opp": "IND"
+  },
+  "6797": {
+   "p": 0.0,
+   "opp": null
+  },
+  "6801": {
+   "p": 12.8,
+   "opp": "BAL"
+  },
+  "6804": {
+   "p": 22.26,
+   "opp": "DET"
+  },
+  "6806": {
+   "p": 9.74,
+   "opp": "ARI"
+  },
+  "6813": {
+   "p": 16.43,
+   "opp": "MIN"
+  },
+  "6904": {
+   "p": 0.0,
+   "opp": null
+  },
+  "7021": {
+   "p": 7.57,
+   "opp": "NO"
+  },
+  "7523": {
+   "p": 0.0,
+   "opp": null
+  },
+  "7525": {
+   "p": 11.26,
+   "opp": "DAL"
+  },
+  "7526": {
+   "p": 10.67,
+   "opp": "ARI"
+  },
+  "7543": {
+   "p": 0.0,
+   "opp": null
+  },
+  "7547": {
+   "p": 16.15,
+   "opp": "GB"
+  },
+  "7564": {
+   "p": 15.86,
+   "opp": "BAL"
+  },
+  "7567": {
+   "p": 6.42,
+   "opp": "CAR"
+  },
+  "7569": {
+   "p": 14.2,
+   "opp": "NYG"
+  },
+  "7588": {
+   "p": 16.31,
+   "opp": "PHI"
+  },
+  "7594": {
+   "p": 14.76,
+   "opp": "TB"
+  },
+  "7611": {
+   "p": 9.92,
+   "opp": "CHI"
+  },
+  "8112": {
+   "p": 13.87,
+   "opp": "SF"
+  },
+  "8121": {
+   "p": 0.0,
+   "opp": null
+  },
+  "8126": {
+   "p": 8.15,
+   "opp": "CLE"
+  },
+  "8129": {
+   "p": 5.9,
+   "opp": "DAL"
+  },
+  "8130": {
+   "p": 12.02,
+   "opp": "DEN"
+  },
+  "8131": {
+   "p": 9.96,
+   "opp": "HOU"
+  },
+  "8132": {
+   "p": 6.1,
+   "opp": "DEN"
+  },
+  "8134": {
+   "p": 0.0,
+   "opp": null
+  },
+  "8136": {
+   "p": 0.0,
+   "opp": null
+  },
+  "8137": {
+   "p": 9.55,
+   "opp": "PHI"
+  },
+  "8138": {
+   "p": 0.0,
+   "opp": null
+  },
+  "8142": {
+   "p": 0.0,
+   "opp": null
+  },
+  "8144": {
+   "p": 14.09,
+   "opp": "PIT"
+  },
+  "8146": {
+   "p": 13.81,
+   "opp": "MIA"
+  },
+  "8148": {
+   "p": 10.06,
+   "opp": "GB"
+  },
+  "8150": {
+   "p": 18.47,
+   "opp": "LV"
+  },
+  "8151": {
+   "p": 16.59,
+   "opp": "SEA"
+  },
+  "8154": {
+   "p": 4.74,
+   "opp": "SF"
+  },
+  "8155": {
+   "p": 12.54,
+   "opp": "MIA"
+  },
+  "8167": {
+   "p": 15.29,
+   "opp": "DET"
+  },
+  "8183": {
+   "p": 23.13,
+   "opp": "ATL"
+  },
+  "8228": {
+   "p": 15.12,
+   "opp": "NO"
+  },
+  "8408": {
+   "p": 9.05,
+   "opp": "IND"
+  },
+  "8676": {
+   "p": 5.37,
+   "opp": "KC"
+  },
+  "9221": {
+   "p": 22.81,
+   "opp": "GB"
+  },
+  "9224": {
+   "p": 12.74,
+   "opp": "BAL"
+  },
+  "9228": {
+   "p": 20.94,
+   "opp": "TB"
+  },
+  "9480": {
+   "p": 0.0,
+   "opp": null
+  },
+  "9484": {
+   "p": 9.37,
+   "opp": "DET"
+  },
+  "9486": {
+   "p": 5.27,
+   "opp": "DAL"
+  },
+  "9487": {
+   "p": 0.0,
+   "opp": null
+  },
+  "9488": {
+   "p": 19.93,
+   "opp": "KC"
+  },
+  "9493": {
+   "p": 18.48,
+   "opp": "LV"
+  },
+  "9500": {
+   "p": 7.62,
+   "opp": "MIN"
+  },
+  "9502": {
+   "p": 1.98,
+   "opp": "NYG"
+  },
+  "9508": {
+   "p": 6.05,
+   "opp": "CLE"
+  },
+  "9509": {
+   "p": 20.55,
+   "opp": "SF"
+  },
+  "9511": {
+   "p": 0.0,
+   "opp": null
+  },
+  "9753": {
+   "p": 4.98,
+   "opp": "KC"
+  },
+  "9756": {
+   "p": 7.08,
+   "opp": "IND"
+  },
+  "9757": {
+   "p": 8.13,
+   "opp": "PIT"
+  },
+  "9997": {
+   "p": 16.69,
+   "opp": "CIN"
+  },
+  "BAL": {
+   "p": 6.87,
+   "opp": "CIN"
+  },
+  "CAR": {
+   "p": 7.94,
+   "opp": "TB"
+  },
+  "CLE": {
+   "p": 10.01,
+   "opp": "TEN"
+  },
+  "DEN": {
+   "p": 8.42,
+   "opp": "ARI"
+  },
+  "HOU": {
+   "p": 10.22,
+   "opp": "NYG"
+  },
+  "IND": {
+   "p": 6.51,
+   "opp": "MIN"
+  },
+  "KC": {
+   "p": 6.88,
+   "opp": "SEA"
+  },
+  "LAR": {
+   "p": 7.32,
+   "opp": "LV"
+  },
+  "MIN": {
+   "p": 9.66,
+   "opp": "IND"
+  },
+  "NE": {
+   "p": 6.51,
+   "opp": "CHI"
+  },
+  "NYG": {
+   "p": 5.91,
+   "opp": "HOU"
+  },
+  "NYJ": {
+   "p": 10.31,
+   "opp": "MIA"
+  },
+  "PIT": {
+   "p": 8.43,
+   "opp": "NO"
+  },
+  "SEA": {
+   "p": 6.7,
+   "opp": "KC"
+  },
+  "SF": {
+   "p": 7.67,
+   "opp": "ATL"
+  }
+ }
+}

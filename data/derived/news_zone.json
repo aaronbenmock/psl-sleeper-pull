@@ -1,14 +1,14 @@
 {
  "machine": {
   "date_central": "2026-10-16",
-  "age_hours": 100.6,
+  "age_hours": 124.0,
   "my_roster": [
    {
     "player_id": "13346",
     "name": "Denzel Boston",
     "pos": "WR",
     "team": "CLE",
-    "slot": "FLEX",
+    "slot": "WR",
     "injury_status": "Questionable",
     "injury_body_part": "Foot",
     "injury_start_date": null,
@@ -31,7 +31,7 @@
     "name": "Ollie Gordon",
     "pos": "RB",
     "team": "MIA",
-    "slot": "BN",
+    "slot": "FLEX",
     "injury_status": "Questionable",
     "injury_body_part": "Undisclosed",
     "injury_start_date": null,
@@ -47,6 +47,25 @@
      "2026-10-12: news updated 1791639903654 to 1791765320620",
      "2026-10-13: news updated 1791765320620 to 1791816329623",
      "2026-10-15: news updated 1791816329623 to 1792034710262"
+    ]
+   },
+   {
+    "player_id": "2133",
+    "name": "Davante Adams",
+    "pos": "WR",
+    "team": "LAR",
+    "slot": "BN",
+    "injury_status": "IR",
+    "injury_body_part": "Hamstring",
+    "injury_start_date": null,
+    "injury_notes": "Surgery",
+    "practice_participation": null,
+    "practice_description": null,
+    "news_updated": "2026-10-13",
+    "depth_chart_order": 2,
+    "history": [
+     "2026-10-11: news updated 1791519049552 to 1791705011295",
+     "2026-10-13: news updated 1791705011295 to 1791886209754"
     ]
    },
    {
@@ -114,25 +133,6 @@
     ]
    },
    {
-    "player_id": "2133",
-    "name": "Davante Adams",
-    "pos": "WR",
-    "team": "LAR",
-    "slot": "WR",
-    "injury_status": null,
-    "injury_body_part": null,
-    "injury_start_date": null,
-    "injury_notes": null,
-    "practice_participation": null,
-    "practice_description": null,
-    "news_updated": "2026-10-13",
-    "depth_chart_order": 2,
-    "history": [
-     "2026-10-11: news updated 1791519049552 to 1791705011295",
-     "2026-10-13: news updated 1791705011295 to 1791886209754"
-    ]
-   },
-   {
     "player_id": "12506",
     "name": "Harold Fannin",
     "pos": "TE",
@@ -171,10 +171,10 @@
     ]
    },
    {
-    "player_id": "4984",
-    "name": "Josh Allen",
+    "player_id": "5849",
+    "name": "Kyler Murray",
     "pos": "QB",
-    "team": "BUF",
+    "team": "MIN",
     "slot": "QB",
     "injury_status": null,
     "injury_body_part": null,
@@ -182,11 +182,11 @@
     "injury_notes": null,
     "practice_participation": null,
     "practice_description": null,
-    "news_updated": "2026-10-13",
+    "news_updated": "2026-10-12",
     "depth_chart_order": 1,
     "history": [
-     "2026-10-11: news updated 1791153614390 to 1791662105910",
-     "2026-10-13: news updated 1791662105910 to 1791883809452"
+     "2026-10-10: news updated 1791318347091 to 1791581156107",
+     "2026-10-12: news updated 1791581156107 to 1791765322221"
     ]
    },
    {
@@ -269,6 +269,25 @@
     ]
    },
    {
+    "player_id": "4984",
+    "name": "Josh Allen",
+    "pos": "QB",
+    "team": "BUF",
+    "slot": "BN",
+    "injury_status": null,
+    "injury_body_part": null,
+    "injury_start_date": null,
+    "injury_notes": null,
+    "practice_participation": null,
+    "practice_description": null,
+    "news_updated": "2026-10-13",
+    "depth_chart_order": 1,
+    "history": [
+     "2026-10-11: news updated 1791153614390 to 1791662105910",
+     "2026-10-13: news updated 1791662105910 to 1791883809452"
+    ]
+   },
+   {
     "player_id": "KC",
     "name": "KC DEF",
     "pos": "DEF",
@@ -283,25 +302,6 @@
     "news_updated": null,
     "depth_chart_order": null,
     "history": []
-   },
-   {
-    "player_id": "5849",
-    "name": "Kyler Murray",
-    "pos": "QB",
-    "team": "MIN",
-    "slot": "BN",
-    "injury_status": null,
-    "injury_body_part": null,
-    "injury_start_date": null,
-    "injury_notes": null,
-    "practice_participation": null,
-    "practice_description": null,
-    "news_updated": "2026-10-12",
-    "depth_chart_order": 1,
-    "history": [
-     "2026-10-10: news updated 1791318347091 to 1791581156107",
-     "2026-10-12: news updated 1791581156107 to 1791765322221"
-    ]
    },
    {
     "player_id": "7021",
@@ -836,6 +836,6 @@
   "source_key": "desktop-scheduled-task",
   "n_calls": 5,
   "stale": true,
-  "age_days": 12.6
+  "age_days": 13.6
  }
 }
