@@ -18,7 +18,7 @@
    "gain": 1.77,
    "starter_gain": 1.77,
    "depth_gain": 0.0,
-   "trending": 143200,
+   "trending": 143746,
    "injury_status": null,
    "would_start": true,
    "drop": {
@@ -28,7 +28,7 @@
     "ros": 6.65
    },
    "bid": 13,
-   "bid_why": "1.8 pts/week x 11 weeks left x $0.60 per point, x1.13 demand premium (143,200 Sleeper adds in 72h; the hottest player on the wire has 2,077,335)",
+   "bid_why": "1.8 pts/week x 11 weeks left x $0.60 per point, x1.13 demand premium (143,746 Sleeper adds in 72h; the hottest player on the wire has 2,087,793)",
    "ceiling": 13.67,
    "ceiling_gap": 3.15,
    "ceiling_gain": 4.92,
@@ -52,8 +52,8 @@
      "remaining": 61,
      "score": 6.5,
      "why": [
-      "owns Tank Dell (IR), the HOU WR he would replace",
       "owns Nico Collins, the HOU WR1 (handcuff interest)",
+      "owns Tank Dell (IR), the HOU WR he would replace",
       "just dropped Terry McLaurin",
       "has bid on a WR before"
      ],
@@ -122,7 +122,7 @@
    "gain": 0.51,
    "starter_gain": 0.0,
    "depth_gain": 0.51,
-   "trending": 1262436,
+   "trending": 1268015,
    "injury_status": null,
    "would_start": false,
    "drop": {
@@ -132,7 +132,7 @@
     "ros": 6.65
    },
    "bid": 5,
-   "bid_why": "0.5 pts/week x 11 weeks left x $0.60 per point, x1.39 demand premium (1,262,436 Sleeper adds in 72h; the hottest player on the wire has 2,077,335)",
+   "bid_why": "0.5 pts/week x 11 weeks left x $0.60 per point, x1.39 demand premium (1,268,015 Sleeper adds in 72h; the hottest player on the wire has 2,087,793)",
    "ceiling": null,
    "ceiling_gap": null,
    "ceiling_gain": 0.51,
@@ -219,7 +219,7 @@
    "gain": 0.43,
    "starter_gain": 0.0,
    "depth_gain": 0.43,
-   "trending": 325200,
+   "trending": 328004,
    "injury_status": null,
    "would_start": false,
    "drop": {
@@ -251,7 +251,7 @@
    "gain": 0.22,
    "starter_gain": 0.0,
    "depth_gain": 0.22,
-   "trending": 97413,
+   "trending": 98247,
    "injury_status": null,
    "would_start": false,
    "drop": {
@@ -283,7 +283,7 @@
    "gain": 0.16,
    "starter_gain": 0.0,
    "depth_gain": 0.16,
-   "trending": 194296,
+   "trending": 195880,
    "injury_status": null,
    "would_start": false,
    "drop": {
@@ -315,7 +315,7 @@
    "gain": 0.15,
    "starter_gain": 0.0,
    "depth_gain": 0.15,
-   "trending": 287184,
+   "trending": 290056,
    "injury_status": null,
    "would_start": false,
    "drop": {
@@ -347,7 +347,7 @@
    "gain": 0.11,
    "starter_gain": 0.0,
    "depth_gain": 0.11,
-   "trending": 323358,
+   "trending": 326844,
    "injury_status": null,
    "would_start": false,
    "drop": {
@@ -417,8 +417,8 @@
      "remaining": 94,
      "score": 9.5,
      "why": [
-      "owns A.J. Brown (IR), the NE WR he would replace",
       "owns Mack Hollins (IR), the NE WR he would replace",
+      "owns A.J. Brown (IR), the NE WR he would replace",
       "just dropped Carnell Tate",
       "has bid on a WR before"
      ],
@@ -487,7 +487,7 @@
    "gain": 0.0,
    "starter_gain": 0.0,
    "depth_gain": 0.0,
-   "trending": 116170,
+   "trending": 116628,
    "injury_status": null,
    "would_start": false,
    "drop": {
@@ -539,8 +539,8 @@
      "remaining": 97,
      "score": 3.5,
      "why": [
-      "owns Jeremiyah Love (Questionable), a ARI RB he could replace",
       "owns Tyler Allgeier, the ARI RB1 (handcuff interest)",
+      "owns Jeremiyah Love (Questionable), a ARI RB he could replace",
       "just dropped Braelon Allen"
      ],
      "usual_bid": 19.0,
@@ -741,8 +741,8 @@
      "remaining": 94,
      "score": 9.5,
      "why": [
-      "owns A.J. Brown (IR), the NE WR he would replace",
       "owns Mack Hollins (IR), the NE WR he would replace",
+      "owns A.J. Brown (IR), the NE WR he would replace",
       "just dropped Carnell Tate",
       "has bid on a WR before"
      ],
@@ -847,8 +847,8 @@
      "remaining": 94,
      "score": 9.5,
      "why": [
-      "owns A.J. Brown (IR), the NE WR he would replace",
       "owns Mack Hollins (IR), the NE WR he would replace",
+      "owns A.J. Brown (IR), the NE WR he would replace",
       "just dropped Carnell Tate",
       "has bid on a WR before"
      ],
@@ -1026,7 +1026,7 @@
    "gain": 0.0,
    "starter_gain": 0.0,
    "depth_gain": 0.0,
-   "trending": 247680,
+   "trending": 249384,
    "injury_status": null,
    "would_start": false,
    "drop": {
@@ -1255,7 +1255,7 @@
   "projected_leftover": 50,
   "summary": "At your pace ($53 spent in 6 weeks) you would finish with about $50 unspent; league bids are scaled x1.14 to spend it down."
  },
- "all_evaluated": 116,
+ "all_evaluated": 117,
  "drop_candidates": [
   {
    "player_id": "5045",
