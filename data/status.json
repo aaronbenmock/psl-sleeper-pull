@@ -4,8 +4,8 @@
    "task": "build",
    "ok": true,
    "summary": "index.html + reports/2026/week07.html; lineup changes 2, claims 2, signals 13, accuracy weeks 6",
-   "started_utc": "2026-10-21T22:47:50Z",
-   "finished_utc": "2026-10-21T22:47:51Z",
+   "started_utc": "2026-10-22T15:47:33Z",
+   "finished_utc": "2026-10-22T15:47:34Z",
    "error": null
   },
   "pull": {
@@ -29,12 +29,12 @@
   "snapshot": {
    "task": "snapshot",
    "ok": true,
-   "summary": "week 6 sun_late_am: 3145 projections, 4 NFL teams already started, 3035 players still pre-kickoff",
-   "started_utc": "2026-10-18T15:00:20Z",
-   "finished_utc": "2026-10-18T15:00:20Z",
+   "summary": "week 7 thu_late_am: 3145 projections, 0 NFL teams already started, 3145 players still pre-kickoff",
+   "started_utc": "2026-10-22T15:47:32Z",
+   "finished_utc": "2026-10-22T15:47:33Z",
    "error": null,
-   "week": 6,
-   "label": "sun_late_am"
+   "week": 7,
+   "label": "thu_late_am"
   },
   "auto-skip": {
    "task": "auto-skip",
@@ -54,22 +54,6 @@
   }
  },
  "runs": [
-  {
-   "task": "build",
-   "ok": true,
-   "summary": "index.html + reports/2026/week04.html; lineup changes 2, claims 8, signals 16, accuracy weeks 3",
-   "started_utc": "2026-10-05T00:11:28Z",
-   "finished_utc": "2026-10-05T00:11:29Z",
-   "error": null
-  },
-  {
-   "task": "injuries",
-   "ok": true,
-   "summary": "182 rostered players tracked, 153 changes since 2026-10-02, 2 of mine carry an injury tag, 48 transactions refreshed, players cache pulled",
-   "started_utc": "2026-10-05T11:12:23Z",
-   "finished_utc": "2026-10-05T11:12:24Z",
-   "error": null
-  },
   {
    "task": "build",
    "ok": true,
@@ -1727,14 +1711,32 @@
    "started_utc": "2026-10-21T22:47:50Z",
    "finished_utc": "2026-10-21T22:47:51Z",
    "error": null
+  },
+  {
+   "task": "snapshot",
+   "ok": true,
+   "summary": "week 7 thu_late_am: 3145 projections, 0 NFL teams already started, 3145 players still pre-kickoff",
+   "started_utc": "2026-10-22T15:47:32Z",
+   "finished_utc": "2026-10-22T15:47:33Z",
+   "error": null,
+   "week": 7,
+   "label": "thu_late_am"
+  },
+  {
+   "task": "build",
+   "ok": true,
+   "summary": "index.html + reports/2026/week07.html; lineup changes 2, claims 2, signals 13, accuracy weeks 6",
+   "started_utc": "2026-10-22T15:47:33Z",
+   "finished_utc": "2026-10-22T15:47:34Z",
+   "error": null
   }
  ],
  "last_run": {
   "task": "build",
   "ok": true,
   "summary": "index.html + reports/2026/week07.html; lineup changes 2, claims 2, signals 13, accuracy weeks 6",
-  "started_utc": "2026-10-21T22:47:50Z",
-  "finished_utc": "2026-10-21T22:47:51Z",
+  "started_utc": "2026-10-22T15:47:33Z",
+  "finished_utc": "2026-10-22T15:47:34Z",
   "error": null
  }
 }

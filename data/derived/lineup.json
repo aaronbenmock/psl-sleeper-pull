@@ -1,9 +1,10 @@
 {
  "week": 7,
- "generated_at_utc": "2026-10-21T22:47:50Z",
+ "generated_at_utc": "2026-10-22T15:47:33Z",
  "source": {
-  "kind": "latest.json",
-  "taken_at_utc": "2026-10-21T16:19:33+00:00"
+  "kind": "pre-kickoff snapshot",
+  "taken_at_utc": "2026-10-22T15:47:33Z",
+  "label": "thu_late_am"
  },
  "lineup": [
   {
@@ -27,7 +28,7 @@
    "boom_rate": 0.318,
    "sd_wk": 7.899,
    "vor": -79.2,
-   "started": null,
+   "started": false,
    "actual_so_far": null,
    "slot": "QB",
    "why": "Sleeper projects 17.6, season average 11.2 over 4 games, preseason model 17.5. Blended expectation 16.4 vs IND."
@@ -38,12 +39,12 @@
    "pos": "RB",
    "team": "IND",
    "opp": "MIN",
-   "sleeper": 16.43,
+   "sleeper": 16.19,
    "preseason": 16.44,
    "season_avg": 18.5,
    "n_games": 6,
    "baseline": 17.67,
-   "expected": 16.87,
+   "expected": 16.71,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -53,10 +54,10 @@
    "boom_rate": 0.419,
    "sd_wk": 11.95,
    "vor": 123.3,
-   "started": null,
+   "started": false,
    "actual_so_far": null,
    "slot": "RB",
-   "why": "Sleeper projects 16.4, season average 18.5 over 6 games, preseason model 16.4. Blended expectation 16.9 vs MIN.",
+   "why": "Sleeper projects 16.2, season average 18.5 over 6 games, preseason model 16.4. Blended expectation 16.7 vs MIN.",
    "vacated": {
     "player_id": "00-0036223",
     "pos": "RB",
@@ -89,12 +90,12 @@
    "pos": "RB",
    "team": "HOU",
    "opp": "NYG",
-   "sleeper": 10.24,
+   "sleeper": 13.66,
    "preseason": 8.26,
    "season_avg": 9.23,
    "n_games": 6,
    "baseline": 8.84,
-   "expected": 9.75,
+   "expected": 11.97,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -104,10 +105,10 @@
    "boom_rate": 0.125,
    "sd_wk": 6.336,
    "vor": -31.6,
-   "started": null,
+   "started": false,
    "actual_so_far": null,
    "slot": "RB",
-   "why": "Sleeper projects 10.2, season average 9.2 over 6 games, preseason model 8.3. Blended expectation 9.8 vs NYG.",
+   "why": "Sleeper projects 13.7, season average 9.2 over 6 games, preseason model 8.3. Blended expectation 12.0 vs NYG.",
    "vacated": {
     "player_id": "00-0040583",
     "pos": "RB",
@@ -162,7 +163,7 @@
    "boom_rate": 0.2,
    "sd_wk": 6.058,
    "vor": 22.3,
-   "started": null,
+   "started": false,
    "actual_so_far": null,
    "slot": "WR",
    "why": "Sleeper projects 10.3, season average 9.0 over 6 games, preseason model 10.0. Blended expectation 10.0 vs NO.",
@@ -224,7 +225,7 @@
    "boom_rate": null,
    "sd_wk": null,
    "vor": -49.7,
-   "started": null,
+   "started": false,
    "actual_so_far": null,
    "slot": "WR",
    "why": "Sleeper projects 9.3, season average 10.9 over 6 games, preseason model 6.6, Questionable (Foot) cuts it by 9%. Blended expectation 8.4 vs TEN.",
@@ -275,7 +276,7 @@
    "boom_rate": 0.0,
    "sd_wk": 4.525,
    "vor": -74.8,
-   "started": null,
+   "started": false,
    "actual_so_far": null,
    "slot": "FLEX",
    "why": "Sleeper projects 12.2, season average 9.5 over 5 games, preseason model 4.5, Questionable (Undisclosed) cuts it by 9%. Blended expectation 9.4 vs NYJ.",
@@ -333,7 +334,7 @@
    "boom_rate": 0.188,
    "sd_wk": 5.239,
    "vor": -31.5,
-   "started": null,
+   "started": false,
    "actual_so_far": null,
    "slot": "FLEX",
    "why": "Sleeper projects 8.9, season average 7.3 over 6 games, preseason model 8.1. Blended expectation 8.5 vs TEN.",
@@ -369,12 +370,12 @@
    "pos": "DEF",
    "team": "SEA",
    "opp": "KC",
-   "sleeper": 6.7,
+   "sleeper": 6.76,
    "preseason": 13.1,
    "season_avg": 9.5,
    "n_games": 6,
    "baseline": 10.94,
-   "expected": 8.18,
+   "expected": 8.22,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -384,10 +385,10 @@
    "boom_rate": null,
    "sd_wk": 10.357,
    "vor": null,
-   "started": null,
+   "started": false,
    "actual_so_far": null,
    "slot": "DEF",
-   "why": "Sleeper projects 6.7, season average 9.5 over 6 games, preseason model 13.1. Blended expectation 8.2 vs KC."
+   "why": "Sleeper projects 6.8, season average 9.5 over 6 games, preseason model 13.1. Blended expectation 8.2 vs KC."
   }
  ],
  "bench": [
@@ -412,7 +413,7 @@
    "boom_rate": 0.242,
    "sd_wk": 7.725,
    "vor": 39.2,
-   "started": null,
+   "started": false,
    "actual_so_far": null,
    "slot": "BN",
    "why": "Sleeper projects 7.6, season average 5.0 over 3 games, preseason model 10.4. Blended expectation 7.8 vs NO.",
@@ -448,12 +449,12 @@
    "pos": "DEF",
    "team": "KC",
    "opp": "SEA",
-   "sleeper": 6.88,
+   "sleeper": 6.81,
    "preseason": 7.55,
    "season_avg": 8.94,
    "n_games": 5,
    "baseline": 8.32,
-   "expected": 7.38,
+   "expected": 7.34,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -463,10 +464,10 @@
    "boom_rate": null,
    "sd_wk": 3.815,
    "vor": null,
-   "started": null,
+   "started": false,
    "actual_so_far": null,
    "slot": "BN",
-   "why": "Sleeper projects 6.9, season average 8.9 over 5 games, preseason model 7.5. Blended expectation 7.4 vs SEA."
+   "why": "Sleeper projects 6.8, season average 8.9 over 5 games, preseason model 7.5. Blended expectation 7.3 vs SEA."
   },
   {
    "player_id": "5045",
@@ -474,12 +475,12 @@
    "pos": "WR",
    "team": "DEN",
    "opp": "ARI",
-   "sleeper": 7.55,
+   "sleeper": 7.49,
    "preseason": 10.43,
    "season_avg": 4.13,
    "n_games": 6,
    "baseline": 6.65,
-   "expected": 7.23,
+   "expected": 7.2,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -489,7 +490,7 @@
    "boom_rate": 0.242,
    "sd_wk": 6.489,
    "vor": 37.6,
-   "started": null,
+   "started": false,
    "actual_so_far": null,
    "slot": "BN",
    "why": "Sleeper projects 7.5, season average 4.1 over 6 games, preseason model 10.4. Blended expectation 7.2 vs ARI.",
@@ -546,7 +547,7 @@
    "boom_rate": 0.357,
    "sd_wk": 8.123,
    "vor": 51.4,
-   "started": null,
+   "started": false,
    "actual_so_far": null,
    "slot": "BN",
    "why": "No Sleeper projection this week (ruled out or not active), 0 points.",
@@ -597,7 +598,7 @@
    "boom_rate": 0.656,
    "sd_wk": 12.988,
    "vor": 77.8,
-   "started": null,
+   "started": false,
    "actual_so_far": null,
    "slot": "BN",
    "why": "On bye week, 0 points."
@@ -623,7 +624,7 @@
    "boom_rate": 0.129,
    "sd_wk": 4.947,
    "vor": 13.1,
-   "started": null,
+   "started": false,
    "actual_so_far": null,
    "slot": "BN",
    "why": "On bye week, 0 points.",
@@ -676,7 +677,7 @@
    "boom_rate": 0.161,
    "sd_wk": 6.486,
    "vor": 27.9,
-   "started": null,
+   "started": false,
    "actual_so_far": null,
    "slot": "IR"
   },
@@ -686,7 +687,7 @@
    "pos": "RB",
    "team": "SEA",
    "opp": "KC",
-   "sleeper": 4.98,
+   "sleeper": 5.04,
    "preseason": 9.37,
    "season_avg": 0.0,
    "n_games": 6,
@@ -701,7 +702,7 @@
    "boom_rate": 0.182,
    "sd_wk": 7.865,
    "vor": 20.2,
-   "started": null,
+   "started": false,
    "actual_so_far": null,
    "slot": "IR"
   }
@@ -720,16 +721,16 @@
   {
    "out": "Courtland Sutton",
    "in": "Harold Fannin",
-   "out_expected": 7.23,
+   "out_expected": 7.2,
    "in_expected": 8.47,
-   "why": "Harold Fannin 8.5 vs Courtland Sutton 7.2 expected (+1.2). "
+   "why": "Harold Fannin 8.5 vs Courtland Sutton 7.2 expected (+1.3). "
   },
   {
    "out": "KC DEF",
    "in": "SEA DEF",
-   "out_expected": 7.38,
-   "in_expected": 8.18,
-   "why": "SEA DEF 8.2 vs KC DEF 7.4 expected (+0.8). "
+   "out_expected": 7.34,
+   "in_expected": 8.22,
+   "why": "SEA DEF 8.2 vs KC DEF 7.3 expected (+0.9). "
   }
  ],
  "close_calls": [
@@ -737,11 +738,11 @@
    "slot": "WR",
    "starter": "Denzel Boston",
    "bench": "Courtland Sutton",
-   "gap": 1.1,
+   "gap": 1.2,
    "vacated_starter": 0.0,
    "vacated_bench": 1.38,
    "vacated_note": "Vacated share (display only, not in the numbers above): Denzel Boston 0.0, Courtland Sutton 1.4 points of absorbed usage. Pat Bryant out, vacating 10% of the targets. The historical split gives him 4% of targets, worth about 1.4 points. Display only: it does not change the expected number.",
-   "why": "Denzel Boston 8.4 vs Courtland Sutton 7.2, only 1.1 apart."
+   "why": "Denzel Boston 8.4 vs Courtland Sutton 7.2, only 1.2 apart."
   },
   {
    "slot": "FLEX",
@@ -757,26 +758,26 @@
    "slot": "FLEX",
    "starter": "Harold Fannin",
    "bench": "Courtland Sutton",
-   "gap": 1.2,
+   "gap": 1.3,
    "vacated_starter": 0.0,
    "vacated_bench": 1.38,
    "vacated_note": "Vacated share (display only, not in the numbers above): Harold Fannin 0.0, Courtland Sutton 1.4 points of absorbed usage. Pat Bryant out, vacating 10% of the targets. The historical split gives him 4% of targets, worth about 1.4 points. Display only: it does not change the expected number.",
-   "why": "Harold Fannin 8.5 vs Courtland Sutton 7.2, only 1.2 apart. Tiebreak: Courtland Sutton has the higher ceiling (boom rate 24% vs 19%)."
+   "why": "Harold Fannin 8.5 vs Courtland Sutton 7.2, only 1.3 apart. Tiebreak: Courtland Sutton has the higher ceiling (boom rate 24% vs 19%)."
   },
   {
    "slot": "DEF",
    "starter": "SEA DEF",
    "bench": "KC DEF",
-   "gap": 0.8,
+   "gap": 0.9,
    "vacated_starter": null,
    "vacated_bench": null,
    "vacated_note": null,
-   "why": "SEA DEF 8.2 vs KC DEF 7.4, only 0.8 apart."
+   "why": "SEA DEF 8.2 vs KC DEF 7.3, only 0.9 apart."
   }
  ],
- "expected_total": 87.5,
+ "expected_total": 89.6,
  "notes": [
-  "Projections are from the Wednesday pull (6.5 hours old). Pre-kickoff snapshots refresh them Thursday evening, Sunday morning and Monday evening."
+  "Projections are from the thu_late_am snapshot taken Thu Oct 22 10:47 AM Central."
  ],
  "warnings": [],
  "vacated_meta": {
