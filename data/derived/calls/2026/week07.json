@@ -2,7 +2,7 @@
  "week": 7,
  "first_recorded_utc": "2026-10-21T15:20:24Z",
  "source": "live build",
- "updated_utc": "2026-10-23T03:05:09Z",
+ "updated_utc": "2026-10-23T15:38:45Z",
  "start_sit": [
   {
    "type": "start_sit",
@@ -12,7 +12,7 @@
    "alt_id": "5045",
    "alt_name": "Courtland Sutton",
    "expected": 8.47,
-   "alt_expected": 7.2,
+   "alt_expected": 7.23,
    "started": false
   },
   {
@@ -22,8 +22,8 @@
    "name": "SEA DEF",
    "alt_id": "KC",
    "alt_name": "KC DEF",
-   "expected": 8.22,
-   "alt_expected": 7.34,
+   "expected": 8.18,
+   "alt_expected": 7.38,
    "started": false
   },
   {
@@ -34,7 +34,18 @@
    "alt_id": "5045",
    "alt_name": "Courtland Sutton",
    "expected": 8.37,
-   "alt_expected": 7.2,
+   "alt_expected": 7.23,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "12495",
+   "name": "Ollie Gordon",
+   "alt_id": "7021",
+   "alt_name": "Rico Dowdle",
+   "expected": 9.44,
+   "alt_expected": 8.1,
    "started": false
   },
   {
@@ -45,7 +56,7 @@
    "alt_id": "7021",
    "alt_name": "Rico Dowdle",
    "expected": 8.47,
-   "alt_expected": 7.75,
+   "alt_expected": 8.1,
    "started": false
   },
   {
@@ -56,7 +67,7 @@
    "alt_id": "5045",
    "alt_name": "Courtland Sutton",
    "expected": 8.47,
-   "alt_expected": 7.2,
+   "alt_expected": 7.23,
    "started": false
   },
   {
@@ -66,8 +77,8 @@
    "name": "SEA DEF",
    "alt_id": "KC",
    "alt_name": "KC DEF",
-   "expected": 8.22,
-   "alt_expected": 7.34,
+   "expected": 8.18,
+   "alt_expected": 7.38,
    "started": false
   }
  ],
@@ -132,7 +143,7 @@
    "slot": "DEF",
    "player_id": "SEA",
    "name": "SEA DEF",
-   "expected": 8.22,
+   "expected": 8.18,
    "started": false,
    "frozen": false
   }

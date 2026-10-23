@@ -1,10 +1,10 @@
 {
  "week": 7,
- "generated_at_utc": "2026-10-23T03:05:09Z",
+ "generated_at_utc": "2026-10-23T15:38:45Z",
  "source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-10-22T15:47:33Z",
-  "label": "thu_late_am"
+  "taken_at_utc": "2026-10-23T15:38:45Z",
+  "label": "fri_late_am"
  },
  "lineup": [
   {
@@ -148,7 +148,7 @@
    "pos": "WR",
    "team": "PIT",
    "opp": "NO",
-   "sleeper": 10.35,
+   "sleeper": 10.36,
    "preseason": 10.03,
    "season_avg": 8.98,
    "n_games": 6,
@@ -166,7 +166,7 @@
    "started": false,
    "actual_so_far": null,
    "slot": "WR",
-   "why": "Sleeper projects 10.3, season average 9.0 over 6 games, preseason model 10.0. Blended expectation 10.0 vs NO.",
+   "why": "Sleeper projects 10.4, season average 9.0 over 6 games, preseason model 10.0. Blended expectation 10.0 vs NO.",
    "vacated": {
     "player_id": " 00-0035640",
     "pos": "WR",
@@ -370,12 +370,12 @@
    "pos": "DEF",
    "team": "SEA",
    "opp": "KC",
-   "sleeper": 6.76,
+   "sleeper": 6.7,
    "preseason": 13.1,
    "season_avg": 9.5,
    "n_games": 6,
    "baseline": 10.94,
-   "expected": 8.22,
+   "expected": 8.18,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -388,7 +388,7 @@
    "started": false,
    "actual_so_far": null,
    "slot": "DEF",
-   "why": "Sleeper projects 6.8, season average 9.5 over 6 games, preseason model 13.1. Blended expectation 8.2 vs KC."
+   "why": "Sleeper projects 6.7, season average 9.5 over 6 games, preseason model 13.1. Blended expectation 8.2 vs KC."
   }
  ],
  "bench": [
@@ -398,12 +398,12 @@
    "pos": "RB",
    "team": "PIT",
    "opp": "NO",
-   "sleeper": 7.57,
+   "sleeper": 8.1,
    "preseason": 10.44,
    "season_avg": 4.97,
    "n_games": 3,
    "baseline": 8.09,
-   "expected": 7.75,
+   "expected": 8.1,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -416,7 +416,7 @@
    "started": false,
    "actual_so_far": null,
    "slot": "BN",
-   "why": "Sleeper projects 7.6, season average 5.0 over 3 games, preseason model 10.4. Blended expectation 7.8 vs NO.",
+   "why": "Sleeper projects 8.1, season average 5.0 over 3 games, preseason model 10.4. Blended expectation 8.1 vs NO.",
    "vacated": {
     "player_id": "00-0036139",
     "pos": "RB",
@@ -449,12 +449,12 @@
    "pos": "DEF",
    "team": "KC",
    "opp": "SEA",
-   "sleeper": 6.81,
+   "sleeper": 6.88,
    "preseason": 7.55,
    "season_avg": 8.94,
    "n_games": 5,
    "baseline": 8.32,
-   "expected": 7.34,
+   "expected": 7.38,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -467,7 +467,7 @@
    "started": false,
    "actual_so_far": null,
    "slot": "BN",
-   "why": "Sleeper projects 6.8, season average 8.9 over 5 games, preseason model 7.5. Blended expectation 7.3 vs SEA."
+   "why": "Sleeper projects 6.9, season average 8.9 over 5 games, preseason model 7.5. Blended expectation 7.4 vs SEA."
   },
   {
    "player_id": "5045",
@@ -475,12 +475,12 @@
    "pos": "WR",
    "team": "DEN",
    "opp": "ARI",
-   "sleeper": 7.49,
+   "sleeper": 7.55,
    "preseason": 10.43,
    "season_avg": 4.13,
    "n_games": 6,
    "baseline": 6.65,
-   "expected": 7.2,
+   "expected": 7.23,
    "injury_status": null,
    "injury_body_part": null,
    "practice": null,
@@ -721,16 +721,16 @@
   {
    "out": "Courtland Sutton",
    "in": "Harold Fannin",
-   "out_expected": 7.2,
+   "out_expected": 7.23,
    "in_expected": 8.47,
-   "why": "Harold Fannin 8.5 vs Courtland Sutton 7.2 expected (+1.3). "
+   "why": "Harold Fannin 8.5 vs Courtland Sutton 7.2 expected (+1.2). "
   },
   {
    "out": "KC DEF",
    "in": "SEA DEF",
-   "out_expected": 7.34,
-   "in_expected": 8.22,
-   "why": "SEA DEF 8.2 vs KC DEF 7.3 expected (+0.9). "
+   "out_expected": 7.38,
+   "in_expected": 8.18,
+   "why": "SEA DEF 8.2 vs KC DEF 7.4 expected (+0.8). "
   }
  ],
  "close_calls": [
@@ -738,46 +738,56 @@
    "slot": "WR",
    "starter": "Denzel Boston",
    "bench": "Courtland Sutton",
-   "gap": 1.2,
+   "gap": 1.1,
    "vacated_starter": 0.0,
    "vacated_bench": 1.38,
    "vacated_note": "Vacated share (display only, not in the numbers above): Denzel Boston 0.0, Courtland Sutton 1.4 points of absorbed usage. Pat Bryant out, vacating 10% of the targets. The historical split gives him 4% of targets, worth about 1.4 points. Display only: it does not change the expected number.",
-   "why": "Denzel Boston 8.4 vs Courtland Sutton 7.2, only 1.2 apart."
+   "why": "Denzel Boston 8.4 vs Courtland Sutton 7.2, only 1.1 apart."
+  },
+  {
+   "slot": "FLEX",
+   "starter": "Ollie Gordon",
+   "bench": "Rico Dowdle",
+   "gap": 1.3,
+   "vacated_starter": 8.18,
+   "vacated_bench": 0.0,
+   "vacated_note": "Vacated share (display only, not in the numbers above): Ollie Gordon 8.2, Rico Dowdle 0.0 points of absorbed usage. De'Von Achane out, vacating 17% of the targets and 54% of the carries. The proportional split gives him 4% of targets and 32% of carries, worth about 8.2 points. Display only: it does not change the expected number.",
+   "why": "Ollie Gordon 9.4 vs Rico Dowdle 8.1, only 1.3 apart. Tiebreak: Rico Dowdle has the higher ceiling (boom rate 24% vs 0%)."
   },
   {
    "slot": "FLEX",
    "starter": "Harold Fannin",
    "bench": "Rico Dowdle",
-   "gap": 0.7,
+   "gap": 0.4,
    "vacated_starter": 0.0,
    "vacated_bench": 0.0,
    "vacated_note": null,
-   "why": "Harold Fannin 8.5 vs Rico Dowdle 7.8, only 0.7 apart. Tiebreak: Rico Dowdle has the higher ceiling (boom rate 24% vs 19%)."
+   "why": "Harold Fannin 8.5 vs Rico Dowdle 8.1, only 0.4 apart. Tiebreak: Rico Dowdle has the higher ceiling (boom rate 24% vs 19%)."
   },
   {
    "slot": "FLEX",
    "starter": "Harold Fannin",
    "bench": "Courtland Sutton",
-   "gap": 1.3,
+   "gap": 1.2,
    "vacated_starter": 0.0,
    "vacated_bench": 1.38,
    "vacated_note": "Vacated share (display only, not in the numbers above): Harold Fannin 0.0, Courtland Sutton 1.4 points of absorbed usage. Pat Bryant out, vacating 10% of the targets. The historical split gives him 4% of targets, worth about 1.4 points. Display only: it does not change the expected number.",
-   "why": "Harold Fannin 8.5 vs Courtland Sutton 7.2, only 1.3 apart. Tiebreak: Courtland Sutton has the higher ceiling (boom rate 24% vs 19%)."
+   "why": "Harold Fannin 8.5 vs Courtland Sutton 7.2, only 1.2 apart. Tiebreak: Courtland Sutton has the higher ceiling (boom rate 24% vs 19%)."
   },
   {
    "slot": "DEF",
    "starter": "SEA DEF",
    "bench": "KC DEF",
-   "gap": 0.9,
+   "gap": 0.8,
    "vacated_starter": null,
    "vacated_bench": null,
    "vacated_note": null,
-   "why": "SEA DEF 8.2 vs KC DEF 7.3, only 0.9 apart."
+   "why": "SEA DEF 8.2 vs KC DEF 7.4, only 0.8 apart."
   }
  ],
  "expected_total": 89.6,
  "notes": [
-  "Projections are from the thu_late_am snapshot taken Thu Oct 22 10:47 AM Central."
+  "Projections are from the fri_late_am snapshot taken Fri Oct 23 10:38 AM Central."
  ],
  "warnings": [],
  "vacated_meta": {
