@@ -4,8 +4,8 @@
    "task": "build",
    "ok": true,
    "summary": "index.html + reports/2026/week07.html; lineup changes 2, claims 2, signals 13, accuracy weeks 6",
-   "started_utc": "2026-10-23T20:00:28Z",
-   "finished_utc": "2026-10-23T20:00:29Z",
+   "started_utc": "2026-10-24T01:26:39Z",
+   "finished_utc": "2026-10-24T01:26:40Z",
    "error": null
   },
   "pull": {
@@ -39,9 +39,9 @@
   "auto-skip": {
    "task": "auto-skip",
    "ok": true,
-   "summary": "skipped at 2026-10-23T15:00:27-05:00",
-   "started_utc": "2026-10-23T20:00:27Z",
-   "finished_utc": "2026-10-23T20:00:27Z",
+   "summary": "skipped at 2026-10-23T20:26:39-05:00",
+   "started_utc": "2026-10-24T01:26:39Z",
+   "finished_utc": "2026-10-24T01:26:39Z",
    "error": null
   },
   "usage": {
@@ -54,24 +54,6 @@
   }
  },
  "runs": [
-  {
-   "task": "build",
-   "ok": true,
-   "summary": "index.html + reports/2026/week04.html; lineup changes 2, claims 8, signals 16, accuracy weeks 3",
-   "started_utc": "2026-10-07T12:05:31Z",
-   "finished_utc": "2026-10-07T12:05:32Z",
-   "error": null
-  },
-  {
-   "task": "pull",
-   "ok": true,
-   "summary": "completed wk 4, upcoming wk 5, waiver pool 679, matchup weeks 18, scored files 1, record check: median game ON: each team plays its opponent and the league median every week",
-   "started_utc": "2026-10-07T16:06:35Z",
-   "finished_utc": "2026-10-07T16:06:39Z",
-   "error": null,
-   "completed_week": 4,
-   "upcoming_week": 5
-  },
   {
    "task": "usage",
    "ok": true,
@@ -1725,14 +1707,30 @@
    "started_utc": "2026-10-23T20:00:28Z",
    "finished_utc": "2026-10-23T20:00:29Z",
    "error": null
+  },
+  {
+   "task": "auto-skip",
+   "ok": true,
+   "summary": "skipped at 2026-10-23T20:26:39-05:00",
+   "started_utc": "2026-10-24T01:26:39Z",
+   "finished_utc": "2026-10-24T01:26:39Z",
+   "error": null
+  },
+  {
+   "task": "build",
+   "ok": true,
+   "summary": "index.html + reports/2026/week07.html; lineup changes 2, claims 2, signals 13, accuracy weeks 6",
+   "started_utc": "2026-10-24T01:26:39Z",
+   "finished_utc": "2026-10-24T01:26:40Z",
+   "error": null
   }
  ],
  "last_run": {
   "task": "build",
   "ok": true,
   "summary": "index.html + reports/2026/week07.html; lineup changes 2, claims 2, signals 13, accuracy weeks 6",
-  "started_utc": "2026-10-23T20:00:28Z",
-  "finished_utc": "2026-10-23T20:00:29Z",
+  "started_utc": "2026-10-24T01:26:39Z",
+  "finished_utc": "2026-10-24T01:26:40Z",
   "error": null
  }
 }

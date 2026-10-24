@@ -52,8 +52,8 @@
      "remaining": 61,
      "score": 6.5,
      "why": [
-      "owns Nico Collins, the HOU WR1 (handcuff interest)",
       "owns Tank Dell (IR), the HOU WR he would replace",
+      "owns Nico Collins, the HOU WR1 (handcuff interest)",
       "just dropped Terry McLaurin",
       "has bid on a WR before"
      ],
@@ -63,23 +63,6 @@
       19
      ],
      "pos_max": 31
-    },
-    {
-     "roster_id": 2,
-     "team": "Amateur Hour",
-     "remaining": 94,
-     "score": 3.5,
-     "why": [
-      "starter A.J. Brown IR",
-      "just dropped Carnell Tate",
-      "has bid on a WR before"
-     ],
-     "usual_bid": 7,
-     "repeated": [
-      7,
-      3
-     ],
-     "pos_max": 7
     },
     {
      "roster_id": 12,
@@ -93,6 +76,22 @@
      "usual_bid": 11,
      "repeated": [],
      "pos_max": 11
+    },
+    {
+     "roster_id": 2,
+     "team": "Amateur Hour",
+     "remaining": 94,
+     "score": 2.5,
+     "why": [
+      "starter A.J. Brown IR",
+      "has bid on a WR before"
+     ],
+     "usual_bid": 7,
+     "repeated": [
+      7,
+      3
+     ],
+     "pos_max": 7
     }
    ],
    "league_bid": 13,
@@ -408,11 +407,10 @@
      "roster_id": 2,
      "team": "Amateur Hour",
      "remaining": 94,
-     "score": 9.5,
+     "score": 8.5,
      "why": [
-      "owns A.J. Brown (IR), the NE WR he would replace",
       "owns Mack Hollins (IR), the NE WR he would replace",
-      "just dropped Carnell Tate",
+      "owns A.J. Brown (IR), the NE WR he would replace",
       "has bid on a WR before"
      ],
      "usual_bid": 7,
@@ -426,11 +424,10 @@
      "roster_id": 4,
      "team": "City of Champyinz",
      "remaining": 97,
-     "score": 6.5,
+     "score": 5.5,
      "why": [
       "owns Romeo Doubs (IR), the NE WR he would replace",
       "starter DeVonta Smith Questionable",
-      "just dropped Ted Hurst, Jameson Williams",
       "has bid on a WR before"
      ],
      "usual_bid": 19.0,
@@ -526,27 +523,13 @@
      "pos_max": 19
     },
     {
-     "roster_id": 4,
-     "team": "City of Champyinz",
-     "remaining": 97,
-     "score": 3.5,
-     "why": [
-      "owns Tyler Allgeier, the ARI RB1 (handcuff interest)",
-      "owns Jeremiyah Love (Questionable), a ARI RB he could replace",
-      "just dropped Braelon Allen"
-     ],
-     "usual_bid": 19.0,
-     "repeated": [],
-     "pos_max": null
-    },
-    {
      "roster_id": 1,
      "team": "tacocats",
      "remaining": 32,
      "score": 3.5,
      "why": [
       "starter Breece Hall Doubtful",
-      "just dropped Pierre Strong, MarShawn Lloyd, Quinshon Judkins",
+      "just dropped Pierre Strong",
       "has bid on a RB before"
      ],
      "usual_bid": 12,
@@ -557,6 +540,23 @@
       1
      ],
      "pos_max": 58
+    },
+    {
+     "roster_id": 7,
+     "team": "Cheeky Nando\u2019s",
+     "remaining": 181,
+     "score": 2.5,
+     "why": [
+      "starter Josh Jacobs NA",
+      "has bid on a RB before"
+     ],
+     "usual_bid": 8,
+     "repeated": [
+      8,
+      6,
+      1
+     ],
+     "pos_max": 35
     }
    ],
    "league_bid": 22,
@@ -643,7 +643,7 @@
      "score": 3.5,
      "why": [
       "starter Breece Hall Doubtful",
-      "just dropped Pierre Strong, MarShawn Lloyd, Quinshon Judkins",
+      "just dropped Pierre Strong",
       "has bid on a RB before"
      ],
      "usual_bid": 12,
@@ -735,11 +735,10 @@
      "roster_id": 2,
      "team": "Amateur Hour",
      "remaining": 94,
-     "score": 9.5,
+     "score": 8.5,
      "why": [
-      "owns A.J. Brown (IR), the NE WR he would replace",
       "owns Mack Hollins (IR), the NE WR he would replace",
-      "just dropped Carnell Tate",
+      "owns A.J. Brown (IR), the NE WR he would replace",
       "has bid on a WR before"
      ],
      "usual_bid": 7,
@@ -753,11 +752,10 @@
      "roster_id": 4,
      "team": "City of Champyinz",
      "remaining": 97,
-     "score": 6.5,
+     "score": 5.5,
      "why": [
       "owns Romeo Doubs (IR), the NE WR he would replace",
       "starter DeVonta Smith Questionable",
-      "just dropped Ted Hurst, Jameson Williams",
       "has bid on a WR before"
      ],
      "usual_bid": 19.0,
@@ -840,11 +838,10 @@
      "roster_id": 2,
      "team": "Amateur Hour",
      "remaining": 94,
-     "score": 9.5,
+     "score": 8.5,
      "why": [
-      "owns A.J. Brown (IR), the NE WR he would replace",
       "owns Mack Hollins (IR), the NE WR he would replace",
-      "just dropped Carnell Tate",
+      "owns A.J. Brown (IR), the NE WR he would replace",
       "has bid on a WR before"
      ],
      "usual_bid": 7,
@@ -858,11 +855,10 @@
      "roster_id": 4,
      "team": "City of Champyinz",
      "remaining": 97,
-     "score": 6.5,
+     "score": 5.5,
      "why": [
       "owns Romeo Doubs (IR), the NE WR he would replace",
       "starter DeVonta Smith Questionable",
-      "just dropped Ted Hurst, Jameson Williams",
       "has bid on a WR before"
      ],
      "usual_bid": 19.0,
@@ -942,31 +938,13 @@
    "role_open_now": false,
    "threats": [
     {
-     "roster_id": 2,
-     "team": "Amateur Hour",
-     "remaining": 94,
-     "score": 3.5,
-     "why": [
-      "owns Jaleel McLaughlin, the CLE RB1 (handcuff interest)",
-      "starter Alvin Kamara Questionable",
-      "just dropped Emmett Johnson",
-      "has bid on a RB before"
-     ],
-     "usual_bid": 7,
-     "repeated": [
-      7,
-      3
-     ],
-     "pos_max": 53
-    },
-    {
      "roster_id": 1,
      "team": "tacocats",
      "remaining": 32,
      "score": 3.5,
      "why": [
       "starter Breece Hall Doubtful",
-      "just dropped Pierre Strong, MarShawn Lloyd, Quinshon Judkins",
+      "just dropped Pierre Strong",
       "has bid on a RB before"
      ],
      "usual_bid": 12,
@@ -979,23 +957,38 @@
      "pos_max": 58
     },
     {
-     "roster_id": 9,
-     "team": "Girthenheimer",
-     "remaining": 123,
-     "score": 3.0,
+     "roster_id": 7,
+     "team": "Cheeky Nando\u2019s",
+     "remaining": 181,
+     "score": 2.5,
      "why": [
-      "owns Quinshon Judkins (Questionable), a CLE RB he could replace",
-      "just dropped Breece Hall",
+      "starter Josh Jacobs NA",
       "has bid on a RB before"
      ],
-     "usual_bid": 3,
+     "usual_bid": 8,
      "repeated": [
-      18,
-      15,
       8,
+      6,
+      1
+     ],
+     "pos_max": 35
+    },
+    {
+     "roster_id": 2,
+     "team": "Amateur Hour",
+     "remaining": 94,
+     "score": 2.5,
+     "why": [
+      "owns Jaleel McLaughlin, the CLE RB1 (handcuff interest)",
+      "starter Alvin Kamara Questionable",
+      "has bid on a RB before"
+     ],
+     "usual_bid": 7,
+     "repeated": [
+      7,
       3
      ],
-     "pos_max": 18
+     "pos_max": 53
     }
    ],
    "league_bid": 22,
@@ -1060,7 +1053,7 @@
      "score": 3.5,
      "why": [
       "starter Breece Hall Doubtful",
-      "just dropped Pierre Strong, MarShawn Lloyd, Quinshon Judkins",
+      "just dropped Pierre Strong",
       "has bid on a RB before"
      ],
      "usual_bid": 12,
@@ -1090,21 +1083,16 @@
      "pos_max": 35
     },
     {
-     "roster_id": 2,
-     "team": "Amateur Hour",
-     "remaining": 94,
-     "score": 2.5,
+     "roster_id": 5,
+     "team": "Eazy E Squad",
+     "remaining": 200,
+     "score": 2.0,
      "why": [
-      "starter Alvin Kamara Questionable",
-      "just dropped Emmett Johnson",
-      "has bid on a RB before"
+      "starter ruled out or put on IR this week: David Montgomery (Doubtful)"
      ],
-     "usual_bid": 7,
-     "repeated": [
-      7,
-      3
-     ],
-     "pos_max": 53
+     "usual_bid": null,
+     "repeated": [],
+     "pos_max": null
     }
    ],
    "league_bid": 22,
@@ -1182,10 +1170,9 @@
      "roster_id": 2,
      "team": "Amateur Hour",
      "remaining": 94,
-     "score": 3.5,
+     "score": 2.5,
      "why": [
       "starter A.J. Brown IR",
-      "just dropped Carnell Tate",
       "has bid on a WR before"
      ],
      "usual_bid": 7,
@@ -1196,23 +1183,17 @@
      "pos_max": 7
     },
     {
-     "roster_id": 9,
-     "team": "Girthenheimer",
-     "remaining": 123,
-     "score": 2.5,
+     "roster_id": 5,
+     "team": "Eazy E Squad",
+     "remaining": 200,
+     "score": 2.0,
      "why": [
-      "starter Dontayvion Wicks Questionable, Zay Flowers Questionable",
-      "just dropped Michael Wilson, DJ Moore",
-      "has bid on a WR before"
+      "owns Justin Jefferson, the MIN WR1 (handcuff interest)",
+      "starter KC Concepcion Questionable"
      ],
-     "usual_bid": 3,
-     "repeated": [
-      18,
-      15,
-      8,
-      3
-     ],
-     "pos_max": 15
+     "usual_bid": null,
+     "repeated": [],
+     "pos_max": null
     }
    ],
    "league_bid": 22,
@@ -1223,8 +1204,8 @@
    "pace": 1.14,
    "comparable": "Thu Oct 15 run's top WR add: Germie Bernard went $31 to Derrelick my Balls with 3 bidders (losing: Girthenheimer $15, tacocats $9).",
    "comparable_bid": 31,
-   "to_beat": 20,
-   "to_beat_why": "$20: $2 over Girthenheimer, who has bid $18 more than once",
+   "to_beat": 13,
+   "to_beat_why": "$13: $2 over Baker\u2019s Dozen, who has bid as much as $11 on a WR",
    "to_beat_within_value": true,
    "spec_bid": 7,
    "spec_why": "Untested: priced from the display-only vacated-share signal. Jordan Addison out now: about +1.8 a week of vacated usage; if Justin Jefferson misses time: about +10.2 a week. Ceiling 15.0 a week vs 4.7 expected. At that ceiling he adds +6.2 a week; bid = min(5% of your $147, 6.2 x 11 wks x $0.60 x 0.25 chance the role lands), also held to the league bid."
