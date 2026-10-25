@@ -5,11 +5,11 @@
  "opponent": "Baker\u2019s Dozen",
  "manager": "juicyjuicy100",
  "roster_id": 12,
- "my_total": 89.6,
- "opp_set_total": 103.5,
- "opp_best_total": 107.4,
+ "my_total": 90.4,
+ "opp_set_total": 103.3,
+ "opp_best_total": 108.3,
  "verdict": "underdog",
- "margin": -13.9,
+ "margin": -12.9,
  "verdict_vs_best": "underdog",
  "opp_injured": [],
  "opp_byes": [],
@@ -17,42 +17,42 @@
   {
    "name": "Dak Prescott",
    "pos": "QB",
-   "expected": 18.78,
+   "expected": 18.8,
    "injury_status": null,
    "baseline_only": false
   },
   {
    "name": "Kenneth Walker",
    "pos": "RB",
-   "expected": 18.3,
+   "expected": 18.16,
    "injury_status": null,
    "baseline_only": false
   },
   {
    "name": "Bucky Irving",
    "pos": "RB",
-   "expected": 14.4,
+   "expected": 14.06,
    "injury_status": null,
    "baseline_only": false
   },
   {
    "name": "Tee Higgins",
    "pos": "WR",
-   "expected": 12.47,
+   "expected": 12.4,
    "injury_status": null,
    "baseline_only": false
   },
   {
    "name": "Amon-Ra St. Brown",
    "pos": "WR",
-   "expected": 16.06,
+   "expected": 16.56,
    "injury_status": null,
    "baseline_only": false
   },
   {
    "name": "Tony Pollard",
    "pos": "RB",
-   "expected": 10.15,
+   "expected": 10.06,
    "injury_status": null,
    "baseline_only": false
   },
@@ -66,20 +66,20 @@
   {
    "name": "IND DEF",
    "pos": "DEF",
-   "expected": 6.15,
+   "expected": 6.11,
    "injury_status": null,
    "baseline_only": false
   }
  ],
- "median_total": 94.1,
+ "median_total": 95.4,
  "median_verdict": "toss-up",
- "median_margin": -4.5,
+ "median_margin": -5.0,
  "source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-10-23T15:38:45Z",
-  "label": "fri_late_am"
+  "taken_at_utc": "2026-10-25T15:10:04Z",
+  "label": "sun_late_am"
  },
  "opp_baseline_only": 0,
- "why": "Your recommended lineup projects 89.6; Baker\u2019s Dozen's set lineup 103.5 (best possible from their roster 107.4). Margin -13.9: underdog.",
+ "why": "Your recommended lineup projects 90.4; Baker\u2019s Dozen's set lineup 103.3 (best possible from their roster 108.3). Margin -12.9: underdog.",
  "note": "Both sides use the engine blend (0.65 x Sleeper + 0.35 x baseline, injury multipliers), so the totals are comparable. Inside +/-5 points the game is called a toss-up [Guessing]. Your own lineup still follows max expected points; the matchup does not change who you start."
 }
