@@ -4,8 +4,8 @@
    "task": "build",
    "ok": true,
    "summary": "index.html + reports/2026/week07.html; lineup changes 2, claims 2, signals 13, accuracy weeks 6",
-   "started_utc": "2026-10-26T20:38:20Z",
-   "finished_utc": "2026-10-26T20:38:22Z",
+   "started_utc": "2026-10-26T21:07:11Z",
+   "finished_utc": "2026-10-26T21:07:12Z",
    "error": null
   },
   "pull": {
@@ -39,9 +39,9 @@
   "auto-skip": {
    "task": "auto-skip",
    "ok": true,
-   "summary": "skipped at 2026-10-26T15:38:20-05:00",
-   "started_utc": "2026-10-26T20:38:20Z",
-   "finished_utc": "2026-10-26T20:38:20Z",
+   "summary": "skipped at 2026-10-26T16:07:10-05:00",
+   "started_utc": "2026-10-26T21:07:10Z",
+   "finished_utc": "2026-10-26T21:07:10Z",
    "error": null
   },
   "usage": {
@@ -54,22 +54,6 @@
   }
  },
  "runs": [
-  {
-   "task": "build",
-   "ok": true,
-   "summary": "index.html + reports/2026/week05.html; lineup changes 0, claims 2, signals 16, accuracy weeks 4",
-   "started_utc": "2026-10-09T23:14:49Z",
-   "finished_utc": "2026-10-09T23:14:49Z",
-   "error": null
-  },
-  {
-   "task": "auto-skip",
-   "ok": true,
-   "summary": "skipped at 2026-10-09T19:12:32-05:00",
-   "started_utc": "2026-10-10T00:12:32Z",
-   "finished_utc": "2026-10-10T00:12:32Z",
-   "error": null
-  },
   {
    "task": "build",
    "ok": true,
@@ -1705,14 +1689,30 @@
    "started_utc": "2026-10-26T20:38:20Z",
    "finished_utc": "2026-10-26T20:38:22Z",
    "error": null
+  },
+  {
+   "task": "auto-skip",
+   "ok": true,
+   "summary": "skipped at 2026-10-26T16:07:10-05:00",
+   "started_utc": "2026-10-26T21:07:10Z",
+   "finished_utc": "2026-10-26T21:07:10Z",
+   "error": null
+  },
+  {
+   "task": "build",
+   "ok": true,
+   "summary": "index.html + reports/2026/week07.html; lineup changes 2, claims 2, signals 13, accuracy weeks 6",
+   "started_utc": "2026-10-26T21:07:11Z",
+   "finished_utc": "2026-10-26T21:07:12Z",
+   "error": null
   }
  ],
  "last_run": {
   "task": "build",
   "ok": true,
   "summary": "index.html + reports/2026/week07.html; lineup changes 2, claims 2, signals 13, accuracy weeks 6",
-  "started_utc": "2026-10-26T20:38:20Z",
-  "finished_utc": "2026-10-26T20:38:22Z",
+  "started_utc": "2026-10-26T21:07:11Z",
+  "finished_utc": "2026-10-26T21:07:12Z",
   "error": null
  }
 }
