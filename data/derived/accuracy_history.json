@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-10-27T16:57:35Z",
+ "generated_at_utc": "2026-10-28T16:59:44Z",
  "weeks": [
   {
    "week": 1,
@@ -1458,92 +1458,336 @@
     "posthoc_drift_mae": 0.13,
     "posthoc_drift_n": 863
    }
+  },
+  {
+   "week": 7,
+   "started": {
+    "sleeper": {
+     "n": 96,
+     "mae": 5.62,
+     "bias": -0.38,
+     "spearman": 0.546
+    },
+    "preseason": {
+     "n": 96,
+     "mae": 5.45,
+     "bias": 1.48,
+     "spearman": 0.528
+    },
+    "naive": {
+     "n": 96,
+     "mae": 6.28,
+     "bias": -0.67,
+     "spearman": 0.42
+    },
+    "n_players": 96,
+    "sleeper_from_snapshot": 96
+   },
+   "rostered": {
+    "sleeper": {
+     "n": 186,
+     "mae": 4.22,
+     "bias": 0.29,
+     "spearman": 0.794
+    },
+    "preseason": {
+     "n": 180,
+     "mae": 6.73,
+     "bias": -1.62,
+     "spearman": 0.307
+    },
+    "naive": {
+     "n": 185,
+     "mae": 7.09,
+     "bias": -2.15,
+     "spearman": 0.303
+    },
+    "n_players": 186,
+    "sleeper_from_snapshot": 186
+   },
+   "waiver": {
+    "sleeper": {
+     "n": 56,
+     "mae": 4.58,
+     "bias": -0.43,
+     "spearman": 0.343
+    },
+    "preseason": {
+     "n": 54,
+     "mae": 4.92,
+     "bias": -0.54,
+     "spearman": 0.36
+    },
+    "naive": {
+     "n": 56,
+     "mae": 5.03,
+     "bias": 0.72,
+     "spearman": 0.344
+    },
+    "n_players": 56,
+    "sleeper_from_snapshot": 56
+   },
+   "waiver_cut": 5.0,
+   "lineups": {
+    "sleeper": {
+     "n_teams": 12,
+     "avg_points": 99.25,
+     "pct_of_optimal": 87.0,
+     "vs_manager": 0.31,
+     "beat_manager": 1
+    },
+    "preseason": {
+     "n_teams": 12,
+     "avg_points": 77.01,
+     "pct_of_optimal": 67.5,
+     "vs_manager": -21.93,
+     "beat_manager": 0
+    },
+    "naive": {
+     "n_teams": 12,
+     "avg_points": 81.42,
+     "pct_of_optimal": 71.4,
+     "vs_manager": -17.52,
+     "beat_manager": 2
+    },
+    "manager": {
+     "avg_points": 98.94,
+     "pct_of_optimal": 86.8
+    }
+   },
+   "lineup_rows": [
+    {
+     "roster_id": 1,
+     "team": "tacocats",
+     "is_mine": false,
+     "actual": 103.62,
+     "optimal": 104.92,
+     "sleeper": 103.62,
+     "preseason": 64.82,
+     "naive": 90.82
+    },
+    {
+     "roster_id": 2,
+     "team": "Amateur Hour",
+     "is_mine": false,
+     "actual": 84.04,
+     "optimal": 85.99,
+     "sleeper": 84.04,
+     "preseason": 75.14,
+     "naive": 78.84
+    },
+    {
+     "roster_id": 3,
+     "team": "Be Safe, Get Jaxcinated",
+     "is_mine": false,
+     "actual": 118.08,
+     "optimal": 137.48,
+     "sleeper": 117.58,
+     "preseason": 102.5,
+     "naive": 105.8
+    },
+    {
+     "roster_id": 4,
+     "team": "City of Champyinz",
+     "is_mine": false,
+     "actual": 51.17,
+     "optimal": 53.42,
+     "sleeper": 51.17,
+     "preseason": 23.1,
+     "naive": 29.97
+    },
+    {
+     "roster_id": 5,
+     "team": "Eazy E Squad",
+     "is_mine": false,
+     "actual": 101.32,
+     "optimal": 137.02,
+     "sleeper": 101.32,
+     "preseason": 69.7,
+     "naive": 60.4
+    },
+    {
+     "roster_id": 6,
+     "team": "ScampDaddy",
+     "is_mine": false,
+     "actual": 103.4,
+     "optimal": 121.3,
+     "sleeper": 103.4,
+     "preseason": 93.7,
+     "naive": 103.4
+    },
+    {
+     "roster_id": 7,
+     "team": "Cheeky Nando\u2019s",
+     "is_mine": false,
+     "actual": 125.66,
+     "optimal": 156.88,
+     "sleeper": 122.26,
+     "preseason": 121.58,
+     "naive": 139.28
+    },
+    {
+     "roster_id": 8,
+     "team": "ValKilmersComeback",
+     "is_mine": true,
+     "actual": 81.6,
+     "optimal": 91.2,
+     "sleeper": 89.4,
+     "preseason": 48.9,
+     "naive": 49.0
+    },
+    {
+     "roster_id": 9,
+     "team": "Girthenheimer",
+     "is_mine": false,
+     "actual": 145.32,
+     "optimal": 153.77,
+     "sleeper": 145.32,
+     "preseason": 83.0,
+     "naive": 78.3
+    },
+    {
+     "roster_id": 10,
+     "team": "Derrelick my Balls",
+     "is_mine": false,
+     "actual": 68.62,
+     "optimal": 90.12,
+     "sleeper": 68.62,
+     "preseason": 45.3,
+     "naive": 48.9
+    },
+    {
+     "roster_id": 11,
+     "team": "RafiBomb",
+     "is_mine": false,
+     "actual": 62.07,
+     "optimal": 77.15,
+     "sleeper": 62.07,
+     "preseason": 56.4,
+     "naive": 49.62
+    },
+    {
+     "roster_id": 12,
+     "team": "Baker\u2019s Dozen",
+     "is_mine": false,
+     "actual": 142.42,
+     "optimal": 159.38,
+     "sleeper": 142.22,
+     "preseason": 140.02,
+     "naive": 142.72
+    }
+   ],
+   "mine": {
+    "roster_id": 8,
+    "team": "ValKilmersComeback",
+    "is_mine": true,
+    "actual": 81.6,
+    "optimal": 91.2,
+    "sleeper": 89.4,
+    "preseason": 48.9,
+    "naive": 49.0
+   },
+   "def_bias": {
+    "n": 28,
+    "bias": -1.2,
+    "mae": 4.07,
+    "unprojected_pts": 1.55,
+    "note": "unprojected_pts = points from 3-and-outs and 4th-down stops, which Sleeper scores but never projects",
+    "started_n": 12,
+    "started_bias": -3.59
+   },
+   "coverage": {
+    "starters_with_snapshot": 96,
+    "starters": 96,
+    "posthoc_drift_mae": 0.07,
+    "posthoc_drift_n": 847
+   }
   }
  ],
  "pooled": {
   "started": {
    "sleeper": {
-    "n": 576,
-    "mae": 6.32,
-    "bias": 0.05,
-    "weeks": 6
+    "n": 672,
+    "mae": 6.22,
+    "bias": -0.02,
+    "weeks": 7
    },
    "preseason": {
-    "n": 569,
-    "mae": 6.41,
-    "bias": 1.41,
-    "weeks": 6
+    "n": 665,
+    "mae": 6.27,
+    "bias": 1.42,
+    "weeks": 7
    },
    "naive": {
-    "n": 480,
-    "mae": 7.32,
-    "bias": -0.86,
-    "weeks": 5
+    "n": 576,
+    "mae": 7.15,
+    "bias": -0.83,
+    "weeks": 6
    }
   },
   "rostered": {
    "sleeper": {
-    "n": 1084,
-    "mae": 4.88,
-    "bias": 0.04,
-    "weeks": 6
+    "n": 1270,
+    "mae": 4.78,
+    "bias": 0.07,
+    "weeks": 7
    },
    "preseason": {
-    "n": 1061,
-    "mae": 6.46,
-    "bias": -0.73,
-    "weeks": 6
+    "n": 1241,
+    "mae": 6.5,
+    "bias": -0.86,
+    "weeks": 7
    },
    "naive": {
-    "n": 905,
-    "mae": 6.86,
-    "bias": -1.62,
-    "weeks": 5
+    "n": 1090,
+    "mae": 6.9,
+    "bias": -1.71,
+    "weeks": 6
    }
   },
   "waiver": {
    "sleeper": {
-    "n": 349,
-    "mae": 4.97,
-    "bias": 0.47,
-    "weeks": 6
+    "n": 405,
+    "mae": 4.91,
+    "bias": 0.35,
+    "weeks": 7
    },
    "preseason": {
-    "n": 345,
+    "n": 399,
     "mae": 4.95,
-    "bias": 0.34,
-    "weeks": 6
+    "bias": 0.22,
+    "weeks": 7
    },
    "naive": {
-    "n": 288,
-    "mae": 5.75,
-    "bias": 1.62,
-    "weeks": 5
+    "n": 344,
+    "mae": 5.64,
+    "bias": 1.47,
+    "weeks": 6
    }
   },
   "lineups": {
    "sleeper": {
-    "weeks": 6,
-    "avg_points": 103.21,
-    "pct_of_optimal": 88.27,
-    "vs_manager": 0.08
+    "weeks": 7,
+    "avg_points": 102.64,
+    "pct_of_optimal": 88.09,
+    "vs_manager": 0.11
    },
    "preseason": {
-    "weeks": 6,
-    "avg_points": 91.93,
-    "pct_of_optimal": 78.32,
-    "vs_manager": -11.2
+    "weeks": 7,
+    "avg_points": 89.8,
+    "pct_of_optimal": 76.77,
+    "vs_manager": -12.74
    },
    "naive": {
-    "weeks": 5,
-    "avg_points": 89.06,
-    "pct_of_optimal": 77.12,
-    "vs_manager": -12.93
+    "weeks": 6,
+    "avg_points": 87.78,
+    "pct_of_optimal": 76.17,
+    "vs_manager": -13.7
    },
    "manager": {
-    "weeks": 6,
-    "avg_points": 103.13,
-    "pct_of_optimal": 88.27,
+    "weeks": 7,
+    "avg_points": 102.53,
+    "pct_of_optimal": 88.06,
     "vs_manager": null
    }
   }
@@ -1552,7 +1796,7 @@
  "honesty": [
   "Week 1 has no pre-kickoff snapshot (the snapshot job did not exist yet), so its Sleeper baseline is the post-hoc value stored by the Wednesday pull. From week 2 the post-hoc drift metric tells us how much that matters.",
   "The naive baseline (start the highest season-average scorer) is undefined in week 1 and thin until week 4.",
-  "The waiver pool grades the projections the FAAB bids are built on: 349 player-weeks of non-rostered players Sleeper projected at 5.0+ points. A free agent is a different population from a starter (more part-time roles, more zeroes), so compare it with the other pools carefully rather than reading one MAE against the other."
+  "The waiver pool grades the projections the FAAB bids are built on: 405 player-weeks of non-rostered players Sleeper projected at 5.0+ points. A free agent is a different population from a starter (more part-time roles, more zeroes), so compare it with the other pools carefully rather than reading one MAE against the other."
  ],
  "pools": [
   "started",
