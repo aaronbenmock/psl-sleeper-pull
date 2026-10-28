@@ -1,5 +1,5 @@
 {
- "pulled_at_utc": "2026-10-28T16:59:42Z",
+ "pulled_at_utc": "2026-10-28T18:18:05Z",
  "by_week": {
   "1": [
    {
@@ -4721,111 +4721,149 @@
   ],
   "7": [
    {
-    "transaction_id": "1421180645605937152",
+    "transaction_id": "1418893922888957952",
     "type": "free_agent",
     "status": "complete",
     "roster_ids": [
-     1
+     12
     ],
     "adds": null,
     "drops": {
-     "NYJ": 1
+     "IND": 12
     },
     "settings": null,
-    "created": 1793198379473,
-    "status_updated": 1793198379473,
+    "created": 1792653182292,
+    "status_updated": 1792653182292,
     "leg": 7,
-    "creator": "89150347926716416",
+    "creator": "845806173256011776",
     "metadata": null
    },
    {
-    "transaction_id": "1421165065662382080",
+    "transaction_id": "1418894036697137152",
     "type": "free_agent",
     "status": "complete",
     "roster_ids": [
-     9
+     12
     ],
     "adds": null,
     "drops": {
-     "4037": 9
+     "9508": 12
     },
     "settings": null,
-    "created": 1793194664926,
-    "status_updated": 1793194664926,
+    "created": 1792653209426,
+    "status_updated": 1792653209426,
     "leg": 7,
-    "creator": "858422436264280064",
+    "creator": "845806173256011776",
     "metadata": null
    },
    {
-    "transaction_id": "1419923456752939008",
+    "transaction_id": "1418896713740980224",
     "type": "free_agent",
     "status": "complete",
     "roster_ids": [
-     10
+     12
     ],
     "adds": {
-     "13296": 10
+     "TEN": 12
+    },
+    "drops": null,
+    "settings": null,
+    "created": 1792653847684,
+    "status_updated": 1792653847684,
+    "leg": 7,
+    "creator": "845806173256011776",
+    "metadata": null
+   },
+   {
+    "transaction_id": "1418977320860942336",
+    "type": "free_agent",
+    "status": "complete",
+    "roster_ids": [
+     6
+    ],
+    "adds": null,
+    "drops": {
+     "6904": 6
+    },
+    "settings": null,
+    "created": 1792673065919,
+    "status_updated": 1792673065919,
+    "leg": 7,
+    "creator": "488431631342759936",
+    "metadata": null
+   },
+   {
+    "transaction_id": "1418977630278979584",
+    "type": "free_agent",
+    "status": "complete",
+    "roster_ids": [
+     6
+    ],
+    "adds": {
+     "11655": 6
+    },
+    "drops": null,
+    "settings": null,
+    "created": 1792673139689,
+    "status_updated": 1792673139689,
+    "leg": 7,
+    "creator": "488431631342759936",
+    "metadata": null
+   },
+   {
+    "transaction_id": "1419059769641078784",
+    "type": "free_agent",
+    "status": "complete",
+    "roster_ids": [
+     6
+    ],
+    "adds": {
+     "5022": 6
     },
     "drops": {
-     "1466": 10
+     "8126": 6
     },
     "settings": null,
-    "created": 1792898642293,
-    "status_updated": 1792898642293,
+    "created": 1792692723239,
+    "status_updated": 1792692723239,
     "leg": 7,
-    "creator": "305158753748004864",
+    "creator": "488431631342759936",
     "metadata": null
    },
    {
-    "transaction_id": "1419855401637208064",
+    "transaction_id": "1419126299682713600",
     "type": "free_agent",
     "status": "complete",
     "roster_ids": [
-     9
+     5
     ],
     "adds": {
-     "13294": 9
+     "11559": 5
     },
-    "drops": null,
+    "drops": {
+     "11628": 5
+    },
     "settings": null,
-    "created": 1792882416689,
-    "status_updated": 1792882416689,
+    "created": 1792708585237,
+    "status_updated": 1792708585237,
     "leg": 7,
-    "creator": "858422436264280064",
+    "creator": "1261888423686328320",
     "metadata": null
    },
    {
-    "transaction_id": "1419839714956939264",
-    "type": "free_agent",
-    "status": "complete",
-    "roster_ids": [
-     4
-    ],
-    "adds": {
-     "12718": 4
-    },
-    "drops": null,
-    "settings": null,
-    "created": 1792878676694,
-    "status_updated": 1792878676694,
-    "leg": 7,
-    "creator": "316068859650011136",
-    "metadata": null
-   },
-   {
-    "transaction_id": "1419807580473016320",
+    "transaction_id": "1419417341673873408",
     "type": "free_agent",
     "status": "complete",
     "roster_ids": [
      3
     ],
     "adds": {
-     "13424": 3
+     "CIN": 3
     },
     "drops": null,
     "settings": null,
-    "created": 1792871015235,
-    "status_updated": 1792871015235,
+    "created": 1792777975055,
+    "status_updated": 1792777975055,
     "leg": 7,
     "creator": "302953456358920192",
     "metadata": null
@@ -4851,42 +4889,19 @@
     "metadata": null
    },
    {
-    "transaction_id": "1419420790255779840",
-    "type": "trade",
-    "status": "complete",
-    "roster_ids": [
-     3,
-     9
-    ],
-    "adds": {
-     "4454": 9,
-     "9997": 3
-    },
-    "drops": {
-     "4454": 3,
-     "9997": 9
-    },
-    "settings": null,
-    "created": 1792778797261,
-    "status_updated": 1793094313676,
-    "leg": 7,
-    "creator": "858422436264280064",
-    "metadata": null
-   },
-   {
-    "transaction_id": "1419417341673873408",
+    "transaction_id": "1419807580473016320",
     "type": "free_agent",
     "status": "complete",
     "roster_ids": [
      3
     ],
     "adds": {
-     "CIN": 3
+     "13424": 3
     },
     "drops": null,
     "settings": null,
-    "created": 1792777975055,
-    "status_updated": 1792777975055,
+    "created": 1792871015235,
+    "status_updated": 1792871015235,
     "leg": 7,
     "creator": "302953456358920192",
     "metadata": null
@@ -4917,136 +4932,122 @@
     }
    },
    {
-    "transaction_id": "1419126299682713600",
+    "transaction_id": "1419839714956939264",
     "type": "free_agent",
     "status": "complete",
     "roster_ids": [
-     5
+     4
     ],
     "adds": {
-     "11559": 5
-    },
-    "drops": {
-     "11628": 5
-    },
-    "settings": null,
-    "created": 1792708585237,
-    "status_updated": 1792708585237,
-    "leg": 7,
-    "creator": "1261888423686328320",
-    "metadata": null
-   },
-   {
-    "transaction_id": "1419059769641078784",
-    "type": "free_agent",
-    "status": "complete",
-    "roster_ids": [
-     6
-    ],
-    "adds": {
-     "5022": 6
-    },
-    "drops": {
-     "8126": 6
-    },
-    "settings": null,
-    "created": 1792692723239,
-    "status_updated": 1792692723239,
-    "leg": 7,
-    "creator": "488431631342759936",
-    "metadata": null
-   },
-   {
-    "transaction_id": "1418977630278979584",
-    "type": "free_agent",
-    "status": "complete",
-    "roster_ids": [
-     6
-    ],
-    "adds": {
-     "11655": 6
+     "12718": 4
     },
     "drops": null,
     "settings": null,
-    "created": 1792673139689,
-    "status_updated": 1792673139689,
+    "created": 1792878676694,
+    "status_updated": 1792878676694,
     "leg": 7,
-    "creator": "488431631342759936",
+    "creator": "316068859650011136",
     "metadata": null
    },
    {
-    "transaction_id": "1418977320860942336",
+    "transaction_id": "1419855401637208064",
     "type": "free_agent",
     "status": "complete",
     "roster_ids": [
-     6
-    ],
-    "adds": null,
-    "drops": {
-     "6904": 6
-    },
-    "settings": null,
-    "created": 1792673065919,
-    "status_updated": 1792673065919,
-    "leg": 7,
-    "creator": "488431631342759936",
-    "metadata": null
-   },
-   {
-    "transaction_id": "1418896713740980224",
-    "type": "free_agent",
-    "status": "complete",
-    "roster_ids": [
-     12
+     9
     ],
     "adds": {
-     "TEN": 12
+     "13294": 9
     },
     "drops": null,
     "settings": null,
-    "created": 1792653847684,
-    "status_updated": 1792653847684,
+    "created": 1792882416689,
+    "status_updated": 1792882416689,
     "leg": 7,
-    "creator": "845806173256011776",
+    "creator": "858422436264280064",
     "metadata": null
    },
    {
-    "transaction_id": "1418894036697137152",
+    "transaction_id": "1419923456752939008",
     "type": "free_agent",
     "status": "complete",
     "roster_ids": [
-     12
+     10
     ],
-    "adds": null,
+    "adds": {
+     "13296": 10
+    },
     "drops": {
-     "9508": 12
+     "1466": 10
     },
     "settings": null,
-    "created": 1792653209426,
-    "status_updated": 1792653209426,
+    "created": 1792898642293,
+    "status_updated": 1792898642293,
     "leg": 7,
-    "creator": "845806173256011776",
+    "creator": "305158753748004864",
     "metadata": null
    },
    {
-    "transaction_id": "1418893922888957952",
+    "transaction_id": "1419420790255779840",
+    "type": "trade",
+    "status": "complete",
+    "roster_ids": [
+     3,
+     9
+    ],
+    "adds": {
+     "4454": 9,
+     "9997": 3
+    },
+    "drops": {
+     "4454": 3,
+     "9997": 9
+    },
+    "settings": null,
+    "created": 1792778797261,
+    "status_updated": 1793094313676,
+    "leg": 7,
+    "creator": "858422436264280064",
+    "metadata": null
+   },
+   {
+    "transaction_id": "1421165065662382080",
     "type": "free_agent",
     "status": "complete",
     "roster_ids": [
-     12
+     9
     ],
     "adds": null,
     "drops": {
-     "IND": 12
+     "4037": 9
     },
     "settings": null,
-    "created": 1792653182292,
-    "status_updated": 1792653182292,
+    "created": 1793194664926,
+    "status_updated": 1793194664926,
     "leg": 7,
-    "creator": "845806173256011776",
+    "creator": "858422436264280064",
+    "metadata": null
+   },
+   {
+    "transaction_id": "1421180645605937152",
+    "type": "free_agent",
+    "status": "complete",
+    "roster_ids": [
+     1
+    ],
+    "adds": null,
+    "drops": {
+     "NYJ": 1
+    },
+    "settings": null,
+    "created": 1793198379473,
+    "status_updated": 1793198379473,
+    "leg": 7,
+    "creator": "89150347926716416",
     "metadata": null
    }
   ],
-  "8": []
+  "8": [],
+  "9": []
  }
 }

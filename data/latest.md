@@ -1,5 +1,5 @@
 # Pretend Sportsball League '26 weekly pull
-Pulled 2026-10-28T16:59:42+00:00 UTC. Completed week 7, upcoming week 8.
+Pulled 2026-10-28T18:18:05+00:00 UTC. Completed week 7, upcoming week 8.
 
 ## Week 7 result: L
 ValKilmersComeback 81.6 (proj 94.3) vs Baker’s Dozen 142.4 (proj 115.6)
@@ -64,50 +64,50 @@ Record {'wins': 8, 'losses': 6, 'ties': 0}. FAAB used 97/200.
 ## Waivers: QB (top 25 by week 8 projection)
 | Player | Team | Opp | Proj wk8 | Actual wk7 | Adds 72h | Injury |
 |---|---|---|---|---|---|---|
-| Geno Smith | NYJ | LV | 19.2 | 29.5 | 162360 | - |
-| Baker Mayfield | TB | ATL | 17.7 | 8.7 | 0 | - |
-| Sam Darnold | SEA | CHI | 17.2 | 16.0 | 62586 | - |
-| Deshaun Watson | CLE | PIT | 15.3 | 19.2 | 0 | - |
-| Bo Nix | DEN | KC | 15.3 | 29.2 | 71202 | - |
-| Tanner McKee | PHI | WAS | 15.2 | 12.5 | 114016 | - |
+| Geno Smith | NYJ | LV | 19.2 | 29.5 | 161132 | - |
+| Baker Mayfield | TB | ATL | 17.3 | 8.7 | 0 | - |
+| Sam Darnold | SEA | CHI | 17.2 | 16.0 | 62817 | - |
+| Deshaun Watson | CLE | PIT | 15.3 | 19.2 | 60096 | - |
+| Tanner McKee | PHI | WAS | 15.2 | 12.5 | 109552 | - |
+| Bo Nix | DEN | KC | 15.2 | 29.2 | 61020 | - |
 | Cam Ward | TEN | CIN | 14.8 | 5.7 | 0 | - |
-| Malik Willis | MIA | NE | 14.1 | 31.0 | 225001 | - |
+| Malik Willis | MIA | NE | 14.1 | 31.0 | 228606 | - |
 | Daniel Jones | IND | JAX | 12.3 | 3.6 | 0 | - |
-| Fernando Mendoza | LV | - | 0.0 | 0.0 | 0 | - |
-| Sean Clifford | CIN | - | 0.0 | 0.0 | 0 | - |
-| Zach Terrell | BAL | - | 0.0 | - | 0 | - |
-| Kenny Pickett | CAR | - | 0.0 | 3.4 | 0 | - |
-| Quinn Ewers | JAX | - | 0.0 | - | 0 | - |
-| Sam Hartman | WAS | - | 0.0 | - | 0 | - |
-| Tyrod Taylor | GB | - | 0.0 | 0.0 | 0 | - |
-| Zach Wilson | NO | - | 0.0 | - | 0 | Out |
-| Will Levis | NYJ | - | 0.0 | 0.0 | 0 | - |
-| Will Howard | PIT | - | 0.0 | - | 0 | - |
-| Nick Schuessler | PIT | - | 0.0 | - | 0 | - |
-| Garrett Nussmeier | KC | - | 0.0 | - | 0 | - |
-| Josh Johnson | CIN | - | 0.0 | 0.0 | 0 | - |
-| Cade Klubnik | NYJ | - | 0.0 | 0.0 | 0 | - |
+| Skylar Thompson | BAL | - | 0.0 | 0.0 | 0 | IR |
+| Riley Leonard | IND | - | 0.0 | - | 0 | - |
+| Kurtis Rourke | SF | - | 0.0 | - | 0 | Out |
+| Stetson Bennett IV | LAR | - | 0.0 | 0.0 | 0 | - |
+| Behren Morton | NE | - | 0.0 | - | 0 | - |
+| Jake Haener | NYG | - | 0.0 | - | 0 | Out |
+| Jalen Milroe | SEA | - | 0.0 | 0.0 | 0 | - |
 | Skyler Howard | SEA | - | 0.0 | - | 0 | - |
 | Jameis Winston | NYG | - | 0.0 | 6.4 | 0 | - |
+| Ben Roethlisberger | PIT | - | 0.0 | - | 0 | - |
+| Josh Johnson | CIN | - | 0.0 | 0.0 | 0 | - |
+| Hendon Hooker | TEN | - | 0.0 | 0.0 | 0 | - |
+| Kedon Slovis | GB | - | 0.0 | 0.0 | 0 | - |
+| Joe Fagnano | BAL | - | 0.0 | 0.0 | 0 | - |
+| Gardner Minshew II | ARI | - | 0.0 | 0.0 | 0 | - |
+| Kyle McCord | MIA | - | 0.0 | 0.0 | 0 | - |
 
 ## Waivers: RB (top 25 by week 8 projection)
 | Player | Team | Opp | Proj wk8 | Actual wk7 | Adds 72h | Injury |
 |---|---|---|---|---|---|---|
 | Tyjae Spears | TEN | CIN | 6.3 | - | 0 | Questionable |
-| Samaje Perine | CIN | TEN | 6.2 | 7.6 | 113468 | - |
+| Samaje Perine | CIN | TEN | 6.2 | 7.6 | 114484 | - |
 | George Holani | SEA | CHI | 5.7 | 2.8 | 0 | - |
-| Chris Rodriguez Jr. | JAX | IND | 5.6 | - | 152478 | - |
-| Dylan Sampson | CLE | PIT | 5.5 | 9.2 | 338430 | - |
+| Chris Rodriguez Jr. | JAX | IND | 5.6 | - | 155358 | - |
+| Dylan Sampson | CLE | PIT | 5.5 | 9.2 | 341410 | - |
 | Austin Ekeler | WAS | PHI | 5.2 | - | 0 | - |
-| Keaton Mitchell | LAC | LAR | 5.2 | - | 62721 | - |
-| Justice Hill | BAL | BUF | 5.1 | 4.8 | 71703 | - |
+| Keaton Mitchell | LAC | LAR | 5.2 | - | 63441 | - |
+| Justice Hill | BAL | BUF | 5.1 | 4.8 | 0 | - |
 | Corey Kiner | NE | MIA | 4.7 | 6.4 | 0 | - |
+| Tyler Goodson | DAL | ARI | 4.6 | 5.9 | 73893 | - |
 | Ty Johnson | BUF | BAL | 4.5 | - | 0 | - |
-| Tyler Goodson | DAL | ARI | 4.5 | 5.9 | 73398 | - |
 | Sione Vaki | DET | MIN | 3.3 | 0.5 | 0 | - |
 | Trevor Etienne | CAR | GB | 3.0 | 7.0 | 0 | - |
 | Jeremy McNichols | WAS | PHI | 2.6 | - | 0 | - |
-| Elijah Mitchell | PHI | WAS | 1.8 | 6.2 | 638307 | - |
+| Elijah Mitchell | PHI | WAS | 1.8 | 6.2 | 648369 | - |
 | Isaiah Davis | NYJ | LV | 1.5 | 6.9 | 0 | - |
 | LeQuint Allen Jr. | JAX | IND | 1.5 | - | 0 | - |
 | Sean Tucker | TB | ATL | 1.3 | 12.2 | 0 | - |
@@ -123,21 +123,21 @@ Record {'wins': 8, 'losses': 6, 'ties': 0}. FAAB used 97/200.
 | Player | Team | Opp | Proj wk8 | Actual wk7 | Adds 72h | Injury |
 |---|---|---|---|---|---|---|
 | Wan'Dale Robinson | TEN | CIN | 8.8 | 2.7 | 0 | - |
-| Josh Downs | IND | JAX | 8.3 | 2.8 | 88460 | - |
-| Chris Godwin Jr. | TB | ATL | 8.3 | 4.7 | 83874 | - |
-| Ryan Flournoy | DAL | ARI | 7.0 | 9.0 | 698520 | - |
-| Cooper Kupp | SEA | CHI | 6.2 | 3.0 | 73488 | - |
-| Quentin Johnston | LAC | LAR | 5.8 | - | 0 | - |
+| Josh Downs | IND | JAX | 8.3 | 2.8 | 98530 | - |
+| Chris Godwin Jr. | TB | ATL | 8.2 | 4.7 | 73980 | - |
+| Ryan Flournoy | DAL | ARI | 7.0 | 9.0 | 708800 | - |
+| Cooper Kupp | SEA | CHI | 6.2 | 3.0 | 72036 | - |
+| Quentin Johnston | LAC | LAR | 5.8 | - | 61803 | - |
 | Elic Ayomanor | TEN | CIN | 5.3 | 5.9 | 0 | - |
-| Jahan Dotson | ATL | TB | 5.1 | 1.1 | 0 | - |
 | Jauan Jennings | MIN | DET | 5.0 | 4.4 | 0 | - |
+| Jahan Dotson | ATL | TB | 5.0 | 1.1 | 0 | - |
 | Rashod Bateman | BAL | BUF | 4.6 | 4.3 | 0 | - |
-| Savion Williams | GB | CAR | 4.6 | 6.6 | 322924 | - |
-| Treylon Burks | WAS | PHI | 4.5 | - | 259938 | - |
+| Savion Williams | GB | CAR | 4.6 | 6.6 | 330309 | - |
+| Treylon Burks | WAS | PHI | 4.5 | - | 265755 | - |
 | Efton Chism III | NE | MIA | 4.3 | 2.1 | 0 | - |
 | Kyle Williams | NE | MIA | 4.3 | 2.4 | 0 | - |
-| Ted Hurst III | TB | ATL | 4.3 | 0.0 | 0 | - |
 | Chris Bell | MIA | NE | 4.3 | 4.0 | 0 | - |
+| Ted Hurst III | TB | ATL | 4.3 | 0.0 | 0 | - |
 | Marvin Mims Jr. | DEN | KC | 4.0 | 12.2 | 0 | - |
 | Adonai Mitchell | NYJ | LV | 3.9 | 0.0 | 0 | - |
 | Josh Cameron | JAX | IND | 3.6 | - | 0 | - |
@@ -152,44 +152,44 @@ Record {'wins': 8, 'losses': 6, 'ties': 0}. FAAB used 97/200.
 | Player | Team | Opp | Proj wk8 | Actual wk7 | Adds 72h | Injury |
 |---|---|---|---|---|---|---|
 | Travis Kelce | KC | DEN | 9.3 | 6.4 | 0 | - |
-| Harold Fannin Jr. | CLE | PIT | 8.7 | 10.1 | 65015 | - |
-| T.J. Hockenson | MIN | DET | 8.7 | 11.5 | 146325 | - |
-| Dalton Kincaid | BUF | BAL | 8.5 | - | 86919 | - |
-| Jake Ferguson | DAL | ARI | 8.0 | 0.0 | 82820 | - |
-| Hunter Henry | NE | MIA | 7.6 | 10.6 | 358743 | - |
+| Harold Fannin Jr. | CLE | PIT | 8.7 | 10.1 | 65055 | - |
+| T.J. Hockenson | MIN | DET | 8.7 | 11.5 | 146940 | - |
+| Dalton Kincaid | BUF | BAL | 8.5 | - | 88396 | - |
+| Jake Ferguson | DAL | ARI | 8.1 | 0.0 | 84620 | - |
+| Hunter Henry | NE | MIA | 7.6 | 10.6 | 361677 | - |
 | Pat Freiermuth | PIT | CLE | 7.6 | 3.0 | 0 | - |
-| Mark Andrews | BAL | BUF | 7.3 | 3.8 | 76545 | - |
-| Kyle Pitts Sr. | ATL | TB | 6.9 | 10.7 | 254478 | - |
-| AJ Barner | SEA | CHI | 6.8 | 6.6 | 116178 | - |
-| Mike Gesicki | CIN | TEN | 6.8 | 7.1 | 150548 | - |
-| Cade Otton | TB | ATL | 6.3 | 0.0 | 0 | - |
-| Darren Waller | CAR | GB | 6.2 | 12.5 | 97974 | - |
+| Mark Andrews | BAL | BUF | 7.3 | 3.8 | 76383 | - |
+| AJ Barner | SEA | CHI | 6.8 | 6.6 | 117102 | - |
+| Kyle Pitts Sr. | ATL | TB | 6.8 | 10.7 | 255010 | - |
+| Mike Gesicki | CIN | TEN | 6.8 | 7.1 | 150244 | - |
+| Cade Otton | TB | ATL | 6.2 | 0.0 | 0 | - |
+| Darren Waller | CAR | GB | 6.2 | 12.5 | 98892 | - |
 | Chig Okonkwo | WAS | PHI | 5.9 | - | 0 | - |
-| Michael Mayer | LV | NYJ | 5.8 | 4.7 | 157221 | - |
-| Colby Parkinson | LAR | LAC | 5.3 | 7.3 | 154170 | - |
+| Michael Mayer | LV | NYJ | 5.8 | 4.7 | 147042 | - |
+| Colby Parkinson | LAR | LAC | 5.3 | 7.3 | 152454 | - |
 | Darnell Washington | PIT | CLE | 4.9 | 6.9 | 0 | - |
 | Greg Dulcich | MIA | NE | 4.8 | 11.1 | 0 | - |
-| Eli Raridon | NE | MIA | 4.5 | 13.1 | 118251 | - |
+| Eli Raridon | NE | MIA | 4.5 | 13.1 | 120463 | - |
 | Gunnar Helm | TEN | CIN | 4.3 | 3.9 | 0 | - |
 | Evan Engram | DEN | KC | 3.8 | 0.7 | 0 | - |
 | Oronde Gadsden | LAC | LAR | 3.6 | - | 0 | - |
 | Tommy Tremble | CAR | GB | 3.5 | 1.3 | 0 | - |
 | Charlie Kolar | LAC | LAR | 3.2 | - | 0 | - |
-| Mason Taylor | NYJ | LV | 2.8 | 22.7 | 355640 | - |
+| Mason Taylor | NYJ | LV | 2.8 | 22.7 | 362305 | - |
 
 ## Waivers: DEF (top 17 by week 8 projection)
 | Player | Team | Opp | Proj wk8 | Actual wk7 | Adds 72h | Injury |
 |---|---|---|---|---|---|---|
-| JAX DEF | JAX | IND | 9.7 | - | 2246964 | - |
-| WAS DEF | WAS | PHI | 9.7 | - | 1024198 | - |
+| JAX DEF | JAX | IND | 9.7 | - | 2282022 | - |
+| WAS DEF | WAS | PHI | 9.7 | - | 1075480 | - |
 | KC DEF | KC | DEN | 8.5 | 4.5 | 0 | - |
-| TB DEF | TB | ATL | 7.8 | 26.9 | 697020 | - |
+| TB DEF | TB | ATL | 7.8 | 26.9 | 718330 | - |
 | NYJ DEF | NYJ | LV | 7.8 | 2.7 | 0 | - |
-| LV DEF | LV | NYJ | 7.7 | 5.5 | 162600 | - |
+| LV DEF | LV | NYJ | 7.7 | 5.5 | 171624 | - |
 | GB DEF | GB | CAR | 7.2 | 11.0 | 0 | - |
 | ATL DEF | ATL | TB | 7.1 | 15.0 | 0 | - |
 | BUF DEF | BUF | BAL | 6.9 | - | 0 | - |
-| DET DEF | DET | MIN | 6.8 | 6.8 | 129186 | - |
+| DET DEF | DET | MIN | 6.8 | 6.8 | 135549 | - |
 | DAL DEF | DAL | ARI | 6.5 | 6.4 | 0 | - |
 | PHI DEF | PHI | WAS | 6.2 | -2.8 | 0 | - |
 | IND DEF | IND | JAX | 4.6 | 8.9 | 0 | - |
@@ -201,36 +201,36 @@ Record {'wins': 8, 'losses': 6, 'ties': 0}. FAAB used 97/200.
 ## Trending adds (unrostered)
 | Player | Pos | Team | Adds 72h | Proj next |
 |---|---|---|---|---|
-| JAX DEF | DEF | JAX | 2246964 | 9.7 |
-| WAS DEF | DEF | WAS | 1024198 | 9.7 |
-| Devin Singletary | RB | NYG | 867393 | 0.0 |
-| Ryan Flournoy | WR | DAL | 698520 | 7.0 |
-| TB DEF | DEF | TB | 697020 | 7.8 |
-| Elijah Mitchell | RB | PHI | 638307 | 1.8 |
-| Hunter Henry | TE | NE | 358743 | 7.6 |
-| Mason Taylor | TE | NYJ | 355640 | 2.8 |
-| Dylan Sampson | RB | CLE | 338430 | 5.5 |
-| Savion Williams | WR | GB | 322924 | 4.6 |
-| Treylon Burks | WR | WAS | 259938 | 4.5 |
-| Kyle Pitts Sr. | TE | ATL | 254478 | 6.9 |
-| Malik Willis | QB | MIA | 225001 | 14.1 |
-| LV DEF | DEF | LV | 162600 | 7.7 |
-| Geno Smith | QB | NYJ | 162360 | 19.2 |
-| Michael Mayer | TE | LV | 157221 | 5.8 |
-| Colby Parkinson | TE | LAR | 154170 | 5.3 |
-| Chris Rodriguez Jr. | RB | JAX | 152478 | 5.6 |
-| Mike Gesicki | TE | CIN | 150548 | 6.8 |
-| T.J. Hockenson | TE | MIN | 146325 | 8.7 |
-| DET DEF | DEF | DET | 129186 | 6.8 |
-| Eli Raridon | TE | NE | 118251 | 4.5 |
-| AJ Barner | TE | SEA | 116178 | 6.8 |
-| Tanner McKee | QB | PHI | 114016 | 15.2 |
-| Samaje Perine | RB | CIN | 113468 | 6.2 |
-| Darren Waller | TE | CAR | 97974 | 6.2 |
-| Josh Downs | WR | IND | 88460 | 8.3 |
-| Dalton Kincaid | TE | BUF | 86919 | 8.5 |
-| Terrance Ferguson | TE | LAR | 84976 | 0.0 |
-| Chris Godwin Jr. | WR | TB | 83874 | 8.3 |
+| JAX DEF | DEF | JAX | 2282022 | 9.7 |
+| WAS DEF | DEF | WAS | 1075480 | 9.7 |
+| Devin Singletary | RB | NYG | 890595 | 0.0 |
+| TB DEF | DEF | TB | 718330 | 7.8 |
+| Ryan Flournoy | WR | DAL | 708800 | 7.0 |
+| Elijah Mitchell | RB | PHI | 648369 | 1.8 |
+| Mason Taylor | TE | NYJ | 362305 | 2.8 |
+| Hunter Henry | TE | NE | 361677 | 7.6 |
+| Dylan Sampson | RB | CLE | 341410 | 5.5 |
+| Savion Williams | WR | GB | 330309 | 4.6 |
+| Treylon Burks | WR | WAS | 265755 | 4.5 |
+| Kyle Pitts Sr. | TE | ATL | 255010 | 6.8 |
+| Malik Willis | QB | MIA | 228606 | 14.1 |
+| LV DEF | DEF | LV | 171624 | 7.7 |
+| Geno Smith | QB | NYJ | 161132 | 19.2 |
+| Chris Rodriguez Jr. | RB | JAX | 155358 | 5.6 |
+| Colby Parkinson | TE | LAR | 152454 | 5.3 |
+| Mike Gesicki | TE | CIN | 150244 | 6.8 |
+| Michael Mayer | TE | LV | 147042 | 5.8 |
+| T.J. Hockenson | TE | MIN | 146940 | 8.7 |
+| DET DEF | DEF | DET | 135549 | 6.8 |
+| Eli Raridon | TE | NE | 120463 | 4.5 |
+| AJ Barner | TE | SEA | 117102 | 6.8 |
+| Samaje Perine | RB | CIN | 114484 | 6.2 |
+| Tanner McKee | QB | PHI | 109552 | 15.2 |
+| Darren Waller | TE | CAR | 98892 | 6.2 |
+| Josh Downs | WR | IND | 98530 | 8.3 |
+| Dalton Kincaid | TE | BUF | 88396 | 8.5 |
+| Terrance Ferguson | TE | LAR | 85200 | 0.0 |
+| Jake Ferguson | TE | DAL | 84620 | 8.1 |
 
 ## Validation
 Record check: median game ON: each team plays its opponent and the league median every week (sum of wins 84, completed weeks 7).

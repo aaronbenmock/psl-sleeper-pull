@@ -39,7 +39,7 @@
   "id": "ages",
   "status": "info",
   "title": "Input ages at build time",
-  "finding": "weekly pull 1.0h, injury table 294.6h, players cache 1.0h, newest snapshot 74.8h (week 7)"
+  "finding": "weekly pull 0.0h, injury table 0.0h, players cache 1.3h, newest snapshot 0.0h (week 8)"
  },
  {
   "id": "names_cache",
@@ -52,11 +52,5 @@
   "status": "ok",
   "title": "Preferences",
   "finding": "config/preferences.json: claims exclude TE; FAAB leftover tendency on."
- },
- {
-  "id": "build_errors",
-  "status": "fail",
-  "title": "Build errors",
-  "finding": "lineup: 'why'"
  }
 ]

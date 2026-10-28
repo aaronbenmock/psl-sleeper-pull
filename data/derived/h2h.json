@@ -5,18 +5,18 @@
  "opponent": "City of Champyinz",
  "manager": "danglish9",
  "roster_id": 4,
- "my_total": 0,
+ "my_total": 97.8,
  "opp_set_total": 49.9,
- "opp_best_total": 73.8,
- "verdict": "underdog",
- "margin": -49.9,
- "verdict_vs_best": "underdog",
+ "opp_best_total": 73.7,
+ "verdict": "favored",
+ "margin": 47.9,
+ "verdict_vs_best": "favored",
  "opp_injured": [
   {
    "name": "Jeremiyah Love",
    "pos": "RB",
    "status": "Questionable",
-   "expected": 7.91,
+   "expected": 7.9,
    "body": "Ankle"
   }
  ],
@@ -35,14 +35,14 @@
   {
    "name": "Bijan Robinson",
    "pos": "RB",
-   "expected": 18.79,
+   "expected": 18.72,
    "injury_status": null,
    "baseline_only": false
   },
   {
    "name": "Jeremiyah Love",
    "pos": "RB",
-   "expected": 7.91,
+   "expected": 7.9,
    "injury_status": "Questionable",
    "baseline_only": false
   },
@@ -70,7 +70,7 @@
   {
    "name": "J.K. Dobbins",
    "pos": "RB",
-   "expected": 6.3,
+   "expected": 6.29,
    "injury_status": null,
    "baseline_only": false
   },
@@ -82,14 +82,15 @@
    "baseline_only": false
   }
  ],
- "median_total": 91.0,
- "median_verdict": "underdog",
- "median_margin": -91.0,
+ "median_total": 93.2,
+ "median_verdict": "toss-up",
+ "median_margin": 4.6,
  "source": {
-  "kind": "latest.json",
-  "taken_at_utc": "2026-10-28T16:59:42+00:00"
+  "kind": "pre-kickoff snapshot",
+  "taken_at_utc": "2026-10-28T18:18:06Z",
+  "label": "wed_late_am"
  },
  "opp_baseline_only": 0,
- "why": "Your recommended lineup projects 0.0; City of Champyinz's set lineup 49.9 (best possible from their roster 73.8). Margin -49.9: underdog.",
+ "why": "Your recommended lineup projects 97.8; City of Champyinz's set lineup 49.9 (best possible from their roster 73.7). Margin +47.9: favored.",
  "note": "Both sides use the engine blend (0.65 x Sleeper + 0.35 x baseline, injury multipliers), so the totals are comparable. Inside +/-5 points the game is called a toss-up [Guessing]. Your own lineup still follows max expected points; the matchup does not change who you start."
 }
