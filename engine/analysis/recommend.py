@@ -230,7 +230,7 @@ def lineup_recommendation(ctx):
         if vo and vi:
             changes.append({"out": vo["name"], "in": vi["name"], "out_expected": vo["expected"], "in_expected": vi["expected"],
                             "why": f"{vi['name']} {vi['expected']:.1f} vs {vo['name']} {vo['expected']:.1f} expected "
-                                   f"({vi['expected'] - vo['expected']:+.1f}). " + (vo["why"] if not vo["playing"] else "")})
+                                   f"({vi['expected'] - vo['expected']:+.1f}). " + (_why_value(vo) if not vo["playing"] else "")})
     for i in ins[len(outs):]:
         vi = by_id.get(i)
         if vi:
