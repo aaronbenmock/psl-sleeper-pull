@@ -2,7 +2,7 @@
  "week": 8,
  "first_recorded_utc": "2026-10-28T18:18:08Z",
  "source": "live build",
- "updated_utc": "2026-10-28T19:58:18Z",
+ "updated_utc": "2026-10-28T20:38:07Z",
  "start_sit": [
   {
    "type": "start_sit",
@@ -259,7 +259,7 @@
    "alt_name": "Zach Charbonnet"
   }
  ],
- "claims_rec_utc": "2026-10-28T19:58:18Z",
+ "claims_rec_utc": "2026-10-28T20:38:07Z",
  "synthesis": [
   {
    "type": "sit",
