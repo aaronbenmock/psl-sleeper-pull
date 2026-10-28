@@ -4,9 +4,9 @@
    "task": "build",
    "ok": false,
    "summary": "failed: build completed with section errors: lineup: 'why'",
-   "started_utc": "2026-10-28T17:32:01Z",
-   "finished_utc": "2026-10-28T17:32:03Z",
-   "error": "Traceback (most recent call last):\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine.py\", line 36, in _run_task\n    fn(**kw)\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine/build.py\", line 119, in run\n    raise RuntimeError(\"build completed with section errors: \" + \"; \".join(errors))\nRuntimeError: build completed with section errors: lineup: 'why'\n"
+   "started_utc": "2026-10-28T18:00:53Z",
+   "finished_utc": "2026-10-28T18:00:54Z",
+   "error": "Traceback (most recent call last):\n  File \"C:\\Users\\aaron\\Documents\\Claude\\Apps\\PSL-Fantasy-Engine\\engine.py\", line 36, in _run_task\n    fn(**kw)\n  File \"C:\\Users\\aaron\\Documents\\Claude\\Apps\\PSL-Fantasy-Engine\\engine\\build.py\", line 119, in run\n    raise RuntimeError(\"build completed with section errors: \" + \"; \".join(errors))\nRuntimeError: build completed with section errors: lineup: 'why'\n"
   },
   "pull": {
    "task": "pull",
@@ -54,42 +54,6 @@
   }
  },
  "runs": [
-  {
-   "task": "snapshot",
-   "ok": true,
-   "summary": "week 5 sun_early: 3147 projections, 2 NFL teams already started, 3096 players still pre-kickoff",
-   "started_utc": "2026-10-11T12:03:32Z",
-   "finished_utc": "2026-10-11T12:03:32Z",
-   "error": null,
-   "week": 5,
-   "label": "sun_early"
-  },
-  {
-   "task": "build",
-   "ok": true,
-   "summary": "index.html + reports/2026/week05.html; lineup changes 0, claims 2, signals 16, accuracy weeks 4",
-   "started_utc": "2026-10-11T12:03:32Z",
-   "finished_utc": "2026-10-11T12:03:33Z",
-   "error": null
-  },
-  {
-   "task": "snapshot",
-   "ok": true,
-   "summary": "week 5 sun_early: 3147 projections, 2 NFL teams already started, 3096 players still pre-kickoff",
-   "started_utc": "2026-10-11T12:46:02Z",
-   "finished_utc": "2026-10-11T12:46:03Z",
-   "error": null,
-   "week": 5,
-   "label": "sun_early"
-  },
-  {
-   "task": "build",
-   "ok": true,
-   "summary": "index.html + reports/2026/week05.html; lineup changes 0, claims 2, signals 16, accuracy weeks 4",
-   "started_utc": "2026-10-11T12:46:03Z",
-   "finished_utc": "2026-10-11T12:46:04Z",
-   "error": null
-  },
   {
    "task": "auto-skip",
    "ok": true,
@@ -1701,14 +1665,46 @@
    "started_utc": "2026-10-28T17:32:01Z",
    "finished_utc": "2026-10-28T17:32:03Z",
    "error": "Traceback (most recent call last):\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine.py\", line 36, in _run_task\n    fn(**kw)\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine/build.py\", line 119, in run\n    raise RuntimeError(\"build completed with section errors: \" + \"; \".join(errors))\nRuntimeError: build completed with section errors: lineup: 'why'\n"
+  },
+  {
+   "task": "build",
+   "ok": false,
+   "summary": "index.html + reports/2026/week08.html; lineup changes 0, claims 0, signals 16, accuracy weeks 7; ERRORS: [\"lineup: 'why'\"]",
+   "started_utc": "2026-10-28T18:00:41Z",
+   "finished_utc": "2026-10-28T18:00:43Z",
+   "error": "lineup: 'why'"
+  },
+  {
+   "task": "build",
+   "ok": false,
+   "summary": "failed: build completed with section errors: lineup: 'why'",
+   "started_utc": "2026-10-28T18:00:41Z",
+   "finished_utc": "2026-10-28T18:00:43Z",
+   "error": "Traceback (most recent call last):\n  File \"C:\\Users\\aaron\\Documents\\Claude\\Apps\\PSL-Fantasy-Engine\\engine.py\", line 36, in _run_task\n    fn(**kw)\n  File \"C:\\Users\\aaron\\Documents\\Claude\\Apps\\PSL-Fantasy-Engine\\engine\\build.py\", line 119, in run\n    raise RuntimeError(\"build completed with section errors: \" + \"; \".join(errors))\nRuntimeError: build completed with section errors: lineup: 'why'\n"
+  },
+  {
+   "task": "build",
+   "ok": false,
+   "summary": "index.html + reports/2026/week08.html; lineup changes 0, claims 0, signals 16, accuracy weeks 7; ERRORS: [\"lineup: 'why'\"]",
+   "started_utc": "2026-10-28T18:00:53Z",
+   "finished_utc": "2026-10-28T18:00:54Z",
+   "error": "lineup: 'why'"
+  },
+  {
+   "task": "build",
+   "ok": false,
+   "summary": "failed: build completed with section errors: lineup: 'why'",
+   "started_utc": "2026-10-28T18:00:53Z",
+   "finished_utc": "2026-10-28T18:00:54Z",
+   "error": "Traceback (most recent call last):\n  File \"C:\\Users\\aaron\\Documents\\Claude\\Apps\\PSL-Fantasy-Engine\\engine.py\", line 36, in _run_task\n    fn(**kw)\n  File \"C:\\Users\\aaron\\Documents\\Claude\\Apps\\PSL-Fantasy-Engine\\engine\\build.py\", line 119, in run\n    raise RuntimeError(\"build completed with section errors: \" + \"; \".join(errors))\nRuntimeError: build completed with section errors: lineup: 'why'\n"
   }
  ],
  "last_run": {
   "task": "build",
   "ok": false,
   "summary": "failed: build completed with section errors: lineup: 'why'",
-  "started_utc": "2026-10-28T17:32:01Z",
-  "finished_utc": "2026-10-28T17:32:03Z",
-  "error": "Traceback (most recent call last):\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine.py\", line 36, in _run_task\n    fn(**kw)\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine/build.py\", line 119, in run\n    raise RuntimeError(\"build completed with section errors: \" + \"; \".join(errors))\nRuntimeError: build completed with section errors: lineup: 'why'\n"
+  "started_utc": "2026-10-28T18:00:53Z",
+  "finished_utc": "2026-10-28T18:00:54Z",
+  "error": "Traceback (most recent call last):\n  File \"C:\\Users\\aaron\\Documents\\Claude\\Apps\\PSL-Fantasy-Engine\\engine.py\", line 36, in _run_task\n    fn(**kw)\n  File \"C:\\Users\\aaron\\Documents\\Claude\\Apps\\PSL-Fantasy-Engine\\engine\\build.py\", line 119, in run\n    raise RuntimeError(\"build completed with section errors: \" + \"; \".join(errors))\nRuntimeError: build completed with section errors: lineup: 'why'\n"
  }
 }

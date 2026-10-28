@@ -1,55 +1,55 @@
 {
- "synthesis_written_at": "2026-10-21T22:46:08Z",
- "generated_at_utc": "2026-10-21T22:46:08Z",
- "week": 7,
+ "synthesis_written_at": "2026-10-28T18:00:00Z",
+ "generated_at_utc": "2026-10-28T18:00:00Z",
+ "week": 8,
  "source": "desktop-scheduled-task",
  "source_label": "Wednesday 12:30 PM scheduled task on Aaron's PC",
  "calls": [
   {
-   "type": "claim",
-   "name": "Jaylin Noel",
-   "player_id": "12536",
-   "bid": 13,
-   "text": "Claim Noel at $13, drop Sutton; do not chase past about $15"
-  },
-  {
-   "type": "claim",
-   "name": "DeMario Douglas",
-   "player_id": "9501",
-   "bid": 6,
-   "text": "Backup claim Douglas at $6, same drop; Doubs on IR"
-  },
-  {
-   "type": "skip",
-   "name": "Efton Chism",
-   "player_id": "12542",
-   "alt_name": "Courtland Sutton",
-   "alt_id": "5045",
-   "text": "Skip Chism; Douglas gets Doubs's work first"
-  },
-  {
-   "type": "skip",
-   "name": "C.J. Stroud",
-   "player_id": "9758",
-   "alt_name": "Courtland Sutton",
-   "alt_id": "5045",
-   "text": "Skip Stroud; Murray covers Allen's bye"
+   "type": "sit",
+   "name": "Woody Marks",
+   "player_id": "12474",
+   "alt_name": "Rico Dowdle",
+   "alt_id": "7021",
+   "text": "Bench Marks (HOU bye), start Dowdle"
   },
   {
    "type": "start",
    "name": "Rico Dowdle",
    "player_id": "7021",
-   "alt_name": "Harold Fannin",
-   "alt_id": "12506",
-   "text": "Start Dowdle over Fannin at FLEX [Guessing]"
+   "alt_name": "Zach Charbonnet",
+   "text": "Start Dowdle over Charbonnet in his first game back from ACL"
   },
   {
    "type": "start",
-   "name": "SEA DEF",
-   "player_id": "SEA",
-   "alt_name": "KC DEF",
-   "alt_id": "KC",
-   "text": "Start SEA DEF over KC DEF"
+   "name": "Jakobi Meyers",
+   "player_id": "5947",
+   "alt_name": "DeMario Douglas",
+   "alt_id": "9501",
+   "text": "Start Meyers (back from bye) over Douglas"
+  },
+  {
+   "type": "skip",
+   "name": "Josh Downs",
+   "player_id": "9500",
+   "alt_name": "Courtland Sutton",
+   "alt_id": "5045",
+   "text": "Skip Downs; trade request, quiet week 7"
+  },
+  {
+   "type": "skip",
+   "name": "JAX DEF",
+   "player_id": "JAX",
+   "alt_name": "SEA DEF",
+   "alt_id": "SEA",
+   "text": "Skip the defense chase; keep SEA DEF vs CHI"
+  },
+  {
+   "type": "skip",
+   "name": "Dylan Sampson",
+   "alt_name": "Courtland Sutton",
+   "alt_id": "5045",
+   "text": "Skip Sampson; just off IR, committee role"
   }
  ]
 }

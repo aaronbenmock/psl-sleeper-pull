@@ -1,26 +1,24 @@
-<!-- generated 2026-10-21T22:46:08Z by scheduled Claude task -->
+<!-- generated 2026-10-28T18:00:00Z by scheduled Claude task -->
 ## Your roster: what changed this week
-- **Note: Sleeper's injury fields in the engine are from Oct 16 (5 days old).**
-- **Davante Adams is out for weeks.** He ruptured his left hamstring in week 6, needs surgery, and McVay expects him out 6 to 10 weeks (ESPN / Field Level Media, Oct 19). [Likely] back around week 13 at the earliest. Both IR slots are full (Deebo, Charbonnet), so he has to sit on your bench. Hold him: he could be back for the playoffs. Drop Sutton before Adams.
-- **Deebo Samuel stays in IR.** Shanahan said he will "miss some time" with the hamstring (ESPN, Oct 12), and SF has its week 8 bye next. [Likely] back week 9 at the earliest.
-- **Woody Marks keeps the lead job this week [Likely].** David Montgomery (groin) is week to week and missed week 6; Marks played 78% of snaps there (Fantasy Footballers, Oct 18). If Montgomery returns, Marks drops to a part-time role.
-- **Harold Fannin has gone quiet.** One catch in each of the last two games, 3 targets in week 6 despite 89% of snaps (RotoBaller, Oct 18). Rico Dowdle got 10 touches at 5.7 a carry in his return; Warren still led 16 to 10 (Fantasy Footballers / DraftSharks, Oct 19). Start Dowdle over Fannin at FLEX [Guessing]; it is a near coin flip (0.7 apart).
-- **Denzel Boston (foot) played week 6** after limited practices NBC called maintenance (NBC Sports, Oct 14). Start him vs TEN unless he misses Friday practice.
-- **Ollie Gordon (Questionable, undisclosed)**: no week 7 report found. He left the CIN game briefly and returned (CBS, Oct 11). Keep him in unless Miami rules him out.
-- Allen and Meyers are on bye; Kyler Murray starts and is protected. Do not drop him.
+- **Warning: the engine's build failed this morning (lineup section error), so the dashboard has no lineup or waiver picks for week 8.** Everything below comes from the raw Sleeper pull and the news.
+- **Woody Marks is on bye and still sits in your RB slot. Move him out.** He hurt his left knee vs the Giants but came back the next drive and finished with 19 carries (National Football Post / CBS, Oct 25). Houston's week 8 bye gives him and David Montgomery (groin, week to week) time; expect a platoon in week 9 if Montgomery returns [Likely].
+- **Start Rico Dowdle at RB.** He scored 11.6 off your bench last week. Zach Charbonnet was activated off PUP on Oct 22, but Macdonald would not commit to him for Monday vs CHI (NBC Sports, Oct 26) while Rapoport says he is expected to play (Yahoo, Oct 26). First game back from an ACL means a limited role [Likely]; keep him on the bench.
+- **Josh Allen is back from his bye; start him over Kyler Murray.** Murray no longer has a bye to cover, so he is now a trade chip, not a must-keep.
+- **Jakobi Meyers is back from bye; start him over DeMario Douglas** (8.6 vs 6.6 projected). Douglas caught 3.8 points in his first week with you.
+- **Jaylin Noel (toe, Questionable) is also on the HOU bye.** He scored 2.3 after the $17 claim. Hold one more week; he is the first drop if you need a spot.
+- **Deebo Samuel stays in IR.** SF is on bye; a week 9 return vs the Raiders was the early target (Fantasy Footballers / ESPN, Oct 12) [Likely]. No newer report found.
+- **Davante Adams** remains out (6 to 10 weeks from Oct 19, ESPN). Both IR slots stay full.
 
 ## Waiver targets: news check
-- **Jaylin Noel (HOU WR): claim, $13, drop Courtland Sutton.** 4 for 4, 107 yards and a TD vs JAX, his first 100-yard game (NBC Sports, Oct 18). Caution: Houston traded for Marvin Harrison Jr. on Oct 11 (ABC News, Oct 12), which caps his target share. Derrelick my Balls usually bids $31 at WR, so $13 may lose. Do not chase past about $15.
-- **DeMario Douglas (NE WR): second claim, $6, same drop.** Romeo Doubs went to IR on Oct 19 for at least four games (RotoBaller / 4for4, Oct 19). Douglas led NE with 7 of 8 for 86 yards and a TD in week 6. If Noel's claim wins, this one fails automatically.
-- **Skip Efton Chism.** Douglas gets Doubs's work first; Chism scored 0 in week 6.
-- **Skip C.J. Stroud.** Murray covers Allen's bye; a third QB wastes the spot.
+- **No claim is worth a drop this week.** Your bench is full (6 of 6) and the best free WRs project 8.3 to 8.8, no better than Meyers or Boston.
+- **Skip Josh Downs.** Two catches for 18 yards in week 7 (NBC Sports, Oct 25), and he has asked for a trade out of Indy (NBC Sports / Fowler, Oct 28). Role is unclear until the deadline.
+- **Skip the defense chase (JAX, WAS DEF).** They project about 1.5 points better than SEA DEF, and defense streaming is 0 for 3 this season. Keep SEA vs CHI.
+- **Skip Dylan Sampson (CLE RB).** He is just back from IR and was still limited in practice; even if active he would be in a committee (RotoBaller / NBC Sports, Oct 22).
 
 ## League: notable situations
-- **You are a 15.6-point underdog to Baker's Dozen** (87.5 vs 103.1), and 6.2 below the league median. Their WR Tre' Harris is Doubtful, so they will be on the wire for a WR too.
-- **RafiBomb loses James Cook and Parker Washington to byes.**
-- **Your 8-4 record is ahead of your roster.** Against the whole league you would be about 6.9 and 5.1. Trade deadline is week 12; a WR trade is worth exploring with Adams and Deebo both out [Guessing].
-
+- **You are a clear favorite vs City of Champyinz.** Their QB Tyler Shough and SF DEF are on bye; their set lineup projects 49.9 and even their best possible lineup is 73.8. Your corrected lineup projects about 97, above the league median line of 91 [Likely].
+- **ScampDaddy lost Jalen Hurts (calf, Out per Sleeper since Oct 16)** and Tanner McKee is one of the most-added QBs. A QB-needy team is a buyer for Kyler Murray before the week 12 deadline [Guessing].
 ## Bottom line (3 bullets max)
-- Claim Jaylin Noel at $13 (drop Sutton), with DeMario Douglas at $6 as a backup. Keep Davante Adams on the bench.
-- Start Rico Dowdle over Harold Fannin at FLEX [Guessing]; start SEA DEF over KC DEF.
-- Recheck Boston and Gordon on Friday's injury reports.
+- Bench Woody Marks (bye) and start Rico Dowdle; start Jakobi Meyers over DeMario Douglas; keep Allen at QB and SEA DEF.
+- No waiver claims; hold the $103.
+- Shop Kyler Murray for a WR before the week 12 deadline [Guessing].
