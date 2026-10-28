@@ -4,8 +4,8 @@
    "task": "build",
    "ok": false,
    "summary": "failed: build completed with section errors: lineup: 'why'",
-   "started_utc": "2026-10-28T16:59:44Z",
-   "finished_utc": "2026-10-28T16:59:46Z",
+   "started_utc": "2026-10-28T17:32:01Z",
+   "finished_utc": "2026-10-28T17:32:03Z",
    "error": "Traceback (most recent call last):\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine.py\", line 36, in _run_task\n    fn(**kw)\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine/build.py\", line 119, in run\n    raise RuntimeError(\"build completed with section errors: \" + \"; \".join(errors))\nRuntimeError: build completed with section errors: lineup: 'why'\n"
   },
   "pull": {
@@ -39,9 +39,9 @@
   "auto-skip": {
    "task": "auto-skip",
    "ok": true,
-   "summary": "skipped at 2026-10-27T11:57:35-05:00",
-   "started_utc": "2026-10-27T16:57:35Z",
-   "finished_utc": "2026-10-27T16:57:35Z",
+   "summary": "skipped at 2026-10-28T12:32:01-05:00",
+   "started_utc": "2026-10-28T17:32:01Z",
+   "finished_utc": "2026-10-28T17:32:01Z",
    "error": null
   },
   "usage": {
@@ -54,30 +54,6 @@
   }
  },
  "runs": [
-  {
-   "task": "build",
-   "ok": true,
-   "summary": "index.html + reports/2026/week05.html; lineup changes 0, claims 2, signals 16, accuracy weeks 4",
-   "started_utc": "2026-10-11T00:11:40Z",
-   "finished_utc": "2026-10-11T00:11:40Z",
-   "error": null
-  },
-  {
-   "task": "injuries",
-   "ok": true,
-   "summary": "183 rostered players tracked, 71 changes since 2026-10-10, 2 of mine carry an injury tag, 37 transactions refreshed, players cache pulled",
-   "started_utc": "2026-10-11T11:09:49Z",
-   "finished_utc": "2026-10-11T11:09:50Z",
-   "error": null
-  },
-  {
-   "task": "build",
-   "ok": true,
-   "summary": "index.html + reports/2026/week05.html; lineup changes 0, claims 2, signals 16, accuracy weeks 4",
-   "started_utc": "2026-10-11T11:09:50Z",
-   "finished_utc": "2026-10-11T11:09:51Z",
-   "error": null
-  },
   {
    "task": "snapshot",
    "ok": true,
@@ -1701,14 +1677,38 @@
    "started_utc": "2026-10-28T16:59:44Z",
    "finished_utc": "2026-10-28T16:59:46Z",
    "error": "Traceback (most recent call last):\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine.py\", line 36, in _run_task\n    fn(**kw)\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine/build.py\", line 119, in run\n    raise RuntimeError(\"build completed with section errors: \" + \"; \".join(errors))\nRuntimeError: build completed with section errors: lineup: 'why'\n"
+  },
+  {
+   "task": "auto-skip",
+   "ok": true,
+   "summary": "skipped at 2026-10-28T12:32:01-05:00",
+   "started_utc": "2026-10-28T17:32:01Z",
+   "finished_utc": "2026-10-28T17:32:01Z",
+   "error": null
+  },
+  {
+   "task": "build",
+   "ok": false,
+   "summary": "index.html + reports/2026/week08.html; lineup changes 0, claims 0, signals 16, accuracy weeks 7; ERRORS: [\"lineup: 'why'\"]",
+   "started_utc": "2026-10-28T17:32:01Z",
+   "finished_utc": "2026-10-28T17:32:03Z",
+   "error": "lineup: 'why'"
+  },
+  {
+   "task": "build",
+   "ok": false,
+   "summary": "failed: build completed with section errors: lineup: 'why'",
+   "started_utc": "2026-10-28T17:32:01Z",
+   "finished_utc": "2026-10-28T17:32:03Z",
+   "error": "Traceback (most recent call last):\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine.py\", line 36, in _run_task\n    fn(**kw)\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine/build.py\", line 119, in run\n    raise RuntimeError(\"build completed with section errors: \" + \"; \".join(errors))\nRuntimeError: build completed with section errors: lineup: 'why'\n"
   }
  ],
  "last_run": {
   "task": "build",
   "ok": false,
   "summary": "failed: build completed with section errors: lineup: 'why'",
-  "started_utc": "2026-10-28T16:59:44Z",
-  "finished_utc": "2026-10-28T16:59:46Z",
+  "started_utc": "2026-10-28T17:32:01Z",
+  "finished_utc": "2026-10-28T17:32:03Z",
   "error": "Traceback (most recent call last):\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine.py\", line 36, in _run_task\n    fn(**kw)\n  File \"/home/runner/work/psl-sleeper-pull/psl-sleeper-pull/engine/build.py\", line 119, in run\n    raise RuntimeError(\"build completed with section errors: \" + \"; \".join(errors))\nRuntimeError: build completed with section errors: lineup: 'why'\n"
  }
 }
