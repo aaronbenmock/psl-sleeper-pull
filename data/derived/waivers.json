@@ -168,10 +168,9 @@
      "roster_id": 5,
      "team": "Eazy E Squad",
      "remaining": 200,
-     "score": 3.0,
+     "score": 2.0,
      "why": [
-      "starter ruled out or put on IR this week: KC Concepcion (Out)",
-      "just dropped Marvin Harrison Jr."
+      "starter ruled out or put on IR this week: KC Concepcion (Out)"
      ],
      "usual_bid": null,
      "repeated": [],
@@ -381,10 +380,9 @@
      "roster_id": 5,
      "team": "Eazy E Squad",
      "remaining": 200,
-     "score": 3.0,
+     "score": 2.0,
      "why": [
-      "starter ruled out or put on IR this week: KC Concepcion (Out)",
-      "just dropped Marvin Harrison Jr."
+      "starter ruled out or put on IR this week: KC Concepcion (Out)"
      ],
      "usual_bid": null,
      "repeated": [],
@@ -460,19 +458,6 @@
      "pos_max": 11
     },
     {
-     "roster_id": 5,
-     "team": "Eazy E Squad",
-     "remaining": 200,
-     "score": 3.0,
-     "why": [
-      "starter ruled out or put on IR this week: KC Concepcion (Out)",
-      "just dropped Marvin Harrison Jr."
-     ],
-     "usual_bid": null,
-     "repeated": [],
-     "pos_max": null
-    },
-    {
      "roster_id": 11,
      "team": "RafiBomb",
      "remaining": 190,
@@ -485,6 +470,18 @@
      "usual_bid": 0.0,
      "repeated": [],
      "pos_max": 0
+    },
+    {
+     "roster_id": 5,
+     "team": "Eazy E Squad",
+     "remaining": 200,
+     "score": 2.0,
+     "why": [
+      "starter ruled out or put on IR this week: KC Concepcion (Out)"
+     ],
+     "usual_bid": null,
+     "repeated": [],
+     "pos_max": null
     }
    ],
    "league_bid": 5,
@@ -557,10 +554,9 @@
      "roster_id": 5,
      "team": "Eazy E Squad",
      "remaining": 200,
-     "score": 3.0,
+     "score": 2.0,
      "why": [
-      "starter ruled out or put on IR this week: KC Concepcion (Out)",
-      "just dropped Marvin Harrison Jr."
+      "starter ruled out or put on IR this week: KC Concepcion (Out)"
      ],
      "usual_bid": null,
      "repeated": [],
@@ -632,19 +628,6 @@
    "why": "Rest-of-season value about 6.4 a week (model+season; next week 5.76). He would not start over anyone you have, so the gain is depth only: +0.7 a week (a quarter of his edge over Zach Charbonnet).",
    "threats": [
     {
-     "roster_id": 5,
-     "team": "Eazy E Squad",
-     "remaining": 200,
-     "score": 3.0,
-     "why": [
-      "starter ruled out or put on IR this week: KC Concepcion (Out)",
-      "just dropped Marvin Harrison Jr."
-     ],
-     "usual_bid": null,
-     "repeated": [],
-     "pos_max": null
-    },
-    {
      "roster_id": 12,
      "team": "Baker\u2019s Dozen",
      "remaining": 189,
@@ -657,6 +640,18 @@
      "usual_bid": 11,
      "repeated": [],
      "pos_max": 11
+    },
+    {
+     "roster_id": 5,
+     "team": "Eazy E Squad",
+     "remaining": 200,
+     "score": 2.0,
+     "why": [
+      "starter ruled out or put on IR this week: KC Concepcion (Out)"
+     ],
+     "usual_bid": null,
+     "repeated": [],
+     "pos_max": null
     },
     {
      "roster_id": 1,
@@ -747,19 +742,6 @@
      "pos_max": 11
     },
     {
-     "roster_id": 5,
-     "team": "Eazy E Squad",
-     "remaining": 200,
-     "score": 3.0,
-     "why": [
-      "starter ruled out or put on IR this week: KC Concepcion (Out)",
-      "just dropped Marvin Harrison Jr."
-     ],
-     "usual_bid": null,
-     "repeated": [],
-     "pos_max": null
-    },
-    {
      "roster_id": 3,
      "team": "Be Safe, Get Jaxcinated",
      "remaining": 165,
@@ -772,6 +754,18 @@
      "usual_bid": 17.5,
      "repeated": [],
      "pos_max": 26
+    },
+    {
+     "roster_id": 5,
+     "team": "Eazy E Squad",
+     "remaining": 200,
+     "score": 2.0,
+     "why": [
+      "starter ruled out or put on IR this week: KC Concepcion (Out)"
+     ],
+     "usual_bid": null,
+     "repeated": [],
+     "pos_max": null
     }
    ],
    "league_bid": 3,
@@ -1542,19 +1536,6 @@
      "pos_max": 11
     },
     {
-     "roster_id": 5,
-     "team": "Eazy E Squad",
-     "remaining": 200,
-     "score": 3.0,
-     "why": [
-      "starter ruled out or put on IR this week: KC Concepcion (Out)",
-      "just dropped Marvin Harrison Jr."
-     ],
-     "usual_bid": null,
-     "repeated": [],
-     "pos_max": null
-    },
-    {
      "roster_id": 3,
      "team": "Be Safe, Get Jaxcinated",
      "remaining": 165,
@@ -1567,6 +1548,18 @@
      "usual_bid": 17.5,
      "repeated": [],
      "pos_max": 26
+    },
+    {
+     "roster_id": 5,
+     "team": "Eazy E Squad",
+     "remaining": 200,
+     "score": 2.0,
+     "why": [
+      "starter ruled out or put on IR this week: KC Concepcion (Out)"
+     ],
+     "usual_bid": null,
+     "repeated": [],
+     "pos_max": null
     }
    ],
    "league_bid": 14,
