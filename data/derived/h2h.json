@@ -5,18 +5,18 @@
  "opponent": "City of Champyinz",
  "manager": "danglish9",
  "roster_id": 4,
- "my_total": 97.8,
- "opp_set_total": 49.9,
- "opp_best_total": 73.7,
+ "my_total": 97.2,
+ "opp_set_total": 52.9,
+ "opp_best_total": 74.0,
  "verdict": "favored",
- "margin": 47.9,
+ "margin": 44.3,
  "verdict_vs_best": "favored",
  "opp_injured": [
   {
    "name": "Jeremiyah Love",
    "pos": "RB",
    "status": "Questionable",
-   "expected": 7.9,
+   "expected": 8.47,
    "body": "Ankle"
   }
  ],
@@ -35,28 +35,28 @@
   {
    "name": "Bijan Robinson",
    "pos": "RB",
-   "expected": 18.72,
+   "expected": 19.22,
    "injury_status": null,
    "baseline_only": false
   },
   {
    "name": "Jeremiyah Love",
    "pos": "RB",
-   "expected": 7.9,
+   "expected": 8.47,
    "injury_status": "Questionable",
    "baseline_only": false
   },
   {
    "name": "Kalif Raymond",
    "pos": "WR",
-   "expected": 6.04,
+   "expected": 5.99,
    "injury_status": null,
    "baseline_only": false
   },
   {
    "name": "Keon Coleman",
    "pos": "WR",
-   "expected": 7.11,
+   "expected": 7.41,
    "injury_status": null,
    "baseline_only": false
   },
@@ -70,7 +70,7 @@
   {
    "name": "J.K. Dobbins",
    "pos": "RB",
-   "expected": 6.29,
+   "expected": 8.03,
    "injury_status": null,
    "baseline_only": false
   },
@@ -82,15 +82,15 @@
    "baseline_only": false
   }
  ],
- "median_total": 93.2,
- "median_verdict": "toss-up",
- "median_margin": 4.6,
+ "median_total": 86.0,
+ "median_verdict": "favored",
+ "median_margin": 11.2,
  "source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-10-28T18:18:06Z",
-  "label": "wed_late_am"
+  "taken_at_utc": "2026-10-31T15:57:01Z",
+  "label": "sat_late_am"
  },
  "opp_baseline_only": 0,
- "why": "Your recommended lineup projects 97.8; City of Champyinz's set lineup 49.9 (best possible from their roster 73.7). Margin +47.9: favored.",
+ "why": "Your recommended lineup projects 97.2; City of Champyinz's set lineup 52.9 (best possible from their roster 74.0). Margin +44.3: favored.",
  "note": "Both sides use the engine blend (0.65 x Sleeper + 0.35 x baseline, injury multipliers), so the totals are comparable. Inside +/-5 points the game is called a toss-up [Guessing]. Your own lineup still follows max expected points; the matchup does not change who you start."
 }
