@@ -1,7 +1,7 @@
 {
  "machine": {
   "date_central": "2026-10-28",
-  "age_hours": 192.9,
+  "age_hours": 195.2,
   "my_roster": [
    {
     "player_id": "12536",
@@ -861,7 +861,7 @@
   "source": "Wednesday 12:30 PM scheduled task on Aaron's PC",
   "source_key": "desktop-scheduled-task",
   "n_calls": 6,
-  "stale": false,
-  "age_days": 8.0
+  "stale": true,
+  "age_days": 8.1
  }
 }
