@@ -4,8 +4,8 @@
    "task": "build",
    "ok": true,
    "summary": "index.html + reports/2026/week08.html; lineup changes 2, claims 8, signals 16, accuracy weeks 7",
-   "started_utc": "2026-11-07T04:19:49Z",
-   "finished_utc": "2026-11-07T04:19:51Z",
+   "started_utc": "2026-11-07T16:44:45Z",
+   "finished_utc": "2026-11-07T16:44:46Z",
    "error": null
   },
   "pull": {
@@ -29,12 +29,12 @@
   "snapshot": {
    "task": "snapshot",
    "ok": true,
-   "summary": "week 8 sun_late_am: 3145 projections, 2 NFL teams already started, 3087 players still pre-kickoff",
-   "started_utc": "2026-11-01T16:59:59Z",
-   "finished_utc": "2026-11-01T17:00:00Z",
+   "summary": "week 9 sat_late_am: 3147 projections, 2 NFL teams already started, 3095 players still pre-kickoff",
+   "started_utc": "2026-11-07T16:44:43Z",
+   "finished_utc": "2026-11-07T16:44:45Z",
    "error": null,
-   "week": 8,
-   "label": "sun_late_am"
+   "week": 9,
+   "label": "sat_late_am"
   },
   "auto-skip": {
    "task": "auto-skip",
@@ -54,24 +54,6 @@
   }
  },
  "runs": [
-  {
-   "task": "pull",
-   "ok": true,
-   "summary": "completed wk 6, upcoming wk 7, waiver pool 682, matchup weeks 18, scored files 1, record check: median game ON: each team plays its opponent and the league median every week",
-   "started_utc": "2026-10-21T15:50:06Z",
-   "finished_utc": "2026-10-21T15:50:12Z",
-   "error": null,
-   "completed_week": 6,
-   "upcoming_week": 7
-  },
-  {
-   "task": "usage",
-   "ok": true,
-   "summary": "6 weeks of 2026 usage, 519 players with a stat row, 720 Sleeper ids mapped (164 from Sleeper, 463 from the rankings file, 93 by name), 584,303 bytes",
-   "started_utc": "2026-10-21T15:50:12Z",
-   "finished_utc": "2026-10-21T15:50:14Z",
-   "error": null
-  },
   {
    "task": "build",
    "ok": true,
@@ -1675,14 +1657,32 @@
    "started_utc": "2026-11-07T04:19:49Z",
    "finished_utc": "2026-11-07T04:19:51Z",
    "error": null
+  },
+  {
+   "task": "snapshot",
+   "ok": true,
+   "summary": "week 9 sat_late_am: 3147 projections, 2 NFL teams already started, 3095 players still pre-kickoff",
+   "started_utc": "2026-11-07T16:44:43Z",
+   "finished_utc": "2026-11-07T16:44:45Z",
+   "error": null,
+   "week": 9,
+   "label": "sat_late_am"
+  },
+  {
+   "task": "build",
+   "ok": true,
+   "summary": "index.html + reports/2026/week08.html; lineup changes 2, claims 8, signals 16, accuracy weeks 7",
+   "started_utc": "2026-11-07T16:44:45Z",
+   "finished_utc": "2026-11-07T16:44:46Z",
+   "error": null
   }
  ],
  "last_run": {
   "task": "build",
   "ok": true,
   "summary": "index.html + reports/2026/week08.html; lineup changes 2, claims 8, signals 16, accuracy weeks 7",
-  "started_utc": "2026-11-07T04:19:49Z",
-  "finished_utc": "2026-11-07T04:19:51Z",
+  "started_utc": "2026-11-07T16:44:45Z",
+  "finished_utc": "2026-11-07T16:44:46Z",
   "error": null
  }
 }
