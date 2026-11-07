@@ -4,8 +4,8 @@
    "task": "build",
    "ok": true,
    "summary": "index.html + reports/2026/week08.html; lineup changes 2, claims 8, signals 16, accuracy weeks 7",
-   "started_utc": "2026-11-07T17:05:27Z",
-   "finished_utc": "2026-11-07T17:05:28Z",
+   "started_utc": "2026-11-07T19:29:42Z",
+   "finished_utc": "2026-11-07T19:29:43Z",
    "error": null
   },
   "pull": {
@@ -39,9 +39,9 @@
   "auto-skip": {
    "task": "auto-skip",
    "ok": true,
-   "summary": "skipped at 2026-11-07T11:05:27-06:00",
-   "started_utc": "2026-11-07T17:05:27Z",
-   "finished_utc": "2026-11-07T17:05:27Z",
+   "summary": "skipped at 2026-11-07T13:29:42-06:00",
+   "started_utc": "2026-11-07T19:29:42Z",
+   "finished_utc": "2026-11-07T19:29:42Z",
    "error": null
   },
   "usage": {
@@ -54,22 +54,6 @@
   }
  },
  "runs": [
-  {
-   "task": "usage",
-   "ok": true,
-   "summary": "6 weeks of 2026 usage, 519 players with a stat row, 720 Sleeper ids mapped (164 from Sleeper, 463 from the rankings file, 93 by name), 584,303 bytes",
-   "started_utc": "2026-10-21T16:13:47Z",
-   "finished_utc": "2026-10-21T16:13:48Z",
-   "error": null
-  },
-  {
-   "task": "build",
-   "ok": true,
-   "summary": "index.html + reports/2026/week07.html; lineup changes 2, claims 2, signals 13, accuracy weeks 6",
-   "started_utc": "2026-10-21T16:13:49Z",
-   "finished_utc": "2026-10-21T16:13:50Z",
-   "error": null
-  },
   {
    "task": "pull",
    "ok": true,
@@ -1673,14 +1657,30 @@
    "started_utc": "2026-11-07T17:05:27Z",
    "finished_utc": "2026-11-07T17:05:28Z",
    "error": null
+  },
+  {
+   "task": "auto-skip",
+   "ok": true,
+   "summary": "skipped at 2026-11-07T13:29:42-06:00",
+   "started_utc": "2026-11-07T19:29:42Z",
+   "finished_utc": "2026-11-07T19:29:42Z",
+   "error": null
+  },
+  {
+   "task": "build",
+   "ok": true,
+   "summary": "index.html + reports/2026/week08.html; lineup changes 2, claims 8, signals 16, accuracy weeks 7",
+   "started_utc": "2026-11-07T19:29:42Z",
+   "finished_utc": "2026-11-07T19:29:43Z",
+   "error": null
   }
  ],
  "last_run": {
   "task": "build",
   "ok": true,
   "summary": "index.html + reports/2026/week08.html; lineup changes 2, claims 8, signals 16, accuracy weeks 7",
-  "started_utc": "2026-11-07T17:05:27Z",
-  "finished_utc": "2026-11-07T17:05:28Z",
+  "started_utc": "2026-11-07T19:29:42Z",
+  "finished_utc": "2026-11-07T19:29:43Z",
   "error": null
  }
 }
