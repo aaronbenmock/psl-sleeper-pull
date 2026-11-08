@@ -899,6 +899,18 @@
    "n_players_pre_kickoff": 3095,
    "nfl_state_week": 9,
    "path": "data/snapshots/2026/week09/snap_2026-11-07T1644Z.json"
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "taken_at_utc": "2026-11-08T16:55:12Z",
+   "taken_at_central": "2026-11-08T10:55:12-06:00",
+   "label": "sun_late_am",
+   "n_players": 3147,
+   "n_teams_started": 4,
+   "n_players_pre_kickoff": 3042,
+   "nfl_state_week": 9,
+   "path": "data/snapshots/2026/week09/snap_2026-11-08T1655Z.json"
   }
  ]
 }
