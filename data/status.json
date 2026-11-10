@@ -4,8 +4,8 @@
    "task": "build",
    "ok": true,
    "summary": "index.html + reports/2026/week08.html; lineup changes 2, claims 8, signals 16, accuracy weeks 7",
-   "started_utc": "2026-11-09T23:48:47Z",
-   "finished_utc": "2026-11-09T23:48:48Z",
+   "started_utc": "2026-11-10T00:20:46Z",
+   "finished_utc": "2026-11-10T00:20:47Z",
    "error": null
   },
   "pull": {
@@ -29,12 +29,12 @@
   "snapshot": {
    "task": "snapshot",
    "ok": true,
-   "summary": "week 9 sun_late_am: 3147 projections, 4 NFL teams already started, 3042 players still pre-kickoff",
-   "started_utc": "2026-11-08T16:55:11Z",
-   "finished_utc": "2026-11-08T16:55:12Z",
+   "summary": "week 9 mon_pm: 3147 projections, 28 NFL teams already started, 2370 players still pre-kickoff",
+   "started_utc": "2026-11-10T00:20:45Z",
+   "finished_utc": "2026-11-10T00:20:46Z",
    "error": null,
    "week": 9,
-   "label": "sun_late_am"
+   "label": "mon_pm"
   },
   "auto-skip": {
    "task": "auto-skip",
@@ -54,22 +54,6 @@
   }
  },
  "runs": [
-  {
-   "task": "auto-skip",
-   "ok": true,
-   "summary": "skipped at 2026-10-23T22:00:54-05:00",
-   "started_utc": "2026-10-24T03:00:54Z",
-   "finished_utc": "2026-10-24T03:00:54Z",
-   "error": null
-  },
-  {
-   "task": "build",
-   "ok": true,
-   "summary": "index.html + reports/2026/week07.html; lineup changes 2, claims 2, signals 13, accuracy weeks 6",
-   "started_utc": "2026-10-24T03:00:54Z",
-   "finished_utc": "2026-10-24T03:00:55Z",
-   "error": null
-  },
   {
    "task": "auto-skip",
    "ok": true,
@@ -1669,14 +1653,32 @@
    "started_utc": "2026-11-09T23:48:47Z",
    "finished_utc": "2026-11-09T23:48:48Z",
    "error": null
+  },
+  {
+   "task": "snapshot",
+   "ok": true,
+   "summary": "week 9 mon_pm: 3147 projections, 28 NFL teams already started, 2370 players still pre-kickoff",
+   "started_utc": "2026-11-10T00:20:45Z",
+   "finished_utc": "2026-11-10T00:20:46Z",
+   "error": null,
+   "week": 9,
+   "label": "mon_pm"
+  },
+  {
+   "task": "build",
+   "ok": true,
+   "summary": "index.html + reports/2026/week08.html; lineup changes 2, claims 8, signals 16, accuracy weeks 7",
+   "started_utc": "2026-11-10T00:20:46Z",
+   "finished_utc": "2026-11-10T00:20:47Z",
+   "error": null
   }
  ],
  "last_run": {
   "task": "build",
   "ok": true,
   "summary": "index.html + reports/2026/week08.html; lineup changes 2, claims 8, signals 16, accuracy weeks 7",
-  "started_utc": "2026-11-09T23:48:47Z",
-  "finished_utc": "2026-11-09T23:48:48Z",
+  "started_utc": "2026-11-10T00:20:46Z",
+  "finished_utc": "2026-11-10T00:20:47Z",
   "error": null
  }
 }
