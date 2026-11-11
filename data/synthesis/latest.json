@@ -1,55 +1,13 @@
 {
- "synthesis_written_at": "2026-10-28T18:00:00Z",
- "generated_at_utc": "2026-10-28T18:00:00Z",
- "week": 8,
+ "synthesis_written_at": "2026-11-11T19:04:27Z",
+ "generated_at_utc": "2026-11-11T19:04:27Z",
+ "week": 10,
  "source": "desktop-scheduled-task",
  "source_label": "Wednesday 12:30 PM scheduled task on Aaron's PC",
  "calls": [
-  {
-   "type": "sit",
-   "name": "Woody Marks",
-   "player_id": "12474",
-   "alt_name": "Rico Dowdle",
-   "alt_id": "7021",
-   "text": "Bench Marks (HOU bye), start Dowdle"
-  },
-  {
-   "type": "start",
-   "name": "Rico Dowdle",
-   "player_id": "7021",
-   "alt_name": "Zach Charbonnet",
-   "text": "Start Dowdle over Charbonnet in his first game back from ACL"
-  },
-  {
-   "type": "start",
-   "name": "Jakobi Meyers",
-   "player_id": "5947",
-   "alt_name": "DeMario Douglas",
-   "alt_id": "9501",
-   "text": "Start Meyers (back from bye) over Douglas"
-  },
-  {
-   "type": "skip",
-   "name": "Josh Downs",
-   "player_id": "9500",
-   "alt_name": "Courtland Sutton",
-   "alt_id": "5045",
-   "text": "Skip Downs; trade request, quiet week 7"
-  },
-  {
-   "type": "skip",
-   "name": "JAX DEF",
-   "player_id": "JAX",
-   "alt_name": "SEA DEF",
-   "alt_id": "SEA",
-   "text": "Skip the defense chase; keep SEA DEF vs CHI"
-  },
-  {
-   "type": "skip",
-   "name": "Dylan Sampson",
-   "alt_name": "Courtland Sutton",
-   "alt_id": "5045",
-   "text": "Skip Sampson; just off IR, committee role"
-  }
+  {"type": "start", "name": "Zach Charbonnet", "player_id": "9753", "alt_name": "Ollie Gordon II", "alt_id": "12495", "text": "Start Charbonnet (17 touches in week 9) over Gordon"},
+  {"type": "sit", "name": "Courtland Sutton", "player_id": "5045", "alt_name": "Jakobi Meyers", "alt_id": "5947", "text": "Sutton on bye; Meyers or Douglas fills in"},
+  {"type": "claim", "name": "Audric Estime", "player_id": "11579", "bid": 18, "text": "Claim Estime for about $18, drop Jaylin Noel (season over)"},
+  {"type": "skip", "name": "Corey Kiner", "player_id": "12491", "alt_name": "Rico Dowdle", "alt_id": "7021", "text": "Skip Kiner; you are deep at RB"}
  ]
 }
