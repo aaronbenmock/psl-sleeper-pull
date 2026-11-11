@@ -27,7 +27,7 @@ import traceback
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from engine import config, store  # noqa: E402
-from engine.timeutil import now_utc, now_central, iso, in_window, self_test  # noqa: E402
+from engine.timeutil import now_utc, now_central, iso, in_window, self_test, last_due, parse_iso  # noqa: E402
 
 
 def _run_task(name, fn, **kw):
@@ -86,6 +86,16 @@ def task_vacatedbacktest(args):
     return _run_task("vacatedbacktest", histvacated.main, download=not args.no_download)
 
 
+def pull_overdue(local, last_ok_utc=None):
+    """Catch-up rule: GitHub has been starting crons hours late, past the Wednesday window.
+    If no pull has succeeded since the most recent Wednesday 10:00 Central, any later cron
+    runs the pull instead of skipping it."""
+    sched = config.LOCAL_SCHEDULE["pull"]
+    due = last_due(local, min(sched["days"]), min(sched["hours"]))
+    last = parse_iso(last_ok_utc if last_ok_utc is not None else store.last_ok_finished("pull"))
+    return last is None or last < due
+
+
 def decide_auto():
     """Map the current Central time onto the intended task. Returns list of task names."""
     local = now_central()
@@ -93,7 +103,7 @@ def decide_auto():
     s = config.LOCAL_SCHEDULE
     if in_window(local, s["injuries"]["hours"], s["injuries"]["days"]):
         tasks.append("injuries")
-    if in_window(local, s["pull"]["hours"], s["pull"]["days"]):
+    if in_window(local, s["pull"]["hours"], s["pull"]["days"]) or pull_overdue(local):
         tasks.append("pull")
     if in_window(local, s["snapshot"]["hours"], s["snapshot"]["days"]):
         tasks.append("snapshot")

@@ -13,7 +13,9 @@ name: PSL fantasy engine
 #   Thu-Mon 18:00    snapshot (night games)     0 23 * 9-12,1 0,1,4,5,6     0 0 * 9-12,1 1,2,5,6,0
 #
 # GitHub may start a cron up to ~30 minutes late under load. Each task accepts a 59-minute window.
-# The Wednesday pull accepts 10:00 and 11:00 Central so a late start never loses the week.
+# The Wednesday pull accepts 10:00 and 11:00 Central. Crons have also started 3+ hours late (Nov 2026),
+# so `auto` additionally runs the pull on ANY later cron when no pull has succeeded since the most
+# recent Wednesday 10:00 Central (catch-up; see pull_overdue in engine.py).
 
 on:
   schedule:

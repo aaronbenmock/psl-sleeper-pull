@@ -59,6 +59,17 @@ def load_status():
     return read_json(status_path(), None) or {"tasks": {}, "runs": []}
 
 
+def last_ok_finished(task):
+    """finished_utc of the most recent successful run of `task`, or None."""
+    s = load_status()
+    oks = [r.get("finished_utc") for r in s.get("runs", []) if r.get("task") == task and r.get("ok")]
+    t = s.get("tasks", {}).get(task) or {}
+    if t.get("ok"):
+        oks.append(t.get("finished_utc"))
+    oks = [x for x in oks if x]
+    return max(oks) if oks else None
+
+
 def record_run(task, ok, summary, started_utc, finished_utc, error=None, extra=None):
     s = load_status()
     rec = {"task": task, "ok": ok, "summary": summary, "started_utc": started_utc,
