@@ -1,0 +1,443 @@
+{
+ "week": 10,
+ "first_recorded_utc": "2026-11-11T19:10:38Z",
+ "source": "live build",
+ "updated_utc": "2026-11-11T19:10:38Z",
+ "start_sit": [
+  {
+   "type": "start_sit",
+   "kind": "change",
+   "player_id": "5846",
+   "name": "DK Metcalf",
+   "alt_id": "13346",
+   "alt_name": "Denzel Boston",
+   "expected": 9.47,
+   "alt_expected": 7.94,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "change",
+   "player_id": "5872",
+   "name": "Deebo Samuel Sr.",
+   "alt_id": "9501",
+   "alt_name": "DeMario Douglas",
+   "expected": 8.9,
+   "alt_expected": 7.54,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "change",
+   "player_id": "7021",
+   "name": "Rico Dowdle",
+   "alt_id": "12474",
+   "alt_name": "Woody Marks",
+   "expected": 8.79,
+   "alt_expected": 8.14,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "5846",
+   "name": "DK Metcalf",
+   "alt_id": "5947",
+   "alt_name": "Jakobi Meyers",
+   "expected": 9.47,
+   "alt_expected": 8.12,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "5872",
+   "name": "Deebo Samuel Sr.",
+   "alt_id": "5947",
+   "alt_name": "Jakobi Meyers",
+   "expected": 8.9,
+   "alt_expected": 8.12,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "5872",
+   "name": "Deebo Samuel Sr.",
+   "alt_id": "13346",
+   "alt_name": "Denzel Boston",
+   "expected": 8.9,
+   "alt_expected": 7.94,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "5872",
+   "name": "Deebo Samuel Sr.",
+   "alt_id": "9501",
+   "alt_name": "DeMario Douglas",
+   "expected": 8.9,
+   "alt_expected": 7.54,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "9753",
+   "name": "Zach Charbonnet",
+   "alt_id": "5844",
+   "alt_name": "T.J. Hockenson",
+   "expected": 9.26,
+   "alt_expected": 8.45,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "9753",
+   "name": "Zach Charbonnet",
+   "alt_id": "12474",
+   "alt_name": "Woody Marks",
+   "expected": 9.26,
+   "alt_expected": 8.14,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "9753",
+   "name": "Zach Charbonnet",
+   "alt_id": "5947",
+   "alt_name": "Jakobi Meyers",
+   "expected": 9.26,
+   "alt_expected": 8.12,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "9753",
+   "name": "Zach Charbonnet",
+   "alt_id": "13346",
+   "alt_name": "Denzel Boston",
+   "expected": 9.26,
+   "alt_expected": 7.94,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "7021",
+   "name": "Rico Dowdle",
+   "alt_id": "5844",
+   "alt_name": "T.J. Hockenson",
+   "expected": 8.79,
+   "alt_expected": 8.45,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "7021",
+   "name": "Rico Dowdle",
+   "alt_id": "12474",
+   "alt_name": "Woody Marks",
+   "expected": 8.79,
+   "alt_expected": 8.14,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "7021",
+   "name": "Rico Dowdle",
+   "alt_id": "5947",
+   "alt_name": "Jakobi Meyers",
+   "expected": 8.79,
+   "alt_expected": 8.12,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "7021",
+   "name": "Rico Dowdle",
+   "alt_id": "13346",
+   "alt_name": "Denzel Boston",
+   "expected": 8.79,
+   "alt_expected": 7.94,
+   "started": false
+  },
+  {
+   "type": "start_sit",
+   "kind": "close_call",
+   "player_id": "7021",
+   "name": "Rico Dowdle",
+   "alt_id": "9501",
+   "alt_name": "DeMario Douglas",
+   "expected": 8.79,
+   "alt_expected": 7.54,
+   "started": false
+  }
+ ],
+ "lineup": [
+  {
+   "slot": "QB",
+   "player_id": "4984",
+   "name": "Josh Allen",
+   "expected": 28.16,
+   "started": false,
+   "frozen": false
+  },
+  {
+   "slot": "RB",
+   "player_id": "6813",
+   "name": "Jonathan Taylor",
+   "expected": 15.97,
+   "started": false,
+   "frozen": false
+  },
+  {
+   "slot": "RB",
+   "player_id": "12495",
+   "name": "Ollie Gordon II",
+   "expected": 11.2,
+   "started": false,
+   "frozen": false
+  },
+  {
+   "slot": "WR",
+   "player_id": "5846",
+   "name": "DK Metcalf",
+   "expected": 9.47,
+   "started": false,
+   "frozen": false
+  },
+  {
+   "slot": "WR",
+   "player_id": "5872",
+   "name": "Deebo Samuel Sr.",
+   "expected": 8.9,
+   "started": false,
+   "frozen": false
+  },
+  {
+   "slot": "FLEX",
+   "player_id": "9753",
+   "name": "Zach Charbonnet",
+   "expected": 9.26,
+   "started": false,
+   "frozen": false
+  },
+  {
+   "slot": "FLEX",
+   "player_id": "7021",
+   "name": "Rico Dowdle",
+   "expected": 8.79,
+   "started": false,
+   "frozen": false
+  },
+  {
+   "slot": "DEF",
+   "player_id": "SEA",
+   "name": "SEA DEF",
+   "expected": 9.36,
+   "started": false,
+   "frozen": false
+  }
+ ],
+ "claims_freeze_utc": "2026-11-12T08:00:00Z",
+ "claims": [
+  {
+   "type": "claim",
+   "player_id": "96",
+   "name": "Aaron Rodgers",
+   "pos": "QB",
+   "bid": 12,
+   "league_bid": 11,
+   "alt_id": "9753",
+   "alt_name": "Zach Charbonnet"
+  },
+  {
+   "type": "claim",
+   "player_id": "4017",
+   "name": "Deshaun Watson",
+   "pos": "QB",
+   "bid": 10,
+   "league_bid": 10,
+   "alt_id": "9753",
+   "alt_name": "Zach Charbonnet"
+  },
+  {
+   "type": "claim",
+   "player_id": "12522",
+   "name": "Cam Ward",
+   "pos": "QB",
+   "bid": 8,
+   "league_bid": 8,
+   "alt_id": "9753",
+   "alt_name": "Zach Charbonnet"
+  },
+  {
+   "type": "claim",
+   "player_id": "6797",
+   "name": "Justin Herbert",
+   "pos": "QB",
+   "bid": 8,
+   "league_bid": 8,
+   "alt_id": "9753",
+   "alt_name": "Zach Charbonnet"
+  },
+  {
+   "type": "claim",
+   "player_id": "4892",
+   "name": "Baker Mayfield",
+   "pos": "QB",
+   "bid": 8,
+   "league_bid": 8,
+   "alt_id": "9753",
+   "alt_name": "Zach Charbonnet"
+  },
+  {
+   "type": "claim",
+   "player_id": "13295",
+   "name": "Behren Morton",
+   "pos": "QB",
+   "bid": 7,
+   "league_bid": 7,
+   "alt_id": "9753",
+   "alt_name": "Zach Charbonnet"
+  },
+  {
+   "type": "claim",
+   "player_id": "7538",
+   "name": "Zach Wilson",
+   "pos": "QB",
+   "bid": 7,
+   "league_bid": 7,
+   "alt_id": "9753",
+   "alt_name": "Zach Charbonnet"
+  },
+  {
+   "type": "claim",
+   "player_id": "5870",
+   "name": "Daniel Jones",
+   "pos": "QB",
+   "bid": 7,
+   "league_bid": 7,
+   "alt_id": "9753",
+   "alt_name": "Zach Charbonnet"
+  },
+  {
+   "type": "speculative",
+   "player_id": "7562",
+   "name": "Tutu Atwell",
+   "pos": "WR",
+   "bid": 5,
+   "alt_id": "9753",
+   "alt_name": "Zach Charbonnet"
+  },
+  {
+   "type": "speculative",
+   "player_id": "8122",
+   "name": "Zonovan Knight",
+   "pos": "RB",
+   "bid": 5,
+   "alt_id": "9753",
+   "alt_name": "Zach Charbonnet"
+  },
+  {
+   "type": "speculative",
+   "player_id": "12482",
+   "name": "Savion Williams",
+   "pos": "WR",
+   "bid": 2,
+   "alt_id": "9753",
+   "alt_name": "Zach Charbonnet"
+  },
+  {
+   "type": "speculative",
+   "player_id": "13297",
+   "name": "Reggie Virgil",
+   "pos": "WR",
+   "bid": 2,
+   "alt_id": "9753",
+   "alt_name": "Zach Charbonnet"
+  },
+  {
+   "type": "speculative",
+   "player_id": "3155",
+   "name": "Laquon Treadwell",
+   "pos": "WR",
+   "bid": 1,
+   "alt_id": "9753",
+   "alt_name": "Zach Charbonnet"
+  },
+  {
+   "type": "speculative",
+   "player_id": "4147",
+   "name": "Samaje Perine",
+   "pos": "RB",
+   "bid": 5,
+   "alt_id": "9753",
+   "alt_name": "Zach Charbonnet"
+  },
+  {
+   "type": "speculative",
+   "player_id": "4039",
+   "name": "Cooper Kupp",
+   "pos": "WR",
+   "bid": 4,
+   "alt_id": "9753",
+   "alt_name": "Zach Charbonnet"
+  },
+  {
+   "type": "speculative",
+   "player_id": "7608",
+   "name": "Khalil Herbert",
+   "pos": "RB",
+   "bid": 4,
+   "alt_id": "9753",
+   "alt_name": "Zach Charbonnet"
+  }
+ ],
+ "claims_rec_utc": "2026-11-11T19:10:38Z",
+ "synthesis": [
+  {
+   "type": "start",
+   "name": "Zach Charbonnet",
+   "player_id": "9753",
+   "alt_name": "Ollie Gordon II",
+   "alt_id": "12495",
+   "text": "Start Charbonnet (17 touches in week 9) over Gordon",
+   "source": "synthesis"
+  },
+  {
+   "type": "sit",
+   "name": "Courtland Sutton",
+   "player_id": "5045",
+   "alt_name": "Jakobi Meyers",
+   "alt_id": "5947",
+   "text": "Sutton on bye; Meyers or Douglas fills in",
+   "source": "synthesis"
+  },
+  {
+   "type": "claim",
+   "name": "Audric Estime",
+   "player_id": "11579",
+   "bid": 18,
+   "text": "Claim Estime for about $18, drop Jaylin Noel (season over)",
+   "source": "synthesis"
+  },
+  {
+   "type": "skip",
+   "name": "Corey Kiner",
+   "player_id": "12491",
+   "alt_name": "Rico Dowdle",
+   "alt_id": "7021",
+   "text": "Skip Kiner; you are deep at RB",
+   "source": "synthesis"
+  }
+ ]
+}

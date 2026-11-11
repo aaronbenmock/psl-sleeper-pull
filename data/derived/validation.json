@@ -3,13 +3,13 @@
   "id": "record",
   "status": "ok",
   "title": "Record field (the 2-0 after one week)",
-  "finding": "median game ON: each team plays its opponent and the league median every week. League setting league_average_match = 1; wins across all rosters = 84 after 7 week(s) (head-to-head only would give 42, with a median game 84)."
+  "finding": "median game ON: each team plays its opponent and the league median every week. League setting league_average_match = 1; wins across all rosters = 108 after 9 week(s) (head-to-head only would give 54, with a median game 108)."
  },
  {
   "id": "def_bias",
   "status": "info",
   "title": "DEF projection bias (Sleeper omits 3-and-outs and 4th-down stops)",
-  "finding": "Week 7: across 28 defenses, actual minus projected averaged -1.20 (MAE 4.07). Points from the two unprojected categories averaged 1.55 per defense, which is the structural part of the bias. Among the 12 defenses actually started, bias was -3.59."
+  "finding": "Week 9: across 30 defenses, actual minus projected averaged +3.00 (MAE 4.85). Points from the two unprojected categories averaged 1.8 per defense, which is the structural part of the bias. Among the 12 defenses actually started, bias was 4.12."
  },
  {
   "id": "coach_continuity",
@@ -27,7 +27,7 @@
   "id": "week_detection",
   "status": "info",
   "title": "Completed-week detection",
-  "finding": "Method: projection game dates. Completed 7, upcoming 8. v1.2 uses game dates from the projection rows, which stays correct on Friday through Monday when the v1.1 rule would flip early."
+  "finding": "Method: projection game dates. Completed 9, upcoming 10. v1.2 uses game dates from the projection rows, which stays correct on Friday through Monday when the v1.1 rule would flip early."
  },
  {
   "id": "proj_exclude",
@@ -39,13 +39,13 @@
   "id": "ages",
   "status": "info",
   "title": "Input ages at build time",
-  "finding": "weekly pull 336.8h, injury table 336.8h, players cache 338.1h, newest snapshot 42.7h (week 9)"
+  "finding": "weekly pull 0.0h, injury table 0.0h, players cache 0.0h, newest snapshot 0.0h (week 10)"
  },
  {
   "id": "names_cache",
   "status": "ok",
   "title": "Transaction player names",
-  "finding": "All 134 player ids in the transaction log resolve to a name (876 in data/players/names_cache.json)."
+  "finding": "All 146 player ids in the transaction log resolve to a name (876 in data/players/names_cache.json)."
  },
  {
   "id": "preferences",

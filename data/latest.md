@@ -1,236 +1,234 @@
 # Pretend Sportsball League '26 weekly pull
-Pulled 2026-10-28T18:18:05+00:00 UTC. Completed week 7, upcoming week 8.
+Pulled 2026-11-11T19:10:35+00:00 UTC. Completed week 9, upcoming week 10.
 
-## Week 7 result: L
-ValKilmersComeback 81.6 (proj 94.3) vs Baker’s Dozen 142.4 (proj 115.6)
+## Week 9 result: L
+ValKilmersComeback 82.9 (proj 101.0) vs Cheeky Nando’s 136.6 (proj 125.9)
 
 | Slot | Player | Pos | Team | Proj | Actual | Diff |
 |---|---|---|---|---|---|---|
-| QB | Kyler Murray | QB | MIN | 17.7 | 15.9 | -1.8 |
-| RB | Jonathan Taylor | RB | IND | 16.2 | 18.0 | 1.8 |
-| RB | Woody Marks | RB | HOU | 13.8 | 8.6 | -5.2 |
-| WR | DeMario Douglas | WR | NE | 7.1 | 3.8 | -3.3 |
-| WR | DK Metcalf | WR | PIT | 10.1 | 6.6 | -3.5 |
-| FLEX | Ollie Gordon II | RB | MIA | 12.4 | 17.8 | 5.4 |
-| FLEX | Denzel Boston | WR | CLE | 9.3 | 4.2 | -5.1 |
-| DEF | SEA DEF | DEF | SEA | 7.8 | 6.7 | -1.1 |
-| BN | Jaylin Noel | WR | HOU | 7.7 | 2.3 | -5.4 |
+| QB | Josh Allen | QB | BUF | 23.2 | 14.9 | -8.3 |
+| RB | Jonathan Taylor | RB | IND | 16.6 | 6.9 | -9.7 |
+| RB | Ollie Gordon II | RB | MIA | 13.9 | 6.9 | -7.0 |
+| WR | Denzel Boston | WR | CLE | 9.2 | 12.8 | 3.6 |
+| WR | DeMario Douglas | WR | NE | 7.2 | 13.7 | 6.5 |
+| FLEX | Woody Marks | RB | HOU | 12.6 | 7.9 | -4.7 |
+| FLEX | Zach Charbonnet | RB | SEA | 9.2 | 9.1 | -0.1 |
+| DEF | SEA DEF | DEF | SEA | 9.2 | 10.7 | 1.5 |
 | BN | Davante Adams | WR | LAR | 0.0 | 0.0 | 0.0 |
-| BN | Josh Allen | QB | BUF | 0.0 | 0.0 | 0.0 |
-| BN | Courtland Sutton | WR | DEN | 7.6 | 6.0 | -1.6 |
+| BN | Courtland Sutton | WR | DEN | 5.9 | 13.0 | 7.1 |
+| BN | T.J. Hockenson | TE | MIN | 8.7 | 5.3 | -3.4 |
+| BN | DK Metcalf | WR | PIT | 0.0 | 0.0 | 0.0 |
 | BN | Deebo Samuel Sr. | WR | SF | 0.0 | 0.0 | 0.0 |
-| BN | Jakobi Meyers | WR | JAX | 0.0 | 0.0 | 0.0 |
-| BN | Rico Dowdle | RB | PIT | 7.8 | 11.6 | 3.8 |
-| BN | Zach Charbonnet | RB | SEA | 0.0 | 0.0 | 0.0 |
+| BN | Jakobi Meyers | WR | JAX | 7.7 | 8.5 | 0.8 |
+| BN | Rico Dowdle | RB | PIT | 0.0 | 0.0 | 0.0 |
 
 ### League scoreboard
 | Team | Actual | Proj |
 |---|---|---|
-| Girthenheimer | 145.3 | 90.0 |
-| Baker’s Dozen | 142.4 | 115.6 |
-| Cheeky Nando’s | 125.7 | 112.3 |
-| Be Safe, Get Jaxcinated | 118.1 | 118.4 |
-| tacocats | 103.6 | 114.6 |
-| ScampDaddy | 103.4 | 105.4 |
-| Eazy E Squad | 101.3 | 96.3 |
-| Amateur Hour | 84.0 | 87.3 |
-| ValKilmersComeback | 81.6 | 94.3 |
-| Derrelick my Balls | 68.6 | 107.4 |
-| RafiBomb | 62.1 | 108.0 |
-| City of Champyinz | 51.2 | 79.2 |
+| Baker’s Dozen | 138.8 | 112.2 |
+| Cheeky Nando’s | 136.6 | 125.9 |
+| RafiBomb | 127.9 | 115.0 |
+| ScampDaddy | 111.1 | 109.1 |
+| tacocats | 105.4 | 111.1 |
+| Be Safe, Get Jaxcinated | 103.2 | 114.8 |
+| Amateur Hour | 94.6 | 84.9 |
+| Derrelick my Balls | 89.8 | 100.0 |
+| ValKilmersComeback | 82.9 | 101.0 |
+| City of Champyinz | 79.8 | 86.5 |
+| Girthenheimer | 72.6 | 86.1 |
+| Eazy E Squad | 55.8 | 83.2 |
 
-## Week 8 lineup as currently set
-Record {'wins': 8, 'losses': 6, 'ties': 0}. FAAB used 97/200.
+## Week 10 lineup as currently set
+Record {'wins': 9, 'losses': 9, 'ties': 0}. FAAB used 106/200.
 
 | Slot | Player | Pos | Team | Opp | Proj | Injury |
 |---|---|---|---|---|---|---|
-| QB | Josh Allen | QB | BUF | BAL | 26.5 | - |
-| RB | Jonathan Taylor | RB | IND | JAX | 15.3 | - |
-| RB | Woody Marks | RB | HOU | - | 0.0 | Questionable |
-| WR | DeMario Douglas | WR | NE | MIA | 6.6 | - |
-| WR | DK Metcalf | WR | PIT | CLE | 9.7 | - |
-| FLEX | Ollie Gordon II | RB | MIA | NE | 12.0 | - |
-| FLEX | Denzel Boston | WR | CLE | PIT | 9.1 | - |
-| DEF | SEA DEF | DEF | SEA | CHI | 8.2 | - |
-| BN | Jaylin Noel | WR | HOU | - | 0.0 | Questionable |
-| BN | Courtland Sutton | WR | DEN | KC | 5.9 | - |
-| BN | Kyler Murray | QB | MIN | DET | 19.1 | - |
-| BN | Jakobi Meyers | WR | JAX | IND | 8.6 | - |
-| BN | Rico Dowdle | RB | PIT | CLE | 7.9 | - |
-| BN | Zach Charbonnet | RB | SEA | CHI | 8.4 | Questionable |
+| QB | Josh Allen | QB | BUF | NYJ | 29.2 | - |
+| RB | Jonathan Taylor | RB | IND | MIA | 16.0 | - |
+| RB | Ollie Gordon II | RB | MIA | IND | 12.9 | - |
+| WR | Denzel Boston | WR | CLE | HOU | 8.8 | Questionable |
+| WR | DeMario Douglas | WR | NE | DET | 7.2 | - |
+| FLEX | Woody Marks | RB | HOU | CLE | 7.8 | - |
+| FLEX | Zach Charbonnet | RB | SEA | LV | 12.0 | - |
+| DEF | SEA DEF | DEF | SEA | LV | 9.0 | - |
+| BN | Courtland Sutton | WR | DEN | - | 0.0 | - |
+| BN | T.J. Hockenson | TE | MIN | GB | 8.8 | - |
+| BN | DK Metcalf | WR | PIT | CIN | 10.0 | - |
+| BN | Deebo Samuel Sr. | WR | SF | DAL | 8.8 | Questionable |
+| BN | Jakobi Meyers | WR | JAX | TEN | 8.0 | - |
+| BN | Rico Dowdle | RB | PIT | CIN | 8.8 | - |
 | IR | Davante Adams | WR | LAR | - | 0.0 | IR |
-| IR | Deebo Samuel Sr. | WR | SF | - | 0.0 | Out |
 
-## Waivers: QB (top 25 by week 8 projection)
-| Player | Team | Opp | Proj wk8 | Actual wk7 | Adds 72h | Injury |
+## Waivers: QB (top 25 by week 10 projection)
+| Player | Team | Opp | Proj wk10 | Actual wk9 | Adds 72h | Injury |
 |---|---|---|---|---|---|---|
-| Geno Smith | NYJ | LV | 19.2 | 29.5 | 161132 | - |
-| Baker Mayfield | TB | ATL | 17.3 | 8.7 | 0 | - |
-| Sam Darnold | SEA | CHI | 17.2 | 16.0 | 62817 | - |
-| Deshaun Watson | CLE | PIT | 15.3 | 19.2 | 60096 | - |
-| Tanner McKee | PHI | WAS | 15.2 | 12.5 | 109552 | - |
-| Bo Nix | DEN | KC | 15.2 | 29.2 | 61020 | - |
-| Cam Ward | TEN | CIN | 14.8 | 5.7 | 0 | - |
-| Malik Willis | MIA | NE | 14.1 | 31.0 | 228606 | - |
-| Daniel Jones | IND | JAX | 12.3 | 3.6 | 0 | - |
-| Skylar Thompson | BAL | - | 0.0 | 0.0 | 0 | IR |
-| Riley Leonard | IND | - | 0.0 | - | 0 | - |
-| Kurtis Rourke | SF | - | 0.0 | - | 0 | Out |
-| Stetson Bennett IV | LAR | - | 0.0 | 0.0 | 0 | - |
+| Aaron Rodgers | PIT | CIN | 20.8 | - | 406764 | - |
+| Drew Lock | SEA | LV | 17.8 | 14.6 | 0 | Questionable |
+| Deshaun Watson | CLE | HOU | 15.5 | - | 147704 | - |
+| Justin Herbert | LAC | BAL | 14.7 | 13.4 | 0 | Questionable |
+| Daniel Jones | IND | MIA | 14.2 | 13.3 | 0 | - |
+| Kyle McCord | MIA | IND | 13.7 | 0.0 | 801552 | - |
+| Cam Ward | TEN | JAX | 13.3 | - | 0 | - |
+| Fernando Mendoza | LV | SEA | 12.3 | 0.0 | 1297432 | - |
+| Carson Beck | ARI | LAR | 11.9 | 0.0 | 0 | - |
+| DJ Uiagalelei | LAC | - | 0.0 | 7.0 | 246447 | - |
+| Shedeur Sanders | CLE | - | 0.0 | 27.7 | 178552 | - |
+| Carson Wentz | MIN | - | 0.0 | -2.8 | 94908 | - |
+| Sam Hartman | WAS | - | 0.0 | 0.0 | 0 | - |
+| Graham Mertz | HOU | - | 0.0 | 0.0 | 0 | IR |
+| Jalen Morton | IND | - | 0.0 | - | 0 | - |
+| Sam Howell | DAL | - | 0.0 | 0.0 | 0 | - |
+| Sam Ehlinger | DEN | - | 0.0 | - | 0 | Out |
+| Max Brosmer | MIN | - | 0.0 | 2.3 | 0 | - |
 | Behren Morton | NE | - | 0.0 | - | 0 | - |
-| Jake Haener | NYG | - | 0.0 | - | 0 | Out |
-| Jalen Milroe | SEA | - | 0.0 | 0.0 | 0 | - |
-| Skyler Howard | SEA | - | 0.0 | - | 0 | - |
-| Jameis Winston | NYG | - | 0.0 | 6.4 | 0 | - |
-| Ben Roethlisberger | PIT | - | 0.0 | - | 0 | - |
-| Josh Johnson | CIN | - | 0.0 | 0.0 | 0 | - |
-| Hendon Hooker | TEN | - | 0.0 | 0.0 | 0 | - |
-| Kedon Slovis | GB | - | 0.0 | 0.0 | 0 | - |
-| Joe Fagnano | BAL | - | 0.0 | 0.0 | 0 | - |
-| Gardner Minshew II | ARI | - | 0.0 | 0.0 | 0 | - |
-| Kyle McCord | MIA | - | 0.0 | 0.0 | 0 | - |
+| Zach Wilson | NO | - | 0.0 | - | 0 | - |
+| Case Keenum | CHI | - | 0.0 | - | 0 | Out |
+| Adrian Martinez | SEA | - | 0.0 | 0.0 | 0 | - |
+| Nick Mullens | JAX | - | 0.0 | 0.0 | 0 | - |
+| Hendon Hooker | TEN | - | 0.0 | - | 0 | - |
+| Baker Mayfield | TB | - | 0.0 | 7.7 | 0 | - |
 
-## Waivers: RB (top 25 by week 8 projection)
-| Player | Team | Opp | Proj wk8 | Actual wk7 | Adds 72h | Injury |
+## Waivers: RB (top 25 by week 10 projection)
+| Player | Team | Opp | Proj wk10 | Actual wk9 | Adds 72h | Injury |
 |---|---|---|---|---|---|---|
-| Tyjae Spears | TEN | CIN | 6.3 | - | 0 | Questionable |
-| Samaje Perine | CIN | TEN | 6.2 | 7.6 | 114484 | - |
-| George Holani | SEA | CHI | 5.7 | 2.8 | 0 | - |
-| Chris Rodriguez Jr. | JAX | IND | 5.6 | - | 155358 | - |
-| Dylan Sampson | CLE | PIT | 5.5 | 9.2 | 341410 | - |
-| Austin Ekeler | WAS | PHI | 5.2 | - | 0 | - |
-| Keaton Mitchell | LAC | LAR | 5.2 | - | 63441 | - |
-| Justice Hill | BAL | BUF | 5.1 | 4.8 | 0 | - |
-| Corey Kiner | NE | MIA | 4.7 | 6.4 | 0 | - |
-| Tyler Goodson | DAL | ARI | 4.6 | 5.9 | 73893 | - |
-| Ty Johnson | BUF | BAL | 4.5 | - | 0 | - |
-| Sione Vaki | DET | MIN | 3.3 | 0.5 | 0 | - |
-| Trevor Etienne | CAR | GB | 3.0 | 7.0 | 0 | - |
-| Jeremy McNichols | WAS | PHI | 2.6 | - | 0 | - |
-| Elijah Mitchell | PHI | WAS | 1.8 | 6.2 | 648369 | - |
-| Isaiah Davis | NYJ | LV | 1.5 | 6.9 | 0 | - |
-| LeQuint Allen Jr. | JAX | IND | 1.5 | - | 0 | - |
-| Sean Tucker | TB | ATL | 1.3 | 12.2 | 0 | - |
-| Kaytron Allen | MIA | NE | 1.1 | 0.0 | 0 | - |
-| Ameer Abdullah | JAX | IND | 1.0 | - | 0 | - |
-| Ray Davis | BUF | BAL | 0.8 | - | 0 | - |
-| DJ Herman | MIA | NE | 0.8 | 0.0 | 0 | - |
-| Tahj Brooks | CIN | TEN | 0.7 | 0.6 | 0 | - |
-| Pierre Strong Jr. | GB | CAR | 0.7 | 0.0 | 0 | - |
-| AJ Dillon | CAR | GB | 0.7 | - | 0 | - |
+| Corey Kiner | NE | DET | 8.4 | 22.7 | 5040516 | - |
+| Audric Estime | NO | CAR | 7.5 | 14.2 | 1510488 | - |
+| Zonovan Knight | ARI | LAR | 7.5 | - | 83248 | Questionable |
+| Kimani Vidal | LAC | BAL | 6.4 | 9.0 | 0 | - |
+| Justice Hill | BAL | LAC | 6.2 | 19.9 | 580158 | - |
+| Kaleb Johnson | GB | MIN | 6.2 | 12.8 | 0 | - |
+| Pierre Strong Jr. | GB | MIN | 5.9 | 4.3 | 699606 | - |
+| Samaje Perine | CIN | PIT | 5.6 | 4.3 | 0 | - |
+| Tyjae Spears | TEN | JAX | 5.3 | - | 0 | Questionable |
+| Lan Larison | NE | DET | 4.8 | 0.4 | 0 | - |
+| Ty Johnson | BUF | NYJ | 4.5 | 4.7 | 67410 | - |
+| Khalil Herbert | ATL | KC | 4.2 | 9.8 | 55575 | - |
+| Keaton Mitchell | LAC | BAL | 4.1 | 7.5 | 0 | - |
+| Trevor Etienne | CAR | NO | 3.4 | 1.1 | 0 | - |
+| Kaytron Allen | MIA | IND | 2.9 | 5.0 | 0 | - |
+| George Holani | SEA | LV | 1.8 | 0.0 | 0 | - |
+| LeQuint Allen Jr. | JAX | TEN | 1.5 | 0.0 | 0 | - |
+| Emari Demercado | HOU | CLE | 1.3 | 2.9 | 0 | - |
+| Anthony Tyus III | CAR | NO | 1.3 | 5.5 | 0 | - |
+| Emanuel Wilson | SEA | LV | 1.0 | 0.0 | 0 | - |
+| CJ Donaldson | NO | CAR | 0.9 | - | 0 | Questionable |
+| Jaleel McLaughlin | CLE | HOU | 0.9 | 0.0 | 0 | - |
+| DJ Herman | MIA | IND | 0.9 | 0.0 | 0 | - |
+| Ray Davis | BUF | NYJ | 0.8 | 0.2 | 0 | - |
+| Ameer Abdullah | JAX | TEN | 0.8 | 4.2 | 0 | - |
 
-## Waivers: WR (top 25 by week 8 projection)
-| Player | Team | Opp | Proj wk8 | Actual wk7 | Adds 72h | Injury |
+## Waivers: WR (top 25 by week 10 projection)
+| Player | Team | Opp | Proj wk10 | Actual wk9 | Adds 72h | Injury |
 |---|---|---|---|---|---|---|
-| Wan'Dale Robinson | TEN | CIN | 8.8 | 2.7 | 0 | - |
-| Josh Downs | IND | JAX | 8.3 | 2.8 | 98530 | - |
-| Chris Godwin Jr. | TB | ATL | 8.2 | 4.7 | 73980 | - |
-| Ryan Flournoy | DAL | ARI | 7.0 | 9.0 | 708800 | - |
-| Cooper Kupp | SEA | CHI | 6.2 | 3.0 | 72036 | - |
-| Quentin Johnston | LAC | LAR | 5.8 | - | 61803 | - |
-| Elic Ayomanor | TEN | CIN | 5.3 | 5.9 | 0 | - |
-| Jauan Jennings | MIN | DET | 5.0 | 4.4 | 0 | - |
-| Jahan Dotson | ATL | TB | 5.0 | 1.1 | 0 | - |
-| Rashod Bateman | BAL | BUF | 4.6 | 4.3 | 0 | - |
-| Savion Williams | GB | CAR | 4.6 | 6.6 | 330309 | - |
-| Treylon Burks | WAS | PHI | 4.5 | - | 265755 | - |
-| Efton Chism III | NE | MIA | 4.3 | 2.1 | 0 | - |
-| Kyle Williams | NE | MIA | 4.3 | 2.4 | 0 | - |
-| Chris Bell | MIA | NE | 4.3 | 4.0 | 0 | - |
-| Ted Hurst III | TB | ATL | 4.3 | 0.0 | 0 | - |
-| Marvin Mims Jr. | DEN | KC | 4.0 | 12.2 | 0 | - |
-| Adonai Mitchell | NYJ | LV | 3.9 | 0.0 | 0 | - |
-| Josh Cameron | JAX | IND | 3.6 | - | 0 | - |
-| Tory Horton | SEA | CHI | 3.5 | 3.0 | 0 | - |
-| John Metchie III | CAR | GB | 3.4 | 3.0 | 0 | - |
-| Tez Johnson | TB | ATL | 3.3 | 12.8 | 0 | - |
-| Jordan Whittington | LAR | LAC | 3.2 | 2.7 | 0 | - |
-| Isaac TeSlaa | DET | MIN | 3.1 | 1.5 | 0 | - |
-| Cody White | LV | NYJ | 3.1 | 0.9 | 0 | - |
+| Wan'Dale Robinson | TEN | JAX | 8.7 | - | 0 | - |
+| Demarcus Robinson | SF | DAL | 7.9 | 3.7 | 482238 | - |
+| Tutu Atwell | LAR | ARI | 6.4 | 2.6 | 1345288 | - |
+| Jahan Dotson | ATL | KC | 6.2 | 2.6 | 0 | - |
+| Laquon Treadwell | IND | MIA | 5.8 | 0.0 | 182805 | - |
+| Deion Burks | IND | MIA | 5.8 | 0.5 | 143472 | - |
+| Quentin Johnston | LAC | BAL | 5.8 | 13.8 | 70609 | - |
+| Ashton Dulin | IND | MIA | 5.8 | 14.9 | 543267 | - |
+| Malachi Fields | NYG | WAS | 5.5 | 5.5 | 0 | - |
+| Cooper Kupp | SEA | LV | 5.5 | 4.7 | 0 | - |
+| Reggie Virgil | ARI | LAR | 5.5 | 3.0 | 0 | - |
+| Elic Ayomanor | TEN | JAX | 5.0 | - | 0 | - |
+| Chris Bell | MIA | IND | 4.8 | 0.0 | 0 | - |
+| Rashod Bateman | BAL | LAC | 4.4 | 1.1 | 0 | - |
+| CJ Daniels | LAR | ARI | 4.1 | 0.0 | 118320 | - |
+| Treylon Burks | WAS | NYG | 4.0 | - | 0 | Questionable |
+| Tre' Harris | LAC | BAL | 3.9 | 2.1 | 0 | - |
+| Jordan Watkins | SF | DAL | 3.6 | 16.6 | 550768 | - |
+| Simi Fehoko | ARI | LAR | 3.6 | 0.0 | 71792 | - |
+| Josh Cameron | JAX | TEN | 3.4 | 2.2 | 0 | - |
+| Efton Chism III | NE | DET | 3.4 | 13.4 | 0 | - |
+| Andrei Iosivas | CIN | PIT | 3.4 | 0.0 | 0 | IR |
+| Isaac TeSlaa | DET | NE | 3.4 | 1.4 | 0 | - |
+| Savion Williams | GB | MIN | 3.2 | 11.3 | 0 | - |
+| Kayshon Boutte | HOU | CLE | 3.1 | 28.5 | 0 | - |
 
-## Waivers: TE (top 25 by week 8 projection)
-| Player | Team | Opp | Proj wk8 | Actual wk7 | Adds 72h | Injury |
+## Waivers: TE (top 25 by week 10 projection)
+| Player | Team | Opp | Proj wk10 | Actual wk9 | Adds 72h | Injury |
 |---|---|---|---|---|---|---|
-| Travis Kelce | KC | DEN | 9.3 | 6.4 | 0 | - |
-| Harold Fannin Jr. | CLE | PIT | 8.7 | 10.1 | 65055 | - |
-| T.J. Hockenson | MIN | DET | 8.7 | 11.5 | 146940 | - |
-| Dalton Kincaid | BUF | BAL | 8.5 | - | 88396 | - |
-| Jake Ferguson | DAL | ARI | 8.1 | 0.0 | 84620 | - |
-| Hunter Henry | NE | MIA | 7.6 | 10.6 | 361677 | - |
-| Pat Freiermuth | PIT | CLE | 7.6 | 3.0 | 0 | - |
-| Mark Andrews | BAL | BUF | 7.3 | 3.8 | 76383 | - |
-| AJ Barner | SEA | CHI | 6.8 | 6.6 | 117102 | - |
-| Kyle Pitts Sr. | ATL | TB | 6.8 | 10.7 | 255010 | - |
-| Mike Gesicki | CIN | TEN | 6.8 | 7.1 | 150244 | - |
-| Cade Otton | TB | ATL | 6.2 | 0.0 | 0 | - |
-| Darren Waller | CAR | GB | 6.2 | 12.5 | 98892 | - |
-| Chig Okonkwo | WAS | PHI | 5.9 | - | 0 | - |
-| Michael Mayer | LV | NYJ | 5.8 | 4.7 | 147042 | - |
-| Colby Parkinson | LAR | LAC | 5.3 | 7.3 | 152454 | - |
-| Darnell Washington | PIT | CLE | 4.9 | 6.9 | 0 | - |
-| Greg Dulcich | MIA | NE | 4.8 | 11.1 | 0 | - |
-| Eli Raridon | NE | MIA | 4.5 | 13.1 | 120463 | - |
-| Gunnar Helm | TEN | CIN | 4.3 | 3.9 | 0 | - |
-| Evan Engram | DEN | KC | 3.8 | 0.7 | 0 | - |
-| Oronde Gadsden | LAC | LAR | 3.6 | - | 0 | - |
-| Tommy Tremble | CAR | GB | 3.5 | 1.3 | 0 | - |
-| Charlie Kolar | LAC | LAR | 3.2 | - | 0 | - |
-| Mason Taylor | NYJ | LV | 2.8 | 22.7 | 362305 | - |
+| Pat Freiermuth | PIT | CIN | 9.2 | - | 0 | - |
+| Mike Gesicki | CIN | PIT | 8.7 | 2.1 | 104704 | - |
+| Brenton Strange | JAX | TEN | 8.7 | 3.2 | 167013 | - |
+| Dalton Kincaid | BUF | NYJ | 8.3 | 4.3 | 0 | - |
+| Juwan Johnson | NO | CAR | 7.4 | 10.4 | 0 | - |
+| Darren Waller | CAR | NO | 6.9 | 19.0 | 1431243 | - |
+| Kyle Pitts Sr. | ATL | KC | 6.8 | 3.8 | 0 | - |
+| Chig Okonkwo | WAS | NYG | 6.2 | 7.7 | 0 | - |
+| Mark Andrews | BAL | LAC | 6.2 | 1.9 | 0 | - |
+| Darnell Washington | PIT | CIN | 6.2 | - | 85490 | - |
+| AJ Barner | SEA | LV | 6.1 | 14.0 | 52134 | - |
+| Mason Taylor | NYJ | BUF | 6.0 | 1.6 | 0 | - |
+| Dalton Schultz | HOU | CLE | 5.9 | 5.2 | 0 | - |
+| Greg Dulcich | MIA | IND | 5.6 | 2.4 | 0 | - |
+| Brevyn Spann-Ford | DAL | SF | 5.5 | 3.0 | 0 | - |
+| Colby Parkinson | LAR | ARI | 5.5 | 3.3 | 86070 | - |
+| Michael Mayer | LV | SEA | 5.1 | 3.2 | 0 | - |
+| Elijah Higgins | ARI | LAR | 4.9 | 2.1 | 0 | - |
+| Eli Raridon | NE | DET | 4.5 | 6.7 | 0 | - |
+| Noah Fant | NO | CAR | 4.3 | 1.7 | 0 | - |
+| Gunnar Helm | TEN | JAX | 4.0 | - | 0 | - |
+| Tommy Tremble | CAR | NO | 3.9 | 10.4 | 0 | - |
+| Oronde Gadsden | LAC | BAL | 3.8 | 2.7 | 0 | - |
+| Noah Gray | KC | ATL | 3.5 | 1.6 | 0 | - |
+| Kenyon Sadiq | NYJ | BUF | 3.1 | 6.9 | 0 | - |
 
-## Waivers: DEF (top 17 by week 8 projection)
-| Player | Team | Opp | Proj wk8 | Actual wk7 | Adds 72h | Injury |
+## Waivers: DEF (top 17 by week 10 projection)
+| Player | Team | Opp | Proj wk10 | Actual wk9 | Adds 72h | Injury |
 |---|---|---|---|---|---|---|
-| JAX DEF | JAX | IND | 9.7 | - | 2282022 | - |
-| WAS DEF | WAS | PHI | 9.7 | - | 1075480 | - |
-| KC DEF | KC | DEN | 8.5 | 4.5 | 0 | - |
-| TB DEF | TB | ATL | 7.8 | 26.9 | 718330 | - |
-| NYJ DEF | NYJ | LV | 7.8 | 2.7 | 0 | - |
-| LV DEF | LV | NYJ | 7.7 | 5.5 | 171624 | - |
-| GB DEF | GB | CAR | 7.2 | 11.0 | 0 | - |
-| ATL DEF | ATL | TB | 7.1 | 15.0 | 0 | - |
-| BUF DEF | BUF | BAL | 6.9 | - | 0 | - |
-| DET DEF | DET | MIN | 6.8 | 6.8 | 135549 | - |
-| DAL DEF | DAL | ARI | 6.5 | 6.4 | 0 | - |
-| PHI DEF | PHI | WAS | 6.2 | -2.8 | 0 | - |
-| IND DEF | IND | JAX | 4.6 | 8.9 | 0 | - |
-| MIA DEF | MIA | NE | 4.5 | 5.0 | 0 | - |
-| LAC DEF | LAC | LAR | 4.2 | - | 0 | - |
-| ARI DEF | ARI | DAL | 4.0 | -0.5 | 0 | - |
-| NO DEF | NO | - | - | 3.4 | 0 | - |
+| BAL DEF | BAL | LAC | 9.0 | 2.2 | 795168 | - |
+| IND DEF | IND | MIA | 8.6 | 9.3 | 377844 | - |
+| GB DEF | GB | MIN | 8.3 | 13.3 | 307484 | - |
+| BUF DEF | BUF | NYJ | 8.0 | 13.4 | 130278 | - |
+| WAS DEF | WAS | NYG | 7.5 | 8.0 | 115983 | - |
+| CLE DEF | CLE | HOU | 7.2 | 12.7 | 0 | - |
+| MIA DEF | MIA | IND | 6.9 | 5.6 | 0 | - |
+| LAC DEF | LAC | BAL | 6.5 | 2.1 | 0 | - |
+| LV DEF | LV | SEA | 6.5 | 1.8 | 0 | - |
+| CAR DEF | CAR | NO | 6.3 | 3.4 | 0 | - |
+| SF DEF | SF | DAL | 6.2 | 22.3 | 87111 | - |
+| NE DEF | NE | DET | 5.2 | 6.0 | 0 | - |
+| DAL DEF | DAL | SF | 4.5 | 10.2 | 0 | - |
+| NYJ DEF | NYJ | BUF | 4.3 | 8.5 | 0 | - |
+| TEN DEF | TEN | JAX | 3.8 | - | 0 | - |
+| ARI DEF | ARI | LAR | 3.7 | 0.3 | 0 | - |
+| PHI DEF | PHI | - | - | 16.1 | 0 | - |
 
 ## Trending adds (unrostered)
 | Player | Pos | Team | Adds 72h | Proj next |
 |---|---|---|---|---|
-| JAX DEF | DEF | JAX | 2282022 | 9.7 |
-| WAS DEF | DEF | WAS | 1075480 | 9.7 |
-| Devin Singletary | RB | NYG | 890595 | 0.0 |
-| TB DEF | DEF | TB | 718330 | 7.8 |
-| Ryan Flournoy | WR | DAL | 708800 | 7.0 |
-| Elijah Mitchell | RB | PHI | 648369 | 1.8 |
-| Mason Taylor | TE | NYJ | 362305 | 2.8 |
-| Hunter Henry | TE | NE | 361677 | 7.6 |
-| Dylan Sampson | RB | CLE | 341410 | 5.5 |
-| Savion Williams | WR | GB | 330309 | 4.6 |
-| Treylon Burks | WR | WAS | 265755 | 4.5 |
-| Kyle Pitts Sr. | TE | ATL | 255010 | 6.8 |
-| Malik Willis | QB | MIA | 228606 | 14.1 |
-| LV DEF | DEF | LV | 171624 | 7.7 |
-| Geno Smith | QB | NYJ | 161132 | 19.2 |
-| Chris Rodriguez Jr. | RB | JAX | 155358 | 5.6 |
-| Colby Parkinson | TE | LAR | 152454 | 5.3 |
-| Mike Gesicki | TE | CIN | 150244 | 6.8 |
-| Michael Mayer | TE | LV | 147042 | 5.8 |
-| T.J. Hockenson | TE | MIN | 146940 | 8.7 |
-| DET DEF | DEF | DET | 135549 | 6.8 |
-| Eli Raridon | TE | NE | 120463 | 4.5 |
-| AJ Barner | TE | SEA | 117102 | 6.8 |
-| Samaje Perine | RB | CIN | 114484 | 6.2 |
-| Tanner McKee | QB | PHI | 109552 | 15.2 |
-| Darren Waller | TE | CAR | 98892 | 6.2 |
-| Josh Downs | WR | IND | 98530 | 8.3 |
-| Dalton Kincaid | TE | BUF | 88396 | 8.5 |
-| Terrance Ferguson | TE | LAR | 85200 | 0.0 |
-| Jake Ferguson | TE | DAL | 84620 | 8.1 |
+| Corey Kiner | RB | NE | 5040516 | 8.4 |
+| Audric Estime | RB | NO | 1510488 | 7.5 |
+| Darren Waller | TE | CAR | 1431243 | 6.9 |
+| Tutu Atwell | WR | LAR | 1345288 | 6.4 |
+| Fernando Mendoza | QB | LV | 1297432 | 12.3 |
+| Kyle McCord | QB | MIA | 801552 | 13.7 |
+| BAL DEF | DEF | BAL | 795168 | 9.0 |
+| Pierre Strong Jr. | RB | GB | 699606 | 5.9 |
+| Justice Hill | RB | BAL | 580158 | 6.2 |
+| Jordan Watkins | WR | SF | 550768 | 3.6 |
+| Ashton Dulin | WR | IND | 543267 | 5.8 |
+| Demarcus Robinson | WR | SF | 482238 | 7.9 |
+| Pat Bryant | WR | DEN | 467608 | 0.0 |
+| Aaron Rodgers | QB | PIT | 406764 | 20.8 |
+| IND DEF | DEF | IND | 377844 | 8.6 |
+| GB DEF | DEF | GB | 307484 | 8.3 |
+| DJ Uiagalelei | QB | LAC | 246447 | 0.0 |
+| Laquon Treadwell | WR | IND | 182805 | 5.8 |
+| Shedeur Sanders | QB | CLE | 178552 | 0.0 |
+| Brenton Strange | TE | JAX | 167013 | 8.7 |
+| Deshaun Watson | QB | CLE | 147704 | 15.5 |
+| Deion Burks | WR | IND | 143472 | 5.8 |
+| BUF DEF | DEF | BUF | 130278 | 8.0 |
+| CJ Daniels | WR | LAR | 118320 | 4.1 |
+| WAS DEF | DEF | WAS | 115983 | 7.5 |
+| Mike Gesicki | TE | CIN | 104704 | 8.7 |
+| Carson Wentz | QB | MIN | 94908 | 0.0 |
+| SF DEF | DEF | SF | 87111 | 6.2 |
+| Colby Parkinson | TE | LAR | 86070 | 5.5 |
+| Darnell Washington | TE | PIT | 85490 | 6.2 |
 
 ## Validation
-Record check: median game ON: each team plays its opponent and the league median every week (sum of wins 84, completed weeks 7).
+Record check: median game ON: each team plays its opponent and the league median every week (sum of wins 108, completed weeks 9).

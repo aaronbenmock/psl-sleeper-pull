@@ -1,96 +1,93 @@
 {
- "week": 8,
+ "week": 10,
  "available": true,
  "median_game": true,
- "opponent": "City of Champyinz",
- "manager": "danglish9",
- "roster_id": 4,
- "my_total": 97.0,
- "opp_set_total": 53.1,
- "opp_best_total": 74.2,
+ "opponent": "Derrelick my Balls",
+ "manager": "dlamas",
+ "roster_id": 10,
+ "my_total": 101.1,
+ "opp_set_total": 93.2,
+ "opp_best_total": 98.1,
  "verdict": "favored",
- "margin": 43.9,
- "verdict_vs_best": "favored",
+ "margin": 7.9,
+ "verdict_vs_best": "toss-up",
  "opp_injured": [
   {
-   "name": "Jeremiyah Love",
-   "pos": "RB",
+   "name": "Patrick Mahomes",
+   "pos": "QB",
    "status": "Questionable",
-   "expected": 8.47,
-   "body": "Ankle"
+   "expected": 18.84,
+   "body": "Elbow"
   }
  ],
- "opp_byes": [
-  "Tyler Shough",
-  "SF DEF"
- ],
+ "opp_byes": [],
  "opp_starters": [
   {
-   "name": "Tyler Shough",
+   "name": "Patrick Mahomes",
    "pos": "QB",
-   "expected": 0.0,
-   "injury_status": null,
-   "baseline_only": false
-  },
-  {
-   "name": "Bijan Robinson",
-   "pos": "RB",
-   "expected": 19.37,
-   "injury_status": null,
-   "baseline_only": false
-  },
-  {
-   "name": "Jeremiyah Love",
-   "pos": "RB",
-   "expected": 8.47,
+   "expected": 18.84,
    "injury_status": "Questionable",
    "baseline_only": false
   },
   {
-   "name": "Kalif Raymond",
-   "pos": "WR",
-   "expected": 6.0,
-   "injury_status": null,
-   "baseline_only": false
-  },
-  {
-   "name": "Keon Coleman",
-   "pos": "WR",
-   "expected": 7.41,
-   "injury_status": null,
-   "baseline_only": false
-  },
-  {
-   "name": "Konata Mumpfield",
-   "pos": "WR",
-   "expected": 3.79,
-   "injury_status": null,
-   "baseline_only": false
-  },
-  {
-   "name": "J.K. Dobbins",
+   "name": "Derrick Henry",
    "pos": "RB",
-   "expected": 8.03,
+   "expected": 14.77,
    "injury_status": null,
    "baseline_only": false
   },
   {
-   "name": "SF DEF",
+   "name": "Dylan Sampson",
+   "pos": "RB",
+   "expected": 5.6,
+   "injury_status": null,
+   "baseline_only": false
+  },
+  {
+   "name": "Rashee Rice",
+   "pos": "WR",
+   "expected": 11.43,
+   "injury_status": null,
+   "baseline_only": false
+  },
+  {
+   "name": "Caleb Douglas",
+   "pos": "WR",
+   "expected": 6.98,
+   "injury_status": null,
+   "baseline_only": false
+  },
+  {
+   "name": "Brock Bowers",
+   "pos": "TE",
+   "expected": 13.85,
+   "injury_status": null,
+   "baseline_only": false
+  },
+  {
+   "name": "Nico Collins",
+   "pos": "WR",
+   "expected": 12.77,
+   "injury_status": null,
+   "baseline_only": false
+  },
+  {
+   "name": "MIN DEF",
    "pos": "DEF",
-   "expected": 0.0,
+   "expected": 8.97,
    "injury_status": null,
    "baseline_only": false
   }
  ],
- "median_total": 85.9,
+ "median_total": 93.2,
  "median_verdict": "favored",
- "median_margin": 11.1,
+ "median_margin": 7.9,
  "source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-11-01T17:00:00Z",
-  "label": "sun_late_am"
+  "taken_at_utc": "2026-11-11T19:10:36Z",
+  "label": "wed_late_am"
  },
  "opp_baseline_only": 0,
- "why": "Your recommended lineup projects 97.0; City of Champyinz's set lineup 53.1 (best possible from their roster 74.2). Margin +43.9: favored.",
+ "why": "Your recommended lineup projects 101.1; Derrelick my Balls's set lineup 93.2 (best possible from their roster 98.1). Margin +7.9: favored.",
  "note": "Both sides use the engine blend (0.65 x Sleeper + 0.35 x baseline, injury multipliers), so the totals are comparable. Inside +/-5 points the game is called a toss-up [Guessing]. Your own lineup still follows max expected points; the matchup does not change who you start."
 }

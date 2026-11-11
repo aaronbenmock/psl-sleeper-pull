@@ -3,38 +3,38 @@
   "build": {
    "task": "build",
    "ok": true,
-   "summary": "index.html + reports/2026/week08.html; lineup changes 2, claims 8, signals 16, accuracy weeks 7",
-   "started_utc": "2026-11-11T19:05:06Z",
-   "finished_utc": "2026-11-11T19:05:09Z",
+   "summary": "index.html + reports/2026/week10.html; lineup changes 3, claims 8, signals 12, accuracy weeks 9",
+   "started_utc": "2026-11-11T19:10:38Z",
+   "finished_utc": "2026-11-11T19:10:39Z",
    "error": null
   },
   "pull": {
    "task": "pull",
    "ok": true,
-   "summary": "completed wk 7, upcoming wk 8, waiver pool 666, matchup weeks 18, scored files 1, record check: median game ON: each team plays its opponent and the league median every week",
-   "started_utc": "2026-10-28T18:18:01Z",
-   "finished_utc": "2026-10-28T18:18:05Z",
+   "summary": "completed wk 9, upcoming wk 10, waiver pool 669, matchup weeks 18, scored files 2, record check: median game ON: each team plays its opponent and the league median every week",
+   "started_utc": "2026-11-11T19:10:28Z",
+   "finished_utc": "2026-11-11T19:10:35Z",
    "error": null,
-   "completed_week": 7,
-   "upcoming_week": 8
+   "completed_week": 9,
+   "upcoming_week": 10
   },
   "injuries": {
    "task": "injuries",
    "ok": true,
-   "summary": "184 rostered players tracked, 155 changes since 2026-10-16, 5 of mine carry an injury tag, 17 transactions refreshed, players cache reused",
-   "started_utc": "2026-10-28T18:18:05Z",
-   "finished_utc": "2026-10-28T18:18:06Z",
+   "summary": "180 rostered players tracked, 152 changes since 2026-10-28, 3 of mine carry an injury tag, 13 transactions refreshed, players cache reused",
+   "started_utc": "2026-11-11T19:10:35Z",
+   "finished_utc": "2026-11-11T19:10:36Z",
    "error": null
   },
   "snapshot": {
    "task": "snapshot",
    "ok": true,
-   "summary": "week 9 mon_pm: 3147 projections, 28 NFL teams already started, 2370 players still pre-kickoff",
-   "started_utc": "2026-11-10T00:20:45Z",
-   "finished_utc": "2026-11-10T00:20:46Z",
+   "summary": "week 10 wed_late_am: 3145 projections, 0 NFL teams already started, 3145 players still pre-kickoff",
+   "started_utc": "2026-11-11T19:10:36Z",
+   "finished_utc": "2026-11-11T19:10:36Z",
    "error": null,
-   "week": 9,
-   "label": "mon_pm"
+   "week": 10,
+   "label": "wed_late_am"
   },
   "auto-skip": {
    "task": "auto-skip",
@@ -47,55 +47,13 @@
   "usage": {
    "task": "usage",
    "ok": true,
-   "summary": "7 weeks of 2026 usage, 529 players with a stat row, 713 Sleeper ids mapped (163 from Sleeper, 463 from the rankings file, 87 by name), 609,209 bytes",
-   "started_utc": "2026-10-28T18:18:06Z",
-   "finished_utc": "2026-10-28T18:18:08Z",
+   "summary": "9 weeks of 2026 usage, 566 players with a stat row, 724 Sleeper ids mapped (160 from Sleeper, 465 from the rankings file, 99 by name), 658,970 bytes",
+   "started_utc": "2026-11-11T19:10:36Z",
+   "finished_utc": "2026-11-11T19:10:38Z",
    "error": null
   }
  },
  "runs": [
-  {
-   "task": "build",
-   "ok": true,
-   "summary": "index.html + reports/2026/week07.html; lineup changes 2, claims 2, signals 13, accuracy weeks 6",
-   "started_utc": "2026-10-25T14:50:15Z",
-   "finished_utc": "2026-10-25T14:50:16Z",
-   "error": null
-  },
-  {
-   "task": "snapshot",
-   "ok": true,
-   "summary": "week 7 sun_late_am: 3145 projections, 4 NFL teams already started, 3029 players still pre-kickoff",
-   "started_utc": "2026-10-25T15:10:03Z",
-   "finished_utc": "2026-10-25T15:10:04Z",
-   "error": null,
-   "week": 7,
-   "label": "sun_late_am"
-  },
-  {
-   "task": "build",
-   "ok": true,
-   "summary": "index.html + reports/2026/week07.html; lineup changes 2, claims 2, signals 13, accuracy weeks 6",
-   "started_utc": "2026-10-25T15:10:04Z",
-   "finished_utc": "2026-10-25T15:10:04Z",
-   "error": null
-  },
-  {
-   "task": "auto-skip",
-   "ok": true,
-   "summary": "skipped at 2026-10-25T11:38:06-05:00",
-   "started_utc": "2026-10-25T16:38:06Z",
-   "finished_utc": "2026-10-25T16:38:06Z",
-   "error": null
-  },
-  {
-   "task": "build",
-   "ok": true,
-   "summary": "index.html + reports/2026/week07.html; lineup changes 2, claims 2, signals 13, accuracy weeks 6",
-   "started_utc": "2026-10-25T16:38:06Z",
-   "finished_utc": "2026-10-25T16:38:07Z",
-   "error": null
-  },
   {
    "task": "auto-skip",
    "ok": true,
@@ -1671,14 +1629,58 @@
    "started_utc": "2026-11-11T19:05:06Z",
    "finished_utc": "2026-11-11T19:05:09Z",
    "error": null
+  },
+  {
+   "task": "pull",
+   "ok": true,
+   "summary": "completed wk 9, upcoming wk 10, waiver pool 669, matchup weeks 18, scored files 2, record check: median game ON: each team plays its opponent and the league median every week",
+   "started_utc": "2026-11-11T19:10:28Z",
+   "finished_utc": "2026-11-11T19:10:35Z",
+   "error": null,
+   "completed_week": 9,
+   "upcoming_week": 10
+  },
+  {
+   "task": "injuries",
+   "ok": true,
+   "summary": "180 rostered players tracked, 152 changes since 2026-10-28, 3 of mine carry an injury tag, 13 transactions refreshed, players cache reused",
+   "started_utc": "2026-11-11T19:10:35Z",
+   "finished_utc": "2026-11-11T19:10:36Z",
+   "error": null
+  },
+  {
+   "task": "snapshot",
+   "ok": true,
+   "summary": "week 10 wed_late_am: 3145 projections, 0 NFL teams already started, 3145 players still pre-kickoff",
+   "started_utc": "2026-11-11T19:10:36Z",
+   "finished_utc": "2026-11-11T19:10:36Z",
+   "error": null,
+   "week": 10,
+   "label": "wed_late_am"
+  },
+  {
+   "task": "usage",
+   "ok": true,
+   "summary": "9 weeks of 2026 usage, 566 players with a stat row, 724 Sleeper ids mapped (160 from Sleeper, 465 from the rankings file, 99 by name), 658,970 bytes",
+   "started_utc": "2026-11-11T19:10:36Z",
+   "finished_utc": "2026-11-11T19:10:38Z",
+   "error": null
+  },
+  {
+   "task": "build",
+   "ok": true,
+   "summary": "index.html + reports/2026/week10.html; lineup changes 3, claims 8, signals 12, accuracy weeks 9",
+   "started_utc": "2026-11-11T19:10:38Z",
+   "finished_utc": "2026-11-11T19:10:39Z",
+   "error": null
   }
  ],
  "last_run": {
   "task": "build",
   "ok": true,
-  "summary": "index.html + reports/2026/week08.html; lineup changes 2, claims 8, signals 16, accuracy weeks 7",
-  "started_utc": "2026-11-11T19:05:06Z",
-  "finished_utc": "2026-11-11T19:05:09Z",
+  "summary": "index.html + reports/2026/week10.html; lineup changes 3, claims 8, signals 12, accuracy weeks 9",
+  "started_utc": "2026-11-11T19:10:38Z",
+  "finished_utc": "2026-11-11T19:10:39Z",
   "error": null
  }
 }
