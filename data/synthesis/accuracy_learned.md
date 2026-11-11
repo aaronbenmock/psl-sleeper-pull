@@ -1,10 +1,10 @@
-<!-- generated 2026-11-11T19:04:27Z week 10 by scheduled Claude task (covers weeks 1 to 7) -->
-**Nothing new was graded this week.** The Wednesday Sleeper pull has not run since Oct 28, so weeks 8 and 9 are not scored yet. Every number below is the same as last week's and still covers weeks 1 to 7. Once a full pull runs, two weeks of results will land at once.
+<!-- generated 2026-11-11T19:11:15Z week 10 by scheduled Claude task (covers weeks 1 to 9) -->
+**You beat the engine in week 8 by trusting DeMario Douglas.** Both the engine and this report said start Jakobi Meyers over Douglas. Meyers scored 3.4 and Douglas 16.1. Your lineup scored 81.1 to the engine's 68.4. Over seven graded weeks you now lead 704.5 to 683.0, about 21 points.
 
-**You still lead the engine on lineups, narrowly.** Over six graded weeks your lineups total 623.5 points to the engine's 614.6, about 9 points ahead. The engine won week 7 (87.9 to 81.6) because Harold Fannin sat.
+**Start/sit calls slipped a little.** The engine is 19 for 27 on start/sit (down from 18 for 23) and this report is 7 for 9. The Dowdle over Woody Marks call was easy, since Marks was on bye.
 
-**Start/sit calls are the reliable part.** The engine is 18 for 23 on start/sit and this report is 6 for 7. Claims are weaker: this report is 2 for 7 on claims, the engine 11 for 17. Paying up for a player off one big game has not worked, which is why this week's claim is a modest bid on a role, not a box score.
+**Claims that drop Charbonnet keep losing.** Charbonnet scored 13.5 in week 8, more than five of the eight players the engine wanted to swap him for. Engine claims are now 12 for 25. That is why this week's note says to keep him.
 
-**Sleeper remains the projection to trust.** Over seven weeks it missed starters by about 6.2 points a player and ran almost exactly even, while preseason rankings ran about 1.4 points low. Lineups built on Sleeper scored about 103 a week versus 90 on preseason picks.
+**Sleeper is still the projection to trust.** Over nine weeks it missed starters by about 6.1 points a player and ran almost exactly even, while preseason rankings ran about 1.6 points low. Lineups built on Sleeper averaged about 103 a week, almost exactly what you scored, versus 87 for preseason picks.
 
-**The blend tweak is still noise.** The best tested blend captured 103.45 points a week against 102.17 for the current setting, a gap of about 1.3 points with only seven weeks. Wait for weeks 8 and 9 before changing anything.
+**The blend tweak now has enough weeks to test, but the gap is still small.** The best blend captured 103.53 a week against 102.67 for the current setting, under 1 point. Call it noise for now.

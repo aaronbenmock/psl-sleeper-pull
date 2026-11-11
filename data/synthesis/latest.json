@@ -1,13 +1,14 @@
 {
- "synthesis_written_at": "2026-11-11T19:04:27Z",
- "generated_at_utc": "2026-11-11T19:04:27Z",
+ "synthesis_written_at": "2026-11-11T19:11:15Z",
+ "generated_at_utc": "2026-11-11T19:11:15Z",
  "week": 10,
  "source": "desktop-scheduled-task",
  "source_label": "Wednesday 12:30 PM scheduled task on Aaron's PC",
  "calls": [
-  {"type": "start", "name": "Zach Charbonnet", "player_id": "9753", "alt_name": "Ollie Gordon II", "alt_id": "12495", "text": "Start Charbonnet (17 touches in week 9) over Gordon"},
-  {"type": "sit", "name": "Courtland Sutton", "player_id": "5045", "alt_name": "Jakobi Meyers", "alt_id": "5947", "text": "Sutton on bye; Meyers or Douglas fills in"},
-  {"type": "claim", "name": "Audric Estime", "player_id": "11579", "bid": 18, "text": "Claim Estime for about $18, drop Jaylin Noel (season over)"},
+  {"type": "start", "name": "Woody Marks", "player_id": "12474", "alt_name": "Rico Dowdle", "alt_id": "7021", "text": "Lean Marks over Dowdle for the RB1 workload"},
+  {"type": "sit", "name": "Denzel Boston", "player_id": "13346", "alt_name": "DK Metcalf", "alt_id": "5846", "text": "Boston Questionable (toe); start Metcalf"},
+  {"type": "claim", "name": "Audric Estime", "player_id": "11579", "bid": 18, "text": "Claim Estime for about $18, drop Sutton"},
+  {"type": "skip", "name": "Aaron Rodgers", "alt_name": "Zach Charbonnet", "alt_id": "9753", "text": "Do not drop Charbonnet for a backup QB"},
   {"type": "skip", "name": "Corey Kiner", "player_id": "12491", "alt_name": "Rico Dowdle", "alt_id": "7021", "text": "Skip Kiner; you are deep at RB"}
  ]
 }
