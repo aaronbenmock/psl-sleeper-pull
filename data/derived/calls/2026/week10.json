@@ -2,7 +2,7 @@
  "week": 10,
  "first_recorded_utc": "2026-11-11T19:10:38Z",
  "source": "live build",
- "updated_utc": "2026-11-11T22:20:19Z",
+ "updated_utc": "2026-11-12T18:41:42Z",
  "start_sit": [
   {
    "type": "start_sit",
@@ -447,5 +447,6 @@
    "text": "Skip Kiner; you are deep at RB",
    "source": "synthesis"
   }
- ]
+ ],
+ "claims_frozen": true
 }
