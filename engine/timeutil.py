@@ -55,6 +55,18 @@ def in_window(local_dt, hours, days=None):
     return local_dt.hour in hours
 
 
+def last_due(local_dt, weekday, hour):
+    """Most recent local time at or before local_dt that falls on `weekday` at `hour`:00.
+
+    Used for catch-up: a weekly task is overdue when its last success is older than this.
+    """
+    d = local_dt.replace(hour=hour, minute=0, second=0, microsecond=0)
+    d -= dt.timedelta(days=(local_dt.weekday() - weekday) % 7)
+    if d > local_dt:
+        d -= dt.timedelta(days=7)
+    return d
+
+
 def eastern_date(utc_dt):
     """Game-day date as the NFL sees it (US Eastern). Same DST rule, offset -4/-5."""
     off = central_offset(utc_dt) + 1
