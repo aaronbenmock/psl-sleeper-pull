@@ -2,7 +2,7 @@
  "week": 10,
  "first_recorded_utc": "2026-11-11T19:10:38Z",
  "source": "live build",
- "updated_utc": "2026-11-14T04:40:50Z",
+ "updated_utc": "2026-11-14T16:51:20Z",
  "start_sit": [
   {
    "type": "start_sit",
@@ -11,8 +11,8 @@
    "name": "DK Metcalf",
    "alt_id": "13346",
    "alt_name": "Denzel Boston",
-   "expected": 9.47,
-   "alt_expected": 7.94,
+   "expected": 9.73,
+   "alt_expected": 7.99,
    "started": false
   },
   {
@@ -22,8 +22,8 @@
    "name": "Deebo Samuel Sr.",
    "alt_id": "9501",
    "alt_name": "DeMario Douglas",
-   "expected": 8.9,
-   "alt_expected": 7.54,
+   "expected": 9.01,
+   "alt_expected": 7.48,
    "started": false
   },
   {
@@ -33,19 +33,8 @@
    "name": "Rico Dowdle",
    "alt_id": "12474",
    "alt_name": "Woody Marks",
-   "expected": 8.79,
-   "alt_expected": 8.14,
-   "started": false
-  },
-  {
-   "type": "start_sit",
-   "kind": "close_call",
-   "player_id": "5846",
-   "name": "DK Metcalf",
-   "alt_id": "5947",
-   "alt_name": "Jakobi Meyers",
-   "expected": 9.47,
-   "alt_expected": 8.12,
+   "expected": 8.83,
+   "alt_expected": 8.37,
    "started": false
   },
   {
@@ -55,7 +44,7 @@
    "name": "Deebo Samuel Sr.",
    "alt_id": "5947",
    "alt_name": "Jakobi Meyers",
-   "expected": 8.9,
+   "expected": 9.01,
    "alt_expected": 8.12,
    "started": false
   },
@@ -66,30 +55,8 @@
    "name": "Deebo Samuel Sr.",
    "alt_id": "13346",
    "alt_name": "Denzel Boston",
-   "expected": 8.9,
-   "alt_expected": 7.94,
-   "started": false
-  },
-  {
-   "type": "start_sit",
-   "kind": "close_call",
-   "player_id": "5872",
-   "name": "Deebo Samuel Sr.",
-   "alt_id": "9501",
-   "alt_name": "DeMario Douglas",
-   "expected": 8.9,
-   "alt_expected": 7.54,
-   "started": false
-  },
-  {
-   "type": "start_sit",
-   "kind": "close_call",
-   "player_id": "9753",
-   "name": "Zach Charbonnet",
-   "alt_id": "5844",
-   "alt_name": "T.J. Hockenson",
-   "expected": 9.26,
-   "alt_expected": 8.45,
+   "expected": 9.01,
+   "alt_expected": 7.99,
    "started": false
   },
   {
@@ -99,8 +66,8 @@
    "name": "Zach Charbonnet",
    "alt_id": "12474",
    "alt_name": "Woody Marks",
-   "expected": 9.26,
-   "alt_expected": 8.14,
+   "expected": 8.93,
+   "alt_expected": 8.37,
    "started": false
   },
   {
@@ -110,7 +77,7 @@
    "name": "Zach Charbonnet",
    "alt_id": "5947",
    "alt_name": "Jakobi Meyers",
-   "expected": 9.26,
+   "expected": 8.93,
    "alt_expected": 8.12,
    "started": false
   },
@@ -121,19 +88,19 @@
    "name": "Zach Charbonnet",
    "alt_id": "13346",
    "alt_name": "Denzel Boston",
-   "expected": 9.26,
-   "alt_expected": 7.94,
+   "expected": 8.93,
+   "alt_expected": 7.99,
    "started": false
   },
   {
    "type": "start_sit",
    "kind": "close_call",
-   "player_id": "7021",
-   "name": "Rico Dowdle",
-   "alt_id": "5844",
-   "alt_name": "T.J. Hockenson",
-   "expected": 8.79,
-   "alt_expected": 8.45,
+   "player_id": "9753",
+   "name": "Zach Charbonnet",
+   "alt_id": "9501",
+   "alt_name": "DeMario Douglas",
+   "expected": 8.93,
+   "alt_expected": 7.48,
    "started": false
   },
   {
@@ -143,8 +110,8 @@
    "name": "Rico Dowdle",
    "alt_id": "12474",
    "alt_name": "Woody Marks",
-   "expected": 8.79,
-   "alt_expected": 8.14,
+   "expected": 8.83,
+   "alt_expected": 8.37,
    "started": false
   },
   {
@@ -154,7 +121,7 @@
    "name": "Rico Dowdle",
    "alt_id": "5947",
    "alt_name": "Jakobi Meyers",
-   "expected": 8.79,
+   "expected": 8.83,
    "alt_expected": 8.12,
    "started": false
   },
@@ -165,8 +132,8 @@
    "name": "Rico Dowdle",
    "alt_id": "13346",
    "alt_name": "Denzel Boston",
-   "expected": 8.79,
-   "alt_expected": 7.94,
+   "expected": 8.83,
+   "alt_expected": 7.99,
    "started": false
   },
   {
@@ -176,8 +143,8 @@
    "name": "Rico Dowdle",
    "alt_id": "9501",
    "alt_name": "DeMario Douglas",
-   "expected": 8.79,
-   "alt_expected": 7.54,
+   "expected": 8.83,
+   "alt_expected": 7.48,
    "started": false
   }
  ],
@@ -186,7 +153,7 @@
    "slot": "QB",
    "player_id": "4984",
    "name": "Josh Allen",
-   "expected": 28.16,
+   "expected": 26.86,
    "started": false,
    "frozen": false
   },
@@ -194,7 +161,7 @@
    "slot": "RB",
    "player_id": "6813",
    "name": "Jonathan Taylor",
-   "expected": 15.97,
+   "expected": 15.51,
    "started": false,
    "frozen": false
   },
@@ -202,7 +169,7 @@
    "slot": "RB",
    "player_id": "12495",
    "name": "Ollie Gordon II",
-   "expected": 11.2,
+   "expected": 11.03,
    "started": false,
    "frozen": false
   },
@@ -210,7 +177,7 @@
    "slot": "WR",
    "player_id": "5846",
    "name": "DK Metcalf",
-   "expected": 9.47,
+   "expected": 9.73,
    "started": false,
    "frozen": false
   },
@@ -218,7 +185,7 @@
    "slot": "WR",
    "player_id": "5872",
    "name": "Deebo Samuel Sr.",
-   "expected": 8.9,
+   "expected": 9.01,
    "started": false,
    "frozen": false
   },
@@ -226,7 +193,7 @@
    "slot": "FLEX",
    "player_id": "9753",
    "name": "Zach Charbonnet",
-   "expected": 9.26,
+   "expected": 8.93,
    "started": false,
    "frozen": false
   },
@@ -234,7 +201,7 @@
    "slot": "FLEX",
    "player_id": "7021",
    "name": "Rico Dowdle",
-   "expected": 8.79,
+   "expected": 8.83,
    "started": false,
    "frozen": false
   },
