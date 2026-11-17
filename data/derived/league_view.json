@@ -66,7 +66,7 @@
    "efficiency": 0.86,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 115.33,
+   "proj_next": 118.04,
    "future_opps": [
     9,
     6,
@@ -116,7 +116,7 @@
    "trend": -0.2,
    "trend_label": "flat",
    "sos_remaining": 101.31,
-   "power": 115.8,
+   "power": 116.9,
    "power_rank": 1,
    "pf_rank": 4
   },
@@ -174,7 +174,7 @@
    "byes_next": [
     "Bo Nix"
    ],
-   "proj_next": 100.01,
+   "proj_next": 98.81,
    "future_opps": [
     4,
     8,
@@ -224,7 +224,7 @@
    "trend": -6.1,
    "trend_label": "falling",
    "sos_remaining": 99.07,
-   "power": 112.4,
+   "power": 111.9,
    "power_rank": 2,
    "pf_rank": 3
   },
@@ -280,7 +280,7 @@
    "efficiency": 0.9,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 90.08,
+   "proj_next": 90.42,
    "future_opps": [
     5,
     10,
@@ -326,7 +326,7 @@
    "trend": 6.2,
    "trend_label": "rising",
    "sos_remaining": 99.77,
-   "power": 109.7,
+   "power": 109.8,
    "power_rank": 3,
    "pf_rank": 1
   },
@@ -382,7 +382,7 @@
    "efficiency": 0.93,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 82.43,
+   "proj_next": 74.48,
    "future_opps": [
     1,
     2,
@@ -432,7 +432,7 @@
    "trend": 2.3,
    "trend_label": "flat",
    "sos_remaining": 99.05,
-   "power": 105.9,
+   "power": 102.7,
    "power_rank": 4,
    "pf_rank": 2
   },
@@ -495,7 +495,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 90.99,
+   "proj_next": 92.15,
    "future_opps": [
     12,
     4,
@@ -545,117 +545,9 @@
    "trend": 0.3,
    "trend_label": "flat",
    "sos_remaining": 103.53,
-   "power": 101.7,
+   "power": 102.2,
    "power_rank": 5,
    "pf_rank": 5
-  },
-  {
-   "roster_id": 6,
-   "team": "ScampDaddy",
-   "manager": "marlos9",
-   "is_mine": false,
-   "wins": 11,
-   "losses": 7,
-   "ties": 0,
-   "h2h": "6-3",
-   "median": "5-4",
-   "allplay": "54-45",
-   "allplay_pct": 0.545,
-   "scores": [
-    100.22,
-    82.96,
-    99.62,
-    108.1,
-    122.22,
-    97.62,
-    103.4,
-    100.73,
-    111.14
-   ],
-   "avg": 102.89,
-   "last": 111.14,
-   "pf": 926.01,
-   "proj_totals": [
-    113.68,
-    109.02,
-    105.33,
-    90.21,
-    111.08,
-    96.15,
-    105.38,
-    109.08,
-    109.11
-   ],
-   "vs_proj": -23.03,
-   "bench_left": [
-    21.9,
-    23.0,
-    15.1,
-    5.3,
-    2.8,
-    7.7,
-    17.9,
-    12.6,
-    8.0
-   ],
-   "efficiency": 0.89,
-   "injured_starters": [],
-   "byes_next": [
-    "DEN DEF"
-   ],
-   "proj_next": 95.37,
-   "future_opps": [
-    2,
-    11,
-    5,
-    9,
-    7,
-    12,
-    4,
-    8,
-    10
-   ],
-   "faab_used": 81,
-   "starters_now": [
-    {
-     "name": "Kirk Cousins",
-     "pos": "QB"
-    },
-    {
-     "name": "Chase Brown",
-     "pos": "RB"
-    },
-    {
-     "name": "Javonte Williams",
-     "pos": "RB"
-    },
-    {
-     "name": "Ja'Marr Chase",
-     "pos": "WR"
-    },
-    {
-     "name": "Drake London",
-     "pos": "WR"
-    },
-    {
-     "name": "Cam Skattebo",
-     "pos": "RB"
-    },
-    {
-     "name": "Isaiah Likely",
-     "pos": "TE"
-    },
-    {
-     "name": "DEN DEF",
-     "pos": "DEF"
-    }
-   ],
-   "trend": 1.6,
-   "trend_label": "flat",
-   "sos_remaining": 100.48,
-   "power": 99.9,
-   "power_rank": 6,
-   "pf_rank": 7
   },
   {
    "roster_id": 8,
@@ -716,7 +608,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 99.65,
+   "proj_next": 102.54,
    "future_opps": [
     10,
     3,
@@ -766,8 +658,8 @@
    "trend": -5.3,
    "trend_label": "falling",
    "sos_remaining": 103.64,
-   "power": 99.8,
-   "power_rank": 7,
+   "power": 100.9,
+   "power_rank": 6,
    "pf_rank": 8
   },
   {
@@ -829,7 +721,7 @@
     }
    ],
    "byes_next": [],
-   "proj_next": 93.49,
+   "proj_next": 97.05,
    "future_opps": [
     8,
     7,
@@ -879,9 +771,117 @@
    "trend": -3.4,
    "trend_label": "flat",
    "sos_remaining": 103.41,
-   "power": 99.2,
-   "power_rank": 8,
+   "power": 100.7,
+   "power_rank": 7,
    "pf_rank": 6
+  },
+  {
+   "roster_id": 6,
+   "team": "ScampDaddy",
+   "manager": "marlos9",
+   "is_mine": false,
+   "wins": 11,
+   "losses": 7,
+   "ties": 0,
+   "h2h": "6-3",
+   "median": "5-4",
+   "allplay": "54-45",
+   "allplay_pct": 0.545,
+   "scores": [
+    100.22,
+    82.96,
+    99.62,
+    108.1,
+    122.22,
+    97.62,
+    103.4,
+    100.73,
+    111.14
+   ],
+   "avg": 102.89,
+   "last": 111.14,
+   "pf": 926.01,
+   "proj_totals": [
+    113.68,
+    109.02,
+    105.33,
+    90.21,
+    111.08,
+    96.15,
+    105.38,
+    109.08,
+    109.11
+   ],
+   "vs_proj": -23.03,
+   "bench_left": [
+    21.9,
+    23.0,
+    15.1,
+    5.3,
+    2.8,
+    7.7,
+    17.9,
+    12.6,
+    8.0
+   ],
+   "efficiency": 0.89,
+   "injured_starters": [],
+   "byes_next": [
+    "DEN DEF"
+   ],
+   "proj_next": 95.52,
+   "future_opps": [
+    2,
+    11,
+    5,
+    9,
+    7,
+    12,
+    4,
+    8,
+    10
+   ],
+   "faab_used": 81,
+   "starters_now": [
+    {
+     "name": "Kirk Cousins",
+     "pos": "QB"
+    },
+    {
+     "name": "Chase Brown",
+     "pos": "RB"
+    },
+    {
+     "name": "Javonte Williams",
+     "pos": "RB"
+    },
+    {
+     "name": "Ja'Marr Chase",
+     "pos": "WR"
+    },
+    {
+     "name": "Drake London",
+     "pos": "WR"
+    },
+    {
+     "name": "Cam Skattebo",
+     "pos": "RB"
+    },
+    {
+     "name": "Isaiah Likely",
+     "pos": "TE"
+    },
+    {
+     "name": "DEN DEF",
+     "pos": "DEF"
+    }
+   ],
+   "trend": 1.6,
+   "trend_label": "flat",
+   "sos_remaining": 100.48,
+   "power": 99.9,
+   "power_rank": 8,
+   "pf_rank": 7
   },
   {
    "roster_id": 9,
@@ -935,7 +935,7 @@
    "efficiency": 0.85,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 77.85,
+   "proj_next": 78.98,
    "future_opps": [
     11,
     5,
@@ -985,7 +985,7 @@
    "trend": -2.1,
    "trend_label": "flat",
    "sos_remaining": 106.03,
-   "power": 87.1,
+   "power": 87.5,
    "power_rank": 9,
    "pf_rank": 9
   },
@@ -1050,7 +1050,7 @@
    "byes_next": [
     "Saquon Barkley"
    ],
-   "proj_next": 79.58,
+   "proj_next": 80.48,
    "future_opps": [
     7,
     9,
@@ -1100,7 +1100,7 @@
    "trend": -0.3,
    "trend_label": "flat",
    "sos_remaining": 106.02,
-   "power": 83.4,
+   "power": 83.8,
    "power_rank": 10,
    "pf_rank": 10
   },
@@ -1160,7 +1160,7 @@
     "J.K. Dobbins",
     "TB DEF"
    ],
-   "proj_next": 63.6,
+   "proj_next": 62.39,
    "future_opps": [
     3,
     1,
@@ -1210,7 +1210,7 @@
    "trend": -2.6,
    "trend_label": "flat",
    "sos_remaining": 105.83,
-   "power": 74.2,
+   "power": 73.7,
    "power_rank": 11,
    "pf_rank": 11
   },
@@ -1276,7 +1276,7 @@
     "Jonah Coleman",
     "Rome Odunze"
    ],
-   "proj_next": 59.59,
+   "proj_next": 60.19,
    "future_opps": [
     6,
     12,
@@ -1326,7 +1326,7 @@
    "trend": 7.0,
    "trend_label": "rising",
    "sos_remaining": 108.56,
-   "power": 72.1,
+   "power": 72.3,
    "power_rank": 12,
    "pf_rank": 12
   }
@@ -1393,16 +1393,16 @@
    "text": "Amateur Hour starts Michael Wilson (WR) at a projected 0.0; you carry 6 WRs. Possible trade partner (deadline week 12)."
   },
   {
+   "team": "Baker\u2019s Dozen",
+   "kind": "trade_fit",
+   "severity": "info",
+   "text": "Baker\u2019s Dozen starts Jordan Addison (WR) at a projected 0.0; you carry 6 WRs. Possible trade partner (deadline week 12)."
+  },
+  {
    "team": "Cheeky Nando\u2019s",
    "kind": "trade_fit",
    "severity": "info",
-   "text": "Cheeky Nando\u2019s starts Devaughn Vele (WR) at a projected 6.4; you carry 6 WRs. Possible trade partner (deadline week 12)."
-  },
-  {
-   "team": "City of Champyinz",
-   "kind": "trade_fit",
-   "severity": "info",
-   "text": "City of Champyinz starts Kalif Raymond (WR) at a projected 0.0; you carry 6 WRs. Possible trade partner (deadline week 12)."
+   "text": "Cheeky Nando\u2019s starts Devaughn Vele (WR) at a projected 5.9; you carry 6 WRs. Possible trade partner (deadline week 12)."
   }
  ],
  "notes": [
@@ -1410,7 +1410,7 @@
  ],
  "projection_source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-11-14T16:51:20Z",
-  "label": "sat_late_am"
+  "taken_at_utc": "2026-11-17T00:21:13Z",
+  "label": "mon_pm"
  }
 }

@@ -1,7 +1,7 @@
 {
  "machine": {
   "date_central": "2026-11-11",
-  "age_hours": 124.6,
+  "age_hours": 125.2,
   "my_roster": [
    {
     "player_id": "5872",
@@ -156,29 +156,6 @@
     ]
    },
    {
-    "player_id": "7021",
-    "name": "Rico Dowdle",
-    "pos": "RB",
-    "team": "PIT",
-    "slot": "FLEX",
-    "injury_status": null,
-    "injury_body_part": null,
-    "injury_start_date": null,
-    "injury_notes": null,
-    "practice_participation": null,
-    "practice_description": null,
-    "news_updated": "2026-11-11",
-    "depth_chart_order": 2,
-    "history": [
-     "2026-10-16: injury status Questionable to none",
-     "2026-10-16: injury body part Toe to none",
-     "2026-10-16: injury notes Dislocated to none",
-     "2026-10-16: news updated 1792008908976 to 1792098932731",
-     "2026-10-28: news updated 1792098932731 to 1792982113477",
-     "2026-11-11: news updated 1792982113477 to 1794411025553"
-    ]
-   },
-   {
     "player_id": "SEA",
     "name": "SEA DEF",
     "pos": "DEF",
@@ -193,6 +170,29 @@
     "news_updated": null,
     "depth_chart_order": null,
     "history": []
+   },
+   {
+    "player_id": "12474",
+    "name": "Woody Marks",
+    "pos": "RB",
+    "team": "HOU",
+    "slot": "FLEX",
+    "injury_status": null,
+    "injury_body_part": null,
+    "injury_start_date": null,
+    "injury_notes": null,
+    "practice_participation": null,
+    "practice_description": null,
+    "news_updated": "2026-11-09",
+    "depth_chart_order": 1,
+    "history": [
+     "2026-10-28: injury status none to Questionable",
+     "2026-10-28: injury body part none to Leg",
+     "2026-10-28: news updated 1792082711110 to 1792998314973",
+     "2026-11-11: injury status Questionable to none",
+     "2026-11-11: injury body part Leg to none",
+     "2026-11-11: news updated 1792998314973 to 1794234029410"
+    ]
    },
    {
     "player_id": "9753",
@@ -280,6 +280,29 @@
     ]
    },
    {
+    "player_id": "7021",
+    "name": "Rico Dowdle",
+    "pos": "RB",
+    "team": "PIT",
+    "slot": "BN",
+    "injury_status": null,
+    "injury_body_part": null,
+    "injury_start_date": null,
+    "injury_notes": null,
+    "practice_participation": null,
+    "practice_description": null,
+    "news_updated": "2026-11-11",
+    "depth_chart_order": 2,
+    "history": [
+     "2026-10-16: injury status Questionable to none",
+     "2026-10-16: injury body part Toe to none",
+     "2026-10-16: injury notes Dislocated to none",
+     "2026-10-16: news updated 1792008908976 to 1792098932731",
+     "2026-10-28: news updated 1792098932731 to 1792982113477",
+     "2026-11-11: news updated 1792982113477 to 1794411025553"
+    ]
+   },
+   {
     "player_id": "5844",
     "name": "T.J. Hockenson",
     "pos": "TE",
@@ -298,29 +321,6 @@
      "2026-10-12: injury body part none to Concussion",
      "2026-10-12: news updated 1791580255895 to 1791740717460",
      "2026-10-13: news updated 1791740717460 to 1791829803840"
-    ]
-   },
-   {
-    "player_id": "12474",
-    "name": "Woody Marks",
-    "pos": "RB",
-    "team": "HOU",
-    "slot": "BN",
-    "injury_status": null,
-    "injury_body_part": null,
-    "injury_start_date": null,
-    "injury_notes": null,
-    "practice_participation": null,
-    "practice_description": null,
-    "news_updated": "2026-11-09",
-    "depth_chart_order": 1,
-    "history": [
-     "2026-10-28: injury status none to Questionable",
-     "2026-10-28: injury body part none to Leg",
-     "2026-10-28: news updated 1792082711110 to 1792998314973",
-     "2026-11-11: injury status Questionable to none",
-     "2026-11-11: injury body part Leg to none",
-     "2026-11-11: news updated 1792998314973 to 1794234029410"
     ]
    }
   ],
