@@ -56,9 +56,8 @@
      "roster_id": 1,
      "team": "tacocats",
      "remaining": 32,
-     "score": 2.5,
+     "score": 1.5,
      "why": [
-      "just dropped Malik Willis",
       "only 1 healthy QB",
       "has bid on a QB before"
      ],
@@ -136,9 +135,8 @@
      "roster_id": 1,
      "team": "tacocats",
      "remaining": 32,
-     "score": 2.5,
+     "score": 1.5,
      "why": [
-      "just dropped Malik Willis",
       "only 1 healthy QB",
       "has bid on a QB before"
      ],
@@ -216,9 +214,8 @@
      "roster_id": 1,
      "team": "tacocats",
      "remaining": 32,
-     "score": 2.5,
+     "score": 1.5,
      "why": [
-      "just dropped Malik Willis",
       "only 1 healthy QB",
       "has bid on a QB before"
      ],
@@ -296,9 +293,8 @@
      "roster_id": 1,
      "team": "tacocats",
      "remaining": 32,
-     "score": 2.5,
+     "score": 1.5,
      "why": [
-      "just dropped Malik Willis",
       "only 1 healthy QB",
       "has bid on a QB before"
      ],
@@ -376,9 +372,8 @@
      "roster_id": 1,
      "team": "tacocats",
      "remaining": 32,
-     "score": 2.5,
+     "score": 1.5,
      "why": [
-      "just dropped Malik Willis",
       "only 1 healthy QB",
       "has bid on a QB before"
      ],
@@ -453,25 +448,6 @@
      "pos_max": 25
     },
     {
-     "roster_id": 1,
-     "team": "tacocats",
-     "remaining": 32,
-     "score": 2.5,
-     "why": [
-      "just dropped Malik Willis",
-      "only 1 healthy QB",
-      "has bid on a QB before"
-     ],
-     "usual_bid": 12,
-     "repeated": [
-      13,
-      12,
-      9,
-      1
-     ],
-     "pos_max": 3
-    },
-    {
      "roster_id": 2,
      "team": "Amateur Hour",
      "remaining": 91,
@@ -486,6 +462,24 @@
       3
      ],
      "pos_max": 7
+    },
+    {
+     "roster_id": 1,
+     "team": "tacocats",
+     "remaining": 32,
+     "score": 1.5,
+     "why": [
+      "only 1 healthy QB",
+      "has bid on a QB before"
+     ],
+     "usual_bid": 12,
+     "repeated": [
+      13,
+      12,
+      9,
+      1
+     ],
+     "pos_max": 3
     }
    ],
    "league_bid": 7,
@@ -549,25 +543,6 @@
      "pos_max": 25
     },
     {
-     "roster_id": 1,
-     "team": "tacocats",
-     "remaining": 32,
-     "score": 2.5,
-     "why": [
-      "just dropped Malik Willis",
-      "only 1 healthy QB",
-      "has bid on a QB before"
-     ],
-     "usual_bid": 12,
-     "repeated": [
-      13,
-      12,
-      9,
-      1
-     ],
-     "pos_max": 3
-    },
-    {
      "roster_id": 4,
      "team": "City of Champyinz",
      "remaining": 91,
@@ -581,6 +556,24 @@
       12
      ],
      "pos_max": 65
+    },
+    {
+     "roster_id": 1,
+     "team": "tacocats",
+     "remaining": 32,
+     "score": 1.5,
+     "why": [
+      "only 1 healthy QB",
+      "has bid on a QB before"
+     ],
+     "usual_bid": 12,
+     "repeated": [
+      13,
+      12,
+      9,
+      1
+     ],
+     "pos_max": 3
     }
    ],
    "league_bid": 7,
@@ -647,9 +640,8 @@
      "roster_id": 1,
      "team": "tacocats",
      "remaining": 32,
-     "score": 2.5,
+     "score": 1.5,
      "why": [
-      "just dropped Malik Willis",
       "only 1 healthy QB",
       "has bid on a QB before"
      ],
@@ -1035,8 +1027,8 @@
      "remaining": 91,
      "score": 6.0,
      "why": [
-      "owns Jeremiyah Love (IR), the ARI RB he would replace",
       "owns Tyler Allgeier, the ARI RB1 (handcuff interest)",
+      "owns Jeremiyah Love (IR), the ARI RB he would replace",
       "bye next week for J.K. Dobbins"
      ],
      "usual_bid": 12,
