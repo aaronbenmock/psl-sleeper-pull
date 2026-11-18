@@ -1,4 +1,4 @@
-"""Wednesday pull catch-up: a late cron must still run the weekly pull (no network)."""
+"""Catch-up for the Wednesday pull and the daily injuries task: a late cron must still run them (no network)."""
 import datetime as dt
 import os
 import sys
@@ -66,6 +66,34 @@ class PullOverdue(unittest.TestCase):
     def test_dst_week(self):
         # Oct 28 (CDT): pull at 11:59 CDT counts for that Wednesday.
         self.assertFalse(self.overdue("2026-10-29T17:18:50Z", "2026-10-28T16:59:40Z"))
+
+
+class InjuriesOverdue(unittest.TestCase):
+    def overdue(self, now, last):
+        return engine_main.injuries_overdue(central(now), last_ok_utc=last)
+
+    def test_late_cron_runs_injuries(self):
+        # Real pattern: first cron of the day started 12:23 CST, injuries last ran a week ago.
+        self.assertTrue(self.overdue("2026-11-18T19:14:33Z", "2026-11-11T19:10:36Z"))
+
+    def test_once_per_day(self):
+        # Already ran at 13:14 CST today: the 13:41 cron must not repeat it.
+        self.assertFalse(self.overdue("2026-11-18T19:41:33Z", "2026-11-18T19:15:00Z"))
+
+    def test_before_six_uses_yesterday(self):
+        # 04:30 CST: due time is yesterday 06:00; yesterday afternoon's run counts.
+        self.assertFalse(self.overdue("2026-11-18T10:30:00Z", "2026-11-17T19:40:00Z"))
+
+    def test_after_six_needs_todays_run(self):
+        self.assertTrue(self.overdue("2026-11-18T12:30:00Z", "2026-11-17T19:40:00Z"))
+
+    def test_late_night_cron_after_missed_morning(self):
+        # 22:25 CST Wednesday, nothing since Tuesday: run.
+        self.assertTrue(self.overdue("2026-11-19T04:25:00Z", "2026-11-17T19:40:00Z"))
+
+    def test_daily_last_due(self):
+        d = last_due(central("2026-11-18T10:30:00Z"), None, 6)   # 04:30 CST
+        self.assertEqual((d.date(), d.hour), (dt.date(2026, 11, 17), 6))
 
 
 class StatusLookup(unittest.TestCase):

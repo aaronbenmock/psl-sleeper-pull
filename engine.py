@@ -86,14 +86,23 @@ def task_vacatedbacktest(args):
     return _run_task("vacatedbacktest", histvacated.main, download=not args.no_download)
 
 
-def pull_overdue(local, last_ok_utc=None):
-    """Catch-up rule: GitHub has been starting crons hours late, past the Wednesday window.
-    If no pull has succeeded since the most recent Wednesday 10:00 Central, any later cron
-    runs the pull instead of skipping it."""
-    sched = config.LOCAL_SCHEDULE["pull"]
-    due = last_due(local, min(sched["days"]), min(sched["hours"]))
-    last = parse_iso(last_ok_utc if last_ok_utc is not None else store.last_ok_finished("pull"))
+def overdue(task, local, last_ok_utc=None):
+    """Catch-up rule: GitHub has been starting crons hours late, past each task's window.
+    A task is overdue when it has not succeeded since its most recent scheduled time
+    (earliest listed hour, on its first listed weekday or any day for a daily task);
+    any later cron then runs it instead of skipping."""
+    sched = config.LOCAL_SCHEDULE[task]
+    due = last_due(local, min(sched["days"]) if sched["days"] else None, min(sched["hours"]))
+    last = parse_iso(last_ok_utc if last_ok_utc is not None else store.last_ok_finished(task))
     return last is None or last < due
+
+
+def pull_overdue(local, last_ok_utc=None):
+    return overdue("pull", local, last_ok_utc)
+
+
+def injuries_overdue(local, last_ok_utc=None):
+    return overdue("injuries", local, last_ok_utc)
 
 
 def decide_auto():
@@ -101,7 +110,7 @@ def decide_auto():
     local = now_central()
     tasks = []
     s = config.LOCAL_SCHEDULE
-    if in_window(local, s["injuries"]["hours"], s["injuries"]["days"]):
+    if in_window(local, s["injuries"]["hours"], s["injuries"]["days"]) or injuries_overdue(local):
         tasks.append("injuries")
     if in_window(local, s["pull"]["hours"], s["pull"]["days"]) or pull_overdue(local):
         tasks.append("pull")
