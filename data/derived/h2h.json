@@ -1,93 +1,95 @@
 {
- "week": 10,
+ "week": 11,
  "available": true,
  "median_game": true,
- "opponent": "Derrelick my Balls",
- "manager": "dlamas",
- "roster_id": 10,
- "my_total": 100.5,
- "opp_set_total": 95.4,
- "opp_best_total": 98.9,
- "verdict": "favored",
- "margin": 5.1,
- "verdict_vs_best": "toss-up",
+ "opponent": "Be Safe, Get Jaxcinated",
+ "manager": "jnally8",
+ "roster_id": 3,
+ "my_total": 82.8,
+ "opp_set_total": 96.7,
+ "opp_best_total": 107.6,
+ "verdict": "underdog",
+ "margin": -13.9,
+ "verdict_vs_best": "underdog",
  "opp_injured": [
   {
-   "name": "Patrick Mahomes",
-   "pos": "QB",
+   "name": "Bhayshul Tuten",
+   "pos": "RB",
    "status": "Questionable",
-   "expected": 20.07,
-   "body": "Elbow"
+   "expected": 12.47,
+   "body": "Ankle"
   }
  ],
- "opp_byes": [],
+ "opp_byes": [
+  "Jaxon Smith-Njigba"
+ ],
  "opp_starters": [
   {
-   "name": "Patrick Mahomes",
+   "name": "Aaron Rodgers",
    "pos": "QB",
-   "expected": 20.07,
+   "expected": 19.5,
+   "injury_status": null,
+   "baseline_only": false
+  },
+  {
+   "name": "Christian McCaffrey",
+   "pos": "RB",
+   "expected": 18.72,
+   "injury_status": null,
+   "baseline_only": false
+  },
+  {
+   "name": "Bhayshul Tuten",
+   "pos": "RB",
+   "expected": 12.47,
    "injury_status": "Questionable",
    "baseline_only": false
   },
   {
-   "name": "Derrick Henry",
-   "pos": "RB",
-   "expected": 14.88,
-   "injury_status": null,
-   "baseline_only": false
-  },
-  {
-   "name": "Dylan Sampson",
-   "pos": "RB",
-   "expected": 5.83,
-   "injury_status": null,
-   "baseline_only": false
-  },
-  {
-   "name": "Rashee Rice",
+   "name": "Jaxon Smith-Njigba",
    "pos": "WR",
-   "expected": 11.46,
+   "expected": 0.0,
    "injury_status": null,
    "baseline_only": false
   },
   {
-   "name": "Caleb Douglas",
+   "name": "Chris Olave",
    "pos": "WR",
-   "expected": 7.86,
+   "expected": 12.71,
    "injury_status": null,
    "baseline_only": false
   },
   {
-   "name": "Brock Bowers",
+   "name": "Trey McBride",
    "pos": "TE",
-   "expected": 13.29,
+   "expected": 11.13,
    "injury_status": null,
    "baseline_only": false
   },
   {
-   "name": "Nico Collins",
+   "name": "Zay Flowers",
    "pos": "WR",
-   "expected": 12.95,
+   "expected": 12.41,
    "injury_status": null,
    "baseline_only": false
   },
   {
-   "name": "MIN DEF",
+   "name": "HOU DEF",
    "pos": "DEF",
-   "expected": 9.07,
+   "expected": 9.74,
    "injury_status": null,
    "baseline_only": false
   }
  ],
- "median_total": 89.2,
- "median_verdict": "favored",
- "median_margin": 11.3,
+ "median_total": 91.4,
+ "median_verdict": "underdog",
+ "median_margin": -8.6,
  "source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-11-17T00:21:13Z",
-  "label": "mon_pm"
+  "taken_at_utc": "2026-11-19T00:01:03Z",
+  "label": "wed_pm"
  },
  "opp_baseline_only": 0,
- "why": "Your recommended lineup projects 100.5; Derrelick my Balls's set lineup 95.4 (best possible from their roster 98.9). Margin +5.1: favored.",
+ "why": "Your recommended lineup projects 82.8; Be Safe, Get Jaxcinated's set lineup 96.7 (best possible from their roster 107.6). Margin -13.9: underdog.",
  "note": "Both sides use the engine blend (0.65 x Sleeper + 0.35 x baseline, injury multipliers), so the totals are comparable. Inside +/-5 points the game is called a toss-up [Guessing]. Your own lineup still follows max expected points; the matchup does not change who you start."
 }

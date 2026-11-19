@@ -1,0 +1,2978 @@
+{
+ "date_central": "2026-11-18",
+ "pulled_at_utc": "2026-11-19T00:01:03Z",
+ "compared_to": "2026-11-11",
+ "n_changes": 152,
+ "n_mine": 15,
+ "changes": [
+  {
+   "player_id": "5045",
+   "name": "Courtland Sutton",
+   "pos": "WR",
+   "team": "DEN",
+   "roster_id": 8,
+   "team_name": "ValKilmersComeback",
+   "is_mine": true,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794196523939,
+     "to": 1794942645644
+    }
+   }
+  },
+  {
+   "player_id": "5846",
+   "name": "DK Metcalf",
+   "pos": "WR",
+   "team": "PIT",
+   "roster_id": 8,
+   "team_name": "ValKilmersComeback",
+   "is_mine": true,
+   "slot": "WR",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1793595343094,
+     "to": 1794846338542
+    }
+   }
+  },
+  {
+   "player_id": "2133",
+   "name": "Davante Adams",
+   "pos": "WR",
+   "team": "LAR",
+   "roster_id": 8,
+   "team_name": "ValKilmersComeback",
+   "is_mine": true,
+   "slot": "IR",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794026406604,
+     "to": 1794759028643
+    },
+    "depth_chart_order": {
+     "from": 4,
+     "to": 5
+    }
+   }
+  },
+  {
+   "player_id": "9501",
+   "name": "DeMario Douglas",
+   "pos": "WR",
+   "team": "NE",
+   "roster_id": 8,
+   "team_name": "ValKilmersComeback",
+   "is_mine": true,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794239128340,
+     "to": 1794968748037
+    },
+    "depth_chart_order": {
+     "from": 1,
+     "to": 2
+    }
+   }
+  },
+  {
+   "player_id": "5872",
+   "name": "Deebo Samuel Sr.",
+   "pos": "WR",
+   "team": "SF",
+   "roster_id": 8,
+   "team_name": "ValKilmersComeback",
+   "is_mine": true,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "injury_status": {
+     "from": "Questionable",
+     "to": null
+    },
+    "injury_body_part": {
+     "from": "Hamstring",
+     "to": null
+    },
+    "news_updated": {
+     "from": 1794274544076,
+     "to": 1794802833452
+    },
+    "depth_chart_order": {
+     "from": 9,
+     "to": 2
+    }
+   }
+  },
+  {
+   "player_id": "13346",
+   "name": "Denzel Boston",
+   "pos": "WR",
+   "team": "CLE",
+   "roster_id": 8,
+   "team_name": "ValKilmersComeback",
+   "is_mine": true,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "injury_status": {
+     "from": "Questionable",
+     "to": null
+    },
+    "injury_body_part": {
+     "from": "Toe",
+     "to": null
+    },
+    "news_updated": {
+     "from": 1794421228582,
+     "to": 1794792032298
+    }
+   }
+  },
+  {
+   "player_id": "5947",
+   "name": "Jakobi Meyers",
+   "pos": "WR",
+   "team": "JAX",
+   "roster_id": 8,
+   "team_name": "ValKilmersComeback",
+   "is_mine": true,
+   "slot": "WR",
+   "kind": "changed",
+   "fields": {
+    "injury_status": {
+     "from": null,
+     "to": "Questionable"
+    },
+    "injury_body_part": {
+     "from": null,
+     "to": "Appendix"
+    },
+    "news_updated": {
+     "from": 1794018007107,
+     "to": 1795044955021
+    }
+   }
+  },
+  {
+   "player_id": "6813",
+   "name": "Jonathan Taylor",
+   "pos": "RB",
+   "team": "IND",
+   "roster_id": 8,
+   "team_name": "ValKilmersComeback",
+   "is_mine": true,
+   "slot": "RB",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794342618885,
+     "to": 1795030553714
+    }
+   }
+  },
+  {
+   "player_id": "4984",
+   "name": "Josh Allen",
+   "pos": "QB",
+   "team": "BUF",
+   "roster_id": 8,
+   "team_name": "ValKilmersComeback",
+   "is_mine": true,
+   "slot": "QB",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794322550611,
+     "to": 1794780330968
+    }
+   }
+  },
+  {
+   "player_id": "12495",
+   "name": "Ollie Gordon II",
+   "pos": "RB",
+   "team": "MIA",
+   "roster_id": 8,
+   "team_name": "ValKilmersComeback",
+   "is_mine": true,
+   "slot": "RB",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794179722643,
+     "to": 1795016752518
+    }
+   }
+  },
+  {
+   "player_id": "7021",
+   "name": "Rico Dowdle",
+   "pos": "RB",
+   "team": "PIT",
+   "roster_id": 8,
+   "team_name": "ValKilmersComeback",
+   "is_mine": true,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794411025553,
+     "to": 1794846338529
+    }
+   }
+  },
+  {
+   "player_id": "5844",
+   "name": "T.J. Hockenson",
+   "pos": "TE",
+   "team": "MIN",
+   "roster_id": 8,
+   "team_name": "ValKilmersComeback",
+   "is_mine": true,
+   "slot": "BN",
+   "kind": "left_roster",
+   "fields": {}
+  },
+  {
+   "player_id": "8126",
+   "name": "Wan'Dale Robinson",
+   "pos": "WR",
+   "team": "TEN",
+   "roster_id": 8,
+   "team_name": "ValKilmersComeback",
+   "is_mine": true,
+   "slot": "BN",
+   "kind": "new_on_roster",
+   "fields": {}
+  },
+  {
+   "player_id": "12474",
+   "name": "Woody Marks",
+   "pos": "RB",
+   "team": "HOU",
+   "roster_id": 8,
+   "team_name": "ValKilmersComeback",
+   "is_mine": true,
+   "slot": "FLEX",
+   "kind": "changed",
+   "fields": {
+    "injury_status": {
+     "from": null,
+     "to": "Out"
+    },
+    "injury_body_part": {
+     "from": null,
+     "to": "Concussion"
+    },
+    "news_updated": {
+     "from": 1794234029410,
+     "to": 1795035654545
+    },
+    "depth_chart_order": {
+     "from": 1,
+     "to": 3
+    }
+   }
+  },
+  {
+   "player_id": "9753",
+   "name": "Zach Charbonnet",
+   "pos": "RB",
+   "team": "SEA",
+   "roster_id": 8,
+   "team_name": "ValKilmersComeback",
+   "is_mine": true,
+   "slot": "FLEX",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794411625681,
+     "to": 1794814535737
+    }
+   }
+  },
+  {
+   "player_id": "5859",
+   "name": "A.J. Brown",
+   "pos": "WR",
+   "team": "NE",
+   "roster_id": 2,
+   "team_name": "Amateur Hour",
+   "is_mine": false,
+   "slot": "WR",
+   "kind": "changed",
+   "fields": {
+    "injury_status": {
+     "from": "Questionable",
+     "to": "Out"
+    },
+    "injury_body_part": {
+     "from": "Knee",
+     "to": "Hamstring"
+    },
+    "news_updated": {
+     "from": 1794244828861,
+     "to": 1794791732158
+    },
+    "depth_chart_order": {
+     "from": 5,
+     "to": 1
+    }
+   }
+  },
+  {
+   "player_id": "11625",
+   "name": "Adonai Mitchell",
+   "pos": "WR",
+   "team": "NYJ",
+   "roster_id": 2,
+   "team_name": "Amateur Hour",
+   "is_mine": false,
+   "slot": "FLEX",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794238228347,
+     "to": 1794843036663
+    },
+    "depth_chart_order": {
+     "from": 1,
+     "to": 2
+    }
+   }
+  },
+  {
+   "player_id": "4035",
+   "name": "Alvin Kamara",
+   "pos": "RB",
+   "team": "NO",
+   "roster_id": 2,
+   "team_name": "Amateur Hour",
+   "is_mine": false,
+   "slot": "RB",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794197425413,
+     "to": 1794793532349
+    },
+    "depth_chart_order": {
+     "from": 1,
+     "to": 2
+    }
+   }
+  },
+  {
+   "player_id": "13417",
+   "name": "De'Zhaun Stribling",
+   "pos": "WR",
+   "team": "SF",
+   "roster_id": 2,
+   "team_name": "Amateur Hour",
+   "is_mine": false,
+   "slot": "IR",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794410125428,
+     "to": 1795038954646
+    }
+   }
+  },
+  {
+   "player_id": "11564",
+   "name": "Drake Maye",
+   "pos": "QB",
+   "team": "NE",
+   "roster_id": 2,
+   "team_name": "Amateur Hour",
+   "is_mine": false,
+   "slot": "QB",
+   "kind": "changed",
+   "fields": {
+    "injury_status": {
+     "from": null,
+     "to": "Out"
+    },
+    "injury_body_part": {
+     "from": null,
+     "to": "Ankle"
+    },
+    "news_updated": {
+     "from": 1794194424197,
+     "to": 1794958247056
+    }
+   }
+  },
+  {
+   "player_id": "3214",
+   "name": "Hunter Henry",
+   "pos": "TE",
+   "team": "NE",
+   "roster_id": 2,
+   "team_name": "Amateur Hour",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794229829065,
+     "to": 1794797133866
+    }
+   }
+  },
+  {
+   "player_id": "11643",
+   "name": "Jaylen Wright",
+   "pos": "RB",
+   "team": "MIA",
+   "roster_id": 2,
+   "team_name": "Amateur Hour",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "injury_status": {
+     "from": "Questionable",
+     "to": null
+    },
+    "injury_body_part": {
+     "from": "Quadriceps",
+     "to": null
+    },
+    "news_updated": {
+     "from": 1794157519206,
+     "to": 1794880840612
+    },
+    "depth_chart_order": {
+     "from": 6,
+     "to": 2
+    }
+   }
+  },
+  {
+   "player_id": "13345",
+   "name": "Jonah Coleman",
+   "pos": "RB",
+   "team": "DEN",
+   "roster_id": 2,
+   "team_name": "Amateur Hour",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794187524351,
+     "to": 1794937845302
+    }
+   }
+  },
+  {
+   "player_id": "7567",
+   "name": "Kenny Gainwell",
+   "pos": "RB",
+   "team": "TB",
+   "roster_id": 2,
+   "team_name": "Amateur Hour",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794222028335,
+     "to": 1794842136600
+    }
+   }
+  },
+  {
+   "player_id": "4177",
+   "name": "Mack Hollins",
+   "pos": "WR",
+   "team": "NE",
+   "roster_id": 2,
+   "team_name": "Amateur Hour",
+   "is_mine": false,
+   "slot": "FLEX",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794282044760,
+     "to": 1794796833937
+    },
+    "depth_chart_order": {
+     "from": 2,
+     "to": 3
+    }
+   }
+  },
+  {
+   "player_id": "11620",
+   "name": "Rome Odunze",
+   "pos": "WR",
+   "team": "CHI",
+   "roster_id": 2,
+   "team_name": "Amateur Hour",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794220528017,
+     "to": 1794945345934
+    }
+   }
+  },
+  {
+   "player_id": "12526",
+   "name": "Tetairoa McMillan",
+   "pos": "WR",
+   "team": "CAR",
+   "roster_id": 2,
+   "team_name": "Amateur Hour",
+   "is_mine": false,
+   "slot": "WR",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794188124484,
+     "to": 1794798332371
+    }
+   }
+  },
+  {
+   "player_id": "7543",
+   "name": "Travis Etienne Jr.",
+   "pos": "RB",
+   "team": "NO",
+   "roster_id": 2,
+   "team_name": "Amateur Hour",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "injury_status": {
+     "from": "IR",
+     "to": null
+    },
+    "injury_body_part": {
+     "from": "Hamstring",
+     "to": null
+    },
+    "injury_notes": {
+     "from": "Strain",
+     "to": null
+    },
+    "news_updated": {
+     "from": 1794358520189,
+     "to": 1794799233094
+    },
+    "depth_chart_order": {
+     "from": 4,
+     "to": 1
+    },
+    "status": {
+     "from": "Inactive",
+     "to": "Active"
+    }
+   }
+  },
+  {
+   "player_id": "7547",
+   "name": "Amon-Ra St. Brown",
+   "pos": "WR",
+   "team": "DET",
+   "roster_id": 12,
+   "team_name": "Baker\u2019s Dozen",
+   "is_mine": false,
+   "slot": "WR",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794183324418,
+     "to": 1794783332900
+    }
+   }
+  },
+  {
+   "player_id": "11631",
+   "name": "Brian Thomas Jr.",
+   "pos": "WR",
+   "team": "JAX",
+   "roster_id": 12,
+   "team_name": "Baker\u2019s Dozen",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794356420128,
+     "to": 1794972648712
+    }
+   }
+  },
+  {
+   "player_id": "11584",
+   "name": "Bucky Irving",
+   "pos": "RB",
+   "team": "TB",
+   "roster_id": 12,
+   "team_name": "Baker\u2019s Dozen",
+   "is_mine": false,
+   "slot": "RB",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794254146039,
+     "to": 1794938145406
+    }
+   }
+  },
+  {
+   "player_id": "3294",
+   "name": "Dak Prescott",
+   "pos": "QB",
+   "team": "DAL",
+   "roster_id": 12,
+   "team_name": "Baker\u2019s Dozen",
+   "is_mine": false,
+   "slot": "QB",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794324349296,
+     "to": 1794801933256
+    }
+   }
+  },
+  {
+   "player_id": "12506",
+   "name": "Harold Fannin Jr.",
+   "pos": "TE",
+   "team": "CLE",
+   "roster_id": 12,
+   "team_name": "Baker\u2019s Dozen",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794194425547,
+     "to": 1794786332065
+    }
+   }
+  },
+  {
+   "player_id": "3163",
+   "name": "Jared Goff",
+   "pos": "QB",
+   "team": "DET",
+   "roster_id": 12,
+   "team_name": "Baker\u2019s Dozen",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794183623893,
+     "to": 1794782732525
+    }
+   }
+  },
+  {
+   "player_id": "9756",
+   "name": "Jordan Addison",
+   "pos": "WR",
+   "team": "MIN",
+   "roster_id": 12,
+   "team_name": "Baker\u2019s Dozen",
+   "is_mine": false,
+   "slot": "IR",
+   "kind": "changed",
+   "fields": {
+    "injury_status": {
+     "from": null,
+     "to": "Out"
+    },
+    "injury_body_part": {
+     "from": null,
+     "to": "Thumb"
+    },
+    "news_updated": {
+     "from": 1794323150583,
+     "to": 1795031153987
+    },
+    "depth_chart_order": {
+     "from": 2,
+     "to": 5
+    }
+   }
+  },
+  {
+   "player_id": "13414",
+   "name": "Kaelon Black",
+   "pos": "RB",
+   "team": "SF",
+   "roster_id": 12,
+   "team_name": "Baker\u2019s Dozen",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794236128071,
+     "to": 1794841836543
+    }
+   }
+  },
+  {
+   "player_id": "8151",
+   "name": "Kenneth Walker III",
+   "pos": "RB",
+   "team": "KC",
+   "roster_id": 12,
+   "team_name": "Baker\u2019s Dozen",
+   "is_mine": false,
+   "slot": "RB",
+   "kind": "changed",
+   "fields": {
+    "injury_status": {
+     "from": null,
+     "to": "Questionable"
+    },
+    "injury_body_part": {
+     "from": null,
+     "to": "Groin"
+    },
+    "news_updated": {
+     "from": 1794176722024,
+     "to": 1795027555108
+    }
+   }
+  },
+  {
+   "player_id": "6801",
+   "name": "Tee Higgins",
+   "pos": "WR",
+   "team": "CIN",
+   "roster_id": 12,
+   "team_name": "Baker\u2019s Dozen",
+   "is_mine": false,
+   "slot": "WR",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794168620543,
+     "to": 1794877840087
+    }
+   }
+  },
+  {
+   "player_id": "5967",
+   "name": "Tony Pollard",
+   "pos": "RB",
+   "team": "TEN",
+   "roster_id": 12,
+   "team_name": "Baker\u2019s Dozen",
+   "is_mine": false,
+   "slot": "FLEX",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794419126301,
+     "to": 1794814233950
+    }
+   }
+  },
+  {
+   "player_id": "3271",
+   "name": "Tyler Higbee",
+   "pos": "TE",
+   "team": "LAR",
+   "roster_id": 12,
+   "team_name": "Baker\u2019s Dozen",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794358820649,
+     "to": 1794883240653
+    }
+   }
+  },
+  {
+   "player_id": "4199",
+   "name": "Aaron Jones Sr.",
+   "pos": "RB",
+   "team": "MIN",
+   "roster_id": 3,
+   "team_name": "Be Safe, Get Jaxcinated",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794323750861,
+     "to": 1795014952251
+    },
+    "depth_chart_order": {
+     "from": 1,
+     "to": 2
+    }
+   }
+  },
+  {
+   "player_id": "12527",
+   "name": "Ashton Jeanty",
+   "pos": "RB",
+   "team": "LV",
+   "roster_id": 3,
+   "team_name": "Be Safe, Get Jaxcinated",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794205526497,
+     "to": 1795019752735
+    }
+   }
+  },
+  {
+   "player_id": "12490",
+   "name": "Bhayshul Tuten",
+   "pos": "RB",
+   "team": "JAX",
+   "roster_id": 3,
+   "team_name": "Be Safe, Get Jaxcinated",
+   "is_mine": false,
+   "slot": "RB",
+   "kind": "changed",
+   "fields": {
+    "injury_status": {
+     "from": null,
+     "to": "Questionable"
+    },
+    "injury_body_part": {
+     "from": null,
+     "to": "Ankle"
+    },
+    "news_updated": {
+     "from": 1794411625679,
+     "to": 1795044655175
+    }
+   }
+  },
+  {
+   "player_id": "11586",
+   "name": "Blake Corum",
+   "pos": "RB",
+   "team": "LAR",
+   "roster_id": 3,
+   "team_name": "Be Safe, Get Jaxcinated",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794240630296,
+     "to": 1794812435590
+    }
+   }
+  },
+  {
+   "player_id": "11563",
+   "name": "Bo Nix",
+   "pos": "QB",
+   "team": "DEN",
+   "roster_id": 3,
+   "team_name": "Be Safe, Get Jaxcinated",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794187524366,
+     "to": 1794938745422
+    }
+   }
+  },
+  {
+   "player_id": "8144",
+   "name": "Chris Olave",
+   "pos": "WR",
+   "team": "NO",
+   "roster_id": 3,
+   "team_name": "Be Safe, Get Jaxcinated",
+   "is_mine": false,
+   "slot": "WR",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794196225311,
+     "to": 1794798632882
+    }
+   }
+  },
+  {
+   "player_id": "10219",
+   "name": "Chris Rodriguez Jr.",
+   "pos": "RB",
+   "team": "JAX",
+   "roster_id": 3,
+   "team_name": "Be Safe, Get Jaxcinated",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "injury_status": {
+     "from": null,
+     "to": "Questionable"
+    },
+    "injury_body_part": {
+     "from": null,
+     "to": "Hand"
+    },
+    "news_updated": {
+     "from": 1794240031106,
+     "to": 1795045555143
+    }
+   }
+  },
+  {
+   "player_id": "4034",
+   "name": "Christian McCaffrey",
+   "pos": "RB",
+   "team": "SF",
+   "roster_id": 3,
+   "team_name": "Be Safe, Get Jaxcinated",
+   "is_mine": false,
+   "slot": "RB",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794206426943,
+     "to": 1794798332986
+    }
+   }
+  },
+  {
+   "player_id": "9488",
+   "name": "Jaxon Smith-Njigba",
+   "pos": "WR",
+   "team": "SEA",
+   "roster_id": 3,
+   "team_name": "Be Safe, Get Jaxcinated",
+   "is_mine": false,
+   "slot": "WR",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794204926464,
+     "to": 1794814535702
+    }
+   }
+  },
+  {
+   "player_id": "4881",
+   "name": "Lamar Jackson",
+   "pos": "QB",
+   "team": "BAL",
+   "roster_id": 3,
+   "team_name": "Be Safe, Get Jaxcinated",
+   "is_mine": false,
+   "slot": "IR",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794145217983,
+     "to": 1795018852601
+    },
+    "depth_chart_order": {
+     "from": 3,
+     "to": 2
+    }
+   }
+  },
+  {
+   "player_id": "8130",
+   "name": "Trey McBride",
+   "pos": "TE",
+   "team": "ARI",
+   "roster_id": 3,
+   "team_name": "Be Safe, Get Jaxcinated",
+   "is_mine": false,
+   "slot": "FLEX",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794203726219,
+     "to": 1794813935677
+    }
+   }
+  },
+  {
+   "player_id": "12518",
+   "name": "Tyler Warren",
+   "pos": "TE",
+   "team": "IND",
+   "roster_id": 3,
+   "team_name": "Be Safe, Get Jaxcinated",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794192025245,
+     "to": 1795030853842
+    }
+   }
+  },
+  {
+   "player_id": "9997",
+   "name": "Zay Flowers",
+   "pos": "WR",
+   "team": "BAL",
+   "roster_id": 3,
+   "team_name": "Be Safe, Get Jaxcinated",
+   "is_mine": false,
+   "slot": "FLEX",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794019807357,
+     "to": 1794921045092
+    }
+   }
+  },
+  {
+   "player_id": "6786",
+   "name": "CeeDee Lamb",
+   "pos": "WR",
+   "team": "DAL",
+   "roster_id": 7,
+   "team_name": "Cheeky Nando\u2019s",
+   "is_mine": false,
+   "slot": "WR",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794177322105,
+     "to": 1794801933260
+    }
+   }
+  },
+  {
+   "player_id": "11834",
+   "name": "Devaughn Vele",
+   "pos": "WR",
+   "team": "NO",
+   "roster_id": 7,
+   "team_name": "Cheeky Nando\u2019s",
+   "is_mine": false,
+   "slot": "FLEX",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794282945345,
+     "to": 1794970247955
+    },
+    "depth_chart_order": {
+     "from": 2,
+     "to": 3
+    }
+   }
+  },
+  {
+   "player_id": "6770",
+   "name": "Joe Burrow",
+   "pos": "QB",
+   "team": "CIN",
+   "roster_id": 7,
+   "team_name": "Cheeky Nando\u2019s",
+   "is_mine": false,
+   "slot": "QB",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794167122658,
+     "to": 1794844238184
+    }
+   }
+  },
+  {
+   "player_id": "6804",
+   "name": "Jordan Love",
+   "pos": "QB",
+   "team": "GB",
+   "roster_id": 7,
+   "team_name": "Cheeky Nando\u2019s",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794192324047,
+     "to": 1794789632254
+    }
+   }
+  },
+  {
+   "player_id": "8408",
+   "name": "Jordan Mason",
+   "pos": "RB",
+   "team": "MIN",
+   "roster_id": 7,
+   "team_name": "Cheeky Nando\u2019s",
+   "is_mine": false,
+   "slot": "RB",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794323750482,
+     "to": 1795016752516
+    },
+    "depth_chart_order": {
+     "from": 2,
+     "to": 1
+    }
+   }
+  },
+  {
+   "player_id": "5850",
+   "name": "Josh Jacobs",
+   "pos": "RB",
+   "team": "GB",
+   "roster_id": 7,
+   "team_name": "Cheeky Nando\u2019s",
+   "is_mine": false,
+   "slot": "IR",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794422128351,
+     "to": 1794930044815
+    },
+    "depth_chart_order": {
+     "from": 3,
+     "to": 4
+    }
+   }
+  },
+  {
+   "player_id": "11632",
+   "name": "Malik Nabers",
+   "pos": "WR",
+   "team": "NYG",
+   "roster_id": 7,
+   "team_name": "Cheeky Nando\u2019s",
+   "is_mine": false,
+   "slot": "WR",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794346519159,
+     "to": 1794577829911
+    }
+   }
+  },
+  {
+   "player_id": "2216",
+   "name": "Mike Evans",
+   "pos": "WR",
+   "team": "SF",
+   "roster_id": 7,
+   "team_name": "Cheeky Nando\u2019s",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794327349730,
+     "to": 1795028455569
+    },
+    "depth_chart_order": {
+     "from": 6,
+     "to": 1
+    }
+   }
+  },
+  {
+   "player_id": "9493",
+   "name": "Puka Nacua",
+   "pos": "WR",
+   "team": "LAR",
+   "roster_id": 7,
+   "team_name": "Cheeky Nando\u2019s",
+   "is_mine": false,
+   "slot": "IR",
+   "kind": "changed",
+   "fields": {
+    "injury_status": {
+     "from": "Doubtful",
+     "to": "IR"
+    },
+    "news_updated": {
+     "from": 1794420628498,
+     "to": 1795012552069
+    },
+    "depth_chart_order": {
+     "from": 6,
+     "to": 7
+    }
+   }
+  },
+  {
+   "player_id": "7611",
+   "name": "Rhamondre Stevenson",
+   "pos": "RB",
+   "team": "NE",
+   "roster_id": 7,
+   "team_name": "Cheeky Nando\u2019s",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "injury_status": {
+     "from": "Doubtful",
+     "to": null
+    },
+    "injury_body_part": {
+     "from": "Knee",
+     "to": null
+    },
+    "news_updated": {
+     "from": 1794325849651,
+     "to": 1794796233809
+    }
+   }
+  },
+  {
+   "player_id": "10859",
+   "name": "Sam LaPorta",
+   "pos": "TE",
+   "team": "DET",
+   "roster_id": 7,
+   "team_name": "Cheeky Nando\u2019s",
+   "is_mine": false,
+   "slot": "FLEX",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794327049665,
+     "to": 1795014052193
+    }
+   }
+  },
+  {
+   "player_id": "12529",
+   "name": "TreVeyon Henderson",
+   "pos": "RB",
+   "team": "NE",
+   "roster_id": 7,
+   "team_name": "Cheeky Nando\u2019s",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "injury_status": {
+     "from": "Questionable",
+     "to": "IR"
+    },
+    "news_updated": {
+     "from": 1793991316366,
+     "to": 1794971748265
+    },
+    "status": {
+     "from": "Active",
+     "to": "Inactive"
+    }
+   }
+  },
+  {
+   "player_id": "9509",
+   "name": "Bijan Robinson",
+   "pos": "RB",
+   "team": "ATL",
+   "roster_id": 4,
+   "team_name": "City of Champyinz",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794406525090,
+     "to": 1794788432941
+    }
+   }
+  },
+  {
+   "player_id": "4983",
+   "name": "DJ Moore",
+   "pos": "WR",
+   "team": "BUF",
+   "roster_id": 4,
+   "team_name": "City of Champyinz",
+   "is_mine": false,
+   "slot": "WR",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794319550190,
+     "to": 1794795032092
+    }
+   }
+  },
+  {
+   "player_id": "7525",
+   "name": "DeVonta Smith",
+   "pos": "WR",
+   "team": "PHI",
+   "roster_id": 4,
+   "team_name": "City of Champyinz",
+   "is_mine": false,
+   "slot": "FLEX",
+   "kind": "changed",
+   "fields": {
+    "injury_status": {
+     "from": "Out",
+     "to": "Questionable"
+    },
+    "news_updated": {
+     "from": 1794002704514,
+     "to": 1795043155143
+    },
+    "depth_chart_order": {
+     "from": 5,
+     "to": 1
+    }
+   }
+  },
+  {
+   "player_id": "13337",
+   "name": "Emmett Johnson",
+   "pos": "RB",
+   "team": "KC",
+   "roster_id": 4,
+   "team_name": "City of Champyinz",
+   "is_mine": false,
+   "slot": "RB",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794235227902,
+     "to": 1794786932724
+    }
+   }
+  },
+  {
+   "player_id": "1373",
+   "name": "Geno Smith",
+   "pos": "QB",
+   "team": "NYJ",
+   "roster_id": 4,
+   "team_name": "City of Champyinz",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "injury_status": {
+     "from": null,
+     "to": "Questionable"
+    },
+    "injury_body_part": {
+     "from": null,
+     "to": "Ankle"
+    },
+    "news_updated": {
+     "from": 1794410425406,
+     "to": 1795042555014
+    }
+   }
+  },
+  {
+   "player_id": "6806",
+   "name": "J.K. Dobbins",
+   "pos": "RB",
+   "team": "DEN",
+   "roster_id": 4,
+   "team_name": "City of Champyinz",
+   "is_mine": false,
+   "slot": "FLEX",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794412225655,
+     "to": 1794970848002
+    }
+   }
+  },
+  {
+   "player_id": "3634",
+   "name": "Kalif Raymond",
+   "pos": "WR",
+   "team": "CHI",
+   "roster_id": 4,
+   "team_name": "City of Champyinz",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794360020930,
+     "to": 1795015852277
+    }
+   }
+  },
+  {
+   "player_id": "11637",
+   "name": "Keon Coleman",
+   "pos": "WR",
+   "team": "BUF",
+   "roster_id": 4,
+   "team_name": "City of Champyinz",
+   "is_mine": false,
+   "slot": "WR",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794318949984,
+     "to": 1794875439741
+    }
+   }
+  },
+  {
+   "player_id": "12718",
+   "name": "Konata Mumpfield",
+   "pos": "WR",
+   "team": "LAR",
+   "roster_id": 4,
+   "team_name": "City of Champyinz",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794358520571,
+     "to": 1794866138766
+    }
+   }
+  },
+  {
+   "player_id": "11581",
+   "name": "MarShawn Lloyd",
+   "pos": "RB",
+   "team": "GB",
+   "roster_id": 4,
+   "team_name": "City of Champyinz",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "injury_status": {
+     "from": "Questionable",
+     "to": null
+    },
+    "injury_body_part": {
+     "from": "Knee",
+     "to": null
+    },
+    "news_updated": {
+     "from": 1794168921003,
+     "to": 1794791132166
+    },
+    "depth_chart_order": {
+     "from": 5,
+     "to": 1
+    }
+   }
+  },
+  {
+   "player_id": "8132",
+   "name": "Tyler Allgeier",
+   "pos": "RB",
+   "team": "ARI",
+   "roster_id": 4,
+   "team_name": "City of Champyinz",
+   "is_mine": false,
+   "slot": "RB",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794203726249,
+     "to": 1794813935748
+    }
+   }
+  },
+  {
+   "player_id": "12545",
+   "name": "Tyler Shough",
+   "pos": "QB",
+   "team": "NO",
+   "roster_id": 4,
+   "team_name": "City of Champyinz",
+   "is_mine": false,
+   "slot": "QB",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794416426068,
+     "to": 1794798933210
+    }
+   }
+  },
+  {
+   "player_id": "11604",
+   "name": "Brock Bowers",
+   "pos": "TE",
+   "team": "LV",
+   "roster_id": 10,
+   "team_name": "Derrelick my Balls",
+   "is_mine": false,
+   "slot": "FLEX",
+   "kind": "changed",
+   "fields": {
+    "injury_status": {
+     "from": null,
+     "to": "Questionable"
+    },
+    "injury_body_part": {
+     "from": null,
+     "to": "Ankle"
+    },
+    "news_updated": {
+     "from": 1794205526443,
+     "to": 1795039554784
+    }
+   }
+  },
+  {
+   "player_id": "9758",
+   "name": "C.J. Stroud",
+   "pos": "QB",
+   "team": "HOU",
+   "roster_id": 10,
+   "team_name": "Derrelick my Balls",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794234029418,
+     "to": 1794975648474
+    }
+   }
+  },
+  {
+   "player_id": "13296",
+   "name": "Caleb Douglas",
+   "pos": "WR",
+   "team": "MIA",
+   "roster_id": 10,
+   "team_name": "Derrelick my Balls",
+   "is_mine": false,
+   "slot": "WR",
+   "kind": "changed",
+   "fields": {
+    "injury_status": {
+     "from": null,
+     "to": "Questionable"
+    },
+    "injury_body_part": {
+     "from": null,
+     "to": "Shoulder"
+    },
+    "news_updated": {
+     "from": 1794238528299,
+     "to": 1795039854953
+    },
+    "depth_chart_order": {
+     "from": 2,
+     "to": 1
+    }
+   }
+  },
+  {
+   "player_id": "3198",
+   "name": "Derrick Henry",
+   "pos": "RB",
+   "team": "BAL",
+   "roster_id": 10,
+   "team_name": "Derrelick my Balls",
+   "is_mine": false,
+   "slot": "RB",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794249045509,
+     "to": 1794920745452
+    }
+   }
+  },
+  {
+   "player_id": "12469",
+   "name": "Dylan Sampson",
+   "pos": "RB",
+   "team": "CLE",
+   "roster_id": 10,
+   "team_name": "Derrelick my Balls",
+   "is_mine": false,
+   "slot": "RB",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794240328482,
+     "to": 1794804333567
+    }
+   }
+  },
+  {
+   "player_id": "8146",
+   "name": "Garrett Wilson",
+   "pos": "WR",
+   "team": "NYJ",
+   "roster_id": 10,
+   "team_name": "Derrelick my Balls",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "injury_status": {
+     "from": "Questionable",
+     "to": null
+    },
+    "injury_body_part": {
+     "from": "Concussion",
+     "to": null
+    },
+    "news_updated": {
+     "from": 1794420327626,
+     "to": 1794803732884
+    },
+    "depth_chart_order": {
+     "from": 6,
+     "to": 1
+    }
+   }
+  },
+  {
+   "player_id": "13274",
+   "name": "Germie Bernard",
+   "pos": "WR",
+   "team": "PIT",
+   "roster_id": 10,
+   "team_name": "Derrelick my Balls",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1793597441992,
+     "to": 1794970848002
+    }
+   }
+  },
+  {
+   "player_id": "4137",
+   "name": "James Conner",
+   "pos": "RB",
+   "team": "ARI",
+   "roster_id": 10,
+   "team_name": "Derrelick my Balls",
+   "is_mine": false,
+   "slot": "IR",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794326749460,
+     "to": 1795038054599
+    }
+   }
+  },
+  {
+   "player_id": "12534",
+   "name": "Kyle Monangai",
+   "pos": "RB",
+   "team": "CHI",
+   "roster_id": 10,
+   "team_name": "Derrelick my Balls",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "injury_status": {
+     "from": "Out",
+     "to": null
+    },
+    "injury_body_part": {
+     "from": "Toe",
+     "to": null
+    },
+    "injury_notes": {
+     "from": "Sprain",
+     "to": null
+    },
+    "news_updated": {
+     "from": 1794183322490,
+     "to": 1795042854835
+    },
+    "depth_chart_order": {
+     "from": 6,
+     "to": 2
+    }
+   }
+  },
+  {
+   "player_id": "7569",
+   "name": "Nico Collins",
+   "pos": "WR",
+   "team": "HOU",
+   "roster_id": 10,
+   "team_name": "Derrelick my Balls",
+   "is_mine": false,
+   "slot": "FLEX",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794234329183,
+     "to": 1794853537537
+    }
+   }
+  },
+  {
+   "player_id": "4046",
+   "name": "Patrick Mahomes",
+   "pos": "QB",
+   "team": "KC",
+   "roster_id": 10,
+   "team_name": "Derrelick my Balls",
+   "is_mine": false,
+   "slot": "QB",
+   "kind": "changed",
+   "fields": {
+    "injury_status": {
+     "from": "Questionable",
+     "to": null
+    },
+    "injury_body_part": {
+     "from": "Elbow",
+     "to": null
+    },
+    "news_updated": {
+     "from": 1794422128681,
+     "to": 1794798332372
+    }
+   }
+  },
+  {
+   "player_id": "12489",
+   "name": "RJ Harvey",
+   "pos": "RB",
+   "team": "DEN",
+   "roster_id": 10,
+   "team_name": "Derrelick my Balls",
+   "is_mine": false,
+   "slot": "IR",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1793478626561,
+     "to": 1794843936787
+    }
+   }
+  },
+  {
+   "player_id": "10229",
+   "name": "Rashee Rice",
+   "pos": "WR",
+   "team": "KC",
+   "roster_id": 10,
+   "team_name": "Derrelick my Balls",
+   "is_mine": false,
+   "slot": "WR",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794180922845,
+     "to": 1795015252278
+    }
+   }
+  },
+  {
+   "player_id": "9502",
+   "name": "Tank Dell",
+   "pos": "WR",
+   "team": "HOU",
+   "roster_id": 10,
+   "team_name": "Derrelick my Balls",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794241530491,
+     "to": 1794842736535
+    },
+    "depth_chart_order": {
+     "from": 5,
+     "to": 3
+    }
+   }
+  },
+  {
+   "player_id": "12517",
+   "name": "Colston Loveland",
+   "pos": "TE",
+   "team": "CHI",
+   "roster_id": 5,
+   "team_name": "Eazy E Squad",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794220828174,
+     "to": 1794942045596
+    }
+   }
+  },
+  {
+   "player_id": "5892",
+   "name": "David Montgomery",
+   "pos": "RB",
+   "team": "HOU",
+   "roster_id": 5,
+   "team_name": "Eazy E Squad",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "injury_status": {
+     "from": "Questionable",
+     "to": null
+    },
+    "injury_body_part": {
+     "from": "Groin",
+     "to": null
+    },
+    "news_updated": {
+     "from": 1794258946481,
+     "to": 1795040754646
+    },
+    "depth_chart_order": {
+     "from": 4,
+     "to": 1
+    }
+   }
+  },
+  {
+   "player_id": "8137",
+   "name": "George Pickens",
+   "pos": "WR",
+   "team": "DAL",
+   "roster_id": 5,
+   "team_name": "Eazy E Squad",
+   "is_mine": false,
+   "slot": "WR",
+   "kind": "changed",
+   "fields": {
+    "injury_status": {
+     "from": "Questionable",
+     "to": null
+    },
+    "injury_body_part": {
+     "from": "Hamstring",
+     "to": null
+    },
+    "news_updated": {
+     "from": 1794422126742,
+     "to": 1795013152201
+    },
+    "depth_chart_order": {
+     "from": 4,
+     "to": 2
+    }
+   }
+  },
+  {
+   "player_id": "11646",
+   "name": "Jalen Coker",
+   "pos": "WR",
+   "team": "CAR",
+   "roster_id": 5,
+   "team_name": "Eazy E Squad",
+   "is_mine": false,
+   "slot": "FLEX",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794192924029,
+     "to": 1794803133320
+    }
+   }
+  },
+  {
+   "player_id": "8228",
+   "name": "Jaylen Warren",
+   "pos": "RB",
+   "team": "PIT",
+   "roster_id": 5,
+   "team_name": "Eazy E Squad",
+   "is_mine": false,
+   "slot": "RB",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794410425404,
+     "to": 1794846038307
+    }
+   }
+  },
+  {
+   "player_id": "6794",
+   "name": "Justin Jefferson",
+   "pos": "WR",
+   "team": "MIN",
+   "roster_id": 5,
+   "team_name": "Eazy E Squad",
+   "is_mine": false,
+   "slot": "WR",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794417326301,
+     "to": 1794879341331
+    }
+   }
+  },
+  {
+   "player_id": "13298",
+   "name": "KC Concepcion Jr.",
+   "pos": "WR",
+   "team": "CLE",
+   "roster_id": 5,
+   "team_name": "Eazy E Squad",
+   "is_mine": false,
+   "slot": "FLEX",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794193825305,
+     "to": 1794792032312
+    }
+   }
+  },
+  {
+   "player_id": "11559",
+   "name": "Michael Penix Jr.",
+   "pos": "QB",
+   "team": "ATL",
+   "roster_id": 5,
+   "team_name": "Eazy E Squad",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794327649649,
+     "to": 1794788432915
+    }
+   }
+  },
+  {
+   "player_id": "13305",
+   "name": "Mike Washington Jr.",
+   "pos": "RB",
+   "team": "LV",
+   "roster_id": 5,
+   "team_name": "Eazy E Squad",
+   "is_mine": false,
+   "slot": "RB",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794240031106,
+     "to": 1794844836731
+    }
+   }
+  },
+  {
+   "player_id": "13276",
+   "name": "Omar Cooper Jr.",
+   "pos": "WR",
+   "team": "NYJ",
+   "roster_id": 5,
+   "team_name": "Eazy E Squad",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794420327638,
+     "to": 1795022453011
+    },
+    "depth_chart_order": {
+     "from": 2,
+     "to": 3
+    }
+   }
+  },
+  {
+   "player_id": "4866",
+   "name": "Saquon Barkley",
+   "pos": "RB",
+   "team": "PHI",
+   "roster_id": 5,
+   "team_name": "Eazy E Squad",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794232829597,
+     "to": 1794980449015
+    }
+   }
+  },
+  {
+   "player_id": "10213",
+   "name": "Tre Tucker",
+   "pos": "WR",
+   "team": "LV",
+   "roster_id": 5,
+   "team_name": "Eazy E Squad",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794205526472,
+     "to": 1794971448181
+    }
+   }
+  },
+  {
+   "player_id": "7523",
+   "name": "Trevor Lawrence",
+   "pos": "QB",
+   "team": "JAX",
+   "roster_id": 5,
+   "team_name": "Eazy E Squad",
+   "is_mine": false,
+   "slot": "QB",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794017107418,
+     "to": 1794801932760
+    }
+   }
+  },
+  {
+   "player_id": "4663",
+   "name": "Austin Ekeler",
+   "pos": "RB",
+   "team": "WAS",
+   "roster_id": 9,
+   "team_name": "Girthenheimer",
+   "is_mine": false,
+   "slot": "RB",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794276344651,
+     "to": 1794848737269
+    }
+   }
+  },
+  {
+   "player_id": "11560",
+   "name": "Caleb Williams",
+   "pos": "QB",
+   "team": "CHI",
+   "roster_id": 9,
+   "team_name": "Girthenheimer",
+   "is_mine": false,
+   "slot": "QB",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794219327792,
+     "to": 1794948646287
+    }
+   }
+  },
+  {
+   "player_id": "9486",
+   "name": "Dontayvion Wicks",
+   "pos": "WR",
+   "team": "PHI",
+   "roster_id": 9,
+   "team_name": "Girthenheimer",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "injury_status": {
+     "from": "Out",
+     "to": "Questionable"
+    },
+    "news_updated": {
+     "from": 1794004804834,
+     "to": 1795043155133
+    },
+    "depth_chart_order": {
+     "from": 6,
+     "to": 2
+    }
+   }
+  },
+  {
+   "player_id": "12533",
+   "name": "Jacory Croskey-Merritt",
+   "pos": "RB",
+   "team": "WAS",
+   "roster_id": 9,
+   "team_name": "Girthenheimer",
+   "is_mine": false,
+   "slot": "IR",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794030006916,
+     "to": 1794943545723
+    },
+    "depth_chart_order": {
+     "from": 6,
+     "to": 7
+    }
+   }
+  },
+  {
+   "player_id": "8148",
+   "name": "Jameson Williams",
+   "pos": "WR",
+   "team": "DET",
+   "roster_id": 9,
+   "team_name": "Girthenheimer",
+   "is_mine": false,
+   "slot": "WR",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794183324432,
+     "to": 1794783332837
+    }
+   }
+  },
+  {
+   "player_id": "11566",
+   "name": "Jayden Daniels",
+   "pos": "QB",
+   "team": "WAS",
+   "roster_id": 9,
+   "team_name": "Girthenheimer",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794242730013,
+     "to": 1794950746399
+    }
+   }
+  },
+  {
+   "player_id": "9500",
+   "name": "Josh Downs",
+   "pos": "WR",
+   "team": "KC",
+   "roster_id": 9,
+   "team_name": "Girthenheimer",
+   "is_mine": false,
+   "slot": "FLEX",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794344419034,
+     "to": 1795014952250
+    },
+    "depth_chart_order": {
+     "from": 9,
+     "to": 2
+    }
+   }
+  },
+  {
+   "player_id": "13294",
+   "name": "Makai Lemon",
+   "pos": "WR",
+   "team": "PHI",
+   "roster_id": 9,
+   "team_name": "Girthenheimer",
+   "is_mine": false,
+   "slot": "WR",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794233429538,
+     "to": 1794946246072
+    },
+    "depth_chart_order": {
+     "from": 1,
+     "to": 3
+    }
+   }
+  },
+  {
+   "player_id": "12507",
+   "name": "Omarion Hampton",
+   "pos": "RB",
+   "team": "LAC",
+   "roster_id": 9,
+   "team_name": "Girthenheimer",
+   "is_mine": false,
+   "slot": "RB",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794242130218,
+     "to": 1794919545105
+    }
+   }
+  },
+  {
+   "player_id": "12512",
+   "name": "Quinshon Judkins",
+   "pos": "RB",
+   "team": "CLE",
+   "roster_id": 9,
+   "team_name": "Girthenheimer",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794193825007,
+     "to": 1794786031738
+    }
+   }
+  },
+  {
+   "player_id": "8136",
+   "name": "Rachaad White",
+   "pos": "RB",
+   "team": "WAS",
+   "roster_id": 9,
+   "team_name": "Girthenheimer",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794243330014,
+     "to": 1795017352482
+    }
+   }
+  },
+  {
+   "player_id": "2449",
+   "name": "Stefon Diggs",
+   "pos": "WR",
+   "team": "WAS",
+   "roster_id": 9,
+   "team_name": "Girthenheimer",
+   "is_mine": false,
+   "slot": "FLEX",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794244230748,
+     "to": 1794974748453
+    }
+   }
+  },
+  {
+   "player_id": "9228",
+   "name": "Bryce Young",
+   "pos": "QB",
+   "team": "CAR",
+   "roster_id": 11,
+   "team_name": "RafiBomb",
+   "is_mine": false,
+   "slot": "QB",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794188124536,
+     "to": 1795038354481
+    }
+   }
+  },
+  {
+   "player_id": "8167",
+   "name": "Christian Watson",
+   "pos": "WR",
+   "team": "GB",
+   "roster_id": 11,
+   "team_name": "RafiBomb",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794192624066,
+     "to": 1794789932095
+    }
+   }
+  },
+  {
+   "player_id": "7594",
+   "name": "Chuba Hubbard",
+   "pos": "RB",
+   "team": "CAR",
+   "roster_id": 11,
+   "team_name": "RafiBomb",
+   "is_mine": false,
+   "slot": "RB",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794188124522,
+     "to": 1795036254345
+    }
+   }
+  },
+  {
+   "player_id": "12514",
+   "name": "Emeka Egbuka",
+   "pos": "WR",
+   "team": "TB",
+   "roster_id": 11,
+   "team_name": "RafiBomb",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794222028877,
+     "to": 1794934544986
+    }
+   }
+  },
+  {
+   "player_id": "8138",
+   "name": "James Cook III",
+   "pos": "RB",
+   "team": "BUF",
+   "roster_id": 11,
+   "team_name": "RafiBomb",
+   "is_mine": false,
+   "slot": "RB",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794321950736,
+     "to": 1794783330985
+    }
+   }
+  },
+  {
+   "player_id": "7526",
+   "name": "Jaylen Waddle",
+   "pos": "WR",
+   "team": "DEN",
+   "roster_id": 11,
+   "team_name": "RafiBomb",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "injury_status": {
+     "from": "Out",
+     "to": "Questionable"
+    },
+    "injury_body_part": {
+     "from": "Head",
+     "to": "Concussion"
+    },
+    "news_updated": {
+     "from": 1794196523932,
+     "to": 1795043455104
+    }
+   }
+  },
+  {
+   "player_id": "8150",
+   "name": "Kyren Williams",
+   "pos": "RB",
+   "team": "LAR",
+   "roster_id": 11,
+   "team_name": "RafiBomb",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794240630270,
+     "to": 1794812134954
+    }
+   }
+  },
+  {
+   "player_id": "11610",
+   "name": "Malik Washington",
+   "pos": "WR",
+   "team": "MIA",
+   "roster_id": 11,
+   "team_name": "RafiBomb",
+   "is_mine": false,
+   "slot": "WR",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794238828420,
+     "to": 1794886241867
+    },
+    "depth_chart_order": {
+     "from": 1,
+     "to": 2
+    }
+   }
+  },
+  {
+   "player_id": "12501",
+   "name": "Matthew Golden",
+   "pos": "WR",
+   "team": "GB",
+   "roster_id": 11,
+   "team_name": "RafiBomb",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794195923872,
+     "to": 1794790532188
+    }
+   }
+  },
+  {
+   "player_id": "421",
+   "name": "Matthew Stafford",
+   "pos": "QB",
+   "team": "LAR",
+   "roster_id": 11,
+   "team_name": "RafiBomb",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794239729614,
+     "to": 1794812134968
+    }
+   }
+  },
+  {
+   "player_id": "9487",
+   "name": "Parker Washington",
+   "pos": "WR",
+   "team": "JAX",
+   "roster_id": 11,
+   "team_name": "RafiBomb",
+   "is_mine": false,
+   "slot": "WR",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794017707429,
+     "to": 1794797733632
+    }
+   }
+  },
+  {
+   "player_id": "1466",
+   "name": "Travis Kelce",
+   "pos": "TE",
+   "team": "KC",
+   "roster_id": 11,
+   "team_name": "RafiBomb",
+   "is_mine": false,
+   "slot": "FLEX",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794195923868,
+     "to": 1795042255069
+    }
+   }
+  },
+  {
+   "player_id": "12481",
+   "name": "Cam Skattebo",
+   "pos": "RB",
+   "team": "NYG",
+   "roster_id": 6,
+   "team_name": "ScampDaddy",
+   "is_mine": false,
+   "slot": "FLEX",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794347119349,
+     "to": 1795040156246
+    },
+    "depth_chart_order": {
+     "from": 7,
+     "to": 1
+    }
+   }
+  },
+  {
+   "player_id": "9224",
+   "name": "Chase Brown",
+   "pos": "RB",
+   "team": "CIN",
+   "roster_id": 6,
+   "team_name": "ScampDaddy",
+   "is_mine": false,
+   "slot": "RB",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794167122644,
+     "to": 1794844838212
+    }
+   }
+  },
+  {
+   "player_id": "8112",
+   "name": "Drake London",
+   "pos": "WR",
+   "team": "ATL",
+   "roster_id": 6,
+   "team_name": "ScampDaddy",
+   "is_mine": false,
+   "slot": "WR",
+   "kind": "changed",
+   "fields": {
+    "injury_status": {
+     "from": null,
+     "to": "Questionable"
+    },
+    "injury_body_part": {
+     "from": null,
+     "to": "Head"
+    },
+    "news_updated": {
+     "from": 1794185422680,
+     "to": 1794856537988
+    }
+   }
+  },
+  {
+   "player_id": "8131",
+   "name": "Isaiah Likely",
+   "pos": "TE",
+   "team": "NYG",
+   "roster_id": 6,
+   "team_name": "ScampDaddy",
+   "is_mine": false,
+   "slot": "FLEX",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794230729225,
+     "to": 1794973248264
+    }
+   }
+  },
+  {
+   "player_id": "11565",
+   "name": "J.J. McCarthy",
+   "pos": "QB",
+   "team": "NYG",
+   "roster_id": 6,
+   "team_name": "ScampDaddy",
+   "is_mine": false,
+   "slot": "QB",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794346819391,
+     "to": 1794848737269
+    }
+   }
+  },
+  {
+   "player_id": "7564",
+   "name": "Ja'Marr Chase",
+   "pos": "WR",
+   "team": "CIN",
+   "roster_id": 6,
+   "team_name": "ScampDaddy",
+   "is_mine": false,
+   "slot": "WR",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794167122631,
+     "to": 1794844838262
+    }
+   }
+  },
+  {
+   "player_id": "13286",
+   "name": "Jadarian Price",
+   "pos": "RB",
+   "team": "SEA",
+   "roster_id": 6,
+   "team_name": "ScampDaddy",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794204326928,
+     "to": 1794814535721
+    }
+   }
+  },
+  {
+   "player_id": "7588",
+   "name": "Javonte Williams",
+   "pos": "RB",
+   "team": "DAL",
+   "roster_id": 6,
+   "team_name": "ScampDaddy",
+   "is_mine": false,
+   "slot": "RB",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794234628078,
+     "to": 1794802233501
+    }
+   }
+  },
+  {
+   "player_id": "1479",
+   "name": "Keenan Allen",
+   "pos": "WR",
+   "team": "SF",
+   "roster_id": 6,
+   "team_name": "ScampDaddy",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794416126135,
+     "to": 1795020052690
+    },
+    "depth_chart_order": {
+     "from": 5,
+     "to": 3
+    }
+   }
+  },
+  {
+   "player_id": "8134",
+   "name": "Khalil Shakir",
+   "pos": "WR",
+   "team": "BUF",
+   "roster_id": 6,
+   "team_name": "ScampDaddy",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794319250719,
+     "to": 1795017652602
+    }
+   }
+  },
+  {
+   "player_id": "1166",
+   "name": "Kirk Cousins",
+   "pos": "QB",
+   "team": "MIN",
+   "roster_id": 6,
+   "team_name": "ScampDaddy",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794340520204,
+     "to": 1795011652013
+    },
+    "depth_chart_order": {
+     "from": 2,
+     "to": 1
+    }
+   }
+  },
+  {
+   "player_id": "11783",
+   "name": "Ryan Flournoy",
+   "pos": "WR",
+   "team": "DAL",
+   "roster_id": 6,
+   "team_name": "ScampDaddy",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794276944722,
+     "to": 1794842136603
+    },
+    "depth_chart_order": {
+     "from": 2,
+     "to": 3
+    }
+   }
+  },
+  {
+   "player_id": "13301",
+   "name": "Antonio Williams",
+   "pos": "WR",
+   "team": "WAS",
+   "roster_id": 1,
+   "team_name": "tacocats",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794285345518,
+     "to": 1794842136618
+    }
+   }
+  },
+  {
+   "player_id": "11576",
+   "name": "Braelon Allen",
+   "pos": "RB",
+   "team": "NYJ",
+   "roster_id": 1,
+   "team_name": "tacocats",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794184222929,
+     "to": 1794800432628
+    }
+   }
+  },
+  {
+   "player_id": "8155",
+   "name": "Breece Hall",
+   "pos": "RB",
+   "team": "NYJ",
+   "roster_id": 1,
+   "team_name": "tacocats",
+   "is_mine": false,
+   "slot": "RB",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794331850073,
+     "to": 1795015552249
+    }
+   }
+  },
+  {
+   "player_id": "8183",
+   "name": "Brock Purdy",
+   "pos": "QB",
+   "team": "SF",
+   "roster_id": 1,
+   "team_name": "tacocats",
+   "is_mine": false,
+   "slot": "QB",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794208525420,
+     "to": 1794801333529
+    }
+   }
+  },
+  {
+   "player_id": "13279",
+   "name": "Carnell Tate",
+   "pos": "WR",
+   "team": "TEN",
+   "roster_id": 1,
+   "team_name": "tacocats",
+   "is_mine": false,
+   "slot": "FLEX",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794422126603,
+     "to": 1795041054815
+    },
+    "depth_chart_order": {
+     "from": 7,
+     "to": 1
+    }
+   }
+  },
+  {
+   "player_id": "10236",
+   "name": "Dalton Kincaid",
+   "pos": "TE",
+   "team": "BUF",
+   "roster_id": 1,
+   "team_name": "tacocats",
+   "is_mine": false,
+   "slot": "FLEX",
+   "kind": "new_on_roster",
+   "fields": {}
+  },
+  {
+   "player_id": "4217",
+   "name": "George Kittle",
+   "pos": "TE",
+   "team": "SF",
+   "roster_id": 1,
+   "team_name": "tacocats",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794206726810,
+     "to": 1795019452639
+    }
+   }
+  },
+  {
+   "player_id": "13293",
+   "name": "Ja'Kobi Lane",
+   "pos": "WR",
+   "team": "BAL",
+   "roster_id": 1,
+   "team_name": "tacocats",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794260447421,
+     "to": 1794921345304
+    },
+    "depth_chart_order": {
+     "from": 3,
+     "to": 2
+    }
+   }
+  },
+  {
+   "player_id": "9221",
+   "name": "Jahmyr Gibbs",
+   "pos": "RB",
+   "team": "DET",
+   "roster_id": 1,
+   "team_name": "tacocats",
+   "is_mine": false,
+   "slot": "RB",
+   "kind": "changed",
+   "fields": {
+    "news_updated": {
+     "from": 1794183623879,
+     "to": 1794782732473
+    }
+   }
+  },
+  {
+   "player_id": "13281",
+   "name": "Jordyn Tyson",
+   "pos": "WR",
+   "team": "NO",
+   "roster_id": 1,
+   "team_name": "tacocats",
+   "is_mine": false,
+   "slot": "WR",
+   "kind": "changed",
+   "fields": {
+    "injury_status": {
+     "from": null,
+     "to": "Questionable"
+    },
+    "injury_body_part": {
+     "from": null,
+     "to": "Chest"
+    },
+    "news_updated": {
+     "from": 1794196225299,
+     "to": 1795038054596
+    },
+    "depth_chart_order": {
+     "from": 3,
+     "to": 2
+    }
+   }
+  },
+  {
+   "player_id": "11635",
+   "name": "Ladd McConkey",
+   "pos": "WR",
+   "team": "LAC",
+   "roster_id": 1,
+   "team_name": "tacocats",
+   "is_mine": false,
+   "slot": "BN",
+   "kind": "changed",
+   "fields": {
+    "injury_notes": {
+     "from": null,
+     "to": "Spasms"
+    },
+    "news_updated": {
+     "from": 1794408325339,
+     "to": 1794773730050
+    }
+   }
+  },
+  {
+   "player_id": "12519",
+   "name": "Luther Burden III",
+   "pos": "WR",
+   "team": "CHI",
+   "roster_id": 1,
+   "team_name": "tacocats",
+   "is_mine": false,
+   "slot": "WR",
+   "kind": "changed",
+   "fields": {
+    "injury_status": {
+     "from": "Questionable",
+     "to": null
+    },
+    "injury_body_part": {
+     "from": "Undisclosed",
+     "to": null
+    },
+    "news_updated": {
+     "from": 1794220228201,
+     "to": 1795041954886
+    }
+   }
+  }
+ ]
+}

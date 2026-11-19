@@ -1,5 +1,5 @@
 {
- "week_next": 10,
+ "week_next": 11,
  "weeks_completed": [
   1,
   2,
@@ -9,23 +9,256 @@
   6,
   7,
   8,
-  9
+  9,
+  10
  ],
  "median_game": true,
- "league_avg": 103.06,
+ "league_avg": 104.1,
  "teams": [
+  {
+   "roster_id": 12,
+   "team": "Baker\u2019s Dozen",
+   "manager": "juicyjuicy100",
+   "is_mine": false,
+   "wins": 15,
+   "losses": 5,
+   "ties": 0,
+   "h2h": "7-3",
+   "median": "8-2",
+   "allplay": "76-34",
+   "allplay_pct": 0.691,
+   "scores": [
+    128.5,
+    133.16,
+    95.54,
+    121.5,
+    112.14,
+    71.12,
+    142.42,
+    151.2,
+    138.75,
+    117.22
+   ],
+   "avg": 121.16,
+   "last": 117.22,
+   "pf": 1211.55,
+   "proj_totals": [
+    105.33,
+    102.62,
+    109.61,
+    110.07,
+    103.11,
+    94.73,
+    115.62,
+    116.92,
+    112.18,
+    94.6
+   ],
+   "vs_proj": 146.76,
+   "bench_left": [
+    14.54,
+    5.1,
+    14.12,
+    14.43,
+    7.1,
+    5.3,
+    16.96,
+    0.0,
+    0.0,
+    33.3
+   ],
+   "efficiency": 0.92,
+   "injured_starters": [
+    {
+     "name": "Kenneth Walker III",
+     "pos": "RB",
+     "status": "Questionable",
+     "body": "Groin"
+    }
+   ],
+   "byes_next": [],
+   "proj_next": 113.55,
+   "future_opps": [
+    2,
+    11,
+    5,
+    9,
+    6,
+    7,
+    4,
+    8
+   ],
+   "faab_used": 49,
+   "starters_now": [
+    {
+     "name": "Dak Prescott",
+     "pos": "QB"
+    },
+    {
+     "name": "Kenneth Walker III",
+     "pos": "RB"
+    },
+    {
+     "name": "Bucky Irving",
+     "pos": "RB"
+    },
+    {
+     "name": "Amon-Ra St. Brown",
+     "pos": "WR"
+    },
+    {
+     "name": "Tee Higgins",
+     "pos": "WR"
+    },
+    {
+     "name": "Tony Pollard",
+     "pos": "RB"
+    },
+    {
+     "name": "Zonovan Knight",
+     "pos": "RB"
+    },
+    {
+     "name": "IND DEF",
+     "pos": "DEF"
+    }
+   ],
+   "trend": 1.4,
+   "trend_label": "flat",
+   "sos_remaining": 98.5,
+   "power": 118.1,
+   "power_rank": 1,
+   "pf_rank": 2
+  },
+  {
+   "roster_id": 3,
+   "team": "Be Safe, Get Jaxcinated",
+   "manager": "jnally8",
+   "is_mine": false,
+   "wins": 13,
+   "losses": 7,
+   "ties": 0,
+   "h2h": "5-5",
+   "median": "8-2",
+   "allplay": "82-28",
+   "allplay_pct": 0.745,
+   "scores": [
+    151.06,
+    138.4,
+    144.0,
+    106.18,
+    115.1,
+    113.58,
+    118.08,
+    95.9,
+    103.18,
+    142.22
+   ],
+   "avg": 122.77,
+   "last": 142.22,
+   "pf": 1227.7,
+   "proj_totals": [
+    110.58,
+    114.87,
+    124.35,
+    123.91,
+    118.21,
+    112.3,
+    118.42,
+    122.32,
+    114.77,
+    119.31
+   ],
+   "vs_proj": 48.66,
+   "bench_left": [
+    0.7,
+    4.9,
+    13.12,
+    3.5,
+    10.2,
+    5.4,
+    19.4,
+    9.5,
+    12.1,
+    21.7
+   ],
+   "efficiency": 0.93,
+   "injured_starters": [
+    {
+     "name": "Bhayshul Tuten",
+     "pos": "RB",
+     "status": "Questionable",
+     "body": "Ankle"
+    }
+   ],
+   "byes_next": [
+    "Jaxon Smith-Njigba"
+   ],
+   "proj_next": 97.44,
+   "future_opps": [
+    8,
+    10,
+    7,
+    1,
+    2,
+    11,
+    5,
+    9
+   ],
+   "faab_used": 80,
+   "starters_now": [
+    {
+     "name": "Aaron Rodgers",
+     "pos": "QB"
+    },
+    {
+     "name": "Christian McCaffrey",
+     "pos": "RB"
+    },
+    {
+     "name": "Bhayshul Tuten",
+     "pos": "RB"
+    },
+    {
+     "name": "Jaxon Smith-Njigba",
+     "pos": "WR"
+    },
+    {
+     "name": "Chris Olave",
+     "pos": "WR"
+    },
+    {
+     "name": "Trey McBride",
+     "pos": "TE"
+    },
+    {
+     "name": "Zay Flowers",
+     "pos": "WR"
+    },
+    {
+     "name": "HOU DEF",
+     "pos": "DEF"
+    }
+   ],
+   "trend": -3.2,
+   "trend_label": "flat",
+   "sos_remaining": 101.74,
+   "power": 112.6,
+   "power_rank": 2,
+   "pf_rank": 1
+  },
   {
    "roster_id": 11,
    "team": "RafiBomb",
    "manager": "TheRafiBombb",
    "is_mine": false,
-   "wins": 13,
+   "wins": 15,
    "losses": 5,
    "ties": 0,
-   "h2h": "6-3",
-   "median": "7-2",
-   "allplay": "64-35",
-   "allplay_pct": 0.646,
+   "h2h": "7-3",
+   "median": "8-2",
+   "allplay": "72-38",
+   "allplay_pct": 0.655,
    "scores": [
     93.45,
     123.88,
@@ -35,11 +268,12 @@
     116.23,
     62.07,
     111.48,
-    127.87
+    127.87,
+    124.25
    ],
-   "avg": 116.15,
-   "last": 127.87,
-   "pf": 1045.35,
+   "avg": 116.96,
+   "last": 124.25,
+   "pf": 1169.6,
    "proj_totals": [
     103.14,
     106.09,
@@ -49,9 +283,10 @@
     127.9,
     108.05,
     117.25,
-    114.95
+    114.95,
+    118.04
    ],
-   "vs_proj": 40.33,
+   "vs_proj": 46.54,
    "bench_left": [
     26.6,
     10.0,
@@ -61,14 +296,14 @@
     10.36,
     15.08,
     13.18,
-    20.82
+    20.82,
+    29.12
    ],
    "efficiency": 0.86,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 118.04,
+   "proj_next": 99.31,
    "future_opps": [
-    9,
     6,
     12,
     4,
@@ -97,136 +332,155 @@
      "pos": "WR"
     },
     {
-     "name": "Christian Watson",
+     "name": "Malik Washington",
      "pos": "WR"
     },
     {
-     "name": "Matthew Golden",
-     "pos": "WR"
+     "name": "Travis Kelce",
+     "pos": "TE"
     },
     {
-     "name": "Kyren Williams",
-     "pos": "RB"
+     "name": "Pat Bryant",
+     "pos": "WR"
     },
     {
      "name": "DET DEF",
      "pos": "DEF"
     }
    ],
-   "trend": -0.2,
+   "trend": 0.3,
    "trend_label": "flat",
-   "sos_remaining": 101.31,
-   "power": 116.9,
-   "power_rank": 1,
+   "sos_remaining": 103.74,
+   "power": 109.9,
+   "power_rank": 3,
    "pf_rank": 4
   },
   {
-   "roster_id": 3,
-   "team": "Be Safe, Get Jaxcinated",
-   "manager": "jnally8",
+   "roster_id": 1,
+   "team": "tacocats",
+   "manager": "ben_g",
    "is_mine": false,
    "wins": 11,
-   "losses": 7,
+   "losses": 9,
    "ties": 0,
-   "h2h": "4-5",
-   "median": "7-2",
-   "allplay": "73-26",
-   "allplay_pct": 0.737,
+   "h2h": "4-6",
+   "median": "7-3",
+   "allplay": "62-48",
+   "allplay_pct": 0.564,
    "scores": [
-    151.06,
-    138.4,
-    144.0,
-    106.18,
-    115.1,
-    113.58,
-    118.08,
-    95.9,
-    103.18
+    95.3,
+    112.28,
+    141.58,
+    93.22,
+    101.06,
+    98.46,
+    103.62,
+    128.62,
+    105.38,
+    148.36
    ],
-   "avg": 120.61,
-   "last": 103.18,
-   "pf": 1085.48,
+   "avg": 112.79,
+   "last": 148.36,
+   "pf": 1127.88,
    "proj_totals": [
-    110.58,
-    114.87,
-    124.35,
-    123.91,
-    118.21,
-    112.3,
-    118.42,
-    122.32,
-    114.77
+    98.39,
+    105.4,
+    107.37,
+    97.3,
+    100.65,
+    98.55,
+    114.64,
+    98.16,
+    111.12,
+    100.78
    ],
-   "vs_proj": 25.75,
+   "vs_proj": 95.52,
    "bench_left": [
-    0.7,
-    4.9,
-    13.12,
-    3.5,
-    10.2,
-    5.4,
-    19.4,
-    9.5,
-    12.1
+    0.3,
+    6.0,
+    12.7,
+    15.6,
+    3.6,
+    7.3,
+    1.3,
+    0.0,
+    4.0,
+    6.1
    ],
-   "efficiency": 0.93,
-   "injured_starters": [],
-   "byes_next": [
-    "Bo Nix"
+   "efficiency": 0.95,
+   "injured_starters": [
+    {
+     "name": "Jordyn Tyson",
+     "pos": "WR",
+     "status": "Questionable",
+     "body": "Chest"
+    },
+    {
+     "name": "Carnell Tate",
+     "pos": "WR",
+     "status": "Questionable",
+     "body": "Shoulder"
+    },
+    {
+     "name": "Dalton Kincaid",
+     "pos": "TE",
+     "status": "Questionable",
+     "body": "Thumb"
+    }
    ],
-   "proj_next": 98.81,
+   "byes_next": [],
+   "proj_next": 101.38,
    "future_opps": [
     4,
     8,
     10,
+    3,
     7,
-    1,
     2,
     11,
-    5,
-    9
+    5
    ],
-   "faab_used": 75,
+   "faab_used": 168,
    "starters_now": [
     {
-     "name": "Bo Nix",
+     "name": "Brock Purdy",
      "pos": "QB"
     },
     {
-     "name": "Christian McCaffrey",
+     "name": "Jahmyr Gibbs",
      "pos": "RB"
     },
     {
-     "name": "Bhayshul Tuten",
+     "name": "Breece Hall",
      "pos": "RB"
     },
     {
-     "name": "Zay Flowers",
+     "name": "Luther Burden III",
      "pos": "WR"
     },
     {
-     "name": "Chris Olave",
+     "name": "Jordyn Tyson",
      "pos": "WR"
     },
     {
-     "name": "Trey McBride",
+     "name": "Carnell Tate",
+     "pos": "WR"
+    },
+    {
+     "name": "Dalton Kincaid",
      "pos": "TE"
     },
     {
-     "name": "Jaxon Smith-Njigba",
-     "pos": "WR"
-    },
-    {
-     "name": "HOU DEF",
+     "name": "BUF DEF",
      "pos": "DEF"
     }
    ],
-   "trend": -6.1,
-   "trend_label": "falling",
-   "sos_remaining": 99.07,
-   "power": 111.9,
-   "power_rank": 2,
-   "pf_rank": 3
+   "trend": 2.4,
+   "trend_label": "flat",
+   "sos_remaining": 101.72,
+   "power": 108.2,
+   "power_rank": 4,
+   "pf_rank": 5
   },
   {
    "roster_id": 7,
@@ -234,12 +488,12 @@
    "manager": "aCaps",
    "is_mine": false,
    "wins": 13,
-   "losses": 5,
+   "losses": 7,
    "ties": 0,
-   "h2h": "6-3",
-   "median": "7-2",
-   "allplay": "71-28",
-   "allplay_pct": 0.717,
+   "h2h": "6-4",
+   "median": "7-3",
+   "allplay": "72-38",
+   "allplay_pct": 0.655,
    "scores": [
     107.96,
     82.0,
@@ -249,11 +503,12 @@
     109.94,
     125.66,
     151.98,
-    136.64
+    136.64,
+    96.11
    ],
-   "avg": 122.76,
-   "last": 136.64,
-   "pf": 1104.88,
+   "avg": 120.1,
+   "last": 96.11,
+   "pf": 1200.99,
    "proj_totals": [
     111.34,
     95.73,
@@ -263,9 +518,10 @@
     122.22,
     112.35,
     123.02,
-    125.86
+    125.86,
+    96.09
    ],
-   "vs_proj": 91.98,
+   "vs_proj": 92.0,
    "bench_left": [
     8.5,
     32.38,
@@ -275,14 +531,16 @@
     3.8,
     31.22,
     3.0,
-    14.44
+    14.44,
+    0.0
    ],
-   "efficiency": 0.9,
+   "efficiency": 0.91,
    "injured_starters": [],
-   "byes_next": [],
-   "proj_next": 90.42,
+   "byes_next": [
+    "Corey Kiner"
+   ],
+   "proj_next": 85.19,
    "future_opps": [
-    5,
     10,
     9,
     3,
@@ -292,11 +550,15 @@
     2,
     4
    ],
-   "faab_used": 19,
+   "faab_used": 199,
    "starters_now": [
     {
      "name": "Joe Burrow",
      "pos": "QB"
+    },
+    {
+     "name": "Corey Kiner",
+     "pos": "RB"
     },
     {
      "name": "Jordan Mason",
@@ -323,357 +585,143 @@
      "pos": "DEF"
     }
    ],
-   "trend": 6.2,
-   "trend_label": "rising",
-   "sos_remaining": 99.77,
-   "power": 109.8,
-   "power_rank": 3,
-   "pf_rank": 1
+   "trend": 3.1,
+   "trend_label": "flat",
+   "sos_remaining": 103.0,
+   "power": 106.1,
+   "power_rank": 5,
+   "pf_rank": 3
   },
   {
-   "roster_id": 12,
-   "team": "Baker\u2019s Dozen",
-   "manager": "juicyjuicy100",
+   "roster_id": 6,
+   "team": "ScampDaddy",
+   "manager": "marlos9",
    "is_mine": false,
-   "wins": 14,
-   "losses": 4,
+   "wins": 13,
+   "losses": 7,
    "ties": 0,
-   "h2h": "7-2",
-   "median": "7-2",
-   "allplay": "70-29",
-   "allplay_pct": 0.707,
+   "h2h": "7-3",
+   "median": "6-4",
+   "allplay": "65-45",
+   "allplay_pct": 0.591,
    "scores": [
-    128.5,
-    133.16,
-    95.54,
-    121.5,
-    112.14,
-    71.12,
-    142.42,
-    151.2,
-    138.75
+    100.22,
+    82.96,
+    99.62,
+    108.1,
+    122.22,
+    97.62,
+    103.4,
+    100.73,
+    111.14,
+    151.02
    ],
-   "avg": 121.59,
-   "last": 138.75,
-   "pf": 1094.33,
+   "avg": 107.7,
+   "last": 151.02,
+   "pf": 1077.03,
    "proj_totals": [
+    113.68,
+    109.02,
     105.33,
-    102.62,
-    109.61,
-    110.07,
-    103.11,
-    94.73,
-    115.62,
-    116.92,
-    112.18
+    90.21,
+    111.08,
+    96.15,
+    105.38,
+    109.08,
+    109.11,
+    105.3
    ],
-   "vs_proj": 124.14,
+   "vs_proj": 22.69,
    "bench_left": [
-    14.54,
-    5.1,
-    14.12,
-    14.43,
-    7.1,
+    21.9,
+    23.0,
+    15.1,
     5.3,
-    16.96,
-    0.0,
-    0.0
+    2.8,
+    7.7,
+    17.9,
+    12.6,
+    8.0,
+    9.9
    ],
-   "efficiency": 0.93,
-   "injured_starters": [],
-   "byes_next": [],
-   "proj_next": 74.48,
+   "efficiency": 0.89,
+   "injured_starters": [
+    {
+     "name": "Drake London",
+     "pos": "WR",
+     "status": "Questionable",
+     "body": "Head"
+    }
+   ],
+   "byes_next": [
+    "Drake London",
+    "GB DEF"
+   ],
+   "proj_next": 93.55,
    "future_opps": [
-    1,
-    2,
     11,
     5,
     9,
-    6,
     7,
-    4,
-    8
-   ],
-   "faab_used": 11,
-   "starters_now": [
-    {
-     "name": "Dak Prescott",
-     "pos": "QB"
-    },
-    {
-     "name": "Kenneth Walker III",
-     "pos": "RB"
-    },
-    {
-     "name": "Tony Pollard",
-     "pos": "RB"
-    },
-    {
-     "name": "Amon-Ra St. Brown",
-     "pos": "WR"
-    },
-    {
-     "name": "Tee Higgins",
-     "pos": "WR"
-    },
-    {
-     "name": "Kaelon Black",
-     "pos": "RB"
-    },
-    {
-     "name": "Jordan Addison",
-     "pos": "WR"
-    },
-    {
-     "name": "NO DEF",
-     "pos": "DEF"
-    }
-   ],
-   "trend": 2.3,
-   "trend_label": "flat",
-   "sos_remaining": 99.05,
-   "power": 102.7,
-   "power_rank": 4,
-   "pf_rank": 2
-  },
-  {
-   "roster_id": 1,
-   "team": "tacocats",
-   "manager": "ben_g",
-   "is_mine": false,
-   "wins": 9,
-   "losses": 9,
-   "ties": 0,
-   "h2h": "3-6",
-   "median": "6-3",
-   "allplay": "52-47",
-   "allplay_pct": 0.525,
-   "scores": [
-    95.3,
-    112.28,
-    141.58,
-    93.22,
-    101.06,
-    98.46,
-    103.62,
-    128.62,
-    105.38
-   ],
-   "avg": 108.84,
-   "last": 105.38,
-   "pf": 979.52,
-   "proj_totals": [
-    98.39,
-    105.4,
-    107.37,
-    97.3,
-    100.65,
-    98.55,
-    114.64,
-    98.16,
-    111.12
-   ],
-   "vs_proj": 47.94,
-   "bench_left": [
-    0.3,
-    6.0,
-    12.7,
-    15.6,
-    3.6,
-    7.3,
-    1.3,
-    0.0,
-    4.0
-   ],
-   "efficiency": 0.95,
-   "injured_starters": [
-    {
-     "name": "Carnell Tate",
-     "pos": "WR",
-     "status": "Questionable",
-     "body": "Shoulder"
-    }
-   ],
-   "byes_next": [],
-   "proj_next": 92.15,
-   "future_opps": [
     12,
     4,
     8,
-    10,
-    3,
-    7,
-    2,
-    11,
-    5
+    10
    ],
-   "faab_used": 168,
+   "faab_used": 92,
    "starters_now": [
     {
-     "name": "Brock Purdy",
+     "name": "J.J. McCarthy",
      "pos": "QB"
     },
     {
-     "name": "Jahmyr Gibbs",
+     "name": "Chase Brown",
      "pos": "RB"
     },
     {
-     "name": "Breece Hall",
+     "name": "Javonte Williams",
      "pos": "RB"
     },
     {
-     "name": "Carnell Tate",
+     "name": "Ja'Marr Chase",
      "pos": "WR"
     },
     {
-     "name": "Antonio Williams",
+     "name": "Drake London",
      "pos": "WR"
     },
     {
-     "name": "George Kittle",
+     "name": "Cam Skattebo",
+     "pos": "RB"
+    },
+    {
+     "name": "Isaiah Likely",
      "pos": "TE"
     },
     {
-     "name": "Jordyn Tyson",
-     "pos": "WR"
-    },
-    {
-     "name": "KC DEF",
+     "name": "GB DEF",
      "pos": "DEF"
     }
    ],
-   "trend": 0.3,
+   "trend": 3.8,
    "trend_label": "flat",
-   "sos_remaining": 103.53,
-   "power": 102.2,
-   "power_rank": 5,
-   "pf_rank": 5
-  },
-  {
-   "roster_id": 8,
-   "team": "ValKilmersComeback",
-   "manager": "Mockstar",
-   "is_mine": true,
-   "wins": 9,
-   "losses": 9,
-   "ties": 0,
-   "h2h": "6-3",
-   "median": "3-6",
-   "allplay": "45-54",
-   "allplay_pct": 0.455,
-   "scores": [
-    111.26,
-    138.87,
-    96.91,
-    98.12,
-    108.05,
-    99.9,
-    81.6,
-    81.06,
-    82.86
-   ],
-   "avg": 99.85,
-   "last": 82.86,
-   "pf": 898.63,
-   "proj_totals": [
-    95.5,
-    101.61,
-    100.01,
-    100.98,
-    100.5,
-    98.31,
-    94.31,
-    95.46,
-    100.98
-   ],
-   "vs_proj": 10.97,
-   "bench_left": [
-    24.2,
-    18.3,
-    8.9,
-    30.85,
-    12.5,
-    4.4,
-    9.6,
-    15.5,
-    7.7
-   ],
-   "efficiency": 0.88,
-   "injured_starters": [
-    {
-     "name": "Denzel Boston",
-     "pos": "WR",
-     "status": "Questionable",
-     "body": "Toe"
-    }
-   ],
-   "byes_next": [],
-   "proj_next": 102.54,
-   "future_opps": [
-    10,
-    3,
-    1,
-    2,
-    11,
-    5,
-    9,
-    6,
-    12
-   ],
-   "faab_used": 106,
-   "starters_now": [
-    {
-     "name": "Josh Allen",
-     "pos": "QB"
-    },
-    {
-     "name": "Jonathan Taylor",
-     "pos": "RB"
-    },
-    {
-     "name": "Ollie Gordon II",
-     "pos": "RB"
-    },
-    {
-     "name": "Denzel Boston",
-     "pos": "WR"
-    },
-    {
-     "name": "DeMario Douglas",
-     "pos": "WR"
-    },
-    {
-     "name": "Woody Marks",
-     "pos": "RB"
-    },
-    {
-     "name": "Zach Charbonnet",
-     "pos": "RB"
-    },
-    {
-     "name": "SEA DEF",
-     "pos": "DEF"
-    }
-   ],
-   "trend": -5.3,
-   "trend_label": "falling",
-   "sos_remaining": 103.64,
-   "power": 100.9,
+   "sos_remaining": 103.55,
+   "power": 102.0,
    "power_rank": 6,
-   "pf_rank": 8
+   "pf_rank": 6
   },
   {
    "roster_id": 10,
    "team": "Derrelick my Balls",
    "manager": "dlamas",
    "is_mine": false,
-   "wins": 8,
+   "wins": 10,
    "losses": 10,
    "ties": 0,
-   "h2h": "4-5",
-   "median": "4-5",
-   "allplay": "48-51",
-   "allplay_pct": 0.485,
+   "h2h": "5-5",
+   "median": "5-5",
+   "allplay": "55-55",
+   "allplay_pct": 0.5,
    "scores": [
     106.59,
     124.18,
@@ -683,11 +731,12 @@
     89.18,
     68.62,
     119.14,
-    89.76
+    89.76,
+    117.64
    ],
-   "avg": 103.07,
-   "last": 89.76,
-   "pf": 927.63,
+   "avg": 104.53,
+   "last": 117.64,
+   "pf": 1045.27,
    "proj_totals": [
     96.09,
     92.16,
@@ -697,9 +746,10 @@
     104.28,
     107.36,
     92.94,
-    100.01
+    100.01,
+    98.42
    ],
-   "vs_proj": 10.56,
+   "vs_proj": 29.78,
    "bench_left": [
     39.22,
     1.6,
@@ -709,21 +759,29 @@
     1.9,
     21.5,
     9.3,
-    41.03
+    41.03,
+    26.78
    ],
-   "efficiency": 0.85,
+   "efficiency": 0.84,
    "injured_starters": [
     {
-     "name": "Patrick Mahomes",
-     "pos": "QB",
+     "name": "Caleb Douglas",
+     "pos": "WR",
      "status": "Questionable",
-     "body": "Elbow"
+     "body": "Shoulder"
+    },
+    {
+     "name": "Brock Bowers",
+     "pos": "TE",
+     "status": "Questionable",
+     "body": "Ankle"
     }
    ],
-   "byes_next": [],
-   "proj_next": 97.05,
+   "byes_next": [
+    "Dylan Sampson"
+   ],
+   "proj_next": 92.47,
    "future_opps": [
-    8,
     7,
     3,
     1,
@@ -768,119 +826,11 @@
      "pos": "DEF"
     }
    ],
-   "trend": -3.4,
+   "trend": -1.6,
    "trend_label": "flat",
-   "sos_remaining": 103.41,
-   "power": 100.7,
+   "sos_remaining": 105.03,
+   "power": 99.7,
    "power_rank": 7,
-   "pf_rank": 6
-  },
-  {
-   "roster_id": 6,
-   "team": "ScampDaddy",
-   "manager": "marlos9",
-   "is_mine": false,
-   "wins": 11,
-   "losses": 7,
-   "ties": 0,
-   "h2h": "6-3",
-   "median": "5-4",
-   "allplay": "54-45",
-   "allplay_pct": 0.545,
-   "scores": [
-    100.22,
-    82.96,
-    99.62,
-    108.1,
-    122.22,
-    97.62,
-    103.4,
-    100.73,
-    111.14
-   ],
-   "avg": 102.89,
-   "last": 111.14,
-   "pf": 926.01,
-   "proj_totals": [
-    113.68,
-    109.02,
-    105.33,
-    90.21,
-    111.08,
-    96.15,
-    105.38,
-    109.08,
-    109.11
-   ],
-   "vs_proj": -23.03,
-   "bench_left": [
-    21.9,
-    23.0,
-    15.1,
-    5.3,
-    2.8,
-    7.7,
-    17.9,
-    12.6,
-    8.0
-   ],
-   "efficiency": 0.89,
-   "injured_starters": [],
-   "byes_next": [
-    "DEN DEF"
-   ],
-   "proj_next": 95.52,
-   "future_opps": [
-    2,
-    11,
-    5,
-    9,
-    7,
-    12,
-    4,
-    8,
-    10
-   ],
-   "faab_used": 81,
-   "starters_now": [
-    {
-     "name": "Kirk Cousins",
-     "pos": "QB"
-    },
-    {
-     "name": "Chase Brown",
-     "pos": "RB"
-    },
-    {
-     "name": "Javonte Williams",
-     "pos": "RB"
-    },
-    {
-     "name": "Ja'Marr Chase",
-     "pos": "WR"
-    },
-    {
-     "name": "Drake London",
-     "pos": "WR"
-    },
-    {
-     "name": "Cam Skattebo",
-     "pos": "RB"
-    },
-    {
-     "name": "Isaiah Likely",
-     "pos": "TE"
-    },
-    {
-     "name": "DEN DEF",
-     "pos": "DEF"
-    }
-   ],
-   "trend": 1.6,
-   "trend_label": "flat",
-   "sos_remaining": 100.48,
-   "power": 99.9,
-   "power_rank": 8,
    "pf_rank": 7
   },
   {
@@ -889,12 +839,12 @@
    "manager": "Breadsticks310",
    "is_mine": false,
    "wins": 4,
-   "losses": 14,
+   "losses": 16,
    "ties": 0,
-   "h2h": "2-7",
-   "median": "2-7",
-   "allplay": "32-67",
-   "allplay_pct": 0.323,
+   "h2h": "2-8",
+   "median": "2-8",
+   "allplay": "35-75",
+   "allplay_pct": 0.318,
    "scores": [
     145.36,
     67.32,
@@ -904,11 +854,12 @@
     69.5,
     145.32,
     86.38,
-    72.56
+    72.56,
+    99.26
    ],
-   "avg": 93.21,
-   "last": 72.56,
-   "pf": 838.91,
+   "avg": 93.82,
+   "last": 99.26,
+   "pf": 938.17,
    "proj_totals": [
     95.65,
     98.63,
@@ -918,9 +869,10 @@
     82.74,
     89.96,
     81.13,
-    86.14
+    86.14,
+    78.8
    ],
-   "vs_proj": 47.8,
+   "vs_proj": 68.26,
    "bench_left": [
     11.4,
     29.87,
@@ -930,14 +882,14 @@
     18.0,
     8.45,
     7.6,
-    0.0
+    0.0,
+    10.1
    ],
-   "efficiency": 0.85,
+   "efficiency": 0.86,
    "injured_starters": [],
    "byes_next": [],
-   "proj_next": 78.98,
+   "proj_next": 78.41,
    "future_opps": [
-    11,
     5,
     7,
     6,
@@ -947,22 +899,22 @@
     10,
     3
    ],
-   "faab_used": 135,
+   "faab_used": 165,
    "starters_now": [
     {
-     "name": "Jayden Daniels",
+     "name": "Caleb Williams",
      "pos": "QB"
     },
     {
-     "name": "Rachaad White",
+     "name": "Omarion Hampton",
      "pos": "RB"
     },
     {
-     "name": "Quinshon Judkins",
+     "name": "Austin Ekeler",
      "pos": "RB"
     },
     {
-     "name": "Stefon Diggs",
+     "name": "Makai Lemon",
      "pos": "WR"
     },
     {
@@ -974,33 +926,157 @@
      "pos": "WR"
     },
     {
-     "name": "Omarion Hampton",
-     "pos": "RB"
+     "name": "Stefon Diggs",
+     "pos": "WR"
     },
     {
-     "name": "CIN DEF",
+     "name": "CHI DEF",
      "pos": "DEF"
     }
    ],
-   "trend": -2.1,
+   "trend": -1.2,
    "trend_label": "flat",
-   "sos_remaining": 106.03,
-   "power": 87.5,
-   "power_rank": 9,
+   "sos_remaining": 106.01,
+   "power": 87.7,
+   "power_rank": 8,
    "pf_rank": 9
+  },
+  {
+   "roster_id": 8,
+   "team": "ValKilmersComeback",
+   "manager": "Mockstar",
+   "is_mine": true,
+   "wins": 9,
+   "losses": 11,
+   "ties": 0,
+   "h2h": "6-4",
+   "median": "3-7",
+   "allplay": "47-63",
+   "allplay_pct": 0.427,
+   "scores": [
+    111.26,
+    138.87,
+    96.91,
+    98.12,
+    108.05,
+    99.9,
+    81.6,
+    81.06,
+    82.86,
+    98.04
+   ],
+   "avg": 99.67,
+   "last": 98.04,
+   "pf": 996.67,
+   "proj_totals": [
+    95.5,
+    101.61,
+    100.01,
+    100.98,
+    100.5,
+    98.31,
+    94.31,
+    95.46,
+    100.98,
+    104.67
+   ],
+   "vs_proj": 4.34,
+   "bench_left": [
+    24.2,
+    18.3,
+    8.9,
+    30.85,
+    12.5,
+    4.4,
+    9.6,
+    15.5,
+    7.7,
+    22.55
+   ],
+   "efficiency": 0.87,
+   "injured_starters": [
+    {
+     "name": "Jakobi Meyers",
+     "pos": "WR",
+     "status": "Questionable",
+     "body": "Appendix"
+    },
+    {
+     "name": "Woody Marks",
+     "pos": "RB",
+     "status": "Out",
+     "body": "Concussion"
+    }
+   ],
+   "byes_next": [
+    "Zach Charbonnet",
+    "SEA DEF"
+   ],
+   "proj_next": 66.11,
+   "future_opps": [
+    3,
+    1,
+    2,
+    11,
+    5,
+    9,
+    6,
+    12
+   ],
+   "faab_used": 117,
+   "starters_now": [
+    {
+     "name": "Josh Allen",
+     "pos": "QB"
+    },
+    {
+     "name": "Jonathan Taylor",
+     "pos": "RB"
+    },
+    {
+     "name": "Ollie Gordon II",
+     "pos": "RB"
+    },
+    {
+     "name": "Jakobi Meyers",
+     "pos": "WR"
+    },
+    {
+     "name": "DK Metcalf",
+     "pos": "WR"
+    },
+    {
+     "name": "Woody Marks",
+     "pos": "RB"
+    },
+    {
+     "name": "Zach Charbonnet",
+     "pos": "RB"
+    },
+    {
+     "name": "SEA DEF",
+     "pos": "DEF"
+    }
+   ],
+   "trend": -3.9,
+   "trend_label": "flat",
+   "sos_remaining": 105.16,
+   "power": 86.2,
+   "power_rank": 9,
+   "pf_rank": 8
   },
   {
    "roster_id": 5,
    "team": "Eazy E Squad",
    "manager": "espad",
    "is_mine": false,
-   "wins": 5,
-   "losses": 13,
+   "wins": 6,
+   "losses": 14,
    "ties": 0,
-   "h2h": "2-7",
-   "median": "3-6",
-   "allplay": "33-66",
-   "allplay_pct": 0.333,
+   "h2h": "3-7",
+   "median": "3-7",
+   "allplay": "38-72",
+   "allplay_pct": 0.345,
    "scores": [
     122.3,
     37.56,
@@ -1010,11 +1086,12 @@
     107.99,
     101.32,
     94.45,
-    55.78
+    55.78,
+    110.58
    ],
-   "avg": 86.02,
-   "last": 55.78,
-   "pf": 774.2,
+   "avg": 88.48,
+   "last": 110.58,
+   "pf": 884.78,
    "proj_totals": [
     108.72,
     107.0,
@@ -1024,9 +1101,10 @@
     83.43,
     96.26,
     103.9,
-    83.25
+    83.25,
+    98.03
    ],
-   "vs_proj": -103.7,
+   "vs_proj": -91.15,
    "bench_left": [
     33.8,
     14.95,
@@ -1036,23 +1114,17 @@
     19.95,
     35.7,
     4.25,
-    13.1
+    13.1,
+    1.1
    ],
-   "efficiency": 0.84,
-   "injured_starters": [
-    {
-     "name": "George Pickens",
-     "pos": "WR",
-     "status": "Questionable",
-     "body": "Hamstring"
-    }
-   ],
+   "efficiency": 0.85,
+   "injured_starters": [],
    "byes_next": [
-    "Saquon Barkley"
+    "KC Concepcion Jr.",
+    "CLE DEF"
    ],
-   "proj_next": 80.48,
+   "proj_next": 80.24,
    "future_opps": [
-    7,
     9,
     6,
     12,
@@ -1073,7 +1145,7 @@
      "pos": "RB"
     },
     {
-     "name": "Saquon Barkley",
+     "name": "Jaylen Warren",
      "pos": "RB"
     },
     {
@@ -1093,14 +1165,14 @@
      "pos": "WR"
     },
     {
-     "name": "ATL DEF",
+     "name": "CLE DEF",
      "pos": "DEF"
     }
    ],
-   "trend": -0.3,
+   "trend": 1.1,
    "trend_label": "flat",
-   "sos_remaining": 106.02,
-   "power": 83.8,
+   "sos_remaining": 105.77,
+   "power": 85.2,
    "power_rank": 10,
    "pf_rank": 10
   },
@@ -1110,12 +1182,12 @@
    "manager": "danglish9",
    "is_mine": false,
    "wins": 5,
-   "losses": 13,
+   "losses": 15,
    "ties": 0,
-   "h2h": "4-5",
-   "median": "1-8",
-   "allplay": "23-76",
-   "allplay_pct": 0.232,
+   "h2h": "4-6",
+   "median": "1-9",
+   "allplay": "27-83",
+   "allplay_pct": 0.245,
    "scores": [
     84.46,
     65.68,
@@ -1125,11 +1197,12 @@
     95.46,
     51.17,
     68.45,
-    79.8
+    79.8,
+    104.98
    ],
-   "avg": 81.32,
-   "last": 79.8,
-   "pf": 731.9,
+   "avg": 83.69,
+   "last": 104.98,
+   "pf": 836.88,
    "proj_totals": [
     100.04,
     98.72,
@@ -1139,9 +1212,10 @@
     98.95,
     79.15,
     76.64,
-    86.47
+    86.47,
+    91.51
    ],
-   "vs_proj": -110.87,
+   "vs_proj": -97.4,
    "bench_left": [
     11.7,
     8.1,
@@ -1151,18 +1225,21 @@
     11.7,
     2.25,
     61.3,
-    8.35
+    8.35,
+    4.0
    ],
-   "efficiency": 0.84,
-   "injured_starters": [],
-   "byes_next": [
-    "Kalif Raymond",
-    "J.K. Dobbins",
-    "TB DEF"
+   "efficiency": 0.85,
+   "injured_starters": [
+    {
+     "name": "DeVonta Smith",
+     "pos": "WR",
+     "status": "Questionable",
+     "body": "Hamstring"
+    }
    ],
-   "proj_next": 62.39,
+   "byes_next": [],
+   "proj_next": 80.31,
    "future_opps": [
-    3,
     1,
     2,
     11,
@@ -1179,7 +1256,7 @@
      "pos": "QB"
     },
     {
-     "name": "Bijan Robinson",
+     "name": "Emmett Johnson",
      "pos": "RB"
     },
     {
@@ -1187,7 +1264,7 @@
      "pos": "RB"
     },
     {
-     "name": "Kalif Raymond",
+     "name": "Keon Coleman",
      "pos": "WR"
     },
     {
@@ -1195,7 +1272,7 @@
      "pos": "WR"
     },
     {
-     "name": "Konata Mumpfield",
+     "name": "DeVonta Smith",
      "pos": "WR"
     },
     {
@@ -1203,14 +1280,14 @@
      "pos": "RB"
     },
     {
-     "name": "TB DEF",
+     "name": "KC DEF",
      "pos": "DEF"
     }
    ],
-   "trend": -2.6,
+   "trend": -0.6,
    "trend_label": "flat",
-   "sos_remaining": 105.83,
-   "power": 73.7,
+   "sos_remaining": 104.82,
+   "power": 82.3,
    "power_rank": 11,
    "pf_rank": 11
   },
@@ -1220,12 +1297,12 @@
    "manager": "cjgordon819",
    "is_mine": false,
    "wins": 6,
-   "losses": 12,
+   "losses": 14,
    "ties": 0,
-   "h2h": "4-5",
-   "median": "2-7",
-   "allplay": "29-70",
-   "allplay_pct": 0.293,
+   "h2h": "4-6",
+   "median": "2-8",
+   "allplay": "29-81",
+   "allplay_pct": 0.264,
    "scores": [
     59.72,
     57.72,
@@ -1235,11 +1312,12 @@
     83.15,
     84.04,
     129.96,
-    94.56
+    94.56,
+    52.32
    ],
-   "avg": 80.38,
-   "last": 94.56,
-   "pf": 723.46,
+   "avg": 77.58,
+   "last": 52.32,
+   "pf": 775.78,
    "proj_totals": [
     106.79,
     94.32,
@@ -1249,9 +1327,10 @@
     90.71,
     87.27,
     92.05,
-    84.94
+    84.94,
+    85.26
    ],
-   "vs_proj": -72.58,
+   "vs_proj": -105.52,
    "bench_left": [
     8.3,
     11.9,
@@ -1261,24 +1340,31 @@
     4.3,
     1.95,
     3.1,
-    13.8
+    13.8,
+    3.2
    ],
-   "efficiency": 0.88,
+   "efficiency": 0.89,
    "injured_starters": [
     {
-     "name": "Michael Wilson",
+     "name": "Drake Maye",
+     "pos": "QB",
+     "status": "Out",
+     "body": "Ankle"
+    },
+    {
+     "name": "A.J. Brown",
      "pos": "WR",
-     "status": "IR",
-     "body": "Neck"
+     "status": "Out",
+     "body": "Hamstring"
     }
    ],
    "byes_next": [
-    "Jonah Coleman",
-    "Rome Odunze"
+    "Drake Maye",
+    "A.J. Brown",
+    "Mack Hollins"
    ],
-   "proj_next": 60.19,
+   "proj_next": 38.9,
    "future_opps": [
-    6,
     12,
     4,
     8,
@@ -1299,11 +1385,11 @@
      "pos": "RB"
     },
     {
-     "name": "Jonah Coleman",
+     "name": "Justice Hill",
      "pos": "RB"
     },
     {
-     "name": "Adonai Mitchell",
+     "name": "A.J. Brown",
      "pos": "WR"
     },
     {
@@ -1311,11 +1397,11 @@
      "pos": "WR"
     },
     {
-     "name": "Rome Odunze",
+     "name": "Mack Hollins",
      "pos": "WR"
     },
     {
-     "name": "Michael Wilson",
+     "name": "Adonai Mitchell",
      "pos": "WR"
     },
     {
@@ -1323,86 +1409,110 @@
      "pos": "DEF"
     }
    ],
-   "trend": 7.0,
-   "trend_label": "rising",
-   "sos_remaining": 108.56,
-   "power": 72.3,
+   "trend": 3.5,
+   "trend_label": "flat",
+   "sos_remaining": 110.21,
+   "power": 62.1,
    "power_rank": 12,
    "pf_rank": 12
   }
  ],
  "signals": [
   {
+   "team": "ValKilmersComeback",
+   "kind": "injured_starters",
+   "severity": "medium",
+   "text": "ValKilmersComeback (you) has 2 of 8 starters carrying injury tags: Jakobi Meyers Questionable (Appendix), Woody Marks Out (Concussion)."
+  },
+  {
+   "team": "ValKilmersComeback",
+   "kind": "bye_crunch",
+   "severity": "medium",
+   "text": "ValKilmersComeback (you) has 2 current starters on bye in week 11: Zach Charbonnet, SEA DEF."
+  },
+  {
+   "team": "Amateur Hour",
+   "kind": "injured_starters",
+   "severity": "medium",
+   "text": "Amateur Hour has 2 of 8 starters carrying injury tags: Drake Maye Out (Ankle), A.J. Brown Out (Hamstring)."
+  },
+  {
    "team": "Amateur Hour",
    "kind": "bye_crunch",
    "severity": "medium",
-   "text": "Amateur Hour has 2 current starters on bye in week 10: Jonah Coleman, Rome Odunze."
+   "text": "Amateur Hour has 3 current starters on bye in week 11: Drake Maye, A.J. Brown, Mack Hollins."
   },
   {
-   "team": "City of Champyinz",
+   "team": "Derrelick my Balls",
+   "kind": "injured_starters",
+   "severity": "medium",
+   "text": "Derrelick my Balls has 2 of 8 starters carrying injury tags: Caleb Douglas Questionable (Shoulder), Brock Bowers Questionable (Ankle)."
+  },
+  {
+   "team": "Eazy E Squad",
    "kind": "bye_crunch",
    "severity": "medium",
-   "text": "City of Champyinz has 3 current starters on bye in week 10: Kalif Raymond, J.K. Dobbins, TB DEF."
+   "text": "Eazy E Squad has 2 current starters on bye in week 11: KC Concepcion Jr., CLE DEF."
+  },
+  {
+   "team": "ScampDaddy",
+   "kind": "bye_crunch",
+   "severity": "medium",
+   "text": "ScampDaddy has 2 current starters on bye in week 11: Drake London, GB DEF."
+  },
+  {
+   "team": "tacocats",
+   "kind": "injured_starters",
+   "severity": "medium",
+   "text": "tacocats has 3 of 8 starters carrying injury tags: Jordyn Tyson Questionable (Chest), Carnell Tate Questionable (Shoulder), Dalton Kincaid Questionable (Thumb)."
+  },
+  {
+   "team": "Baker\u2019s Dozen",
+   "kind": "injured_starter",
+   "severity": "low",
+   "text": "Baker\u2019s Dozen (#2 scorer) has Kenneth Walker III listed Questionable."
   },
   {
    "team": "Baker\u2019s Dozen",
    "kind": "lucky",
    "severity": "low",
-   "text": "Baker\u2019s Dozen is 14-4 but would be about 12.7-5.3 against the whole league each week (all-play 70-29). Record flatters the roster."
+   "text": "Baker\u2019s Dozen is 15-5 but would be about 13.8-6.2 against the whole league each week (all-play 76-34). Record flatters the roster."
+  },
+  {
+   "team": "Baker\u2019s Dozen",
+   "kind": "bench_points",
+   "severity": "low",
+   "text": "Baker\u2019s Dozen left 33 points on the bench in week 10 (lineup efficiency 92%)."
+  },
+  {
+   "team": "Be Safe, Get Jaxcinated",
+   "kind": "injured_starter",
+   "severity": "low",
+   "text": "Be Safe, Get Jaxcinated (#1 scorer) has Bhayshul Tuten listed Questionable."
+  },
+  {
+   "team": "Be Safe, Get Jaxcinated",
+   "kind": "hot",
+   "severity": "low",
+   "text": "Be Safe, Get Jaxcinated scored 142.22 last week, 19 above its average of 122.77."
   },
   {
    "team": "Be Safe, Get Jaxcinated",
    "kind": "unlucky",
    "severity": "low",
-   "text": "Be Safe, Get Jaxcinated is 11-7 but would be about 13.3-4.7 against the whole league (all-play 73-26). Better than the record."
+   "text": "Be Safe, Get Jaxcinated is 13-7 but would be about 14.9-5.1 against the whole league (all-play 82-28). Better than the record."
   },
   {
-   "team": "Derrelick my Balls",
-   "kind": "bench_points",
+   "team": "City of Champyinz",
+   "kind": "hot",
    "severity": "low",
-   "text": "Derrelick my Balls left 41 points on the bench in week 9 (lineup efficiency 85%)."
-  },
-  {
-   "team": "Eazy E Squad",
-   "kind": "cold",
-   "severity": "low",
-   "text": "Eazy E Squad scored 55.78 last week, 30 below its average of 86.02."
+   "text": "City of Champyinz scored 104.98 last week, 21 above its average of 83.69."
   },
   {
    "team": "Girthenheimer",
    "kind": "unlucky",
    "severity": "low",
-   "text": "Girthenheimer is 4-14 but would be about 5.8-12.2 against the whole league (all-play 32-67). Better than the record."
-  },
-  {
-   "team": "RafiBomb",
-   "kind": "lucky",
-   "severity": "low",
-   "text": "RafiBomb is 13-5 but would be about 11.6-6.4 against the whole league each week (all-play 64-35). Record flatters the roster."
-  },
-  {
-   "team": "ScampDaddy",
-   "kind": "lucky",
-   "severity": "low",
-   "text": "ScampDaddy is 11-7 but would be about 9.8-8.2 against the whole league each week (all-play 54-45). Record flatters the roster."
-  },
-  {
-   "team": "Amateur Hour",
-   "kind": "trade_fit",
-   "severity": "info",
-   "text": "Amateur Hour starts Michael Wilson (WR) at a projected 0.0; you carry 6 WRs. Possible trade partner (deadline week 12)."
-  },
-  {
-   "team": "Baker\u2019s Dozen",
-   "kind": "trade_fit",
-   "severity": "info",
-   "text": "Baker\u2019s Dozen starts Jordan Addison (WR) at a projected 0.0; you carry 6 WRs. Possible trade partner (deadline week 12)."
-  },
-  {
-   "team": "Cheeky Nando\u2019s",
-   "kind": "trade_fit",
-   "severity": "info",
-   "text": "Cheeky Nando\u2019s starts Devaughn Vele (WR) at a projected 5.9; you carry 6 WRs. Possible trade partner (deadline week 12)."
+   "text": "Girthenheimer is 4-16 but would be about 6.4-13.6 against the whole league (all-play 35-75). Better than the record."
   }
  ],
  "notes": [
@@ -1410,7 +1520,7 @@
  ],
  "projection_source": {
   "kind": "pre-kickoff snapshot",
-  "taken_at_utc": "2026-11-17T00:21:13Z",
-  "label": "mon_pm"
+  "taken_at_utc": "2026-11-19T00:01:03Z",
+  "label": "wed_pm"
  }
 }

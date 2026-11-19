@@ -1,6 +1,263 @@
 {
  "claims": [
   {
+   "run": 29910671,
+   "processed_utc": "2026-11-14T07:11:00Z",
+   "processed": "Sat Nov 14 1:11 AM",
+   "player_id": "KC",
+   "name": "KC DEF",
+   "pos": "DEF",
+   "winner_rid": 4,
+   "winner": "City of Champyinz",
+   "winning_bid": 0,
+   "dropped": [
+    "TB DEF"
+   ],
+   "losing": [],
+   "n_bidders": 1
+  },
+  {
+   "run": 29907841,
+   "processed_utc": "2026-11-12T08:01:00Z",
+   "processed": "Thu Nov 12 2:01 AM",
+   "player_id": "12491",
+   "name": "Corey Kiner",
+   "pos": "RB",
+   "winner_rid": 7,
+   "winner": "Cheeky Nando\u2019s",
+   "winning_bid": 126,
+   "dropped": [],
+   "losing": [
+    {
+     "roster_id": 8,
+     "team": "ValKilmersComeback",
+     "bid": 53,
+     "reason": "This player was claimed by another owner."
+    },
+    {
+     "roster_id": 12,
+     "team": "Baker\u2019s Dozen",
+     "bid": 39,
+     "reason": "This player was claimed by another owner."
+    },
+    {
+     "roster_id": 11,
+     "team": "RafiBomb",
+     "bid": 25,
+     "reason": "This player was claimed by another owner."
+    },
+    {
+     "roster_id": 9,
+     "team": "Girthenheimer",
+     "bid": 5,
+     "reason": "This player was claimed by another owner."
+    }
+   ],
+   "n_bidders": 5
+  },
+  {
+   "run": 29907841,
+   "processed_utc": "2026-11-12T08:01:00Z",
+   "processed": "Thu Nov 12 2:01 AM",
+   "player_id": "11579",
+   "name": "Audric Estime",
+   "pos": "RB",
+   "winner_rid": 7,
+   "winner": "Cheeky Nando\u2019s",
+   "winning_bid": 54,
+   "dropped": [],
+   "losing": [
+    {
+     "roster_id": 9,
+     "team": "Girthenheimer",
+     "bid": 20,
+     "reason": "This player was claimed by another owner."
+    },
+    {
+     "roster_id": 2,
+     "team": "Amateur Hour",
+     "bid": 7,
+     "reason": "This player was claimed by another owner."
+    }
+   ],
+   "n_bidders": 3
+  },
+  {
+   "run": 29907841,
+   "processed_utc": "2026-11-12T08:01:00Z",
+   "processed": "Thu Nov 12 2:01 AM",
+   "player_id": "GB",
+   "name": "GB DEF",
+   "pos": "DEF",
+   "winner_rid": 6,
+   "winner": "ScampDaddy",
+   "winning_bid": 11,
+   "dropped": [
+    "Tyreek Hill"
+   ],
+   "losing": [
+    {
+     "roster_id": 1,
+     "team": "tacocats",
+     "bid": 0,
+     "reason": "This player was claimed by another owner."
+    }
+   ],
+   "n_bidders": 2
+  },
+  {
+   "run": 29907841,
+   "processed_utc": "2026-11-12T08:01:00Z",
+   "processed": "Thu Nov 12 2:01 AM",
+   "player_id": "7562",
+   "name": "Tutu Atwell",
+   "pos": "WR",
+   "winner_rid": 12,
+   "winner": "Baker\u2019s Dozen",
+   "winning_bid": 37,
+   "dropped": [
+    "Rashid Shaheed"
+   ],
+   "losing": [],
+   "n_bidders": 1
+  },
+  {
+   "run": 29907841,
+   "processed_utc": "2026-11-12T08:01:00Z",
+   "processed": "Thu Nov 12 2:01 AM",
+   "player_id": "12504",
+   "name": "Kaleb Johnson",
+   "pos": "RB",
+   "winner_rid": 9,
+   "winner": "Girthenheimer",
+   "winning_bid": 30,
+   "dropped": [
+    "Sione Vaki"
+   ],
+   "losing": [],
+   "n_bidders": 1
+  },
+  {
+   "run": 29907841,
+   "processed_utc": "2026-11-12T08:01:00Z",
+   "processed": "Thu Nov 12 2:01 AM",
+   "player_id": "8126",
+   "name": "Wan'Dale Robinson",
+   "pos": "WR",
+   "winner_rid": 8,
+   "winner": "ValKilmersComeback",
+   "winning_bid": 11,
+   "dropped": [
+    "T.J. Hockenson"
+   ],
+   "losing": [],
+   "n_bidders": 1
+  },
+  {
+   "run": 29907841,
+   "processed_utc": "2026-11-12T08:01:00Z",
+   "processed": "Thu Nov 12 2:01 AM",
+   "player_id": "96",
+   "name": "Aaron Rodgers",
+   "pos": "QB",
+   "winner_rid": 3,
+   "winner": "Be Safe, Get Jaxcinated",
+   "winning_bid": 5,
+   "dropped": [
+    "Seth McGowan"
+   ],
+   "losing": [],
+   "n_bidders": 1
+  },
+  {
+   "run": 29907841,
+   "processed_utc": "2026-11-12T08:01:00Z",
+   "processed": "Thu Nov 12 2:01 AM",
+   "player_id": "IND",
+   "name": "IND DEF",
+   "pos": "DEF",
+   "winner_rid": 12,
+   "winner": "Baker\u2019s Dozen",
+   "winning_bid": 1,
+   "dropped": [
+    "NO DEF"
+   ],
+   "losing": [],
+   "n_bidders": 1
+  },
+  {
+   "run": 29907841,
+   "processed_utc": "2026-11-12T08:01:00Z",
+   "processed": "Thu Nov 12 2:01 AM",
+   "player_id": "BUF",
+   "name": "BUF DEF",
+   "pos": "DEF",
+   "winner_rid": 1,
+   "winner": "tacocats",
+   "winning_bid": 0,
+   "dropped": [
+    "KC DEF"
+   ],
+   "losing": [],
+   "n_bidders": 1
+  },
+  {
+   "run": 29907841,
+   "processed_utc": "2026-11-12T08:01:00Z",
+   "processed": "Thu Nov 12 2:01 AM",
+   "player_id": "5995",
+   "name": "Justice Hill",
+   "pos": "RB",
+   "winner_rid": null,
+   "winner": null,
+   "winning_bid": null,
+   "dropped": [],
+   "losing": [
+    {
+     "roster_id": 7,
+     "team": "Cheeky Nando\u2019s",
+     "bid": 13,
+     "reason": "Unfortunately, your roster will have too many players after this transaction."
+    }
+   ],
+   "n_bidders": 1
+  },
+  {
+   "run": 29907841,
+   "processed_utc": "2026-11-12T08:01:00Z",
+   "processed": "Thu Nov 12 2:01 AM",
+   "player_id": "BAL",
+   "name": "BAL DEF",
+   "pos": "DEF",
+   "winner_rid": null,
+   "winner": null,
+   "winning_bid": null,
+   "dropped": [],
+   "losing": [
+    {
+     "roster_id": 1,
+     "team": "tacocats",
+     "bid": 0,
+     "reason": "Unfortunately, your roster will have too many players after this transaction."
+    }
+   ],
+   "n_bidders": 1
+  },
+  {
+   "run": 29907841,
+   "processed_utc": "2026-11-12T08:01:00Z",
+   "processed": "Thu Nov 12 2:01 AM",
+   "player_id": "12492",
+   "name": "Pat Bryant",
+   "pos": "WR",
+   "winner_rid": 11,
+   "winner": "RafiBomb",
+   "winning_bid": 0,
+   "dropped": [],
+   "losing": [],
+   "n_bidders": 1
+  },
+  {
    "run": 29900591,
    "processed_utc": "2026-11-07T07:11:00Z",
    "processed": "Sat Nov 7 1:11 AM",
@@ -2103,25 +2360,25 @@
  "price_guide": {
   "by_pos": {
    "QB": {
-    "n_wins": 12,
-    "median_win": 8.0,
+    "n_wins": 13,
+    "median_win": 8,
     "max_win": 65,
     "n_contested": 5,
     "median_contested": 8,
     "max_contested": 65
    },
    "RB": {
-    "n_wins": 19,
-    "median_win": 15,
-    "max_win": 58,
-    "n_contested": 12,
-    "median_contested": 19.5,
-    "max_contested": 58
+    "n_wins": 22,
+    "median_win": 16.5,
+    "max_win": 126,
+    "n_contested": 14,
+    "median_contested": 25.0,
+    "max_contested": 126
    },
    "WR": {
-    "n_wins": 18,
-    "median_win": 9.5,
-    "max_win": 31,
+    "n_wins": 21,
+    "median_win": 11,
+    "max_win": 37,
     "n_contested": 10,
     "median_contested": 20.0,
     "max_contested": 31
@@ -2135,15 +2392,23 @@
     "max_contested": 31
    },
    "DEF": {
-    "n_wins": 18,
-    "median_win": 5.0,
+    "n_wins": 22,
+    "median_win": 4.0,
     "max_win": 31,
-    "n_contested": 7,
-    "median_contested": 6,
+    "n_contested": 8,
+    "median_contested": 6.0,
     "max_contested": 13
    }
   },
   "most_contested": [
+   {
+    "processed": "Thu Nov 12 2:01 AM",
+    "name": "Corey Kiner",
+    "pos": "RB",
+    "winner": "Cheeky Nando\u2019s",
+    "winning_bid": 126,
+    "n_bidders": 5
+   },
    {
     "processed": "Thu Nov 5 2:01 AM",
     "name": "Dylan Sampson",
@@ -2233,7 +2498,7 @@
     "n_bidders": 5
    }
   ],
-  "most_contested_median": 17
+  "most_contested_median": 18.5
  },
  "teams": [
   {
@@ -2258,14 +2523,35 @@
    ]
   },
   {
+   "roster_id": 7,
+   "team": "Cheeky Nando\u2019s",
+   "spent": 199,
+   "spent_in_log": 199,
+   "log_matches": true,
+   "remaining": 1,
+   "n_claims": 13,
+   "n_wins": 5,
+   "biggest_win": {
+    "name": "Corey Kiner",
+    "bid": 126
+   },
+   "usual_bid": 8,
+   "usual_how": "bid $8 2 times",
+   "repeated": [
+    8,
+    6,
+    1
+   ]
+  },
+  {
    "roster_id": 1,
    "team": "tacocats",
    "spent": 168,
    "spent_in_log": 168,
    "log_matches": true,
    "remaining": 32,
-   "n_claims": 40,
-   "n_wins": 16,
+   "n_claims": 43,
+   "n_wins": 17,
    "biggest_win": {
     "name": "MarShawn Lloyd",
     "bid": 58
@@ -2282,19 +2568,20 @@
   {
    "roster_id": 9,
    "team": "Girthenheimer",
-   "spent": 135,
-   "spent_in_log": 135,
+   "spent": 165,
+   "spent_in_log": 165,
    "log_matches": true,
-   "remaining": 65,
-   "n_claims": 33,
-   "n_wins": 15,
+   "remaining": 35,
+   "n_claims": 36,
+   "n_wins": 16,
    "biggest_win": {
-    "name": "Sione Vaki",
+    "name": "Kaleb Johnson",
     "bid": 30
    },
    "usual_bid": 3,
    "usual_how": "bid $3 6 times",
    "repeated": [
+    30,
     18,
     15,
     10,
@@ -2304,13 +2591,33 @@
    ]
   },
   {
+   "roster_id": 8,
+   "team": "ValKilmersComeback",
+   "spent": 117,
+   "spent_in_log": 117,
+   "log_matches": true,
+   "remaining": 83,
+   "n_claims": 13,
+   "n_wins": 7,
+   "biggest_win": {
+    "name": "Ollie Gordon II",
+    "bid": 47
+   },
+   "usual_bid": 17,
+   "usual_how": "bid $17 3 times",
+   "repeated": [
+    17,
+    11
+   ]
+  },
+  {
    "roster_id": 2,
    "team": "Amateur Hour",
    "spent": 109,
    "spent_in_log": 109,
    "log_matches": true,
    "remaining": 91,
-   "n_claims": 9,
+   "n_claims": 10,
    "n_wins": 5,
    "biggest_win": {
     "name": "Jaylen Wright",
@@ -2330,8 +2637,8 @@
    "spent_in_log": 109,
    "log_matches": true,
    "remaining": 91,
-   "n_claims": 8,
-   "n_wins": 6,
+   "n_claims": 9,
+   "n_wins": 7,
    "biggest_win": {
     "name": "Tyler Shough",
     "bid": 65
@@ -2343,39 +2650,20 @@
    ]
   },
   {
-   "roster_id": 8,
-   "team": "ValKilmersComeback",
-   "spent": 106,
-   "spent_in_log": 106,
-   "log_matches": true,
-   "remaining": 94,
-   "n_claims": 11,
-   "n_wins": 6,
-   "biggest_win": {
-    "name": "Ollie Gordon II",
-    "bid": 47
-   },
-   "usual_bid": 17,
-   "usual_how": "bid $17 3 times",
-   "repeated": [
-    17
-   ]
-  },
-  {
    "roster_id": 6,
    "team": "ScampDaddy",
-   "spent": 81,
-   "spent_in_log": 81,
+   "spent": 92,
+   "spent_in_log": 92,
    "log_matches": true,
-   "remaining": 119,
-   "n_claims": 14,
-   "n_wins": 7,
+   "remaining": 108,
+   "n_claims": 15,
+   "n_wins": 8,
    "biggest_win": {
     "name": "J.J. McCarthy",
     "bid": 26
    },
-   "usual_bid": 6,
-   "usual_how": "bid $6 3 times",
+   "usual_bid": 11,
+   "usual_how": "bid $11 3 times",
    "repeated": [
     26,
     16,
@@ -2386,12 +2674,12 @@
   {
    "roster_id": 3,
    "team": "Be Safe, Get Jaxcinated",
-   "spent": 75,
-   "spent_in_log": 75,
+   "spent": 80,
+   "spent_in_log": 80,
    "log_matches": true,
-   "remaining": 125,
-   "n_claims": 15,
-   "n_wins": 4,
+   "remaining": 120,
+   "n_claims": 16,
+   "n_wins": 5,
    "biggest_win": {
     "name": "Adonai Mitchell",
     "bid": 26
@@ -2399,46 +2687,28 @@
    "usual_bid": 10,
    "usual_how": "bid $10 2 times",
    "repeated": [
-    10
-   ]
-  },
-  {
-   "roster_id": 7,
-   "team": "Cheeky Nando\u2019s",
-   "spent": 19,
-   "spent_in_log": 19,
-   "log_matches": true,
-   "remaining": 181,
-   "n_claims": 10,
-   "n_wins": 3,
-   "biggest_win": {
-    "name": "Juwan Johnson",
-    "bid": 8
-   },
-   "usual_bid": 8,
-   "usual_how": "bid $8 2 times",
-   "repeated": [
-    8,
-    6,
-    1
+    10,
+    5
    ]
   },
   {
    "roster_id": 12,
    "team": "Baker\u2019s Dozen",
-   "spent": 11,
-   "spent_in_log": 11,
+   "spent": 49,
+   "spent_in_log": 49,
    "log_matches": true,
-   "remaining": 189,
-   "n_claims": 3,
-   "n_wins": 1,
+   "remaining": 151,
+   "n_claims": 6,
+   "n_wins": 3,
    "biggest_win": {
-    "name": "Darius Cooper",
-    "bid": 11
+    "name": "Tutu Atwell",
+    "bid": 37
    },
-   "usual_bid": 11,
-   "usual_how": "median winning bid",
-   "repeated": []
+   "usual_bid": 1,
+   "usual_how": "bid $1 2 times",
+   "repeated": [
+    1
+   ]
   },
   {
    "roster_id": 11,
@@ -2447,13 +2717,13 @@
    "spent_in_log": 10,
    "log_matches": true,
    "remaining": 190,
-   "n_claims": 10,
-   "n_wins": 6,
+   "n_claims": 12,
+   "n_wins": 7,
    "biggest_win": {
     "name": "Joe Mixon",
     "bid": 10
    },
-   "usual_bid": 0.0,
+   "usual_bid": 0,
    "usual_how": "median winning bid",
    "repeated": []
   },
@@ -2473,6 +2743,30 @@
   }
  ],
  "mine": [
+  {
+   "processed": "Thu Nov 12 2:01 AM",
+   "run": 29907841,
+   "name": "Corey Kiner",
+   "pos": "RB",
+   "result": "lost",
+   "my_bid": 53,
+   "winning_bid": 126,
+   "winner": "Cheeky Nando\u2019s",
+   "n_bidders": 5,
+   "reason": "This player was claimed by another owner."
+  },
+  {
+   "processed": "Thu Nov 12 2:01 AM",
+   "run": 29907841,
+   "name": "Wan'Dale Robinson",
+   "pos": "WR",
+   "result": "won",
+   "my_bid": 11,
+   "winning_bid": 11,
+   "winner": "ValKilmersComeback",
+   "n_bidders": 1,
+   "next_best": null
+  },
   {
    "processed": "Thu Oct 29 2:01 AM",
    "run": 29887621,
@@ -2595,24 +2889,36 @@
   }
  ],
  "latest": {
-  "run": 29900591,
-  "processed": "Sat Nov 7 1:11 AM",
-  "processed_utc": "2026-11-07T07:11:00Z",
+  "run": 29910671,
+  "processed": "Sat Nov 14 1:11 AM",
+  "processed_utc": "2026-11-14T07:11:00Z",
   "n_claims_league": 1,
   "bids": []
  },
  "latest_mine": {
-  "run": 29887621,
-  "processed": "Thu Oct 29 2:01 AM",
+  "run": 29907841,
+  "processed": "Thu Nov 12 2:01 AM",
   "bids": [
    {
-    "processed": "Thu Oct 29 2:01 AM",
-    "run": 29887621,
-    "name": "T.J. Hockenson",
-    "pos": "TE",
+    "processed": "Thu Nov 12 2:01 AM",
+    "run": 29907841,
+    "name": "Corey Kiner",
+    "pos": "RB",
+    "result": "lost",
+    "my_bid": 53,
+    "winning_bid": 126,
+    "winner": "Cheeky Nando\u2019s",
+    "n_bidders": 5,
+    "reason": "This player was claimed by another owner."
+   },
+   {
+    "processed": "Thu Nov 12 2:01 AM",
+    "run": 29907841,
+    "name": "Wan'Dale Robinson",
+    "pos": "WR",
     "result": "won",
-    "my_bid": 9,
-    "winning_bid": 9,
+    "my_bid": 11,
+    "winning_bid": 11,
     "winner": "ValKilmersComeback",
     "n_bidders": 1,
     "next_best": null
@@ -2620,8 +2926,8 @@
   ]
  },
  "budget_total": 200,
- "n_runs": 15,
- "ids_total": 146,
+ "n_runs": 17,
+ "ids_total": 152,
  "ids_unresolved": [],
  "note": "Losing bids come from Sleeper's failed-claim records. A failed claim above the winning bid failed for another reason (roster limit, budget, an earlier claim), so it is not read as an outbid. Failure reasons are only recorded from October 2026 on."
 }
