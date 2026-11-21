@@ -40,10 +40,9 @@
      "roster_id": 2,
      "team": "Amateur Hour",
      "remaining": 91,
-     "score": 5.5,
+     "score": 4.5,
      "why": [
       "starter Drake Maye Out",
-      "just dropped Jacoby Brissett",
       "bye next week for Drake Maye",
       "only 0 healthy QBs",
       "has bid on a QB before"
@@ -119,25 +118,6 @@
    "why": "Rest-of-season value about 16.1 a week (model+season; next week 13.05). He would not start over anyone you have, so the gain is depth only: +2.3 a week (a quarter of his edge over Zach Charbonnet, or just the bye week for a second QB).",
    "threats": [
     {
-     "roster_id": 2,
-     "team": "Amateur Hour",
-     "remaining": 91,
-     "score": 5.5,
-     "why": [
-      "starter Drake Maye Out",
-      "just dropped Jacoby Brissett",
-      "bye next week for Drake Maye",
-      "only 0 healthy QBs",
-      "has bid on a QB before"
-     ],
-     "usual_bid": 3,
-     "repeated": [
-      7,
-      3
-     ],
-     "pos_max": 7
-    },
-    {
      "roster_id": 3,
      "team": "Be Safe, Get Jaxcinated",
      "remaining": 120,
@@ -152,6 +132,24 @@
       5
      ],
      "pos_max": 25
+    },
+    {
+     "roster_id": 2,
+     "team": "Amateur Hour",
+     "remaining": 91,
+     "score": 4.5,
+     "why": [
+      "starter Drake Maye Out",
+      "bye next week for Drake Maye",
+      "only 0 healthy QBs",
+      "has bid on a QB before"
+     ],
+     "usual_bid": 3,
+     "repeated": [
+      7,
+      3
+     ],
+     "pos_max": 7
     },
     {
      "roster_id": 1,
@@ -220,10 +218,9 @@
      "roster_id": 2,
      "team": "Amateur Hour",
      "remaining": 91,
-     "score": 5.5,
+     "score": 4.5,
      "why": [
       "starter Drake Maye Out",
-      "just dropped Jacoby Brissett",
       "bye next week for Drake Maye",
       "only 0 healthy QBs",
       "has bid on a QB before"
@@ -302,10 +299,9 @@
      "roster_id": 2,
      "team": "Amateur Hour",
      "remaining": 91,
-     "score": 5.5,
+     "score": 4.5,
      "why": [
       "starter Drake Maye Out",
-      "just dropped Jacoby Brissett",
       "bye next week for Drake Maye",
       "only 0 healthy QBs",
       "has bid on a QB before"
@@ -384,10 +380,9 @@
      "roster_id": 2,
      "team": "Amateur Hour",
      "remaining": 91,
-     "score": 5.5,
+     "score": 4.5,
      "why": [
       "starter Drake Maye Out",
-      "just dropped Jacoby Brissett",
       "bye next week for Drake Maye",
       "only 0 healthy QBs",
       "has bid on a QB before"
@@ -466,10 +461,9 @@
      "roster_id": 2,
      "team": "Amateur Hour",
      "remaining": 91,
-     "score": 5.5,
+     "score": 4.5,
      "why": [
       "starter Drake Maye Out",
-      "just dropped Jacoby Brissett",
       "bye next week for Drake Maye",
       "only 0 healthy QBs",
       "has bid on a QB before"
@@ -569,10 +563,9 @@
      "roster_id": 2,
      "team": "Amateur Hour",
      "remaining": 91,
-     "score": 5.5,
+     "score": 4.5,
      "why": [
       "starter Drake Maye Out",
-      "just dropped Jacoby Brissett",
       "bye next week for Drake Maye",
       "only 0 healthy QBs",
       "has bid on a QB before"
@@ -651,10 +644,9 @@
      "roster_id": 2,
      "team": "Amateur Hour",
      "remaining": 91,
-     "score": 5.5,
+     "score": 4.5,
      "why": [
       "starter Drake Maye Out",
-      "just dropped Jacoby Brissett",
       "bye next week for Drake Maye",
       "only 0 healthy QBs",
       "has bid on a QB before"
