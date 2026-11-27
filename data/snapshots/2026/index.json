@@ -971,6 +971,18 @@
    "n_players_pre_kickoff": 3144,
    "nfl_state_week": 11,
    "path": "data/snapshots/2026/week11/snap_2026-11-19T0001Z.json"
+  },
+  {
+   "season": "2026",
+   "week": 12,
+   "taken_at_utc": "2026-11-27T00:42:50Z",
+   "taken_at_central": "2026-11-26T18:42:50-06:00",
+   "label": "thu_pm",
+   "n_players": 3150,
+   "n_teams_started": 6,
+   "n_players_pre_kickoff": 2987,
+   "nfl_state_week": 12,
+   "path": "data/snapshots/2026/week12/snap_2026-11-27T0042Z.json"
   }
  ]
 }
